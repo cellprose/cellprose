@@ -21,7 +21,7 @@ Issues = "https://github.com/Utkarsh-Gaikwad/cellprose/issues"
 [project.optional-dependencies]
 mcp = ["mcp>=1.2"]
 dev = ["pytest>=8", "mcp>=1.2", "tiktoken"]
-bench = ["anthropic>=1.12", "openai>=2", "tiktoken", "pandas>=2", "markitdown==0.1.7"]
+bench = ["anthropic>=1.12", "openai>=2", "tiktoken", "pandas>=2", "markitdown==0.1.9"]
 stats = ["tiktoken"]
 
 [project.scripts]
