@@ -1,0 +1,135 @@
+---
+sheetmark: 0.1
+profile: full
+sheets: [Products, Orders, Summary]
+not_preserved: [styles]
+---
+
+# Sheet: Products
+
+## Range A1:E41
+
+| # | A | B | C | D | E |
+|---|---|---|---|---|---|
+| 1 | SKU | Name | Category | Unit price | Unit cost |
+| 2 | P101 | Adapter 1 | Hardware | 419.39 | 197.2 |
+| 3 | P102 | Router 2 | Software | 171.6 | 86.19 |
+| 4 | P103 | Mount 3 | Services | 420.03 | 162.29 |
+| 5 | P104 | Mount 4 | Accessories | 501.07 | 333.23 |
+| 6 | P105 | Cable 5 | Hardware | 656.73 | 437.75 |
+| 7 | P106 | Camera 6 | Software | 409.56 | 172.31 |
+| 8 | P107 | Switch 7 | Services | 218.02 | 89.3 |
+| 9 | P108 | Mount 8 | Accessories | 785.19 | 297.19 |
+| 10 | P109 | Switch 9 | Hardware | 621.15 | 474.27 |
+| 11 | P110 | License 10 | Software | 188.44 | 127.49 |
+| 12 | P111 | Switch 11 | Services | 382.47 | 266.83 |
+| 13 | P112 | Camera 12 | Accessories | 820.68 | 391.08 |
+| 14 | P113 | License 13 | Hardware | 729.51 | 488.01 |
+| 15 | P114 | Camera 14 | Software | 9.72 | 3.64 |
+| 16 | P115 | Dock 15 | Services | 344.04 | 141.96 |
+| 17 | P116 | Switch 16 | Accessories | 216.88 | 169.99 |
+| 18 | P117 | Mount 17 | Hardware | 8.47 | 3.72 |
+| 19 | P118 | Adapter 18 | Software | 767.72 | 271.55 |
+| 20 | P119 | Hub 19 | Services | 79.74 | 60.84 |
+| 21 | P120 | Mount 20 | Accessories | 453.22 | 259.94 |
+| 22 | P121 | Camera 21 | Hardware | 829.23 | 315.91 |
+| 23 | P122 | Switch 22 | Software | 176.99 | 117.77 |
+| 24 | P123 | Mount 23 | Services | 135.09 | 91.03 |
+| 25 | P124 | Support plan 24 | Accessories | 41.87 | 25.11 |
+| 26 | P125 | Cable 25 | Hardware | 547.71 | 375.36 |
+| 27 | P126 | Mount 26 | Software | 664.51 | 531 |
+| 28 | P127 | Camera 27 | Services | 113.6 | 88.37 |
+| 29 | P128 | Mount 28 | Accessories | 216.92 | 125.21 |
+| 30 | P129 | Hub 29 | Hardware | 663.72 | 408.6 |
+| 31 | P130 | Switch 30 | Software | 698.29 | 516.96 |
+| 32 | P131 | Mount 31 | Services | 103.42 | 53.21 |
+| 33 | P132 | License 32 | Accessories | 192.98 | 153.17 |
+| 34 | P133 | Router 33 | Hardware | 519.12 | 270.21 |
+| 35 | P134 | Router 34 | Software | 548.93 | 299.23 |
+| 36 | P135 | Dock 35 | Services | 196.02 | 92.39 |
+| 37 | P136 | Support plan 36 | Accessories | 734.16 | 464.93 |
+| 38 | P137 | Router 37 | Hardware | 97.25 | 35.15 |
+| 39 | P138 | Camera 38 | Software | 703.75 | 403.81 |
+| 40 | P139 | License 39 | Services | 639.96 | 386.99 |
+| 41 | P140 | License 40 | Accessories | 64.32 | 25.28 |
+
+# Sheet: Orders
+
+## Range A1:H61
+
+| # | A | B | C | D | E | F | G | H |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Order | SKU | Qty | Unit price | Revenue | Cost | Margin | Category |
+| 2 | ORD-2001 | P126 | 17 | =VLOOKUP(B2,Products!$A$2:$E$41,4,FALSE()) → 664.51 | =C2*D2 → 11296.67 | =C2*VLOOKUP(B2,Products!$A$2:$E$41,5,FALSE()) → 9027 | =E2-F2 → 2269.67 | =VLOOKUP(B2,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 3 | ORD-2002 | P124 | 18 | =VLOOKUP(B3,Products!$A$2:$E$41,4,FALSE()) → 41.87 | =C3*D3 → 753.66 | =C3*VLOOKUP(B3,Products!$A$2:$E$41,5,FALSE()) → 451.98 | =E3-F3 → 301.68 | =VLOOKUP(B3,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 4 | ORD-2003 | P124 | 5 | =VLOOKUP(B4,Products!$A$2:$E$41,4,FALSE()) → 41.87 | =C4*D4 → 209.35 | =C4*VLOOKUP(B4,Products!$A$2:$E$41,5,FALSE()) → 125.55 | =E4-F4 → 83.8 | =VLOOKUP(B4,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 5 | ORD-2004 | P119 | 6 | =VLOOKUP(B5,Products!$A$2:$E$41,4,FALSE()) → 79.74 | =C5*D5 → 478.44 | =C5*VLOOKUP(B5,Products!$A$2:$E$41,5,FALSE()) → 365.04 | =E5-F5 → 113.4 | =VLOOKUP(B5,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 6 | ORD-2005 | P117 | 1 | =VLOOKUP(B6,Products!$A$2:$E$41,4,FALSE()) → 8.47 | =C6*D6 → 8.47 | =C6*VLOOKUP(B6,Products!$A$2:$E$41,5,FALSE()) → 3.72 | =E6-F6 → 4.75 | =VLOOKUP(B6,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 7 | ORD-2006 | P104 | 6 | =VLOOKUP(B7,Products!$A$2:$E$41,4,FALSE()) → 501.07 | =C7*D7 → 3006.42 | =C7*VLOOKUP(B7,Products!$A$2:$E$41,5,FALSE()) → 1999.38 | =E7-F7 → 1007.04 | =VLOOKUP(B7,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 8 | ORD-2007 | P117 | 6 | =VLOOKUP(B8,Products!$A$2:$E$41,4,FALSE()) → 8.47 | =C8*D8 → 50.82 | =C8*VLOOKUP(B8,Products!$A$2:$E$41,5,FALSE()) → 22.32 | =E8-F8 → 28.5 | =VLOOKUP(B8,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 9 | ORD-2008 | P108 | 20 | =VLOOKUP(B9,Products!$A$2:$E$41,4,FALSE()) → 785.19 | =C9*D9 → 15703.8 | =C9*VLOOKUP(B9,Products!$A$2:$E$41,5,FALSE()) → 5943.8 | =E9-F9 → 9760 | =VLOOKUP(B9,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 10 | ORD-2009 | P110 | 1 | =VLOOKUP(B10,Products!$A$2:$E$41,4,FALSE()) → 188.44 | =C10*D10 → 188.44 | =C10*VLOOKUP(B10,Products!$A$2:$E$41,5,FALSE()) → 127.49 | =E10-F10 → 60.95 | =VLOOKUP(B10,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 11 | ORD-2010 | P104 | 2 | =VLOOKUP(B11,Products!$A$2:$E$41,4,FALSE()) → 501.07 | =C11*D11 → 1002.14 | =C11*VLOOKUP(B11,Products!$A$2:$E$41,5,FALSE()) → 666.46 | =E11-F11 → 335.68 | =VLOOKUP(B11,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 12 | ORD-2011 | P129 | 7 | =VLOOKUP(B12,Products!$A$2:$E$41,4,FALSE()) → 663.72 | =C12*D12 → 4646.04 | =C12*VLOOKUP(B12,Products!$A$2:$E$41,5,FALSE()) → 2860.2 | =E12-F12 → 1785.84 | =VLOOKUP(B12,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 13 | ORD-2012 | P125 | 10 | =VLOOKUP(B13,Products!$A$2:$E$41,4,FALSE()) → 547.71 | =C13*D13 → 5477.1 | =C13*VLOOKUP(B13,Products!$A$2:$E$41,5,FALSE()) → 3753.6 | =E13-F13 → 1723.5 | =VLOOKUP(B13,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 14 | ORD-2013 | P140 | 1 | =VLOOKUP(B14,Products!$A$2:$E$41,4,FALSE()) → 64.32 | =C14*D14 → 64.32 | =C14*VLOOKUP(B14,Products!$A$2:$E$41,5,FALSE()) → 25.28 | =E14-F14 → 39.04 | =VLOOKUP(B14,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 15 | ORD-2014 | P123 | 10 | =VLOOKUP(B15,Products!$A$2:$E$41,4,FALSE()) → 135.09 | =C15*D15 → 1350.9 | =C15*VLOOKUP(B15,Products!$A$2:$E$41,5,FALSE()) → 910.3 | =E15-F15 → 440.6 | =VLOOKUP(B15,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 16 | ORD-2015 | P110 | 16 | =VLOOKUP(B16,Products!$A$2:$E$41,4,FALSE()) → 188.44 | =C16*D16 → 3015.04 | =C16*VLOOKUP(B16,Products!$A$2:$E$41,5,FALSE()) → 2039.84 | =E16-F16 → 975.2 | =VLOOKUP(B16,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 17 | ORD-2016 | P136 | 9 | =VLOOKUP(B17,Products!$A$2:$E$41,4,FALSE()) → 734.16 | =C17*D17 → 6607.44 | =C17*VLOOKUP(B17,Products!$A$2:$E$41,5,FALSE()) → 4184.37 | =E17-F17 → 2423.07 | =VLOOKUP(B17,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 18 | ORD-2017 | P109 | 3 | =VLOOKUP(B18,Products!$A$2:$E$41,4,FALSE()) → 621.15 | =C18*D18 → 1863.45 | =C18*VLOOKUP(B18,Products!$A$2:$E$41,5,FALSE()) → 1422.81 | =E18-F18 → 440.64 | =VLOOKUP(B18,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 19 | ORD-2018 | P136 | 10 | =VLOOKUP(B19,Products!$A$2:$E$41,4,FALSE()) → 734.16 | =C19*D19 → 7341.6 | =C19*VLOOKUP(B19,Products!$A$2:$E$41,5,FALSE()) → 4649.3 | =E19-F19 → 2692.3 | =VLOOKUP(B19,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 20 | ORD-2019 | P108 | 3 | =VLOOKUP(B20,Products!$A$2:$E$41,4,FALSE()) → 785.19 | =C20*D20 → 2355.57 | =C20*VLOOKUP(B20,Products!$A$2:$E$41,5,FALSE()) → 891.57 | =E20-F20 → 1464 | =VLOOKUP(B20,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 21 | ORD-2020 | P127 | 15 | =VLOOKUP(B21,Products!$A$2:$E$41,4,FALSE()) → 113.6 | =C21*D21 → 1704 | =C21*VLOOKUP(B21,Products!$A$2:$E$41,5,FALSE()) → 1325.55 | =E21-F21 → 378.45 | =VLOOKUP(B21,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 22 | ORD-2021 | P110 | 23 | =VLOOKUP(B22,Products!$A$2:$E$41,4,FALSE()) → 188.44 | =C22*D22 → 4334.12 | =C22*VLOOKUP(B22,Products!$A$2:$E$41,5,FALSE()) → 2932.27 | =E22-F22 → 1401.85 | =VLOOKUP(B22,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 23 | ORD-2022 | P136 | 25 | =VLOOKUP(B23,Products!$A$2:$E$41,4,FALSE()) → 734.16 | =C23*D23 → 18354 | =C23*VLOOKUP(B23,Products!$A$2:$E$41,5,FALSE()) → 11623.25 | =E23-F23 → 6730.75 | =VLOOKUP(B23,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 24 | ORD-2023 | P125 | 19 | =VLOOKUP(B24,Products!$A$2:$E$41,4,FALSE()) → 547.71 | =C24*D24 → 10406.49 | =C24*VLOOKUP(B24,Products!$A$2:$E$41,5,FALSE()) → 7131.84 | =E24-F24 → 3274.65 | =VLOOKUP(B24,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 25 | ORD-2024 | P111 | 22 | =VLOOKUP(B25,Products!$A$2:$E$41,4,FALSE()) → 382.47 | =C25*D25 → 8414.34 | =C25*VLOOKUP(B25,Products!$A$2:$E$41,5,FALSE()) → 5870.26 | =E25-F25 → 2544.08 | =VLOOKUP(B25,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 26 | ORD-2025 | P118 | 25 | =VLOOKUP(B26,Products!$A$2:$E$41,4,FALSE()) → 767.72 | =C26*D26 → 19193 | =C26*VLOOKUP(B26,Products!$A$2:$E$41,5,FALSE()) → 6788.75 | =E26-F26 → 12404.25 | =VLOOKUP(B26,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 27 | ORD-2026 | P139 | 20 | =VLOOKUP(B27,Products!$A$2:$E$41,4,FALSE()) → 639.96 | =C27*D27 → 12799.2 | =C27*VLOOKUP(B27,Products!$A$2:$E$41,5,FALSE()) → 7739.8 | =E27-F27 → 5059.4 | =VLOOKUP(B27,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 28 | ORD-2027 | P132 | 12 | =VLOOKUP(B28,Products!$A$2:$E$41,4,FALSE()) → 192.98 | =C28*D28 → 2315.76 | =C28*VLOOKUP(B28,Products!$A$2:$E$41,5,FALSE()) → 1838.04 | =E28-F28 → 477.72 | =VLOOKUP(B28,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 29 | ORD-2028 | P107 | 2 | =VLOOKUP(B29,Products!$A$2:$E$41,4,FALSE()) → 218.02 | =C29*D29 → 436.04 | =C29*VLOOKUP(B29,Products!$A$2:$E$41,5,FALSE()) → 178.6 | =E29-F29 → 257.44 | =VLOOKUP(B29,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 30 | ORD-2029 | P118 | 17 | =VLOOKUP(B30,Products!$A$2:$E$41,4,FALSE()) → 767.72 | =C30*D30 → 13051.24 | =C30*VLOOKUP(B30,Products!$A$2:$E$41,5,FALSE()) → 4616.35 | =E30-F30 → 8434.89 | =VLOOKUP(B30,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 31 | ORD-2030 | P109 | 6 | =VLOOKUP(B31,Products!$A$2:$E$41,4,FALSE()) → 621.15 | =C31*D31 → 3726.9 | =C31*VLOOKUP(B31,Products!$A$2:$E$41,5,FALSE()) → 2845.62 | =E31-F31 → 881.28 | =VLOOKUP(B31,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 32 | ORD-2031 | P106 | 6 | =VLOOKUP(B32,Products!$A$2:$E$41,4,FALSE()) → 409.56 | =C32*D32 → 2457.36 | =C32*VLOOKUP(B32,Products!$A$2:$E$41,5,FALSE()) → 1033.86 | =E32-F32 → 1423.5 | =VLOOKUP(B32,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 33 | ORD-2032 | P115 | 1 | =VLOOKUP(B33,Products!$A$2:$E$41,4,FALSE()) → 344.04 | =C33*D33 → 344.04 | =C33*VLOOKUP(B33,Products!$A$2:$E$41,5,FALSE()) → 141.96 | =E33-F33 → 202.08 | =VLOOKUP(B33,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 34 | ORD-2033 | P113 | 6 | =VLOOKUP(B34,Products!$A$2:$E$41,4,FALSE()) → 729.51 | =C34*D34 → 4377.06 | =C34*VLOOKUP(B34,Products!$A$2:$E$41,5,FALSE()) → 2928.06 | =E34-F34 → 1449 | =VLOOKUP(B34,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 35 | ORD-2034 | P131 | 15 | =VLOOKUP(B35,Products!$A$2:$E$41,4,FALSE()) → 103.42 | =C35*D35 → 1551.3 | =C35*VLOOKUP(B35,Products!$A$2:$E$41,5,FALSE()) → 798.15 | =E35-F35 → 753.15 | =VLOOKUP(B35,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 36 | ORD-2035 | P138 | 18 | =VLOOKUP(B36,Products!$A$2:$E$41,4,FALSE()) → 703.75 | =C36*D36 → 12667.5 | =C36*VLOOKUP(B36,Products!$A$2:$E$41,5,FALSE()) → 7268.58 | =E36-F36 → 5398.92 | =VLOOKUP(B36,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 37 | ORD-2036 | P135 | 13 | =VLOOKUP(B37,Products!$A$2:$E$41,4,FALSE()) → 196.02 | =C37*D37 → 2548.26 | =C37*VLOOKUP(B37,Products!$A$2:$E$41,5,FALSE()) → 1201.07 | =E37-F37 → 1347.19 | =VLOOKUP(B37,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 38 | ORD-2037 | P106 | 6 | =VLOOKUP(B38,Products!$A$2:$E$41,4,FALSE()) → 409.56 | =C38*D38 → 2457.36 | =C38*VLOOKUP(B38,Products!$A$2:$E$41,5,FALSE()) → 1033.86 | =E38-F38 → 1423.5 | =VLOOKUP(B38,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 39 | ORD-2038 | P136 | 16 | =VLOOKUP(B39,Products!$A$2:$E$41,4,FALSE()) → 734.16 | =C39*D39 → 11746.56 | =C39*VLOOKUP(B39,Products!$A$2:$E$41,5,FALSE()) → 7438.88 | =E39-F39 → 4307.68 | =VLOOKUP(B39,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 40 | ORD-2039 | P138 | 9 | =VLOOKUP(B40,Products!$A$2:$E$41,4,FALSE()) → 703.75 | =C40*D40 → 6333.75 | =C40*VLOOKUP(B40,Products!$A$2:$E$41,5,FALSE()) → 3634.29 | =E40-F40 → 2699.46 | =VLOOKUP(B40,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 41 | ORD-2040 | P135 | 3 | =VLOOKUP(B41,Products!$A$2:$E$41,4,FALSE()) → 196.02 | =C41*D41 → 588.06 | =C41*VLOOKUP(B41,Products!$A$2:$E$41,5,FALSE()) → 277.17 | =E41-F41 → 310.89 | =VLOOKUP(B41,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 42 | ORD-2041 | P102 | 19 | =VLOOKUP(B42,Products!$A$2:$E$41,4,FALSE()) → 171.6 | =C42*D42 → 3260.4 | =C42*VLOOKUP(B42,Products!$A$2:$E$41,5,FALSE()) → 1637.61 | =E42-F42 → 1622.79 | =VLOOKUP(B42,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 43 | ORD-2042 | P138 | 14 | =VLOOKUP(B43,Products!$A$2:$E$41,4,FALSE()) → 703.75 | =C43*D43 → 9852.5 | =C43*VLOOKUP(B43,Products!$A$2:$E$41,5,FALSE()) → 5653.34 | =E43-F43 → 4199.16 | =VLOOKUP(B43,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 44 | ORD-2043 | P135 | 10 | =VLOOKUP(B44,Products!$A$2:$E$41,4,FALSE()) → 196.02 | =C44*D44 → 1960.2 | =C44*VLOOKUP(B44,Products!$A$2:$E$41,5,FALSE()) → 923.9 | =E44-F44 → 1036.3 | =VLOOKUP(B44,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 45 | ORD-2044 | P134 | 17 | =VLOOKUP(B45,Products!$A$2:$E$41,4,FALSE()) → 548.93 | =C45*D45 → 9331.81 | =C45*VLOOKUP(B45,Products!$A$2:$E$41,5,FALSE()) → 5086.91 | =E45-F45 → 4244.9 | =VLOOKUP(B45,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 46 | ORD-2045 | P135 | 21 | =VLOOKUP(B46,Products!$A$2:$E$41,4,FALSE()) → 196.02 | =C46*D46 → 4116.42 | =C46*VLOOKUP(B46,Products!$A$2:$E$41,5,FALSE()) → 1940.19 | =E46-F46 → 2176.23 | =VLOOKUP(B46,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 47 | ORD-2046 | P105 | 21 | =VLOOKUP(B47,Products!$A$2:$E$41,4,FALSE()) → 656.73 | =C47*D47 → 13791.33 | =C47*VLOOKUP(B47,Products!$A$2:$E$41,5,FALSE()) → 9192.75 | =E47-F47 → 4598.58 | =VLOOKUP(B47,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 48 | ORD-2047 | P137 | 18 | =VLOOKUP(B48,Products!$A$2:$E$41,4,FALSE()) → 97.25 | =C48*D48 → 1750.5 | =C48*VLOOKUP(B48,Products!$A$2:$E$41,5,FALSE()) → 632.7 | =E48-F48 → 1117.8 | =VLOOKUP(B48,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 49 | ORD-2048 | P120 | 3 | =VLOOKUP(B49,Products!$A$2:$E$41,4,FALSE()) → 453.22 | =C49*D49 → 1359.66 | =C49*VLOOKUP(B49,Products!$A$2:$E$41,5,FALSE()) → 779.82 | =E49-F49 → 579.84 | =VLOOKUP(B49,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 50 | ORD-2049 | P115 | 24 | =VLOOKUP(B50,Products!$A$2:$E$41,4,FALSE()) → 344.04 | =C50*D50 → 8256.96 | =C50*VLOOKUP(B50,Products!$A$2:$E$41,5,FALSE()) → 3407.04 | =E50-F50 → 4849.92 | =VLOOKUP(B50,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 51 | ORD-2050 | P109 | 4 | =VLOOKUP(B51,Products!$A$2:$E$41,4,FALSE()) → 621.15 | =C51*D51 → 2484.6 | =C51*VLOOKUP(B51,Products!$A$2:$E$41,5,FALSE()) → 1897.08 | =E51-F51 → 587.52 | =VLOOKUP(B51,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 52 | ORD-2051 | P107 | 23 | =VLOOKUP(B52,Products!$A$2:$E$41,4,FALSE()) → 218.02 | =C52*D52 → 5014.46 | =C52*VLOOKUP(B52,Products!$A$2:$E$41,5,FALSE()) → 2053.9 | =E52-F52 → 2960.56 | =VLOOKUP(B52,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 53 | ORD-2052 | P132 | 15 | =VLOOKUP(B53,Products!$A$2:$E$41,4,FALSE()) → 192.98 | =C53*D53 → 2894.7 | =C53*VLOOKUP(B53,Products!$A$2:$E$41,5,FALSE()) → 2297.55 | =E53-F53 → 597.15 | =VLOOKUP(B53,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 54 | ORD-2053 | P104 | 16 | =VLOOKUP(B54,Products!$A$2:$E$41,4,FALSE()) → 501.07 | =C54*D54 → 8017.12 | =C54*VLOOKUP(B54,Products!$A$2:$E$41,5,FALSE()) → 5331.68 | =E54-F54 → 2685.44 | =VLOOKUP(B54,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 55 | ORD-2054 | P104 | 22 | =VLOOKUP(B55,Products!$A$2:$E$41,4,FALSE()) → 501.07 | =C55*D55 → 11023.54 | =C55*VLOOKUP(B55,Products!$A$2:$E$41,5,FALSE()) → 7331.06 | =E55-F55 → 3692.48 | =VLOOKUP(B55,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 56 | ORD-2055 | P139 | 1 | =VLOOKUP(B56,Products!$A$2:$E$41,4,FALSE()) → 639.96 | =C56*D56 → 639.96 | =C56*VLOOKUP(B56,Products!$A$2:$E$41,5,FALSE()) → 386.99 | =E56-F56 → 252.97 | =VLOOKUP(B56,Products!$A$2:$E$41,3,FALSE()) → Services |
+| 57 | ORD-2056 | P124 | 8 | =VLOOKUP(B57,Products!$A$2:$E$41,4,FALSE()) → 41.87 | =C57*D57 → 334.96 | =C57*VLOOKUP(B57,Products!$A$2:$E$41,5,FALSE()) → 200.88 | =E57-F57 → 134.08 | =VLOOKUP(B57,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 58 | ORD-2057 | P130 | 8 | =VLOOKUP(B58,Products!$A$2:$E$41,4,FALSE()) → 698.29 | =C58*D58 → 5586.32 | =C58*VLOOKUP(B58,Products!$A$2:$E$41,5,FALSE()) → 4135.68 | =E58-F58 → 1450.64 | =VLOOKUP(B58,Products!$A$2:$E$41,3,FALSE()) → Software |
+| 59 | ORD-2058 | P124 | 24 | =VLOOKUP(B59,Products!$A$2:$E$41,4,FALSE()) → 41.87 | =C59*D59 → 1004.88 | =C59*VLOOKUP(B59,Products!$A$2:$E$41,5,FALSE()) → 602.64 | =E59-F59 → 402.24 | =VLOOKUP(B59,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+| 60 | ORD-2059 | P137 | 20 | =VLOOKUP(B60,Products!$A$2:$E$41,4,FALSE()) → 97.25 | =C60*D60 → 1945 | =C60*VLOOKUP(B60,Products!$A$2:$E$41,5,FALSE()) → 703 | =E60-F60 → 1242 | =VLOOKUP(B60,Products!$A$2:$E$41,3,FALSE()) → Hardware |
+| 61 | ORD-2060 | P132 | 8 | =VLOOKUP(B61,Products!$A$2:$E$41,4,FALSE()) → 192.98 | =C61*D61 → 1543.84 | =C61*VLOOKUP(B61,Products!$A$2:$E$41,5,FALSE()) → 1225.36 | =E61-F61 → 318.48 | =VLOOKUP(B61,Products!$A$2:$E$41,3,FALSE()) → Accessories |
+
+# Sheet: Summary
+
+## Range A1:C6
+
+| # | A | B | C |
+|---|---|---|---|
+| 1 | Category | Revenue | Margin |
+| 2 | Hardware | =SUMIF(Orders!$H$2:$H$61,A2,Orders!$E$2:$E$61) → 50527.76 | =SUMIF(Orders!$H$2:$H$61,A2,Orders!$G$2:$G$61) → 17134.06 |
+| 3 | Software | =SUMIF(Orders!$H$2:$H$61,A3,Orders!$E$2:$E$61) → 103025.51 | =SUMIF(Orders!$H$2:$H$61,A3,Orders!$G$2:$G$61) → 48009.68 |
+| 4 | Services | =SUMIF(Orders!$H$2:$H$61,A4,Orders!$E$2:$E$61) → 50202.58 | =SUMIF(Orders!$H$2:$H$61,A4,Orders!$G$2:$G$61) → 22682.66 |
+| 5 | Accessories | =SUMIF(Orders!$H$2:$H$61,A5,Orders!$E$2:$E$61) → 95639.32 | =SUMIF(Orders!$H$2:$H$61,A5,Orders!$G$2:$G$61) → 38032.47 |
+| 6 | Total | =SUM(B2:B5) → 299395.17 | =SUM(C2:C5) → 125858.87 |

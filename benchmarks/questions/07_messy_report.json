@@ -1,0 +1,59 @@
+[
+ {
+  "type": "lookup",
+  "q": "How many units of SKU-1007 are on hand?",
+  "cell": "Report!C12",
+  "id": "q1",
+  "truth": 519
+ },
+ {
+  "type": "lookup",
+  "q": "What is the line total of PO-5003?",
+  "cell": "Report!E28",
+  "id": "q2",
+  "truth": 3676.5
+ },
+ {
+  "type": "lookup",
+  "q": "What is the open PO value?",
+  "cell": "Report!I8",
+  "id": "q3",
+  "truth": 8017
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds the reorder point of SKU-1010? Give its cell address.",
+  "cell": "Report!D15",
+  "id": "q4",
+  "truth": "Report!D15"
+ },
+ {
+  "type": "trace",
+  "q": "Consider the open PO value in the summary box. List the cells its formula reads directly (not indirectly).",
+  "cell": "Report!I8",
+  "id": "q5",
+  "truth": [
+   "Report!E34"
+  ]
+ },
+ {
+  "type": "trace",
+  "q": "Consider the line total of PO-5003. List the cells its formula reads directly (not indirectly).",
+  "cell": "Report!E28",
+  "id": "q6",
+  "truth": [
+   "Report!C28",
+   "Report!D28"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose the on-hand count of SKU-1004 increased by 10%. List every other cell whose value would change.",
+  "cell": "Report!C9",
+  "factor": 1.1,
+  "id": "q7",
+  "truth": [
+   "Report!I7"
+  ]
+ }
+]

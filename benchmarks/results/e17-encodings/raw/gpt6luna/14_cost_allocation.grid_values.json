@@ -1,0 +1,60 @@
+{
+ "model": "gpt6luna",
+ "workbook": "14_cost_allocation",
+ "encoding": "grid_values",
+ "prompt_chars": 2279,
+ "result": "{\"q1\":428571.4286,\"q2\":[\"Allocation!D3\"],\"q3\":[\"Drivers!B6\",\"Drivers!B7\",\"Shared!B2\"],\"q4\":[\"Drivers!C7\",\"Allocation!C2:C6\",\"Allocation!E2:E6\"],\"q5\":[\"Drivers!D7\",\"Allocation!D2\",\"Allocation!D4:D7\",\"Allocation!E2\",\"Allocation!E4:E6\",\"Allocation!E7\"],\"q6\":[\"Allocation!C2:C7\",\"Allocation!E2:E7\"]}",
+ "usage": {
+  "input_tokens": 765,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1675,
+  "output_tokens_details": {
+   "thinking_tokens": 1552
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 765,
+   "outputTokens": 1675,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1552
+  }
+ },
+ "cost": 0.000914,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261009T105651Z-65938b",
+  "started_at": "2026-10-09T10:56:51+00:00",
+  "git_sha": "acbac33",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 20.2,
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_4c83c5c0cfdc402e9aae69751e8b5c3c",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "provider_usage": {
+   "input_tokens": 765,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 1675,
+   "output_tokens_details": {
+    "reasoning_tokens": 1552
+   },
+   "total_tokens": 2440,
+   "billed_input_tokens": 765,
+   "tokenizer_input_tokens_o200k": 754
+  },
+  "finished_at": "2026-10-09T11:05:38+00:00"
+ }
+}

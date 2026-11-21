@@ -1,0 +1,82 @@
+[
+ {
+  "type": "lookup",
+  "cell": "ROFR Criteria!F10",
+  "q": "What is the value in the row labelled 'SJ', column headed 'Ctrc #', in the sheet 'ROFR Criteria'?",
+  "truth": 27496,
+  "labels": [
+   "D10",
+   "F8"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "WOT by Month with Red Rock!C39",
+  "q": "Which cell holds the value in the row labelled 'Reliant', in the sheet 'WOT by Month with Red Rock'? Give its cell address.",
+  "truth": "WOT by Month with Red Rock!C39",
+  "labels": [
+   "B39"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "WOT by Month with Red Rock!AW81",
+  "q": "Consider the cell WOT by Month with Red Rock!AW81 (in the row labelled 'Subscribed Capacity'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "WOT by Month with Red Rock!AW52",
+   "WOT by Month with Red Rock!AW69"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "WOT by Month with Red Rock!R69",
+  "q": "Consider the cell WOT by Month with Red Rock!R69 (in the row labelled 'SUBSCRIBED RED ROCK'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "WOT by Month with Red Rock!R59",
+   "WOT by Month with Red Rock!R60",
+   "WOT by Month with Red Rock!R61",
+   "WOT by Month with Red Rock!R62",
+   "WOT by Month with Red Rock!R63",
+   "WOT by Month with Red Rock!R64",
+   "WOT by Month with Red Rock!R65",
+   "WOT by Month with Red Rock!R66",
+   "WOT by Month with Red Rock!R67"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "WOT by Month with Red Rock!AY10",
+  "factor": 1.1,
+  "q": "Suppose the number in WOT by Month with Red Rock!AY10 (in the row labelled 'yes') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "WOT by Month with Red Rock!AY46",
+   "WOT by Month with Red Rock!AY48",
+   "WOT by Month with Red Rock!AY52",
+   "WOT by Month with Red Rock!AY74",
+   "WOT by Month with Red Rock!AY76",
+   "WOT by Month with Red Rock!AY81",
+   "WOT by Month with Red Rock!AY83",
+   "WOT by Month with Red Rock!AY88",
+   "WOT by Month with Red Rock!AY90",
+   "WOT by Month with Red Rock!BH89",
+   "WOT by Month with Red Rock!BH91"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "WOT by Month!AM43",
+  "range": "WOT by Month!AM43:AM46",
+  "q": "Consider the range WOT by Month!AM43:AM46. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "WOT by Month!AM43",
+   "WOT by Month!AM44",
+   "WOT by Month!AM45"
+  ],
+  "id": "q6"
+ }
+]

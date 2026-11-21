@@ -1,0 +1,25 @@
+Cellprose
+Copyright 2026 Utkarsh Gaikwad
+
+The code and website are licensed under Apache-2.0 (LICENSE). The format specification (docs/SPEC.md) and the
+conformance kit (conformance/) are licensed under CC-BY-4.0 (LICENSE-SPEC). The name "Cellprose" is not licensed by
+either licence.
+
+Third-party data in this repository
+
+- Enron spreadsheet corpus (figshare 1221767), CC BY 4.0: workbooks under benchmarks/external/*/sources/ with names
+  starting "enron__". File names contain the original corpus names of the workbook authors.
+- UK Open Government Licence v3.0: files starting "ogl" in tests/real/ and benchmarks/external/.
+- US federal government works (BEA, IRS, Census), public domain: tests/real/.
+- World Bank Open Data, CC BY 4.0 (The World Bank, indicator NY.GDP.MKTP.CD): tests/real/worldbank_gdp.xlsx.
+- Each file's source URL, licence and SHA-256 is in the manifest.json next to it.
+
+Data not redistributed here
+
+- Damodaran (NYU Stern) workbooks carry no explicit licence. They are not in this repository.
+  `python3 benchmarks/external/realworld2.py fetch` downloads them from the publisher's site and checks them against
+  the frozen SHA-256. The benchmark questions and the model answers about them are included.
+- SpreadsheetBench (CC BY-SA 4.0) workbooks and raw model responses are not included. `benchmarks/external/spreadsheetbench.py`
+  downloads the pinned revision. Only manifests, aggregates and checksums are committed.
+
+Files under tests/real/ and benchmarks/external/ are third-party data. Treat them as untrusted input.

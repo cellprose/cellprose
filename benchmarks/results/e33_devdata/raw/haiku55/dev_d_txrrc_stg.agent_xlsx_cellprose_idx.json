@@ -1,0 +1,236 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_d_txrrc_stg",
+ "encoding": "agent_xlsx_cellprose_idx",
+ "prompt_chars": 1398,
+ "prompt_sha256": "253decde0f7d0368a415da944be75710e50a12f7d84132120d2fe56051f7b7c2",
+ "result": "{\"q1\": 325, \"q2\": \"History By Facility!K256\", \"q3\": [\"History By Facility!T205:T216\"], \"q4\": [\"Sheet1!M14\", \"Sheet1!K14\"], \"q5\": [\"History By Facility!AE241\", \"History By Facility!I247\", \"History By Facility!AE247\"], \"q6\": [\"History By Facility!E89:E111\"]}",
+ "usage": {
+  "input_tokens": 63829,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2915,
+  "output_tokens_details": {
+   "thinking_tokens": 2028
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 63829,
+   "outputTokens": 2915,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 2028
+  }
+ },
+ "cost": 0.0078404,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1600,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 36,
+     "reasoning_tokens": 10,
+     "tool_calls": [
+      "outline"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3608,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 241,
+     "reasoning_tokens": 42,
+     "tool_calls": [
+      "find",
+      "find",
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 7283,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 342,
+     "reasoning_tokens": 183,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 10619,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1038,
+     "reasoning_tokens": 869,
+     "tool_calls": [
+      "read_range",
+      "read_range",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 19351,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 918,
+     "reasoning_tokens": 711,
+     "tool_calls": [
+      "trace",
+      "read_range",
+      "trace"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 21368,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 340,
+     "reasoning_tokens": 213,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T14:43:59+00:00",
+  "run_id": "20261107T144214Z-4c5d55",
+  "started_at": "2026-11-07T14:42:14+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devdata",
+  "inputs_sha256": "8f2dfc187ecd6fcbe50c6f9073b724bf0b0ec4242a6c061a380dbb2d07709a78",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 18.1
+ },
+ "num_turns": 6,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "outline",
+   "args": "{}",
+   "output_chars": 3143
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Palo Pinto\"}",
+   "output_chars": 803
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Wharton\"}",
+   "output_chars": 847
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Salt Domes\"}",
+   "output_chars": 779
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"History By Facility!A234:AC247\"}",
+   "output_chars": 3237
+  },
+  {
+   "turn": 3,
+   "tool": "find",
+   "args": "{\"text\": \"RRC 1/31/00\"}",
+   "output_chars": 307
+  },
+  {
+   "turn": 3,
+   "tool": "find",
+   "args": "{\"text\": \"RRC 3/31/01\"}",
+   "output_chars": 307
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"range\": \"History By Facility!A144:AC168\"}",
+   "output_chars": 4108
+  },
+  {
+   "turn": 4,
+   "tool": "read_range",
+   "args": "{\"range\": \"History By Facility!A115:AC142\"}",
+   "output_chars": 4697
+  },
+  {
+   "turn": 4,
+   "tool": "read_range",
+   "args": "{\"range\": \"History By Facility!B204:AC217\"}",
+   "output_chars": 3217
+  },
+  {
+   "turn": 4,
+   "tool": "read_range",
+   "args": "{\"range\": \"History By Facility!B88:AC112\"}",
+   "output_chars": 4572
+  },
+  {
+   "turn": 5,
+   "tool": "trace",
+   "args": "{\"cell\": \"History By Facility!I241\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 205
+  },
+  {
+   "turn": 5,
+   "tool": "read_range",
+   "args": "{\"range\": \"Sheet1!A12:Q16\"}",
+   "output_chars": 1123
+  },
+  {
+   "turn": 5,
+   "tool": "trace",
+   "args": "{\"cell\": \"History By Facility!T217\"}",
+   "output_chars": 454
+  }
+ ]
+}

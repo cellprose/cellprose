@@ -1,0 +1,1283 @@
+{
+ "agent": [
+  {
+   "acc": 98.9,
+   "cpc_vs": -27,
+   "encoding": "agent_sheetmark",
+   "model": "haiku",
+   "n": 28,
+   "tin": 14810,
+   "tokens_vs": -34,
+   "tout": 1748,
+   "tout_vs": -8,
+   "turns": 2.46
+  },
+  {
+   "acc": 99.8,
+   "cpc_vs": 0,
+   "encoding": "agent_xlsx",
+   "model": "haiku",
+   "n": 28,
+   "tin": 23020,
+   "tokens_vs": 0,
+   "tout": 1897,
+   "tout_vs": 0,
+   "turns": 3.29
+  },
+  {
+   "acc": 98.9,
+   "cpc_vs": -55,
+   "encoding": "sheetmark_lean_gfm",
+   "model": "haiku",
+   "n": 28,
+   "tin": 6776,
+   "tokens_vs": -67,
+   "tout": 1567,
+   "tout_vs": -17,
+   "turns": 1.0
+  },
+  {
+   "acc": 98.8,
+   "cpc_vs": -19,
+   "encoding": "agent_sheetmark",
+   "model": "sonnet",
+   "n": 28,
+   "tin": 11988,
+   "tokens_vs": -18,
+   "tout": 441,
+   "tout_vs": -31,
+   "turns": 2.43
+  },
+  {
+   "acc": 99.7,
+   "cpc_vs": 0,
+   "encoding": "agent_xlsx",
+   "model": "sonnet",
+   "n": 28,
+   "tin": 14562,
+   "tokens_vs": 0,
+   "tout": 642,
+   "tout_vs": 0,
+   "turns": 2.79
+  },
+  {
+   "acc": 99.7,
+   "cpc_vs": -66,
+   "encoding": "sheetmark_lean_gfm",
+   "model": "sonnet",
+   "n": 28,
+   "tin": 3564,
+   "tokens_vs": -73,
+   "tout": 511,
+   "tout_vs": -20,
+   "turns": 1.0
+  }
+ ],
+ "labels": {
+  "agent_sheetmark": "Cellprose file with tools",
+  "agent_xlsx": "Raw .xlsx with tools",
+  "cellprose_v03": "Cellprose v0.3",
+  "csv": "CSV",
+  "markdown": "Markdown table",
+  "sheetmark_lean_gfm": "Cellprose v0.2",
+  "toon": "TOON"
+ },
+ "models": {
+  "haiku": "Haiku 5.5",
+  "sonnet": "Sonnet 5.5"
+ },
+ "replay": {
+  "lanes": [
+   {
+    "answer": [
+     "Forecast!K5"
+    ],
+    "encoding": "csv",
+    "questions_in_call": 6,
+    "score": 0.6667,
+    "tin": 811,
+    "tout": 2406
+   },
+   {
+    "answer": [
+     "Forecast!H4",
+     "Forecast!K5"
+    ],
+    "encoding": "cellprose_v03",
+    "questions_in_call": 6,
+    "score": 1.0,
+    "tin": 1054,
+    "tout": 2643
+   }
+  ],
+  "model": "haiku",
+  "question": "Consider the headcount and payroll rows for Feb through Dec (C4:M5). List the cells that hold typed-in numbers rather than formulas.",
+  "rep": "r0",
+  "truth": [
+   "Forecast!H4",
+   "Forecast!K5"
+  ],
+  "workbook": "11_forecast_overrides"
+ },
+ "reps": [
+  "r1",
+  "r2"
+ ],
+ "sets": {
+  "all": {
+   "by_rep": {
+    "r1": [
+     {
+      "acc": 96.5,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "haiku",
+      "n": 14,
+      "tin": 5950,
+      "tokens_vs": 0,
+      "tout": 2244,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 97.8,
+      "cpc_vs": -3,
+      "encoding": "markdown",
+      "model": "haiku",
+      "n": 14,
+      "tin": 6935,
+      "tokens_vs": 9,
+      "tout": 1974,
+      "tout_vs": -12,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.2,
+      "cpc_vs": -14,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "haiku",
+      "n": 14,
+      "tin": 6776,
+      "tokens_vs": 3,
+      "tout": 1689,
+      "tout_vs": -25,
+      "turns": 1.0
+     },
+     {
+      "acc": 88.7,
+      "cpc_vs": 13,
+      "encoding": "toon",
+      "model": "haiku",
+      "n": 14,
+      "tin": 6099,
+      "tokens_vs": 3,
+      "tout": 2350,
+      "tout_vs": 5,
+      "turns": 1.0
+     },
+     {
+      "acc": 97.8,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "sonnet",
+      "n": 14,
+      "tin": 3152,
+      "tokens_vs": 0,
+      "tout": 639,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 98.6,
+      "cpc_vs": 4,
+      "encoding": "markdown",
+      "model": "sonnet",
+      "n": 14,
+      "tin": 3644,
+      "tokens_vs": 12,
+      "tout": 602,
+      "tout_vs": -6,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.7,
+      "cpc_vs": -5,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "sonnet",
+      "n": 14,
+      "tin": 3564,
+      "tokens_vs": 8,
+      "tout": 517,
+      "tout_vs": -19,
+      "turns": 1.0
+     },
+     {
+      "acc": 97.5,
+      "cpc_vs": 3,
+      "encoding": "toon",
+      "model": "sonnet",
+      "n": 14,
+      "tin": 3226,
+      "tokens_vs": 2,
+      "tout": 653,
+      "tout_vs": 2,
+      "turns": 1.0
+     }
+    ],
+    "r2": [
+     {
+      "acc": 98.2,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "haiku",
+      "n": 14,
+      "tin": 5950,
+      "tokens_vs": 0,
+      "tout": 2276,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 98.8,
+      "cpc_vs": 1,
+      "encoding": "markdown",
+      "model": "haiku",
+      "n": 14,
+      "tin": 6935,
+      "tokens_vs": 10,
+      "tout": 2146,
+      "tout_vs": -6,
+      "turns": 1.0
+     },
+     {
+      "acc": 98.5,
+      "cpc_vs": -19,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "haiku",
+      "n": 14,
+      "tin": 6776,
+      "tokens_vs": 0,
+      "tout": 1445,
+      "tout_vs": -37,
+      "turns": 1.0
+     },
+     {
+      "acc": 97.6,
+      "cpc_vs": 4,
+      "encoding": "toon",
+      "model": "haiku",
+      "n": 14,
+      "tin": 6099,
+      "tokens_vs": 3,
+      "tout": 2376,
+      "tout_vs": 4,
+      "turns": 1.0
+     },
+     {
+      "acc": 98.6,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "sonnet",
+      "n": 14,
+      "tin": 3152,
+      "tokens_vs": 0,
+      "tout": 647,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 98.9,
+      "cpc_vs": 10,
+      "encoding": "markdown",
+      "model": "sonnet",
+      "n": 14,
+      "tin": 3644,
+      "tokens_vs": 14,
+      "tout": 684,
+      "tout_vs": 6,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.7,
+      "cpc_vs": -6,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "sonnet",
+      "n": 14,
+      "tin": 3564,
+      "tokens_vs": 7,
+      "tout": 505,
+      "tout_vs": -22,
+      "turns": 1.0
+     },
+     {
+      "acc": 97.3,
+      "cpc_vs": 4,
+      "encoding": "toon",
+      "model": "sonnet",
+      "n": 14,
+      "tin": 3226,
+      "tokens_vs": 2,
+      "tout": 665,
+      "tout_vs": 3,
+      "turns": 1.0
+     }
+    ]
+   },
+   "interval": [
+    {
+     "baseline": "csv",
+     "hi": 0.9169,
+     "lo": 0.7576,
+     "model": "haiku",
+     "n_workbooks": 14,
+     "ratio": 0.8343,
+     "verdict": "win"
+    },
+    {
+     "baseline": "markdown",
+     "hi": 0.9123,
+     "lo": 0.7769,
+     "model": "haiku",
+     "n_workbooks": 14,
+     "ratio": 0.843,
+     "verdict": "win"
+    },
+    {
+     "baseline": "toon",
+     "hi": 0.8639,
+     "lo": 0.6703,
+     "model": "haiku",
+     "n_workbooks": 14,
+     "ratio": 0.7684,
+     "verdict": "win"
+    },
+    {
+     "baseline": "csv",
+     "hi": 1.0206,
+     "lo": 0.8762,
+     "model": "sonnet",
+     "n_workbooks": 14,
+     "ratio": 0.9463,
+     "verdict": "no difference"
+    },
+    {
+     "baseline": "markdown",
+     "hi": 0.9652,
+     "lo": 0.7955,
+     "model": "sonnet",
+     "n_workbooks": 14,
+     "ratio": 0.8838,
+     "verdict": "win"
+    },
+    {
+     "baseline": "toon",
+     "hi": 1.0012,
+     "lo": 0.8326,
+     "model": "sonnet",
+     "n_workbooks": 14,
+     "ratio": 0.9166,
+     "verdict": "no difference"
+    }
+   ],
+   "mean": [
+    {
+     "acc": 97.4,
+     "cpc_vs": 0,
+     "encoding": "csv",
+     "model": "haiku",
+     "n": 28,
+     "tin": 5950,
+     "tokens_vs": 0,
+     "tout": 2260,
+     "tout_vs": 0,
+     "turns": 1.0
+    },
+    {
+     "acc": 98.3,
+     "cpc_vs": -1,
+     "encoding": "markdown",
+     "model": "haiku",
+     "n": 28,
+     "tin": 6935,
+     "tokens_vs": 10,
+     "tout": 2060,
+     "tout_vs": -9,
+     "turns": 1.0
+    },
+    {
+     "acc": 98.9,
+     "cpc_vs": -17,
+     "encoding": "sheetmark_lean_gfm",
+     "model": "haiku",
+     "n": 28,
+     "tin": 6776,
+     "tokens_vs": 2,
+     "tout": 1567,
+     "tout_vs": -31,
+     "turns": 1.0
+    },
+    {
+     "acc": 93.1,
+     "cpc_vs": 9,
+     "encoding": "toon",
+     "model": "haiku",
+     "n": 28,
+     "tin": 6099,
+     "tokens_vs": 3,
+     "tout": 2363,
+     "tout_vs": 5,
+     "turns": 1.0
+    },
+    {
+     "acc": 98.2,
+     "cpc_vs": 0,
+     "encoding": "csv",
+     "model": "sonnet",
+     "n": 28,
+     "tin": 3152,
+     "tokens_vs": 0,
+     "tout": 643,
+     "tout_vs": 0,
+     "turns": 1.0
+    },
+    {
+     "acc": 98.8,
+     "cpc_vs": 7,
+     "encoding": "markdown",
+     "model": "sonnet",
+     "n": 28,
+     "tin": 3644,
+     "tokens_vs": 13,
+     "tout": 643,
+     "tout_vs": 0,
+     "turns": 1.0
+    },
+    {
+     "acc": 99.7,
+     "cpc_vs": -5,
+     "encoding": "sheetmark_lean_gfm",
+     "model": "sonnet",
+     "n": 28,
+     "tin": 3564,
+     "tokens_vs": 7,
+     "tout": 511,
+     "tout_vs": -21,
+     "turns": 1.0
+    },
+    {
+     "acc": 97.4,
+     "cpc_vs": 3,
+     "encoding": "toon",
+     "model": "sonnet",
+     "n": 28,
+     "tin": 3226,
+     "tokens_vs": 2,
+     "tout": 659,
+     "tout_vs": 2,
+     "turns": 1.0
+    }
+   ],
+   "workbooks": 14
+  },
+  "hard": {
+   "by_rep": {
+    "r1": [
+     {
+      "acc": 92.3,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "haiku",
+      "n": 4,
+      "tin": 4078,
+      "tokens_vs": 0,
+      "tout": 3584,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 93.3,
+      "cpc_vs": -17,
+      "encoding": "markdown",
+      "model": "haiku",
+      "n": 4,
+      "tin": 4406,
+      "tokens_vs": -6,
+      "tout": 2805,
+      "tout_vs": -22,
+      "turns": 1.0
+     },
+     {
+      "acc": 100.0,
+      "cpc_vs": -27,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "haiku",
+      "n": 4,
+      "tin": 4715,
+      "tokens_vs": -5,
+      "tout": 2550,
+      "tout_vs": -29,
+      "turns": 1.0
+     },
+     {
+      "acc": 94.3,
+      "cpc_vs": -10,
+      "encoding": "toon",
+      "model": "haiku",
+      "n": 4,
+      "tin": 4154,
+      "tokens_vs": -4,
+      "tout": 3233,
+      "tout_vs": -10,
+      "turns": 1.0
+     },
+     {
+      "acc": 93.4,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "sonnet",
+      "n": 4,
+      "tin": 2216,
+      "tokens_vs": 0,
+      "tout": 944,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 96.3,
+      "cpc_vs": -13,
+      "encoding": "markdown",
+      "model": "sonnet",
+      "n": 4,
+      "tin": 2380,
+      "tokens_vs": -1,
+      "tout": 763,
+      "tout_vs": -19,
+      "turns": 1.0
+     },
+     {
+      "acc": 100.0,
+      "cpc_vs": -21,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "sonnet",
+      "n": 4,
+      "tin": 2534,
+      "tokens_vs": 1,
+      "tout": 673,
+      "tout_vs": -29,
+      "turns": 1.0
+     },
+     {
+      "acc": 96.0,
+      "cpc_vs": -7,
+      "encoding": "toon",
+      "model": "sonnet",
+      "n": 4,
+      "tin": 2253,
+      "tokens_vs": -1,
+      "tout": 870,
+      "tout_vs": -8,
+      "turns": 1.0
+     }
+    ],
+    "r2": [
+     {
+      "acc": 95.9,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "haiku",
+      "n": 4,
+      "tin": 4078,
+      "tokens_vs": 0,
+      "tout": 3087,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 95.9,
+      "cpc_vs": 1,
+      "encoding": "markdown",
+      "model": "haiku",
+      "n": 4,
+      "tin": 4406,
+      "tokens_vs": 4,
+      "tout": 3059,
+      "tout_vs": -1,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.7,
+      "cpc_vs": -25,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "haiku",
+      "n": 4,
+      "tin": 4715,
+      "tokens_vs": -5,
+      "tout": 2118,
+      "tout_vs": -31,
+      "turns": 1.0
+     },
+     {
+      "acc": 95.9,
+      "cpc_vs": -4,
+      "encoding": "toon",
+      "model": "haiku",
+      "n": 4,
+      "tin": 4154,
+      "tokens_vs": -1,
+      "tout": 2924,
+      "tout_vs": -5,
+      "turns": 1.0
+     },
+     {
+      "acc": 95.9,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "sonnet",
+      "n": 4,
+      "tin": 2216,
+      "tokens_vs": 0,
+      "tout": 940,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 96.3,
+      "cpc_vs": -8,
+      "encoding": "markdown",
+      "model": "sonnet",
+      "n": 4,
+      "tin": 2380,
+      "tokens_vs": 1,
+      "tout": 795,
+      "tout_vs": -15,
+      "turns": 1.0
+     },
+     {
+      "acc": 100.0,
+      "cpc_vs": -10,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "sonnet",
+      "n": 4,
+      "tin": 2534,
+      "tokens_vs": 5,
+      "tout": 785,
+      "tout_vs": -16,
+      "turns": 1.0
+     },
+     {
+      "acc": 95.9,
+      "cpc_vs": 0,
+      "encoding": "toon",
+      "model": "sonnet",
+      "n": 4,
+      "tin": 2253,
+      "tokens_vs": 1,
+      "tout": 935,
+      "tout_vs": -1,
+      "turns": 1.0
+     }
+    ]
+   },
+   "interval": [
+    {
+     "baseline": "csv",
+     "hi": 0.8292,
+     "lo": 0.6803,
+     "model": "haiku",
+     "n_workbooks": 4,
+     "ratio": 0.7439,
+     "verdict": "win"
+    },
+    {
+     "baseline": "markdown",
+     "hi": 0.8603,
+     "lo": 0.7684,
+     "model": "haiku",
+     "n_workbooks": 4,
+     "ratio": 0.8142,
+     "verdict": "win"
+    },
+    {
+     "baseline": "toon",
+     "hi": 0.857,
+     "lo": 0.7536,
+     "model": "haiku",
+     "n_workbooks": 4,
+     "ratio": 0.7983,
+     "verdict": "win"
+    },
+    {
+     "baseline": "csv",
+     "hi": 0.9272,
+     "lo": 0.7513,
+     "model": "sonnet",
+     "n_workbooks": 4,
+     "ratio": 0.8444,
+     "verdict": "win"
+    },
+    {
+     "baseline": "markdown",
+     "hi": 0.9814,
+     "lo": 0.8914,
+     "model": "sonnet",
+     "n_workbooks": 4,
+     "ratio": 0.9482,
+     "verdict": "win"
+    },
+    {
+     "baseline": "toon",
+     "hi": 0.9588,
+     "lo": 0.7562,
+     "model": "sonnet",
+     "n_workbooks": 4,
+     "ratio": 0.8765,
+     "verdict": "win"
+    }
+   ],
+   "mean": [
+    {
+     "acc": 94.1,
+     "cpc_vs": 0,
+     "encoding": "csv",
+     "model": "haiku",
+     "n": 8,
+     "tin": 4078,
+     "tokens_vs": 0,
+     "tout": 3336,
+     "tout_vs": 0,
+     "turns": 1.0
+    },
+    {
+     "acc": 94.6,
+     "cpc_vs": -9,
+     "encoding": "markdown",
+     "model": "haiku",
+     "n": 8,
+     "tin": 4406,
+     "tokens_vs": -1,
+     "tout": 2932,
+     "tout_vs": -12,
+     "turns": 1.0
+    },
+    {
+     "acc": 99.8,
+     "cpc_vs": -26,
+     "encoding": "sheetmark_lean_gfm",
+     "model": "haiku",
+     "n": 8,
+     "tin": 4715,
+     "tokens_vs": -5,
+     "tout": 2334,
+     "tout_vs": -30,
+     "turns": 1.0
+    },
+    {
+     "acc": 95.1,
+     "cpc_vs": -7,
+     "encoding": "toon",
+     "model": "haiku",
+     "n": 8,
+     "tin": 4154,
+     "tokens_vs": -2,
+     "tout": 3078,
+     "tout_vs": -8,
+     "turns": 1.0
+    },
+    {
+     "acc": 94.6,
+     "cpc_vs": 0,
+     "encoding": "csv",
+     "model": "sonnet",
+     "n": 8,
+     "tin": 2216,
+     "tokens_vs": 0,
+     "tout": 942,
+     "tout_vs": 0,
+     "turns": 1.0
+    },
+    {
+     "acc": 96.3,
+     "cpc_vs": -11,
+     "encoding": "markdown",
+     "model": "sonnet",
+     "n": 8,
+     "tin": 2380,
+     "tokens_vs": 0,
+     "tout": 779,
+     "tout_vs": -17,
+     "turns": 1.0
+    },
+    {
+     "acc": 100.0,
+     "cpc_vs": -16,
+     "encoding": "sheetmark_lean_gfm",
+     "model": "sonnet",
+     "n": 8,
+     "tin": 2534,
+     "tokens_vs": 3,
+     "tout": 729,
+     "tout_vs": -23,
+     "turns": 1.0
+    },
+    {
+     "acc": 96.0,
+     "cpc_vs": -4,
+     "encoding": "toon",
+     "model": "sonnet",
+     "n": 8,
+     "tin": 2253,
+     "tokens_vs": 0,
+     "tout": 902,
+     "tout_vs": -4,
+     "turns": 1.0
+    }
+   ],
+   "workbooks": 4
+  },
+  "standard": {
+   "by_rep": {
+    "r1": [
+     {
+      "acc": 98.2,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "haiku",
+      "n": 10,
+      "tin": 6699,
+      "tokens_vs": 0,
+      "tout": 1707,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.6,
+      "cpc_vs": 5,
+      "encoding": "markdown",
+      "model": "haiku",
+      "n": 10,
+      "tin": 7947,
+      "tokens_vs": 14,
+      "tout": 1642,
+      "tout_vs": -4,
+      "turns": 1.0
+     },
+     {
+      "acc": 98.9,
+      "cpc_vs": -7,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "haiku",
+      "n": 10,
+      "tin": 7600,
+      "tokens_vs": 6,
+      "tout": 1345,
+      "tout_vs": -21,
+      "turns": 1.0
+     },
+     {
+      "acc": 86.5,
+      "cpc_vs": 26,
+      "encoding": "toon",
+      "model": "haiku",
+      "n": 10,
+      "tin": 6877,
+      "tokens_vs": 6,
+      "tout": 1997,
+      "tout_vs": 17,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.6,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "sonnet",
+      "n": 10,
+      "tin": 3526,
+      "tokens_vs": 0,
+      "tout": 517,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.6,
+      "cpc_vs": 12,
+      "encoding": "markdown",
+      "model": "sonnet",
+      "n": 10,
+      "tin": 4150,
+      "tokens_vs": 16,
+      "tout": 537,
+      "tout_vs": 4,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.6,
+      "cpc_vs": 2,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "sonnet",
+      "n": 10,
+      "tin": 3977,
+      "tokens_vs": 10,
+      "tout": 455,
+      "tout_vs": -12,
+      "turns": 1.0
+     },
+     {
+      "acc": 98.0,
+      "cpc_vs": 7,
+      "encoding": "toon",
+      "model": "sonnet",
+      "n": 10,
+      "tin": 3615,
+      "tokens_vs": 3,
+      "tout": 566,
+      "tout_vs": 10,
+      "turns": 1.0
+     }
+    ],
+    "r2": [
+     {
+      "acc": 99.2,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "haiku",
+      "n": 10,
+      "tin": 6699,
+      "tokens_vs": 0,
+      "tout": 1951,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 100.0,
+      "cpc_vs": 2,
+      "encoding": "markdown",
+      "model": "haiku",
+      "n": 10,
+      "tin": 7947,
+      "tokens_vs": 12,
+      "tout": 1780,
+      "tout_vs": -9,
+      "turns": 1.0
+     },
+     {
+      "acc": 98.0,
+      "cpc_vs": -17,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "haiku",
+      "n": 10,
+      "tin": 7600,
+      "tokens_vs": 1,
+      "tout": 1176,
+      "tout_vs": -40,
+      "turns": 1.0
+     },
+     {
+      "acc": 98.2,
+      "cpc_vs": 8,
+      "encoding": "toon",
+      "model": "haiku",
+      "n": 10,
+      "tin": 6877,
+      "tokens_vs": 4,
+      "tout": 2157,
+      "tout_vs": 11,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.6,
+      "cpc_vs": 0,
+      "encoding": "csv",
+      "model": "sonnet",
+      "n": 10,
+      "tin": 3526,
+      "tokens_vs": 0,
+      "tout": 530,
+      "tout_vs": 0,
+      "turns": 1.0
+     },
+     {
+      "acc": 100.0,
+      "cpc_vs": 19,
+      "encoding": "markdown",
+      "model": "sonnet",
+      "n": 10,
+      "tin": 4150,
+      "tokens_vs": 18,
+      "tout": 640,
+      "tout_vs": 21,
+      "turns": 1.0
+     },
+     {
+      "acc": 99.6,
+      "cpc_vs": -4,
+      "encoding": "sheetmark_lean_gfm",
+      "model": "sonnet",
+      "n": 10,
+      "tin": 3977,
+      "tokens_vs": 8,
+      "tout": 393,
+      "tout_vs": -26,
+      "turns": 1.0
+     },
+     {
+      "acc": 97.9,
+      "cpc_vs": 5,
+      "encoding": "toon",
+      "model": "sonnet",
+      "n": 10,
+      "tin": 3615,
+      "tokens_vs": 3,
+      "tout": 557,
+      "tout_vs": 5,
+      "turns": 1.0
+     }
+    ]
+   },
+   "interval": [
+    {
+     "baseline": "csv",
+     "hi": 0.9747,
+     "lo": 0.7774,
+     "model": "haiku",
+     "n_workbooks": 10,
+     "ratio": 0.8792,
+     "verdict": "win"
+    },
+    {
+     "baseline": "markdown",
+     "hi": 0.9502,
+     "lo": 0.7586,
+     "model": "haiku",
+     "n_workbooks": 10,
+     "ratio": 0.8537,
+     "verdict": "no difference"
+    },
+    {
+     "baseline": "toon",
+     "hi": 0.8878,
+     "lo": 0.6222,
+     "model": "haiku",
+     "n_workbooks": 10,
+     "ratio": 0.7554,
+     "verdict": "win"
+    },
+    {
+     "baseline": "csv",
+     "hi": 1.0701,
+     "lo": 0.915,
+     "model": "sonnet",
+     "n_workbooks": 10,
+     "ratio": 0.9921,
+     "verdict": "no difference"
+    },
+    {
+     "baseline": "markdown",
+     "hi": 0.9717,
+     "lo": 0.749,
+     "model": "sonnet",
+     "n_workbooks": 10,
+     "ratio": 0.8609,
+     "verdict": "win"
+    },
+    {
+     "baseline": "toon",
+     "hi": 1.045,
+     "lo": 0.822,
+     "model": "sonnet",
+     "n_workbooks": 10,
+     "ratio": 0.9334,
+     "verdict": "no difference"
+    }
+   ],
+   "mean": [
+    {
+     "acc": 98.7,
+     "cpc_vs": 0,
+     "encoding": "csv",
+     "model": "haiku",
+     "n": 20,
+     "tin": 6699,
+     "tokens_vs": 0,
+     "tout": 1829,
+     "tout_vs": 0,
+     "turns": 1.0
+    },
+    {
+     "acc": 99.8,
+     "cpc_vs": 3,
+     "encoding": "markdown",
+     "model": "haiku",
+     "n": 20,
+     "tin": 7947,
+     "tokens_vs": 13,
+     "tout": 1711,
+     "tout_vs": -6,
+     "turns": 1.0
+    },
+    {
+     "acc": 98.5,
+     "cpc_vs": -12,
+     "encoding": "sheetmark_lean_gfm",
+     "model": "haiku",
+     "n": 20,
+     "tin": 7600,
+     "tokens_vs": 4,
+     "tout": 1260,
+     "tout_vs": -31,
+     "turns": 1.0
+    },
+    {
+     "acc": 92.4,
+     "cpc_vs": 16,
+     "encoding": "toon",
+     "model": "haiku",
+     "n": 20,
+     "tin": 6877,
+     "tokens_vs": 5,
+     "tout": 2077,
+     "tout_vs": 14,
+     "turns": 1.0
+    },
+    {
+     "acc": 99.6,
+     "cpc_vs": 0,
+     "encoding": "csv",
+     "model": "sonnet",
+     "n": 20,
+     "tin": 3526,
+     "tokens_vs": 0,
+     "tout": 523,
+     "tout_vs": 0,
+     "turns": 1.0
+    },
+    {
+     "acc": 99.8,
+     "cpc_vs": 15,
+     "encoding": "markdown",
+     "model": "sonnet",
+     "n": 20,
+     "tin": 4150,
+     "tokens_vs": 17,
+     "tout": 588,
+     "tout_vs": 12,
+     "turns": 1.0
+    },
+    {
+     "acc": 99.6,
+     "cpc_vs": -1,
+     "encoding": "sheetmark_lean_gfm",
+     "model": "sonnet",
+     "n": 20,
+     "tin": 3977,
+     "tokens_vs": 9,
+     "tout": 424,
+     "tout_vs": -19,
+     "turns": 1.0
+    },
+    {
+     "acc": 98.0,
+     "cpc_vs": 6,
+     "encoding": "toon",
+     "model": "sonnet",
+     "n": 20,
+     "tin": 3615,
+     "tokens_vs": 3,
+     "tout": 561,
+     "tout_vs": 7,
+     "turns": 1.0
+    }
+   ],
+   "workbooks": 10
+  }
+ },
+ "tasks": {
+  "csv": {
+   "address": {
+    "acc": 100.0,
+    "n": 56
+   },
+   "hardcode": {
+    "acc": 68.1,
+    "n": 12
+   },
+   "impact": {
+    "acc": 97.0,
+    "n": 92
+   },
+   "lookup": {
+    "acc": 100.0,
+    "n": 128
+   },
+   "trace": {
+    "acc": 98.6,
+    "n": 84
+   }
+  },
+  "markdown": {
+   "address": {
+    "acc": 100.0,
+    "n": 56
+   },
+   "hardcode": {
+    "acc": 74.2,
+    "n": 12
+   },
+   "impact": {
+    "acc": 98.0,
+    "n": 92
+   },
+   "lookup": {
+    "acc": 100.0,
+    "n": 128
+   },
+   "trace": {
+    "acc": 100.0,
+    "n": 84
+   }
+  },
+  "sheetmark_lean_gfm": {
+   "address": {
+    "acc": 100.0,
+    "n": 56
+   },
+   "hardcode": {
+    "acc": 100.0,
+    "n": 12
+   },
+   "impact": {
+    "acc": 97.2,
+    "n": 92
+   },
+   "lookup": {
+    "acc": 100.0,
+    "n": 128
+   },
+   "trace": {
+    "acc": 100.0,
+    "n": 84
+   }
+  },
+  "toon": {
+   "address": {
+    "acc": 96.4,
+    "n": 56
+   },
+   "hardcode": {
+    "acc": 75.0,
+    "n": 12
+   },
+   "impact": {
+    "acc": 94.9,
+    "n": 92
+   },
+   "lookup": {
+    "acc": 100.0,
+    "n": 128
+   },
+   "trace": {
+    "acc": 90.5,
+    "n": 84
+   }
+  }
+ }
+}

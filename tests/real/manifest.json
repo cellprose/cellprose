@@ -1,0 +1,132 @@
+{
+ "committed": [
+  {
+   "file": "bea_gdp4q22.xlsx",
+   "source_url": "https://www.bea.gov/sites/default/files/2023-03/gdp4q22_3rd.xlsx",
+   "licence": "US federal government work, public domain (BEA)",
+   "converted_from_xls": false,
+   "sha256": "289af5ef72665d2b5fb7e7a16a43a0a8949e89283a8624f21d1687a5c050c29d"
+  },
+  {
+   "file": "irs_soi_20in11si.xlsx",
+   "source_url": "https://www.irs.gov/pub/irs-soi/20in11si.xls",
+   "licence": "US federal government work, public domain (IRS)",
+   "converted_from_xls": true,
+   "sha256": "6d1e01a8a05a1cf101fe38d97eb74c10c37f5f8d2eee52fd86ac5d507dd461dc"
+  },
+  {
+   "file": "census_newresconst.xlsx",
+   "source_url": "https://www.census.gov/construction/nrc/xls/newresconst.xls",
+   "licence": "US federal government work, public domain (Census)",
+   "converted_from_xls": true,
+   "sha256": "919bcb276e3aa5bb93e7167037cafefa2f1c24eb06fc1e0c19635156f636771e"
+  },
+  {
+   "file": "worldbank_gdp.xlsx",
+   "source_url": "https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=excel",
+   "licence": "CC BY 4.0 (World Bank Open Data)",
+   "converted_from_xls": true,
+   "sha256": "4c33f0770ca86647dd7c1e04b7d50e2c6af85f7f6e587b8862b96f4cdfeb71f8"
+  },
+  {
+   "file": "ogl00_Translink_Northern_Ireland_Rai.xlsx",
+   "source_url": "https://admin.opendatani.gov.uk/dataset/e41b1057-b0bd-4419-95eb-77057c8ad6b0/resource/ba078f82-0138-4f98-940c-4e06abe1aec5/download/location-conversion-codes-page1.xls",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "converted_from_xls": true,
+   "sha256": "58bd3d41bf99d3a28dd58b7ced8f3c264e98fd3d2fea0aec993fd4d18f07ae9d"
+  },
+  {
+   "file": "ogl01_Department_of_Finance___Depart.xlsx",
+   "source_url": "https://admin.opendatani.gov.uk/dataset/9f2a1038-d9e2-4d92-97a6-4ef46658e643/resource/36d4b85c-d0c5-491d-8831-bb1fef3a4e68/download/r378-payments-over-25k-new-version-apr-262.xlsx",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "converted_from_xls": false,
+   "sha256": "9cf1d37a70510333691229f18dc48ba405b926524f166eb8d795717a8f3848af"
+  },
+  {
+   "file": "ogl04_Department_of_Health___Departm.xlsx",
+   "source_url": "https://admin.opendatani.gov.uk/dataset/31665512-77a5-4968-8319-2729936d5568/resource/5bee71a8-0384-4e06-b0cf-5ee526ae0cdf/download/august-2026-27-department-of-health-payments-over-25000.xlsx",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "converted_from_xls": false,
+   "sha256": "3c4f600415488987521c9fe619e79f7b174a7b354e1db752dbf484ccc5a93822"
+  },
+  {
+   "file": "ogl05_Purchase_Orders_over__5000.xlsx",
+   "source_url": "https://live-iag-static-assets.s3-eu-west-1.amazonaws.com/pdf/Transparency/spendOver5000/Purchase+Orders+Over+%C2%A35000+-+January+-+March+2019.xlsx",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "converted_from_xls": false,
+   "sha256": "6652b78e8e0e4a40e6e14749c567e69966bf8ea8f93ca85e8ff2647e693a821c"
+  },
+  {
+   "file": "ogl06_Spend_over__25_000_in_Plymouth.xlsx",
+   "source_url": "https://www.plymouthhospitals.nhs.uk/download.cfm?doc=docm93jijm4n16172.xlsx&ver=23427",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "converted_from_xls": false,
+   "sha256": "1eb473dbddfc17aec1f784ae80c36aee8971dfe0a12e1a63fe5b9e9174a22ffb"
+  },
+  {
+   "file": "ogl07_Establishments_approved_to_exp.xlsx",
+   "source_url": "https://s3.eu-west-1.amazonaws.com/data.defra.gov.uk/Food/cert/auth_establishments/List+of+EU+and+EFTA+approved+establishments.xlsx",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "converted_from_xls": false,
+   "sha256": "6fc7f66e0c3df3bb6105387ae53e35562a584fae5dc52db8db7c67601f2d4e96"
+  },
+  {
+   "file": "ogl12_Purchase_Card_Transactions.xlsx",
+   "source_url": "https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/pdf/Transparency/purchaseCardTransactions/Purchasing+Card+-+Nov+18.xlsx",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "converted_from_xls": false,
+   "sha256": "f6dd611e919890e9bffc2fc8e873c72ab6152798c9a2fda1a8a8a01ac4ff3990"
+  },
+  {
+   "file": "ogl13_Spend_over__25_000_in_Worceste.xlsx",
+   "source_url": "https://www.hacw.nhs.uk/download.cfm?doc=docm93jijm4n13241.xlsx&ver=23952",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "converted_from_xls": false,
+   "sha256": "b3e8545a4ef03bcf807f4dc393dd6e03e7a751a0931cf0a3497f860ef0c2ce5e"
+  },
+  {
+   "file": "ogl14_Cornwall_Partnership_NHS_Found.xlsx",
+   "source_url": "https://www.cornwallft.nhs.uk/download.cfm?doc=docm93jijm4n20985.xlsx&ver=59157",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "converted_from_xls": false,
+   "sha256": "ecc1cd0926cce2fe6aed81ed043ea5e23d01ec885e1ef7051e43bc2185f5f736"
+  }
+ ],
+ "fetch": [
+  {
+   "file": "dam_fcffginzu.xlsx",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffginzu.xlsx",
+   "licence": "No explicit licence; published by A. Damodaran (NYU Stern) for free public use. Do not redistribute outside this project; not committed to repos.",
+   "converted_from_xls": false,
+   "sha256": "df8f9e91cc53afe2bdb33cf39b8f2719206ac03b6a5031f1858f82235ea944c9"
+  },
+  {
+   "file": "dam_fcffsimpleginzu.xlsx",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffsimpleginzu.xlsx",
+   "licence": "No explicit licence; published by A. Damodaran (NYU Stern) for free public use. Do not redistribute outside this project; not committed to repos.",
+   "converted_from_xls": false,
+   "sha256": "d6ffb67d965dc22463e4d013636befab3da431e7fc608936a82612fa73198e72"
+  },
+  {
+   "file": "dam_fcffsimpleginzuCorona.xlsx",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffsimpleginzuCorona.xlsx",
+   "licence": "No explicit licence; published by A. Damodaran (NYU Stern) for free public use. Do not redistribute outside this project; not committed to repos.",
+   "converted_from_xls": false,
+   "sha256": "ea1320dd137d0135f7e31e69b80eb9a1dfa611ff5d5e1f618a00eda31bc5ac70"
+  },
+  {
+   "file": "dam_capstru.xlsx",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/capstru.xlsx",
+   "licence": "No explicit licence; published by A. Damodaran (NYU Stern) for free public use. Do not redistribute outside this project; not committed to repos.",
+   "converted_from_xls": false,
+   "sha256": "32ccdad0e50d87226908162ab512e067a7614fbbe26b9291b7f0de155d2b7115"
+  },
+  {
+   "file": "dam_ctryprem.xlsx",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/ctryprem.xlsx",
+   "licence": "No explicit licence; published by A. Damodaran (NYU Stern) for free public use. Do not redistribute outside this project; not committed to repos.",
+   "converted_from_xls": false,
+   "sha256": "b5200e8abcb09f55a4a56c9493657d7556af30ede0d10928c403e352627109c9"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "sheets": [
+  {
+   "name": "Beta",
+   "state": "visible",
+   "freeze": null,
+   "merges": [],
+   "names": {
+    "Cap": "Beta!$A$2",
+    "Rate": "Beta!$A$1"
+   },
+   "cells": {
+    "A1": {
+     "v": 0.05
+    },
+    "A2": {
+     "v": 100
+    }
+   }
+  },
+  {
+   "name": "Alpha",
+   "state": "visible",
+   "freeze": null,
+   "merges": [],
+   "names": {
+    "Rate": "Alpha!$A$1"
+   },
+   "cells": {
+    "A1": {
+     "v": 0.07
+    }
+   }
+  },
+  {
+   "name": "Q1 Data",
+   "state": "visible",
+   "freeze": null,
+   "merges": [],
+   "names": {},
+   "cells": {
+    "A1": {
+     "v": 1
+    },
+    "A2": {
+     "v": 2
+    }
+   }
+  }
+ ],
+ "names": {
+  "Alpha": "Beta!$A$1",
+  "Doubled": "Beta!$A$2*2",
+  "Tax": "0.07",
+  "Zeta": "'Q1 Data'!$A$1:$A$2"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw_dam_fcffginzu",
+ "encoding": "csv",
+ "prompt_chars": 110259,
+ "prompt_sha256": "9e31e256c99b7619ea24549de749e592534f9d0ebbf345d63e4d1105e76fca2a",
+ "result": "{\"q1\":377.140217,\"q2\":0.08300988546,\"q3\":\"Valuation Model!F62\",\"q4\":[\"Valuation Model!F65\",\"Valuation Model!F66\",\"Valuation Model!F67\"],\"q5\":[\"Valuation Model!F72\",\"Valuation Model!F71\"],\"q6\":[\"Master Inputs Start here!B55\",\"Master Inputs Start here!B57\",\"Valuation Model!D16:D17\",\"Valuation Model!D27:D28\",\"Valuation Model!D30:D31\",\"Valuation Model!D47:L47\",\"Valuation Model!D48:M49\",\"Valuation Model!F61:F63\",\"Valuation Model!F65\",\"Valuation Model!F68\",\"Valuation Model!F70:F71\",\"Valuation Model!F73\",\"Input Summary!B5\",\"Stories to Numbers!B14:B15\",\"Stories to Numbers!C21\",\"Stories to Numbers!C23:C24\",\"Stories to Numbers!C27\",\"Stories to Numbers!C29:C30\",\"Stories to Numbers!C32\",\"Stories to Numbers!E22\",\"Stories to Numbers!F21:F22\",\"Option Value!D9\",\"Option Value!F14\",\"Option Value!C15\",\"Option Value!B20:B21\",\"Option Value!B23:B24\",\"Option Value!C26\",\"Option Value!D27\",\"Cost of capital worksheet!B4\",\"Cost of capital worksheet!C35\",\"Cost of capital worksheet!B38\",\"Cost of capital worksheet!E38\",\"Cost of capital worksheet!B39:C39\",\"Cost of capital worksheet!B40\",\"Cost of capital worksheet!E40\"]}",
+ "usage": {
+  "input_tokens": 49488,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1807,
+  "output_tokens_details": {
+   "thinking_tokens": 1451
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 49488,
+   "outputTokens": 1807,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1451
+  }
+ },
+ "cost": 0.117046,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 27.2,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_5bc8e8c5c35d45778a5322cb8f064dc8",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "input_tokens": 49488,
+   "input_tokens_details": {
+    "cache_write_tokens": 49485,
+    "cached_tokens": 0,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 1807,
+   "output_tokens_details": {
+    "reasoning_tokens": 1451
+   },
+   "total_tokens": 51295,
+   "billed_input_tokens": 49488,
+   "tokenizer_input_tokens_o200k": 49477,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 49477
+  },
+  "finished_at": "2026-11-07T09:09:46+00:00"
+ }
+}

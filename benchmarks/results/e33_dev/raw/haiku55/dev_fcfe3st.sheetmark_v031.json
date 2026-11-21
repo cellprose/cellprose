@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_fcfe3st",
+ "encoding": "sheetmark_v031",
+ "prompt_chars": 24312,
+ "prompt_sha256": "06485f37d79446936f9e7e52f5753ec2a5f0761dfeef03591430f7da1194e67e",
+ "result": "```json\n{\"q1\": \"Earnings g\", \"q2\": \"NewFCFE3Stage!N147\", \"q3\": [\"NewFCFE3Stage!E73\", \"NewFCFE3Stage!J150\", \"NewFCFE3Stage!F75\", \"NewFCFE3Stage!D34\", \"NewFCFE3Stage!E157\", \"NewFCFE3Stage!D35\", \"NewFCFE3Stage!D36\", \"NewFCFE3Stage!F76\"], \"q4\": [\"NewFCFE3Stage!F85\", \"NewFCFE3Stage!E155\", \"NewFCFE3Stage!C90\"], \"q5\": [\"NewFCFE3Stage!E122\", \"NewFCFE3Stage!D124\", \"NewFCFE3Stage!D128\", \"NewFCFE3Stage!D129\", \"NewFCFE3Stage!D130\", \"NewFCFE3Stage!D136:M136\", \"NewFCFE3Stage!D137:M137\", \"NewFCFE3Stage!D138:M138\", \"NewFCFE3Stage!D139:M139\", \"NewFCFE3Stage!D140:M140\", \"NewFCFE3Stage!F160\", \"NewFCFE3Stage!D144:M144\", \"NewFCFE3Stage!D145:M145\", \"NewFCFE3Stage!D146:M146\", \"NewFCFE3Stage!N146\", \"NewFCFE3Stage!D147:M147\", \"NewFCFE3Stage!N147\", \"NewFCFE3Stage!D148:M148\", \"NewFCFE3Stage!N148\", \"NewFCFE3Stage!D149:M149\", \"NewFCFE3Stage!N149\", \"NewFCFE3Stage!E156\", \"NewFCFE3Stage!E158\", \"NewFCFE3Stage!D152:M152\", \"NewFCFE3Stage!F161\", \"NewFCFE3Stage!F162\", \"NewFCFE3Stage!F163\"], \"q6\": [\"NewFCFE3Stage!D23\", \"NewFCFE3Stage!D24\", \"NewFCFE3Stage!D25\", \"NewFCFE3Stage!D26\", \"NewFCFE3Stage!D27\", \"NewFCFE3Stage!D29\"]}\n```",
+ "usage": {
+  "input_tokens": 15113,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3925,
+  "output_tokens_details": {
+   "thinking_tokens": 3166
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 15113,
+   "outputTokens": 3925,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 3166
+  }
+ },
+ "cost": 0.0034738,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T130946Z-3b4774",
+  "started_at": "2026-11-07T13:09:46+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "86fd51349b29cc81ee8ae533feb2ddae5ce8a31dfaf7619d70f8a0276a9ad6c6",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 16.2,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 15113,
+   "output_tokens": 3925,
+   "output_tokens_details": {
+    "thinking_tokens": 3166
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 15113
+  },
+  "finished_at": "2026-11-07T13:10:10+00:00"
+ }
+}

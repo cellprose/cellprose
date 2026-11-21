@@ -1,0 +1,69 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Week #3!AD13",
+  "q": "What is the value in the row labelled 'T 5', column headed 'Min', in the sheet 'Week #3'?",
+  "truth": 10,
+  "labels": [
+   "C13",
+   "AD5"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Week #3!F9",
+  "q": "Which cell holds the value in the row labelled 'Donna*', column headed 'New Total', in the sheet 'Week #3'? Give its cell address.",
+  "truth": "Week #3!F9",
+  "labels": [
+   "B9",
+   "F5"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Week #5!F11",
+  "q": "Consider the cell Week #5!F11 (in the row labelled 'T 4'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Week #5!E11",
+   "Week #5!G11"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Week #5!F17",
+  "q": "Consider the cell Week #5!F17 (in the row labelled 'T18'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Week #5!E17",
+   "Week #5!G17"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Week #4!AF11",
+  "factor": 1.1,
+  "q": "Suppose the number in Week #4!AF11 (in the row labelled 'T 4') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Week #4!AF27",
+   "Week #4!AF28",
+   "Week #4!AL11"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Total!E15",
+  "range": "Total!E15:I15",
+  "q": "Consider the range Total!E15:I15 (the row of 'T 11'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Total!F15",
+   "Total!G15",
+   "Total!H15",
+   "Total!I15"
+  ],
+  "id": "q6"
+ }
+]

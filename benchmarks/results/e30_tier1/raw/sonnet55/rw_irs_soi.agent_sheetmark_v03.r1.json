@@ -1,0 +1,158 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_irs_soi",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1367,
+ "prompt_sha256": "5e77961e0a45cea420f6d1964932545af0f7ceb179e2719696c207d477941974",
+ "result": "```json\n{\"q1\": 22602996, \"q2\": 2458885718, \"q3\": \"TBL11!U29\", \"q4\": [\"TBL11!Q27\", \"TBL11!G27\"], \"q5\": [\"TBL11!U26\"]}\n```",
+ "usage": {
+  "input_tokens": 23953,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 690,
+  "output_tokens_details": {
+   "thinking_tokens": 221
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 23953,
+   "outputTokens": 690,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 221
+  }
+ },
+ "cost": 0.054806,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1043,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 69,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 4562,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 128,
+     "reasoning_tokens": 27,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 5444,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 170,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 6328,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 242,
+     "reasoning_tokens": 194,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 6576,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 81,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:07:53+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.0
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"head -c 6000 book.sheet.md; wc book.sheet.md\"}",
+   "output_chars": 6030
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n \\\"formula\\\\|=\\\" book.sheet.md | grep -v \\\"^.*| *[0-9]\\\" | head -50; grep -n \\\"^## \\\" book.sheet.md\"}",
+   "output_chars": 1015
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 125,134p book.sheet.md; sed -n 180,243p book.sheet.md\"}",
+   "output_chars": 696
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 8,10p book.sheet.md >/dev/null; grep -n \\\"^\\\\(31\\\\|32\\\\)|\\\" book.sheet.md | head -3\"}",
+   "output_chars": 290
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"echo\"}",
+   "output_chars": 1
+  }
+ ]
+}

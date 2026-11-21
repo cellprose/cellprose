@@ -1,0 +1,150 @@
+{
+ "oneshot_standard": [
+  {
+   "model": "gpt61sol",
+   "encoding": "csv",
+   "n": 17,
+   "acc": 96.9,
+   "tokens": 31074.94117647059,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.06708258823529412,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "markitdown",
+   "n": 17,
+   "acc": 95.9,
+   "tokens": 38720.529411764706,
+   "tokens_vs": 25.0,
+   "tout_vs": 13.0,
+   "cost": 0.08303164705882353,
+   "cost_vs": 24.0,
+   "cost_per_correct_vs": 25.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 17,
+   "acc": 99.1,
+   "tokens": 35015.94117647059,
+   "tokens_vs": 13.0,
+   "tout_vs": -66.0,
+   "cost": 0.0716864705882353,
+   "cost_vs": 7.0,
+   "cost_per_correct_vs": 4.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "csv",
+   "n": 17,
+   "acc": 79.7,
+   "tokens": 32679.0,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.004156158823529411,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "markitdown",
+   "n": 17,
+   "acc": 88.6,
+   "tokens": 39955.29411764706,
+   "tokens_vs": 22.0,
+   "tout_vs": -13.0,
+   "cost": 0.004768964705882353,
+   "cost_vs": 15.0,
+   "cost_per_correct_vs": 3.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 17,
+   "acc": 99.0,
+   "tokens": 35818.58823529412,
+   "tokens_vs": 10.0,
+   "tout_vs": -55.0,
+   "cost": 0.0039856470588235295,
+   "cost_vs": -4.0,
+   "cost_per_correct_vs": -23.0
+  }
+ ],
+ "oneshot_all": [
+  {
+   "model": "gpt61sol",
+   "encoding": "csv",
+   "n": 17,
+   "acc": 96.9,
+   "tokens": 31074.94117647059,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.06708258823529412,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "markitdown",
+   "n": 17,
+   "acc": 95.9,
+   "tokens": 38720.529411764706,
+   "tokens_vs": 25.0,
+   "tout_vs": 13.0,
+   "cost": 0.08303164705882353,
+   "cost_vs": 24.0,
+   "cost_per_correct_vs": 25.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 17,
+   "acc": 99.1,
+   "tokens": 35015.94117647059,
+   "tokens_vs": 13.0,
+   "tout_vs": -66.0,
+   "cost": 0.0716864705882353,
+   "cost_vs": 7.0,
+   "cost_per_correct_vs": 4.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "csv",
+   "n": 17,
+   "acc": 79.7,
+   "tokens": 32679.0,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.004156158823529411,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "markitdown",
+   "n": 17,
+   "acc": 88.6,
+   "tokens": 39955.29411764706,
+   "tokens_vs": 22.0,
+   "tout_vs": -13.0,
+   "cost": 0.004768964705882353,
+   "cost_vs": 15.0,
+   "cost_per_correct_vs": 3.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 17,
+   "acc": 99.0,
+   "tokens": 35818.58823529412,
+   "tokens_vs": 10.0,
+   "tout_vs": -55.0,
+   "cost": 0.0039856470588235295,
+   "cost_vs": -4.0,
+   "cost_per_correct_vs": -23.0
+  }
+ ]
+}

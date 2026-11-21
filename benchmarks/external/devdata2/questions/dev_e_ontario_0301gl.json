@@ -1,0 +1,70 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Ontario!V7",
+  "q": "What is the value in the row labelled 'Total Flash to Actual Variance', column headed 'Total', in the sheet 'Ontario'?",
+  "truth": 21189639,
+  "labels": [
+   "A7",
+   "V6"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Ontario!R31",
+  "q": "Which cell holds the value in the row labelled 'Miscellaneous variances', in the sheet 'Ontario'? Give its cell address.",
+  "truth": "Ontario!R31",
+  "labels": [
+   "C31"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Ontario!I84",
+  "q": "Consider the cell Ontario!I84 (in the row labelled 'Unexplained Variance'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Ontario!I7",
+   "Ontario!I82"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Ontario!L84",
+  "q": "Consider the cell Ontario!L84 (in the row labelled 'Unexplained Variance'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Ontario!L7",
+   "Ontario!L82"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Ontario!E12",
+  "factor": 1.1,
+  "q": "Suppose the number in Ontario!E12 (in the row labelled 'PMA's') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Ontario!E14",
+   "Ontario!E82",
+   "Ontario!E84",
+   "Ontario!V12",
+   "Ontario!V14",
+   "Ontario!V82",
+   "Ontario!V84"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Ontario!O71",
+  "range": "Ontario!O71:R71",
+  "q": "Consider the range Ontario!O71:R71 (the row of 'Enron Canada purchase variances - Deals ECC doesn't recognize'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Ontario!Q71",
+   "Ontario!R71"
+  ],
+  "id": "q6"
+ }
+]

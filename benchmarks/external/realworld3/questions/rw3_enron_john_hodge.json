@@ -1,0 +1,71 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Sheet1!L17",
+  "q": "What is the value in the row labelled 'Summer 05', column headed 'Transco Z5', in the sheet 'Sheet1'?",
+  "truth": 0.41999999999999993,
+  "labels": [
+   "J17",
+   "L12"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Sheet1!L15",
+  "q": "Which cell holds the value in the row labelled 'Summer 03', column headed 'Transco Z5', in the sheet 'Sheet1'? Give its cell address.",
+  "truth": "Sheet1!L15",
+  "labels": [
+   "J15",
+   "L12"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Sheet1!H50",
+  "q": "Consider the cell Sheet1!H50. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sheet1!F50",
+   "Sheet1!G50"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Sheet1!K5",
+  "q": "Consider the cell Sheet1!K5 (in the row labelled 'Winter 01'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sheet1!E5",
+   "Sheet1!E6",
+   "Sheet1!E7",
+   "Sheet1!E8",
+   "Sheet1!E9"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Sheet1!D24",
+  "factor": 1.1,
+  "q": "Suppose the number in Sheet1!D24 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Sheet1!E24",
+   "Sheet1!K14"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Sheet1!B7",
+  "range": "Sheet1!B7:H7",
+  "q": "Consider the range Sheet1!B7:H7. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Sheet1!C7",
+   "Sheet1!D7",
+   "Sheet1!F7",
+   "Sheet1!G7"
+  ],
+  "id": "q6"
+ }
+]

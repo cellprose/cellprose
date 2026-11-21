@@ -1,0 +1,117 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_fcff2st",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1263,
+ "prompt_sha256": "f9f1c19aae7e3e210a1b946dfda6dd091460f96e2d423dbf3874cef2dfbc227b",
+ "result": "{\"q1\":6494.75424716556,\"q2\":[\"NewFCFF2Stage!D138:M138\"],\"q3\":[\"NewFCFF2Stage!E43\",\"NewFCFF2Stage!E133\",\"NewFCFF2Stage!E134\",\"NewFCFF2Stage!E135\",\"NewFCFF2Stage!E136\"],\"q4\":[\"NewFCFF2Stage!C67\",\"NewFCFF2Stage!D122\",\"NewFCFF2Stage!D123\",\"NewFCFF2Stage!D127:D129\",\"NewFCFF2Stage!D134:H138\",\"NewFCFF2Stage!N134:N137\",\"NewFCFF2Stage!E141\",\"NewFCFF2Stage!E147\",\"NewFCFF2Stage!F149:F151\",\"NewFCFF2Stage!F154\",\"NewFCFF2Stage!F156\"],\"q5\":[]}",
+ "usage": {
+  "input_tokens": 6860,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 5348,
+  "output_tokens": 1722,
+  "output_tokens_details": {
+   "thinking_tokens": 1460
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 6860,
+   "outputTokens": 1722,
+   "cacheReadInputTokens": 5348,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1460
+  }
+ },
+ "cost": 0.0020818,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_886e305af23d473c907f5167c60a3d7b",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 534,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 50,
+     "reasoning_tokens": 17,
+     "tool_calls": [
+      "view_xlsx"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 5351,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 441,
+     "reasoning_tokens": 409,
+     "tool_calls": [
+      "view_xlsx"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 975,
+     "cache_read_tokens": 5348,
+     "cache_write_tokens": 0,
+     "output_tokens": 1231,
+     "reasoning_tokens": 1034,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.0016
+  },
+  "finished_at": "2026-11-11T18:34:38+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 20.2
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"NewFCFF2Stage\", \"range\": \"A1:K160\"}",
+   "output_chars": 11897
+  },
+  {
+   "turn": 2,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"NewFCFF2Stage\", \"range\": \"L125:N160\"}",
+   "output_chars": 1022
+  }
+ ]
+}

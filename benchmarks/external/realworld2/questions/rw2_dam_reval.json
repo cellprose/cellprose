@@ -1,0 +1,137 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Inputs & Property valuation!C7",
+  "q": "What is the value in the row labelled 'Inflation rate for real estate taxes =', column headed 'In terminal year', in the sheet 'Inputs & Property valuation'?",
+  "truth": 0.03,
+  "labels": [
+   "A7",
+   "C2"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Inputs & Property valuation!H32",
+  "q": "Which cell holds the value in the row labelled 'Depreciation', column headed 'Terminal year', in the sheet 'Inputs & Property valuation'? Give its cell address.",
+  "truth": "Inputs & Property valuation!H32",
+  "labels": [
+   "A32",
+   "H14"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Inputs & Property valuation!D31",
+  "q": "Consider the cell Inputs & Property valuation!D31 (in the row labelled 'Operating income before depreciation'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Inputs & Property valuation!D22",
+   "Inputs & Property valuation!D29"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Inputs & Property valuation!C21",
+  "q": "Consider the cell Inputs & Property valuation!C21 (in the row labelled 'Credit Loss'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Inputs & Property valuation!B21",
+   "Inputs & Property valuation!C18"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Inputs & Property valuation!E14",
+  "factor": 1.1,
+  "q": "Suppose the number in Inputs & Property valuation!E14 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Equity valuation!B2",
+   "Equity valuation!B31",
+   "Equity valuation!C19",
+   "Equity valuation!C20",
+   "Equity valuation!C22",
+   "Equity valuation!C24",
+   "Equity valuation!C25",
+   "Equity valuation!C26",
+   "Equity valuation!C29",
+   "Equity valuation!C31",
+   "Equity valuation!D19",
+   "Equity valuation!D20",
+   "Equity valuation!D22",
+   "Equity valuation!D24",
+   "Equity valuation!D25",
+   "Equity valuation!D26",
+   "Equity valuation!D29",
+   "Equity valuation!D31",
+   "Equity valuation!E10",
+   "Equity valuation!E11",
+   "Equity valuation!E12",
+   "Equity valuation!E15",
+   "Equity valuation!E17",
+   "Equity valuation!E18",
+   "Equity valuation!E19",
+   "Equity valuation!E20",
+   "Equity valuation!E22",
+   "Equity valuation!E24",
+   "Equity valuation!E25",
+   "Equity valuation!E26",
+   "Equity valuation!E28",
+   "Equity valuation!E29",
+   "Equity valuation!E31",
+   "Equity valuation!E4",
+   "Equity valuation!E6",
+   "Equity valuation!E7",
+   "Equity valuation!E8",
+   "Equity valuation!E9",
+   "Equity valuation!F19",
+   "Equity valuation!F20",
+   "Equity valuation!F22",
+   "Equity valuation!F24",
+   "Equity valuation!F25",
+   "Equity valuation!F26",
+   "Equity valuation!F29",
+   "Equity valuation!F31",
+   "Equity valuation!G19",
+   "Equity valuation!G20",
+   "Equity valuation!G22",
+   "Equity valuation!G24",
+   "Equity valuation!G25",
+   "Equity valuation!G26",
+   "Equity valuation!G29",
+   "Equity valuation!G30",
+   "Equity valuation!G31",
+   "Inputs & Property valuation!B40",
+   "Inputs & Property valuation!E16",
+   "Inputs & Property valuation!E17",
+   "Inputs & Property valuation!E18",
+   "Inputs & Property valuation!E19",
+   "Inputs & Property valuation!E20",
+   "Inputs & Property valuation!E21",
+   "Inputs & Property valuation!E22",
+   "Inputs & Property valuation!E25",
+   "Inputs & Property valuation!E27",
+   "Inputs & Property valuation!E28",
+   "Inputs & Property valuation!E29",
+   "Inputs & Property valuation!E31",
+   "Inputs & Property valuation!E33",
+   "Inputs & Property valuation!E34",
+   "Inputs & Property valuation!E35",
+   "Inputs & Property valuation!E37",
+   "Inputs & Property valuation!E38",
+   "Inputs & Property valuation!E40"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Inputs & Property valuation!G14",
+  "range": "Inputs & Property valuation!G14:G22",
+  "q": "Consider the range Inputs & Property valuation!G14:G22. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Inputs & Property valuation!G14"
+  ],
+  "id": "q6"
+ }
+]

@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw2_dam_reval",
+ "encoding": "cellprose_v03",
+ "prompt_chars": 10944,
+ "prompt_sha256": "24044f23c60ce4f7621b17a8903cf6272dcbf9d3c6c413f1180c394ef2f1e6da",
+ "result": "{\"q1\":0.03,\"q2\":\"Inputs & Property valuation!H32\",\"q3\":[\"Inputs & Property valuation!D22\",\"Inputs & Property valuation!D29\"],\"q4\":[\"Inputs & Property valuation!C18\",\"Inputs & Property valuation!B21\"],\"q5\":[\"Inputs & Property valuation!E16:E22\",\"Inputs & Property valuation!E25:E29\",\"Inputs & Property valuation!E31\",\"Inputs & Property valuation!E33:E35\",\"Inputs & Property valuation!E37:E38\",\"Inputs & Property valuation!E40\",\"Inputs & Property valuation!B40\",\"Equity valuation!B2\",\"Equity valuation!E4\",\"Equity valuation!E6:E12\",\"Equity valuation!E15:E18\",\"Equity valuation!C19:G20\",\"Equity valuation!C22:G22\",\"Equity valuation!C24:G26\",\"Equity valuation!E28\",\"Equity valuation!C29:G29\",\"Equity valuation!G30\",\"Equity valuation!B31:G31\"],\"q6\":[\"Inputs & Property valuation!G14\"]}",
+ "usage": {
+  "input_tokens": 6161,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1979,
+  "output_tokens_details": {
+   "thinking_tokens": 1614
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 6161,
+   "outputTokens": 1979,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1614
+  }
+ },
+ "cost": 0.032112,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 2,
+  "wall_seconds": 15.3,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 6161,
+   "output_tokens": 1979,
+   "output_tokens_details": {
+    "thinking_tokens": 1614
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 6161
+  },
+  "finished_at": "2026-11-11T15:13:49+00:00"
+ }
+}

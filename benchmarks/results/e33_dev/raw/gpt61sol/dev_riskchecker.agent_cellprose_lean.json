@@ -1,0 +1,119 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_riskchecker",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 2466,
+ "prompt_sha256": "3e6ee291a59d9f840647152af628c1b400862993cd21fa1a2b856db0477bbf4d",
+ "result": "{\"q1\":0.0025,\"q2\":\"Regional Risk Premiums!B12\",\"q3\":[\"ERP calculator!B9\",\"ERP calculator!B17\"],\"q4\":[\"ERP calculator!B32\",\"ERP calculator!B34\"],\"q5\":[\"Check numbers!B11:B13\"],\"q6\":[\"ERP calculator!B8\"]}",
+ "usage": {
+  "input_tokens": 3018,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 227,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 3018,
+   "outputTokens": 227,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.008306000000000001,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_805413a3c6ce42c589f2077e5091c956",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 938,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 149,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "trace"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2080,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 78,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T15:13:11+00:00",
+  "run_id": "20261107T151250Z-0e5436",
+  "started_at": "2026-11-07T15:12:50+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 4.8
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'Past T.Bill rates'!A1:C9\", \"'Regional Risk Premiums'!A1:D12\", \"'ERP calculator'!A4:E17\"]}",
+   "output_chars": 1894
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"ERP calculator!D9\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 98
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"ERP calculator!D32\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 97
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Check numbers!B8\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 73
+  }
+ ]
+}

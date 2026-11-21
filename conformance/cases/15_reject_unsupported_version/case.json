@@ -1,0 +1,8 @@
+{
+ "title": "A reader rejects a version it does not support",
+ "spec": "§3",
+ "read": {
+  "input": "input.sheet.md",
+  "rejects": true
+ }
+}

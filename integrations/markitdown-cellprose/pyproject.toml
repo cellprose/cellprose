@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "markitdown-cellprose"
+version = "0.1.0"
+description = "MarkItDown plugin: convert .xlsx/.xlsm workbooks to Cellprose text (formulas, every sheet, cell addresses)"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = ["cellprose>=0.3", "markitdown>=0.1.2"]
+
+[project.urls]
+Homepage = "https://cellprose.com"
+Documentation = "https://cellprose.com/guide/"
+Repository = "https://github.com/Utkarsh-Gaikwad/cellprose"
+Issues = "https://github.com/Utkarsh-Gaikwad/cellprose/issues"
+
+[project.entry-points."markitdown.plugin"]
+cellprose = "markitdown_cellprose"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/markitdown_cellprose"]

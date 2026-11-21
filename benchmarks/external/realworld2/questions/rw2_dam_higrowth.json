@@ -1,0 +1,81 @@
+[
+ {
+  "type": "address",
+  "cell": "Industry Averages!G24",
+  "q": "Which cell holds the value in the row labelled 'Electric Util. (Central)', column headed 'Market Debt/Capital', in the sheet 'Industry Averages'? Give its cell address.",
+  "truth": "Industry Averages!G24",
+  "labels": [
+   "A24",
+   "G1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "DCFValuation!G6",
+  "q": "Consider the cell DCFValuation!G6 (in the row labelled 'Taxes'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "DCFValuation!F12",
+   "DCFValuation!G5",
+   "Input Sheet(assumtion)!B17"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Other Expenses to Capitalize!C34",
+  "q": "Consider the cell Other Expenses to Capitalize!C34. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Other Expenses to Capitalize!A34",
+   "Other Expenses to Capitalize!F6"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "impact",
+  "cell": "R&D!F6",
+  "factor": 1.1,
+  "q": "Suppose the number in R&D!F6 (in the row labelled 'Over how many years do you want to amortize R&D expenses') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "R&D!A14",
+   "R&D!A28",
+   "R&D!C25",
+   "R&D!C26",
+   "R&D!C27",
+   "R&D!C28",
+   "R&D!D25",
+   "R&D!D26",
+   "R&D!D27",
+   "R&D!D28",
+   "R&D!D35",
+   "R&D!D37",
+   "R&D!D39",
+   "R&D!D40",
+   "R&D!E25",
+   "R&D!E26",
+   "R&D!E27",
+   "R&D!E28",
+   "R&D!E35"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Revenue Growth Numbers!B3",
+  "range": "Revenue Growth Numbers!B3:B13",
+  "q": "Consider the range Revenue Growth Numbers!B3:B13 (the column of 'Expected Growth Rate'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Revenue Growth Numbers!B10",
+   "Revenue Growth Numbers!B11",
+   "Revenue Growth Numbers!B12",
+   "Revenue Growth Numbers!B3",
+   "Revenue Growth Numbers!B4",
+   "Revenue Growth Numbers!B5",
+   "Revenue Growth Numbers!B6",
+   "Revenue Growth Numbers!B7",
+   "Revenue Growth Numbers!B8",
+   "Revenue Growth Numbers!B9"
+  ],
+  "id": "q5"
+ }
+]

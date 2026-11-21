@@ -1,0 +1,47 @@
+[
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Sheet2', for the row where 'Name' is 'Coleraine', what is the value of 'Easting'?",
+  "cell": "Sheet2!H16",
+  "key": {
+   "E": "Coleraine"
+  },
+  "labels": [
+   "E16",
+   "H16",
+   "H1"
+  ],
+  "id": "q1",
+  "truth": 285370
+ },
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Sheet2', for the row where 'Name' is 'Lisburn', what is the value of 'Northing'?",
+  "cell": "Sheet2!I39",
+  "key": {
+   "E": "Lisburn"
+  },
+  "labels": [
+   "E39",
+   "I39",
+   "I1"
+  ],
+  "id": "q2",
+  "truth": 364591
+ },
+ {
+  "type": "address",
+  "q": "In the sheet 'Sheet2', which cell holds 'Easting' for the row where 'Name' is 'Seahill'? Give its cell address.",
+  "cell": "Sheet2!H58",
+  "key": {
+   "E": "Seahill"
+  },
+  "labels": [
+   "E58",
+   "H58",
+   "H1"
+  ],
+  "id": "q3",
+  "truth": "Sheet2!H58"
+ }
+]

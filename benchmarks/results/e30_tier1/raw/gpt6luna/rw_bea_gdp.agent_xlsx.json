@@ -1,0 +1,116 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_bea_gdp",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1095,
+ "prompt_sha256": "2472d6d90398b4fdb59c5dffb164c87a3e01d64e2af82a84b3f86f74385a1ece",
+ "result": "{\"q1\":2.1,\"q2\":10.7,\"q3\":8.7,\"q4\":\"Table 1!K6\"}",
+ "usage": {
+  "input_tokens": 6920,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 309,
+  "output_tokens_details": {
+   "thinking_tokens": 100
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 6920,
+   "outputTokens": 309,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 100
+  }
+ },
+ "cost": 0.0008465,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_06d37567666d4710a1e0b466ef0dd5c7",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 406,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 70,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 760,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 110,
+     "reasoning_tokens": 9,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 5754,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 129,
+     "reasoning_tokens": 91,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:02:08+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 6.8
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nprint(w.sheetnames)\\nfor s in w:\\n print(s.title,s.max_row,s.max_column)\\nPY\"}",
+   "output_chars": 582
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\ns=openpyxl.load_workbook('book.xlsx',data_only=True)['Table 1']\\nfor r in range(1,65):\\n vals=[s.cell(r,c).value for c in range(1,23)]\\n if any(v is not None for v in vals): print(r, vals)\\nPY\"}",
+   "output_chars": 7628
+  }
+ ]
+}

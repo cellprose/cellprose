@@ -1,0 +1,72 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Normalized Earnings!B8",
+  "q": "What is the value in the row labelled 'Normalized ROE =', in the sheet 'Normalized Earnings'?",
+  "truth": 0.22,
+  "labels": [
+   "A8"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Inputs!B2",
+  "q": "Which cell holds the value in the row labelled 'Net Income =', in the sheet 'Inputs'? Give its cell address.",
+  "truth": "Inputs!B2",
+  "labels": [
+   "A2"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Excess Return Valuation!F13",
+  "q": "Consider the cell Excess Return Valuation!F13 (in the row labelled 'Present Value'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Excess Return Valuation!F10",
+   "Excess Return Valuation!F11",
+   "Excess Return Valuation!F12",
+   "Excess Return Valuation!F7",
+   "Inputs!B15"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Excess Return Valuation!J23",
+  "q": "Consider the cell Excess Return Valuation!J23 (in the row labelled 'Retained Earnings'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Excess Return Valuation!J22",
+   "Excess Return Valuation!J7",
+   "Excess Return Valuation!J8",
+   "Inputs!B15"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Inputs!B6",
+  "factor": 1.1,
+  "q": "Suppose the number in Inputs!B6 (in the row labelled 'Number of shares outstanding =') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Excess Return Valuation!B28",
+   "Excess Return Valuation!B29"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Normalized Earnings!B5",
+  "range": "Normalized Earnings!B5:G5",
+  "q": "Consider the range Normalized Earnings!B5:G5 (the row of 'Net Income'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Normalized Earnings!B5",
+   "Normalized Earnings!C5",
+   "Normalized Earnings!D5",
+   "Normalized Earnings!E5",
+   "Normalized Earnings!F5"
+  ],
+  "id": "q6"
+ }
+]

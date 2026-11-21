@@ -1,0 +1,56 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is the revenue of order ORD-2015?",
+  "cell": "Orders!E16",
+  "id": "q1",
+  "truth": 3015.04
+ },
+ {
+  "type": "lookup",
+  "q": "What is total margin across all categories?",
+  "cell": "Summary!C6",
+  "id": "q2",
+  "truth": 125858.87
+ },
+ {
+  "type": "lookup",
+  "q": "What is the category of order ORD-2030?",
+  "cell": "Orders!H31",
+  "id": "q3",
+  "truth": "Hardware"
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds the margin of order ORD-2044? Give its cell address.",
+  "cell": "Orders!G45",
+  "id": "q4",
+  "truth": "Orders!G45"
+ },
+ {
+  "type": "trace",
+  "q": "Consider the revenue of order ORD-2009. List the cells its formula reads directly (not indirectly).",
+  "cell": "Orders!E10",
+  "id": "q5",
+  "truth": [
+   "Orders!C10",
+   "Orders!D10"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose the quantity of order ORD-2009 increased by 10%. List every other cell whose value would change.",
+  "cell": "Orders!C10",
+  "factor": 1.1,
+  "id": "q6",
+  "truth": [
+   "Orders!E10",
+   "Orders!F10",
+   "Orders!G10",
+   "Summary!B3",
+   "Summary!B6",
+   "Summary!C3",
+   "Summary!C6"
+  ]
+ }
+]

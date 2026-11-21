@@ -1,0 +1,8 @@
+{
+ "title": "A reader expands fill ranges by shifting relative references; the grid's rounded results are ignored",
+ "spec": "§6.2",
+ "read": {
+  "input": "input.sheet.md",
+  "expected": "decoded.json"
+ }
+}

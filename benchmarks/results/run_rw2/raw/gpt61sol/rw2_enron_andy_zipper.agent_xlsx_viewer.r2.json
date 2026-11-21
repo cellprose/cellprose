@@ -1,0 +1,117 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw2_enron_andy_zipper",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1184,
+ "prompt_sha256": "7204e0315dd81bcd6a887b42d5879d9ff1ae2c439ef1ddff5d52172d4c168004",
+ "result": "{\"q1\":25000,\"q2\":\"Enron Activity - Dynegy Direct!D18\",\"q3\":[\"DD-EGL!B322\",\"DD-EGL!W322\"],\"q4\":[\"DD-EPM!E109\",\"DD-EPM!AA109\"],\"q5\":[]}",
+ "usage": {
+  "input_tokens": 2547,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1385,
+  "output_tokens": 443,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 2547,
+   "outputTokens": 443,
+   "cacheReadInputTokens": 1385,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.012294,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_2f0429968f624902a6c97218739d8bbe",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 509,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 247,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1388,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 130,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 650,
+     "cache_read_tokens": 1385,
+     "cache_write_tokens": 0,
+     "output_tokens": 66,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.009801
+  },
+  "finished_at": "2026-11-11T17:12:53+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 2,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 9.5
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx'); d=openpyxl.load_workbook('book.xlsx',data_only=True)\\nfor s,a in [('DD-EGL','C322'),('DD-EPM','F109')]:\\n print(s,a,w[s][a].value,'cached',d[s][a].value)\\nfor c in w['DD-EPM'][27][:6]: print(c.coordinate,repr(c.value),c.data_type)\\nfor s,term in [('DD-EGL','Wade Hicks'),('Enron Activity - Dynegy Direct','Susan Pereira')]:\\n sh=w[s]\\n for row in sh:\\n  for c in row:\\n   if c.value==term:\\n    print('MATCH',s,c.",
+   "output_chars": 1842
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=True);s=w['DD-EGL']\\nfor row in s:\\n for c in row:\\n  if c.value and (('wade' in str(c.value).lower()) or ('total volume' in str(c.value).lower())):\\n   print(c.coordinate,repr(c.value));print([(x.coordinate,x.value) for x in s[c.row] if x.value is not None])\\nPY\"}",
+   "output_chars": 1264
+  }
+ ]
+}

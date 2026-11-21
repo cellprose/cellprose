@@ -1,0 +1,5 @@
+set,model,encoding,n,failed_questions,lookup,address,trace,impact,hardcode,all,trace_exact,impact_exact,hardcode_exact,tokens,tokens_vs_csv
+standard,gpt61sol,agent_xlsx,240,0,87.5,75.0,100.0,89.2,100.0,92.0,100.0,75.0,100.0,,
+standard,gpt61sol,agent_cellprose_lean,240,0,90.0,75.0,100.0,100.0,100.0,94.2,100.0,100.0,100.0,,
+all,gpt61sol,agent_xlsx,240,0,87.5,75.0,100.0,89.2,100.0,92.0,100.0,75.0,100.0,,
+all,gpt61sol,agent_cellprose_lean,240,0,90.0,75.0,100.0,100.0,100.0,94.2,100.0,100.0,100.0,,

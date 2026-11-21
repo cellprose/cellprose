@@ -1,0 +1,68 @@
+[
+ {
+  "type": "lookup",
+  "cell": "You Call It!D14",
+  "q": "What is the value in the row labelled 'Price for 8 LLH =', column headed 'You Call It !', in the sheet 'You Call It'?",
+  "truth": 13.25,
+  "labels": [
+   "C14",
+   "D9"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Calculator!P29",
+  "q": "Which cell holds the value in the row labelled 'FLAT', column headed 'Q3-99', in the sheet 'Calculator'? Give its cell address.",
+  "truth": "Calculator!P29",
+  "labels": [
+   "M29",
+   "P26"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "You Call It!G5",
+  "q": "Consider the cell You Call It!G5 (in the row labelled 'Price for LLH ='). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "You Call It!D5",
+   "You Call It!E5",
+   "You Call It!F5"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Bal of Month!M9",
+  "q": "Consider the cell Bal of Month!M9 (in the row labelled 'Buy'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Bal of Month!M4",
+   "Bal of Month!M6"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Calculator!N15",
+  "factor": 1.1,
+  "q": "Suppose the number in Calculator!N15 (in the row labelled 'HLH') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Calculator!M43",
+   "Calculator!R27"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "You Call It!D4",
+  "range": "You Call It!D4:G4",
+  "q": "Consider the range You Call It!D4:G4 (the row of 'Price for HLH ='). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "You Call It!D4",
+   "You Call It!E4",
+   "You Call It!F4"
+  ],
+  "id": "q6"
+ }
+]

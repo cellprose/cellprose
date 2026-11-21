@@ -1,0 +1,78 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw_worldbank_gdp",
+ "encoding": "csv",
+ "prompt_chars": 285867,
+ "prompt_sha256": "c483ace8ee07a30bbe26d2f16cabb592cbbaecd2e12137d8074ac327f110ccce",
+ "result": "{\"q1\":4201021706000,\"q2\":5225933521000,\"q3\":\"Data!BP114\",\"q4\":114448978200}",
+ "usage": {
+  "input_tokens": 128630,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 455,
+  "output_tokens_details": {
+   "thinking_tokens": 414
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 128630,
+   "outputTokens": 455,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 414
+  }
+ },
+ "cost": 0.26181,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 6.5,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_355108a763944c5eb3a62f934cdce5e5",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "input_tokens": 128630,
+   "input_tokens_details": {
+    "cache_write_tokens": 128627,
+    "cached_tokens": 0,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 455,
+   "output_tokens_details": {
+    "reasoning_tokens": 414
+   },
+   "total_tokens": 129085,
+   "billed_input_tokens": 128630,
+   "tokenizer_input_tokens_o200k": 128619,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 128619
+  },
+  "finished_at": "2026-11-07T09:11:00+00:00"
+ }
+}

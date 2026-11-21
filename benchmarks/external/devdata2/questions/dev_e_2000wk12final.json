@@ -1,0 +1,70 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Week #12!F26",
+  "q": "What is the value in the row labelled 'Prentice', column headed 'New Total', in the sheet 'Week #12'?",
+  "truth": 900,
+  "labels": [
+   "B26",
+   "F6"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Week #12!G30",
+  "q": "Which cell holds the value in the row labelled 'Nancy', column headed 'Weekly Total', in the sheet 'Week #12'? Give its cell address.",
+  "truth": "Week #12!G30",
+  "labels": [
+   "B30",
+   "G6"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Week #12!AQ30",
+  "q": "Consider the cell Week #12!AQ30 (in the row labelled 'Nancy'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Week #12!AJ30",
+   "Week #12!AL30",
+   "Week #12!G30"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Week #12!AN16",
+  "q": "Consider the cell Week #12!AN16 (in the row labelled 'Donna'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Week #12!AI16",
+   "Week #12!AK16",
+   "Week #12!G16"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Week #12!AJ29",
+  "factor": 1.1,
+  "q": "Suppose the number in Week #12!AJ29 (in the row labelled 'WAM') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Week #12!AJ33",
+   "Week #12!AJ34",
+   "Week #12!AM29",
+   "Week #12!AP29",
+   "Week #12!AQ29"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Week #12!AL11",
+  "range": "Week #12!AL11:AQ11",
+  "q": "Consider the range Week #12!AL11:AQ11 (the row of 'JAM'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Week #12!AL11"
+  ],
+  "id": "q6"
+ }
+]

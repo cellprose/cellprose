@@ -1,0 +1,68 @@
+---
+cellprose: 0.3
+---
+
+Note: the first field of each table row is its row number, not a cell; column A is the second field.
+
+# Sheet: Assumptions
+
+## A1:B7
+
+#|A|B
+-|-|-
+1|Driver|Value
+2|Starting customers|200
+3|New customers per month|35
+4|Monthly churn|0.03
+5|ARPU|89
+6|CAC|420
+7|Gross margin|0.78
+
+```formats
+B4 = 0.0%
+B7 = 0%
+```
+
+# Sheet: Monthly
+
+## A1:N9
+
+#|A|B|C|D|E|F|G|H|I|J|K|L|M|N
+-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+1|Metric|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|FY
+2|Starting customers|200|229|257|284|310|336|361|385|408|431|453|474
+3|New customers|35|35|35|35|35|35|35|35|35|35|35|35|420
+4|Churned|6|7|8|9|9|10|11|12|12|13|14|14
+5|Ending customers|229|257|284|310|336|361|385|408|431|453|474|495
+6|MRR|20381|22873|25276|27590|29904|32129|34265|36312|38359|40317|42186|44055|393647
+7|Gross profit|15897.2|17840.9|19715.3|21520.2|23325.1|25060.6|26726.7|28323.4|29920|31447.3|32905.1|34362.9
+8|S&M spend|14700|14700|14700|14700|14700|14700|14700|14700|14700|14700|14700|14700
+9|Contribution|1197.18|3140.94|5015.28|6820.2|8625.12|10360.6|12026.7|13623.4|15220|16747.3|18205.1|19662.9|130645
+
+```formulas
+B2 = Assumptions!B2
+C2:M2 = B5
+B3:M3 = Assumptions!$B$3
+N3 = SUM(B3:M3)
+B4:M4 = ROUND(B2*Churn,0)
+B5:M5 = B2+B3-B4
+B6:M6 = B5*ARPU
+N6 = SUM(B6:M6)
+B7:M7 = B6*Assumptions!$B$7
+B8:M8 = B3*Assumptions!$B$6
+B9:M9 = B7-B8
+N9 = SUM(B9:M9)
+```
+
+```formats
+B6:N6 = \$#,##0
+B7:M9 = \$#,##0
+N9 = \$#,##0
+```
+
+# Names
+
+```names
+ARPU = Assumptions!$B$5
+Churn = Assumptions!$B$4
+```

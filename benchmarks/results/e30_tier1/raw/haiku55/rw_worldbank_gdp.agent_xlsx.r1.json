@@ -1,0 +1,119 @@
+{
+ "model": "haiku55",
+ "workbook": "rw_worldbank_gdp",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 861,
+ "prompt_sha256": "11f203a9468e86c72968a3e543c50a20f052d3a744e991842df3bad0bedd9d00",
+ "result": "{\"q1\": 4201021706478.62, \"q2\": 5225933520753.1, \"q3\": \"Data!BP114\", \"q4\": 114448978152.637}",
+ "usage": {
+  "input_tokens": 25477,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 547,
+  "output_tokens_details": {
+   "thinking_tokens": 110
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 25477,
+   "outputTokens": 547,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 110
+  }
+ },
+ "cost": 0.0028212,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 882,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 180,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 12075,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 204,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 12520,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 163,
+     "reasoning_tokens": 110,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:06:27+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 3.5
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb:\\n    print(ws.title, ws.dimensions)\\nws=wb['Data']\\nfor r in ws.iter_rows():\\n    vals=[(c.coordinate,c.value) for c in r if c.value is not None]\\n    if vals: print(vals)\\n\\\" | head -300\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Data']\\nfor r in ws.iter_rows(min_row=5):\\n    a=r[0].value\\n    if a in ('Germany','Japan','India','Kenya'):\\n        print(r[0].row, a, r[2].value, [ (c.coordinate,c.value) for c in r if c.column_letter in ('BN','BO','BP')])\\n\\\"\"}",
+   "output_chars": 461
+  }
+ ]
+}

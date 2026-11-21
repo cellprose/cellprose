@@ -1,0 +1,45 @@
+---
+sheetmark: 0.1
+profile: full
+sheets: [Drivers, Shared, Allocation]
+not_preserved: [styles]
+---
+
+# Sheet: Drivers
+
+## Range A1:D7
+
+| # | A | B | C | D |
+|---|---|---|---|---|
+| 1 | Department | Headcount | Floor area | Tickets |
+| 2 | Engineering | 60 | 900 | 120 |
+| 3 | Sales | 25 | 600 | 40 |
+| 4 | Support | 30 | 400 | 900 |
+| 5 | Finance | 10 | 200 | 60 |
+| 6 | Marketing | 15 | 300 | 80 |
+| 7 | Total | 140 | 2400 | 1200 |
+
+# Sheet: Shared
+
+## Range A1:C4
+
+| # | A | B | C |
+|---|---|---|---|
+| 1 | Pool | Annual cost | Driver |
+| 2 | IT | 600000 | Headcount |
+| 3 | Facilities | 450000 | Floor area |
+| 4 | Helpdesk | 300000 | Tickets |
+
+# Sheet: Allocation
+
+## Range A1:E7
+
+| # | A | B | C | D | E |
+|---|---|---|---|---|---|
+| 1 | Department | IT | Facilities | Helpdesk | Total |
+| 2 | Engineering | 257142.8571 | 168750 | 30000 | 455892.8571 |
+| 3 | Sales | 107142.8571 | 112500 | 9000 | 228642.8571 |
+| 4 | Support | 128571.4286 | 75000 | 225000 | 428571.4286 |
+| 5 | Finance | 42857.14286 | 37500 | 15000 | 95357.14286 |
+| 6 | Marketing | 64285.71429 | 56250 | 20000 | 140535.7143 |
+| 7 | Total | 600000 | 450000 | 299000 | 1349000 |

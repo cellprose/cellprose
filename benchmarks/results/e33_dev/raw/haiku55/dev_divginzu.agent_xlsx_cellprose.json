@@ -1,0 +1,200 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_divginzu",
+ "encoding": "agent_xlsx_cellprose",
+ "prompt_chars": 1403,
+ "prompt_sha256": "4ee8797756e8110d646c80fb0301137ae03cbc1ee458c373b15be89e06f7827e",
+ "result": "{\"q1\": 1.21050696740971, \"q2\": \"US Industry averages!X15\", \"q3\": [\"Country ERP!B1\", \"Country ERP!E108\"], \"q4\": [\"Country ERP!B1\", \"Country ERP!E145\"], \"q5\": [\"Country ERP!B209\", \"ERP calculator!C26\", \"ERP calculator!E26\", \"ERP calculator!E29\", \"Inputs!B17\", \"Valuation Output!D3\", \"Valuation Output!C17:Q17\", \"Valuation Output!C18:Q18\", \"Valuation Output!C19:Q19\", \"Valuation Output!D24\", \"Valuation Output!D25\", \"Valuation Output!E27\", \"Valuation Output!E28\", \"Valuation Output!E29\", \"Valuation Output!E31\", \"Valuation Output!D35\", \"Valuation Output!D36\", \"Valuation Output!D37\", \"Valuation Output!D38\", \"Stories to Numbers!B12\", \"Stories to Numbers!F12\", \"Stories to Numbers!F15:F29\", \"Stories to Numbers!G15:G29\", \"Stories to Numbers!D34\", \"Stories to Numbers!D35\", \"Stories to Numbers!D36\", \"Stories to Numbers!D37\", \"Stories to Numbers!D38\", \"Stories to Numbers!D40\", \"Stories to Numbers!G40\"], \"q6\": [\"Country ERP!C72\", \"Country ERP!E72\", \"Country ERP!F72\"]}",
+ "usage": {
+  "input_tokens": 26581,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2990,
+  "output_tokens_details": {
+   "thinking_tokens": 1753
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 26581,
+   "outputTokens": 2990,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1753
+  }
+ },
+ "cost": 0.0041531,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1606,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 316,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range",
+      "read_range",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2969,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 724,
+     "reasoning_tokens": 412,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "trace",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 9965,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1275,
+     "reasoning_tokens": 1159,
+     "tool_calls": [
+      "read_range",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 12041,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 675,
+     "reasoning_tokens": 182,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:11:34+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 15.0
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Advertising\", \"sheet\": \"US Industry averages\"}",
+   "output_chars": 159
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Business & Consumer Services\", \"sheet\": \"US Industry averages\"}",
+   "output_chars": 187
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"range\": \"Country ERP!A70:F74\"}",
+   "output_chars": 401
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"range\": \"Country ERP!A106:F110\"}",
+   "output_chars": 363
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"range\": \"Country ERP!A143:F147\"}",
+   "output_chars": 370
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"US Industry averages!A1:L1\"}",
+   "output_chars": 402
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Country ERP!E209\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 8542
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Country ERP!D108\"}",
+   "output_chars": 101
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Country ERP!D145\"}",
+   "output_chars": 105
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"Country ERP!A1:F3\"}",
+   "output_chars": 227
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"range\": \"US Industry averages!H2:Z2\"}",
+   "output_chars": 526
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"range\": \"US Industry averages!A1:Z1\"}",
+   "output_chars": 698
+  }
+ ]
+}

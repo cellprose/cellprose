@@ -1,0 +1,120 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_eqexret",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 2724,
+ "prompt_sha256": "d9d91ddd46c0a32cf6cc84c2045c38ea59386247abe7a61b2ff6c7fb2ee1b6f8",
+ "result": "{\"q1\":0.22,\"q2\":\"Inputs!B2\",\"q3\":[\"Inputs!B15\",\"Excess Return Valuation!F7\",\"Excess Return Valuation!F10:F12\"],\"q4\":[\"Inputs!B15\",\"Excess Return Valuation!J7:J8\",\"Excess Return Valuation!J22\"],\"q5\":[\"Excess Return Valuation!B28:B29\"],\"q6\":[\"Normalized Earnings!B5:F5\"]}",
+ "usage": {
+  "input_tokens": 3875,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1126,
+  "output_tokens": 382,
+  "output_tokens_details": {
+   "thinking_tokens": 101
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 3875,
+   "outputTokens": 382,
+   "cacheReadInputTokens": 1126,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 101
+  }
+ },
+ "cost": 0.0006911,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_41d3c5a45f8545ca9c07efaf58fb3efc",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1129,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 174,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2746,
+     "cache_read_tokens": 1126,
+     "cache_write_tokens": 0,
+     "output_tokens": 208,
+     "reasoning_tokens": 101,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.00059
+  },
+  "finished_at": "2026-11-11T18:11:31+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.2
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'Normalized Earnings'!A1:J8\", \"Inputs!A1:D7\", \"'Excess Return Valuation'!A7:L13\", \"'Excess Return Valuation'!A19:L23\", \"'Excess Return Valuation'!A25:B29\"]}",
+   "output_chars": 5413
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"'Excess Return Valuation'!F13\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 250
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"'Excess Return Valuation'!J23\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 188
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Inputs!B6\", \"factor\": 1.1}",
+   "output_chars": 93
+  }
+ ]
+}

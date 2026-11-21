@@ -1,0 +1,78 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_irs_soi",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 14488,
+ "prompt_sha256": "1eefeecc54786571238db36f3d132e8bb5e7f89e5a945ebab55861ec5390a1a8",
+ "result": "Row mapping: row 20 = $50,000 under $75,000; row 22 = $100,000 under $200,000; row 29 = $10,000,000 or more.\n\nq1: B20 = 22602996.\n\nq2: Taxable income amount is column K, not column J or L. Columns: A label, B number of returns, C percent, D AGI, E percent, F average, G taxable returns number, H percent, I taxable AGI amount, J percent, K taxable income number of returns, L amount, M percent, N income tax after credits number, O amount, P percent, Q total income tax amount, R percent, S/T, U average.\n\nHeader G3 \"Taxable returns\" with G=Number, H=Percent, I=AGI amount, J=percent. Then K5 \"Number of returns\" and L5 \"Amount\" under \"Taxable income\". So the taxable income amount is column L, and row 22 gives L22 = 2458885718.\n\nCheck the data: row 10 has K = 102947212 and L = 9451628365, which fits.\n\nq3: U29.\n\nq4: The $2,000,000 under $5,000,000 class is row 27, so U27 = Q27*1000/G27. It reads Q27 and G27.\n\nq5: G26 changing affects U26 directly (U26 = Q26*1000/G26). Other cells that depend on G26 are the formulas. The formulas list is U25:U29, so only U26 depends on G26. The accumulated rows are constants, so they don't change.\n\n```json\n{\"q1\": 22602996, \"q2\": 2458885718, \"q3\": \"TBL11!U29\", \"q4\": [\"TBL11!Q27\", \"TBL11!G27\"], \"q5\": [\"TBL11!U26\"]}\n```",
+ "usage": {
+  "input_tokens": 8025,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 554,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 8025,
+   "outputTokens": 554,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.02159,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261012T163606Z-df0c8e",
+  "started_at": "2026-10-12T16:36:06+00:00",
+  "git_sha": "eb07a30",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "1754f9ae6e9595df6b4943af1928256cb7dacfd6a6bf953a96c14bbb6428655b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 0,
+  "wall_seconds": 5.4,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 8025,
+   "output_tokens": 554,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 8025
+  },
+  "finished_at": "2026-10-12T16:38:10+00:00"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_ogl12_purchase_cards",
+ "encoding": "csv",
+ "prompt_chars": 54278,
+ "prompt_sha256": "a7bace38f11da96d53215073ec8e5970d3d9c566c4fc87f6bc72c9d142cae5de",
+ "result": "{\"q1\":5.4,\"q2\":\"ASDA STORES 4840\",\"q3\":\"NOV 18!E241\"}",
+ "usage": {
+  "input_tokens": 3,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 16887,
+  "output_tokens": 141,
+  "output_tokens_details": {
+   "thinking_tokens": 106
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 3,
+   "outputTokens": 141,
+   "cacheReadInputTokens": 16887,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 106
+  }
+ },
+ "cost": 0.0017595,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 2.3,
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_e9c04835847f4561a0f6fbac88f0ab68",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "input_tokens": 16890,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 16887,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 141,
+   "output_tokens_details": {
+    "reasoning_tokens": 106
+   },
+   "total_tokens": 17031,
+   "billed_input_tokens": 16890,
+   "tokenizer_input_tokens_o200k": 16879,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 16879
+  },
+  "finished_at": "2026-11-07T09:19:59+00:00"
+ }
+}

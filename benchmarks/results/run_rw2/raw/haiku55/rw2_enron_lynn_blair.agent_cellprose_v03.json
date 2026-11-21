@@ -1,0 +1,336 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_lynn_blair",
+ "encoding": "agent_cellprose_v03",
+ "prompt_chars": 1424,
+ "prompt_sha256": "7a43cf93eff6905f5417a938d4c9a1f5180f4de357236a71ec82757820836539",
+ "result": "```json\n{\"q1\": -2123900, \"q2\": \"Conf. Letter Imb. Comparison!F32\", \"q3\": [\"Original OBA's!H86\", \"Original OBA's!G86\"], \"q4\": [\"Ellis-Woodward-Clark!P8\", \"Ellis-Woodward-Clark!P9\", \"Ellis-Woodward-Clark!P10\"], \"q5\": [\"Original OBA's!AC78\", \"Original OBA's!AC97\", \"Original OBA's!AC99\", \"Original OBA's!G63\", \"Original OBA's!G65\", \"Original OBA's!G91\", \"Original OBA's!I56\", \"Original OBA's!I63\", \"Original OBA's!I65\", \"Original OBA's!I74\", \"Original OBA's!I76\", \"Original OBA's!I78\", \"Original OBA's!I91\", \"Original OBA's!I93\", \"Original OBA's!I95\", \"Original OBA's!I97\", \"Original OBA's!I99\", \"Original OBA's!J74\", \"Original OBA's!J93\", \"Original OBA's!M78\", \"Original OBA's!M97\", \"Original OBA's!M99\", \"Original OBA's!Q78\", \"Original OBA's!Q97\", \"Original OBA's!Q99\", \"Original OBA's!U78\", \"Original OBA's!U97\", \"Original OBA's!U99\", \"Original OBA's!Y78\", \"Original OBA's!Y97\", \"Original OBA's!Y99\"], \"q6\": [\"Original OBA's!AS28\", \"Original OBA's!AS29\", \"Original OBA's!AS30\", \"Original OBA's!AS31\", \"Original OBA's!AS33\"]}\n```",
+ "usage": {
+  "input_tokens": 32,
+  "cache_creation_input_tokens": 33201,
+  "cache_read_input_tokens": 240064,
+  "output_tokens": 9719,
+  "output_tokens_details": {
+   "thinking_tokens": 4171
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 32,
+   "outputTokens": 9719,
+   "cacheReadInputTokens": 240064,
+   "cacheCreationInputTokens": 33201,
+   "thinkingTokens": 4171
+  }
+ },
+ "cost": 0.0321892,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 1098,
+     "output_tokens": 93,
+     "reasoning_tokens": 12,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 1098,
+     "cache_write_tokens": 2041,
+     "output_tokens": 201,
+     "reasoning_tokens": 62,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 3139,
+     "cache_write_tokens": 233,
+     "output_tokens": 95,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 3372,
+     "cache_write_tokens": 4048,
+     "output_tokens": 322,
+     "reasoning_tokens": 187,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2,
+     "cache_read_tokens": 7420,
+     "cache_write_tokens": 5156,
+     "output_tokens": 1294,
+     "reasoning_tokens": 471,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 2,
+     "cache_read_tokens": 12576,
+     "cache_write_tokens": 1384,
+     "output_tokens": 67,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 2,
+     "cache_read_tokens": 13960,
+     "cache_write_tokens": 1562,
+     "output_tokens": 550,
+     "reasoning_tokens": 388,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 2,
+     "cache_read_tokens": 15522,
+     "cache_write_tokens": 1047,
+     "output_tokens": 67,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 2,
+     "cache_read_tokens": 16569,
+     "cache_write_tokens": 5787,
+     "output_tokens": 1657,
+     "reasoning_tokens": 403,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 10,
+     "input_tokens": 2,
+     "cache_read_tokens": 22356,
+     "cache_write_tokens": 2204,
+     "output_tokens": 1190,
+     "reasoning_tokens": 849,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 11,
+     "input_tokens": 2,
+     "cache_read_tokens": 24560,
+     "cache_write_tokens": 3151,
+     "output_tokens": 961,
+     "reasoning_tokens": 241,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 12,
+     "input_tokens": 2,
+     "cache_read_tokens": 27711,
+     "cache_write_tokens": 1445,
+     "output_tokens": 662,
+     "reasoning_tokens": 348,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 13,
+     "input_tokens": 2,
+     "cache_read_tokens": 29156,
+     "cache_write_tokens": 1326,
+     "output_tokens": 1239,
+     "reasoning_tokens": 1053,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 14,
+     "input_tokens": 2,
+     "cache_read_tokens": 30482,
+     "cache_write_tokens": 1661,
+     "output_tokens": 699,
+     "reasoning_tokens": 87,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 15,
+     "input_tokens": 2,
+     "cache_read_tokens": 32143,
+     "cache_write_tokens": 1058,
+     "output_tokens": 622,
+     "reasoning_tokens": 70,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.011413
+  },
+  "finished_at": "2026-11-11T15:55:43+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 47.9
+ },
+ "num_turns": 15,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && ls -la && wc -c book.sheet.md && head -c 3000 book.sheet.md\"}",
+   "output_chars": 3181
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n \\\"^# Sheet\\\\|^## \\\\|^```\\\" book.sheet.md | awk -F: '{print $1\\\": \\\"$2}' | head -400 | tr '\\\\n' ' ' ; echo; grep -n \\\"formulas\\\" -A8 book.sheet.md | head -300\"}",
+   "output_chars": 64
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n '^# Sheet' book.sheet.md; grep -n -A6 '^```formulas' book.sheet.md | head -400\"}",
+   "output_chars": 6223
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 1,30p book.sheet.md >/dev/null; awk 'NR>=1040 && NR<=1100' book.sheet.md; grep -n \\\"^## \\\" book.sheet.md | sed -n 1,400p | tr '\\\\n' ' '\"}",
+   "output_chars": 7198
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/p.py <<'EOF'\\nimport re,json\\nfrom openpyxl.utils import column_index_from_string as ci, get_column_letter as gl\\nlines=open('book.sheet.md',encoding='utf-8').read().split('\\\\n')\\nsheets={}; cur=None; mode=None; block=None; rng=None\\nvals={}; forms={}  # (sheet,(r,c)) -> value / formula\\ndef split_row(l): return l.split('|')\\ni=0\\nwhile i<len(lines):\\n    l=lines[i]\\n    if l.startswith('# Sheet: '):\\n        cur=l[len('# Sheet: '):].strip(); sheets[cur]=True; mod",
+   "output_chars": 141
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 7302,7460p book.sheet.md\"}",
+   "output_chars": 2211
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -c '```cells' book.sheet.md; grep -n '```cells' book.sheet.md; grep -n \\\"^I86\\\\|^I86:\\\\|^AS2[89]\\\\|^AS3\\\\|^G56\\\\|^P11\\\" book.sheet.md | head -30; awk 'NR>=3859 && NR<=3880' book.sheet.md\"}",
+   "output_chars": 714
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 4860,5131p book.sheet.md\"}",
+   "output_chars": 7554
+  },
+  {
+   "turn": 9,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/q.py <<'EOF'\\nimport re\\nfrom openpyxl.utils import column_index_from_string as ci, get_column_letter as gl\\nfrom openpyxl.formula.translate import Translator\\nlines=open('book.sheet.md',encoding='utf-8').read().split('\\\\n')\\ncells={}  # (sheet,addr)->dict\\ncur=None; mode=None; rng=None; first=None\\ndef put(s,a,**kw):\\n    cells.setdefault((s,a),{}).update(kw)\\nfor l in lines:\\n    if l.startswith('# Sheet: '): cur=l[9:].strip(); mode=None; continue\\n    if l.star",
+   "output_chars": 975
+  },
+  {
+   "turn": 10,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport pickle;c=pickle.load(open('/tmp/cells.pkl','rb'))\\nfor r in range(28,35):\\n  print(r, c.get(('Original OBA\\\\'s','AS%d'%r)))\\nprint([ (k,v) for k,v in c.items() if k[0]==\\\\\\\"Original OBA's\\\\\\\" and k[1].startswith('B') and k[1][1:].isdigit() and 55<=int(k[1][1:])<=61])\\nprint([ (k[1],v.get('f')) for k,v in c.items() if k[0]==\\\\\\\"Original OBA's\\\\\\\" and 'f' in v and ('!' in v['f'])][:20])\\nprint(sorted(set(v.get('f') for k,v in c.items() if 'f' in v and '!'",
+   "output_chars": 2834
+  },
+  {
+   "turn": 11,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/dep.py <<'EOF'\\nimport pickle,re\\nfrom openpyxl.utils import column_index_from_string as ci, get_column_letter as gl\\nc=pickle.load(open('/tmp/cells.pkl','rb'))\\npat=re.compile(r\\\"(?:'([^']+)'|([A-Za-z][\\\\w\\\\-\\\\.]*))?!?(\\\\$?[A-Z]{1,3}\\\\$?\\\\d+)(?::(\\\\$?[A-Z]{1,3}\\\\$?\\\\d+))?\\\")\\npat=re.compile(r\\\"(?:(?:'([^']+)'|([A-Za-z][A-Za-z0-9_\\\\-]*))!)?\\\\$?([A-Z]{1,3})\\\\$?(\\\\d+)(?::\\\\$?([A-Z]{1,3})\\\\$?(\\\\d+))?\\\")\\ndef refs(sheet,f):\\n    out=set()\\n    for m in pat.finditer(f)",
+   "output_chars": 875
+  },
+  {
+   "turn": 12,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport pickle;c=pickle.load(open('/tmp/cells.pkl','rb'))\\nfor a in ['I56','G63','G65','I74','J74','I91','I93','J93','AC99','G91']:\\n  print(a, c.get((\\\\\\\"Original OBA's\\\\\\\",a)))\\nfor a in ['H32','F32','H7','F7','H16']:\\n  print(a, c.get(('Conf. Letter Imb. Comparison',a)))\\nprint(c.get(('Original OBA\\\\'s','I86')), c.get(('Original OBA\\\\'s','H86')))\\nprint(c.get(('Ellis-Woodward-Clark','P8')),c.get(('Ellis-Woodward-Clark','P9')),c.get(('Ellis-Woodward-Clark','P",
+   "output_chars": 1116
+  },
+  {
+   "turn": 13,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 /tmp/dep.py \\\"Original OBA's\\\" G56 | tail -n +2 | sed -n '1,31p' | python3 -c \\\"\\nimport sys,ast\\nout=[]\\nfor l in sys.stdin:\\n    if l.startswith('direct'): break\\n    s,a=ast.literal_eval(l.strip()); out.append(f'{s}!{a}')\\nimport json;print(json.dumps(out))\\\"\"}",
+   "output_chars": 884
+  },
+  {
+   "turn": 14,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/dep2.py <<'EOF'\\nimport pickle,re,json\\nfrom openpyxl.utils import column_index_from_string as ci, get_column_letter as gl\\nc=pickle.load(open('/tmp/cells.pkl','rb'))\\npat=re.compile(r\\\"(?:(?:'([^']+)'|([A-Za-z][A-Za-z0-9_\\\\-]*))!)?\\\\$?([A-Z]{1,3})\\\\$?(\\\\d+)(?::\\\\$?([A-Z]{1,3})\\\\$?(\\\\d+))?\\\")\\ndef refs(sheet,f):\\n    out=set()\\n    for m in pat.finditer(f):\\n        sh=m.group(1) or m.group(2) or sheet\\n        c1,r1=m.group(3),int(m.group(4))\\n        c2,r2=(m.gr",
+   "output_chars": 689
+  }
+ ]
+}

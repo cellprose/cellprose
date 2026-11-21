@@ -1,0 +1,1454 @@
+[
+ {
+  "workbook": "01_sales_log.xlsx",
+  "formula_cells": 152,
+  "bytes": 14264,
+  "excel_parser_chunks": 3,
+  "excel_parser_formulas_in_json_cells": 152,
+  "excel_parser_marked_cells_in_text": 152,
+  "tokens": {
+   "csv": 4163,
+   "markitdown": 5744,
+   "sheetmark_v02": 4894,
+   "excel_parser_text": 7308,
+   "excel_parser_json": 111936
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 152,
+   "sheetmark_v02": 152
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "02_employees.xlsx",
+  "formula_cells": 0,
+  "bytes": 11884,
+  "excel_parser_chunks": 2,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 2896,
+   "markitdown": 3333,
+   "sheetmark_v02": 3387,
+   "excel_parser_text": 4587,
+   "excel_parser_json": 70757
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "03_pnl_quarterly.xlsx",
+  "formula_cells": 38,
+  "bytes": 6993,
+  "excel_parser_chunks": 2,
+  "excel_parser_formulas_in_json_cells": 38,
+  "excel_parser_marked_cells_in_text": 38,
+  "tokens": {
+   "csv": 256,
+   "markitdown": 465,
+   "sheetmark_v02": 548,
+   "excel_parser_text": 631,
+   "excel_parser_json": 7849
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 38,
+   "sheetmark_v02": 38
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "04_saas_model.xlsx",
+  "formula_cells": 99,
+  "bytes": 8613,
+  "excel_parser_chunks": 2,
+  "excel_parser_formulas_in_json_cells": 99,
+  "excel_parser_marked_cells_in_text": 99,
+  "tokens": {
+   "csv": 398,
+   "markitdown": 724,
+   "sheetmark_v02": 763,
+   "excel_parser_text": 1143,
+   "excel_parser_json": 17388
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 99,
+   "sheetmark_v02": 99
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "05_multisheet_model.xlsx",
+  "formula_cells": 36,
+  "bytes": 10214,
+  "excel_parser_chunks": 4,
+  "excel_parser_formulas_in_json_cells": 36,
+  "excel_parser_marked_cells_in_text": 36,
+  "tokens": {
+   "csv": 284,
+   "markitdown": 421,
+   "sheetmark_v02": 620,
+   "excel_parser_text": 799,
+   "excel_parser_json": 10715
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 36,
+   "sheetmark_v02": 36
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "06_budget_vs_actual.xlsx",
+  "formula_cells": 42,
+  "bytes": 7326,
+  "excel_parser_chunks": 1,
+  "excel_parser_formulas_in_json_cells": 42,
+  "excel_parser_marked_cells_in_text": 42,
+  "tokens": {
+   "csv": 370,
+   "markitdown": 671,
+   "sheetmark_v02": 601,
+   "excel_parser_text": 849,
+   "excel_parser_json": 12732
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 42,
+   "sheetmark_v02": 42
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "07_messy_report.xlsx",
+  "formula_cells": 27,
+  "bytes": 7581,
+  "excel_parser_chunks": 5,
+  "excel_parser_formulas_in_json_cells": 27,
+  "excel_parser_marked_cells_in_text": 27,
+  "tokens": {
+   "csv": 532,
+   "markitdown": 1148,
+   "sheetmark_v02": 787,
+   "excel_parser_text": 1059,
+   "excel_parser_json": 14473
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 27,
+   "sheetmark_v02": 27
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "08_loan_schedule.xlsx",
+  "formula_cells": 145,
+  "bytes": 8281,
+  "excel_parser_chunks": 4,
+  "excel_parser_formulas_in_json_cells": 145,
+  "excel_parser_marked_cells_in_text": 145,
+  "tokens": {
+   "csv": 848,
+   "markitdown": 1103,
+   "sheetmark_v02": 949,
+   "excel_parser_text": 1762,
+   "excel_parser_json": 22220
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 145,
+   "sheetmark_v02": 145
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "09_orders_lookup.xlsx",
+  "formula_cells": 310,
+  "bytes": 15238,
+  "excel_parser_chunks": 3,
+  "excel_parser_formulas_in_json_cells": 310,
+  "excel_parser_marked_cells_in_text": 310,
+  "tokens": {
+   "csv": 2506,
+   "markitdown": 3121,
+   "sheetmark_v02": 3178,
+   "excel_parser_text": 5039,
+   "excel_parser_json": 84537
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 310,
+   "sheetmark_v02": 310
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "10_gradebook.xlsx",
+  "formula_cells": 66,
+  "bytes": 8530,
+  "excel_parser_chunks": 1,
+  "excel_parser_formulas_in_json_cells": 66,
+  "excel_parser_marked_cells_in_text": 66,
+  "tokens": {
+   "csv": 644,
+   "markitdown": 1324,
+   "sheetmark_v02": 952,
+   "excel_parser_text": 1548,
+   "excel_parser_json": 26130
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 66,
+   "sheetmark_v02": 66
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "11_forecast_overrides.xlsx",
+  "formula_cells": 45,
+  "bytes": 6821,
+  "excel_parser_chunks": 2,
+  "excel_parser_formulas_in_json_cells": 45,
+  "excel_parser_marked_cells_in_text": 45,
+  "tokens": {
+   "csv": 247,
+   "markitdown": 603,
+   "sheetmark_v02": 458,
+   "excel_parser_text": 663,
+   "excel_parser_json": 9772
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 45,
+   "sheetmark_v02": 45
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "12_lookalike_drivers.xlsx",
+  "formula_cells": 30,
+  "bytes": 7832,
+  "excel_parser_chunks": 2,
+  "excel_parser_formulas_in_json_cells": 30,
+  "excel_parser_marked_cells_in_text": 30,
+  "tokens": {
+   "csv": 220,
+   "markitdown": 351,
+   "sheetmark_v02": 467,
+   "excel_parser_text": 574,
+   "excel_parser_json": 8075
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 30,
+   "sheetmark_v02": 30
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "13_scenario_switch.xlsx",
+  "formula_cells": 22,
+  "bytes": 7795,
+  "excel_parser_chunks": 3,
+  "excel_parser_formulas_in_json_cells": 22,
+  "excel_parser_marked_cells_in_text": 22,
+  "tokens": {
+   "csv": 221,
+   "markitdown": 312,
+   "sheetmark_v02": 430,
+   "excel_parser_text": 525,
+   "excel_parser_json": 6588
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 22,
+   "sheetmark_v02": 22
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "14_cost_allocation.xlsx",
+  "formula_cells": 25,
+  "bytes": 8925,
+  "excel_parser_chunks": 3,
+  "excel_parser_formulas_in_json_cells": 25,
+  "excel_parser_marked_cells_in_text": 25,
+  "tokens": {
+   "csv": 226,
+   "markitdown": 333,
+   "sheetmark_v02": 511,
+   "excel_parser_text": 608,
+   "excel_parser_json": 9034
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 25,
+   "sheetmark_v02": 25
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "bea_gdp4q22.xlsx",
+  "formula_cells": 0,
+  "bytes": 186703,
+  "excel_parser_chunks": 66,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 55757,
+   "markitdown": 76824,
+   "sheetmark_v02": 60511,
+   "excel_parser_text": 101854,
+   "excel_parser_json": 1279717
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "census_newresconst.xlsx",
+  "formula_cells": 10,
+  "bytes": 37256,
+  "excel_parser_chunks": 29,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 16812,
+   "markitdown": 26035,
+   "sheetmark_v02": 23228,
+   "excel_parser_text": 26723,
+   "excel_parser_json": 336977
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 10,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": [
+   "",
+   "",
+   ""
+  ],
+  "sheetmark_v02_unrecovered_examples": [
+   [
+    [
+     "Table 2 - Auth Not Started",
+     "B45"
+    ],
+    "",
+    ""
+   ],
+   [
+    [
+     "Table 2 - Auth Not Started",
+     "C45"
+    ],
+    "",
+    ""
+   ],
+   [
+    [
+     "Table 2 - Auth Not Started",
+     "D45"
+    ],
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "workbook": "dam_apv.xlsx",
+  "formula_cells": 800,
+  "bytes": 51279,
+  "excel_parser_chunks": 27,
+  "excel_parser_formulas_in_json_cells": 800,
+  "excel_parser_marked_cells_in_text": 800,
+  "tokens": {
+   "csv": 12769,
+   "markitdown": 16402,
+   "sheetmark_v02": 20354,
+   "excel_parser_text": 24621,
+   "excel_parser_json": 309941
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 800,
+   "sheetmark_v02": 800
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_capbudg.xlsx",
+  "formula_cells": 214,
+  "bytes": 13798,
+  "excel_parser_chunks": 5,
+  "excel_parser_formulas_in_json_cells": 214,
+  "excel_parser_marked_cells_in_text": 214,
+  "tokens": {
+   "csv": 1460,
+   "markitdown": 3215,
+   "sheetmark_v02": 4890,
+   "excel_parser_text": 5934,
+   "excel_parser_json": 120596
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 214,
+   "sheetmark_v02": 214
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_capstru.xlsx",
+  "formula_cells": 1052,
+  "bytes": 100960,
+  "csv_error": "IndexError: list index out of range",
+  "excel_parser_chunks": 45,
+  "excel_parser_formulas_in_json_cells": 1050,
+  "excel_parser_marked_cells_in_text": 1056,
+  "tokens": {
+   "markitdown": 25705,
+   "sheetmark_v02": 29159,
+   "excel_parser_text": 36253,
+   "excel_parser_json": 449696
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 1050,
+   "sheetmark_v02": 1052
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_cfroi.xlsx",
+  "formula_cells": 50,
+  "bytes": 9327,
+  "csv_error": "IndexError: list index out of range",
+  "excel_parser_chunks": 5,
+  "excel_parser_formulas_in_json_cells": 50,
+  "excel_parser_marked_cells_in_text": 50,
+  "tokens": {
+   "markitdown": 1181,
+   "sheetmark_v02": 905,
+   "excel_parser_text": 1053,
+   "excel_parser_json": 14871
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 50,
+   "sheetmark_v02": 50
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_ctryprem.xlsx",
+  "formula_cells": 11283,
+  "bytes": 379527,
+  "excel_parser_chunks": 140,
+  "excel_parser_formulas_in_json_cells": 11283,
+  "excel_parser_marked_cells_in_text": 11388,
+  "tokens": {
+   "csv": 119139,
+   "markitdown": 179322,
+   "sheetmark_v02": 139528,
+   "excel_parser_text": 253903,
+   "excel_parser_json": 3096540
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 11283,
+   "sheetmark_v02": 11283
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_ddm3st.xlsx",
+  "formula_cells": 143,
+  "bytes": 12328,
+  "excel_parser_chunks": 9,
+  "excel_parser_formulas_in_json_cells": 143,
+  "excel_parser_marked_cells_in_text": 143,
+  "tokens": {
+   "csv": 2164,
+   "markitdown": 5451,
+   "sheetmark_v02": 6607,
+   "excel_parser_text": 5195,
+   "excel_parser_json": 68887
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 143,
+   "sheetmark_v02": 143
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_distress.xlsx",
+  "formula_cells": 94,
+  "bytes": 10157,
+  "csv_error": "IndexError: list index out of range",
+  "excel_parser_chunks": 3,
+  "excel_parser_formulas_in_json_cells": 94,
+  "excel_parser_marked_cells_in_text": 94,
+  "tokens": {
+   "markitdown": 770,
+   "sheetmark_v02": 1038,
+   "excel_parser_text": 1319,
+   "excel_parser_json": 21134
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 94,
+   "sheetmark_v02": 94
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_divginzu.xlsx",
+  "formula_cells": 597,
+  "bytes": 111530,
+  "excel_parser_chunks": 48,
+  "excel_parser_formulas_in_json_cells": 585,
+  "excel_parser_marked_cells_in_text": 584,
+  "tokens": {
+   "csv": 42704,
+   "markitdown": 44396,
+   "sheetmark_v02": 56658,
+   "excel_parser_text": 79320,
+   "excel_parser_json": 782589
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 12,
+   "excel_parser_text": 12,
+   "excel_parser_json": 585,
+   "sheetmark_v02": 585
+  },
+  "markitdown_hit_examples": [
+   "",
+   "",
+   ""
+  ],
+  "excel_parser_text_hit_examples": [
+   "",
+   "",
+   ""
+  ],
+  "sheetmark_v02_unrecovered_examples": [
+   [
+    [
+     "US Industry averages",
+     "F18"
+    ],
+    "",
+    ""
+   ],
+   [
+    [
+     "US Industry averages",
+     "S18"
+    ],
+    "",
+    ""
+   ],
+   [
+    [
+     "US Industry averages",
+     "Y18"
+    ],
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "workbook": "dam_evavaln.xlsx",
+  "formula_cells": 383,
+  "bytes": 34865,
+  "csv_error": "IndexError: list index out of range",
+  "excel_parser_chunks": 6,
+  "excel_parser_formulas_in_json_cells": 383,
+  "excel_parser_marked_cells_in_text": 383,
+  "tokens": {
+   "markitdown": 5255,
+   "sheetmark_v02": 5619,
+   "excel_parser_text": 6829,
+   "excel_parser_json": 97151
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 383,
+   "sheetmark_v02": 383
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_expand.xlsx",
+  "formula_cells": 12,
+  "bytes": 9803,
+  "excel_parser_chunks": 6,
+  "excel_parser_formulas_in_json_cells": 12,
+  "excel_parser_marked_cells_in_text": 12,
+  "tokens": {
+   "csv": 348,
+   "markitdown": 848,
+   "sheetmark_v02": 893,
+   "excel_parser_text": 1003,
+   "excel_parser_json": 9355
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 12,
+   "sheetmark_v02": 12
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_fcfe3st.xlsx",
+  "formula_cells": 218,
+  "bytes": 17785,
+  "excel_parser_chunks": 10,
+  "excel_parser_formulas_in_json_cells": 218,
+  "excel_parser_marked_cells_in_text": 218,
+  "tokens": {
+   "csv": 3068,
+   "markitdown": 8371,
+   "sheetmark_v02": 11373,
+   "excel_parser_text": 7765,
+   "excel_parser_json": 111751
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 218,
+   "sheetmark_v02": 218
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_fcff3st.xlsx",
+  "formula_cells": 240,
+  "bytes": 30640,
+  "csv_error": "IndexError: list index out of range",
+  "excel_parser_chunks": 3,
+  "excel_parser_formulas_in_json_cells": 240,
+  "excel_parser_marked_cells_in_text": 240,
+  "tokens": {
+   "markitdown": 4059,
+   "sheetmark_v02": 3990,
+   "excel_parser_text": 4841,
+   "excel_parser_json": 83082
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 240,
+   "sheetmark_v02": 240
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_fcffginzu.xlsx",
+  "formula_cells": 894,
+  "bytes": 172200,
+  "excel_parser_chunks": 80,
+  "excel_parser_formulas_in_json_cells": 894,
+  "excel_parser_marked_cells_in_text": 891,
+  "tokens": {
+   "csv": 49133,
+   "markitdown": 58521,
+   "sheetmark_v02": 72841,
+   "excel_parser_text": 91616,
+   "excel_parser_json": 864159
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 5,
+   "excel_parser_json": 894,
+   "sheetmark_v02": 894
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": [
+   "IF(D14>10,\"Growthperiodslongerthan10yearsareindicativeofextraordinarycompetitiveadvantages.Whatisyourcompany'scompetitiveadvantage?\",\"\")",
+   "IF(E15>E18,\"Stablegrowthrate>Riskfreerate:Notagoodidea.Capthisnumberattheriskfreerate\",\"\")",
+   "IF(E16=D16,\"Stablegrowthdebtratioissettosamevalueashighgrowthdebtratio.Whilethisispossible,stablegrowthcompaniesusuallycarrymoredebt.Lookattheindustryaverage\",\"\")"
+  ]
+ },
+ {
+  "workbook": "dam_fcffginzulambda.xlsx",
+  "formula_cells": 511,
+  "bytes": 73286,
+  "excel_parser_chunks": 54,
+  "excel_parser_formulas_in_json_cells": 511,
+  "excel_parser_marked_cells_in_text": 511,
+  "tokens": {
+   "csv": 16929,
+   "markitdown": 29493,
+   "sheetmark_v02": 27490,
+   "excel_parser_text": 34388,
+   "excel_parser_json": 421709
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 1,
+   "excel_parser_json": 511,
+   "sheetmark_v02": 511
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": [
+   "1"
+  ]
+ },
+ {
+  "workbook": "dam_fcffneg.xlsx",
+  "formula_cells": 444,
+  "bytes": 23368,
+  "excel_parser_chunks": 16,
+  "excel_parser_formulas_in_json_cells": 444,
+  "excel_parser_marked_cells_in_text": 442,
+  "tokens": {
+   "csv": 4279,
+   "markitdown": 8946,
+   "sheetmark_v02": 9073,
+   "excel_parser_text": 10895,
+   "excel_parser_json": 130549
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 444,
+   "sheetmark_v02": 444
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_fcffsimpleginzu.xlsx",
+  "formula_cells": 1231,
+  "bytes": 287995,
+  "excel_parser_chunks": 105,
+  "excel_parser_formulas_in_json_cells": 1226,
+  "excel_parser_marked_cells_in_text": 1229,
+  "tokens": {
+   "csv": 66883,
+   "markitdown": 80628,
+   "sheetmark_v02": 96176,
+   "excel_parser_text": 122598,
+   "excel_parser_json": 1177477
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 1,
+   "excel_parser_json": 1226,
+   "sheetmark_v02": 1231
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": [
+   "1"
+  ]
+ },
+ {
+  "workbook": "dam_fcffsimpleginzuCorona.xlsx",
+  "formula_cells": 1063,
+  "bytes": 176177,
+  "excel_parser_chunks": 75,
+  "excel_parser_formulas_in_json_cells": 1061,
+  "excel_parser_marked_cells_in_text": 1061,
+  "tokens": {
+   "csv": 49948,
+   "markitdown": 55815,
+   "sheetmark_v02": 73433,
+   "excel_parser_text": 92383,
+   "excel_parser_json": 831211
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 1,
+   "excel_parser_json": 1061,
+   "sheetmark_v02": 1063
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": [
+   "1"
+  ]
+ },
+ {
+  "workbook": "dam_histretSP.xlsx",
+  "formula_cells": 6056,
+  "bytes": 220848,
+  "csv_error": "IndexError: list index out of range",
+  "excel_parser_chunks": 80,
+  "excel_parser_formulas_in_json_cells": 6056,
+  "excel_parser_marked_cells_in_text": 6056,
+  "tokens": {
+   "markitdown": 67444,
+   "sheetmark_v02": 56074,
+   "excel_parser_text": 123361,
+   "excel_parser_json": 1672952
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 6056,
+   "sheetmark_v02": 6056
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_lboval.xlsx",
+  "formula_cells": 535,
+  "bytes": 20312,
+  "excel_parser_chunks": 7,
+  "excel_parser_formulas_in_json_cells": 535,
+  "excel_parser_marked_cells_in_text": 535,
+  "tokens": {
+   "csv": 3793,
+   "markitdown": 6778,
+   "sheetmark_v02": 7376,
+   "excel_parser_text": 9718,
+   "excel_parser_json": 172152
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 535,
+   "sheetmark_v02": 535
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_optlt.xlsx",
+  "formula_cells": 6,
+  "bytes": 17332,
+  "excel_parser_chunks": 7,
+  "excel_parser_formulas_in_json_cells": 6,
+  "excel_parser_marked_cells_in_text": 6,
+  "tokens": {
+   "csv": 3431,
+   "markitdown": 3621,
+   "sheetmark_v02": 4468,
+   "excel_parser_text": 5613,
+   "excel_parser_json": 54947
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 6,
+   "sheetmark_v02": 6
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_project.xlsx",
+  "formula_cells": 11,
+  "bytes": 10927,
+  "excel_parser_chunks": 5,
+  "excel_parser_formulas_in_json_cells": 11,
+  "excel_parser_marked_cells_in_text": 11,
+  "tokens": {
+   "csv": 639,
+   "markitdown": 1412,
+   "sheetmark_v02": 1160,
+   "excel_parser_text": 1760,
+   "excel_parser_json": 18194
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 11,
+   "sheetmark_v02": 11
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_riskchecker.xlsx",
+  "formula_cells": 84,
+  "bytes": 21729,
+  "excel_parser_chunks": 12,
+  "excel_parser_formulas_in_json_cells": 84,
+  "excel_parser_marked_cells_in_text": 84,
+  "tokens": {
+   "csv": 5166,
+   "markitdown": 6372,
+   "sheetmark_v02": 6440,
+   "excel_parser_text": 9535,
+   "excel_parser_json": 120418
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 84,
+   "sheetmark_v02": 84
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_synergyvaluation.xlsx",
+  "formula_cells": 36,
+  "bytes": 12666,
+  "csv_error": "IndexError: list index out of range",
+  "excel_parser_chunks": 3,
+  "excel_parser_formulas_in_json_cells": 36,
+  "excel_parser_marked_cells_in_text": 36,
+  "tokens": {
+   "markitdown": 877,
+   "sheetmark_v02": 1424,
+   "excel_parser_text": 1197,
+   "excel_parser_json": 16837
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 36,
+   "sheetmark_v02": 36
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "dam_wacccalc.xlsx",
+  "formula_cells": 268,
+  "bytes": 107561,
+  "excel_parser_chunks": 47,
+  "excel_parser_formulas_in_json_cells": 265,
+  "excel_parser_marked_cells_in_text": 265,
+  "tokens": {
+   "csv": 41840,
+   "markitdown": 44319,
+   "sheetmark_v02": 54629,
+   "excel_parser_text": 73509,
+   "excel_parser_json": 749817
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 3,
+   "excel_parser_text": 3,
+   "excel_parser_json": 265,
+   "sheetmark_v02": 265
+  },
+  "markitdown_hit_examples": [
+   "",
+   "",
+   ""
+  ],
+  "excel_parser_text_hit_examples": [
+   "",
+   "",
+   ""
+  ],
+  "sheetmark_v02_unrecovered_examples": [
+   [
+    [
+     "Industry Averages(US)",
+     "J94"
+    ],
+    "",
+    ""
+   ],
+   [
+    [
+     "Industry Averages(US)",
+     "K94"
+    ],
+    "",
+    ""
+   ],
+   [
+    [
+     "Industry Averages(US)",
+     "M94"
+    ],
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "workbook": "irs_soi_20in11si.xlsx",
+  "formula_cells": 5,
+  "bytes": 22579,
+  "excel_parser_chunks": 11,
+  "excel_parser_formulas_in_json_cells": 5,
+  "excel_parser_marked_cells_in_text": 5,
+  "tokens": {
+   "csv": 6030,
+   "markitdown": 8850,
+   "sheetmark_v02": 7239,
+   "excel_parser_text": 18531,
+   "excel_parser_json": 237338
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 5,
+   "sheetmark_v02": 5
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl00_Translink_Northern_Ireland_Rail_Timetabl.xlsx",
+  "formula_cells": 0,
+  "bytes": 13987,
+  "excel_parser_chunks": 2,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 2814,
+   "markitdown": 4217,
+   "sheetmark_v02": 3664,
+   "excel_parser_text": 5511,
+   "excel_parser_json": 87345
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl01_Department_of_Finance___Departmental_Exp.xlsx",
+  "formula_cells": 0,
+  "bytes": 21139,
+  "excel_parser_chunks": 7,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 5450,
+   "markitdown": 6448,
+   "sheetmark_v02": 6047,
+   "excel_parser_text": 8555,
+   "excel_parser_json": 99463
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl02_Invest_NI_Financial_Offers_of_Support_20.xlsx",
+  "formula_cells": 0,
+  "bytes": 923524,
+  "excel_parser_chunks": 1333,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 749809,
+   "markitdown": 826285,
+   "sheetmark_v02": 787808,
+   "excel_parser_text": 1574105,
+   "excel_parser_json": 13870054
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl03_Translink_Bus_Stop_List.xlsx",
+  "formula_cells": 0,
+  "bytes": 1121510,
+  "excel_parser_chunks": 341,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 542177,
+   "markitdown": 613132,
+   "sheetmark_v02": 622593,
+   "excel_parser_text": 841559,
+   "excel_parser_json": 9695135
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl04_Department_of_Health___Departmental_Expe.xlsx",
+  "formula_cells": 0,
+  "bytes": 11390,
+  "excel_parser_chunks": 1,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 1368,
+   "markitdown": 1553,
+   "sheetmark_v02": 1586,
+   "excel_parser_text": 1864,
+   "excel_parser_json": 23711
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl05_Purchase_Orders_over__5000.xlsx",
+  "formula_cells": 0,
+  "bytes": 56303,
+  "excel_parser_chunks": 29,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 27385,
+   "markitdown": 31603,
+   "sheetmark_v02": 29788,
+   "excel_parser_text": 46834,
+   "excel_parser_json": 576469
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl06_Spend_over__25_000_in_Plymouth_Hospitals.xlsx",
+  "formula_cells": 0,
+  "bytes": 74605,
+  "excel_parser_chunks": 48,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 37728,
+   "markitdown": 49956,
+   "sheetmark_v02": 39974,
+   "excel_parser_text": 65347,
+   "excel_parser_json": 854311
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl07_Establishments_approved_to_export_animal.xlsx",
+  "formula_cells": 0,
+  "bytes": 81293,
+  "excel_parser_chunks": 17,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 24766,
+   "markitdown": 26219,
+   "sheetmark_v02": 27637,
+   "excel_parser_text": 31790,
+   "excel_parser_json": 304512
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl11_Climate_Change_Agreements___Reduced_Rate.xlsx",
+  "formula_cells": 0,
+  "bytes": 548519,
+  "excel_parser_chunks": 219,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 285667,
+   "markitdown": 321113,
+   "sheetmark_v02": 330295,
+   "excel_parser_text": 373127,
+   "excel_parser_json": 3737492
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl12_Purchase_Card_Transactions.xlsx",
+  "formula_cells": 0,
+  "bytes": 27032,
+  "excel_parser_chunks": 13,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 16601,
+   "markitdown": 18125,
+   "sheetmark_v02": 18083,
+   "excel_parser_text": 23938,
+   "excel_parser_json": 248926
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl13_Spend_over__25_000_in_Worcestershire_Hea.xlsx",
+  "formula_cells": 78,
+  "bytes": 26808,
+  "excel_parser_chunks": 2,
+  "excel_parser_formulas_in_json_cells": 78,
+  "excel_parser_marked_cells_in_text": 78,
+  "tokens": {
+   "csv": 2774,
+   "markitdown": 3572,
+   "sheetmark_v02": 3265,
+   "excel_parser_text": 3918,
+   "excel_parser_json": 49336
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 78,
+   "sheetmark_v02": 78
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl14_Cornwall_Partnership_NHS_Foundation_Trus.xlsx",
+  "formula_cells": 0,
+  "bytes": 16433,
+  "excel_parser_chunks": 3,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 2856,
+   "markitdown": 3081,
+   "sheetmark_v02": 3256,
+   "excel_parser_text": 3968,
+   "excel_parser_json": 40273
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ogl15_The_Geo_Assessment_Matrix__Pan_European_.xlsx",
+  "formula_cells": 0,
+  "bytes": 58211,
+  "excel_parser_chunks": 88,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 23440,
+   "markitdown": 34075,
+   "sheetmark_v02": 24539,
+   "excel_parser_text": 74499,
+   "excel_parser_json": 551972
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "ons_mgdp.xlsx",
+  "formula_cells": 0,
+  "bytes": 329326,
+  "excel_parser_chunks": 361,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 285536,
+   "markitdown": 364868,
+   "sheetmark_v02": 287301,
+   "excel_parser_text": 3660216,
+   "excel_parser_json": 11848181
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ },
+ {
+  "workbook": "worldbank_gdp.xlsx",
+  "formula_cells": 0,
+  "bytes": 212523,
+  "excel_parser_chunks": 104,
+  "excel_parser_formulas_in_json_cells": 0,
+  "excel_parser_marked_cells_in_text": 0,
+  "tokens": {
+   "csv": 128355,
+   "markitdown": 163882,
+   "sheetmark_v02": 131850,
+   "excel_parser_text": 237397,
+   "excel_parser_json": 1891712
+  },
+  "formulas_recoverable": {
+   "csv": 0,
+   "markitdown": 0,
+   "excel_parser_text": 0,
+   "excel_parser_json": 0,
+   "sheetmark_v02": 0
+  },
+  "markitdown_hit_examples": [],
+  "excel_parser_text_hit_examples": []
+ }
+]

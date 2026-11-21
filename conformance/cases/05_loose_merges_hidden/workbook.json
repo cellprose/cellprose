@@ -1,0 +1,34 @@
+{
+ "sheets": [
+  {
+   "name": "Q1 #2",
+   "merges": ["A1:C1"],
+   "cells": {
+    "A1": {"v": "Quarterly report"},
+    "F2": {"v": "Prepared by finance"},
+    "F4": {"t": "date", "v": "2026-12-25", "fmt": "yyyy-mm-dd"},
+    "F6": {"f": "B6*2", "v": 8000, "fmt": "#,##0"},
+    "A3": {"v": "Item"},
+    "B3": {"v": "Cost"},
+    "C3": {"v": "Share"},
+    "A4": {"v": "Rent"},
+    "B4": {"v": 900},
+    "C4": {"f": "B4/B6", "v": 0.225, "fmt": "0.0%"},
+    "A5": {"v": "Wages"},
+    "B5": {"v": 3100},
+    "C5": {"f": "B5/B6", "v": 0.775, "fmt": "0.0%"},
+    "A6": {"v": "Total"},
+    "B6": {"f": "SUM(B4:B5)", "v": 4000}
+   }
+  },
+  {
+   "name": "Notes",
+   "state": "hidden",
+   "names": {"Local": "Notes!$B$1"},
+   "cells": {
+    "A1": {"v": "secret"},
+    "B1": {"v": 1}
+   }
+  }
+ ]
+}

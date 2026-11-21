@@ -1,0 +1,136 @@
+# BvA
+
+## Record 1
+```
+Department: Engineering
+Jan Budget: 223000
+Jan Actual: 227939
+Feb Budget: 40000
+Feb Actual: 39820
+Mar Budget: 86000
+Mar Actual: 74050
+Q1 Budget: 349000
+Q1 Actual: 341809
+Variance: -7191
+Variance %: -0.02060458453
+```
+
+## Record 2
+```
+Department: Sales
+Jan Budget: 57000
+Jan Actual: 59784
+Feb Budget: 140000
+Feb Actual: 159552
+Mar Budget: 208000
+Mar Actual: 200085
+Q1 Budget: 405000
+Q1 Actual: 419421
+Variance: 14421
+Variance %: 0.03560740741
+```
+
+## Record 3
+```
+Department: Marketing
+Jan Budget: 217000
+Jan Actual: 185875
+Feb Budget: 145000
+Feb Actual: 158133
+Mar Budget: 206000
+Mar Actual: 229021
+Q1 Budget: 568000
+Q1 Actual: 573029
+Variance: 5029
+Variance %: 0.008853873239
+```
+
+## Record 4
+```
+Department: Support
+Jan Budget: 157000
+Jan Actual: 158849
+Feb Budget: 44000
+Feb Actual: 39947
+Mar Budget: 161000
+Mar Actual: 170637
+Q1 Budget: 362000
+Q1 Actual: 369433
+Variance: 7433
+Variance %: 0.02053314917
+```
+
+## Record 5
+```
+Department: Finance
+Jan Budget: 206000
+Jan Actual: 191509
+Feb Budget: 225000
+Feb Actual: 232428
+Mar Budget: 42000
+Mar Actual: 46338
+Q1 Budget: 473000
+Q1 Actual: 470275
+Variance: -2725
+Variance %: -0.005761099366
+```
+
+## Record 6
+```
+Department: HR
+Jan Budget: 105000
+Jan Actual: 120442
+Feb Budget: 112000
+Feb Actual: 122089
+Mar Budget: 226000
+Mar Actual: 209083
+Q1 Budget: 443000
+Q1 Actual: 451614
+Variance: 8614
+Variance %: 0.01944469526
+```
+
+## Record 7
+```
+Department: Legal
+Jan Budget: 199000
+Jan Actual: 174749
+Feb Budget: 70000
+Feb Actual: 74216
+Mar Budget: 223000
+Mar Actual: 209030
+Q1 Budget: 492000
+Q1 Actual: 457995
+Variance: -34005
+Variance %: -0.06911585366
+```
+
+## Record 8
+```
+Department: Operations
+Jan Budget: 31000
+Jan Actual: 31824
+Feb Budget: 71000
+Feb Actual: 77984
+Mar Budget: 112000
+Mar Actual: 111553
+Q1 Budget: 214000
+Q1 Actual: 221361
+Variance: 7361
+Variance %: 0.03439719626
+```
+
+## Record 10
+```
+Department: Total
+Jan Budget: 1195000
+Jan Actual: 1150971
+Feb Budget: 847000
+Feb Actual: 904169
+Mar Budget: 1264000
+Mar Actual: 1249797
+Q1 Budget: 3306000
+Q1 Actual: 3304937
+Variance: -1063
+Variance %: -0.0003215366001
+```

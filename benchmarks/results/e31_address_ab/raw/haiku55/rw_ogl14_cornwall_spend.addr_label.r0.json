@@ -1,0 +1,1 @@
+{"text": "```json\n{\"q1\": \"Sheet!D43\", \"q2\": \"Sheet!C7\", \"q3\": \"Sheet!G17\", \"q4\": \"Sheet!A22\", \"q5\": \"Sheet!D33\", \"q6\": \"Sheet!H38\", \"q7\": \"Sheet!B48\"}\n```", "input": 7333, "output": 279, "cost": 0.0008728000000000001}

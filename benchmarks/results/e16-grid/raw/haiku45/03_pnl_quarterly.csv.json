@@ -1,0 +1,65 @@
+{
+ "model": "haiku45",
+ "workbook": "03_pnl_quarterly",
+ "encoding": "csv",
+ "prompt_chars": 1667,
+ "result": "```json\n{\n  \"q1\": 18531.648,\n  \"q2\": 243330.048,\n  \"q3\": \"Sheet1!C6\",\n  \"q4\": \"Sheet1!B12\",\n  \"q5\": [\"Sheet1!D6\", \"Sheet1!D7\"],\n  \"q6\": [\"Sheet1!B2\", \"Sheet1!B12\"],\n  \"q7\": [\"Sheet1!C2\", \"Sheet1!D2\", \"Sheet1!E2\", \"Sheet1!F2\", \"Sheet1!C4\", \"Sheet1!D4\", \"Sheet1!E4\", \"Sheet1!F4\", \"Sheet1!C5\", \"Sheet1!D5\", \"Sheet1!E5\", \"Sheet1!F5\", \"Sheet1!C6\", \"Sheet1!D6\", \"Sheet1!E6\", \"Sheet1!F6\", \"Sheet1!C8\", \"Sheet1!D8\", \"Sheet1!E8\", \"Sheet1!F8\", \"Sheet1!C9\", \"Sheet1!D9\", \"Sheet1!E9\", \"Sheet1!F9\"],\n  \"q8\": [\"Sheet1!B7\", \"Sheet1!C7\", \"Sheet1!D7\", \"Sheet1!E7\", \"Sheet1!F7\", \"Sheet1!B8\", \"Sheet1!C8\", \"Sheet1!D8\", \"Sheet1!E8\", \"Sheet1!F8\", \"Sheet1!B9\", \"Sheet1!C9\", \"Sheet1!D9\", \"Sheet1!E9\", \"Sheet1!F9\"]\n}\n```",
+ "usage": {
+  "input_tokens": 665,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 8934,
+  "output_tokens_details": {
+   "thinking_tokens": 8545
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 665,
+   "outputTokens": 8934,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 8545
+  }
+ },
+ "cost": 0.045335,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T102109Z-d2d3b9",
+  "started_at": "2026-10-09T10:21:09+00:00",
+  "git_sha": "c5cb767",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 73.1,
+  "requested_model": "claude-haiku-4-5-20251001",
+  "returned_model": "claude-haiku-4-5-20251001",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "enabled",
+    "budget_tokens": 16000
+   }
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "not_available",
+   "input_tokens": 665,
+   "output_tokens": 8934,
+   "output_tokens_details": {
+    "thinking_tokens": 8545
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:22:23+00:00"
+ }
+}

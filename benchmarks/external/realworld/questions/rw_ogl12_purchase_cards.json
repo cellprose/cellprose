@@ -1,0 +1,47 @@
+[
+ {
+  "type": "lookup",
+  "q": "In the sheet 'NOV 18', for the row where 'Transaction Number' is 'GPC11180000060', what is the value of 'Net Amount (\u00a3)'?",
+  "cell": "NOV 18!J61",
+  "key": {
+   "I": "GPC11180000060"
+  },
+  "labels": [
+   "I61",
+   "J61",
+   "J1"
+  ],
+  "id": "q1",
+  "truth": 5.4
+ },
+ {
+  "type": "lookup",
+  "q": "In the sheet 'NOV 18', for the row where 'Transaction Number' is 'GPC11180000150', what is the value of 'Supplier (Beneficiary)'?",
+  "cell": "NOV 18!D151",
+  "key": {
+   "I": "GPC11180000150"
+  },
+  "labels": [
+   "I151",
+   "D151",
+   "D1"
+  ],
+  "id": "q2",
+  "truth": "ASDA STORES 4840"
+ },
+ {
+  "type": "address",
+  "q": "In the sheet 'NOV 18', which cell holds 'Purpose of Expenditure' for the row where 'Transaction Number' is 'GPC11180000240'? Give its cell address.",
+  "cell": "NOV 18!E241",
+  "key": {
+   "I": "GPC11180000240"
+  },
+  "labels": [
+   "I241",
+   "E241",
+   "E1"
+  ],
+  "id": "q3",
+  "truth": "NOV 18!E241"
+ }
+]

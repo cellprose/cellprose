@@ -1,0 +1,93 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [integration, main]
+  push:
+    branches: [integration, main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Install LibreOffice (for recalc tests)
+        run: sudo apt-get update -q && sudo apt-get install -y -q --no-install-recommends libreoffice-calc
+      - name: Install
+        run: pip install -e ".[dev,mcp]" pandas "markitdown==0.1.7" anthropic openai      # pandas, markitdown, anthropic, openai: benchmark tests
+      - name: Test
+        run: pytest -q
+
+  integrations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install the package and the three integrations
+        run: pip install -e . -e integrations/markitdown-cellprose -e integrations/langchain-cellprose -e integrations/llama-index-readers-cellprose "markitdown[xlsx]" pytest
+      - name: Test
+        run: |
+          for d in integrations/*/; do (cd "$d" && pytest -q tests) || exit 1; done
+
+  viewer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+      - name: Test viewer
+        working-directory: viewer
+        run: npm test
+
+  js-writer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Unit tests and kit cases
+        working-directory: js
+        run: npm test
+      - name: Conformance kit, through the checker
+        run: python conformance/check.py --encoder "node js/bin/cellprose-encode.js"
+
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Install
+        working-directory: site
+        run: npm ci
+      - name: Browser code against the JS writer and the docs
+        working-directory: site
+        run: npm test
+      - name: Build the site
+        working-directory: site
+        run: npm run build

@@ -1,0 +1,72 @@
+{
+ "model": "sonnet",
+ "workbook": "11_forecast_overrides",
+ "encoding": "none",
+ "prompt_chars": 1152,
+ "result": "```json\n{\"q1\": 1000000, \"q2\": [], \"q3\": [], \"q4\": [\"Sheet1!F2\", \"Sheet1!B8\"], \"q5\": [\"Sheet1!C2:M2\", \"Sheet1!N2\"], \"q6\": [\"Sheet1!C4:M4\", \"Sheet1!C5:M5\"]}\n```\n\nNo workbook was provided, so these are guesses. They assume Jan is in column B, Feb through Dec are in C through M, and the FY total is in N. They also assume bookings are in row 2, headcount in row 4 and payroll in row 5, with growth and hires per month as input cells.",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1929,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 539,
+  "output_tokens_details": {
+   "thinking_tokens": 330
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1929,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 539,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1929,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1929
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1203,
+   "outputTokens": 15,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.001278,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 539,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 1929,
+   "webSearchRequests": 0,
+   "costUSD": 0.01311,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 330,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.014388
+}

@@ -1,0 +1,15 @@
+[
+ {
+  "type": "address",
+  "cell": "Valuation Model!F62",
+  "labels": [
+   "B62"
+  ],
+  "q": "In the sheet 'Valuation Model', which cell holds the present value of the terminal value of the firm (the row that starts 'Present Value of Terminal Value')? Give its cell address.",
+  "key": {
+   "B": "Present Value of Terminal Value of Firm ="
+  },
+  "id": "q1",
+  "truth": "Valuation Model!F62"
+ }
+]

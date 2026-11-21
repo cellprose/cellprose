@@ -1,0 +1,198 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_apv",
+ "encoding": "agent_xlsx_cellprose_idx",
+ "prompt_chars": 1361,
+ "prompt_sha256": "63f05a3a7cb0e1892acf6c5eb3c51ed72e333789af187d481c12c33ba1cc0bda",
+ "result": "{\"q1\": 0.2135, \"q2\": \"Adjusted Present Value!D64\", \"q3\": [\"Adjusted Present Value!B50\", \"Adjusted Present Value!C48\", \"Adjusted Present Value!C68\"], \"q4\": [\"Inputs!B29\", \"Default Spreads and Ratios!E29\", \"Default Spreads and Ratios!E49\"], \"q5\": [\"Adjusted Present Value!B43\", \"Adjusted Present Value!B50:B51\", \"Adjusted Present Value!B56:B59\", \"Adjusted Present Value!B61\", \"Adjusted Present Value!B96:B98\", \"Adjusted Present Value!B101:B103\", \"Adjusted Present Value!B107:B116\", \"Adjusted Present Value!C7\", \"Adjusted Present Value!C49:C51\", \"Adjusted Present Value!C56:C59\", \"Adjusted Present Value!C61\", \"Adjusted Present Value!C63:C68\", \"Adjusted Present Value!C96:C103\", \"Adjusted Present Value!C108:C116\", \"Adjusted Present Value!D14:D23\", \"Adjusted Present Value!D49:D51\", \"Adjusted Present Value!D56:D59\", \"Adjusted Present Value!D61\", \"Adjusted Present Value!D63:D68\", \"Adjusted Present Value!D90:D93\", \"Adjusted Present Value!D96:D103\", \"Adjusted Present Value!D107:D116\", \"Adjusted Present Value!E14:E23\", \"Adjusted Present Value!E27\", \"Adjusted Present Value!E49:E51\", \"Adjusted Present Value!E56:E59\", \"Adjusted Present Value!E61\", \"Adjusted Present Value!E63:E68\", \"Adjusted Present Value!E87\", \"Adjusted Present Value!E96:E103\", \"Adjusted Present Value!E107:E116\", \"Adjusted Present Value!F10:F11\", \"Adjusted Present Value!F14:F23\", \"Adjusted Present Value!F49:F51\", \"Adjusted Present Value!F56:F59\", \"Adjusted Present Value!F61\", \"Adjusted Present Value!F63:F68\", \"Adjusted Present Value!F96:F103\", \"Adjusted Present Value!F108:F116\", \"Adjusted Present Value!G14:G23\", \"Adjusted Present Value!G49:G51\", \"Adjusted Present Value!G56:G59\", \"Adjusted Present Value!G61\", \"Adjusted Present Value!G63:G68\", \"Adjusted Present Value!G96:G103\", \"Adjusted Present Value!G108:G116\", \"Adjusted Present Value!H14:H23\", \"Adjusted Present Value!H49:H51\", \"Adjusted Present Value!H56:H59\", \"Adjusted Present Value!H61\", \"Adjusted Present Value!H63:H68\", \"Adjusted Present Value!H96:H103\", \"Adjusted Present Value!H107:H116\", \"Adjusted Present Value!I8\", \"Adjusted Present Value!I49:I51\", \"Adjusted Present Value!I56:I59\", \"Adjusted Present Value!I61\", \"Adjusted Present Value!I63:I68\", \"Adjusted Present Value!I92\", \"Adjusted Present Value!I96:I103\", \"Adjusted Present Value!I107:I116\", \"Adjusted Present Value!J49:J51\", \"Adjusted Present Value!J56:J59\", \"Adjusted Present Value!J61\", \"Adjusted Present Value!J63:J68\", \"Adjusted Present Value!J96:J103\", \"Adjusted Present Value!K26:K28\", \"Adjusted Present Value!K31\", \"Adjusted Present Value!K49:K51\", \"Adjusted Present Value!K56:K59\", \"Adjusted Present Value!K61\", \"Adjusted Present Value!K63:K68\", \"Adjusted Present Value!K96:K103\", \"Default Spreads and Ratios!D7:D10\", \"Default Spreads and Ratios!F4\", \"Operating Lease Information!C17\", \"Operating Lease Information!C27:C33\", \"Operating Lease Information!F37\"], \"q6\": [\"Country ERP!C132\", \"Country ERP!E132\", \"Country ERP!F132\"]}",
+ "usage": {
+  "input_tokens": 102807,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4774,
+  "output_tokens_details": {
+   "thinking_tokens": 1505
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 102807,
+   "outputTokens": 4774,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1505
+  }
+ },
+ "cost": 0.0126677,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1596,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 36,
+     "reasoning_tokens": 10,
+     "tool_calls": [
+      "outline"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3514,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 251,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 11416,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 489,
+     "reasoning_tokens": 243,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 12296,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 408,
+     "reasoning_tokens": 241,
+     "tool_calls": [
+      "trace",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 20202,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1226,
+     "reasoning_tokens": 403,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 25852,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 647,
+     "reasoning_tokens": 327,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 27931,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1717,
+     "reasoning_tokens": 281,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:22:32+00:00",
+  "run_id": "20261107T132210Z-d5a9c1",
+  "started_at": "2026-11-07T13:22:10+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 21.9
+ },
+ "num_turns": 7,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "outline",
+   "args": "{}",
+   "output_chars": 3356
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Adjusted Present Value']\\nfor r in list(range(71,88)):\\n  print(r,[ (c.coordinate,c.value) for c in ws[r] if c.value is not None])\\nprint()\\nfor r in range(46,52):\\n  print(r,[ (c.coordinate,c.value) for c in ws[r] if c.value is not None])\\nfor r in range(48,70):\\n  print(r,[ (c.coordinate,c.value) for c in ws[r] if c.value is not None][:4])\\n\\\"\"}",
+   "output_chars": 11852
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx',data_only=True)\\nws=wb['Adjusted Present Value']\\nprint(ws['G73'].value, ws['D64'].value, ws['H87'].value)\\nws=wb['Country ERP']\\nfor r in range(130,134): print(r,[c.value for c in ws[r]])\\nwb2=openpyxl.load_workbook('book.xlsx')\\nws=wb2['Country ERP']\\nfor r in range(130,134): print(r,[c.value for c in ws[r]])\\n\\\"\"}",
+   "output_chars": 626
+  },
+  {
+   "turn": 4,
+   "tool": "trace",
+   "args": "{\"cell\": \"Default Spreads and Ratios!B49\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 12070
+  },
+  {
+   "turn": 4,
+   "tool": "read_range",
+   "args": "{\"range\": \"Default Spreads and Ratios!A49:E49\"}",
+   "output_chars": 173
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/dep.py <<'EOF'\\nimport openpyxl,re\\nfrom openpyxl.utils import range_boundaries,get_column_letter\\nwb=openpyxl.load_workbook('book.xlsx')\\nref_re=re.compile(r\\\"(?:'([^']+)'|([A-Za-z][A-Za-z0-9 _]*))?!?(\\\\$?[A-Z]{1,3}\\\\$?\\\\d+(?::\\\\$?[A-Z]{1,3}\\\\$?\\\\d+)?)\\\")\\ntok=re.compile(r\\\"(?:(?:'([^']+)'|([A-Za-z_][A-Za-z0-9_ ]*))!)?(\\\\$?[A-Z]{1,3}\\\\$?\\\\d+(?::\\\\$?[A-Z]{1,3}\\\\$?\\\\d+)?)(?![\\\\w(])\\\")\\ndeps={}  # precedent -> set of dependents\\nformulas={}\\nfor ws in wb.worksheets:",
+   "output_chars": 10115
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat >> /tmp/dep.py <<'EOF'\\nfrom collections import defaultdict\\ng=defaultdict(list)\\nfor s,a in out:\\n    m=re.match(r'([A-Z]+)(\\\\d+)',a); g[(s,m.group(1))].append(int(m.group(2)))\\nres=[]\\nfor (s,col),rows in sorted(g.items()):\\n    rows.sort(); st=p=rows[0]\\n    for r in rows[1:]+[None]:\\n        if r is not None and r==p+1: p=r; continue\\n        res.append(f\\\"'{s}'!{col}{st}\\\" + (f\\\":{col}{p}\\\" if p!=st else \\\"\\\"))\\n        if r is not None: st=p=r\\nprint(len(res)); pri",
+   "output_chars": 2778
+  }
+ ]
+}

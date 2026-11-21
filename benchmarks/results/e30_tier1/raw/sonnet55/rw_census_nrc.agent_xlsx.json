@@ -1,0 +1,115 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_census_nrc",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1292,
+ "prompt_sha256": "b3e56f250528d68fb4a695721671d3627e5678dc68ced2f8716ac29a0be30e79",
+ "result": "{\"q1\": 1437, \"q2\": 514, \"q3\": \"Table 1 - Permits!L16\", \"q4\": 503, \"q5\": 0.061}",
+ "usage": {
+  "input_tokens": 25200,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 316,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 25200,
+   "outputTokens": 316,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.053559999999999997,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1021,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 217,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 12063,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 47,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 12116,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 52,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T08:59:45+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 4.1
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd /; cd - >/dev/null; python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor n in ['Table 1 - Permits','Table 3 - Starts']:\\n    ws=wb[n]\\n    print(n,ws.dimensions)\\n    for r in ws.iter_rows(min_row=1,max_row=60):\\n        for c in r:\\n            if c.value is not None: print(c.coordinate,repr(c.value),end=' | ')\\n        print()\\n\\\"\"}",
+   "output_chars": 17672
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"echo\"}",
+   "output_chars": 1
+  }
+ ]
+}

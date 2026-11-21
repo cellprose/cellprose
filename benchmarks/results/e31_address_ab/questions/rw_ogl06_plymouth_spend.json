@@ -1,0 +1,45 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'BI report', which cell holds 'Expense Type' for the row where 'Transaction Number' is 47401369? Give its cell address.",
+  "cell": "BI report!D262",
+  "key": {
+   "G": 47401369
+  },
+  "labels": [
+   "G262",
+   "D262",
+   "D2"
+  ],
+  "id": "q1",
+  "truth": "BI report!D262"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "BI report!F101",
+  "truth": "BI report!F101",
+  "q": "In the sheet 'BI report', which cell holds 'Supplier' for the row where 'Transaction Number' is 47168013? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "BI report!I132",
+  "truth": "BI report!I132",
+  "q": "In the sheet 'BI report', which cell holds 'Description' for the row where 'Transaction Number' is 47209623? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "BI report!O233",
+  "truth": "BI report!O233",
+  "q": "In the sheet 'BI report', which cell holds 'VAT Registration Number' for the row where 'Transaction Number' is 47344836? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "BI report!B294",
+  "truth": "BI report!B294",
+  "q": "In the sheet 'BI report', which cell holds 'Entity' for the row where 'Transaction Number' is 47440734? Give its cell address."
+ }
+]

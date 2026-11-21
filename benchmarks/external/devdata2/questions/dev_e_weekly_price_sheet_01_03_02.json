@@ -1,0 +1,76 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Term Prices!BI10",
+  "q": "What is the value in the row labelled 'This Week's Peak Power Prices', column headed 'SoCal + 0.41', in the sheet 'Term Prices'?",
+  "truth": 3.1950000000000003,
+  "labels": [
+   "AJ10",
+   "BI2"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Term Prices!BF20",
+  "q": "Which cell holds the value in the row labelled 'Rockies', column headed 'Malin', in the sheet 'Term Prices'? Give its cell address.",
+  "truth": "Term Prices!BF20",
+  "labels": [
+   "AJ20",
+   "BF2"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Term Prices!BE201",
+  "q": "Consider the cell Term Prices!BE201. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Term Prices!AW201",
+   "Term Prices!AX201",
+   "Term Prices!BE1"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Term Prices!BE89",
+  "q": "Consider the cell Term Prices!BE89. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Term Prices!AW89",
+   "Term Prices!AX89",
+   "Term Prices!BE1"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Term Prices!AP14",
+  "factor": 1.1,
+  "q": "Suppose the number in Term Prices!AP14 (in the row labelled 'COB') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Term Prices!Q14",
+   "Term Prices!Q25",
+   "Term Prices!R14",
+   "Term Prices!R25"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Term Prices!AO37",
+  "range": "Term Prices!AO37:AO45",
+  "q": "Consider the range Term Prices!AO37:AO45. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Term Prices!AO38",
+   "Term Prices!AO39",
+   "Term Prices!AO40",
+   "Term Prices!AO41",
+   "Term Prices!AO42",
+   "Term Prices!AO43",
+   "Term Prices!AO44",
+   "Term Prices!AO45"
+  ],
+  "id": "q6"
+ }
+]

@@ -1,0 +1,106 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is net income in Y3?",
+  "cell": "Summary!D6",
+  "id": "q1",
+  "truth": 256721.048625
+ },
+ {
+  "type": "lookup",
+  "q": "What is Y2 revenue for Product B?",
+  "cell": "Revenue!C3",
+  "id": "q2",
+  "truth": 226600
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds tax in Y2? Give its cell address.",
+  "cell": "Summary!C5",
+  "id": "q3",
+  "truth": "Summary!C5"
+ },
+ {
+  "type": "trace",
+  "q": "Consider EBIT in Y1. List the cells its formula reads directly (not indirectly).",
+  "cell": "Summary!B4",
+  "id": "q4",
+  "truth": [
+   "Summary!B2",
+   "Summary!B3"
+  ]
+ },
+ {
+  "type": "trace",
+  "q": "Consider variable costs in Y2. List the cells its formula reads directly (not indirectly).",
+  "cell": "Costs!C2",
+  "id": "q5",
+  "truth": [
+   "Inputs!B11",
+   "Revenue!C5"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose fixed costs increased by 10%. List every other cell whose value would change.",
+  "cell": "Inputs!B10",
+  "factor": 1.1,
+  "id": "q6",
+  "truth": [
+   "Costs!B3",
+   "Costs!B4",
+   "Costs!C3",
+   "Costs!C4",
+   "Costs!D3",
+   "Costs!D4",
+   "Summary!B3",
+   "Summary!B4",
+   "Summary!B5",
+   "Summary!B6",
+   "Summary!C3",
+   "Summary!C4",
+   "Summary!C5",
+   "Summary!C6",
+   "Summary!D3",
+   "Summary!D4",
+   "Summary!D5",
+   "Summary!D6"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose Volume B increased by 10%. List every other cell whose value would change.",
+  "cell": "Inputs!B6",
+  "factor": 1.1,
+  "id": "q7",
+  "truth": [
+   "Costs!B2",
+   "Costs!B4",
+   "Costs!C2",
+   "Costs!C4",
+   "Costs!D2",
+   "Costs!D4",
+   "Revenue!B3",
+   "Revenue!B5",
+   "Revenue!C3",
+   "Revenue!C5",
+   "Revenue!D3",
+   "Revenue!D5",
+   "Summary!B2",
+   "Summary!B3",
+   "Summary!B4",
+   "Summary!B5",
+   "Summary!B6",
+   "Summary!C2",
+   "Summary!C3",
+   "Summary!C4",
+   "Summary!C5",
+   "Summary!C6",
+   "Summary!D2",
+   "Summary!D3",
+   "Summary!D4",
+   "Summary!D5",
+   "Summary!D6"
+  ]
+ }
+]

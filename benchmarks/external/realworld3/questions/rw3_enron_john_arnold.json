@@ -1,0 +1,68 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Volumes!D4",
+  "q": "What is the value in the row labelled 'Average Daily Nominal Volume (CNG)', in the sheet 'Volumes'?",
+  "truth": 5619.480073662205,
+  "labels": [
+   "A4"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Volumes!D1",
+  "q": "Which cell holds the value in the row labelled 'Total Nominal Volume (CNG+TCO)', in the sheet 'Volumes'? Give its cell address.",
+  "truth": "Volumes!D1",
+  "labels": [
+   "A1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Volumes!R12",
+  "q": "Consider the cell Volumes!R12. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Curves!B3",
+   "Volumes!Q12"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Volumes!S73",
+  "q": "Consider the cell Volumes!S73. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Volumes!A73",
+   "Volumes!R73"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Curves!B80",
+  "factor": 1.1,
+  "q": "Suppose the number in Curves!B80 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Volumes!D2",
+   "Volumes!G9",
+   "Volumes!G90",
+   "Volumes!H90",
+   "Volumes!R9",
+   "Volumes!R90",
+   "Volumes!S90"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Volumes!E58",
+  "range": "Volumes!E58:H58",
+  "q": "Consider the range Volumes!E58:H58. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Volumes!E58"
+  ],
+  "id": "q6"
+ }
+]

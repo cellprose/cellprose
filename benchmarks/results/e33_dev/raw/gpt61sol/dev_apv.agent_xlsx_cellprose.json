@@ -1,0 +1,162 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_apv",
+ "encoding": "agent_xlsx_cellprose",
+ "prompt_chars": 1361,
+ "prompt_sha256": "63f05a3a7cb0e1892acf6c5eb3c51ed72e333789af187d481c12c33ba1cc0bda",
+ "result": "{\"q1\":0.028,\"q2\":\"Adjusted Present Value!D64\",\"q3\":[\"Adjusted Present Value!B50\",\"Adjusted Present Value!C68\",\"Adjusted Present Value!C48\"],\"q4\":[\"Inputs!B29\",\"Default Spreads and Ratios!E29\",\"Default Spreads and Ratios!E49\"],\"q5\":[\"Adjusted Present Value!E27\",\"Adjusted Present Value!E87\"],\"q6\":[\"Country ERP!C132\",\"Country ERP!E132\",\"Country ERP!F132\"]}",
+ "usage": {
+  "input_tokens": 15734,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 23405,
+  "output_tokens": 423,
+  "output_tokens_details": {
+   "thinking_tokens": 115
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 15734,
+   "outputTokens": 423,
+   "cacheReadInputTokens": 23405,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 115
+  }
+ },
+ "cost": 0.082508,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_3d6c6f1282474d2285d5c316b3142d0b",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 711,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 14,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "outline"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 8517,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 148,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "read_range",
+      "trace",
+      "trace",
+      "trace"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 6380,
+     "cache_read_tokens": 8514,
+     "cache_write_tokens": 0,
+     "output_tokens": 51,
+     "reasoning_tokens": 23,
+     "tool_calls": [
+      "find"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 126,
+     "cache_read_tokens": 14891,
+     "cache_write_tokens": 0,
+     "output_tokens": 210,
+     "reasoning_tokens": 92,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:13:10+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 10.2
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "outline",
+   "args": "{}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"Adjusted Present Value!D71:H87\"}",
+   "output_chars": 1040
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"Country ERP!C132:F132\"}",
+   "output_chars": 144
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Adjusted Present Value!C50\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 274
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Adjusted Present Value!H87\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 235
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Default Spreads and Ratios!B49\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 12070
+  },
+  {
+   "turn": 3,
+   "tool": "find",
+   "args": "{\"text\": \"Funds/Debt\", \"sheet\": \"Adjusted Present Value\"}",
+   "output_chars": 121
+  }
+ ]
+}

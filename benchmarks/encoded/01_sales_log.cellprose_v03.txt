@@ -1,0 +1,182 @@
+---
+cellprose: 0.3
+---
+
+Note: the first field of each table row is its row number, not a cell; column A is the second field.
+
+# Sheet: Sales
+
+## A1:H151
+
+#|A|B|C|D|E|F|G|H
+-|-|-|-|-|-|-|-|-
+1|Order ID|Date|Region|Rep|Product|Units|Unit Price|Revenue
+2|SO-1001|2026-01-02|West|Isla Das|Doohickey|47|8.25|387.75
+3|SO-1002|2026-02-22|East|Noah Bose|Gadget|2|39|78
+4|SO-1003|2026-01-05|West|Isla Khan|Widget|28|12.5|350
+5|SO-1004|2026-09-28|South|Aarav Das|Widget|32|12.5|400
+6|SO-1005|2026-04-30|East|Isla Khan|Sprocket|44|21|924
+7|SO-1006|2026-08-24|East|Noah Bose|Gadget|27|39|1053
+8|SO-1007|2026-02-21|South|Isla Das|Sprocket|8|21|168
+9|SO-1008|2026-09-14|West|Isla Khan|Gizmo|20|74|1480
+10|SO-1009|2026-09-13|West|Noah Bose|Gizmo|31|74|2294
+11|SO-1010|2026-07-26|West|Lucas Garcia|Gadget|24|39|936
+12|SO-1011|2026-07-11|North|Aarav Das|Sprocket|43|21|903
+13|SO-1012|2026-02-25|South|Priya Silva|Sprocket|24|21|504
+14|SO-1013|2026-01-16|West|Noah Bose|Doohickey|20|8.25|165
+15|SO-1014|2026-07-21|South|Lucas Garcia|Sprocket|33|21|693
+16|SO-1015|2026-01-07|South|Isla Khan|Gadget|26|39|1014
+17|SO-1016|2026-06-26|East|Aarav Das|Sprocket|59|21|1239
+18|SO-1017|2026-01-03|West|Lucas Garcia|Gizmo|34|74|2516
+19|SO-1018|2026-04-16|West|Noah Bose|Sprocket|31|21|651
+20|SO-1019|2026-04-13|West|Aarav Das|Gizmo|53|74|3922
+21|SO-1020|2026-08-01|East|Noah Bose|Gizmo|35|74|2590
+22|SO-1021|2026-06-19|West|Noah Bose|Sprocket|52|21|1092
+23|SO-1022|2026-04-01|South|Grace Kim|Gadget|52|39|2028
+24|SO-1023|2026-05-11|North|Grace Kim|Sprocket|6|21|126
+25|SO-1024|2026-08-20|North|Isla Das|Widget|16|12.5|200
+26|SO-1025|2026-02-26|South|Nina Rao|Gizmo|19|74|1406
+27|SO-1026|2026-03-27|South|Isla Das|Widget|34|12.5|425
+28|SO-1027|2026-05-20|East|Aarav Das|Gadget|45|39|1755
+29|SO-1028|2026-09-12|West|Grace Kim|Gizmo|2|74|148
+30|SO-1029|2026-07-17|East|Priya Silva|Gizmo|51|74|3774
+31|SO-1030|2026-05-13|North|Isla Das|Gadget|58|39|2262
+32|SO-1031|2026-04-18|West|Noah Bose|Sprocket|15|21|315
+33|SO-1032|2026-07-23|South|Noah Bose|Widget|47|12.5|587.5
+34|SO-1033|2026-08-17|West|Isla Khan|Gadget|41|39|1599
+35|SO-1034|2026-08-19|South|Noah Bose|Sprocket|26|21|546
+36|SO-1035|2026-06-14|West|Noah Bose|Sprocket|48|21|1008
+37|SO-1036|2026-03-06|South|Noah Bose|Gizmo|20|74|1480
+38|SO-1037|2026-02-09|East|Isla Das|Widget|48|12.5|600
+39|SO-1038|2026-08-02|East|Lucas Garcia|Gadget|1|39|39
+40|SO-1039|2026-01-20|South|Aarav Das|Sprocket|11|21|231
+41|SO-1040|2026-09-18|North|Priya Silva|Sprocket|13|21|273
+42|SO-1041|2026-02-20|South|Priya Silva|Gizmo|38|74|2812
+43|SO-1042|2026-09-10|North|Priya Silva|Gadget|19|39|741
+44|SO-1043|2026-09-13|North|Nina Rao|Sprocket|40|21|840
+45|SO-1044|2026-05-25|North|Lucas Garcia|Doohickey|13|8.25|107.25
+46|SO-1045|2026-03-11|East|Priya Silva|Gizmo|14|74|1036
+47|SO-1046|2026-02-19|West|Nina Rao|Gizmo|59|74|4366
+48|SO-1047|2026-09-06|South|Grace Kim|Sprocket|47|21|987
+49|SO-1048|2026-02-13|South|Lucas Garcia|Widget|11|12.5|137.5
+50|SO-1049|2026-04-20|East|Nina Rao|Sprocket|39|21|819
+51|SO-1050|2026-05-11|East|Nina Rao|Sprocket|22|21|462
+52|SO-1051|2026-05-30|South|Aarav Das|Widget|9|12.5|112.5
+53|SO-1052|2026-02-23|East|Noah Bose|Sprocket|27|21|567
+54|SO-1053|2026-07-14|South|Lucas Garcia|Widget|22|12.5|275
+55|SO-1054|2026-07-13|North|Isla Khan|Widget|37|12.5|462.5
+56|SO-1055|2026-05-17|East|Isla Das|Widget|37|12.5|462.5
+57|SO-1056|2026-02-28|West|Isla Das|Sprocket|7|21|147
+58|SO-1057|2026-06-01|North|Noah Bose|Widget|6|12.5|75
+59|SO-1058|2026-02-28|North|Isla Khan|Doohickey|16|8.25|132
+60|SO-1059|2026-08-04|South|Grace Kim|Sprocket|29|21|609
+61|SO-1060|2026-05-04|South|Grace Kim|Gadget|28|39|1092
+62|SO-1061|2026-05-31|East|Aarav Das|Doohickey|21|8.25|173.25
+63|SO-1062|2026-04-17|East|Noah Bose|Widget|2|12.5|25
+64|SO-1063|2026-06-01|East|Aarav Das|Widget|26|12.5|325
+65|SO-1064|2026-07-24|North|Grace Kim|Gizmo|59|74|4366
+66|SO-1065|2026-08-22|North|Isla Das|Gizmo|14|74|1036
+67|SO-1066|2026-08-29|East|Isla Das|Sprocket|12|21|252
+68|SO-1067|2026-04-17|East|Isla Khan|Sprocket|16|21|336
+69|SO-1068|2026-02-11|East|Grace Kim|Gizmo|49|74|3626
+70|SO-1069|2026-02-16|East|Isla Khan|Doohickey|25|8.25|206.25
+71|SO-1070|2026-01-22|East|Lucas Garcia|Gizmo|21|74|1554
+72|SO-1071|2026-06-05|South|Nina Rao|Sprocket|7|21|147
+73|SO-1072|2026-02-17|South|Isla Khan|Sprocket|2|21|42
+74|SO-1073|2026-07-25|North|Isla Das|Gadget|36|39|1404
+75|SO-1074|2026-02-08|North|Noah Bose|Widget|19|12.5|237.5
+76|SO-1075|2026-09-10|West|Lucas Garcia|Gizmo|7|74|518
+77|SO-1076|2026-06-17|North|Lucas Garcia|Sprocket|12|21|252
+78|SO-1077|2026-03-14|East|Isla Das|Gadget|7|39|273
+79|SO-1078|2026-05-31|South|Isla Khan|Sprocket|10|21|210
+80|SO-1079|2026-01-17|East|Isla Khan|Sprocket|12|21|252
+81|SO-1080|2026-08-10|South|Noah Bose|Gizmo|46|74|3404
+82|SO-1081|2026-05-10|North|Aarav Das|Gadget|52|39|2028
+83|SO-1082|2026-05-09|West|Aarav Das|Doohickey|1|8.25|8.25
+84|SO-1083|2026-06-23|South|Isla Das|Doohickey|32|8.25|264
+85|SO-1084|2026-08-02|North|Noah Bose|Widget|45|12.5|562.5
+86|SO-1085|2026-03-12|South|Lucas Garcia|Gizmo|17|74|1258
+87|SO-1086|2026-07-23|West|Lucas Garcia|Gizmo|40|74|2960
+88|SO-1087|2026-04-30|West|Noah Bose|Widget|12|12.5|150
+89|SO-1088|2026-06-12|West|Isla Khan|Sprocket|16|21|336
+90|SO-1089|2026-09-11|West|Isla Khan|Gizmo|46|74|3404
+91|SO-1090|2026-06-22|East|Isla Khan|Doohickey|4|8.25|33
+92|SO-1091|2026-09-19|East|Lucas Garcia|Widget|33|12.5|412.5
+93|SO-1092|2026-06-09|East|Isla Das|Gadget|55|39|2145
+94|SO-1093|2026-07-10|South|Aarav Das|Sprocket|39|21|819
+95|SO-1094|2026-03-05|West|Lucas Garcia|Widget|10|12.5|125
+96|SO-1095|2026-08-07|South|Noah Bose|Gizmo|32|74|2368
+97|SO-1096|2026-06-28|West|Lucas Garcia|Doohickey|35|8.25|288.75
+98|SO-1097|2026-09-26|North|Isla Das|Widget|41|12.5|512.5
+99|SO-1098|2026-05-17|North|Lucas Garcia|Widget|50|12.5|625
+100|SO-1099|2026-02-11|West|Isla Khan|Sprocket|55|21|1155
+101|SO-1100|2026-08-10|West|Lucas Garcia|Doohickey|59|8.25|486.75
+102|SO-1101|2026-08-13|South|Aarav Das|Gizmo|14|74|1036
+103|SO-1102|2026-08-09|West|Grace Kim|Widget|43|12.5|537.5
+104|SO-1103|2026-05-23|South|Priya Silva|Gizmo|48|74|3552
+105|SO-1104|2026-01-03|South|Aarav Das|Sprocket|38|21|798
+106|SO-1105|2026-01-16|South|Isla Das|Widget|14|12.5|175
+107|SO-1106|2026-05-26|South|Isla Khan|Gadget|18|39|702
+108|SO-1107|2026-05-09|West|Lucas Garcia|Gizmo|35|74|2590
+109|SO-1108|2026-09-09|West|Grace Kim|Gizmo|50|74|3700
+110|SO-1109|2026-07-16|South|Isla Das|Gadget|52|39|2028
+111|SO-1110|2026-01-13|North|Noah Bose|Widget|35|12.5|437.5
+112|SO-1111|2026-03-11|North|Nina Rao|Gizmo|37|74|2738
+113|SO-1112|2026-08-12|East|Nina Rao|Gizmo|1|74|74
+114|SO-1113|2026-08-15|West|Nina Rao|Widget|20|12.5|250
+115|SO-1114|2026-07-24|East|Aarav Das|Sprocket|8|21|168
+116|SO-1115|2026-07-15|South|Noah Bose|Doohickey|18|8.25|148.5
+117|SO-1116|2026-09-19|South|Aarav Das|Sprocket|39|21|819
+118|SO-1117|2026-07-29|East|Lucas Garcia|Sprocket|29|21|609
+119|SO-1118|2026-04-12|East|Noah Bose|Sprocket|44|21|924
+120|SO-1119|2026-08-07|West|Nina Rao|Doohickey|56|8.25|462
+121|SO-1120|2026-02-04|West|Isla Khan|Sprocket|41|21|861
+122|SO-1121|2026-01-11|West|Lucas Garcia|Gizmo|41|74|3034
+123|SO-1122|2026-05-19|South|Grace Kim|Doohickey|53|8.25|437.25
+124|SO-1123|2026-01-06|East|Isla Das|Sprocket|52|21|1092
+125|SO-1124|2026-06-05|South|Aarav Das|Doohickey|54|8.25|445.5
+126|SO-1125|2026-09-06|South|Aarav Das|Gizmo|33|74|2442
+127|SO-1126|2026-05-19|North|Priya Silva|Widget|5|12.5|62.5
+128|SO-1127|2026-02-04|West|Noah Bose|Gizmo|11|74|814
+129|SO-1128|2026-03-24|North|Priya Silva|Sprocket|41|21|861
+130|SO-1129|2026-06-05|South|Isla Khan|Gizmo|16|74|1184
+131|SO-1130|2026-05-18|North|Grace Kim|Gizmo|45|74|3330
+132|SO-1131|2026-07-08|West|Noah Bose|Sprocket|11|21|231
+133|SO-1132|2026-05-19|East|Isla Khan|Gizmo|26|74|1924
+134|SO-1133|2026-07-24|South|Aarav Das|Sprocket|51|21|1071
+135|SO-1134|2026-06-18|South|Isla Das|Gizmo|40|74|2960
+136|SO-1135|2026-01-16|West|Nina Rao|Gadget|60|39|2340
+137|SO-1136|2026-05-08|East|Isla Khan|Doohickey|5|8.25|41.25
+138|SO-1137|2026-08-16|South|Isla Das|Gadget|30|39|1170
+139|SO-1138|2026-03-25|South|Lucas Garcia|Sprocket|58|21|1218
+140|SO-1139|2026-07-04|East|Priya Silva|Doohickey|16|8.25|132
+141|SO-1140|2026-04-16|East|Grace Kim|Widget|7|12.5|87.5
+142|SO-1141|2026-07-23|East|Aarav Das|Gadget|60|39|2340
+143|SO-1142|2026-04-06|North|Noah Bose|Widget|52|12.5|650
+144|SO-1143|2026-01-12|South|Noah Bose|Sprocket|32|21|672
+145|SO-1144|2026-08-15|East|Isla Das|Sprocket|8|21|168
+146|SO-1145|2026-03-30|North|Isla Khan|Sprocket|26|21|546
+147|SO-1146|2026-09-11|West|Priya Silva|Gadget|49|39|1911
+148|SO-1147|2026-04-29|South|Isla Das|Gadget|30|39|1170
+149|SO-1148|2026-07-19|South|Aarav Das|Sprocket|46|21|966
+150|SO-1149|2026-06-19|West|Grace Kim|Gizmo|59|74|4366
+151|SO-1150|2026-02-10|North|Noah Bose|Gadget|52|39|2028
+
+```formulas
+H2:H151 = F2*G2
+```
+
+```formats
+B2:B151 = yyyy\-mm\-dd
+G2:H151 = \$#,##0.00
+```
+
+```cells
+A153: Total
+F153 = SUM(F2:F151)  # 4532
+H153 = SUM(H2:H151)  # 159288
+```
+
+```formats
+H153 = \$#,##0.00
+```

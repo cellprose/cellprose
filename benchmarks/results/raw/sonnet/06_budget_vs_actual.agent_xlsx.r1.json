@@ -1,0 +1,73 @@
+{
+ "model": "sonnet",
+ "workbook": "06_budget_vs_actual",
+ "encoding": "agent_xlsx",
+ "result": "Sales Jan actual C3 \u2192 I3, J3, K3, C11, I11, J11, K11.\n\n```json\n{\"q1\":5029,\"q2\":3304937,\"q3\":39947,\"q4\":\"BvA!F8\",\"q5\":[\"BvA!I4\",\"BvA!H4\"],\"q6\":[\"BvA!H2:H9\"],\"q7\":[\"BvA!I3\",\"BvA!J3\",\"BvA!K3\",\"BvA!C11\",\"BvA!I11\",\"BvA!J11\",\"BvA!K11\"]}\n```",
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 4197,
+  "cache_read_input_tokens": 6101,
+  "output_tokens": 429,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4197,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 167,
+    "cache_read_input_tokens": 3948,
+    "cache_creation_input_tokens": 2402,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2402
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1549,
+   "outputTokens": 300,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0003049,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 280,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 429,
+   "cacheReadInputTokens": 6101,
+   "cacheCreationInputTokens": 4197,
+   "webSearchRequests": 0,
+   "costUSD": 0.022306199999999998,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.022611100000000002,
+ "num_turns": 2,
+ "subtype": "success"
+}

@@ -1,0 +1,65 @@
+{
+ "model": "sonnet55",
+ "workbook": "02_employees",
+ "encoding": "grid_values",
+ "prompt_chars": 9943,
+ "result": "E1042 is in row 44 (Ethan Garcia), and its salary is 160500.\n\nE1007 is in row 9, and its age is 45.\n\nE1088 is in row 90 (Kabir Rao), and its department is Sales.\n\nE1115 is in row 117 (Ishaan Singh), and its city is London.\n\nE1063 is in row 65, so its salary is in column F: Employees!F65.\n\nE1019 is in row 21, so its start date is in column G: Employees!G21.\n\n{\"q1\": 160500, \"q2\": 45, \"q3\": \"Sales\", \"q4\": \"London\", \"q5\": \"Employees!F65\", \"q6\": \"Employees!G21\"}",
+ "usage": {
+  "input_tokens": 5878,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 216,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 5878,
+   "outputTokens": 216,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.013916,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T105651Z-65938b",
+  "started_at": "2026-10-09T10:56:51+00:00",
+  "git_sha": "acbac33",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 2.6,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 5878,
+   "output_tokens": 216,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:59:12+00:00"
+ }
+}

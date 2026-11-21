@@ -1,0 +1,75 @@
+[
+ {
+  "type": "lookup",
+  "cell": "COB 091701!E9",
+  "q": "What is the value in the row labelled 'Enron North America Corp.', column headed 'Net Exp.', in the sheet 'COB 091701'?",
+  "truth": 56160711,
+  "labels": [
+   "A9",
+   "E7"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "COB 100101!G9",
+  "q": "Which cell holds the value in the row labelled 'Enron North America Corp.', column headed 'Net Exp.', in the sheet 'COB 100101'? Give its cell address.",
+  "truth": "COB 100101!G9",
+  "labels": [
+   "A9",
+   "G7"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Breakdown!AA18",
+  "q": "Consider the cell Breakdown!AA18 (in the row labelled 'Total Exposure'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Breakdown!Y18",
+   "Breakdown!Z18"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Breakdown!AG16",
+  "q": "Consider the cell Breakdown!AG16 (in the row labelled 'Total Power'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Breakdown!AG13",
+   "Breakdown!AG14",
+   "Breakdown!AG15"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "COB 082801!D8",
+  "factor": 1.1,
+  "q": "Suppose the number in COB 082801!D8 (in the row labelled 'Enron Energy Services, Inc.') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "COB 082801!D11",
+   "COB 082801!E11",
+   "COB 082801!E8",
+   "COB 082801!G11",
+   "COB 082801!G8",
+   "Daily Change Graph!C4",
+   "Daily Change Graph!C5",
+   "Daily Change Graph!C8"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Breakdown!AJ14",
+  "range": "Breakdown!AJ14:AN14",
+  "q": "Consider the range Breakdown!AJ14:AN14 (the row of 'Power Purchases'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Breakdown!AJ14",
+   "Breakdown!AK14",
+   "Breakdown!AL14",
+   "Breakdown!AN14"
+  ],
+  "id": "q6"
+ }
+]

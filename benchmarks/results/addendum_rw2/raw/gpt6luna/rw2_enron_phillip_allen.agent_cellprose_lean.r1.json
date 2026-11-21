@@ -1,0 +1,199 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_enron_phillip_allen",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 9672,
+ "prompt_sha256": "87fbcffc0e24edf88df4941ab3d774ee06e4354bbf698ee8a172e9f942d0d765",
+ "result": "{\"q1\":-24307,\"q2\":\"Initial Mix!D11\",\"q3\":[\"Initial Mix!AB7\",\"Initial Mix!AB93\"],\"q4\":[\"UCost Final!AB9\",\"UCost Final!AB153\"],\"q5\":[\"UCost Final!O94:P94\",\"UCost Final!O110:P110\",\"UCost Final!O124:P125\"],\"q6\":[\"UCost Final!AP28\",\"UCost Final!AP32\",\"UCost Final!AP34\"]}",
+ "usage": {
+  "input_tokens": 7610,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 52313,
+  "output_tokens": 803,
+  "output_tokens_details": {
+   "thinking_tokens": 364
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 7610,
+   "outputTokens": 803,
+   "cacheReadInputTokens": 52313,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 364
+  }
+ },
+ "cost": 0.0063938,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_70ce2e6ca70246bbaee5168118f531f1",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 4501,
+     "cache_write_tokens": 0,
+     "output_tokens": 169,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 4697,
+     "cache_read_tokens": 4501,
+     "cache_write_tokens": 0,
+     "output_tokens": 222,
+     "reasoning_tokens": 148,
+     "tool_calls": [
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1796,
+     "cache_read_tokens": 9195,
+     "cache_write_tokens": 0,
+     "output_tokens": 59,
+     "reasoning_tokens": 32,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 450,
+     "cache_read_tokens": 10988,
+     "cache_write_tokens": 0,
+     "output_tokens": 52,
+     "reasoning_tokens": 25,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 261,
+     "cache_read_tokens": 11435,
+     "cache_write_tokens": 0,
+     "output_tokens": 131,
+     "reasoning_tokens": 102,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 403,
+     "cache_read_tokens": 11693,
+     "cache_write_tokens": 0,
+     "output_tokens": 170,
+     "reasoning_tokens": 57,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.001686
+  },
+  "finished_at": "2026-11-11T18:40:00+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 17.7
+ },
+ "num_turns": 6,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Proforma!Q54:Y62\", \"Initial Mix!AG6:AL54\", \"Initial Mix!AG85:AL96\", \"UCost Final!AM90:AR96\", \"UCost Final!AA145:AR157\", \"UCost Final!AM20:AR42\"]}",
+   "output_chars": 8501
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Initial Mix!AC93\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 94
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"UCost Final!AC153\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 98
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"UCost Final!N94\", \"factor\": 1.1}",
+   "output_chars": 128
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Builder's Risk\", \"sheet\": \"Initial Mix\"}",
+   "output_chars": 90
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Initial Mix!AG54:AL88\", \"UCost Final!AM43:AR55\"]}",
+   "output_chars": 2887
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Initial Mix!A9:N13\"]}",
+   "output_chars": 641
+  },
+  {
+   "turn": 4,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Initial Mix!A5:N8\"]}",
+   "output_chars": 378
+  },
+  {
+   "turn": 5,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"UCost Final!AP26:AP40\"]}",
+   "output_chars": 477
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_lisa_gang",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1369,
+ "prompt_sha256": "8df5193e726d730a138dee986b5f2698bd8aac395675e543411c4834c22c8977",
+ "result": "```json\n{\"q1\": \"Scheduling!AA16\", \"q2\": [\"Scheduling!AJ5\", \"Scheduling!E20\", \"Scheduling!E23\"], \"q3\": [\"Scheduling!AJ5\", \"Scheduling!O14\", \"Scheduling!O12\"], \"q4\": [\"Scheduling!H16\", \"Scheduling!H18\", \"Scheduling!H24\", \"Scheduling!AA14\", \"Scheduling!AA16\"], \"q5\": []}\n```",
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 24124,
+  "cache_read_input_tokens": 39875,
+  "output_tokens": 2848,
+  "output_tokens_details": {
+   "thinking_tokens": 2107
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 10,
+   "outputTokens": 2848,
+   "cacheReadInputTokens": 39875,
+   "cacheCreationInputTokens": 24124,
+   "thinkingTokens": 2107
+  }
+ },
+ "cost": 0.0078249,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 1064,
+     "output_tokens": 173,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 1064,
+     "cache_write_tokens": 16133,
+     "output_tokens": 308,
+     "reasoning_tokens": 76,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 17197,
+     "cache_write_tokens": 4417,
+     "output_tokens": 1585,
+     "reasoning_tokens": 1412,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 21614,
+     "cache_write_tokens": 2510,
+     "output_tokens": 782,
+     "reasoning_tokens": 619,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.004839
+  },
+  "finished_at": "2026-11-11T15:54:55+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 15.6
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb:\\n  print('##',ws.title,ws.dimensions)\\nws=wb['Scheduling']\\nfor row in ws.iter_rows():\\n  for c in row:\\n    if c.value is not None: print(c.coordinate,repr(c.value))\\n\\\"\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Scheduling']\\nfor r in range(23,45):\\n  for col in ['B','C','E','H','M','O','AA','AB','AC','AD','AE','AF','AG','AH','AI','AJ']:\\n    c=ws[f'{col}{r}']\\n    if c.value is not None: print(c.coordinate,repr(c.value)[:400])\\nprint([ws.cell(r,13).value for r in range(16,28)])\\n\\\"\"}",
+   "output_chars": 5460
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx',data_only=True)\\nws=wb['Scheduling']\\nfor r in [12,14,16,18,20,22,23,24,26]:\\n  print(r,[ws.cell(r,c).value for c in range(3,28)])\\nprint(ws['AJ5'].value)\\n\\\"\"}",
+   "output_chars": 1305
+  }
+ ]
+}

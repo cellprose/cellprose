@@ -1,0 +1,47 @@
+[
+ {
+  "type": "trace",
+  "cell": "Floor Plan!I28",
+  "q": "Consider the cell Floor Plan!I28 (in the row labelled 'Arora'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Floor Plan!G28",
+   "Floor Plan!H28"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "Floor Plan!C84",
+  "q": "Consider the cell Floor Plan!C84 (in the row labelled 'Total'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Floor Plan!C80",
+   "Floor Plan!C81",
+   "Floor Plan!C82",
+   "Floor Plan!C83"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "impact",
+  "cell": "Floor Plan!AC94",
+  "factor": 1.1,
+  "q": "Suppose the number in Floor Plan!AC94 (in the row labelled 'Forney') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Floor Plan!AA94",
+   "Floor Plan!AB94",
+   "Floor Plan!Y94",
+   "Floor Plan!Z94"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Floor Plan!K68",
+  "range": "Floor Plan!K68:P68",
+  "q": "Consider the range Floor Plan!K68:P68. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Floor Plan!P68"
+  ],
+  "id": "q4"
+ }
+]

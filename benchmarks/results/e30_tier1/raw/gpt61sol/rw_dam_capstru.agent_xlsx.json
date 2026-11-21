@@ -1,0 +1,98 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw_dam_capstru",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1217,
+ "prompt_sha256": "78b2311d7e94c98b1e203a97a24da7ea5b775c2cc99a8e5630a0c3d62a45cb3f",
+ "result": "{\"q1\":0.09567120276370804,\"q2\":218233.40818955714,\"q3\":\"Optimal CS Worksheet!E16\",\"q4\":[\"Optimal CS Worksheet!F7\",\"Optimal CS Worksheet!F4\",\"Optimal CS Worksheet!C8\"],\"q5\":[\"Optimal CS Worksheet!F12\",\"Optimal CS Worksheet!E12\"]}",
+ "usage": {
+  "input_tokens": 10140,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 203,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 10140,
+   "outputTokens": 203,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.02231,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_4ee4525324064c8cbbd8452a99595106",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 420,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 122,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 9720,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 81,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:04:14+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 4.0
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');s=w['Optimal CS Worksheet'];v=openpyxl.load_workbook('book.xlsx',data_only=True)['Optimal CS Worksheet']\\nfor row in s:\\n vals=['%s:%s [v=%s]'%(c.coordinate,c.value,v[c.coordinate].value) for c in row if c.value is not None]\\n if vals: print(' | '.join(vals))\\nPY\"}",
+   "output_chars": 20033
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_ogl13_worcs_spend",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 980,
+ "prompt_sha256": "0a2378fbcf5ef704d76c26ae392c6ea4929d9f3a6ddfdde040be0ebdd9b2b308",
+ "result": "{\"q1\":\"LEARNING & DEVELOPMENT\",\"q2\":\"VARIOUS SITES\",\"q3\":\"Sheet1!E38\"}",
+ "usage": {
+  "input_tokens": 4162,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2471,
+  "output_tokens": 134,
+  "output_tokens_details": {
+   "thinking_tokens": 41
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 4162,
+   "outputTokens": 134,
+   "cacheReadInputTokens": 2471,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 41
+  }
+ },
+ "cost": 0.0007302999999999999,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_3b2ede72ff7e465a837e1fafdc690601",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 386,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 32,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2474,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 29,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1302,
+     "cache_read_tokens": 2471,
+     "cache_write_tokens": 0,
+     "output_tokens": 73,
+     "reasoning_tokens": 41,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:04:01+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 3.4
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l; file book.sheet.md; head -40 book.sheet.md\"}",
+   "output_chars": 5896
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '40,100p' book.sheet.md\"}",
+   "output_chars": 3301
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Past T.Bill rates!B3",
+  "q": "What is the value in the row labelled 'Euro', column headed 'Average riskfree rate - last 2 years', in the sheet 'Past T.Bill rates'?",
+  "truth": 0.0025,
+  "labels": [
+   "A3",
+   "B1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Regional Risk Premiums!B12",
+  "q": "Which cell holds the value in the row labelled 'Grand Total', column headed 'Default Spread (Weighted average)', in the sheet 'Regional Risk Premiums'? Give its cell address.",
+  "truth": "Regional Risk Premiums!B12",
+  "labels": [
+   "A12",
+   "B1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "ERP calculator!D9",
+  "q": "Consider the cell ERP calculator!D9 (in the row labelled 'Chile'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "ERP calculator!B17",
+   "ERP calculator!B9"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "ERP calculator!D32",
+  "q": "Consider the cell ERP calculator!D32 (in the row labelled 'North America'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "ERP calculator!B32",
+   "ERP calculator!B34"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Check numbers!B8",
+  "factor": 1.1,
+  "q": "Suppose the number in Check numbers!B8 (in the row labelled 'Past Riskfree rate (Annual)') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Check numbers!B11",
+   "Check numbers!B12",
+   "Check numbers!B13"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "ERP calculator!B8",
+  "range": "ERP calculator!B8:E8",
+  "q": "Consider the range ERP calculator!B8:E8 (the row of 'Brazil'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "ERP calculator!B8"
+  ],
+  "id": "q6"
+ }
+]

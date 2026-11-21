@@ -1,0 +1,116 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw3_enron_john_arnold",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1192,
+ "prompt_sha256": "4c52563015eb0e54480a3969f5904a72f55727729d5bb12ffaa713c053671699",
+ "result": "{\"q1\":5619.480073662205,\"q2\":\"Volumes!D1\",\"q3\":[\"Volumes!Q12\",\"Curves!B3\"],\"q4\":[\"Volumes!R73\",\"Volumes!A73\"],\"q5\":[\"Volumes!D2\",\"Volumes!G9\",\"Volumes!R9\",\"Volumes!G90\",\"Volumes!H90\",\"Volumes!R90\",\"Volumes!S90\"],\"q6\":[\"Volumes!E58\"]}",
+ "usage": {
+  "input_tokens": 2714,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1336,
+  "output_tokens": 1369,
+  "output_tokens_details": {
+   "thinking_tokens": 358
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 2714,
+   "outputTokens": 1369,
+   "cacheReadInputTokens": 1336,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 358
+  }
+ },
+ "cost": 0.0010895,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_955fec4bffcb42908e8bf09bcf43a475",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 426,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 290,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1339,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 835,
+     "reasoning_tokens": 217,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 949,
+     "cache_read_tokens": 1336,
+     "cache_write_tokens": 0,
+     "output_tokens": 244,
+     "reasoning_tokens": 141,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:54:28+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 15.8
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl, json\\nf='book.xlsx'; wbf=openpyxl.load_workbook(f,data_only=False)\\nwbv=openpyxl.load_workbook(f,data_only=True)\\nprint(wbf.sheetnames)\\nfor sn in ['Volumes','Curves']:\\n s=wbf[sn]; sv=wbv[sn]; print('\\\\n',sn,s.max_row,s.max_column)\\n if sn=='Volumes':\\n  for row in s.iter_rows():\\n   for c in row:\\n    if c.value and isinstance(c.value,str) and any(x in c.value for x in ['Average Daily Nominal Volume (CNG)','Total Nominal Volume (CNG+TCO)']):\\n   ",
+   "output_chars": 1598
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl,re\\nfrom openpyxl.formula import Tokenizer\\nfrom openpyxl.utils.cell import range_boundaries\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\n# references parser\\nrefpat=re.compile(r\\\"(?:(?:'((?:[^']|'')+)'|([^'!]+))!)?(\\\\$?[A-Z]{1,3}\\\\$?\\\\d+)(?::(\\\\$?[A-Z]{1,3}\\\\$?\\\\d+))?\\\",re.I)\\ndef refs(formula, sheet):\\n out=set()\\n try: toks=Tokenizer(formula).items\\n except Exception as e: return out\\n for t in toks:\\n  if t.type=='OPERAND' and t.subty",
+   "output_chars": 224
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+[
+ {
+  "type": "address",
+  "cell": "compare!L23",
+  "q": "Which cell holds the value in the row labelled 'March 1 to April 1', column headed 'kWh Sales', in the sheet 'compare'? Give its cell address.",
+  "truth": "compare!L23",
+  "labels": [
+   "H23",
+   "L16"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "PG&E tables!D38",
+  "q": "Consider the cell PG&E tables!D38 (in the row labelled 'Subtotal'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "PG&E tables!D33",
+   "PG&E tables!D34",
+   "PG&E tables!D35",
+   "PG&E tables!D36",
+   "PG&E tables!D37"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "PG&E tables!E38",
+  "q": "Consider the cell PG&E tables!E38 (in the row labelled 'Subtotal'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "PG&E tables!E33",
+   "PG&E tables!E34",
+   "PG&E tables!E35",
+   "PG&E tables!E36",
+   "PG&E tables!E37"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "impact",
+  "cell": "PG&E tables!D20",
+  "factor": 1.1,
+  "q": "Suppose the number in PG&E tables!D20 (in the row labelled 'May 27 3-cent surcharge') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "PG&E tables!E20",
+   "PG&E tables!E21",
+   "PG&E tables!E24",
+   "PG&E tables!G23",
+   "PG&E tables!H23",
+   "PG&E tables!H24",
+   "PG&E tables!K23",
+   "PG&E tables!K24",
+   "PG&E tables!M40",
+   "PG&E tables!N13",
+   "PG&E tables!N14",
+   "PG&E tables!N16",
+   "PG&E tables!N21",
+   "PG&E tables!N23",
+   "PG&E tables!N40",
+   "PG&E tables!N41"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "PG&E tables!D33",
+  "range": "PG&E tables!D33:D39",
+  "q": "Consider the range PG&E tables!D33:D39 (the column of '$/MWh'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "PG&E tables!D33",
+   "PG&E tables!D34",
+   "PG&E tables!D35",
+   "PG&E tables!D36",
+   "PG&E tables!D37",
+   "PG&E tables!D39"
+  ],
+  "id": "q5"
+ }
+]

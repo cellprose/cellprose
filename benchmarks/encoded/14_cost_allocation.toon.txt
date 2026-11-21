@@ -1,0 +1,18 @@
+Drivers[6]{Department,Headcount,"Floor area",Tickets}:
+  Engineering,60,900,120
+  Sales,25,600,40
+  Support,30,400,900
+  Finance,10,200,60
+  Marketing,15,300,80
+  Total,140,2400,1200
+Shared[3]{Pool,"Annual cost",Driver}:
+  IT,600000,Headcount
+  Facilities,450000,Floor area
+  Helpdesk,300000,Tickets
+Allocation[6]{Department,IT,Facilities,Helpdesk,Total}:
+  Engineering,257142.8571,168750,30000,455892.8571
+  Sales,107142.8571,112500,9000,228642.8571
+  Support,128571.4286,75000,225000,428571.4286
+  Finance,42857.14286,37500,15000,95357.14286
+  Marketing,64285.71429,56250,20000,140535.7143
+  Total,600000,450000,299000,1349000

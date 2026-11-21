@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_jonathan_mckay",
+ "encoding": "cellprose_v03",
+ "prompt_chars": 3377,
+ "prompt_sha256": "81d2c75c065588ae3cf5caba1d0a32318d654f27169b9bda3c7769a837302e84",
+ "result": "```json\n{\"q1\": 806, \"q2\": [\"Enron Direct Deal Sheet!F15\", \"Enron Direct Deal Sheet!F16\", \"Enron Direct Deal Sheet!F17\", \"Enron Direct Deal Sheet!F18\", \"Enron Direct Deal Sheet!F19\", \"Enron Direct Deal Sheet!F20\", \"Enron Direct Deal Sheet!F21\", \"Enron Direct Deal Sheet!F22\", \"Enron Direct Deal Sheet!F23\", \"Enron Direct Deal Sheet!F24\", \"Enron Direct Deal Sheet!F25\", \"Enron Direct Deal Sheet!F26\"], \"q3\": [\"Enron Direct Deal Sheet!C16\", \"Enron Direct Deal Sheet!B10\"], \"q4\": [\"Enron Direct Deal Sheet!E19\", \"Enron Direct Deal Sheet!G19\", \"Enron Direct Deal Sheet!C28\", \"Enron Direct Deal Sheet!D28\", \"Enron Direct Deal Sheet!E28\", \"Enron Direct Deal Sheet!G28\"], \"q5\": []}\n```",
+ "usage": {
+  "input_tokens": 1884,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 993,
+  "output_tokens_details": {
+   "thinking_tokens": 594
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1884,
+   "outputTokens": 993,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 594
+  }
+ },
+ "cost": 0.0006849,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 4.0,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1884,
+   "output_tokens": 993,
+   "output_tokens_details": {
+    "thinking_tokens": 594
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 1884
+  },
+  "finished_at": "2026-11-11T14:27:28+00:00"
+ }
+}

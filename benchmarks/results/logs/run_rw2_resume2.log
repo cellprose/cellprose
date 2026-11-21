@@ -1,0 +1,58 @@
+anthropic host: api.anthropic.com (workspace header: no)
+anthropic host: api.anthropic.com (workspace header: no)
+openai host: api.openai.com
+openai host: api.openai.com
+44 calls to run, 1396 already on disk in results/run_rw2
+calls: 44
+input tokens: 915,551 (counted by the API)
+expected output tokens: 29,013 (per model and arm from the API pilot, E32, where it ran them; otherwise the model's est_output_tokens)
+expected cost: $2.12
+worst case (every call uses max_tokens): $15.91
+openai: expected $2.12, cap $30.00
+resuming run id 20261111T134446Z-4cc39c: 44 calls left
+[1/44] gpt61sol/rw2_enron_james_steffes.none.r2.json ok out=180 cost=$0.0025
+[2/44] gpt61sol/rw2_enron_jonathan_mckay.cellprose_v03.r2.json ok out=269 cost=$0.0055
+[3/44] gpt61sol/rw2_enron_jonathan_mckay.markitdown.r2.json ok out=460 cost=$0.0085
+[4/44] gpt61sol/rw2_enron_james_steffes.markitdown.r2.json ok out=1258 cost=$0.0292
+[5/44] gpt61sol/rw2_enron_james_steffes.csv.r2.json ok out=1417 cost=$0.0223
+[6/44] gpt61sol/rw2_enron_chris_germany.markitdown.r2.json ok out=1448 cost=$0.0243
+[7/44] gpt61sol/rw2_enron_jonathan_mckay.none.r2.json ok out=79 cost=$0.0015
+[8/44] gpt61sol/rw2_enron_kevin_presto.cellprose_v03.r2.json ok out=127 cost=$0.0149
+[9/44] gpt61sol/rw2_enron_jonathan_mckay.csv.r2.json ok out=688 cost=$0.0086
+[10/44] gpt61sol/rw2_enron_kevin_presto.none.r2.json ok out=168 cost=$0.0023
+[11/44] gpt61sol/rw2_enron_lisa_gang.cellprose_v03.r2.json ok out=246 cost=$0.0114
+[12/44] gpt61sol/rw2_enron_kevin_presto.markitdown.r2.json ok out=862 cost=$0.0203
+[13/44] gpt61sol/rw2_enron_lisa_gang.none.r2.json ok out=169 cost=$0.0024
+[14/44] gpt61sol/rw2_enron_lisa_gang.markitdown.r2.json ok out=786 cost=$0.0187
+[15/44] gpt61sol/rw2_enron_kevin_presto.csv.r2.json ok out=1299 cost=$0.0195
+[16/44] gpt61sol/rw2_enron_lisa_gang.csv.r2.json ok out=685 cost=$0.0108
+[17/44] gpt61sol/rw2_enron_lynn_blair.none.r2.json ok out=104 cost=$0.0018
+[18/44] gpt61sol/rw2_enron_lynn_blair.cellprose_v03.r2.json ok out=470 cost=$0.1071
+[19/44] gpt61sol/rw2_enron_mary_hain.cellprose_v03.r2.json ok out=299 cost=$0.0111
+[20/44] gpt61sol/rw2_enron_lynn_blair.csv.r2.json ok out=948 cost=$0.0420
+[21/44] gpt61sol/rw2_enron_lynn_blair.markitdown.r2.json ok out=1035 cost=$0.0788
+[22/44] gpt61sol/rw2_enron_mary_hain.none.r2.json ok out=246 cost=$0.0031
+[23/44] gpt61sol/rw2_enron_phillip_allen.cellprose_v03.r2.json ok out=375 cost=$0.1902
+[24/44] gpt61sol/rw2_enron_mary_hain.markitdown.r2.json ok out=1431 cost=$0.0377
+[25/44] gpt61sol/rw2_enron_phillip_allen.none.r2.json ok out=128 cost=$0.0020
+[26/44] gpt61sol/rw2_enron_mary_hain.csv.r2.json ok out=1802 cost=$0.0240
+[27/44] gpt61sol/rw2_enron_phillip_platter.cellprose_v03.r2.json ok out=230 cost=$0.1013
+[28/44] gpt61sol/rw2_enron_phillip_platter.markitdown.r2.json ok out=1351 cost=$0.1865
+[29/44] gpt61sol/rw2_enron_phillip_platter.none.r2.json ok out=100 cost=$0.0016
+[30/44] gpt61sol/rw2_enron_rick_buy.cellprose_v03.r2.json ok out=302 cost=$0.0370
+[31/44] gpt61sol/rw2_enron_phillip_allen.markitdown.r2.json ok out=3432 cost=$0.1683
+[32/44] gpt61sol/rw2_enron_phillip_platter.csv.r2.json ok out=1694 cost=$0.0864
+[33/44] gpt61sol/rw2_enron_rick_buy.none.r2.json ok out=205 cost=$0.0028
+[34/44] gpt61sol/rw2_enron_thomas_martin.cellprose_v03.r2.json ok out=160 cost=$0.0199
+[35/44] gpt61sol/rw2_enron_phillip_allen.csv.r2.json ok out=3658 cost=$0.1005
+[36/44] gpt61sol/rw2_enron_thomas_martin.markitdown.r2.json ok out=973 cost=$0.0451
+[37/44] gpt61sol/rw2_enron_thomas_martin.none.r2.json ok out=47 cost=$0.0011
+[38/44] gpt61sol/rw2_enron_rick_buy.csv.r2.json ok out=2039 cost=$0.0389
+[39/44] gpt61sol/rw2_enron_rick_buy.markitdown.r2.json ok out=2047 cost=$0.0506
+[40/44] gpt61sol/rw2_enron_vkaminski.cellprose_v03.r2.json ok out=478 cost=$0.1839
+[41/44] gpt61sol/rw2_enron_vkaminski.none.r2.json ok out=117 cost=$0.0018
+[42/44] gpt61sol/rw2_enron_thomas_martin.csv.r2.json ok out=2438 cost=$0.0376
+[43/44] gpt61sol/rw2_enron_vkaminski.markitdown.r2.json ok out=1693 cost=$0.2969
+[44/44] gpt61sol/rw2_enron_vkaminski.csv.r2.json ok out=1840 cost=$0.1691
+spend by vendor: openai $2.23
+done, 0 failures recorded, 0 not recorded (runner errors)

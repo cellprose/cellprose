@@ -1,0 +1,54 @@
+---
+sheetmark: 0.1
+profile: full
+sheets: [Assumptions, Monthly]
+not_preserved: [styles]
+---
+
+# Sheet: Assumptions
+
+## Range A1:B7
+
+| # | A | B |
+|---|---|---|
+| 1 | Driver | Value |
+| 2 | Starting customers | 200 |
+| 3 | New customers per month | 35 |
+| 4 | Monthly churn | 0.03 |
+| 5 | ARPU | 89 |
+| 6 | CAC | 420 |
+| 7 | Gross margin | 0.78 |
+
+```formats
+B4 = "0.0%"
+B7 = "0%"
+```
+
+# Sheet: Monthly
+
+## Range A1:N9
+
+| # | A | B | C | D | E | F | G | H | I | J | K | L | M | N |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Metric | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | FY |
+| 2 | Starting customers | =Assumptions!B2 → 200 | =B5 → 229 | =C5 → 257 | =D5 → 284 | =E5 → 310 | =F5 → 336 | =G5 → 361 | =H5 → 385 | =I5 → 408 | =J5 → 431 | =K5 → 453 | =L5 → 474 |  |
+| 3 | New customers | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =Assumptions!$B$3 → 35 | =SUM(B3:M3) → 420 |
+| 4 | Churned | =ROUND(B2*Churn,0) → 6 | =ROUND(C2*Churn,0) → 7 | =ROUND(D2*Churn,0) → 8 | =ROUND(E2*Churn,0) → 9 | =ROUND(F2*Churn,0) → 9 | =ROUND(G2*Churn,0) → 10 | =ROUND(H2*Churn,0) → 11 | =ROUND(I2*Churn,0) → 12 | =ROUND(J2*Churn,0) → 12 | =ROUND(K2*Churn,0) → 13 | =ROUND(L2*Churn,0) → 14 | =ROUND(M2*Churn,0) → 14 |  |
+| 5 | Ending customers | =B2+B3-B4 → 229 | =C2+C3-C4 → 257 | =D2+D3-D4 → 284 | =E2+E3-E4 → 310 | =F2+F3-F4 → 336 | =G2+G3-G4 → 361 | =H2+H3-H4 → 385 | =I2+I3-I4 → 408 | =J2+J3-J4 → 431 | =K2+K3-K4 → 453 | =L2+L3-L4 → 474 | =M2+M3-M4 → 495 |  |
+| 6 | MRR | =B5*ARPU → 20381 | =C5*ARPU → 22873 | =D5*ARPU → 25276 | =E5*ARPU → 27590 | =F5*ARPU → 29904 | =G5*ARPU → 32129 | =H5*ARPU → 34265 | =I5*ARPU → 36312 | =J5*ARPU → 38359 | =K5*ARPU → 40317 | =L5*ARPU → 42186 | =M5*ARPU → 44055 | =SUM(B6:M6) → 393647 |
+| 7 | Gross profit | =B6*Assumptions!$B$7 → 15897.18 | =C6*Assumptions!$B$7 → 17840.94 | =D6*Assumptions!$B$7 → 19715.28 | =E6*Assumptions!$B$7 → 21520.2 | =F6*Assumptions!$B$7 → 23325.12 | =G6*Assumptions!$B$7 → 25060.62 | =H6*Assumptions!$B$7 → 26726.7 | =I6*Assumptions!$B$7 → 28323.36 | =J6*Assumptions!$B$7 → 29920.02 | =K6*Assumptions!$B$7 → 31447.26 | =L6*Assumptions!$B$7 → 32905.08 | =M6*Assumptions!$B$7 → 34362.9 |  |
+| 8 | S&M spend | =B3*Assumptions!$B$6 → 14700 | =C3*Assumptions!$B$6 → 14700 | =D3*Assumptions!$B$6 → 14700 | =E3*Assumptions!$B$6 → 14700 | =F3*Assumptions!$B$6 → 14700 | =G3*Assumptions!$B$6 → 14700 | =H3*Assumptions!$B$6 → 14700 | =I3*Assumptions!$B$6 → 14700 | =J3*Assumptions!$B$6 → 14700 | =K3*Assumptions!$B$6 → 14700 | =L3*Assumptions!$B$6 → 14700 | =M3*Assumptions!$B$6 → 14700 |  |
+| 9 | Contribution | =B7-B8 → 1197.18 | =C7-C8 → 3140.94 | =D7-D8 → 5015.28 | =E7-E8 → 6820.2 | =F7-F8 → 8625.12 | =G7-G8 → 10360.62 | =H7-H8 → 12026.7 | =I7-I8 → 13623.36 | =J7-J8 → 15220.02 | =K7-K8 → 16747.26 | =L7-L8 → 18205.08 | =M7-M8 → 19662.9 | =SUM(B9:M9) → 130644.66 |
+
+```formats
+B6:N6 = "\$#,##0"
+B7:M9 = "\$#,##0"
+N9 = "\$#,##0"
+```
+
+# Names
+
+```names
+ARPU = Assumptions!$B$5
+Churn = Assumptions!$B$4
+```

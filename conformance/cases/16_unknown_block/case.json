@@ -1,0 +1,9 @@
+{
+ "title": "A reader ignores an unknown block type, with a warning",
+ "spec": "§2",
+ "read": {
+  "input": "input.sheet.md",
+  "expected": "decoded.json",
+  "warns": true
+ }
+}

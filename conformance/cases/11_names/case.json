@@ -1,0 +1,12 @@
+{
+ "title": "Defined names: workbook-level sorted by name, then sheet-scoped sorted by sheet then name",
+ "spec": "§8",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

@@ -1,0 +1,47 @@
+[
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Page1', for the row where 'Invoice number' is 'INV00019126545', what is the value of 'Invoice Amount'?",
+  "cell": "Page1!G23",
+  "key": {
+   "F": "INV00019126545"
+  },
+  "labels": [
+   "F23",
+   "G23",
+   "G1"
+  ],
+  "id": "q1",
+  "truth": 151200
+ },
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Page1', for the row where 'Invoice number' is 'LPSINV279', what is the value of 'Supplier'?",
+  "cell": "Page1!E54",
+  "key": {
+   "F": "LPSINV279"
+  },
+  "labels": [
+   "F54",
+   "E54",
+   "E1"
+  ],
+  "id": "q2",
+  "truth": "RED RIDGE SOLUTIONS LTD"
+ },
+ {
+  "type": "address",
+  "q": "In the sheet 'Page1', which cell holds 'Postcode' for the row where 'Invoice number' is 'SIN033553'? Give its cell address.",
+  "cell": "Page1!H86",
+  "key": {
+   "F": "SIN033553"
+  },
+  "labels": [
+   "F86",
+   "H86",
+   "H1"
+  ],
+  "id": "q3",
+  "truth": "Page1!H86"
+ }
+]

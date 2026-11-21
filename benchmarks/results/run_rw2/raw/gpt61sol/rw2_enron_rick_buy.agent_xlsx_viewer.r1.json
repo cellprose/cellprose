@@ -1,0 +1,135 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw2_enron_rick_buy",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1407,
+ "prompt_sha256": "f75a7cf1c2c43ceb769ca5d17cb820ea588d116ff537123953079f261581711d",
+ "result": "{\n  \"q1\": 56160711,\n  \"q2\": \"COB 100101!G9\",\n  \"q3\": [\"Breakdown!Y18\", \"Breakdown!Z18\"],\n  \"q4\": [\"Breakdown!AG13:AG15\"],\n  \"q5\": [\n    \"COB 082801!E8\",\n    \"COB 082801!G8\",\n    \"COB 082801!D11\",\n    \"COB 082801!E11\",\n    \"COB 082801!G11\",\n    \"Daily Change Graph!C4\",\n    \"Daily Change Graph!C5\",\n    \"Daily Change Graph!C8\"\n  ],\n  \"q6\": [\"Breakdown!AJ14:AL14\", \"Breakdown!AN14\"]\n}",
+ "usage": {
+  "input_tokens": 10335,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2715,
+  "output_tokens": 491,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 10335,
+   "outputTokens": 491,
+   "cacheReadInputTokens": 2715,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.03101,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_e8b5ad9fec9a4f0591fd35155f00d5a1",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 559,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 20,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 659,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 206,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2718,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 88,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 6399,
+     "cache_read_tokens": 2715,
+     "cache_write_tokens": 0,
+     "output_tokens": 177,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.026123
+  },
+  "finished_at": "2026-11-11T16:48:58+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.9
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la\"}",
+   "output_chars": 156
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');v=openpyxl.load_workbook('book.xlsx',data_only=True)\\nprint([(s.title,s.max_row,s.max_column) for s in w])\\nfor sn in ['COB 091701','COB 100101','COB 082801']:\\n s=w[sn];print('\\\\n',sn)\\n for row in s:\\n  for c in row:\\n   if c.value is not None:print(c.coordinate,repr(c.value),'cache',v[sn][c.coordinate].value if c.data_type=='f' else '')\\ns=w['Breakdown']\\nfor a in ['AA18','AG16','AJ14','AK14','AL14','AM14','",
+   "output_chars": 4653
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx')\\nfor s in w:\\n print('\\\\nSHEET',s.title)\\n for row in s:\\n  for c in row:\\n   if c.data_type=='f':print(c.coordinate,c.value)\\nPY\"}",
+   "output_chars": 11165
+  }
+ ]
+}

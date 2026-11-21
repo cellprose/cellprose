@@ -1,0 +1,4613 @@
+{
+ "about": "Written by external/devlarge.py select; the rule is in that file's docstring.",
+ "seed": 20261109,
+ "workbooks": {
+  "dev_d_20001_05_flash_report_62601": {
+   "source": "enron",
+   "file": "enron__stacey_white__38830__20001 05 flash Report 62601 .xlsx",
+   "sha256": "fceb87422f65ee0cd26170963186da8dfe2e16dde2c8a62eb4c589a4afcd5801",
+   "original": "stacey_white__38830__20001 05 flash Report 62601 .xlsx",
+   "original_sha256": "fceb87422f65ee0cd26170963186da8dfe2e16dde2c8a62eb4c589a4afcd5801",
+   "formula_cells": 105,
+   "tokens_o200k_v03": 35495,
+   "v03_over_csv": 1.016
+  },
+  "dev_d_aga_storage": {
+   "source": "enron",
+   "file": "enron__joe_parks__14611__AGA_STORAGE.xlsx",
+   "sha256": "79d93755b6e782e507f460ac8c34e9648d20a94cfcedf1a062f2c3b6cf6df484",
+   "original": "joe_parks__14611__AGA_STORAGE.xlsx",
+   "original_sha256": "79d93755b6e782e507f460ac8c34e9648d20a94cfcedf1a062f2c3b6cf6df484",
+   "formula_cells": 125,
+   "tokens_o200k_v03": 12186,
+   "v03_over_csv": 1.112
+  },
+  "dev_d_corpcontr_00_analysis": {
+   "source": "enron",
+   "file": "enron__richard_shapiro__32164__CorpContr'00 analysis.xlsx",
+   "sha256": "53405d7dc64dd51440dc1bf5279568bc6b63601a12c555d0dbfb24ebbe267bac",
+   "original": "richard_shapiro__32164__CorpContr'00 analysis.xlsx",
+   "original_sha256": "53405d7dc64dd51440dc1bf5279568bc6b63601a12c555d0dbfb24ebbe267bac",
+   "formula_cells": 157,
+   "tokens_o200k_v03": 7965,
+   "v03_over_csv": 1.161
+  },
+  "dev_d_eol_customers": {
+   "source": "enron",
+   "file": "enron__hunter_shively__12726__EOL Customers.xlsx",
+   "sha256": "e6763df70a5d23f3c5df0834ab8eceb6f05e3f79301bd530c81059ed926b8cb5",
+   "original": "hunter_shively__12726__EOL Customers.xlsx",
+   "original_sha256": "e6763df70a5d23f3c5df0834ab8eceb6f05e3f79301bd530c81059ed926b8cb5",
+   "formula_cells": 4716,
+   "tokens_o200k_v03": 28433,
+   "v03_over_csv": 1.23
+  },
+  "dev_d_epe_may_2001": {
+   "source": "enron",
+   "file": "enron__geir_solberg__11249__EPE_MAY_2001.xlsx",
+   "sha256": "e5771e05db08d990f12e1217c41af6a99fc534d6c030f0878d4b6aab2fbd9206",
+   "original": "geir_solberg__11249__EPE_MAY_2001.xlsx",
+   "original_sha256": "e5771e05db08d990f12e1217c41af6a99fc534d6c030f0878d4b6aab2fbd9206",
+   "formula_cells": 1095,
+   "tokens_o200k_v03": 65979,
+   "v03_over_csv": 1.169
+  },
+  "dev_d_homework_set_one": {
+   "source": "enron",
+   "file": "enron__jeffrey_a_shankman__13990__Homework set one.xlsx",
+   "sha256": "235c9ee6ffa6f714c283c90e9c8e833b2be85277de294e9e89f49075b0479e12",
+   "original": "jeffrey_a_shankman__13990__Homework set one.xlsx",
+   "original_sha256": "235c9ee6ffa6f714c283c90e9c8e833b2be85277de294e9e89f49075b0479e12",
+   "formula_cells": 1505,
+   "tokens_o200k_v03": 7875,
+   "v03_over_csv": 0.994
+  },
+  "dev_d_pgtfuel": {
+   "source": "enron",
+   "file": "enron__barry_tycholiz__882__PGTfuel.xlsx",
+   "sha256": "27c04ee84b55c81e0ce518d7102555140503d4a21e57be04cbb9bba8352f7d4e",
+   "original": "barry_tycholiz__882__PGTfuel.xlsx",
+   "original_sha256": "27c04ee84b55c81e0ce518d7102555140503d4a21e57be04cbb9bba8352f7d4e",
+   "formula_cells": 7106,
+   "tokens_o200k_v03": 52662,
+   "v03_over_csv": 1.077
+  },
+  "dev_d_rpt_pma_log_gas_three_rm": {
+   "source": "enron",
+   "file": "enron__jason_wolfe__13350__Rpt PMA Log Gas Three RM.xlsx",
+   "sha256": "79c7b681321af6ea67f3f4c4b1e410f0917b73e7ea78b4baca8b6e640491c6f5",
+   "original": "jason_wolfe__13350__Rpt PMA Log Gas Three RM.xlsx",
+   "original_sha256": "79c7b681321af6ea67f3f4c4b1e410f0917b73e7ea78b4baca8b6e640491c6f5",
+   "formula_cells": 117,
+   "tokens_o200k_v03": 51564,
+   "v03_over_csv": 1.195
+  },
+  "dev_d_scores99": {
+   "source": "enron",
+   "file": "enron__jeff_dasovich__14092__Scores99.xlsx",
+   "sha256": "f563c084053d2c3eba8b36bab9368130f829b96a3ca4118793b5f51a99a9fbeb",
+   "original": "jeff_dasovich__14092__Scores99.xlsx",
+   "original_sha256": "f563c084053d2c3eba8b36bab9368130f829b96a3ca4118793b5f51a99a9fbeb",
+   "formula_cells": 757,
+   "tokens_o200k_v03": 11562,
+   "v03_over_csv": 1.121
+  },
+  "dev_d_txrrc_stg": {
+   "source": "enron",
+   "file": "enron__jim_schwieger__14385__TXRRC_STG.xlsx",
+   "sha256": "1b292d59da98cd7e99a82ed57d5bf8b74d90e0daf64f9e9f8d07ed782528ca7f",
+   "original": "jim_schwieger__14385__TXRRC_STG.xlsx",
+   "original_sha256": "1b292d59da98cd7e99a82ed57d5bf8b74d90e0daf64f9e9f8d07ed782528ca7f",
+   "formula_cells": 1464,
+   "tokens_o200k_v03": 31588,
+   "v03_over_csv": 1.098
+  }
+ },
+ "screened": [
+  {
+   "file": "robin_rodrigue__33363__FTCan_Gas_Bench.xlsx",
+   "eligible": false,
+   "reason": "397881 tokens"
+  },
+  {
+   "file": "louise_kitchen__23162__BGM 1113 ngpl.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30630__9910WestFREDrevised.xlsx",
+   "eligible": false,
+   "reason": "30 formulas"
+  },
+  {
+   "file": "joe_parks__14961__BridgeDPR0506.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18261__DJ Index 4-3.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30144__200004_OA.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "larry_campbell__20996__PG&E-041801sample.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_ring__31656__0610351y00y01.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "phillip_m_love__30124__aaaCredit Report.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__25118__EOL 11-19-01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tori_kuykendall__40083__DailyPrices.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "louise_kitchen__22822__Netco EEs by City on 1-9-02.xlsx",
+   "eligible": false,
+   "reason": "14 formulas"
+  },
+  {
+   "file": "mark_taylor__25147__CanHunter ISDA cw 071801.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18655__2_15.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26690__Gas Flows into CA.xlsx",
+   "eligible": false,
+   "reason": "40 formulas"
+  },
+  {
+   "file": "eric_saibi__9870__101901R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16162__1_28_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__21583__November_1999_SA2_Version_Mapping.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tom_donohoe__39896__First Mth Noms for Enron Single Sheet.xlsx",
+   "eligible": false,
+   "reason": "31 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40173__2002 Plan Template_REV.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "larry_campbell__21053__tankinsp.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "joe_parks__14769__DPR 1231.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_stokley__3875__Sept. 2000 Income Statement.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "kate_symes__18304__EES April Dailies.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "kate_symes__18701__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__25122__EOL 11-16-01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "stacey_white__39010__Power Remote Office 2002 Plan Expense.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "matthew_lenhart__26125__Book1.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33767__Risk - Return 9-6.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18469__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "dana_davis__4468__stock options table.xlsx",
+   "eligible": false,
+   "reason": "12 formulas"
+  },
+  {
+   "file": "lindy_donoho__22000__summary_transwestern.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18340__MeadMktplace (2).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16028__2_5_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26616__IGSUpdate.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "darrell_schoolcraft__7676__Southpoint Gas Model.xlsx",
+   "eligible": false,
+   "reason": "26 formulas"
+  },
+  {
+   "file": "barry_tycholiz__882__PGTfuel.xlsx",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "tracy_geaccone__40263__NBPLStat Sum Rate Case Request.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kenneth_lay__19457__Mlp_1013.xlsx",
+   "eligible": false,
+   "reason": "unreadable: KeyError"
+  },
+  {
+   "file": "michelle_lokay__26819__twsocalspr.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "tracy_geaccone__40549__format_revised201.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "tracy_geaccone__40300__LaPlata Station Auxilary Fuel.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "monika_causholli__28116__European BEK Demand.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__20960__CrudeVehicles.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__21310__LFC0700V1.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "hunter_shively__12367__Trader & Products 5-3-01 EM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "stacey_white__39027__East Schedule C ERCOT MGMT (5-10-01).xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "scott_neal__37938__Aga4-7.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "john_griffith__15674__Book1.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gstorey__12025__Jan01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__31144__aaaCredit Report.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7863__SUN1019.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "mike_carson__27564__KOCH01172002.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18981__Palo.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__22657__DPR 0904.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40239__enron corp infomation request-cons.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 3.56x CSV (> 1.3)"
+  },
+  {
+   "file": "cooper_richey__4159__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "tracy_geaccone__40556__Key Dates_revised.xlsx",
+   "eligible": false,
+   "reason": "5 formulas"
+  },
+  {
+   "file": "dutch_quigley__9223__Insdferc01012002.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7338__Gas Sales Confirmation.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15590__CL&F_120600.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "larry_campbell__21461__Stor021800.xlsx",
+   "eligible": false,
+   "reason": "34 formulas"
+  },
+  {
+   "file": "hunter_shively__12492__SENDOUT.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "lindy_donoho__22012__Projections_5yearTemplate2.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "kevin_ruscitti__20325__template.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "joe_parks__14776__BGM 0418 ngpl.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__22686__2001 Gain Calcs4.xlsx",
+   "eligible": false,
+   "reason": "37 formulas"
+  },
+  {
+   "file": "joe_parks__14535__margas1.xlsx",
+   "eligible": false,
+   "reason": "12 formulas"
+  },
+  {
+   "file": "larry_campbell__21048__EOTT Tank Data.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__37291__ISDA Master Swap Agreement Sheet.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "eric_saibi__9920__102601R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40501__2002 Plan Template_REV.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "matt_motley__26399__Idaho.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "kate_symes__18122__MeadMktplace (2).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "diana_scholtes__8612__SchedC0514_Power West.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "louise_kitchen__24059__NewCo.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kim_ward__20680__September 01.xlsx",
+   "eligible": false,
+   "reason": "5747 tokens (< 6000)"
+  },
+  {
+   "file": "cooper_richey__4131__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "joe_parks__14611__AGA_STORAGE.xlsx",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "hunter_shively__12528__vegas.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16207__1_31_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "bill_williams_iii__1373__EOL 5-11.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kim_ward__20950__palo vols.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4080__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "louise_kitchen__23947__Year-to-date deals 11-15-01.xlsx",
+   "eligible": false,
+   "reason": "6 formulas"
+  },
+  {
+   "file": "stacey_white__39203__December Liquidations.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "harry_arora__12154__Plan_IncomeSheets_Presto.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mike_swerzbin__28022__mon.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33809__MG NA items to address.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33252__BLANKBOOKREQUEST.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "gstorey__12016__Alberta_Ops.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "louise_kitchen__22529__01lavaugcolattendees2.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darron_c_giron__8022__Bkrqs593.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "kevin_ruscitti__20280__Sithe-Sept 00.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.46x CSV (> 1.3)"
+  },
+  {
+   "file": "eric_saibi__9954__110701R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15848__Option Open Interest 1101.xlsx",
+   "eligible": false,
+   "reason": "39 formulas"
+  },
+  {
+   "file": "matthew_lenhart__26344__TexacoPG&ETopock deals.xlsx",
+   "eligible": false,
+   "reason": "unreadable: TimeoutError"
+  },
+  {
+   "file": "theresa_staab__39635__Enron Statement_0901.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__23021__ENW IT Contact List10.31.01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36359__UKSwap1.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "mark_taylor__24675__Long Descriptions.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_ring__31589__Renewable_Positions_2001_2013.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "sally_beck__35335__POPS Proforma.xlsx",
+   "eligible": false,
+   "reason": "5 formulas"
+  },
+  {
+   "file": "richard_sanders__31795__purgeexclusions.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33317__Bkrqs697.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7330__LAPA 8-7 sorted by ERF.xlsx",
+   "eligible": false,
+   "reason": "1509 tokens (< 6000)"
+  },
+  {
+   "file": "darrell_schoolcraft__7248__saledoc02#9TW.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "teb_lokey__39565__TW-cont-centilli.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.49x CSV (> 1.3)"
+  },
+  {
+   "file": "jane_tholt__13114__ExpansionSummary 08-09-01.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "john_griffith__16003__QuantoMC.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "jason_wolfe__13350__Rpt PMA Log Gas Three RM.xlsx",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "dutch_quigley__9434__Insdferc05012001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gerald_nemec__11381__071999pgas.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "theresa_staab__39638__MTG e-mail.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "kam_keiser__17787__phys procedures-new.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kenneth_lay__19465__Mlp_1110.xlsx",
+   "eligible": false,
+   "reason": "unreadable: KeyError"
+  },
+  {
+   "file": "darrell_schoolcraft__7311__imball0201.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "peter_keavey__28647__Daily Price Sheet.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kim_ward__20944__daily usage values.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "gerald_nemec__11445__RegFilingsMaster.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "dan_hyvl__4743__BRAZOS-Gas Phy..xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "susan_bailey__39396__KonaMTMCOB12.11.2001.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "kim_ward__20787__gas use 1.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "shelley_corman__38709__Locations.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40581__Reconciliation_OrigPlan.xlsx",
+   "eligible": false,
+   "reason": "8 formulas"
+  },
+  {
+   "file": "vladi_pimenov__41076__VLADI-GASDAILY-CURVEFETCH.xlsx",
+   "eligible": false,
+   "reason": "encoding csv failed: TimeoutError"
+  },
+  {
+   "file": "larry_may__21904__larryoptmodel.xlsx",
+   "eligible": false,
+   "reason": "over 2000000 bytes"
+  },
+  {
+   "file": "cooper_richey__4094__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "eric_saibi__9762__012202.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "matthew_lenhart__26075__PG&E.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "phillip_m_love__30684__DenFRED.xlsx",
+   "eligible": false,
+   "reason": "20 formulas"
+  },
+  {
+   "file": "matt_motley__26430__CustomEOLTicker-Mo.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "michelle_lokay__27474__shipsummary.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "larry_may__21624__ed050901.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12514__ed060701.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36637__OPTIEXPI(ShortndSchdl)-Z01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35041__MgmtSum-Q2-0501.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "louise_kitchen__22777__Eletrobolt Cost Summary 10-30-2001.xlsx",
+   "eligible": false,
+   "reason": "11 formulas"
+  },
+  {
+   "file": "theresa_staab__39595__Kennedy email.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "robert_badeer__33099__Deal Correction aug-00.xlsx",
+   "eligible": false,
+   "reason": "9 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33235__DAILY_PID.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4051__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "darrell_schoolcraft__7824__imbalsumm0110.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "sally_beck__33919__GlobalMgmtSum-Q101-0125.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18501__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darron_c_giron__7928__Book Request Form East.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "michelle_lokay__26927__2000 Annual Meeting Delegates.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kenneth_lay__19501__2001 commitments.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__37882__Aga4-7.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18214__EESSales_dailymarch.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "eric_linder__9656__EES April Dailies.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "phillip_m_love__30518__NewPowerOA Variance (triggers).xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "phillip_m_love__31363__kaztex fwd detail.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "elizabeth_sager__9501__Project Wilhelm Deal Schedule (3-3-00).xlsx",
+   "eligible": false,
+   "reason": "20 formulas"
+  },
+  {
+   "file": "sally_beck__33794__Wellesley_092100_Strategy.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "mike_swerzbin__27968__marketmarks.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36485__062600cgas.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__37900__Aga4-7.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "stacey_white__39177__PL_11_30_2001recalc.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7432__0202 NNG Lamar Nomination.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "john_griffith__16082__1_17_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33728__DEAL BREAKDOWN ANALYSIS 07-19-00 EM.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "frank_ermis__11200__West NatGas Prices 1114.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mike_grigsby__27934__HS_WESTall1025.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "eric_saibi__9698__Market briefs.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26757__Bakersfield Calif Pipeline.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 5.40x CSV (> 1.3)"
+  },
+  {
+   "file": "chris_stokley__3916__0201 PGES.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18241__DJ Index 3-28a.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__24066__NETCO4122pm.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "sally_beck__33992__GLOBAL PRODUCTS CRUDE 4-18-01 VOL EM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__24713__Final List of Ref Credits 22 Feb.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "gerald_nemec__11346__Kennedy Summary.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__38661__EastProducts2.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35334__cashcoll0901(1).xlsx",
+   "eligible": false,
+   "reason": "48 formulas"
+  },
+  {
+   "file": "michelle_lokay__26808__sharris0800wk4.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "larry_campbell__21012__PCB Graphs.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26570__imbalsumm0012.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "debra_perlingiere__8512__121100pgas.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40286__Adaytum Resources - Progress Rpt (8-17-01).xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "monique_sanchez__28328__Mike_NCD_Reconciliation_05_30.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "stacey_white__38772__EES as of 11-29-2001.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.54x CSV (> 1.3)"
+  },
+  {
+   "file": "lindy_donoho__21976__TW2010ProjCap&Rev.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "diana_scholtes__8587__1201 Smurfit MTD.xlsx",
+   "eligible": false,
+   "reason": "2104 tokens (< 6000)"
+  },
+  {
+   "file": "cooper_richey__4207__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "tracy_geaccone__40321__BeatriceTBPAFComp..xlsx",
+   "eligible": false,
+   "reason": "37 formulas"
+  },
+  {
+   "file": "kam_keiser__17892__westgascustlistrolloutplan.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18541__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15761__10_17_01GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30052__Physical Tab example.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "john_griffith__16078__1_17_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kevin_ruscitti__20533__PEPL Rates.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18301__DJ Index 4-16.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "elizabeth_sager__9522__PXCREDREV2.xlsx",
+   "eligible": false,
+   "reason": "3027 tokens (< 6000)"
+  },
+  {
+   "file": "cooper_richey__4122__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "sally_beck__33936__SEC VaR.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.65x CSV (> 1.3)"
+  },
+  {
+   "file": "kam_keiser__17996__Book2.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jim_schwieger__14375__Daily Price Positions.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_dorland__1641__12-13 1600.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "diana_scholtes__8576__Master Letter Log.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_guzman__24570__EPE_FEB_2001.xlsx",
+   "eligible": false,
+   "reason": "173552 tokens"
+  },
+  {
+   "file": "cara_semperger__1436__PGE_NOVEMBER_MIDC_PATHS.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_may__21646__canbal.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sandra_brawner__36277__Stgbkrpt.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "tori_kuykendall__39978__eol restricted list.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40495__OM Schedule - IT 2.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "phillip_m_love__30500__Nov Out Intra-East North.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "stacey_white__38960__New Power P&L as of 10-18.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "elizabeth_sager__9625__Power Exposure Report COB 101801.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "scott_neal__37866__Stgbkrpt.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "jeff_king__14262__Enronumgrads.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16039__2_6_02OH.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_cash__26539__Employee Deductions.xlsx",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "chris_stokley__3945__DPR06222001_EWS Final.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12471__ed053001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_zufferli__16696__HedgeSummary.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "john_griffith__16219__2_1_02ON.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16160__1_25_02GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__23125__brokers.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26744__0203ind.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "diana_scholtes__8577__Letter Log 01-31.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9868__Market briefs.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kay_mann__19205__EastPowerOrgChart.xlsx",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "sara_shackleton__36843__MLGW ISDA.xlsx",
+   "eligible": false,
+   "reason": "24 formulas"
+  },
+  {
+   "file": "cooper_richey__4137__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "susan_pereira__39447__ENRON.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "stephanie_panus__39297__Panaco Inc..xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jeff_king__14274__1-25-2002.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7891__SUN1025.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "sally_beck__35047__Appendices April.xlsx",
+   "eligible": false,
+   "reason": "27 formulas"
+  },
+  {
+   "file": "kenneth_lay__19476__Mlp_1005.xlsx",
+   "eligible": false,
+   "reason": "unreadable: KeyError"
+  },
+  {
+   "file": "kam_keiser__18061__Deal ticket sample.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18448__SP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__34352__ECS 3 and 4 Headcount.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "elizabeth_sager__9641__Power Exposure COB 111501.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "cooper_richey__4097__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "stacey_white__39056__10232001WestPosition.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "cooper_richey__4311__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "tracy_geaccone__40231__enron corp infomation request 111601.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "kate_symes__18753__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jim_schwieger__14312__HPL Storage Inv.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "darrell_schoolcraft__7678__SUNFLOWER - NNG - HOURLY - 2002.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "darrell_schoolcraft__7320__sharris0202wk2.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "eric_saibi__9985__112601.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35632__200001Pwr.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "diana_scholtes__8585__Dec08_Sales.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18257__DJ Index 4-2.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "theresa_staab__39629__Enron Lost Creek Statement Email 0801.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "john_griffith__15695__sport 3-2001 cargo divert.xlsx",
+   "eligible": false,
+   "reason": "41 formulas"
+  },
+  {
+   "file": "kevin_ruscitti__20276__market briefs.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_shapiro__32164__CorpContr'00 analysis.xlsx",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "michelle_lokay__26793__sharris0600wk1.xlsx",
+   "eligible": false,
+   "reason": "23 formulas"
+  },
+  {
+   "file": "dutch_quigley__9199__enron breakdown  12-06 BOD.xlsx",
+   "eligible": false,
+   "reason": "1027 tokens (< 6000)"
+  },
+  {
+   "file": "john_griffith__16002__SwaptionVol.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26703__imball0112.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mark_taylor__25127__EOL 11-27-01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mike_swerzbin__28099__1-21-02.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15596__optiongrid2.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15887__11_12_01GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26588__IGSUpdate.xls",
+   "eligible": false,
+   "reason": "unreadable: XMLSyntaxError"
+  },
+  {
+   "file": "kate_symes__18322__DJ Index 4-22 Peak.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33883__consolidated for 12 21.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "jane_tholt__13153__Citizens No. 2.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9872__102201R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jeff_dasovich__14092__Scores99.xlsx",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "paul_lucci__28448__Enron Pricing Report.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "john_griffith__15998__VolSkew061301_dec.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "gstorey__12018__Historicals.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "paul_lucci__28467__October 19 Structure.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16075__1_16_02GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "fletcher_sturm__11025__VaR Template.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "john_griffith__15829__10_24_01ON.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tori_kuykendall__39972__WESTJ.xlsx",
+   "eligible": false,
+   "reason": "encoding csv failed: TimeoutError"
+  },
+  {
+   "file": "sara_shackleton__37300__Brokerage Agreements Futures-1.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gerald_nemec__11482__111300pgas.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36500__EnMax Corp.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16132__1_23_02ON.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40313__calendar - meeting with Hughes6.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "diana_scholtes__8591__DJ_Prices_December.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_sanders__31860__Curves for Duke - Price Reopner.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "eric_saibi__9824__092701R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9862__OptionsMarketUpdate1012.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33229__FTCan_Gas_Bench.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jeff_king__14265__12-31-2001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18548__Cob.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4262__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "john_griffith__16176__1_29_02OH.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7508__0202 NNG Lamar Nomination.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "shelley_corman__38746__DataPointsTableRevision4.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "monika_causholli__28166__Foex Prices.xlsx",
+   "eligible": false,
+   "reason": "44 formulas"
+  },
+  {
+   "file": "darron_c_giron__7961__Ftoc0500.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "tori_kuykendall__39964__mercaso bid.xlsx",
+   "eligible": false,
+   "reason": "20 formulas"
+  },
+  {
+   "file": "sally_beck__34349__Payment approvals 1-10-02.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "louise_kitchen__24133__NETCOProjectStartup1_Tasks and Dates.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_dorland__1618__responsibilities matrix for priority settlements Rev 2.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "theresa_staab__39615__Howell Nomination-LCG.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "monika_causholli__28136__canadian exports.xlsx",
+   "eligible": false,
+   "reason": "7 formulas"
+  },
+  {
+   "file": "kate_symes__18180__NP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33906__GlobalMgmtSum-Q101-0111.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "michelle_lokay__26799__sharris0700wk3.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "eric_saibi__9820__Matrix of Long-Term Exotic Options Trades.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jeffrey_a_shankman__13834__Global_Prod 1-26-01 EM.xlsx",
+   "eligible": false,
+   "reason": "6 formulas"
+  },
+  {
+   "file": "cooper_richey__4211__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "michelle_lokay__26627__imbalsumm0102.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "michelle_cash__26540__Document R-4 051001 UK.xlsx",
+   "eligible": false,
+   "reason": "14 formulas"
+  },
+  {
+   "file": "louise_kitchen__24098__westpower8.xlsx",
+   "eligible": false,
+   "reason": "5 formulas"
+  },
+  {
+   "file": "john_griffith__15874__11_12_01LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mike_swerzbin__28042__EMR Prices.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12409__Trader & Products 5-15-01 EM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gerald_nemec__11370__Letter Log 12-07A.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "sally_beck__33921__PG&E Cash Schedule.xlsx",
+   "eligible": false,
+   "reason": "5579 tokens (< 6000)"
+  },
+  {
+   "file": "chris_stokley__3964__ContactList.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18561__Palo.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__37867__Aga4-7.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "louise_kitchen__23019__ENWContacts10.31.01(Condensed).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kevin_hyatt__19634__Contact List.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jeffrey_a_shankman__13797__10.20 Shelly Volunteer List.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40377__Corp Opex Detail.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "dan_hyvl__4884__Engage Energy US LP Amend.xlsx",
+   "eligible": false,
+   "reason": "24 formulas"
+  },
+  {
+   "file": "sara_shackleton__37282__Delano.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "sara_shackleton__36433__Capex gas contract.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "hunter_shively__12751__EnovateDPR0129.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18493__New Notification Report 0101.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "dan_hyvl__4734__City of Long Beach Master Physical 05012001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18388__MeadMktplace (2).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36628__non terminated deals.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "stacey_white__39180__DPR and Recon.xlsx",
+   "eligible": false,
+   "reason": "2936 tokens (< 6000)"
+  },
+  {
+   "file": "jeff_king__14263__11-30-2001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "susan_pereira__39455__ENRON.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "kate_symes__19074__MeadMktplace (2).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35759__MgmtSum-Q1-0331-PRELIM-C.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "vladi_pimenov__41064__dipak data.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jeffrey_a_shankman__13813__Global_Prod 12-12-00.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "frank_ermis__11114__Enron Pricing Report.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33225__FTCan_Gas_Bench.xlsx",
+   "eligible": false,
+   "reason": "302117 tokens"
+  },
+  {
+   "file": "chris_dorland__1602__MIRANT - Dec 22 2001 Termination.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "kam_keiser__17770__TNM Rpt PMA Log Book Admin.xlsx",
+   "eligible": false,
+   "reason": "14 formulas"
+  },
+  {
+   "file": "chris_stokley__3844__1000 EES_PGES_403_042701ds.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4284__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "john_griffith__16060__EOL_Search.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jeff_king__14258__curve marking.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mark_taylor__25078__Swapcosupportpeople.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__25057__Last Year Trade Counts.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35465__2Beck Agrmt Info 11_16 Summary.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_zufferli__16768__Feb4_POS_bycp.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_may__21868__Pipeline list.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4258__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "sally_beck__35486__TS Budget - BPKA Details2.xlsx",
+   "eligible": false,
+   "reason": "5 formulas"
+  },
+  {
+   "file": "kate_symes__18534__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15737__10_16_01ON.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "joe_quenet__15081__PJM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16124__1_23_02GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4229__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mike_carson__27597__KOCH01242002.xlsx",
+   "eligible": false,
+   "reason": "49 formulas"
+  },
+  {
+   "file": "mike_carson__27647__1-9-2002.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__27294__grossmargin.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7832__011004Al.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "peter_keavey__28643__Daily Price Sheet.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "sara_shackleton__36469__061200cgas.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33798__Log as of 29 sep 00.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kevin_hyatt__19630__r2exprates.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "sally_beck__33935__memo for distribution2.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30099__MastersPool 2001.xlsx",
+   "eligible": false,
+   "reason": "7 formulas"
+  },
+  {
+   "file": "john_griffith__16053__NymexVols.xlsx",
+   "eligible": false,
+   "reason": "over 2000000 bytes"
+  },
+  {
+   "file": "tracy_geaccone__40402__Weekly - Nov 6.xlsx",
+   "eligible": false,
+   "reason": "30 formulas"
+  },
+  {
+   "file": "louise_kitchen__23120__Fourth Qtr Compare 00 - 01 Oct31 EM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darron_c_giron__7985__Budget.xlsx",
+   "eligible": false,
+   "reason": "2837 tokens (< 6000)"
+  },
+  {
+   "file": "kay_mann__19211__LM 6000 Breakout Contracts.xlsx",
+   "eligible": false,
+   "reason": "27 formulas"
+  },
+  {
+   "file": "kim_ward__20838__griffith2.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "bill_williams_iii__1381__EES June Dailies.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "sally_beck__33810__Portland Sample testing.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18855__Cob.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26608__IGSUpdate.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__19067__NP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9865__Market briefs.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16031__2_5_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7579__0302 Lamar NNG Nomination.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "mark_taylor__24684__enerlist.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "dan_hyvl__4741__Smurfit-Stone Master Physical 01122001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "stacey_white__38998__09282001WestPosition.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__34327__Format_19Month.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "jeff_king__14270__Monthly Expenses.xlsx",
+   "eligible": false,
+   "reason": "34 formulas"
+  },
+  {
+   "file": "kenneth_lay__19460__WMR_101500.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9801__091901R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "carol_st_clair__1568__newone.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12417__Trader & Products 5-16-01 EM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "matt_motley__26395__West_Sens_new.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33697__Metrics 0609.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "louise_kitchen__22774__lkaddr.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__37293__financial week ending 0526.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jane_tholt__13155__Staff No. 01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "randall_gay__31431__PPA termination options.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gerald_nemec__11466__10 00 noms.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7232__saledoc01#6TW.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__37861__Aga4-7.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "michelle_cash__26525__Template.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "mark_taylor__25016__SCRmanu.list.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__24990__Friday Week 4.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9930__Market briefs.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mike_swerzbin__27985__DallesStreamHistory.xlsx",
+   "eligible": false,
+   "reason": "16 formulas"
+  },
+  {
+   "file": "monika_causholli__28145__RISI-Hardwwod.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "scott_neal__37876__Aga4-7.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mark_taylor__25058__Last Year Trade Counts.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12445__Stgbkrpt.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "stephanie_panus__39305__Ontario Energy Savings Corp ISDA CW.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "jim_schwieger__14302__Bronco Division Rescheduled Games #4.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__20956__EOTT Tanks TX-NM 2001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__38704__sort2001waterhouse.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.38x CSV (> 1.3)"
+  },
+  {
+   "file": "steven_p_south__39358__5 01 noms.xlsx",
+   "eligible": false,
+   "reason": "41 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7257__saledoc02#13bTW.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30703__price options liquidations.xlsx",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "kate_symes__18519__Cob.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "fletcher_sturm__11004__Power Trading Start2.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33461__FTCan_Gas_Bench.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kam_keiser__18036__VarLimits.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__19076__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "stacey_white__38819__BPA.mid office.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35270__MPR 12062000.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_dorland__1628__Deals.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16036__2_6_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "monika_causholli__28178__Pulp-Newsprint-Corrugated.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "scott_neal__37872__Stgbkrpt.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18402__MeadMktplace (2).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_guzman__24561__Cob.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gerald_nemec__11454__schedule.xlsx",
+   "eligible": false,
+   "reason": "17 formulas"
+  },
+  {
+   "file": "sally_beck__33722__london_doorstep.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__24787__072500.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kevin_hyatt__19638__NA Regional Map.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12503__June4_Positions.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "lindy_donoho__22095__Prices10-24-01.xlsx",
+   "eligible": false,
+   "reason": "4328 tokens (< 6000)"
+  },
+  {
+   "file": "mike_grigsby__27930__HS_WESTminusPA1024.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "darrell_schoolcraft__7317__imball0202.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "scott_neal__37937__Stgbkrpt.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "eric_saibi__9980__112001R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7540__022502b.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7372__ONEOKRECAP2002.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.38x CSV (> 1.3)"
+  },
+  {
+   "file": "dana_davis__4470__stockoptionsdana.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "louise_kitchen__23932__Weekly Deal Report 10-11-01 A.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "kate_symes__18278__DJ Index 4-6_4-7.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__37903__Aga4-7.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kam_keiser__17960__NEW BOOK REQUEST TAGG-West011002.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "sara_shackleton__36883__ENE MTM 1222.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "susan_bailey__39388__TXU.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4119__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mike_grigsby__27880__Phillip_Email_New2.xlsx",
+   "eligible": false,
+   "reason": "45 formulas"
+  },
+  {
+   "file": "kevin_hyatt__19605__sundevilrateanal.xlsx",
+   "eligible": false,
+   "reason": "5039 tokens (< 6000)"
+  },
+  {
+   "file": "frank_ermis__11142__Enron Pricing Report.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__24795__Activity Report-BZ.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33711__Hot List 0623.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mark_taylor__25020__BoilCap and NOx.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darron_c_giron__8028__NG1.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "scott_neal__37931__Stgbkrpt.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "larry_may__21620__ed050401.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__24680__Canadian Only Financial Masters.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4350__Closing 013102 mkt sum final CERS Jan.xlsx",
+   "eligible": false,
+   "reason": "20 formulas"
+  },
+  {
+   "file": "louise_kitchen__24034__ENAgas.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "sally_beck__34338__wire summary 122001.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "kate_symes__18915__Cob.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__36246__West PG&E.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_stokley__3914__0201 EES.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "debra_perlingiere__8459__List of Consents Rec'd per CES.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__25064__TENACITY 10.1.01.xlsx",
+   "eligible": false,
+   "reason": "6 formulas"
+  },
+  {
+   "file": "dutch_quigley__9198__enron delta breakdown  12-6 bod.xlsx",
+   "eligible": false,
+   "reason": "17 formulas"
+  },
+  {
+   "file": "louise_kitchen__22543__5th floorplan1004a.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.41x CSV (> 1.3)"
+  },
+  {
+   "file": "louise_kitchen__23070__Hall World Alphabetized.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "louise_kitchen__23992__jes_swapcosupportpeople_110501.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12422__GLOBAL PRODUCTS CRUDE 5-16-01 VOL EM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__24749__Name Corrections.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9906__102501R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30046__AA Central P&L nov-dec.xlsx",
+   "eligible": false,
+   "reason": "46 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40220__EGS_rev.xlsx",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "michelle_lokay__26654__SOCAL_PERMIAN.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "larry_may__21919__ed111901.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_stokley__3993__Closing 061901 mkt cert Nov.xlsx",
+   "eligible": false,
+   "reason": "28 formulas"
+  },
+  {
+   "file": "dan_hyvl__4866__HL&PSwap00-01.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 2.11x CSV (> 1.3)"
+  },
+  {
+   "file": "louise_kitchen__23997__TradeCountsByCp_11_06_2001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4127__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "frank_ermis__11102__Physical Fixed Price Report_102501.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15682__05_15_01ON.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16217__1_31_02OH.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gstorey__12035__NGI-CHI basis position 053101.xlsx",
+   "eligible": false,
+   "reason": "17 formulas"
+  },
+  {
+   "file": "kate_symes__18625__MeadMktplace (2).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7754__groupsCAS.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18226__EES March Dailies.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "cooper_richey__4274__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "darron_c_giron__7927__Book Request Form Central.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "stacey_white__39069__10252001WestPosition.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "john_griffith__16213__1_31_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "juan_hernandez__17712__Bkrqs839.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "cooper_richey__4238__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "matt_motley__26425__EMR Prices.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kevin_ruscitti__20251__BidWkTrades_Apr01.xlsx",
+   "eligible": false,
+   "reason": "1465 tokens (< 6000)"
+  },
+  {
+   "file": "kate_symes__18138__EESSales_dailyfeb.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "stacey_white__38786__dec 13 unofficialized.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__22631__Pioneer Chlor sale.xlsx",
+   "eligible": false,
+   "reason": "3315 tokens (< 6000)"
+  },
+  {
+   "file": "stacey_white__38830__20001 05 flash Report 62601 .xlsx",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "larry_may__21939__ed121401.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16022__2_5_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__22641__CanadaData.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "peter_keavey__28615__Daily Price Sheet.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "phillip_m_love__30492__empire fwd detail.xlsx",
+   "eligible": false,
+   "reason": "over 2000000 bytes"
+  },
+  {
+   "file": "joe_quenet__15079__PJM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gerald_nemec__11378__Substdat.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9793__020602R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9795__Market briefs.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jim_schwieger__14305__Paymentdetail.xlsx",
+   "eligible": false,
+   "reason": "28 formulas"
+  },
+  {
+   "file": "kam_keiser__17780__Forwards Detail_old.xlsx",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7286__saledoc03#15TW.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40213__EGA fcst.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "drew_fossum__8708__red rock - Sch K.xlsx",
+   "eligible": false,
+   "reason": "18 formulas"
+  },
+  {
+   "file": "eric_saibi__9809__092101.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "don_baughman__8638__12_08_00 EPMI IPG INDEXES.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "louise_kitchen__24304__Personnel Description.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33339__IMCan_Gas_Bench.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "hunter_shively__12506__SENDOUT.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35523__MgmtSum-Q201-Global-0601.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "larry_campbell__21029__BrownfieldPTE.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "hunter_shively__12718__NatGasProductLists.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "richard_ring__31561__ResidentialAugust2001.xlsx",
+   "eligible": false,
+   "reason": "34 formulas"
+  },
+  {
+   "file": "mike_swerzbin__27974__marketmarks.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "juan_hernandez__17579__09-19-00.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12334__Tony_deals.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "susan_pereira__39451__ENRON.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "scott_neal__37927__STOR9816.xlsx",
+   "eligible": false,
+   "reason": "38 formulas"
+  },
+  {
+   "file": "jane_tholt__13108__9md3.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12407__SENDOUT.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "carol_st_clair__1531__TOP20.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_taylor__25059__TAYLOR.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4085__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "marie_heard__24501__Wiser Oil Financial.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36517__RaptorListj.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18525__2000-DJ-SP-INDEXES-HIST.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kam_keiser__17853__enequotes-APB-01-11-02.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "jim_schwieger__14286__Bammel.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "lindy_donoho__22086__2002assumptions.xlsx",
+   "eligible": false,
+   "reason": "23 formulas"
+  },
+  {
+   "file": "keith_holst__19410__DIRT.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12473__May29_P&L.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7463__SUNFLOWER - NNG - HOURLY - 2002.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "kate_symes__18140__Deal Correction 2-8.xlsx",
+   "eligible": false,
+   "reason": "9 formulas"
+  },
+  {
+   "file": "sara_shackleton__36592__TXU Default Log 2-24-02.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7542__NOMS_02_26_02_cycle3.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "dutch_quigley__9212__enron breakdown  12-12 BOD.xlsx",
+   "eligible": false,
+   "reason": "950 tokens (< 6000)"
+  },
+  {
+   "file": "sara_shackleton__36558__Legal Agreements Status.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7841__Southpoint Gas Model.xlsx",
+   "eligible": false,
+   "reason": "26 formulas"
+  },
+  {
+   "file": "eric_saibi__9821__092601R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35306__Mgmt user list.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15579__VolSkew050101_oct.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "louise_kitchen__22843__Hot List Update 06-25-01.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "phillip_m_love__30110__aaaCredit Report.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40573__EA Alloc to Other BUs - Support.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kenneth_lay__19445__ENE092200.xlsx",
+   "eligible": false,
+   "reason": "unreadable: KeyError"
+  },
+  {
+   "file": "carol_st_clair__1523__S29 By Month21.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40494__OM Schedule - IT 2.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "kim_ward__20785__California.xlsx",
+   "eligible": false,
+   "reason": "31 formulas"
+  },
+  {
+   "file": "phillip_m_love__30551__NYMEXSTL.01.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "louise_kitchen__23103__New_Co_Ret_Pmt.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "drew_fossum__8673__assumptions.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "john_griffith__15791__10_19_01GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mike_grigsby__27922__HS_WESTminusPA.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mark_taylor__25087__9-17-01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18451__Palo.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__37904__STOR9808.xlsx",
+   "eligible": false,
+   "reason": "38 formulas"
+  },
+  {
+   "file": "richard_sanders__31849__FERC data EES 11-13.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26550__tahoe.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "drew_fossum__8874__01_19_00StanH_mtg_final.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 2.15x CSV (> 1.3)"
+  },
+  {
+   "file": "tracy_geaccone__40162__2001_Q1_Negotiated Deals_Rev1.xlsx",
+   "eligible": false,
+   "reason": "36 formulas"
+  },
+  {
+   "file": "kate_symes__18543__SP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4275__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "jay_reitmeyer__13747__Enron Pricing Report.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "kate_symes__18157__NP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16145__1_24_02OH.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "joe_quenet__15074__PJM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__22583__ENA_Houston_oct26 home.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_may__21645__ed060601.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16079__1_17_02GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15766__10_18_01GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7888__011023Am.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kim_ward__20763__EEI.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7465__NOMS_02_13_02.xlsx",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7780__Southpoint Gas Model.xlsx",
+   "eligible": false,
+   "reason": "1000 tokens (< 6000)"
+  },
+  {
+   "file": "john_griffith__15698__Gas Curves (1-31-01).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "frank_ermis__11230__1121.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7747__0302 Lamar NNG Nomination.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "dana_davis__4472__Responsibility List.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "kay_mann__19200__LM 6000 Breakout Contracts.xlsx",
+   "eligible": false,
+   "reason": "27 formulas"
+  },
+  {
+   "file": "darron_c_giron__7959__SITHE0500.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7247__saledoc04-02#1TW.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "peter_keavey__28604__Daily Price Sheet.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "chris_stokley__3992__Closing 062901 mkt sum.xlsx",
+   "eligible": false,
+   "reason": "29 formulas"
+  },
+  {
+   "file": "sara_shackleton__36425__bondsettchsbony.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_stokley__3936__Stranded Cost Analysis Structuring Confidential3.xlsx",
+   "eligible": false,
+   "reason": "4313 tokens (< 6000)"
+  },
+  {
+   "file": "kate_symes__18460__Palo.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gerald_nemec__11422__exhibit b.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.47x CSV (> 1.3)"
+  },
+  {
+   "file": "dutch_quigley__9220__enron breakdown  12-14 mid day.xlsx",
+   "eligible": false,
+   "reason": "931 tokens (< 6000)"
+  },
+  {
+   "file": "james_derrick__12757__).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__23082__0112MarginRequirements.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18407__Palo.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7224__saledoc12#1TW.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "bill_williams_iii__1389__EES July Dailies.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "louise_kitchen__23957__Activity for 10 29 01.xlsx",
+   "eligible": false,
+   "reason": "8 formulas"
+  },
+  {
+   "file": "jeffrey_a_shankman__13821__Northeast HEating oil Reserve.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "john_griffith__15921__11_14_01ON.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "frank_ermis__11094__West NatGas Prices 1023.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "diana_scholtes__8613__Deals.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "monika_causholli__28135__Exports to Brazil.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robert_badeer__33103__CALILT Fax.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "chris_stokley__3876__CDWR 7day settlements.xlsx",
+   "eligible": false,
+   "reason": "28 formulas"
+  },
+  {
+   "file": "kevin_ruscitti__20348__03-20-00 Daily VolsAM.xlsx",
+   "eligible": false,
+   "reason": "332738 tokens"
+  },
+  {
+   "file": "kevin_ruscitti__20379__CESVOL.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "mark_taylor__25081__Counterparty.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33264__McKay.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_stokley__3980__Enron True-Upcorrect.xlsx",
+   "eligible": false,
+   "reason": "45 formulas"
+  },
+  {
+   "file": "jeffrey_a_shankman__13934__MgmtSum-Q401-Global-111601.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "jeffrey_a_shankman__13805__GLOBAL PRODUCTS 11-29-00 EM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kim_ward__20689__EP-Socal GD PricesII.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "kate_symes__18588__Palo.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "carol_st_clair__1517__Enron.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15578__VolSkew050101_dec.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "louise_kitchen__23076__EOL.DOC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16061__EOL_Product_Listen.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.89x CSV (> 1.3)"
+  },
+  {
+   "file": "gerald_nemec__11493__CASH_Wildhorse_121900.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "eric_saibi__9825__092701R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33772__overview of doorstep status for execs.xlsx",
+   "eligible": false,
+   "reason": "9 formulas"
+  },
+  {
+   "file": "louise_kitchen__23933__ytd origination detail.xlsx",
+   "eligible": false,
+   "reason": "243105 tokens"
+  },
+  {
+   "file": "john_griffith__15788__10_19_01LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15668__05_11_01ON.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__20953__Line 300 Liquid Sample SummaryFeb01TW.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15704__FPL Model 1_25_01 v2.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "john_zufferli__16728__HedgeSummary.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "darrell_schoolcraft__7700__May 2002 Maint.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kam_keiser__17845__Amerexjan7.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "john_griffith__15613__Book1.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18481__New Notification Report 0101.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "john_forney__15542__fronteracalc.xlsx",
+   "eligible": false,
+   "reason": "5031 tokens (< 6000)"
+  },
+  {
+   "file": "monika_causholli__28189__RISI Forecast_I.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7851__101501a.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_sanders__31691__apr99-oct99.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "kate_symes__18827__Palo.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16130__1_23_02GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40500__Corp_2002_Alloc_2.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "fletcher_sturm__10996__p&l.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16037__2_6_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9863__101201R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__19087__NP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12333__Current Pool's Business Unit as of March 8th.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michael_maggi__26455__NGHV.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kevin_ruscitti__20367__04-06-00 daily volsAM.xlsx",
+   "eligible": false,
+   "reason": "348922 tokens"
+  },
+  {
+   "file": "elizabeth_sager__9520__California Mkt Receviables 040601.xlsx",
+   "eligible": false,
+   "reason": "22 formulas"
+  },
+  {
+   "file": "matt_motley__26446__1-21-02.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33742__update for MF.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "sara_shackleton__37316__Primary Natural Res Omnibus Contract.xlsx",
+   "eligible": false,
+   "reason": "23 formulas"
+  },
+  {
+   "file": "larry_campbell__21327__AMP_COST_WORKSHEET.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "eric_saibi__9757__012102.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40181__Lay Agenda.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__37877__STOR9800.xlsx",
+   "eligible": false,
+   "reason": "38 formulas"
+  },
+  {
+   "file": "mike_grigsby__27686__Revised_Fixed Price Physical Deals Feb_2001_01_30_01.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "john_griffith__16014__2_4_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7748__NOMS_03_23_02.xlsx",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "sally_beck__33724__ENERGY_OPS_000630.xlsx",
+   "eligible": false,
+   "reason": "31 formulas"
+  },
+  {
+   "file": "susan_pereira__39460__ENRON.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "jeffrey_a_shankman__13825__Stgbkrpt.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "geir_solberg__11249__EPE_MAY_2001.xlsx",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "darrell_schoolcraft__7254__saledoc02#13aTW.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26603__IGSUpdate.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "cooper_richey__4298__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "hunter_shively__12434__ed052201.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__24007__TradeCountsByCp.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cara_semperger__1463__February_Everything_Master.xlsx",
+   "eligible": false,
+   "reason": "33 formulas"
+  },
+  {
+   "file": "kate_symes__18577__SP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18338__SP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_dorland__1619__Top 100 List For Commercial Calls- latest.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12531__caprel_database_requirements.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mike_swerzbin__27990__West Curves 11-7-01a.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__19057__New Notification Report 0101.xlsx",
+   "eligible": false,
+   "reason": "124215 tokens"
+  },
+  {
+   "file": "juan_hernandez__17593__10-5-00.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_ring__31563__SMALLC&I2001.xlsx",
+   "eligible": false,
+   "reason": "21 formulas"
+  },
+  {
+   "file": "louise_kitchen__23944__Year-to-date deals 11-08-01.xlsx",
+   "eligible": false,
+   "reason": "6 formulas"
+  },
+  {
+   "file": "kate_symes__18431__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9849__101001R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9850__101001R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__37946__Stgbkrpt.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "susan_pereira__39436__LAGASMAR.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "louise_kitchen__22676__BGM 1024 ngpl.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4121__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "dutch_quigley__9180__enron delta breakdown  11-30.xlsx",
+   "eligible": false,
+   "reason": "19 formulas"
+  },
+  {
+   "file": "dana_davis__4522__Central Records Form.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26599__IGSUpdate.xls",
+   "eligible": false,
+   "reason": "unreadable: XMLSyntaxError"
+  },
+  {
+   "file": "sally_beck__35385__Revised ENW Invoice.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mike_swerzbin__27970__marketmarks.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30501__ft-southeast long term deals.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mike_swerzbin__28098__1-18-02.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "carol_st_clair__1547__newone.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7761__imbalsumm0106.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18318__DJ Index 4-20_4-21.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9832__24 hr. ERCOT Phone list.lnk.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36603__ENA bankruptcy early term logcurrent update.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "john_forney__15492__ENRON_ bal_10_25_01_evaluation_v2_fail.xlsx",
+   "eligible": false,
+   "reason": "273673 tokens"
+  },
+  {
+   "file": "vladi_pimenov__41080__Basis Spreads for Mike Grigsby.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7698__June 2002 Maint.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "hunter_shively__12726__EOL Customers.xlsx",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "kenneth_lay__19466__ENE111700.xlsx",
+   "eligible": false,
+   "reason": "unreadable: KeyError"
+  },
+  {
+   "file": "cooper_richey__4306__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "louise_kitchen__24112__Contact List.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18842__Cob.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gstorey__12108__May01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_stokley__3838__DB Development v2.xlsx",
+   "eligible": false,
+   "reason": "5 formulas"
+  },
+  {
+   "file": "sally_beck__35054__sap status.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kenneth_lay__19485__Mlp_1109.xlsx",
+   "eligible": false,
+   "reason": "unreadable: KeyError"
+  },
+  {
+   "file": "harry_arora__12150__DealRooms Target Markets.xlsx",
+   "eligible": false,
+   "reason": "22 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40145__03_09_EXECSUMM.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "louise_kitchen__24292__Asset Marketing WIP Report (5-18-01).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "paul_lucci__28355__losers pool.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "cooper_richey__4096__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "gstorey__12019__michhistory.xlsx",
+   "eligible": false,
+   "reason": "screening failed: ValueError"
+  },
+  {
+   "file": "jim_schwieger__14385__TXRRC_STG.xlsx",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "dutch_quigley__9204__Delta by Account 1207.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "john_forney__15515__s_9-6-01.xlsx",
+   "eligible": false,
+   "reason": "48 formulas"
+  },
+  {
+   "file": "robert_badeer__33078__CALILT Fax.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mark_taylor__24707__US Names.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_ring__31565__Product Offering.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4123__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "john_griffith__15559__Brazos.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "diana_scholtes__8579__Letter Log 02-04.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__22596__Weekly Deal Report 7-12-01 A.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "john_forney__15500__s_6-17-01.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18396__Notification 0101.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_may__21626__ed051101.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__23542__Support 2002 Plan Summary.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "mike_carson__27541__grda.xlsx",
+   "eligible": false,
+   "reason": "6 formulas"
+  },
+  {
+   "file": "monika_causholli__28277__Price Forecast.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darron_c_giron__7995__EMWP&L0821.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mike_carson__27566__KOCH.xlsx",
+   "eligible": false,
+   "reason": "24 formulas"
+  },
+  {
+   "file": "cooper_richey__4084__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "cooper_richey__4310__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "drew_fossum__8666__Mgr_Sr Mgr.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "tori_kuykendall__39970__tds curves.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18870__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35267__Log as of 28 Nov 00.xlsx",
+   "eligible": false,
+   "reason": "21 formulas"
+  },
+  {
+   "file": "drew_fossum__8707__etsapprovalpolicy.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "shelley_corman__38737__TW revenue sum.xlsx",
+   "eligible": false,
+   "reason": "392828 tokens"
+  },
+  {
+   "file": "kate_symes__18499__Cob.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "dan_hyvl__4800__Engage Energy Contract Relationship.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__21324__Exhib for MC re Congestion Compensation1.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36445__051500cgas.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robert_badeer__33080__CALILT Fax.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "phillip_m_love__30538__Bkrqs826.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35530__aeptransitionissues.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30103__aaaCredit Report.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16077__1_17_02ON.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jay_reitmeyer__13730__West NatGas Prices 0926.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "phillip_m_love__31156__East Gas1.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7641__OutageRequest 402 for 040802.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "elizabeth_sager__9479__E-delivery spreadsheet.xlsx",
+   "eligible": false,
+   "reason": "2249 tokens (< 6000)"
+  },
+  {
+   "file": "darrell_schoolcraft__7373__012502Bu.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jane_tholt__13125__Baseload GISB form.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7516__sharris0202wk3.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "mike_swerzbin__28038__westdaypluscal.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "sally_beck__33839__HPLstaff.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "larry_campbell__21462__Gas021800.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33332__FTCan_Gas_Bench.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__31082__BOOKREQUEST - CAD Spreadsheet.xlsx",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "louise_kitchen__22577__EEL Directors-Gender.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40400__AUCTION ITEMS 110701.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15909__11_13_01LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "dutch_quigley__9241__Bobwest - NX3 Offer (D.Quigley) 1.10.02.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18110__Deal Correction 1-10.xlsx",
+   "eligible": false,
+   "reason": "9 formulas"
+  },
+  {
+   "file": "louise_kitchen__22683__BGM 1029 ngpl.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7422__020402a.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "theresa_staab__39614__Howell Nomination-LCG.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "bill_williams_iii__1368__EOL 5-8.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4244__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "elizabeth_sager__9494__Watch List 061101.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33756__EOL Activity LTD - 082400.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__37844__STOR9788.xlsx",
+   "eligible": false,
+   "reason": "38 formulas"
+  },
+  {
+   "file": "mike_carson__27596__KOCH01232002.xlsx",
+   "eligible": false,
+   "reason": "49 formulas"
+  },
+  {
+   "file": "eric_linder__9665__EES April Dailies.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "louise_kitchen__22520__MidMkt.Orig2000 vs. 2001a.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 4.38x CSV (> 1.3)"
+  },
+  {
+   "file": "scott_neal__37829__STOR9783.xlsx",
+   "eligible": false,
+   "reason": "38 formulas"
+  },
+  {
+   "file": "michelle_lokay__26577__IGSUpdate.xls",
+   "eligible": false,
+   "reason": "unreadable: XMLSyntaxError"
+  },
+  {
+   "file": "richard_ring__31607__Deal List 10-26-01.nypp.jm.xlsx",
+   "eligible": false,
+   "reason": "261638 tokens"
+  },
+  {
+   "file": "darrell_schoolcraft__7830__shipsummary.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "darrell_schoolcraft__7561__2002 BLANCO HUB BUDGET.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.88x CSV (> 1.3)"
+  },
+  {
+   "file": "elizabeth_sager__9528__as of 11-05-01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__21020__TWBillingSummary2001.xlsx",
+   "eligible": false,
+   "reason": "28 formulas"
+  },
+  {
+   "file": "john_griffith__15965__11_16_01LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__21575__SOCOgen2001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15901__11_13_01LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18219__EESSales_dailymarch.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "michelle_lokay__26600__IGSUpdate.xls",
+   "eligible": false,
+   "reason": "unreadable: XMLSyntaxError"
+  },
+  {
+   "file": "john_griffith__16181__1_29_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33892__010301 consolidated.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "sally_beck__33917__SEC VaR.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.65x CSV (> 1.3)"
+  },
+  {
+   "file": "louise_kitchen__24137__For Louise.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "kevin_ruscitti__20344__03-16-00 Daily volsAM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7266__saledoc02#22TW.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__22855__Netco Commercial4122pm.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30139__200006_OA.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "elizabeth_sager__9465__npfinan.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jane_tholt__13158__SWG No. 5.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "judy_townsend__17725__TETCOIMB.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "kate_symes__18785__Watch List 030601.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__16151__1_25_02OH.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40448__finalTWrev.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "phillip_m_love__31134__aaaCredit Report.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18979__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9866__101601R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "carol_st_clair__1480__exposure.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "james_derrick__12766___+\u00c7+\u00ee_-++\u00ba_+\u00ea-+_+\u00e2-+_-\u00a6+\u00c4 (_+\u00e7+\u00e6_-\u00a6+\u00f8).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kam_keiser__17935__Netco Books 010802.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kam_keiser__17992__New Book Request TAGGII.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "louise_kitchen__22632__Corp_2002_Alloc_3.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "michelle_cash__26538__Annual Payroll.xlsx",
+   "eligible": false,
+   "reason": "17 formulas"
+  },
+  {
+   "file": "mike_carson__27519__11-29-2001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18956__SP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "elizabeth_sager__9525__NewPowCo P&L as of 10-24.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "paul_lucci__28374__EnronCoPaymentHistory.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "sally_beck__33803__00_01doorstep schedule.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_saibi__9899__102501.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gerald_nemec__11389__etgs_nomform97.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__19035__MidC.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36473__Enron.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "john_griffith__15953__11_15_01OH.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40514__EGS Q3-2001 Accounting Request.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.82x CSV (> 1.3)"
+  },
+  {
+   "file": "dan_hyvl__4867__Chevron Phillips Chemical Company.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_guzman__24543__Deal Correction Oct-00.xlsx",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "sara_shackleton__36426__southern12.xlsx",
+   "eligible": false,
+   "reason": "48 formulas"
+  },
+  {
+   "file": "kate_symes__18943__MeadMktplace (2).xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_zufferli__16824__Top 100 List For Commercial Calls- revised.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "andrew_lewis__70__Tony_deals.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mike_swerzbin__28028__westmark12-18-01.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "andrew_lewis__81__Notification Rpt 1200.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26731__Jan02pymts.xlsx",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "john_griffith__16212__1_31_02LO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__22782__2001.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "paul_lucci__28350__02~Jan.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "louise_kitchen__22672__2002 Plan Worksheet Texas Orig.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kate_symes__18336__NP 15 pages.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_griffith__15685__05_15_01ON.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__22764__EATS Projects.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7532__Eott Summary UAF Reports 2002.xlsx",
+   "eligible": false,
+   "reason": "126618 tokens"
+  },
+  {
+   "file": "louise_kitchen__24165__TradeCountsByCp.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__21039__EOTT facility list.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__33745__June Delainey Report.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "dutch_quigley__9222__Nymex-PR.xlsx",
+   "eligible": false,
+   "reason": "encoding csv failed: TimeoutError"
+  },
+  {
+   "file": "michelle_cash__26475__Crane WBS.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "peter_keavey__28595__Daily Price Sheet.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "sally_beck__33778__NA GAS AND POWER-REGION BREAKOUT 09-13-00 EM.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "vladi_pimenov__41077__loan_calc.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sara_shackleton__36464__hourly trades May.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tracy_geaccone__40255__C0366-111727.xlsx",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "scott_neal__38701__6th floorplan 01 30.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.35x CSV (> 1.3)"
+  },
+  {
+   "file": "sally_beck__36223__Weekly Operating Report 6-6.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "sara_shackleton__36766__CaraustarISDA.xlsx",
+   "eligible": false,
+   "reason": "23 formulas"
+  },
+  {
+   "file": "darrell_schoolcraft__7702__July 2002 Maint.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_zufferli__16817__UBSWEnergyPriority1.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "eric_linder__9652__Potential Problem path at PV.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__23041__CFs by Industry and Erating.xlsx",
+   "eligible": false,
+   "reason": "unreadable: TimeoutError"
+  },
+  {
+   "file": "robin_rodrigue__33372__FTCan_Gas_Bench.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kim_ward__20835__citizens volumes.xlsx",
+   "eligible": false,
+   "reason": "3808 tokens (< 6000)"
+  },
+  {
+   "file": "sara_shackleton__36572__ValentisInvestorsLLC ISDA.xlsx",
+   "eligible": false,
+   "reason": "27 formulas"
+  },
+  {
+   "file": "kate_symes__18085__Deal Correction 11-20.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kate_symes__18786__Watch List 030601.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "phillip_m_love__30148__9909_OA.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "gerald_nemec__11305__Mexicanaeconomics.xlsx",
+   "eligible": false,
+   "reason": "32 formulas"
+  },
+  {
+   "file": "andrew_lewis__88__Tony_deals.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "elizabeth_sager__9496__Jan 2000 Contract Review for Liquidated Damages.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "scott_neal__37858__Aga4-7.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "keith_holst__19419__NewDealCheck.xlsx",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "mike_carson__27603__KOCH01292002.xlsx",
+   "eligible": false,
+   "reason": "49 formulas"
+  },
+  {
+   "file": "tom_donohoe__39953__First Mth Noms for Enron 2001single sheet.xlsx",
+   "eligible": false,
+   "reason": "33 formulas"
+  },
+  {
+   "file": "sara_shackleton__36409__SITA.xlsx",
+   "eligible": false,
+   "reason": "24 formulas"
+  },
+  {
+   "file": "matt_motley__26374__West_Sens_new.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "cooper_richey__4139__enron.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "monique_sanchez__28311__Master0522.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "drew_fossum__8882__MarchForecast.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "michelle_lokay__26772__2001 Annual Meeting Delegates.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "dan_hyvl__4742__BRAZOS-Gas Phy.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33236__ITEXAS.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "gerald_nemec__11480__110600pgas.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "louise_kitchen__24042__Lavo request.xlsx",
+   "eligible": false,
+   "reason": "3672 tokens (< 6000)"
+  },
+  {
+   "file": "louise_kitchen__23071__Hall World Alphabetized Netco revision 3.xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "john_griffith__16194__1_30_02GO.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "sally_beck__35445__egm_key_employees.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "scott_neal__38676__6th floorplan 01.30z.xlsx",
+   "eligible": false,
+   "reason": "formula-heavy: v0.3 is 1.39x CSV (> 1.3)"
+  },
+  {
+   "file": "john_forney__15531__s_9-18-01.xlsx",
+   "eligible": false,
+   "reason": "48 formulas"
+  },
+  {
+   "file": "mark_guzman__24565__EPE_JAN_2001.xlsx",
+   "eligible": false,
+   "reason": "118198 tokens"
+  },
+  {
+   "file": "eric_saibi__9955__110701R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_dorland__1634__IMPositionReports.xlsx",
+   "eligible": false,
+   "reason": "17 formulas"
+  },
+  {
+   "file": "louise_kitchen__22607__Weekly Deal Report 8-16-01 A.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "louise_kitchen__22502__Option Site List 7-24-01.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "louise_kitchen__23831__Steve Irvin 1st Half 2001 AccompList.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_ring__31655__Sample Invoice (10-15-01).xlsx",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "robert_badeer__33095__CALILT Fax.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "susan_pereira__39442__LAGASMAR.xlsx",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "kate_symes__18430__Watch List 010801.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "carol_st_clair__1567__exposure.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "larry_campbell__21319__Cash Out Prices for August 2000.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "keith_holst__19276__quotes2.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "michelle_lokay__26607__IGSUpdate.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "scott_neal__37914__Stgbkrpt.xlsx",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "eric_saibi__9845__010801R.xlsx",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jeffrey_a_shankman__13990__Homework set one.xlsx",
+   "eligible": true,
+   "reason": "ok"
+  }
+ ]
+}

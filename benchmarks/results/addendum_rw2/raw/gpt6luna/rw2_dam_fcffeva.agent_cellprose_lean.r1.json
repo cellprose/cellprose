@@ -1,0 +1,117 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_fcffeva",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 3485,
+ "prompt_sha256": "1493e1fefad970c0932fe8089779378eb6d059940fdf48e6520f50ce0ae3c141",
+ "result": "{\"q1\":12406,\"q2\":\"FCFF Valuation!B42\",\"q3\":[\"FCFF Valuation!E23\",\"FCFF Valuation!E15\",\"FCFF Valuation!L30\",\"FCFF Valuation!H30\"],\"q4\":[\"FCFF Valuation!B42\",\"FCFF Valuation!E15\"],\"q5\":[\"FCFF Valuation!H35:L37\",\"FCFF Valuation!H40:L40\",\"FCFF Valuation!H44:K44\",\"FCFF Valuation!L44:L45\",\"FCFF Valuation!H55:L55\",\"FCFF Valuation!C58\",\"FCFF Valuation!C60:C61\",\"FCFF Valuation!C65:G65\",\"FCFF Valuation!H65:L66\",\"EVA Valuation!H2:M2\",\"EVA Valuation!H4:K4\",\"EVA Valuation!L4:L6\",\"EVA Valuation!M4\",\"EVA Valuation!H6:K6\",\"EVA Valuation!B7\",\"EVA Valuation!B10\",\"EVA Valuation!H13:M13\"],\"q6\":[\"FCFF Valuation!I30\"]}",
+ "usage": {
+  "input_tokens": 2052,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 6227,
+  "output_tokens": 575,
+  "output_tokens_details": {
+   "thinking_tokens": 245
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 2052,
+   "outputTokens": 575,
+   "cacheReadInputTokens": 6227,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 245
+  }
+ },
+ "cost": 0.0011154000000000001,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_42576185f83149dc8509167f1719ab71",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 1524,
+     "cache_write_tokens": 0,
+     "output_tokens": 37,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1658,
+     "cache_read_tokens": 1524,
+     "cache_write_tokens": 0,
+     "output_tokens": 191,
+     "reasoning_tokens": 159,
+     "tool_calls": [
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 391,
+     "cache_read_tokens": 3179,
+     "cache_write_tokens": 0,
+     "output_tokens": 347,
+     "reasoning_tokens": 86,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.000555
+  },
+  "finished_at": "2026-11-11T18:34:41+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.1
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"FCFF Valuation!A11:L38\", \"FCFF Valuation!A40:L46\"]}",
+   "output_chars": 3501
+  },
+  {
+   "turn": 2,
+   "tool": "whatif",
+   "args": "{\"cell\": \"FCFF Valuation!E24\", \"factor\": 1.1}",
+   "output_chars": 449
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Sheet1!T8",
+  "q": "What is the value in the row labelled 'Energy Operations', column headed 'ENA', in the sheet 'Sheet1'?",
+  "truth": 38.9,
+  "labels": [
+   "N8",
+   "T7"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Sheet1!S19",
+  "q": "Which cell holds the value in the row labelled 'TOTAL', column headed 'Savings', in the sheet 'Sheet1'? Give its cell address.",
+  "truth": "Sheet1!S19",
+  "labels": [
+   "O19",
+   "S7"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Sheet1!U13",
+  "q": "Consider the cell Sheet1!U13 (in the row labelled 'Transaction Support'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sheet1!R13",
+   "Sheet1!S13"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Sheet1!E10",
+  "q": "Consider the cell Sheet1!E10. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sheet1!C10",
+   "Sheet1!D10"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Sheet1!C24",
+  "factor": 1.1,
+  "q": "Suppose the number in Sheet1!C24 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Sheet1!E24",
+   "Sheet1!R19",
+   "Sheet1!R9",
+   "Sheet1!T19",
+   "Sheet1!T9",
+   "Sheet1!U19",
+   "Sheet1!U9"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Sheet1!B108",
+  "range": "Sheet1!B108:E108",
+  "q": "Consider the range Sheet1!B108:E108. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Sheet1!B108",
+   "Sheet1!C108",
+   "Sheet1!D108"
+  ],
+  "id": "q6"
+ }
+]

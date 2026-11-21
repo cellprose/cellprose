@@ -1,0 +1,148 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_lynn_blair",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 7787,
+ "prompt_sha256": "4d01a66c4ff4eecfb4b822aae44273e9924b35bc86da4b0c2e42a8babe727f44",
+ "result": "```json\n{\"q1\": -2123900, \"q2\": \"Conf. Letter Imb. Comparison!F32\", \"q3\": [\"Original OBA's!G86\", \"Original OBA's!H86\"], \"q4\": [\"Ellis-Woodward-Clark!P8\", \"Ellis-Woodward-Clark!P9\", \"Ellis-Woodward-Clark!P10\"], \"q5\": [\"Original OBA's!I56\", \"Original OBA's!G63\", \"Original OBA's!I63\", \"Original OBA's!G65\", \"Original OBA's!I65\", \"Original OBA's!I74\", \"Original OBA's!J74\", \"Original OBA's!I76\", \"Original OBA's!I78\", \"Original OBA's!M78\", \"Original OBA's!Q78\", \"Original OBA's!U78\", \"Original OBA's!Y78\", \"Original OBA's!AC78\", \"Original OBA's!G91\", \"Original OBA's!I91\", \"Original OBA's!I93\", \"Original OBA's!J93\", \"Original OBA's!I95\", \"Original OBA's!I97\", \"Original OBA's!M97\", \"Original OBA's!Q97\", \"Original OBA's!U97\", \"Original OBA's!Y97\", \"Original OBA's!AC97\", \"Original OBA's!I99\", \"Original OBA's!M99\", \"Original OBA's!Q99\", \"Original OBA's!U99\", \"Original OBA's!Y99\", \"Original OBA's!AC99\"], \"q6\": [\"Original OBA's!AS28\", \"Original OBA's!AS29\", \"Original OBA's!AS30\", \"Original OBA's!AS31\", \"Original OBA's!AS33\"]}\n```",
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 8738,
+  "cache_read_input_tokens": 12805,
+  "output_tokens": 1696,
+  "output_tokens_details": {
+   "thinking_tokens": 712
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 1696,
+   "cacheReadInputTokens": 12805,
+   "cacheCreationInputTokens": 8738,
+   "thinkingTokens": 712
+  }
+ },
+ "cost": 0.0030031,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 5556,
+     "output_tokens": 268,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "read_range",
+      "trace",
+      "trace"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 5556,
+     "cache_write_tokens": 1693,
+     "output_tokens": 498,
+     "reasoning_tokens": 334,
+     "tool_calls": [
+      "trace",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 7249,
+     "cache_write_tokens": 1489,
+     "output_tokens": 930,
+     "reasoning_tokens": 378,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.002069
+  },
+  "finished_at": "2026-11-11T18:04:38+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 10.1
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Total of all OBA\", \"sheet\": \"Conf. Letter Imb. Comparison\"}",
+   "output_chars": 121
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Conf. Letter Imb. Comparison!A1:L38\"]}",
+   "output_chars": 1759
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Original OBA's!I86\"}",
+   "output_chars": 76
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Ellis-Woodward-Clark!P11\"}",
+   "output_chars": 96
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Original OBA's!G56\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 644
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Original OBA's!AS26:AS35\"]}",
+   "output_chars": 768
+  }
+ ]
+}

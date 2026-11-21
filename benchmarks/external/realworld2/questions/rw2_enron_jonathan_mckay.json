@@ -1,0 +1,64 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Enron Direct Deal Sheet!G25",
+  "q": "What is the value in the row labelled 'November', column headed 'Rate 11 Total', in the sheet 'Enron Direct Deal Sheet'?",
+  "truth": 806,
+  "labels": [
+   "B25",
+   "G13"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "Enron Direct Deal Sheet!F28",
+  "q": "Consider the cell Enron Direct Deal Sheet!F28 (in the row labelled 'TOTAL:'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Enron Direct Deal Sheet!F15",
+   "Enron Direct Deal Sheet!F16",
+   "Enron Direct Deal Sheet!F17",
+   "Enron Direct Deal Sheet!F18",
+   "Enron Direct Deal Sheet!F19",
+   "Enron Direct Deal Sheet!F20",
+   "Enron Direct Deal Sheet!F21",
+   "Enron Direct Deal Sheet!F22",
+   "Enron Direct Deal Sheet!F23",
+   "Enron Direct Deal Sheet!F24",
+   "Enron Direct Deal Sheet!F25",
+   "Enron Direct Deal Sheet!F26"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Enron Direct Deal Sheet!E16",
+  "q": "Consider the cell Enron Direct Deal Sheet!E16 (in the row labelled 'February'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Enron Direct Deal Sheet!B10",
+   "Enron Direct Deal Sheet!C16"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "impact",
+  "cell": "Enron Direct Deal Sheet!C19",
+  "factor": 1.1,
+  "q": "Suppose the number in Enron Direct Deal Sheet!C19 (in the row labelled 'May') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Enron Direct Deal Sheet!C28",
+   "Enron Direct Deal Sheet!D28",
+   "Enron Direct Deal Sheet!G19",
+   "Enron Direct Deal Sheet!G28"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Enron Direct Deal Sheet!G15",
+  "range": "Enron Direct Deal Sheet!G15:G26",
+  "q": "Consider the range Enron Direct Deal Sheet!G15:G26 (the column of 'Rate 11 Total'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q5"
+ }
+]

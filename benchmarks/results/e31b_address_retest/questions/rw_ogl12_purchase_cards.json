@@ -1,0 +1,59 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'NOV 18', which cell holds 'Purpose of Expenditure' for the row where 'Transaction Number' is 'GPC11180000240'? Give its cell address.",
+  "cell": "NOV 18!E241",
+  "key": {
+   "I": "GPC11180000240"
+  },
+  "labels": [
+   "I241",
+   "E241",
+   "E1"
+  ],
+  "id": "q1",
+  "truth": "NOV 18!E241"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "NOV 18!E16",
+  "truth": "NOV 18!E16",
+  "q": "In the sheet 'NOV 18', which cell holds 'Purpose of Expenditure' for the row where 'Transaction Number' is 'GPC11180000015'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "NOV 18!H61",
+  "truth": "NOV 18!H61",
+  "q": "In the sheet 'NOV 18', which cell holds 'Settlement Date' for the row where 'Transaction Number' is 'GPC11180000060'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "NOV 18!A151",
+  "truth": "NOV 18!A151",
+  "q": "In the sheet 'NOV 18', which cell holds 'Organisation Name' for the row where 'Transaction Number' is 'GPC11180000150'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "NOV 18!D241",
+  "truth": "NOV 18!D241",
+  "q": "In the sheet 'NOV 18', which cell holds 'Supplier (Beneficiary)' for the row where 'Transaction Number' is 'GPC11180000240'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q6",
+  "cell": "NOV 18!G286",
+  "truth": "NOV 18!G286",
+  "q": "In the sheet 'NOV 18', which cell holds 'Purchase Date' for the row where 'Transaction Number' is 'GPC11180000285'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q7",
+  "cell": "NOV 18!J106",
+  "truth": "NOV 18!J106",
+  "q": "In the sheet 'NOV 18', which cell holds 'Net Amount (\u00a3)' for the row where 'Transaction Number' is 'GPC11180000105'? Give its cell address."
+ }
+]

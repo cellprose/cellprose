@@ -1,0 +1,137 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_epe_april_2001",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 5047,
+ "prompt_sha256": "0ac33b7001ed8e81dacf6367507f41a1bd219310c4bb7a6c3ce9c6db38286772",
+ "result": "{\n  \"q1\": \"PNM TAG 11206\",\n  \"q2\": \"APRIL (9)!E11\",\n  \"q3\": [\"APRIL (5)!C34:H34\"],\n  \"q4\": [\"APRIL (5)!C17:H17\"],\n  \"q5\": [\"APRIL (1)!Q21\", \"APRIL (1)!K39\", \"APRIL (1)!Q39\", \"APRIL (1)!K41\", \"APRIL (1)!Q41\"],\n  \"q6\": [\"APRIL (6)!A26:F26\"]\n}",
+ "usage": {
+  "input_tokens": 1976,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 8778,
+  "output_tokens": 441,
+  "output_tokens_details": {
+   "thinking_tokens": 134
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 1976,
+   "outputTokens": 441,
+   "cacheReadInputTokens": 8778,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 134
+  }
+ },
+ "cost": 0.025918,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_2ed73e1437a04b1bbe7d7d0370e03784",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 2531,
+     "cache_write_tokens": 0,
+     "output_tokens": 137,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1188,
+     "cache_read_tokens": 2531,
+     "cache_write_tokens": 0,
+     "output_tokens": 37,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 785,
+     "cache_read_tokens": 3716,
+     "cache_write_tokens": 0,
+     "output_tokens": 267,
+     "reasoning_tokens": 134,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T16:29:45+00:00",
+  "run_id": "20261107T162647Z-9ba68e",
+  "started_at": "2026-11-07T16:26:47+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 14.4
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"APRIL (9)!A10:J36\", \"APRIL (6)!A26:G26\"]}",
+   "output_chars": 1430
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"APRIL (5)!I34\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 74
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"APRIL (5)!I17\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 71
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"APRIL (1)!K21\", \"factor\": 1.1}",
+   "output_chars": 141
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"APRIL (9)!A1:I8\", \"APRIL (9)!B39:J52\"]}",
+   "output_chars": 1382
+  }
+ ]
+}

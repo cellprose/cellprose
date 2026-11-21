@@ -1,0 +1,77 @@
+{
+ "model": "sonnet55",
+ "workbook": "01_sales_log",
+ "encoding": "sheetmark_lean_gfm_nopipe",
+ "prompt_chars": 9938,
+ "prompt_sha256": "9d3fbe1ab9c91d6c0c89ce1a57e53eb545d44f7683c7880333228e9c7141f980",
+ "result": "SO-1042 is on row 43: revenue 741 (H43), units 19, unit price 39.\n\nSO-1100 is on row 101: units 59.\n\nSO-1077 is on row 78, so its revenue is in H78.\n\nTotal units are in F153. Total revenue is 159288.\n\nThe formula for H43 is F43*G43, so it reads F43 and G43.\n\nIf the units in F43 increase by 10%, H43 changes because it reads F43. F153 and H153 also change because their sums include F43 and H43. F43 itself is the cell being changed, so it is excluded.\n\n```json\n{\"q1\":741,\"q2\":59,\"q3\":159288,\"q4\":\"Sales!H78\",\"q5\":\"Sales!F153\",\"q6\":[\"Sales!F43\",\"Sales!G43\"],\"q7\":[\"Sales!H43\",\"Sales!F153\",\"Sales!H153\"]}\n```",
+ "usage": {
+  "input_tokens": 6194,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 283,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 6194,
+   "outputTokens": 283,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.015218,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261010T051113Z-1cce47",
+  "started_at": "2026-10-10T05:11:13+00:00",
+  "git_sha": "b4d0b9c",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "6fcc7fe80dfd05ee580a20abc2ef6488b77b3463260a0d44f0f6bfa9ec522753",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 2,
+  "wall_seconds": 2.6,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 6194,
+   "output_tokens": 283,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 6194
+  },
+  "finished_at": "2026-10-10T05:15:58+00:00"
+ }
+}

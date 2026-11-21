@@ -1,0 +1,19 @@
+{
+  "name": "cellprose-site",
+  "version": "0.2.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "The Cellprose website: docs, benchmarks and a playground that runs the JS writer in the browser.",
+  "type": "module",
+  "scripts": {
+    "prepare-site": "node scripts/prepare.mjs",
+    "dev": "npm run prepare-site && vitepress dev",
+    "build": "npm run prepare-site && vitepress build",
+    "preview": "vitepress preview",
+    "test": "npm run prepare-site && node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "vitepress": "1.6.4"
+  }
+}

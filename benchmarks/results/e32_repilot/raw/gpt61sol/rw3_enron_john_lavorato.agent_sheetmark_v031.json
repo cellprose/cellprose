@@ -1,0 +1,170 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw3_enron_john_lavorato",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1459,
+ "prompt_sha256": "70110eba24297f585c1924d8571431794700e83097f150ca6d9ab8a2821a3bc9",
+ "result": "{\n  \"q1\": 391.619,\n  \"q2\": \"Summary by Status!H15\",\n  \"q3\": [\"Cost Cancel Details!AT8\", \"Cost Cancel Details!AS8\"],\n  \"q4\": [\"Cost Cancel Details!AG14\", \"Cost Cancel Details!AH13\"],\n  \"q5\": [\n    \"Cost Cancel Details!AI63\",\n    \"Cost Cancel Details!AJ63\",\n    \"Cost Cancel Details!AI67\",\n    \"Cost Cancel Details!AI120\",\n    \"Cost Cancel Details!AI124\",\n    \"Cost Cancel Details!AI125\",\n    \"Cost Cancel Details!AI129\",\n    \"Cost Cancel Details!AI130\"\n  ],\n  \"q6\": [\"Cost Cancel Details!AE101\", \"Cost Cancel Details!AE103\"]\n}",
+ "usage": {
+  "input_tokens": 18111,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 31985,
+  "output_tokens": 1008,
+  "output_tokens_details": {
+   "thinking_tokens": 94
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 18111,
+   "outputTokens": 1008,
+   "cacheReadInputTokens": 31985,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 94
+  }
+ },
+ "cost": 0.11027200000000001,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_17eb7f789ab04c658243450ce440d219",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 472,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 30,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2487,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 57,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 339,
+     "cache_read_tokens": 2484,
+     "cache_write_tokens": 0,
+     "output_tokens": 55,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 7206,
+     "cache_read_tokens": 2820,
+     "cache_write_tokens": 0,
+     "output_tokens": 46,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 6638,
+     "cache_read_tokens": 10023,
+     "cache_write_tokens": 0,
+     "output_tokens": 648,
+     "reasoning_tokens": 94,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 969,
+     "cache_read_tokens": 16658,
+     "cache_write_tokens": 0,
+     "output_tokens": 172,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:57:04+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 17.0
+ },
+ "num_turns": 6,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l; head -c 5000 book.sheet.md\"}",
+   "output_chars": 5065
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -nE '^# Sheet|AT7|AH14|AI64|AE101|AE104|GRAND TOTALS|Total Tentative|SCHEDULED CONTRACT' book.sheet.md\"}",
+   "output_chars": 775
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '175,220p' book.sheet.md; sed -n '680,715p' book.sheet.md; sed -n '727,910p' book.sheet.md\"}",
+   "output_chars": 10933
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '1030,1100p' book.sheet.md; sed -n '1230,1390p' book.sheet.md\"}",
+   "output_chars": 10642
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cat > /tmp/a.py <<'PY'\\nimport re\\nfrom openpyxl.formula.translate import Translator\\nfrom openpyxl.utils.cell import range_boundaries,get_column_letter\\ns=open('book.sheet.md').read(); forms={}; sheet=''; mode=False\\nfor l in s.splitlines():\\n if l.startswith('# Sheet: '):sheet=l[9:]\\n if l=='```formulas':mode=True;continue\\n if l=='```':mode=False\\n if mode and ' = ' in l:\\n  a,f=l.split(' = ',1); mn,mr,mx,ma=range_boundaries(a); origin=f'{get_column_letter(mn)}{mr}'\\n  for r in r",
+   "output_chars": 744
+  }
+ ]
+}

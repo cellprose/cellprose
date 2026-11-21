@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_phillip_platter",
+ "encoding": "csv",
+ "prompt_chars": 87845,
+ "prompt_sha256": "e56786e334a74f77238727750d542e901bf4bb45fe87ab09226b3aa5061e22ba",
+ "result": "```json\n{\"q1\": [\"day 4!H106\", \"day 4!H107\"], \"q2\": [], \"q3\": [\"EES-Schedule day 1!F106\", \"EES-Schedule day 1!F108\"], \"q4\": [\"day 4!U7\", \"day 4!U8\", \"day 4!U9\", \"day 4!U10\", \"day 4!U11\", \"day 4!U12\", \"day 4!U13\"]}\n```\n\nThese are best guesses. The workbook is flattened to text, so no formulas are visible, and the row numbers and dependencies are inferred from the layout and the values.\n\n- **q1:** H108 appears to equal the EEMC total plus the EES total for hour 4 in the SP15 block (126.49 + 320.53 \u2248 447.03). I assumed those totals sit in rows 106 and 107.\n- **q2:** J14 looks like a typed-in load value, so it has no direct precedents.\n- **q3:** I could not pin down which dependent cells use F104, so these two addresses are a guess.\n- **q4:** Hour 17 falls in column U. I took the typed-in cells to be the hour-17 header and the load values in rows 8\u201313. Rows 14\u201316 look like totals, so they are probably formulas. Rows 17\u201319 are unclear and were left out.",
+ "usage": {
+  "input_tokens": 67778,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4420,
+  "output_tokens_details": {
+   "thinking_tokens": 4002
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 67778,
+   "outputTokens": 4420,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 4002
+  }
+ },
+ "cost": 0.008987799999999999,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 2,
+  "wall_seconds": 20.5,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 67778,
+   "output_tokens": 4420,
+   "output_tokens_details": {
+    "thinking_tokens": 4002
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 67778
+  },
+  "finished_at": "2026-11-11T15:10:08+00:00"
+ }
+}

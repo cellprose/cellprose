@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_census_nrc",
+ "encoding": "sheetmark_v03",
+ "prompt_chars": 43593,
+ "prompt_sha256": "3ddd09ecc7b2851bdf82a850abd45efebb123b9f6625496466a120a769df0df0",
+ "result": "Column layout: B=US Total, C=1 unit, D=2-4 units, E=5+ units, F=NE Total, G=NE 1 unit, H=MW Total, I=MW 1 unit, J=South Total, K=South 1 unit, L=West Total, M=West 1 unit.\n\nq1: Table 1a, March 2023 is row 14, and B14 = 1437.\n\nq2: Table 3a, February 2023 is row 13. South 1 unit is column K, which holds 514.\n\nq3: West total for May 2023 is column L. May is row 16, so the cell is L16.\n\nq4: April 2023 is row 15, and 5 units or more is column E, which holds 503.\n\nq5: Under Percent Change, \"Dec. 2023 from Dec. 2022\" is row 29. The United States total is B29, which holds 0.061.\n\n```json\n{\"q1\": 1437, \"q2\": 514, \"q3\": \"Table 1 - Permits!L16\", \"q4\": 503, \"q5\": 0.061}\n```\n\nSame answer as a bare JSON object:\n\n{\"q1\": 1437, \"q2\": 514, \"q3\": \"'Table 1 - Permits'!L16\", \"q4\": 503, \"q5\": 0.061}",
+ "usage": {
+  "input_tokens": 26239,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 399,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 26239,
+   "outputTokens": 399,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.056468,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 3.4,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 26239,
+   "output_tokens": 399,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 26239
+  },
+  "finished_at": "2026-11-07T09:01:13+00:00"
+ }
+}

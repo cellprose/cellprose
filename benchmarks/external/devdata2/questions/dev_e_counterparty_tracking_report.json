@@ -1,0 +1,80 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Mission Critical Counterparties!P20",
+  "q": "What is the value in the row labelled 'Yes', column headed 'Written Contact Made to Counterparty', in the sheet 'Mission Critical Counterparties'?",
+  "truth": 1,
+  "labels": [
+   "J20",
+   "P3"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Tier 2 Counterparties!W18",
+  "q": "Which cell holds the value in the row labelled 'Financial - US Total', column headed 'Unsatisfactory', in the sheet 'Tier 2 Counterparties'? Give its cell address.",
+  "truth": "Tier 2 Counterparties!W18",
+  "labels": [
+   "D18",
+   "W3"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Mission Critical Counterparties!U99",
+  "q": "Consider the cell Mission Critical Counterparties!U99. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Mission Critical Counterparties!P98",
+   "Mission Critical Counterparties!U98"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Tier 2 Counterparties!U60",
+  "q": "Consider the cell Tier 2 Counterparties!U60. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Tier 2 Counterparties!P59",
+   "Tier 2 Counterparties!U59"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Tier 2 Counterparties!S15",
+  "factor": 1.1,
+  "q": "Suppose the number in Tier 2 Counterparties!S15 (in the row labelled 'Satisfactory') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Tier 2 Counterparties!S18",
+   "Tier 2 Counterparties!S19",
+   "Tier 2 Counterparties!S74",
+   "Tier 2 Counterparties!S75"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Tier 2 Counterparties!P20",
+  "range": "Tier 2 Counterparties!P20:P34",
+  "q": "Consider the range Tier 2 Counterparties!P20:P34 (the column of 'Written Contact Made to Counterparty'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Tier 2 Counterparties!P20",
+   "Tier 2 Counterparties!P21",
+   "Tier 2 Counterparties!P22",
+   "Tier 2 Counterparties!P23",
+   "Tier 2 Counterparties!P24",
+   "Tier 2 Counterparties!P25",
+   "Tier 2 Counterparties!P26",
+   "Tier 2 Counterparties!P27",
+   "Tier 2 Counterparties!P28",
+   "Tier 2 Counterparties!P29",
+   "Tier 2 Counterparties!P30",
+   "Tier 2 Counterparties!P31",
+   "Tier 2 Counterparties!P32",
+   "Tier 2 Counterparties!P33"
+  ],
+  "id": "q6"
+ }
+]

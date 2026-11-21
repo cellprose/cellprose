@@ -1,0 +1,77 @@
+{
+ "model": "sonnet55",
+ "workbook": "09_orders_lookup",
+ "encoding": "sheetmark_lean_gfm_nopipe",
+ "prompt_chars": 6885,
+ "prompt_sha256": "a7494589855f539042a5ab018ba213b2cd794b95ff8f60e5d6cb401276cc2d12",
+ "result": "q1: ORD-2015 is on row 16, and its revenue (column E) is 3015.04.\n\nq2: The total margin on Summary is in C6, which is 125859.\n\nq3: ORD-2030 is on row 31, and its category is Hardware.\n\nq4: ORD-2044 is on row 45, and margin is in column G, so the cell is Orders!G45.\n\nq5: ORD-2009 is on row 10. Its revenue formula is E10 = C10*D10, so it reads Orders!C10 and Orders!D10.\n\nq6: Increasing the quantity in Orders!C10 changes the cells that depend on it:\n- Orders!E10 (revenue), Orders!F10 (cost) and Orders!G10 (margin) all use C10.\n- ORD-2009 is a Software order, so the Software totals on Summary change: Summary!B3 (revenue) and Summary!C3 (margin).\n- The grand totals Summary!B6 and Summary!C6 sum those rows, so they change too.\n\nC10 itself is the input being changed, so it is not listed.\n\n```json\n{\"q1\": 3015.04, \"q2\": 125859, \"q3\": \"Hardware\", \"q4\": \"Orders!G45\", \"q5\": [\"Orders!C10\", \"Orders!D10\"], \"q6\": [\"Orders!E10\", \"Orders!F10\", \"Orders!G10\", \"Summary!B3\", \"Summary!C3\", \"Summary!B6\", \"Summary!C6\"]}\n```",
+ "usage": {
+  "input_tokens": 4026,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 483,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 4026,
+   "outputTokens": 483,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.012882,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261010T051113Z-1cce47",
+  "started_at": "2026-10-10T05:11:13+00:00",
+  "git_sha": "b4d0b9c",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "6fcc7fe80dfd05ee580a20abc2ef6488b77b3463260a0d44f0f6bfa9ec522753",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 2,
+  "wall_seconds": 3.5,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4026,
+   "output_tokens": 483,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 4026
+  },
+  "finished_at": "2026-10-10T05:16:15+00:00"
+ }
+}

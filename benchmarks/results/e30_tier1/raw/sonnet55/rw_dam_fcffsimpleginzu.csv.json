@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_dam_fcffsimpleginzu",
+ "encoding": "csv",
+ "prompt_chars": 150093,
+ "prompt_sha256": "5de1d143fe72df4ae082c047501684269dd8c10c6dfaa97bb0f46fdd6174adb8",
+ "result": "```json\n{\n  \"q1\": 7.18784027,\n  \"q2\": 16394.53893,\n  \"q3\": \"Valuation output!B31\",\n  \"q4\": [\"Valuation output!B24\", \"Valuation output!B25\", \"Valuation output!B26\", \"Valuation output!B27\", \"Valuation output!B28\"],\n  \"q5\": [\"Valuation output!B33\", \"Valuation output!B34\"],\n  \"q6\": [\n    \"Valuation output!B32\",\n    \"Valuation output!B33\",\n    \"Valuation output!B35\",\n    \"Valuation output!B19\",\n    \"Valuation output!B20\",\n    \"Valuation output!B21\",\n    \"Valuation output!B23\",\n    \"Valuation output!B24\",\n    \"Valuation output!B29\",\n    \"Valuation output!B31\",\n    \"Valuation output!C12:K12\",\n    \"Valuation output!C13:L13\",\n    \"Valuation output!C14:L14\",\n    \"Input sheet!B32\",\n    \"Input sheet!I28\",\n    \"Cost of capital worksheet!B13\",\n    \"Cost of capital worksheet!B18\",\n    \"Cost of capital worksheet!C57\",\n    \"Cost of capital worksheet!B60\",\n    \"Cost of capital worksheet!E60\",\n    \"Cost of capital worksheet!B61\",\n    \"Cost of capital worksheet!C61\",\n    \"Cost of capital worksheet!B62\",\n    \"Cost of capital worksheet!E62\",\n    \"Option value!B11\",\n    \"Option value!D16\",\n    \"Option value!B17\",\n    \"Option value!B22\",\n    \"Option value!B23\",\n    \"Option value!B25\",\n    \"Option value!B26\",\n    \"Option value!B28\",\n    \"Option value!B29\",\n    \"Stories to Numbers!D14\",\n    \"Stories to Numbers!D30\",\n    \"Stories to Numbers!D31\",\n    \"Stories to Numbers!D32\",\n    \"Stories to Numbers!D36\",\n    \"Stories to Numbers!D38\",\n    \"Stories to Numbers!D39\",\n    \"Valuation as picture!B15\",\n    \"Valuation as picture!B16\",\n    \"Valuation as picture!B18\",\n    \"Valuation as picture!B23\",\n    \"Valuation as picture!B25\",\n    \"Valuation as picture!B26\",\n    \"Valuation as picture!B27\",\n    \"Valuation as picture!B30\",\n    \"Valuation as picture!E25:M25\",\n    \"Valuation as picture!E26:N26\"\n  ]\n}\n```",
+ "usage": {
+  "input_tokens": 79889,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 11677,
+  "output_tokens_details": {
+   "thinking_tokens": 10845
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 79889,
+   "outputTokens": 11677,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 10845
+  }
+ },
+ "cost": 0.276548,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 85.5,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 79889,
+   "output_tokens": 11677,
+   "output_tokens_details": {
+    "thinking_tokens": 10845
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 79889
+  },
+  "finished_at": "2026-11-07T09:03:19+00:00"
+ }
+}

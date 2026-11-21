@@ -1,0 +1,159 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw2_enron_kevin_presto",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1051,
+ "prompt_sha256": "e6e0cd25ad7ac45e8545283e61c1d73e55e852b59581b3195db3f0b6b6fa324a",
+ "result": "{\"q1\": [\"PJM!H10:H18\"], \"q2\": [\"NPCC!H16:H18\"], \"q3\": [\"PJM!C25\", \"PJM!C48\"], \"q4\": [\"NPCC!G17\", \"NPCC!H17\"]}",
+ "usage": {
+  "input_tokens": 12,
+  "cache_creation_input_tokens": 15624,
+  "cache_read_input_tokens": 30197,
+  "output_tokens": 662,
+  "output_tokens_details": {
+   "thinking_tokens": 238
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 12,
+   "outputTokens": 662,
+   "cacheReadInputTokens": 30197,
+   "cacheCreationInputTokens": 15624,
+   "thinkingTokens": 238
+  }
+ },
+ "cost": 0.09828600000000001,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 1102,
+     "output_tokens": 29,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 1102,
+     "cache_write_tokens": 57,
+     "output_tokens": 106,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "view_xlsx",
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 1159,
+     "cache_write_tokens": 11275,
+     "output_tokens": 326,
+     "reasoning_tokens": 170,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 12434,
+     "cache_write_tokens": 3068,
+     "output_tokens": 116,
+     "reasoning_tokens": 68,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2,
+     "cache_read_tokens": 15502,
+     "cache_write_tokens": 122,
+     "output_tokens": 85,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.048724
+  },
+  "finished_at": "2026-11-11T18:09:34+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 7.5
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{}",
+   "output_chars": 25
+  },
+  {
+   "turn": 2,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"PJM\"}",
+   "output_chars": 7013
+  },
+  {
+   "turn": 2,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"NPCC\"}",
+   "output_chars": 7156
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor n,d in wb.defined_names.items(): print(n,d.attr_text)\\nfor ws in wb: print(ws.title, ws.defined_names if hasattr(ws,'defined_names') else '')\\n\\\"\"}",
+   "output_chars": 3224
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"echo\"}",
+   "output_chars": 1
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+[
+ {
+  "type": "lookup",
+  "cell": "R&D Converter!B142",
+  "q": "What is the value in the row labelled 'Water Utility', in the sheet 'R&D Converter'?",
+  "truth": 10,
+  "labels": [
+   "A142"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "R&D Converter!B105",
+  "q": "Which cell holds the value in the row labelled 'Medical Services', in the sheet 'R&D Converter'? Give its cell address.",
+  "truth": "R&D Converter!B105",
+  "labels": [
+   "A105"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Accounting Return Output!B19",
+  "q": "Consider the cell Accounting Return Output!B19 (in the row labelled '+ Goodwill add back'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Input Sheet!B11",
+   "Input Sheet!B29",
+   "Input Sheet!B30"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Accounting Return Output!B20",
+  "q": "Consider the cell Accounting Return Output!B20 (in the row labelled '+ Cash add back'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Input Sheet!B10",
+   "Input Sheet!B33",
+   "Input Sheet!B34"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "R&D Converter!B11",
+  "factor": 1.1,
+  "q": "Suppose the number in R&D Converter!B11 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "R&D Converter!B25",
+   "R&D Converter!D25",
+   "R&D Converter!D35",
+   "R&D Converter!D37",
+   "R&D Converter!D39",
+   "R&D Converter!E25",
+   "R&D Converter!E35"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "R&D Converter!A11",
+  "range": "R&D Converter!A11:A20",
+  "q": "Consider the range R&D Converter!A11:A20 (the column of 'Year'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "R&D Converter!A11"
+  ],
+  "id": "q6"
+ }
+]

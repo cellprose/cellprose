@@ -1,0 +1,58 @@
+{
+ "model": "haiku",
+ "workbook": "10_gradebook",
+ "encoding": "markdown_kv",
+ "prompt_chars": 4626,
+ "result": "```json\n{\n  \"q1\": 68.3,\n  \"q2\": 69.06666667,\n  \"q3\": \"C\",\n  \"q4\": \"Grades!E19\",\n  \"q5\": [\"Grades!B1\", \"Grades!C1\", \"Grades!D1\", \"Grades!E1\", \"Grades!F1\", \"Grades!B14\", \"Grades!C14\", \"Grades!D14\", \"Grades!E14\", \"Grades!F14\"],\n  \"q6\": [\"Grades!G2:G31\", \"Grades!G33\", \"Grades!H8\", \"Grades!H9\", \"Grades!H17\", \"Grades!H19\", \"Grades!H23\", \"Grades!H26\", \"Grades!H30\", \"Grades!H31\"]\n}\n```",
+ "usage": {
+  "input_tokens": 3424,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 19717,
+  "output_tokens_details": {
+   "thinking_tokens": 19502
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3424,
+    "output_tokens": 19717,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 6550,
+   "outputTokens": 19729,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.10519499999999998,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 19502,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.10519499999999998
+}

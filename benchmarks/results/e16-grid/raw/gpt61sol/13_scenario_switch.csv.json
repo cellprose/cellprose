@@ -1,0 +1,60 @@
+{
+ "model": "gpt61sol",
+ "workbook": "13_scenario_switch",
+ "encoding": "csv",
+ "prompt_chars": 1511,
+ "result": "{\"q1\":353493.5488,\"q2\":\"Scenarios!E4\",\"q3\":[\"Model!C2\",\"Scenarios!E4\"],\"q4\":[],\"q5\":[\"Scenarios!E5\",\"Model!B3:F3\",\"Model!B5:F5\"],\"q6\":[]}",
+ "usage": {
+  "input_tokens": 507,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 202,
+  "output_tokens_details": {
+   "thinking_tokens": 130
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 507,
+   "outputTokens": 202,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 130
+  }
+ },
+ "cost": 0.003034,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261009T102109Z-d2d3b9",
+  "started_at": "2026-10-09T10:21:09+00:00",
+  "git_sha": "c5cb767",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 5.4,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_9c2fbe48aca34bfe9144117b82e6854a",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "provider_usage": {
+   "input_tokens": 507,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 202,
+   "output_tokens_details": {
+    "reasoning_tokens": 130
+   },
+   "total_tokens": 709,
+   "billed_input_tokens": 507,
+   "tokenizer_input_tokens_o200k": 496
+  },
+  "finished_at": "2026-10-09T10:27:20+00:00"
+ }
+}

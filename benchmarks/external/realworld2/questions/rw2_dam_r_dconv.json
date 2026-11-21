@@ -1,0 +1,68 @@
+[
+ {
+  "type": "lookup",
+  "cell": "R&D capitalizer!C30",
+  "q": "What is the value in the row labelled 'Operating income', column headed 'With capitalizing', in the sheet 'R&D capitalizer'?",
+  "truth": 7880.8,
+  "labels": [
+   "A30",
+   "C29"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Amortizable Lives Look-up Table!B9",
+  "q": "Which cell holds the value in the row labelled 'Auto Parts (Replacement)', column headed 'Amortization Period', in the sheet 'Amortizable Lives Look-up Table'? Give its cell address.",
+  "truth": "Amortizable Lives Look-up Table!B9",
+  "labels": [
+   "A9",
+   "B1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "R&D capitalizer!C34",
+  "q": "Consider the cell R&D capitalizer!C34 (in the row labelled 'Invested Capital'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "R&D capitalizer!B34",
+   "R&D capitalizer!D24"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "R&D capitalizer!E20",
+  "q": "Consider the cell R&D capitalizer!E20. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Inputs!F17",
+   "R&D capitalizer!A20",
+   "R&D capitalizer!B20"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Inputs!B12",
+  "factor": 1.1,
+  "q": "Suppose the number in Inputs!B12 (in the row labelled 'Book value of debt') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "R&D capitalizer!B34",
+   "R&D capitalizer!B36",
+   "R&D capitalizer!C34",
+   "R&D capitalizer!C36"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Inputs!A22",
+  "range": "Inputs!A22:A41",
+  "q": "Consider the range Inputs!A22:A41 (the column of 'Year'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Inputs!A22"
+  ],
+  "id": "q6"
+ }
+]

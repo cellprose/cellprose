@@ -1,0 +1,117 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw2_enron_phillip_platter",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1061,
+ "prompt_sha256": "9a8b284cde8fcd67a4d707697f1e302ff857638469511a01fa294dea056a2b86",
+ "result": "{\n  \"q1\": [\"day 4!H106\", \"day 4!H107\"],\n  \"q2\": [\"EES-Schedule day 1!J11:J13\"],\n  \"q3\": [\n    \"EES-Schedule day 1!D104\",\n    \"EES-Schedule day 1!D107\",\n    \"EES-Schedule day 1!D108\",\n    \"EES-Schedule day 1!D130\",\n    \"EES-Schedule day 1!F107\",\n    \"EES-Schedule day 1!F108\",\n    \"EES-Schedule day 1!F130\"\n  ],\n  \"q4\": [\"day 4!U7:U13\", \"day 4!U17:U19\"]\n}",
+ "usage": {
+  "input_tokens": 11452,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 10401,
+  "output_tokens": 731,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 11452,
+   "outputTokens": 731,
+   "cacheReadInputTokens": 10401,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.051016,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_0e977c402e7d4d95b100bf7ad27757f3",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 490,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 195,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 10404,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 364,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 558,
+     "cache_read_tokens": 10401,
+     "cache_write_tokens": 0,
+     "output_tokens": 172,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.032294
+  },
+  "finished_at": "2026-11-11T18:45:24+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 16.2
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');print(w.sheetnames)\\nfor s,a in [('day 4','H108'),('EES-Schedule day 1','J14'),('EES-Schedule day 1','F104')]:\\n print(s,a,w[s][a].value)\\nfor row in w['day 4']['U7:U19']:\\n for c in row:print(c.coordinate,repr(c.value),c.data_type)\\nprint('FORMULAS')\\nfor s in w:\\n print('SHEET',s.title,s.max_row,s.max_column)\\n for row in s:\\n  for c in row:\\n   if c.data_type=='f': print(s.title+'!'+c.coordinate,c.value)\\nPY",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cat > /tmp/deps.py <<'PY'\\nimport openpyxl\\nfrom openpyxl.formula.tokenizer import Tokenizer\\nfrom openpyxl.utils.cell import range_boundaries\\nfrom collections import defaultdict,deque\\nw=openpyxl.load_workbook('book.xlsx');rev=defaultdict(set)\\nfor s in w:\\n for row in s:\\n  for c in row:\\n   if c.data_type!='f':continue\\n   for t in Tokenizer(c.value).items:\\n    if t.type=='OPERAND' and t.subtype=='RANGE':\\n     r=t.value\\n     if '!' in r:sh,r=r.rsplit('!',1);sh=sh.strip(\\\"'\\\")",
+   "output_chars": 469
+  }
+ ]
+}

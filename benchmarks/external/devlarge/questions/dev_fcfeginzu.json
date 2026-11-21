@@ -1,0 +1,71 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Global Industry averages!Z21",
+  "q": "What is the value in the row labelled 'Computer Services', column headed 'Equity Reinvestment Rate', in the sheet 'Global Industry averages'?",
+  "truth": 0.530889362771159,
+  "labels": [
+   "A21",
+   "Z1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Global Industry averages!N4",
+  "q": "Which cell holds the value in the row labelled 'Air Transport', column headed 'Sales/Capital', in the sheet 'Global Industry averages'? Give its cell address.",
+  "truth": "Global Industry averages!N4",
+  "labels": [
+   "A4",
+   "N1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Country ERP!D111",
+  "q": "Consider the cell Country ERP!D111 (in the row labelled 'NR'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Country ERP!B1",
+   "Country ERP!E111"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Beta calculator!D10",
+  "q": "Consider the cell Beta calculator!D10. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Beta calculator!B10",
+   "Beta calculator!C10"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "R&D converter!B11",
+  "factor": 1.1,
+  "q": "Suppose the number in R&D converter!B11 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "R&D converter!B25",
+   "R&D converter!D25",
+   "R&D converter!D35",
+   "R&D converter!D37",
+   "R&D converter!D39",
+   "R&D converter!E25",
+   "R&D converter!E35"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Country ERP!B216",
+  "range": "Country ERP!B216:E216",
+  "q": "Consider the range Country ERP!B216:E216 (the row of 'Latin America & Caribbean'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Country ERP!C216",
+   "Country ERP!D216"
+  ],
+  "id": "q6"
+ }
+]

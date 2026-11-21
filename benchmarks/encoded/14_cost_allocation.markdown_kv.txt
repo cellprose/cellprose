@@ -1,0 +1,128 @@
+# Drivers
+
+## Record 1
+```
+Department: Engineering
+Headcount: 60
+Floor area: 900
+Tickets: 120
+```
+
+## Record 2
+```
+Department: Sales
+Headcount: 25
+Floor area: 600
+Tickets: 40
+```
+
+## Record 3
+```
+Department: Support
+Headcount: 30
+Floor area: 400
+Tickets: 900
+```
+
+## Record 4
+```
+Department: Finance
+Headcount: 10
+Floor area: 200
+Tickets: 60
+```
+
+## Record 5
+```
+Department: Marketing
+Headcount: 15
+Floor area: 300
+Tickets: 80
+```
+
+## Record 6
+```
+Department: Total
+Headcount: 140
+Floor area: 2400
+Tickets: 1200
+```
+
+# Shared
+
+## Record 1
+```
+Pool: IT
+Annual cost: 600000
+Driver: Headcount
+```
+
+## Record 2
+```
+Pool: Facilities
+Annual cost: 450000
+Driver: Floor area
+```
+
+## Record 3
+```
+Pool: Helpdesk
+Annual cost: 300000
+Driver: Tickets
+```
+
+# Allocation
+
+## Record 1
+```
+Department: Engineering
+IT: 257142.8571
+Facilities: 168750
+Helpdesk: 30000
+Total: 455892.8571
+```
+
+## Record 2
+```
+Department: Sales
+IT: 107142.8571
+Facilities: 112500
+Helpdesk: 9000
+Total: 228642.8571
+```
+
+## Record 3
+```
+Department: Support
+IT: 128571.4286
+Facilities: 75000
+Helpdesk: 225000
+Total: 428571.4286
+```
+
+## Record 4
+```
+Department: Finance
+IT: 42857.14286
+Facilities: 37500
+Helpdesk: 15000
+Total: 95357.14286
+```
+
+## Record 5
+```
+Department: Marketing
+IT: 64285.71429
+Facilities: 56250
+Helpdesk: 20000
+Total: 140535.7143
+```
+
+## Record 6
+```
+Department: Total
+IT: 600000
+Facilities: 450000
+Helpdesk: 299000
+Total: 1349000
+```

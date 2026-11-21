@@ -1,0 +1,77 @@
+{
+ "run": {
+  "run_id": "20261107T144125Z-109256",
+  "started_at": "2026-11-07T14:41:25+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devdata",
+  "inputs_sha256": "fc16d34a0a9f3ffe948c7b64b35e36559b43499241db89caccc8f4655d91cf24",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0"
+ },
+ "invocation": {
+  "argv": [
+   "--models",
+   "haiku55,gpt61sol",
+   "--workbooks",
+   "dev_d_20001_05_flash_report_62601,dev_d_aga_storage,dev_d_corpcontr_00_analysis,dev_d_eol_customers,dev_d_epe_may_2001,dev_d_homework_set_one,dev_d_pgtfuel,dev_d_rpt_pma_log_gas_three_rm,dev_d_scores99,dev_d_txrrc_stg",
+   "--encs",
+   "sheetmark_v031",
+   "--reps",
+   "1",
+   "--out",
+   "results/e33_devdata",
+   "--max-usd",
+   "1.2"
+  ],
+  "models": [
+   "haiku55",
+   "gpt61sol"
+  ],
+  "workbooks": [
+   "dev_d_20001_05_flash_report_62601",
+   "dev_d_aga_storage",
+   "dev_d_corpcontr_00_analysis",
+   "dev_d_eol_customers",
+   "dev_d_epe_may_2001",
+   "dev_d_homework_set_one",
+   "dev_d_pgtfuel",
+   "dev_d_rpt_pma_log_gas_three_rm",
+   "dev_d_scores99",
+   "dev_d_txrrc_stg"
+  ],
+  "encodings": [
+   "sheetmark_v031"
+  ],
+  "reps": 1,
+  "first_rep": 0
+ },
+ "inputs": {
+  "digest": "fc16d34a0a9f3ffe948c7b64b35e36559b43499241db89caccc8f4655d91cf24",
+  "files": {
+   "questions/dev_d_20001_05_flash_report_62601.json": "f82c5fd5dedfb516a40f131fe42cf257e9c66dc69c16c8070476cd80631cd4df",
+   "encoded/dev_d_20001_05_flash_report_62601.sheetmark_v031.txt": "2c162589140943bb51de909fe5f5986c1c7f3c319b9a3ff0a99e0fb4a32b33f4",
+   "questions/dev_d_aga_storage.json": "3f406ff7ec0bb5ca5e48f4d544d463988493c2d74942b20f81e641fcd1eb700b",
+   "encoded/dev_d_aga_storage.sheetmark_v031.txt": "250fac0c2724652972ba66cd8f452689bd3f34130de67211ddc9eb39b113b2e2",
+   "questions/dev_d_corpcontr_00_analysis.json": "89c1537ffa0651ff64873f9630fde056e6bd330eac634464d02e23d44b1fc7be",
+   "encoded/dev_d_corpcontr_00_analysis.sheetmark_v031.txt": "a399172653c98ae62aa86ab2e803a9ac7901403e6cabe9f1015e85400c0221ec",
+   "questions/dev_d_eol_customers.json": "5de9b3296977653be07de3847eef879102dc058ce6cc7d937c8cebcd8d5f442e",
+   "encoded/dev_d_eol_customers.sheetmark_v031.txt": "7018f785978b1c6287d019269fabd3926e055729b4304cbd19fd5d87ff95eb3d",
+   "questions/dev_d_epe_may_2001.json": "5adf98dd91a69f35f50caace5796cb769059f75e40e387c79490e9821555ea56",
+   "encoded/dev_d_epe_may_2001.sheetmark_v031.txt": "043342b923f9103e2054e442780272b16635d56da1368c76cba339cdc024cabf",
+   "questions/dev_d_homework_set_one.json": "aec3253980bf14213910130aec5e394db6cd5c0c1c9c4a445d0d76ad1d5ae8c9",
+   "encoded/dev_d_homework_set_one.sheetmark_v031.txt": "7b6ae2880ae9fe8f30a130a9246c0b046d77bba042640721ae70941be3a0458c",
+   "questions/dev_d_pgtfuel.json": "01679e2c89fe8884926f5baf06c66348bc01d9bae1444c7a5236c548cb13324b",
+   "encoded/dev_d_pgtfuel.sheetmark_v031.txt": "e08f5e68e8a0566f58b0aa90857402bdfe0e6e13a4650dc4313a1b666823f999",
+   "questions/dev_d_rpt_pma_log_gas_three_rm.json": "4b496d2f50c32ddca502aabe4ed356e694d9717f0df4de015dd4f554660ea825",
+   "encoded/dev_d_rpt_pma_log_gas_three_rm.sheetmark_v031.txt": "de46e89504408e4bb24b3ed7e8f4160c43a52c54a9c0147cb0d2da317c23d8ba",
+   "questions/dev_d_scores99.json": "62ef85d31e833030b58399ef9518737813deb08e20e48b5553ec8060f1fa2890",
+   "encoded/dev_d_scores99.sheetmark_v031.txt": "cb3ef62fb1d2a6d26a4071f9451be814ee4718d28f54225d3c2b2695faa9c6d8",
+   "questions/dev_d_txrrc_stg.json": "62fc06f65eb728fa83c5c3fee62fe5a8ad4273743594e07b3b727f7423436355",
+   "encoded/dev_d_txrrc_stg.sheetmark_v031.txt": "3d2c683ea38fefef940ca4e60f6491eb18b55a999d7226a9b28d70c85f525085"
+  }
+ }
+}

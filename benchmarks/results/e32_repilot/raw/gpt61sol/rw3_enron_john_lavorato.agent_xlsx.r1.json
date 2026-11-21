@@ -1,0 +1,134 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw3_enron_john_lavorato",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1455,
+ "prompt_sha256": "9ce45f427403f535a052d3f55384a16101599018daf3fd49a3a1ed77ed7c937a",
+ "result": "{\n  \"q1\": 391.618944,\n  \"q2\": \"Summary by Status!H15\",\n  \"q3\": [\n    \"Cost Cancel Details!AT8\",\n    \"Cost Cancel Details!AS8\"\n  ],\n  \"q4\": [\n    \"Cost Cancel Details!AG14\",\n    \"Cost Cancel Details!AH13\"\n  ],\n  \"q5\": [\n    \"Cost Cancel Details!AI63\",\n    \"Cost Cancel Details!AJ63\",\n    \"Cost Cancel Details!AI67\",\n    \"Cost Cancel Details!AI120\",\n    \"Cost Cancel Details!AI124\",\n    \"Cost Cancel Details!AI125\",\n    \"Cost Cancel Details!AI129\",\n    \"Cost Cancel Details!AI130\"\n  ],\n  \"q6\": [\n    \"Cost Cancel Details!AE101\",\n    \"Cost Cancel Details!AE103\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 6197,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 4367,
+  "output_tokens": 1018,
+  "output_tokens_details": {
+   "thinking_tokens": 171
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 6197,
+   "outputTokens": 1018,
+   "cacheReadInputTokens": 4367,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 171
+  }
+ },
+ "cost": 0.031308,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_6cb3c786792d4c378988d3e183c0a253",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 471,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 20,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 575,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 192,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 4370,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 458,
+     "reasoning_tokens": 13,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 781,
+     "cache_read_tokens": 4367,
+     "cache_write_tokens": 0,
+     "output_tokens": 348,
+     "reasoning_tokens": 158,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T12:07:43+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 15.1
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la\"}",
+   "output_chars": 157
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx'); d=openpyxl.load_workbook('book.xlsx',data_only=True)\\nprint([(s.title,s.max_row,s.max_column) for s in w])\\nfor sn in ['Summary by Region','Summary by Status']:\\n s=w[sn]\\n for row in s:\\n  v=['%s:%s'%(c.coordinate,c.value) for c in row if c.value is not None]\\n  print(sn, ' | '.join(v))\\ns=w['Cost Cancel Details']\\nfor a in ['AT7','AH14','AI64','AE101','AE102','AE103','AE104']:\\n print(a,s[a].value,'cached',d",
+   "output_chars": 9903
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cat > /tmp/deps.py <<'PY'\\nimport openpyxl,collections\\nfrom openpyxl.formula.tokenizer import Tokenizer\\nfrom openpyxl.utils.cell import range_boundaries\\nw=openpyxl.load_workbook('book.xlsx'); d=openpyxl.load_workbook('book.xlsx',data_only=True)\\nprint('q1',d['Summary by Region']['H26'].value)\\nrev=collections.defaultdict(set)\\nfor s in w:\\n for row in s:\\n  for c in row:\\n   if c.data_type!='f':continue\\n   for t in Tokenizer(c.value).items:\\n    if t.type=='OPERAND' and t.subtyp",
+   "output_chars": 775
+  }
+ ]
+}

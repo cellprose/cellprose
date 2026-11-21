@@ -1,0 +1,5 @@
+set,model,encoding,n,failed_questions,lookup,address,trace,impact,hardcode,all,trace_exact,impact_exact,hardcode_exact,tokens,tokens_vs_csv
+hard,haiku55,csv,6,0,100.0,,100.0,95.2,66.7,87.3,100.0,0.0,0.0,,
+hard,haiku55,cellprose_v03,6,0,100.0,,100.0,100.0,100.0,100.0,100.0,100.0,100.0,,
+all,haiku55,csv,6,0,100.0,,100.0,95.2,66.7,87.3,100.0,0.0,0.0,,
+all,haiku55,cellprose_v03,6,0,100.0,,100.0,100.0,100.0,100.0,100.0,100.0,100.0,,

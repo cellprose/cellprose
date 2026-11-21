@@ -1,0 +1,170 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_census_nrc",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1296,
+ "prompt_sha256": "4c6851cb81897b74d4c26a56702cbc30305a042855f151a027d83ec9d30b4c91",
+ "result": "{\"q1\":1437,\"q2\":514,\"q3\":\"Table 1 - Permits!L16\",\"q4\":503,\"q5\":0.061}",
+ "usage": {
+  "input_tokens": 13153,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 25516,
+  "output_tokens": 366,
+  "output_tokens_details": {
+   "thinking_tokens": 159
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 13153,
+   "outputTokens": 366,
+   "cacheReadInputTokens": 25516,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 159
+  }
+ },
+ "cost": 0.0040498999999999995,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_7fa7416581b5431e95859b8b563c9497",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 467,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 41,
+     "reasoning_tokens": 9,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1012,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 57,
+     "reasoning_tokens": 12,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 5732,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 84,
+     "reasoning_tokens": 53,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 4077,
+     "cache_read_tokens": 5729,
+     "cache_write_tokens": 0,
+     "output_tokens": 114,
+     "reasoning_tokens": 85,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 184,
+     "cache_read_tokens": 9803,
+     "cache_write_tokens": 0,
+     "output_tokens": 29,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 1681,
+     "cache_read_tokens": 9984,
+     "cache_write_tokens": 0,
+     "output_tokens": 41,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:02:18+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.3
+ },
+ "num_turns": 6,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l && head -c 1000 book.sheet.md\"}",
+   "output_chars": 1065
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n -E 'March|February|April|May|Percent Change|December' book.sheet.md | head -80\"}",
+   "output_chars": 8297
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '10,155p' book.sheet.md\"}",
+   "output_chars": 7123
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n '^# Sheet:' book.sheet.md\"}",
+   "output_chars": 176
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '385,445p' book.sheet.md\"}",
+   "output_chars": 3164
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+rep,set,model,workbook,encoding,qid,task,score,exact,failed,answer
+r0,standard,gpt61sol,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q1,lookup,1.0,1.0,0,0.5
+r0,standard,gpt61sol,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q2,trace,1.0,1.0,0,"[""Sheet1!C3"", ""Sheet1!F14""]"
+r0,standard,gpt61sol,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q3,trace,1.0,1.0,0,"[""Sheet1!H16:H17""]"
+r0,standard,gpt61sol,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q4,impact,1.0,1.0,0,"[""Sheet1!E20"", ""Sheet1!B21:B23"", ""Sheet1!C21:D21"", ""Sheet1!C26:E29"", ""Sheet1!C31:E32"", ""Sheet1!C34:E34"", ""Sheet1!B35"", ""Sheet1!B38:D38""]"
+r0,standard,gpt61sol,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q5,hardcode,1.0,1.0,0,"[""Sheet1!F11""]"
+r0,standard,gpt6luna,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q1,lookup,1.0,1.0,0,0.5
+r0,standard,gpt6luna,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q2,trace,1.0,1.0,0,"[""Sheet1!C3"", ""Sheet1!F14""]"
+r0,standard,gpt6luna,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q3,trace,1.0,1.0,0,"[""Sheet1!H16"", ""Sheet1!H17""]"
+r0,standard,gpt6luna,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q4,impact,1.0,1.0,0,"[""Sheet1!E20"", ""Sheet1!B21:B23"", ""Sheet1!C21:D21"", ""Sheet1!C26:E29"", ""Sheet1!C31:E32"", ""Sheet1!C34:E34"", ""Sheet1!B35"", ""Sheet1!B38:D38""]"
+r0,standard,gpt6luna,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q5,hardcode,1.0,1.0,0,"[""Sheet1!F11""]"
+r0,standard,haiku55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q1,lookup,1.0,1.0,0,0.5
+r0,standard,haiku55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q2,trace,1.0,1.0,0,"[""Sheet1!C3"", ""Sheet1!F14""]"
+r0,standard,haiku55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q3,trace,1.0,1.0,0,"[""Sheet1!H16"", ""Sheet1!H17""]"
+r0,standard,haiku55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q4,impact,1.0,1.0,0,"[""Sheet1!E20"", ""Sheet1!B21:B23"", ""Sheet1!C21:D21"", ""Sheet1!C26:E29"", ""Sheet1!C31:E32"", ""Sheet1!C34:E34"", ""Sheet1!B35"", ""Sheet1!B38:D38""]"
+r0,standard,haiku55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q5,hardcode,1.0,1.0,0,"[""Sheet1!F11""]"
+r0,standard,sonnet55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q1,lookup,1.0,1.0,0,0.5
+r0,standard,sonnet55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q2,trace,1.0,1.0,0,"[""Sheet1!F14"", ""Sheet1!C3""]"
+r0,standard,sonnet55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q3,trace,1.0,1.0,0,"[""Sheet1!H16"", ""Sheet1!H17""]"
+r0,standard,sonnet55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q4,impact,1.0,1.0,0,"[""Sheet1!E20"", ""Sheet1!B21:B23"", ""Sheet1!C21:D21"", ""Sheet1!C26:E29"", ""Sheet1!C31:E32"", ""Sheet1!C34:E34"", ""Sheet1!B35"", ""Sheet1!B38:D38""]"
+r0,standard,sonnet55,rw2_dam_fcffvsfcfe,agent_cellprose_lean,q5,hardcode,1.0,1.0,0,"[""Sheet1!F11""]"

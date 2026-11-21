@@ -1,0 +1,59 @@
+{
+ "model": "haiku",
+ "workbook": "07_messy_report",
+ "encoding": "agent_sheetmark",
+ "result": "{\"q1\": 519, \"q2\": 3676.5, \"q3\": 8017, \"q4\": \"Report!D15\", \"q5\": [\"Report!E34\"], \"q6\": [\"Report!C28\", \"Report!D28\"], \"q7\": [\"Report!I7\"]}",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 3687,
+  "cache_read_input_tokens": 11309,
+  "output_tokens": 773,
+  "output_tokens_details": {
+   "thinking_tokens": 359
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3687,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 86,
+    "cache_read_input_tokens": 5205,
+    "cache_creation_input_tokens": 635,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 635
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1569,
+   "outputTokens": 797,
+   "cacheReadInputTokens": 11309,
+   "cacheCreationInputTokens": 3687,
+   "webSearchRequests": 0,
+   "costUSD": 0.0014058900000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 359,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.0014058900000000001,
+ "num_turns": 3,
+ "subtype": "success"
+}

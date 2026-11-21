@@ -1,0 +1,75 @@
+[
+ {
+  "type": "lookup",
+  "cell": "filings!Y2",
+  "q": "What is the value in the row labelled 'column', column headed 'calc', in the sheet 'filings'?",
+  "truth": 476.293808675396,
+  "labels": [
+   "B2",
+   "Y1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "regr!D108",
+  "q": "Which cell holds the value in the row labelled 'slope', column headed 'sum(y^2)', in the sheet 'regr'? Give its cell address.",
+  "truth": "regr!D108",
+  "labels": [
+   "B108",
+   "D105"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "daily!D87",
+  "q": "Consider the cell daily!D87. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "daily!A87",
+   "filings!D87"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "daily!Q46",
+  "q": "Consider the cell daily!Q46. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "daily!A46",
+   "filings!R46"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "filings!C42",
+  "factor": 1.1,
+  "q": "Suppose the number in filings!C42 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "daily!C42",
+   "daily!J42",
+   "daily!K42",
+   "daily!X42",
+   "daily!Y42",
+   "ex9!D29",
+   "ex9!G29",
+   "ex9!H29",
+   "ex9!J29",
+   "filings!J42",
+   "filings!L42"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "filings!AK98",
+  "range": "filings!AK98:AZ98",
+  "q": "Consider the range filings!AK98:AZ98 (the row of '#N/A'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "filings!AN98",
+   "filings!AO98"
+  ],
+  "id": "q6"
+ }
+]

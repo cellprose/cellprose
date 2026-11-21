@@ -1,0 +1,98 @@
+[
+ {
+  "type": "lookup",
+  "cell": "History By Facility!G135",
+  "q": "What is the value in the row labelled 'Palo Pinto', column headed 'RRC 1/31/00', in the sheet 'History By Facility'?",
+  "truth": 325,
+  "labels": [
+   "D135",
+   "G118"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "History By Facility!K256",
+  "q": "Which cell holds the value in the row labelled 'Wharton', column headed 'RRC 3/31/01', in the sheet 'History By Facility'? Give its cell address.",
+  "truth": "History By Facility!K256",
+  "labels": [
+   "D256",
+   "K249"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "History By Facility!T217",
+  "q": "Consider the cell History By Facility!T217 (in the row labelled 'Salt Domes'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "History By Facility!T205",
+   "History By Facility!T206",
+   "History By Facility!T207",
+   "History By Facility!T208",
+   "History By Facility!T209",
+   "History By Facility!T210",
+   "History By Facility!T211",
+   "History By Facility!T212",
+   "History By Facility!T213",
+   "History By Facility!T214",
+   "History By Facility!T215",
+   "History By Facility!T216"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Sheet1!N14",
+  "q": "Consider the cell Sheet1!N14 (in the row labelled 'Denton'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sheet1!K14",
+   "Sheet1!M14"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "History By Facility!I241",
+  "factor": 1.1,
+  "q": "Suppose the number in History By Facility!I241 (in the row labelled 'Wharton') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "History By Facility!AE241",
+   "History By Facility!AE247",
+   "History By Facility!I247"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "History By Facility!E89",
+  "range": "History By Facility!E89:E112",
+  "q": "Consider the range History By Facility!E89:E112 (the column of 'WORKING TOP GAS'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "History By Facility!E100",
+   "History By Facility!E101",
+   "History By Facility!E102",
+   "History By Facility!E103",
+   "History By Facility!E104",
+   "History By Facility!E105",
+   "History By Facility!E106",
+   "History By Facility!E107",
+   "History By Facility!E108",
+   "History By Facility!E109",
+   "History By Facility!E110",
+   "History By Facility!E111",
+   "History By Facility!E89",
+   "History By Facility!E90",
+   "History By Facility!E91",
+   "History By Facility!E92",
+   "History By Facility!E93",
+   "History By Facility!E94",
+   "History By Facility!E95",
+   "History By Facility!E96",
+   "History By Facility!E97",
+   "History By Facility!E98",
+   "History By Facility!E99"
+  ],
+  "id": "q6"
+ }
+]

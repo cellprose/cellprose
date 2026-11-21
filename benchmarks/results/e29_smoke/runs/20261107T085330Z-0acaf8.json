@@ -1,0 +1,62 @@
+{
+ "run": {
+  "run_id": "20261107T085330Z-0acaf8",
+  "started_at": "2026-11-07T08:53:30+00:00",
+  "git_sha": "61ce9bb",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "68d8cc073cde45dd3381ac6ca43668cb502033f7294c45e2f26834983f2faccf",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent"
+ },
+ "invocation": {
+  "argv": [
+   "--sample",
+   "--models",
+   "haiku55,sonnet55",
+   "--variants",
+   "agent_xlsx,agent_sheetmark_v03",
+   "--out",
+   "results/e29_smoke",
+   "--vendor-cap-usd",
+   "2",
+   "--allow-dirty",
+   "--workers",
+   "4"
+  ],
+  "models": [
+   "haiku55",
+   "sonnet55"
+  ],
+  "workbooks": [
+   "01_sales_log",
+   "04_saas_model",
+   "11_forecast_overrides"
+  ],
+  "variants": [
+   "agent_xlsx",
+   "agent_sheetmark_v03"
+  ],
+  "reps": 1,
+  "first_rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0
+ },
+ "inputs": {
+  "digest": "68d8cc073cde45dd3381ac6ca43668cb502033f7294c45e2f26834983f2faccf",
+  "files": {
+   "questions/01_sales_log.json": "5c5416c0e6f65c05fa8f7340786cd3ed1fcba90abd500924b114f13b4690ece2",
+   "encoded/01_sales_log.sheetmark_v03.txt": "13a97d402d942e1cfae24ad6599a611dc63c9340060124ecde830423f0f92dbf",
+   "workbooks/01_sales_log.xlsx": "735138c760d0927b4a157cb8adf6fd40c260370c55aa03be9fcb2e323b14a203",
+   "questions/04_saas_model.json": "d2195d97dbb8668fe17cafc9974b0502c8e03e7f2927c48c7859df04191b877a",
+   "encoded/04_saas_model.sheetmark_v03.txt": "698de2f2a415014cda977c14610fa73b7bffeeb54771122070c52b886a91644f",
+   "workbooks/04_saas_model.xlsx": "8a33a3728fe2a847c2ad1c90271581db81cc3710708d25c72a251b9f31866abf",
+   "questions/11_forecast_overrides.json": "b5b4110745315e01bfebe201f1fcf53b8c98d803fa74442d92898e7eba12270e",
+   "encoded/11_forecast_overrides.sheetmark_v03.txt": "723def8533d3390c1ab5de24b6098a49e541845bd6d3d0dfec65948a78c73196",
+   "workbooks/11_forecast_overrides.xlsx": "3e19a8576c2741924fe0e7dbd78e7294d76b4b222306fb41dbc266ed8edcda51"
+  }
+ }
+}

@@ -1,0 +1,75 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Regressions!AG11",
+  "q": "What is the value in the row labelled '3 month lag', column headed 'Formbond', in the sheet 'Regressions'?",
+  "truth": 0.3617503405957818,
+  "labels": [
+   "AD11",
+   "AG6"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Regressions!AH10",
+  "q": "Which cell holds the value in the row labelled '2 month lag', column headed '80 lb. + Sheets', in the sheet 'Regressions'? Give its cell address.",
+  "truth": "Regressions!AH10",
+  "labels": [
+   "AD10",
+   "AH6"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Regressions!V142",
+  "q": "Consider the cell Regressions!V142. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Regressions!H141",
+   "Regressions!H142"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Regressions!T18",
+  "q": "Consider the cell Regressions!T18. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Regressions!F17",
+   "Regressions!F18"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "simplecorr!E65",
+  "factor": 1.1,
+  "q": "Suppose the number in simplecorr!E65 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "simplecorr!Q10",
+   "simplecorr!Q11",
+   "simplecorr!Q12",
+   "simplecorr!Q13",
+   "simplecorr!Q16",
+   "simplecorr!Q17",
+   "simplecorr!Q18",
+   "simplecorr!Q19",
+   "simplecorr!Q20",
+   "simplecorr!Q21",
+   "simplecorr!Q22",
+   "simplecorr!Q7",
+   "simplecorr!Q8",
+   "simplecorr!Q9"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Regressions!Q155",
+  "range": "Regressions!Q155:AA155",
+  "q": "Consider the range Regressions!Q155:AA155. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q6"
+ }
+]

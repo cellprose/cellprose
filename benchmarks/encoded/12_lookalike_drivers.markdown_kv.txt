@@ -1,0 +1,120 @@
+# Drivers
+
+## Record 1
+```
+Driver: Price inflation
+Value: 0.03
+```
+
+## Record 2
+```
+Driver: Wage inflation
+Value: 0.03
+```
+
+## Record 3
+```
+Driver: Rent escalation
+Value: 0.03
+```
+
+## Record 4
+```
+Driver: Volume growth
+Value: 0.05
+```
+
+## Record 5
+```
+Driver: Marketing growth
+Value: 0.05
+```
+
+## Record 6
+```
+Driver: Utilities inflation
+Value: 0.03
+```
+
+# Plan
+
+## Record 1
+```
+Line: Volume
+Y1: 50000
+Y2: 52500
+Y3: 55125
+Y4: 57881.25
+```
+
+## Record 2
+```
+Line: Unit price
+Y1: 20
+Y2: 20.6
+Y3: 21.218
+Y4: 21.85454
+```
+
+## Record 3
+```
+Line: Wages
+Y1: 400000
+Y2: 412000
+Y3: 424360
+Y4: 437090.8
+```
+
+## Record 4
+```
+Line: Rent
+Y1: 120000
+Y2: 123600
+Y3: 127308
+Y4: 131127.24
+```
+
+## Record 5
+```
+Line: Marketing
+Y1: 90000
+Y2: 94500
+Y3: 99225
+Y4: 104186.25
+```
+
+## Record 6
+```
+Line: Utilities
+Y1: 30000
+Y2: 30900
+Y3: 31827
+Y4: 32781.81
+```
+
+## Record 7
+```
+Line: Revenue
+Y1: 1000000
+Y2: 1081500
+Y3: 1169642.25
+Y4: 1264968.093
+```
+
+## Record 8
+```
+Line: Total costs
+Y1: 640000
+Y2: 661000
+Y3: 682720
+Y4: 705186.1
+```
+
+## Record 9
+```
+Line: Profit
+Y1: 360000
+Y2: 420500
+Y3: 486922.25
+Y4: 559781.9934
+```

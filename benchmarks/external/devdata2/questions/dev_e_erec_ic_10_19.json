@@ -1,0 +1,107 @@
+[
+ {
+  "type": "lookup",
+  "cell": "ICFeb correction!AR13",
+  "q": "What is the value in the row labelled 'EES', in the sheet 'ICFeb correction'?",
+  "truth": 18,
+  "labels": [
+   "C13"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "ICFeb correction!AP18",
+  "q": "Which cell holds the value in the row labelled 'Enron Europe Originations', column headed '****** move to 011', in the sheet 'ICFeb correction'? Give its cell address.",
+  "truth": "ICFeb correction!AP18",
+  "labels": [
+   "C18",
+   "AP14"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "ICAprest!AD13",
+  "q": "Consider the cell ICAprest!AD13 (in the row labelled 'EES'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "ICAprest!AC13",
+   "ICAprest!AC25",
+   "ICAprest!AD25"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "ICAprest!G20",
+  "q": "Consider the cell ICAprest!G20 (in the row labelled 'Global Products Trading'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "ICAprest!E20",
+   "ICAprest!F20"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "ICAprest!Q22",
+  "factor": 1.1,
+  "q": "Suppose the number in ICAprest!Q22 (in the row labelled '34K') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "ICAprest!AG22",
+   "ICAprest!AG25",
+   "ICAprest!AH10",
+   "ICAprest!AH17",
+   "ICAprest!AH18",
+   "ICAprest!AH20",
+   "ICAprest!AH22",
+   "ICAprest!AH8",
+   "ICAprest!AH9",
+   "ICAprest!AI10",
+   "ICAprest!AI17",
+   "ICAprest!AI18",
+   "ICAprest!AI20",
+   "ICAprest!AI22",
+   "ICAprest!AI25",
+   "ICAprest!AI8",
+   "ICAprest!AI9",
+   "ICAprest!AJ25",
+   "ICAprest!Q25",
+   "ICAprest!R10",
+   "ICAprest!R17",
+   "ICAprest!R18",
+   "ICAprest!R20",
+   "ICAprest!R22",
+   "ICAprest!R8",
+   "ICAprest!R9",
+   "ICAprest!S10",
+   "ICAprest!S17",
+   "ICAprest!S18",
+   "ICAprest!S20",
+   "ICAprest!S22",
+   "ICAprest!S25",
+   "ICAprest!S8",
+   "ICAprest!S9"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "ICFeb correction!M8",
+  "range": "ICFeb correction!M8:M20",
+  "q": "Consider the range ICFeb correction!M8:M20 (the column of 'Primary Costs'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "ICFeb correction!M10",
+   "ICFeb correction!M12",
+   "ICFeb correction!M13",
+   "ICFeb correction!M14",
+   "ICFeb correction!M15",
+   "ICFeb correction!M16",
+   "ICFeb correction!M17",
+   "ICFeb correction!M18",
+   "ICFeb correction!M19",
+   "ICFeb correction!M20",
+   "ICFeb correction!M9"
+  ],
+  "id": "q6"
+ }
+]

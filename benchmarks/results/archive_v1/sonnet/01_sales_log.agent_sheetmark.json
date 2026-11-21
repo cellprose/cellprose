@@ -1,0 +1,73 @@
+{
+ "model": "sonnet",
+ "workbook": "01_sales_log",
+ "encoding": "agent_sheetmark",
+ "result": "SO-1042 is on row 43 (F43 = 19 units, G43 = 39). SO-1077 is on row 78, so its revenue is in H78. SO-1100 is on row 101 with 59 units. If F43 rose by 10%, H43 would change, and H153 and F153 would change with it.\n\n```json\n{\"q1\":741,\"q2\":59,\"q3\":159288,\"q4\":\"Sales!H78\",\"q5\":\"Sales!F153\",\"q6\":[\"Sales!F43\",\"Sales!G43\"],\"q7\":[\"Sales!H43\",\"Sales!F153\",\"Sales!H153\"]}\n```",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 8875,
+  "cache_read_input_tokens": 11891,
+  "output_tokens": 352,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8875,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 197,
+    "cache_read_input_tokens": 7955,
+    "cache_creation_input_tokens": 920,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 920
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1190,
+   "outputTokens": 15,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.001265,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 6,
+   "outputTokens": 352,
+   "cacheReadInputTokens": 11891,
+   "cacheCreationInputTokens": 8875,
+   "webSearchRequests": 0,
+   "costUSD": 0.0414102,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.042675199999999996,
+ "num_turns": 3,
+ "subtype": "success"
+}

@@ -1,0 +1,58 @@
+{
+ "model": "haiku",
+ "workbook": "11_forecast_overrides",
+ "encoding": "none",
+ "prompt_chars": 1152,
+ "result": "```json\n{\n  \"q1\": \"8000000\",\n  \"q2\": [\"Sheet1!C2\", \"Sheet1!D2\", \"Sheet1!E2\", \"Sheet1!F2\", \"Sheet1!G2\", \"Sheet1!H2\", \"Sheet1!I2\", \"Sheet1!J2\", \"Sheet1!K2\"],\n  \"q3\": [\"Sheet1!C4\", \"Sheet1!D4\", \"Sheet1!E4\", \"Sheet1!F4\", \"Sheet1!G4\", \"Sheet1!H4\", \"Sheet1!I4\", \"Sheet1!J4\", \"Sheet1!K4\", \"Sheet1!C5\", \"Sheet1!D5\", \"Sheet1!E5\", \"Sheet1!F5\", \"Sheet1!G5\", \"Sheet1!H5\", \"Sheet1!I5\", \"Sheet1!J5\", \"Sheet1!K5\"],\n  \"q4\": [\"Sheet1!F2\", \"Sheet1!B1\"],\n  \"q5\": [\"Sheet1!L2\", \"Sheet1!M2\", \"Sheet1!C5\", \"Sheet1!D5\", \"Sheet1!E5\", \"Sheet1!F5\", \"Sheet1!G5\", \"Sheet1!H5\", \"Sheet1!I5\", \"Sheet1!J5\", \"Sheet1!K5\", \"Sheet1!L5\", \"Sheet1!M5\"],\n  \"q6\": [\"Sheet1!C4\", \"Sheet1!D4\", \"Sheet1!E4\", \"Sheet1!F4\", \"Sheet1!G4\", \"Sheet1!H4\", \"Sheet1!I4\", \"Sheet1!J4\", \"Sheet1!K4\", \"Sheet1!L4\", \"Sheet1!M4\", \"Sheet1!C5\", \"Sheet1!D5\", \"Sheet1!E5\", \"Sheet1!F5\", \"Sheet1!G5\", \"Sheet1!H5\", \"Sheet1!I5\", \"Sheet1!J5\", \"Sheet1!K5\", \"Sheet1!L5\", \"Sheet1!M5\"]\n}\n```",
+ "usage": {
+  "input_tokens": 1501,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 10216,
+  "output_tokens_details": {
+   "thinking_tokens": 9713
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1501,
+    "output_tokens": 10216,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 2704,
+   "outputTokens": 10232,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.053864,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 9713,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.053864
+}

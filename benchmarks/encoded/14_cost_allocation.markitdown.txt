@@ -1,0 +1,26 @@
+## Drivers
+| Department | Headcount | Floor area | Tickets |
+| --- | --- | --- | --- |
+| Engineering | 60 | 900 | 120 |
+| Sales | 25 | 600 | 40 |
+| Support | 30 | 400 | 900 |
+| Finance | 10 | 200 | 60 |
+| Marketing | 15 | 300 | 80 |
+| Total | 140 | 2400 | 1200 |
+
+## Shared
+| Pool | Annual cost | Driver |
+| --- | --- | --- |
+| IT | 600000 | Headcount |
+| Facilities | 450000 | Floor area |
+| Helpdesk | 300000 | Tickets |
+
+## Allocation
+| Department | IT | Facilities | Helpdesk | Total |
+| --- | --- | --- | --- | --- |
+| Engineering | 257142.857143 | 168750 | 30000 | 4.558929e+05 |
+| Sales | 107142.857143 | 112500 | 9000 | 2.286429e+05 |
+| Support | 128571.428571 | 75000 | 225000 | 4.285714e+05 |
+| Finance | 42857.142857 | 37500 | 15000 | 9.535714e+04 |
+| Marketing | 64285.714286 | 56250 | 20000 | 1.405357e+05 |
+| Total | 600000.000000 | 450000 | 299000 | 1.349000e+06 |

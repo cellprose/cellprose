@@ -1,0 +1,78 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Transfer!F5",
+  "q": "What is the value in the row labelled 'F1', column headed 'NET', in the sheet 'Transfer'?",
+  "truth": -40,
+  "labels": [
+   "B5",
+   "F3"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Access Trades!G9",
+  "q": "Which cell holds the value in the row labelled 'Price', column headed 'TOTAL LONG', in the sheet 'Access Trades'? Give its cell address.",
+  "truth": "Access Trades!G9",
+  "labels": [
+   "E9",
+   "G8"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Transfer!F15",
+  "q": "Consider the cell Transfer!F15 (in the row labelled 'X1'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Transfer!C15",
+   "Transfer!D15"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Transfer!F12",
+  "q": "Consider the cell Transfer!F12 (in the row labelled 'Q1'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Transfer!C12",
+   "Transfer!D12"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Access Trades!C10",
+  "factor": 1.1,
+  "q": "Suppose the number in Access Trades!C10 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Access Trades!C103",
+   "Access Trades!J9",
+   "Transfer!D4",
+   "Transfer!D40",
+   "Transfer!F4"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Access Trades!E10",
+  "range": "Access Trades!E10:E30",
+  "q": "Consider the range Access Trades!E10:E30 (the column of 'Price'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Access Trades!E10",
+   "Access Trades!E11",
+   "Access Trades!E12",
+   "Access Trades!E13",
+   "Access Trades!E14",
+   "Access Trades!E15",
+   "Access Trades!E16",
+   "Access Trades!E17",
+   "Access Trades!E18",
+   "Access Trades!E19",
+   "Access Trades!E20"
+  ],
+  "id": "q6"
+ }
+]

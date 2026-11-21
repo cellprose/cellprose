@@ -1,0 +1,227 @@
+{
+ "model": "haiku55",
+ "workbook": "rw3_enron_ryan_slinger",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1387,
+ "prompt_sha256": "bdaa5f6938bc3946e4ccd4a927848c04a6fc3f5b16c3dd17cc53f26015dadd71",
+ "result": "{\"q1\": 78, \"q2\": \"Fuel!E39\", \"q3\": [], \"q4\": [\"Deals!G71\", \"Deals!G77\"], \"q5\": [\"Preschedule!Z58\"], \"q6\": [\"Deals!AB14\", \"Deals!AC14\"]}",
+ "usage": {
+  "input_tokens": 131805,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3501,
+  "output_tokens_details": {
+   "thinking_tokens": 2563
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 131805,
+   "outputTokens": 3501,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 2563
+  }
+ },
+ "cost": 0.014931,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1097,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 93,
+     "reasoning_tokens": 12,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3524,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 227,
+     "reasoning_tokens": 58,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 6256,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 74,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 11968,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1117,
+     "reasoning_tokens": 1041,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 16475,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 312,
+     "reasoning_tokens": 236,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 20473,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 423,
+     "reasoning_tokens": 291,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 22569,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 598,
+     "reasoning_tokens": 495,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 24249,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 289,
+     "reasoning_tokens": 155,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 25194,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 368,
+     "reasoning_tokens": 275,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:50:32+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 18.2
+ },
+ "num_turns": 9,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && ls -la && wc -c book.sheet.md && head -c 3000 book.sheet.md\"}",
+   "output_chars": 3182
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n \\\"^# \\\\|^## \\\" book.sheet.md; grep -c \\\"=\\\" book.sheet.md; grep -n \\\"NEWMAN 2\\\\|RIO GRANDE 6\\\\|Palo Verde 510\\\\|PV PRESCHEDULED\\\\|1/1-12/31/98\\\\|^#\\\\|Formula\\\\|formula\\\" book.sheet.md | head -50\"}",
+   "output_chars": 3475
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 40,240p book.sheet.md | cut -c1-1500\"}",
+   "output_chars": 7608
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 1065,1260p book.sheet.md | cut -c1-900\"}",
+   "output_chars": 4638
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 1663,1945p book.sheet.md | cut -c1-600\"}",
+   "output_chars": 5318
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n \\\"Preschedule\\\\|Z5[08]\\\\|Z4[0-9]\\\\|Z\\\\$\\\\|!Z\\\" book.sheet.md | cut -c1-300; sed -n 2937,2990p book.sheet.md | cut -c1-300\"}",
+   "output_chars": 2332
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 2024,2050p book.sheet.md | cut -c1-300; sed -n 2115,2170p book.sheet.md | cut -c1-300\"}",
+   "output_chars": 1435
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nL=open('book.sheet.md').read().split('\\\\n')\\nfor l in L:\\n  if l.startswith('40|') or l.startswith('42|'):\\n    f=l.split('|'); print(len(f), f[0], f[-3:])\\n\\\"\"}",
+   "output_chars": 1046
+  }
+ ]
+}

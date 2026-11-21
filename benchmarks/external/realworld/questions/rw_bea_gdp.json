@@ -1,0 +1,60 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Table 1!E5",
+  "key": {
+   "A": 1
+  },
+  "labels": [
+   "B5",
+   "E2"
+  ],
+  "q": "In BEA Table 1 (Real Gross Domestic Product: percent change), what is the percent change for Gross domestic product (GDP), line 1, in the 2022 column?",
+  "id": "q1",
+  "truth": 2.1
+ },
+ {
+  "type": "lookup",
+  "cell": "Table 1!D17",
+  "key": {
+   "A": 13
+  },
+  "labels": [
+   "B17",
+   "D2"
+  ],
+  "q": "In BEA Table 1, what is the percent change in Residential fixed investment (line 13) for 2021?",
+  "id": "q2",
+  "truth": 10.7
+ },
+ {
+  "type": "lookup",
+  "cell": "Table 1!E22",
+  "key": {
+   "A": 18
+  },
+  "labels": [
+   "B22",
+   "E2",
+   "B20"
+  ],
+  "q": "In BEA Table 1, what is the 2022 percent change for exports of services (line 18, the Services row under Exports)?",
+  "id": "q3",
+  "truth": 8.7
+ },
+ {
+  "type": "address",
+  "cell": "Table 1!K6",
+  "key": {
+   "A": 2
+  },
+  "labels": [
+   "B6",
+   "J3",
+   "K4"
+  ],
+  "q": "In BEA Table 1, which cell holds the seasonally adjusted annual rate for Personal consumption expenditures (line 2) in the second quarter of 2020? Give its cell address.",
+  "id": "q4",
+  "truth": "Table 1!K6"
+ }
+]

@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_dam_fcffeva",
+ "encoding": "markitdown",
+ "prompt_chars": 13273,
+ "prompt_sha256": "e1189646826d9aa49ca15a810d3265d28664935dbc030e253a6225cad6c13f71",
+ "result": "```json\n{\"q1\": 12406, \"q2\": \"FCFF Valuation!B42\", \"q3\": [\"FCFF Valuation!I31\"], \"q4\": [\"FCFF Valuation!B42\", \"FCFF Valuation!C32\"], \"q5\": [\"FCFF Valuation!H35\", \"FCFF Valuation!I35\", \"FCFF Valuation!J35\", \"FCFF Valuation!K35\", \"FCFF Valuation!L35\", \"FCFF Valuation!H36\", \"FCFF Valuation!I36\", \"FCFF Valuation!J36\", \"FCFF Valuation!K36\", \"FCFF Valuation!L36\", \"FCFF Valuation!H37\", \"FCFF Valuation!I37\", \"FCFF Valuation!J37\", \"FCFF Valuation!K37\", \"FCFF Valuation!L37\", \"FCFF Valuation!H40\", \"FCFF Valuation!I40\", \"FCFF Valuation!J40\", \"FCFF Valuation!K40\", \"FCFF Valuation!L40\", \"FCFF Valuation!H44\", \"FCFF Valuation!I44\", \"FCFF Valuation!J44\", \"FCFF Valuation!K44\", \"FCFF Valuation!L44\", \"FCFF Valuation!L45\", \"FCFF Valuation!H55\", \"FCFF Valuation!I55\", \"FCFF Valuation!J55\", \"FCFF Valuation!K55\", \"FCFF Valuation!L55\", \"FCFF Valuation!B58\", \"FCFF Valuation!B60\", \"FCFF Valuation!B61\", \"FCFF Valuation!B65\", \"FCFF Valuation!C65\", \"FCFF Valuation!D65\", \"FCFF Valuation!E65\", \"FCFF Valuation!F65\", \"FCFF Valuation!G65\", \"FCFF Valuation!H65\", \"FCFF Valuation!I65\", \"FCFF Valuation!J65\", \"FCFF Valuation!K65\", \"FCFF Valuation!L65\", \"FCFF Valuation!H66\", \"FCFF Valuation!I66\", \"FCFF Valuation!J66\", \"FCFF Valuation!K66\", \"FCFF Valuation!L66\", \"EVA Valuation!H2\", \"EVA Valuation!I2\", \"EVA Valuation!J2\", \"EVA Valuation!K2\", \"EVA Valuation!L2\", \"EVA Valuation!M2\", \"EVA Valuation!H4\", \"EVA Valuation!I4\", \"EVA Valuation!J4\", \"EVA Valuation!K4\", \"EVA Valuation!L4\", \"EVA Valuation!M4\", \"EVA Valuation!L5\", \"EVA Valuation!H6\", \"EVA Valuation!I6\", \"EVA Valuation!J6\", \"EVA Valuation!K6\", \"EVA Valuation!L6\", \"EVA Valuation!B7\", \"EVA Valuation!B10\", \"EVA Valuation!H13\", \"EVA Valuation!I13\", \"EVA Valuation!J13\", \"EVA Valuation!K13\", \"EVA Valuation!L13\", \"EVA Valuation!M13\"], \"q6\": [\"FCFF Valuation!I30\"]}\n```",
+ "usage": {
+  "input_tokens": 7515,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6687,
+  "output_tokens_details": {
+   "thinking_tokens": 5615
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 7515,
+   "outputTokens": 6687,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 5615
+  }
+ },
+ "cost": 0.004095,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 29.2,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 7515,
+   "output_tokens": 6687,
+   "output_tokens_details": {
+    "thinking_tokens": 5615
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 7515
+  },
+  "finished_at": "2026-11-11T13:45:55+00:00"
+ }
+}

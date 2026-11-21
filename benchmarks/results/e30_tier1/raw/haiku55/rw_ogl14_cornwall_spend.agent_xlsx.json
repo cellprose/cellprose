@@ -1,0 +1,137 @@
+{
+ "model": "haiku55",
+ "workbook": "rw_ogl14_cornwall_spend",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 963,
+ "prompt_sha256": "e916764ee50e639fa3a1610cc1a47b6c672e7c5ef824ab1b438a0d99e4f9f8d2",
+ "result": "{\"q1\": 46037.49, \"q2\": \"NHS PROPERTY SERVICES LTD\", \"q3\": \"January 26 for Publication!D43\"}",
+ "usage": {
+  "input_tokens": 7837,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 770,
+  "output_tokens_details": {
+   "thinking_tokens": 136
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 7837,
+   "outputTokens": 770,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 136
+  }
+ },
+ "cost": 0.0011687,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 892,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 232,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1544,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 105,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1852,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 243,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 3549,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 190,
+     "reasoning_tokens": 136,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:00:18+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 47.3
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd /. 2>/dev/null; python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx',read_only=True)\\nprint(wb.sheetnames)\\nws=wb['January 26 for Publication']\\nfor i,r in enumerate(ws.iter_rows(values_only=True)):\\n    if i<8: print(i+1,r)\\n    s=' '.join(str(x) for x in r)\\n    if '0010298776' in s or '0015193430' in s or '0015193437' in s: print('HIT',i+1,r)\\n\\\"\"}",
+   "output_chars": 887
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"pwd; ls; find / -name book.xlsx 2>/dev/null | head\"}",
+   "output_chars": 304
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd /tmp/sheetmark_agent_aaio4ruh; python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx',read_only=True)\\nprint(wb.sheetnames)\\nws=wb['January 26 for Publication']\\nfor i,r in enumerate(ws.iter_rows(values_only=True)):\\n    if i<8: print(i+1,r)\\n    s=' '.join(str(x) for x in r)\\n    if '0010298776' in s or '0015193430' in s or '0015193437' in s: print('HIT',i+1,r)\\n\\\"\"}",
+   "output_chars": 2154
+  }
+ ]
+}

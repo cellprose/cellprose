@@ -1,0 +1,119 @@
+{
+ "model": "haiku55",
+ "workbook": "rw3_enron_kimberly_watson",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1345,
+ "prompt_sha256": "1d43c8a1b95f5030207768a0c6876ea3c65ba5928e2e06b17cd1c9ed99481de8",
+ "result": "{\"q1\": 1350845, \"q2\": \"I to I Summary!O10\", \"q3\": [\"I to I Summary!K6\", \"I to I Summary!K11\", \"I to I Summary!K16\"], \"q4\": [\"I to I Summary!I6\", \"I to I Summary!I11\", \"I to I Summary!I16\"], \"q5\": [\"I to I Summary!F18\", \"I to I Summary!G16\", \"I to I Summary!G18\"], \"q6\": [\"I to I Summary!D15\", \"I to I Summary!E15\", \"I to I Summary!F15\", \"I to I Summary!H15\", \"I to I Summary!I15\"]}",
+ "usage": {
+  "input_tokens": 8124,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1394,
+  "output_tokens_details": {
+   "thinking_tokens": 775
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8124,
+   "outputTokens": 1394,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 775
+  }
+ },
+ "cost": 0.0015094000000000002,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1059,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 159,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2913,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1029,
+     "reasoning_tokens": 775,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 4152,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 206,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:49:34+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 7.2
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nprint(wb.sheetnames)\\nws=wb['I to I Summary']\\nfor r in ws.iter_rows():\\n    for c in r:\\n        if c.value is not None: print(c.coordinate, repr(c.value))\\n\\\"\"}",
+   "output_chars": 2245
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"echo '{\\\"q1\\\": 1350845, \\\"q2\\\": \\\"I to I Summary!O10\\\", \\\"q3\\\": [\\\"I to I Summary!K6\\\", \\\"I to I Summary!K11\\\", \\\"I to I Summary!K16\\\"], \\\"q4\\\": [\\\"I to I Summary!I6\\\", \\\"I to I Summary!I11\\\", \\\"I to I Summary!I16\\\"], \\\"q5\\\": [\\\"I to I Summary!F18\\\", \\\"I to I Summary!G16\\\", \\\"I to I Summary!G18\\\"], \\\"q6\\\": [\\\"I to I Summary!D15\\\", \\\"I to I Summary!E15\\\", \\\"I to I Summary!F15\\\", \\\"I to I Summary!H15\\\", \\\"I to I Summary!I15\\\"]}'\"}",
+   "output_chars": 382
+  }
+ ]
+}

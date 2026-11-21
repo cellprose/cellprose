@@ -1,0 +1,36 @@
+{
+  "name": "cellprose",
+  "version": "0.3.0",
+  "description": "Cellprose writer for Node: turn an .xlsx workbook into Cellprose v0.3 text (.sheet.md) with formulas and cell addresses. No dependencies.",
+  "keywords": [
+    "excel",
+    "xlsx",
+    "spreadsheet",
+    "llm",
+    "markdown",
+    "cellprose"
+  ],
+  "homepage": "https://cellprose.com",
+  "bugs": "https://github.com/Utkarsh-Gaikwad/cellprose/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Utkarsh-Gaikwad/cellprose.git",
+    "directory": "js"
+  },
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "bin": {
+    "cellprose-encode": "bin/cellprose-encode.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}

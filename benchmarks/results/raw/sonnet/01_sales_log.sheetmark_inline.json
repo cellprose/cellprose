@@ -1,0 +1,72 @@
+{
+ "model": "sonnet",
+ "workbook": "01_sales_log",
+ "encoding": "sheetmark_inline",
+ "prompt_chars": 14771,
+ "result": "SO-1042 is in row 43: units 19, price 39, revenue 741.\nSO-1100 is in row 101: units 59.\nSO-1077 is in row 78, so revenue is H78.\nTotal revenue is H153 = 159288.25.\nTotal units are in F153.\n\nq6: the formula in H43 reads F43 and G43.\nq7: changing F43 changes H43 and the totals F153 and H153.\n\n```json\n{\"q1\": 741, \"q2\": 59, \"q3\": 159288.25, \"q4\": \"Sales!H78\", \"q5\": \"Sales!F153\", \"q6\": [\"Sales!F43\", \"Sales!G43\"], \"q7\": [\"Sales!H43\", \"Sales!F153\", \"Sales!H153\"]}\n```",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 10824,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 245,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 10824,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 245,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 10824,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 10824
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 9297,
+   "outputTokens": 11,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.009352,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 245,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 10824,
+   "webSearchRequests": 0,
+   "costUSD": 0.04575,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.055102
+}

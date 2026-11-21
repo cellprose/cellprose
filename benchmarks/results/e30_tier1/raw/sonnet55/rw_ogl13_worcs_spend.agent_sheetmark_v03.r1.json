@@ -1,0 +1,133 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_ogl13_worcs_spend",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 980,
+ "prompt_sha256": "0a2378fbcf5ef704d76c26ae392c6ea4929d9f3a6ddfdde040be0ebdd9b2b308",
+ "result": "{\"q1\": \"LEARNING & DEVELOPMENT\", \"q2\": \"VARIOUS SITES\", \"q3\": \"Sheet1!E38\"}",
+ "usage": {
+  "input_tokens": 11230,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 285,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 11230,
+   "outputTokens": 285,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.02531,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 959,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 129,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3323,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 78,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3454,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 24,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "json"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 3494,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 54,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:08:26+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.1
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd .; head -c 3000 book.sheet.md; grep -n -E \\\"INSIGHTS LEARNING|SOUTH WARWICKSHIRE AND|WORCESTER CITY COUNCIL\\\" book.sheet.md | head -30\"}",
+   "output_chars": 3628
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n -E \\\"^(12|28|38)\\\\|\\\" book.sheet.md | cut -c1-20\"}",
+   "output_chars": 63
+  },
+  {
+   "turn": 3,
+   "tool": "json",
+   "args": "{}",
+   "output_chars": 26
+  }
+ ]
+}

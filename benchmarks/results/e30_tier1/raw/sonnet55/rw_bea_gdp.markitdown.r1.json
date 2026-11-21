@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_bea_gdp",
+ "encoding": "markitdown",
+ "prompt_chars": 151586,
+ "prompt_sha256": "ecdcda2035dd317a6ad82a9528b7d2548b7616992d60198c2d1249ddcb9c90c0",
+ "result": "{\"q1\": 2.1, \"q2\": 10.7, \"q3\": 8.7, \"q4\": \"Table 1!K6\"}",
+ "usage": {
+  "input_tokens": 101399,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 480,
+  "output_tokens_details": {
+   "thinking_tokens": 436
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 101399,
+   "outputTokens": 480,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 436
+  }
+ },
+ "cost": 0.207598,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 5.9,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 101399,
+   "output_tokens": 480,
+   "output_tokens_details": {
+    "thinking_tokens": 436
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 101399
+  },
+  "finished_at": "2026-11-07T09:12:58+00:00"
+ }
+}

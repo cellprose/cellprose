@@ -1,0 +1,828 @@
+720 calls to run, 0 already on disk in results/addendum_rw2
+calls: 720
+gpt61sol/agent_xlsx: about $0.0409 per call (mean of 30 API pilot calls, E32, uncached list price)
+gpt61sol/agent_xlsx_viewer: about $0.0409 per call (mean of 30 API pilot calls, E32, uncached list price)
+gpt6luna/agent_xlsx: about $0.0086 per call (mean of 30 API pilot calls, E32, uncached list price)
+gpt6luna/agent_xlsx_viewer: about $0.0086 per call (mean of 30 API pilot calls, E32, uncached list price)
+haiku55/agent_xlsx: about $0.0092 per call (mean of 30 API pilot calls, E32, uncached list price)
+haiku55/agent_xlsx_viewer: about $0.0092 per call (mean of 30 API pilot calls, E32, uncached list price)
+sonnet55/agent_xlsx: about $0.1243 per call (mean of 30 API pilot calls, E32, uncached list price)
+sonnet55/agent_xlsx_viewer: about $0.1243 per call (mean of 30 API pilot calls, E32, uncached list price)
+agent_cellprose_lean: about 26,465 input and 2,469 output tokens per call (mean of 84 earlier CLI runs; not measured on the API loop)
+expected cost: $31.74
+worst case (every call reaches the $1.00 cap, plus one turn): $720.00
+anthropic host: api.anthropic.com (workspace header: no)
+anthropic host: api.anthropic.com (workspace header: no)
+openai host: api.openai.com
+openai host: api.openai.com
+run id 20261111T180131Z-242737 (manifest results/addendum_rw2/runs/20261111T180131Z-242737.json)
+[1/720] haiku55/rw2_dam_eqexret.agent_cellprose_lean.json ok turns=3 cost=$0.0024
+[2/720] haiku55/rw2_dam_ddm2st.agent_xlsx_viewer.json ok turns=2 cost=$0.0017
+[3/720] haiku55/rw2_dam_ddm2st.agent_cellprose_lean.json ok turns=3 cost=$0.0017
+[4/720] haiku55/rw2_dam_ddm2st.agent_xlsx.json ok turns=3 cost=$0.0028
+[5/720] haiku55/rw2_dam_eqexret.agent_xlsx_viewer.json ok turns=4 cost=$0.0042
+[6/720] haiku55/rw2_dam_eqexret.agent_xlsx.json ok turns=4 cost=$0.0050
+[7/720] haiku55/rw2_dam_fcff2st.agent_cellprose_lean.json ok turns=3 cost=$0.0019
+[8/720] haiku55/rw2_dam_fcfe2st.agent_xlsx.json ok turns=2 cost=$0.0023
+[9/720] haiku55/rw2_dam_fcfe2st.agent_cellprose_lean.json ok turns=2 cost=$0.0027
+[10/720] haiku55/rw2_dam_fcfe2st.agent_xlsx_viewer.json ok turns=2 cost=$0.0023
+[11/720] haiku55/rw2_dam_fcff2st.agent_xlsx.json ok turns=3 cost=$0.0030
+[12/720] haiku55/rw2_dam_fcff2st.agent_xlsx_viewer.json ok turns=2 cost=$0.0025
+[13/720] haiku55/rw2_dam_fcffeva.agent_cellprose_lean.json ok turns=4 cost=$0.0035
+[14/720] haiku55/rw2_dam_fcffeva.agent_xlsx_viewer.json ok turns=2 cost=$0.0019
+[15/720] haiku55/rw2_dam_fcffgen.agent_cellprose_lean.json ok turns=3 cost=$0.0028
+[16/720] haiku55/rw2_dam_fcffeva.agent_xlsx.json ok turns=5 cost=$0.0069
+[17/720] haiku55/rw2_dam_fcffvsfcfe.agent_cellprose_lean.json ok turns=3 cost=$0.0017
+[18/720] haiku55/rw2_dam_fcffgen.agent_xlsx.json ok turns=5 cost=$0.0034
+[19/720] haiku55/rw2_dam_fcffgen.agent_xlsx_viewer.json ok turns=5 cost=$0.0054
+[20/720] haiku55/rw2_dam_fcffvsfcfe.agent_xlsx.json ok turns=4 cost=$0.0027
+[21/720] haiku55/rw2_dam_growthbreakdown.agent_cellprose_lean.json ok turns=4 cost=$0.0031
+[22/720] haiku55/rw2_dam_growthbreakdown.agent_xlsx.json ok turns=5 cost=$0.0036
+[23/720] haiku55/rw2_dam_fcffvsfcfe.agent_xlsx_viewer.json ok turns=3 cost=$0.0030
+[24/720] haiku55/rw2_dam_growthbreakdown.agent_xlsx_viewer.json ok turns=6 cost=$0.0035
+[25/720] haiku55/rw2_dam_higrowth.agent_cellprose_lean.json ok turns=4 cost=$0.0042
+[26/720] haiku55/rw2_dam_macrodur.agent_cellprose_lean.json ok turns=4 cost=$0.0022
+[27/720] haiku55/rw2_dam_macrodur.agent_xlsx_viewer.json ok turns=4 cost=$0.0078
+[28/720] haiku55/rw2_dam_higrowth.agent_xlsx.json ok turns=5 cost=$0.0071
+[29/720] haiku55/rw2_dam_macrodur.agent_xlsx.json ok turns=7 cost=$0.0062
+[30/720] haiku55/rw2_dam_normearn.agent_cellprose_lean.json ok turns=3 cost=$0.0019
+[31/720] haiku55/rw2_dam_higrowth.agent_xlsx_viewer.json ok turns=7 cost=$0.0171
+[32/720] haiku55/rw2_dam_r_dconv.agent_cellprose_lean.json ok turns=2 cost=$0.0010
+[33/720] haiku55/rw2_dam_normearn.agent_xlsx_viewer.json ok turns=4 cost=$0.0038
+[34/720] haiku55/rw2_dam_normearn.agent_xlsx.json ok turns=6 cost=$0.0059
+[35/720] haiku55/rw2_dam_r_dconv.agent_xlsx_viewer.json ok turns=4 cost=$0.0027
+[36/720] haiku55/rw2_dam_r_dconv.agent_xlsx.json ok turns=2 cost=$0.0016
+[37/720] haiku55/rw2_dam_returncalculator.agent_cellprose_lean.json ok turns=3 cost=$0.0018
+[38/720] haiku55/rw2_dam_returncalculator.agent_xlsx.json ok turns=2 cost=$0.0017
+[39/720] haiku55/rw2_dam_reval.agent_xlsx.json ok turns=2 cost=$0.0015
+[40/720] haiku55/rw2_dam_reval.agent_cellprose_lean.json ok turns=3 cost=$0.0023
+[41/720] haiku55/rw2_dam_reval.agent_xlsx_viewer.json ok turns=2 cost=$0.0015
+[42/720] haiku55/rw2_dam_returncalculator.agent_xlsx_viewer.json ok turns=2 cost=$0.0023
+[43/720] haiku55/rw2_dam_risk.agent_cellprose_lean.json ok turns=3 cost=$0.0018
+[44/720] haiku55/rw2_dam_risk.agent_xlsx.json ok turns=2 cost=$0.0026
+[45/720] haiku55/rw2_enron_andy_zipper.agent_cellprose_lean.json ok turns=4 cost=$0.0025
+[46/720] haiku55/rw2_enron_benjamin_rogers.agent_cellprose_lean.json ok turns=2 cost=$0.0014
+[47/720] haiku55/rw2_dam_risk.agent_xlsx_viewer.json ok turns=4 cost=$0.0068
+[48/720] haiku55/rw2_enron_benjamin_rogers.agent_xlsx.json ok turns=2 cost=$0.0020
+[49/720] haiku55/rw2_enron_andy_zipper.agent_xlsx.json ok turns=5 cost=$0.0033
+[50/720] haiku55/rw2_enron_benjamin_rogers.agent_xlsx_viewer.json ok turns=3 cost=$0.0018
+[51/720] haiku55/rw2_enron_chris_germany.agent_cellprose_lean.json ok turns=3 cost=$0.0016
+[52/720] haiku55/rw2_enron_andy_zipper.agent_xlsx_viewer.json ok turns=5 cost=$0.0029
+[53/720] haiku55/rw2_enron_chris_germany.agent_xlsx.json ok turns=3 cost=$0.0023
+[54/720] haiku55/rw2_enron_chris_germany.agent_xlsx_viewer.json ok turns=2 cost=$0.0013
+[55/720] haiku55/rw2_enron_daren_farmer.agent_cellprose_lean.json ok turns=2 cost=$0.0027
+[56/720] haiku55/rw2_enron_daren_farmer.agent_xlsx.json ok turns=3 cost=$0.0033
+[57/720] haiku55/rw2_enron_james_steffes.agent_cellprose_lean.json ok turns=4 cost=$0.0035
+[58/720] haiku55/rw2_enron_daren_farmer.agent_xlsx_viewer.json ok turns=4 cost=$0.0073
+[59/720] haiku55/rw2_enron_james_steffes.agent_xlsx.json ok turns=3 cost=$0.0026
+[60/720] haiku55/rw2_enron_james_steffes.agent_xlsx_viewer.json ok turns=3 cost=$0.0027
+[61/720] haiku55/rw2_enron_jonathan_mckay.agent_xlsx_viewer.json ok turns=3 cost=$0.0012
+[62/720] haiku55/rw2_enron_jonathan_mckay.agent_xlsx.json ok turns=3 cost=$0.0014
+[63/720] haiku55/rw2_enron_jonathan_mckay.agent_cellprose_lean.json ok turns=3 cost=$0.0016
+[64/720] haiku55/rw2_enron_kevin_presto.agent_cellprose_lean.json ok turns=2 cost=$0.0012
+[65/720] haiku55/rw2_enron_kevin_presto.agent_xlsx.json ok turns=3 cost=$0.0029
+[66/720] haiku55/rw2_enron_kevin_presto.agent_xlsx_viewer.json ok turns=5 cost=$0.0047
+[67/720] haiku55/rw2_enron_lisa_gang.agent_cellprose_lean.json ok turns=3 cost=$0.0036
+[68/720] haiku55/rw2_enron_lynn_blair.agent_cellprose_lean.json ok turns=3 cost=$0.0030
+[69/720] haiku55/rw2_enron_lisa_gang.agent_xlsx_viewer.json ok turns=4 cost=$0.0106
+[70/720] haiku55/rw2_enron_lisa_gang.agent_xlsx.json ok turns=5 cost=$0.0121
+[71/720] haiku55/rw2_enron_mary_hain.agent_cellprose_lean.json ok turns=3 cost=$0.0016
+[72/720] haiku55/rw2_enron_mary_hain.agent_xlsx.json ok turns=3 cost=$0.0025
+[73/720] haiku55/rw2_enron_mary_hain.agent_xlsx_viewer.json ok turns=3 cost=$0.0028
+[74/720] haiku55/rw2_enron_lynn_blair.agent_xlsx_viewer.json ok turns=5 cost=$0.0103
+[75/720] haiku55/rw2_enron_lynn_blair.agent_xlsx.json ok turns=8 cost=$0.0093
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[76/720] haiku55/rw2_enron_phillip_allen.agent_cellprose_lean.json ok turns=3 cost=$0.0030
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[77/720] haiku55/rw2_enron_phillip_allen.agent_xlsx_viewer.json ok turns=5 cost=$0.0081
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[78/720] haiku55/rw2_enron_phillip_allen.agent_xlsx.json ok turns=10 cost=$0.0086
+[79/720] haiku55/rw2_enron_phillip_platter.agent_cellprose_lean.json ok turns=3 cost=$0.0024
+[80/720] haiku55/rw2_enron_phillip_platter.agent_xlsx.json ok turns=6 cost=$0.0030
+[81/720] haiku55/rw2_enron_rick_buy.agent_cellprose_lean.json ok turns=3 cost=$0.0033
+[82/720] haiku55/rw2_enron_rick_buy.agent_xlsx.json ok turns=4 cost=$0.0027
+[83/720] haiku55/rw2_enron_thomas_martin.agent_cellprose_lean.json ok turns=3 cost=$0.0018
+[84/720] haiku55/rw2_enron_rick_buy.agent_xlsx_viewer.json ok turns=4 cost=$0.0037
+[85/720] haiku55/rw2_enron_phillip_platter.agent_xlsx_viewer.json ok turns=6 cost=$0.0043
+[86/720] haiku55/rw2_enron_thomas_martin.agent_xlsx.json ok turns=4 cost=$0.0020
+[87/720] haiku55/rw2_enron_thomas_martin.agent_xlsx_viewer.json ok turns=5 cost=$0.0084
+[88/720] sonnet55/rw2_dam_ddm2st.agent_cellprose_lean.json ok turns=3 cost=$0.0383
+[89/720] haiku55/rw2_enron_vkaminski.agent_cellprose_lean.json ok turns=3 cost=$0.0022
+[90/720] haiku55/rw2_enron_vkaminski.agent_xlsx_viewer.json ok turns=6 cost=$0.0039
+[91/720] sonnet55/rw2_dam_ddm2st.agent_xlsx.json ok turns=2 cost=$0.0275
+[92/720] sonnet55/rw2_dam_ddm2st.agent_xlsx_viewer.json ok turns=3 cost=$0.0299
+[93/720] sonnet55/rw2_dam_eqexret.agent_cellprose_lean.json ok turns=2 cost=$0.0221
+[94/720] haiku55/rw2_enron_vkaminski.agent_xlsx.json ok turns=7 cost=$0.0131
+[95/720] sonnet55/rw2_dam_eqexret.agent_xlsx.json ok turns=4 cost=$0.0929
+[96/720] sonnet55/rw2_dam_fcfe2st.agent_cellprose_lean.json ok turns=2 cost=$0.0271
+[97/720] sonnet55/rw2_dam_eqexret.agent_xlsx_viewer.json ok turns=5 cost=$0.1266
+[98/720] sonnet55/rw2_dam_fcfe2st.agent_xlsx.json ok turns=2 cost=$0.0320
+[99/720] sonnet55/rw2_dam_fcfe2st.agent_xlsx_viewer.json ok turns=2 cost=$0.0334
+[100/720] sonnet55/rw2_dam_fcff2st.agent_xlsx.json ok turns=4 cost=$0.0605
+[101/720] sonnet55/rw2_dam_fcff2st.agent_xlsx_viewer.json ok turns=3 cost=$0.0330
+[102/720] sonnet55/rw2_dam_fcff2st.agent_cellprose_lean.json ok turns=13 cost=$0.2163
+[103/720] sonnet55/rw2_dam_fcffeva.agent_xlsx_viewer.json ok turns=3 cost=$0.0320
+[104/720] sonnet55/rw2_dam_fcffeva.agent_cellprose_lean.json ok turns=5 cost=$0.0728
+[105/720] sonnet55/rw2_dam_fcffgen.agent_cellprose_lean.json ok turns=2 cost=$0.0302
+[106/720] sonnet55/rw2_dam_fcffeva.agent_xlsx.json ok turns=6 cost=$0.1400
+[107/720] sonnet55/rw2_dam_fcffvsfcfe.agent_cellprose_lean.json ok turns=3 cost=$0.0300
+[108/720] sonnet55/rw2_dam_fcffgen.agent_xlsx.json ok turns=5 cost=$0.0721
+[109/720] sonnet55/rw2_dam_fcffgen.agent_xlsx_viewer.json ok turns=7 cost=$0.1223
+[110/720] sonnet55/rw2_dam_fcffvsfcfe.agent_xlsx.json ok turns=2 cost=$0.0213
+[111/720] sonnet55/rw2_dam_fcffvsfcfe.agent_xlsx_viewer.json ok turns=3 cost=$0.0263
+[112/720] sonnet55/rw2_dam_growthbreakdown.agent_cellprose_lean.json ok turns=4 cost=$0.0393
+[113/720] sonnet55/rw2_dam_higrowth.agent_cellprose_lean.json ok turns=2 cost=$0.0287
+[114/720] sonnet55/rw2_dam_growthbreakdown.agent_xlsx_viewer.json ok turns=4 cost=$0.0543
+[115/720] sonnet55/rw2_dam_macrodur.agent_cellprose_lean.json ok turns=3 cost=$0.0391
+[116/720] sonnet55/rw2_dam_macrodur.agent_xlsx.json ok turns=5 cost=$0.1065
+[117/720] sonnet55/rw2_dam_higrowth.agent_xlsx_viewer.json ok turns=7 cost=$0.1767
+[118/720] sonnet55/rw2_dam_macrodur.agent_xlsx_viewer.json ok turns=4 cost=$0.0747
+[119/720] sonnet55/rw2_dam_normearn.agent_cellprose_lean.json ok turns=5 cost=$0.0658
+[120/720] sonnet55/rw2_dam_normearn.agent_xlsx.json ok turns=5 cost=$0.0682
+[121/720] sonnet55/rw2_dam_higrowth.agent_xlsx.json ok turns=11 cost=$0.4707
+[122/720] sonnet55/rw2_dam_r_dconv.agent_cellprose_lean.json ok turns=2 cost=$0.0171
+[123/720] sonnet55/rw2_dam_r_dconv.agent_xlsx_viewer.json ok turns=3 cost=$0.0354
+[124/720] sonnet55/rw2_dam_normearn.agent_xlsx_viewer.json ok turns=4 cost=$0.0458
+[125/720] sonnet55/rw2_dam_returncalculator.agent_cellprose_lean.json ok turns=2 cost=$0.0228
+[126/720] sonnet55/rw2_dam_r_dconv.agent_xlsx.json ok turns=4 cost=$0.0449
+[127/720] sonnet55/rw2_dam_returncalculator.agent_xlsx.json ok turns=3 cost=$0.0435
+[128/720] sonnet55/rw2_dam_growthbreakdown.agent_xlsx.json ok turns=7 cost=$0.2386
+[129/720] sonnet55/rw2_dam_reval.agent_cellprose_lean.json ok turns=5 cost=$0.0539
+[130/720] sonnet55/rw2_dam_returncalculator.agent_xlsx_viewer.json ok turns=7 cost=$0.0811
+[131/720] sonnet55/rw2_dam_risk.agent_cellprose_lean.json ok turns=2 cost=$0.0344
+[132/720] sonnet55/rw2_dam_reval.agent_xlsx_viewer.json ok turns=4 cost=$0.0591
+[133/720] sonnet55/rw2_dam_risk.agent_xlsx.json ok turns=2 cost=$0.0417
+[134/720] sonnet55/rw2_dam_reval.agent_xlsx.json ok turns=6 cost=$0.1198
+[135/720] sonnet55/rw2_enron_andy_zipper.agent_cellprose_lean.json ok turns=2 cost=$0.0252
+[136/720] sonnet55/rw2_dam_risk.agent_xlsx_viewer.json ok turns=3 cost=$0.0806
+[137/720] sonnet55/rw2_enron_benjamin_rogers.agent_cellprose_lean.json ok turns=2 cost=$0.0245
+[138/720] sonnet55/rw2_enron_benjamin_rogers.agent_xlsx.json ok turns=4 cost=$0.0307
+[139/720] sonnet55/rw2_enron_andy_zipper.agent_xlsx_viewer.json ok turns=4 cost=$0.0311
+[140/720] sonnet55/rw2_enron_andy_zipper.agent_xlsx.json ok turns=5 cost=$0.0585
+[141/720] sonnet55/rw2_enron_chris_germany.agent_cellprose_lean.json ok turns=3 cost=$0.0325
+[142/720] sonnet55/rw2_enron_benjamin_rogers.agent_xlsx_viewer.json ok turns=5 cost=$0.0633
+[143/720] sonnet55/rw2_enron_chris_germany.agent_xlsx.json ok turns=4 cost=$0.0398
+[144/720] sonnet55/rw2_enron_chris_germany.agent_xlsx_viewer.json ok turns=3 cost=$0.0317
+[145/720] sonnet55/rw2_enron_daren_farmer.agent_cellprose_lean.json ok turns=2 cost=$0.0377
+[146/720] sonnet55/rw2_enron_james_steffes.agent_cellprose_lean.json ok turns=2 cost=$0.0225
+[147/720] sonnet55/rw2_enron_daren_farmer.agent_xlsx.json ok turns=4 cost=$0.0527
+[148/720] sonnet55/rw2_enron_james_steffes.agent_xlsx.json ok turns=2 cost=$0.0299
+[149/720] sonnet55/rw2_enron_jonathan_mckay.agent_cellprose_lean.json ok turns=2 cost=$0.0145
+[150/720] sonnet55/rw2_enron_daren_farmer.agent_xlsx_viewer.json ok turns=5 cost=$0.1255
+[151/720] sonnet55/rw2_enron_james_steffes.agent_xlsx_viewer.json ok turns=4 cost=$0.0469
+[152/720] sonnet55/rw2_enron_jonathan_mckay.agent_xlsx.json ok turns=2 cost=$0.0157
+[153/720] sonnet55/rw2_enron_jonathan_mckay.agent_xlsx_viewer.json ok turns=3 cost=$0.0203
+[154/720] sonnet55/rw2_enron_kevin_presto.agent_cellprose_lean.json ok turns=2 cost=$0.0126
+[155/720] sonnet55/rw2_enron_kevin_presto.agent_xlsx_viewer.json ok turns=5 cost=$0.0983
+[156/720] sonnet55/rw2_enron_kevin_presto.agent_xlsx.json ok turns=5 cost=$0.1279
+[157/720] sonnet55/rw2_enron_lisa_gang.agent_cellprose_lean.json ok turns=2 cost=$0.0290
+[158/720] sonnet55/rw2_enron_lisa_gang.agent_xlsx_viewer.json ok turns=4 cost=$0.1335
+[159/720] sonnet55/rw2_enron_lisa_gang.agent_xlsx.json ok turns=5 cost=$0.2010
+[160/720] sonnet55/rw2_enron_lynn_blair.agent_cellprose_lean.json ok turns=4 cost=$0.0741
+[161/720] sonnet55/rw2_enron_mary_hain.agent_xlsx.json ok turns=3 cost=$0.0311
+[162/720] sonnet55/rw2_enron_mary_hain.agent_cellprose_lean.json ok turns=4 cost=$0.0455
+[163/720] sonnet55/rw2_enron_mary_hain.agent_xlsx_viewer.json ok turns=3 cost=$0.0309
+[164/720] sonnet55/rw2_enron_lynn_blair.agent_xlsx.json ok turns=9 cost=$0.1131
+[165/720] sonnet55/rw2_enron_phillip_allen.agent_cellprose_lean.json ok turns=5 cost=$0.0955
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[166/720] sonnet55/rw2_enron_lynn_blair.agent_xlsx_viewer.json ok turns=8 cost=$0.1162
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[167/720] sonnet55/rw2_enron_phillip_platter.agent_cellprose_lean.json ok turns=2 cost=$0.0251
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[168/720] sonnet55/rw2_enron_phillip_allen.agent_xlsx.json ok turns=6 cost=$0.0964
+[169/720] sonnet55/rw2_enron_phillip_platter.agent_xlsx.json ok turns=5 cost=$0.0545
+[170/720] sonnet55/rw2_enron_phillip_allen.agent_xlsx_viewer.json ok turns=9 cost=$0.1503
+[171/720] sonnet55/rw2_enron_rick_buy.agent_cellprose_lean.json ok turns=4 cost=$0.0716
+[172/720] sonnet55/rw2_enron_thomas_martin.agent_cellprose_lean.json ok turns=3 cost=$0.0299
+[173/720] sonnet55/rw2_enron_rick_buy.agent_xlsx_viewer.json ok turns=4 cost=$0.0407
+[174/720] sonnet55/rw2_enron_rick_buy.agent_xlsx.json ok turns=8 cost=$0.1230
+[175/720] sonnet55/rw2_enron_thomas_martin.agent_xlsx_viewer.json ok turns=6 cost=$0.0363
+[176/720] sonnet55/rw2_enron_vkaminski.agent_cellprose_lean.json ok turns=2 cost=$0.0236
+[177/720] sonnet55/rw2_enron_phillip_platter.agent_xlsx_viewer.json ok turns=7 cost=$0.0862
+[178/720] sonnet55/rw2_enron_thomas_martin.agent_xlsx.json ok turns=5 cost=$0.0468
+[179/720] gpt6luna/rw2_dam_ddm2st.agent_cellprose_lean.json ok turns=3 cost=$0.0011
+[180/720] sonnet55/rw2_enron_vkaminski.agent_xlsx_viewer.json ok turns=5 cost=$0.1454
+[181/720] gpt6luna/rw2_dam_eqexret.agent_cellprose_lean.json ok turns=2 cost=$0.0007
+[182/720] sonnet55/rw2_enron_vkaminski.agent_xlsx.json ok turns=7 cost=$0.1329
+[183/720] gpt6luna/rw2_dam_ddm2st.agent_xlsx.json ok turns=3 cost=$0.0027
+[184/720] gpt6luna/rw2_dam_eqexret.agent_xlsx.json ok turns=3 cost=$0.0022
+[185/720] gpt6luna/rw2_dam_fcfe2st.agent_cellprose_lean.json ok turns=3 cost=$0.0014
+[186/720] gpt6luna/rw2_dam_fcfe2st.agent_xlsx.json ok turns=3 cost=$0.0023
+[187/720] gpt6luna/rw2_dam_ddm2st.agent_xlsx_viewer.json ok turns=3 cost=$0.0013
+[188/720] gpt6luna/rw2_dam_eqexret.agent_xlsx_viewer.json ok turns=3 cost=$0.0025
+[189/720] gpt6luna/rw2_dam_fcff2st.agent_cellprose_lean.json ok turns=3 cost=$0.0019
+[190/720] gpt6luna/rw2_dam_fcff2st.agent_xlsx.json ok turns=4 cost=$0.0030
+[191/720] gpt6luna/rw2_dam_fcffeva.agent_cellprose_lean.json ok turns=3 cost=$0.0012
+[192/720] gpt6luna/rw2_dam_fcffeva.agent_xlsx.json ok turns=3 cost=$0.0019
+[193/720] gpt6luna/rw2_dam_fcfe2st.agent_xlsx_viewer.json ok turns=3 cost=$0.0022
+[194/720] gpt6luna/rw2_dam_fcffgen.agent_cellprose_lean.json ok turns=3 cost=$0.0017
+[195/720] gpt6luna/rw2_dam_fcff2st.agent_xlsx_viewer.json ok turns=5 cost=$0.0043
+[196/720] gpt6luna/rw2_dam_fcffvsfcfe.agent_cellprose_lean.json ok turns=2 cost=$0.0006
+[197/720] gpt6luna/rw2_dam_fcffeva.agent_xlsx_viewer.json ok turns=7 cost=$0.0058
+[198/720] gpt6luna/rw2_dam_fcffgen.agent_xlsx_viewer.json ok turns=8 cost=$0.0056
+[199/720] gpt6luna/rw2_dam_growthbreakdown.agent_cellprose_lean.json ok turns=2 cost=$0.0009
+[200/720] gpt6luna/rw2_dam_fcffvsfcfe.agent_xlsx.json ok turns=4 cost=$0.0024
+[201/720] gpt6luna/rw2_dam_fcffgen.agent_xlsx.json ok turns=17 cost=$0.0114
+[202/720] gpt6luna/rw2_dam_growthbreakdown.agent_xlsx.json ok turns=4 cost=$0.0016
+[203/720] gpt6luna/rw2_dam_higrowth.agent_cellprose_lean.json ok turns=3 cost=$0.0009
+[204/720] gpt6luna/rw2_dam_fcffvsfcfe.agent_xlsx_viewer.json ok turns=3 cost=$0.0014
+[205/720] gpt6luna/rw2_dam_growthbreakdown.agent_xlsx_viewer.json ok turns=4 cost=$0.0056
+[206/720] gpt6luna/rw2_dam_macrodur.agent_cellprose_lean.json ok turns=4 cost=$0.0029
+[207/720] gpt6luna/rw2_dam_higrowth.agent_xlsx.json ok turns=7 cost=$0.0113
+[208/720] gpt6luna/rw2_dam_macrodur.agent_xlsx.json ok turns=5 cost=$0.0042
+[209/720] gpt6luna/rw2_dam_normearn.agent_cellprose_lean.json ok turns=3 cost=$0.0024
+[210/720] gpt6luna/rw2_dam_macrodur.agent_xlsx_viewer.json ok turns=4 cost=$0.0070
+[211/720] gpt6luna/rw2_dam_normearn.agent_xlsx.json ok turns=5 cost=$0.0032
+[212/720] gpt6luna/rw2_dam_r_dconv.agent_cellprose_lean.json ok turns=2 cost=$0.0007
+[213/720] gpt6luna/rw2_dam_normearn.agent_xlsx_viewer.json ok turns=3 cost=$0.0035
+[214/720] gpt6luna/rw2_dam_r_dconv.agent_xlsx_viewer.json ok turns=2 cost=$0.0008
+[215/720] gpt6luna/rw2_dam_higrowth.agent_xlsx_viewer.json ok turns=6 cost=$0.0161
+[216/720] gpt6luna/rw2_dam_r_dconv.agent_xlsx.json ok turns=4 cost=$0.0015
+[217/720] gpt6luna/rw2_dam_returncalculator.agent_cellprose_lean.json ok turns=3 cost=$0.0010
+[218/720] gpt6luna/rw2_dam_returncalculator.agent_xlsx.json ok turns=2 cost=$0.0014
+[219/720] gpt6luna/rw2_dam_reval.agent_cellprose_lean.json ok turns=6 cost=$0.0019
+[220/720] gpt6luna/rw2_dam_returncalculator.agent_xlsx_viewer.json ok turns=4 cost=$0.0017
+[221/720] gpt6luna/rw2_dam_risk.agent_cellprose_lean.json ok turns=2 cost=$0.0013
+[222/720] gpt6luna/rw2_dam_risk.agent_xlsx_viewer.json ok turns=3 cost=$0.0030
+[223/720] gpt6luna/rw2_dam_risk.agent_xlsx.json ok turns=2 cost=$0.0020
+[224/720] gpt6luna/rw2_dam_reval.agent_xlsx.json ok turns=4 cost=$0.0038
+[225/720] gpt6luna/rw2_enron_andy_zipper.agent_cellprose_lean.json ok turns=2 cost=$0.0008
+[226/720] gpt6luna/rw2_dam_reval.agent_xlsx_viewer.json ok turns=5 cost=$0.0044
+[227/720] gpt6luna/rw2_enron_benjamin_rogers.agent_cellprose_lean.json ok turns=2 cost=$0.0005
+[228/720] gpt6luna/rw2_enron_andy_zipper.agent_xlsx.json ok turns=5 cost=$0.0016
+[229/720] gpt6luna/rw2_enron_benjamin_rogers.agent_xlsx.json ok turns=2 cost=$0.0007
+[230/720] gpt6luna/rw2_enron_andy_zipper.agent_xlsx_viewer.json ok turns=3 cost=$0.0045
+[231/720] gpt6luna/rw2_enron_benjamin_rogers.agent_xlsx_viewer.json ok turns=3 cost=$0.0009
+[232/720] gpt6luna/rw2_enron_chris_germany.agent_cellprose_lean.json ok turns=3 cost=$0.0016
+[233/720] gpt6luna/rw2_enron_chris_germany.agent_xlsx.json ok turns=2 cost=$0.0009
+[234/720] gpt6luna/rw2_enron_daren_farmer.agent_cellprose_lean.json ok turns=2 cost=$0.0013
+[235/720] gpt6luna/rw2_enron_chris_germany.agent_xlsx_viewer.json ok turns=3 cost=$0.0015
+[236/720] gpt6luna/rw2_enron_james_steffes.agent_cellprose_lean.json ok turns=2 cost=$0.0007
+[237/720] gpt6luna/rw2_enron_daren_farmer.agent_xlsx.json ok turns=3 cost=$0.0030
+[238/720] gpt6luna/rw2_enron_james_steffes.agent_xlsx.json ok turns=4 cost=$0.0017
+[239/720] gpt6luna/rw2_enron_jonathan_mckay.agent_cellprose_lean.json ok turns=3 cost=$0.0009
+[240/720] gpt6luna/rw2_enron_james_steffes.agent_xlsx_viewer.json ok turns=4 cost=$0.0018
+[241/720] gpt6luna/rw2_enron_daren_farmer.agent_xlsx_viewer.json ok turns=5 cost=$0.0067
+[242/720] gpt6luna/rw2_enron_jonathan_mckay.agent_xlsx.json ok turns=2 cost=$0.0007
+[243/720] gpt6luna/rw2_enron_jonathan_mckay.agent_xlsx_viewer.json ok turns=3 cost=$0.0009
+[244/720] gpt6luna/rw2_enron_kevin_presto.agent_cellprose_lean.json ok turns=2 cost=$0.0003
+[245/720] gpt6luna/rw2_enron_kevin_presto.agent_xlsx.json ok turns=4 cost=$0.0020
+[246/720] gpt6luna/rw2_enron_kevin_presto.agent_xlsx_viewer.json ok turns=4 cost=$0.0024
+[247/720] gpt6luna/rw2_enron_lisa_gang.agent_cellprose_lean.json ok turns=3 cost=$0.0014
+[248/720] gpt6luna/rw2_enron_lynn_blair.agent_cellprose_lean.json ok turns=2 cost=$0.0013
+[249/720] gpt6luna/rw2_enron_lisa_gang.agent_xlsx_viewer.json ok turns=6 cost=$0.0113
+[250/720] gpt6luna/rw2_enron_lisa_gang.agent_xlsx.json ok turns=5 cost=$0.0072
+[251/720] gpt6luna/rw2_enron_mary_hain.agent_cellprose_lean.json ok turns=2 cost=$0.0005
+[252/720] gpt6luna/rw2_enron_mary_hain.agent_xlsx.json ok turns=4 cost=$0.0022
+[253/720] gpt6luna/rw2_enron_lynn_blair.agent_xlsx.json ok turns=7 cost=$0.0058
+[254/720] gpt6luna/rw2_enron_lynn_blair.agent_xlsx_viewer.json ok turns=4 cost=$0.0045
+[255/720] gpt6luna/rw2_enron_mary_hain.agent_xlsx_viewer.json ok turns=3 cost=$0.0023
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[256/720] gpt6luna/rw2_enron_phillip_allen.agent_cellprose_lean.json ok turns=3 cost=$0.0023
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[257/720] gpt6luna/rw2_enron_phillip_allen.agent_xlsx.json ok turns=6 cost=$0.0033
+[258/720] gpt6luna/rw2_enron_phillip_allen.agent_xlsx_viewer.json ok turns=6 cost=$0.0165
+[259/720] gpt6luna/rw2_enron_phillip_platter.agent_xlsx.json ok turns=4 cost=$0.0015
+[260/720] gpt6luna/rw2_enron_phillip_platter.agent_cellprose_lean.json ok turns=2 cost=$0.0011
+[261/720] gpt6luna/rw2_enron_rick_buy.agent_cellprose_lean.json ok turns=2 cost=$0.0011
+[262/720] gpt6luna/rw2_enron_rick_buy.agent_xlsx.json ok turns=4 cost=$0.0020
+[263/720] gpt6luna/rw2_enron_thomas_martin.agent_cellprose_lean.json ok turns=2 cost=$0.0006
+[264/720] gpt6luna/rw2_enron_rick_buy.agent_xlsx_viewer.json ok turns=7 cost=$0.0063
+[265/720] gpt6luna/rw2_enron_thomas_martin.agent_xlsx.json ok turns=3 cost=$0.0009
+[266/720] gpt6luna/rw2_enron_thomas_martin.agent_xlsx_viewer.json ok turns=5 cost=$0.0039
+[267/720] gpt6luna/rw2_enron_phillip_platter.agent_xlsx_viewer.json ok turns=6 cost=$0.0027
+[268/720] gpt6luna/rw2_enron_vkaminski.agent_cellprose_lean.json ok turns=2 cost=$0.0007
+[269/720] gpt61sol/rw2_dam_ddm2st.agent_cellprose_lean.json ok turns=2 cost=$0.0097
+[270/720] gpt61sol/rw2_dam_ddm2st.agent_xlsx.json ok turns=2 cost=$0.0164
+[271/720] gpt61sol/rw2_dam_ddm2st.agent_xlsx_viewer.json ok turns=2 cost=$0.0168
+[272/720] gpt61sol/rw2_dam_eqexret.agent_cellprose_lean.json ok turns=3 cost=$0.0125
+[273/720] gpt61sol/rw2_dam_eqexret.agent_xlsx.json ok turns=3 cost=$0.0432
+[274/720] gpt61sol/rw2_dam_eqexret.agent_xlsx_viewer.json ok turns=3 cost=$0.0434
+[275/720] gpt6luna/rw2_enron_vkaminski.agent_xlsx.json ok turns=8 cost=$0.0094
+[276/720] gpt61sol/rw2_dam_fcfe2st.agent_cellprose_lean.json ok turns=3 cost=$0.0193
+[277/720] gpt61sol/rw2_dam_fcfe2st.agent_xlsx.json ok turns=3 cost=$0.0198
+[278/720] gpt6luna/rw2_enron_vkaminski.agent_xlsx_viewer.json ok turns=4 cost=$0.0064
+[279/720] gpt61sol/rw2_dam_fcfe2st.agent_xlsx_viewer.json ok turns=4 cost=$0.0302
+[280/720] gpt61sol/rw2_dam_fcff2st.agent_cellprose_lean.json ok turns=3 cost=$0.0204
+[281/720] gpt61sol/rw2_dam_fcff2st.agent_xlsx_viewer.json ok turns=3 cost=$0.0274
+[282/720] gpt61sol/rw2_dam_fcff2st.agent_xlsx.json ok turns=3 cost=$0.0187
+[283/720] gpt61sol/rw2_dam_fcffeva.agent_cellprose_lean.json ok turns=3 cost=$0.0204
+[284/720] gpt61sol/rw2_dam_fcffeva.agent_xlsx_viewer.json ok turns=3 cost=$0.0305
+[285/720] gpt61sol/rw2_dam_fcffgen.agent_cellprose_lean.json ok turns=3 cost=$0.0174
+[286/720] gpt61sol/rw2_dam_fcffeva.agent_xlsx.json ok turns=4 cost=$0.0487
+[287/720] gpt61sol/rw2_dam_fcffgen.agent_xlsx.json ok turns=4 cost=$0.0360
+[288/720] gpt61sol/rw2_dam_fcffvsfcfe.agent_cellprose_lean.json ok turns=3 cost=$0.0110
+[289/720] gpt61sol/rw2_dam_fcffgen.agent_xlsx_viewer.json ok turns=5 cost=$0.0439
+[290/720] gpt61sol/rw2_dam_fcffvsfcfe.agent_xlsx.json ok turns=4 cost=$0.0313
+[291/720] gpt61sol/rw2_dam_fcffvsfcfe.agent_xlsx_viewer.json ok turns=3 cost=$0.0215
+[292/720] gpt61sol/rw2_dam_growthbreakdown.agent_cellprose_lean.json ok turns=3 cost=$0.0136
+[293/720] gpt61sol/rw2_dam_growthbreakdown.agent_xlsx.json ok turns=4 cost=$0.0274
+[294/720] gpt61sol/rw2_dam_higrowth.agent_cellprose_lean.json ok turns=2 cost=$0.0129
+[295/720] gpt61sol/rw2_dam_growthbreakdown.agent_xlsx_viewer.json ok turns=5 cost=$0.0366
+[296/720] gpt61sol/rw2_dam_higrowth.agent_xlsx.json ok turns=4 cost=$0.0479
+[297/720] gpt61sol/rw2_dam_macrodur.agent_cellprose_lean.json ok turns=4 cost=$0.0211
+[298/720] gpt61sol/rw2_dam_higrowth.agent_xlsx_viewer.json ok turns=6 cost=$0.0948
+[299/720] gpt61sol/rw2_dam_macrodur.agent_xlsx.json ok turns=4 cost=$0.0268
+[300/720] gpt61sol/rw2_dam_normearn.agent_cellprose_lean.json ok turns=2 cost=$0.0104
+[301/720] gpt61sol/rw2_dam_normearn.agent_xlsx.json ok turns=3 cost=$0.0491
+[302/720] gpt61sol/rw2_dam_macrodur.agent_xlsx_viewer.json ok turns=5 cost=$0.0622
+[303/720] gpt61sol/rw2_dam_normearn.agent_xlsx_viewer.json ok turns=3 cost=$0.0292
+[304/720] gpt61sol/rw2_dam_r_dconv.agent_xlsx.json ok turns=2 cost=$0.0147
+[305/720] gpt61sol/rw2_dam_r_dconv.agent_cellprose_lean.json ok turns=2 cost=$0.0086
+[306/720] gpt61sol/rw2_dam_r_dconv.agent_xlsx_viewer.json ok turns=3 cost=$0.0235
+[307/720] gpt61sol/rw2_dam_returncalculator.agent_xlsx.json ok turns=2 cost=$0.0169
+[308/720] gpt61sol/rw2_dam_returncalculator.agent_xlsx_viewer.json ok turns=2 cost=$0.0170
+[309/720] gpt61sol/rw2_dam_returncalculator.agent_cellprose_lean.json ok turns=2 cost=$0.0102
+[310/720] gpt61sol/rw2_dam_reval.agent_cellprose_lean.json ok turns=3 cost=$0.0190
+[311/720] gpt61sol/rw2_dam_risk.agent_cellprose_lean.json ok turns=2 cost=$0.0084
+[312/720] gpt61sol/rw2_dam_reval.agent_xlsx_viewer.json ok turns=4 cost=$0.0516
+[313/720] gpt61sol/rw2_dam_reval.agent_xlsx.json ok turns=4 cost=$0.0517
+[314/720] gpt61sol/rw2_dam_risk.agent_xlsx.json ok turns=3 cost=$0.0564
+[315/720] gpt61sol/rw2_dam_risk.agent_xlsx_viewer.json ok turns=3 cost=$0.0565
+[316/720] gpt61sol/rw2_enron_andy_zipper.agent_cellprose_lean.json ok turns=2 cost=$0.0122
+[317/720] gpt61sol/rw2_enron_andy_zipper.agent_xlsx_viewer.json ok turns=3 cost=$0.0113
+[318/720] gpt61sol/rw2_enron_andy_zipper.agent_xlsx.json ok turns=3 cost=$0.0117
+[319/720] gpt61sol/rw2_enron_benjamin_rogers.agent_cellprose_lean.json ok turns=2 cost=$0.0096
+[320/720] gpt61sol/rw2_enron_benjamin_rogers.agent_xlsx.json ok turns=3 cost=$0.0232
+[321/720] gpt61sol/rw2_enron_benjamin_rogers.agent_xlsx_viewer.json ok turns=2 cost=$0.0122
+[322/720] gpt61sol/rw2_enron_chris_germany.agent_cellprose_lean.json ok turns=3 cost=$0.0155
+[323/720] gpt61sol/rw2_enron_chris_germany.agent_xlsx.json ok turns=3 cost=$0.0194
+[324/720] gpt61sol/rw2_enron_chris_germany.agent_xlsx_viewer.json ok turns=3 cost=$0.0208
+[325/720] gpt61sol/rw2_enron_daren_farmer.agent_cellprose_lean.json ok turns=4 cost=$0.0279
+[326/720] gpt61sol/rw2_enron_daren_farmer.agent_xlsx.json ok turns=4 cost=$0.0572
+[327/720] gpt61sol/rw2_enron_james_steffes.agent_cellprose_lean.json ok turns=2 cost=$0.0126
+[328/720] gpt61sol/rw2_enron_daren_farmer.agent_xlsx_viewer.json ok turns=4 cost=$0.0829
+[329/720] gpt61sol/rw2_enron_james_steffes.agent_xlsx_viewer.json ok turns=2 cost=$0.0179
+[330/720] gpt61sol/rw2_enron_jonathan_mckay.agent_cellprose_lean.json ok turns=3 cost=$0.0105
+[331/720] gpt61sol/rw2_enron_james_steffes.agent_xlsx.json ok turns=3 cost=$0.0334
+[332/720] gpt61sol/rw2_enron_jonathan_mckay.agent_xlsx.json ok turns=2 cost=$0.0115
+[333/720] gpt61sol/rw2_enron_jonathan_mckay.agent_xlsx_viewer.json ok turns=3 cost=$0.0151
+[334/720] gpt61sol/rw2_enron_kevin_presto.agent_cellprose_lean.json ok turns=2 cost=$0.0060
+[335/720] gpt61sol/rw2_enron_kevin_presto.agent_xlsx.json ok turns=4 cost=$0.0304
+[336/720] gpt61sol/rw2_enron_kevin_presto.agent_xlsx_viewer.json ok turns=3 cost=$0.0396
+[337/720] gpt61sol/rw2_enron_lisa_gang.agent_cellprose_lean.json ok turns=3 cost=$0.0212
+[338/720] gpt61sol/rw2_enron_lisa_gang.agent_xlsx_viewer.json ok turns=3 cost=$0.0641
+[339/720] gpt61sol/rw2_enron_lisa_gang.agent_xlsx.json ok turns=3 cost=$0.0576
+[340/720] gpt61sol/rw2_enron_mary_hain.agent_cellprose_lean.json ok turns=2 cost=$0.0079
+[341/720] gpt61sol/rw2_enron_lynn_blair.agent_cellprose_lean.json ok turns=3 cost=$0.0303
+[342/720] gpt61sol/rw2_enron_lynn_blair.agent_xlsx_viewer.json ok turns=4 cost=$0.0711
+[343/720] gpt61sol/rw2_enron_lynn_blair.agent_xlsx.json ok turns=5 cost=$0.0615
+[344/720] gpt61sol/rw2_enron_mary_hain.agent_xlsx_viewer.json ok turns=3 cost=$0.0281
+[345/720] gpt61sol/rw2_enron_mary_hain.agent_xlsx.json ok turns=4 cost=$0.0327
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[346/720] gpt61sol/rw2_enron_phillip_allen.agent_cellprose_lean.json ok turns=2 cost=$0.0226
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[347/720] gpt61sol/rw2_enron_phillip_allen.agent_xlsx.json ok turns=5 cost=$0.0371
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[348/720] gpt61sol/rw2_enron_phillip_allen.agent_xlsx_viewer.json ok turns=5 cost=$0.0525
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[349/720] gpt61sol/rw2_enron_phillip_platter.agent_cellprose_lean.json ok turns=2 cost=$0.0143
+[350/720] gpt61sol/rw2_enron_phillip_platter.agent_xlsx.json ok turns=5 cost=$0.0201
+[351/720] gpt61sol/rw2_enron_phillip_platter.agent_xlsx_viewer.json ok turns=4 cost=$0.0270
+[352/720] gpt61sol/rw2_enron_rick_buy.agent_cellprose_lean.json ok turns=3 cost=$0.0271
+[353/720] gpt61sol/rw2_enron_thomas_martin.agent_cellprose_lean.json ok turns=2 cost=$0.0106
+[354/720] gpt61sol/rw2_enron_thomas_martin.agent_xlsx.json ok turns=3 cost=$0.0182
+[355/720] gpt61sol/rw2_enron_rick_buy.agent_xlsx.json ok turns=4 cost=$0.0223
+[356/720] gpt61sol/rw2_enron_rick_buy.agent_xlsx_viewer.json ok turns=4 cost=$0.0536
+[357/720] gpt61sol/rw2_enron_thomas_martin.agent_xlsx_viewer.json ok turns=2 cost=$0.0121
+[358/720] gpt61sol/rw2_enron_vkaminski.agent_cellprose_lean.json ok turns=2 cost=$0.0091
+[359/720] haiku55/rw2_dam_ddm2st.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0017
+[360/720] gpt61sol/rw2_enron_vkaminski.agent_xlsx_viewer.json ok turns=3 cost=$0.0636
+[361/720] haiku55/rw2_dam_ddm2st.agent_xlsx.r1.json ok turns=2 cost=$0.0017
+[362/720] haiku55/rw2_dam_ddm2st.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0028
+[363/720] gpt61sol/rw2_enron_vkaminski.agent_xlsx.json ok turns=5 cost=$0.1226
+[364/720] haiku55/rw2_dam_eqexret.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0023
+[365/720] haiku55/rw2_dam_eqexret.agent_xlsx.r1.json ok turns=3 cost=$0.0033
+[366/720] haiku55/rw2_dam_eqexret.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0054
+[367/720] haiku55/rw2_dam_fcfe2st.agent_xlsx.r1.json ok turns=2 cost=$0.0021
+[368/720] haiku55/rw2_dam_fcfe2st.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0022
+[369/720] haiku55/rw2_dam_fcff2st.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0021
+[370/720] haiku55/rw2_dam_fcfe2st.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0029
+[371/720] haiku55/rw2_dam_fcffeva.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0027
+[372/720] haiku55/rw2_dam_fcff2st.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0042
+[373/720] haiku55/rw2_dam_fcff2st.agent_xlsx.r1.json ok turns=4 cost=$0.0050
+[374/720] haiku55/rw2_dam_fcffeva.agent_xlsx.r1.json ok turns=3 cost=$0.0037
+[375/720] haiku55/rw2_dam_fcffeva.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0031
+[376/720] haiku55/rw2_dam_fcffgen.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0026
+[377/720] haiku55/rw2_dam_fcffvsfcfe.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0017
+[378/720] haiku55/rw2_dam_fcffgen.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0053
+[379/720] haiku55/rw2_dam_fcffgen.agent_xlsx.r1.json ok turns=5 cost=$0.0025
+[380/720] haiku55/rw2_dam_fcffvsfcfe.agent_xlsx.r1.json ok turns=4 cost=$0.0029
+[381/720] haiku55/rw2_dam_growthbreakdown.agent_xlsx.r1.json ok turns=4 cost=$0.0028
+[382/720] haiku55/rw2_dam_growthbreakdown.agent_xlsx_viewer.r1.json ok turns=6 cost=$0.0035
+[383/720] haiku55/rw2_dam_growthbreakdown.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0036
+[384/720] haiku55/rw2_dam_fcffvsfcfe.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0042
+[385/720] haiku55/rw2_dam_higrowth.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0020
+[386/720] haiku55/rw2_dam_macrodur.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0023
+[387/720] haiku55/rw2_dam_macrodur.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0174
+[388/720] haiku55/rw2_dam_macrodur.agent_xlsx.r1.json ok turns=10 cost=$0.0111
+[389/720] haiku55/rw2_dam_normearn.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0020
+[390/720] haiku55/rw2_dam_normearn.agent_xlsx.r1.json ok turns=6 cost=$0.0063
+[391/720] haiku55/rw2_dam_normearn.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0038
+[392/720] haiku55/rw2_dam_higrowth.agent_xlsx_viewer.r1.json ok turns=12 cost=$0.0281
+[393/720] haiku55/rw2_dam_r_dconv.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0013
+[394/720] haiku55/rw2_dam_r_dconv.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0026
+[395/720] haiku55/rw2_dam_r_dconv.agent_xlsx.r1.json ok turns=2 cost=$0.0017
+[396/720] haiku55/rw2_dam_returncalculator.agent_xlsx.r1.json ok turns=2 cost=$0.0017
+[397/720] haiku55/rw2_dam_higrowth.agent_xlsx.r1.json ok turns=14 cost=$0.0361
+[398/720] haiku55/rw2_dam_returncalculator.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0017
+[399/720] haiku55/rw2_dam_returncalculator.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0030
+[400/720] haiku55/rw2_dam_reval.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0015
+[401/720] haiku55/rw2_dam_reval.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0017
+[402/720] haiku55/rw2_dam_reval.agent_xlsx.r1.json ok turns=3 cost=$0.0023
+[403/720] haiku55/rw2_dam_risk.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0021
+[404/720] haiku55/rw2_dam_risk.agent_xlsx.r1.json ok turns=3 cost=$0.0042
+[405/720] haiku55/rw2_enron_andy_zipper.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0029
+[406/720] haiku55/rw2_dam_risk.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0065
+[407/720] haiku55/rw2_enron_benjamin_rogers.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0020
+[408/720] haiku55/rw2_enron_benjamin_rogers.agent_xlsx.r1.json ok turns=3 cost=$0.0038
+[409/720] haiku55/rw2_enron_andy_zipper.agent_xlsx.r1.json ok turns=5 cost=$0.0029
+[410/720] haiku55/rw2_enron_benjamin_rogers.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0015
+[411/720] haiku55/rw2_enron_chris_germany.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0016
+[412/720] haiku55/rw2_enron_chris_germany.agent_xlsx.r1.json ok turns=3 cost=$0.0022
+[413/720] haiku55/rw2_enron_andy_zipper.agent_xlsx_viewer.r1.json ok turns=6 cost=$0.0036
+[414/720] haiku55/rw2_enron_chris_germany.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0013
+[415/720] haiku55/rw2_enron_daren_farmer.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0024
+[416/720] haiku55/rw2_enron_daren_farmer.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0066
+[417/720] haiku55/rw2_enron_daren_farmer.agent_xlsx.r1.json ok turns=4 cost=$0.0047
+[418/720] haiku55/rw2_enron_james_steffes.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0025
+[419/720] haiku55/rw2_enron_james_steffes.agent_xlsx.r1.json ok turns=3 cost=$0.0026
+[420/720] haiku55/rw2_enron_jonathan_mckay.agent_xlsx.r1.json ok turns=2 cost=$0.0008
+[421/720] haiku55/rw2_enron_jonathan_mckay.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0012
+[422/720] haiku55/rw2_enron_james_steffes.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0026
+[423/720] haiku55/rw2_enron_jonathan_mckay.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0015
+[424/720] haiku55/rw2_enron_kevin_presto.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0012
+[425/720] haiku55/rw2_enron_kevin_presto.agent_xlsx.r1.json ok turns=3 cost=$0.0029
+[426/720] haiku55/rw2_enron_kevin_presto.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0033
+[427/720] haiku55/rw2_enron_lisa_gang.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0027
+[428/720] haiku55/rw2_enron_lynn_blair.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0031
+[429/720] haiku55/rw2_enron_lisa_gang.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0091
+[430/720] haiku55/rw2_enron_lisa_gang.agent_xlsx.r1.json ok turns=7 cost=$0.0163
+[431/720] haiku55/rw2_enron_mary_hain.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0018
+[432/720] haiku55/rw2_enron_lynn_blair.agent_xlsx.r1.json ok turns=7 cost=$0.0101
+[433/720] haiku55/rw2_enron_mary_hain.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0030
+[434/720] haiku55/rw2_enron_mary_hain.agent_xlsx.r1.json ok turns=3 cost=$0.0029
+[435/720] haiku55/rw2_enron_lynn_blair.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0118
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[436/720] haiku55/rw2_enron_phillip_allen.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0030
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[437/720] haiku55/rw2_enron_phillip_allen.agent_xlsx.r1.json ok turns=7 cost=$0.0044
+[438/720] haiku55/rw2_enron_phillip_allen.agent_xlsx_viewer.r1.json ok turns=7 cost=$0.0033
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[439/720] haiku55/rw2_enron_phillip_platter.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0029
+[440/720] haiku55/rw2_enron_phillip_platter.agent_xlsx.r1.json ok turns=6 cost=$0.0028
+[441/720] haiku55/rw2_enron_rick_buy.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0058
+[442/720] haiku55/rw2_enron_rick_buy.agent_xlsx.r1.json ok turns=4 cost=$0.0028
+[443/720] haiku55/rw2_enron_rick_buy.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0026
+[444/720] haiku55/rw2_enron_thomas_martin.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0018
+[445/720] haiku55/rw2_enron_phillip_platter.agent_xlsx_viewer.r1.json ok turns=7 cost=$0.0063
+[446/720] haiku55/rw2_enron_thomas_martin.agent_xlsx.r1.json ok turns=4 cost=$0.0018
+[447/720] haiku55/rw2_enron_thomas_martin.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0063
+[448/720] haiku55/rw2_enron_vkaminski.agent_xlsx.r1.json ok turns=5 cost=$0.0060
+[449/720] haiku55/rw2_enron_vkaminski.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0029
+[450/720] sonnet55/rw2_dam_ddm2st.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0567
+[451/720] sonnet55/rw2_dam_eqexret.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0259
+[452/720] sonnet55/rw2_dam_ddm2st.agent_xlsx.r1.json ok turns=2 cost=$0.0265
+[453/720] sonnet55/rw2_dam_ddm2st.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0284
+[454/720] sonnet55/rw2_dam_eqexret.agent_xlsx.r1.json ok turns=3 cost=$0.0634
+[455/720] sonnet55/rw2_dam_eqexret.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0960
+[456/720] haiku55/rw2_enron_vkaminski.agent_xlsx_viewer.r1.json ok turns=11 cost=$0.0192
+[457/720] sonnet55/rw2_dam_fcfe2st.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0588
+[458/720] sonnet55/rw2_dam_fcfe2st.agent_xlsx.r1.json ok turns=2 cost=$0.0303
+[459/720] sonnet55/rw2_dam_fcff2st.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0223
+[460/720] sonnet55/rw2_dam_fcfe2st.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0331
+[461/720] sonnet55/rw2_dam_fcffeva.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0296
+[462/720] sonnet55/rw2_dam_fcffeva.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0311
+[463/720] sonnet55/rw2_dam_fcff2st.agent_xlsx.r1.json ok turns=8 cost=$0.1571
+[464/720] sonnet55/rw2_dam_fcff2st.agent_xlsx_viewer.r1.json ok turns=7 cost=$0.1311
+[465/720] sonnet55/rw2_dam_fcffeva.agent_xlsx.r1.json ok turns=5 cost=$0.1015
+[466/720] sonnet55/rw2_dam_fcffgen.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0288
+[467/720] sonnet55/rw2_dam_fcffvsfcfe.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0264
+[468/720] sonnet55/rw2_dam_fcffgen.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0898
+[469/720] sonnet55/rw2_dam_fcffvsfcfe.agent_xlsx.r1.json ok turns=2 cost=$0.0258
+[470/720] sonnet55/rw2_dam_fcffvsfcfe.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0260
+[471/720] sonnet55/rw2_dam_growthbreakdown.agent_xlsx.r1.json ok turns=3 cost=$0.0390
+[472/720] sonnet55/rw2_dam_growthbreakdown.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0335
+[473/720] sonnet55/rw2_dam_higrowth.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0284
+[474/720] sonnet55/rw2_dam_growthbreakdown.agent_cellprose_lean.r1.json ok turns=14 cost=$0.1645
+[475/720] sonnet55/rw2_dam_higrowth.agent_xlsx.r1.json ok turns=7 cost=$0.2022
+[476/720] sonnet55/rw2_dam_macrodur.agent_cellprose_lean.r1.json ok turns=9 cost=$0.1164
+[477/720] sonnet55/rw2_dam_higrowth.agent_xlsx_viewer.r1.json ok turns=8 cost=$0.3025
+[478/720] sonnet55/rw2_dam_normearn.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0238
+[479/720] sonnet55/rw2_dam_macrodur.agent_xlsx.r1.json ok turns=7 cost=$0.1603
+[480/720] sonnet55/rw2_dam_macrodur.agent_xlsx_viewer.r1.json ok turns=8 cost=$0.2033
+[481/720] sonnet55/rw2_dam_fcffgen.agent_xlsx.r1.json ok turns=7 cost=$0.0773
+[482/720] sonnet55/rw2_dam_normearn.agent_xlsx.r1.json ok turns=4 cost=$0.0496
+[483/720] sonnet55/rw2_dam_r_dconv.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0179
+[484/720] sonnet55/rw2_dam_normearn.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0443
+[485/720] sonnet55/rw2_dam_returncalculator.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0228
+[486/720] sonnet55/rw2_dam_r_dconv.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0533
+[487/720] sonnet55/rw2_dam_r_dconv.agent_xlsx.r1.json ok turns=3 cost=$0.0363
+[488/720] sonnet55/rw2_dam_returncalculator.agent_xlsx.r1.json ok turns=3 cost=$0.0448
+[489/720] sonnet55/rw2_dam_reval.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0430
+[490/720] sonnet55/rw2_dam_risk.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0337
+[491/720] sonnet55/rw2_dam_returncalculator.agent_xlsx_viewer.r1.json ok turns=7 cost=$0.1191
+[492/720] sonnet55/rw2_dam_risk.agent_xlsx.r1.json ok turns=2 cost=$0.0397
+[493/720] sonnet55/rw2_dam_reval.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0905
+[494/720] sonnet55/rw2_dam_risk.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0806
+[495/720] sonnet55/rw2_dam_reval.agent_xlsx.r1.json ok turns=9 cost=$0.2334
+[496/720] sonnet55/rw2_enron_andy_zipper.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0242
+[497/720] sonnet55/rw2_enron_benjamin_rogers.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0240
+[498/720] sonnet55/rw2_enron_benjamin_rogers.agent_xlsx.r1.json ok turns=2 cost=$0.0199
+[499/720] sonnet55/rw2_enron_andy_zipper.agent_xlsx.r1.json ok turns=4 cost=$0.0353
+[500/720] sonnet55/rw2_enron_andy_zipper.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0339
+[501/720] sonnet55/rw2_enron_benjamin_rogers.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0639
+[502/720] sonnet55/rw2_enron_chris_germany.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0455
+[503/720] sonnet55/rw2_enron_chris_germany.agent_xlsx.r1.json ok turns=3 cost=$0.0339
+[504/720] sonnet55/rw2_enron_chris_germany.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0309
+[505/720] sonnet55/rw2_enron_daren_farmer.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0368
+[506/720] sonnet55/rw2_enron_james_steffes.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0209
+[507/720] sonnet55/rw2_enron_james_steffes.agent_xlsx.r1.json ok turns=2 cost=$0.0295
+[508/720] sonnet55/rw2_enron_daren_farmer.agent_xlsx.r1.json ok turns=3 cost=$0.0601
+[509/720] sonnet55/rw2_enron_daren_farmer.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0844
+[510/720] sonnet55/rw2_enron_jonathan_mckay.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0139
+[511/720] sonnet55/rw2_enron_james_steffes.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0282
+[512/720] sonnet55/rw2_enron_kevin_presto.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0125
+[513/720] sonnet55/rw2_enron_jonathan_mckay.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0248
+[514/720] sonnet55/rw2_enron_kevin_presto.agent_xlsx.r1.json ok turns=3 cost=$0.0714
+[515/720] sonnet55/rw2_enron_jonathan_mckay.agent_xlsx.r1.json ok turns=4 cost=$0.0335
+[516/720] sonnet55/rw2_enron_kevin_presto.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0691
+[517/720] sonnet55/rw2_enron_lisa_gang.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0276
+[518/720] sonnet55/rw2_enron_lynn_blair.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0367
+[519/720] sonnet55/rw2_enron_lisa_gang.agent_xlsx_viewer.r1.json ok turns=6 cost=$0.1871
+[520/720] sonnet55/rw2_enron_lisa_gang.agent_xlsx.r1.json ok turns=4 cost=$0.1510
+[521/720] sonnet55/rw2_enron_lynn_blair.agent_xlsx.r1.json ok turns=5 cost=$0.0531
+[522/720] sonnet55/rw2_enron_mary_hain.agent_xlsx.r1.json ok turns=3 cost=$0.0308
+[523/720] sonnet55/rw2_enron_mary_hain.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0339
+[524/720] sonnet55/rw2_enron_mary_hain.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0308
+[525/720] sonnet55/rw2_enron_lynn_blair.agent_xlsx_viewer.r1.json ok turns=8 cost=$0.0965
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[526/720] sonnet55/rw2_enron_phillip_allen.agent_cellprose_lean.r1.json ok turns=5 cost=$0.0978
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[527/720] sonnet55/rw2_enron_phillip_platter.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0253
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[528/720] sonnet55/rw2_enron_phillip_allen.agent_xlsx.r1.json ok turns=9 cost=$0.1610
+[529/720] sonnet55/rw2_enron_phillip_allen.agent_xlsx_viewer.r1.json ok turns=9 cost=$0.1763
+[530/720] sonnet55/rw2_enron_rick_buy.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0493
+[531/720] sonnet55/rw2_enron_phillip_platter.agent_xlsx.r1.json ok turns=6 cost=$0.0613
+[532/720] sonnet55/rw2_enron_rick_buy.agent_xlsx.r1.json ok turns=4 cost=$0.0477
+[533/720] sonnet55/rw2_enron_thomas_martin.agent_cellprose_lean.r1.json ok turns=5 cost=$0.0498
+[534/720] sonnet55/rw2_enron_rick_buy.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0653
+[535/720] sonnet55/rw2_enron_vkaminski.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0264
+[536/720] sonnet55/rw2_enron_phillip_platter.agent_xlsx_viewer.r1.json ok turns=9 cost=$0.0881
+[537/720] sonnet55/rw2_enron_thomas_martin.agent_xlsx_viewer.r1.json ok turns=8 cost=$0.0606
+[538/720] gpt6luna/rw2_dam_ddm2st.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0007
+[539/720] sonnet55/rw2_enron_vkaminski.agent_xlsx.r1.json ok turns=10 cost=$0.2465
+[540/720] gpt6luna/rw2_dam_ddm2st.agent_xlsx.r1.json ok turns=5 cost=$0.0030
+[541/720] sonnet55/rw2_enron_vkaminski.agent_xlsx_viewer.r1.json ok turns=12 cost=$0.4871
+[542/720] gpt6luna/rw2_dam_eqexret.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0007
+[543/720] gpt6luna/rw2_dam_ddm2st.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0021
+[544/720] gpt6luna/rw2_dam_eqexret.agent_xlsx.r1.json ok turns=5 cost=$0.0036
+[545/720] gpt6luna/rw2_dam_eqexret.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0028
+[546/720] gpt6luna/rw2_dam_fcfe2st.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0009
+[547/720] sonnet55/rw2_enron_thomas_martin.agent_xlsx.r1.json ok turns=9 cost=$0.0835
+[548/720] gpt6luna/rw2_dam_fcff2st.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0009
+[549/720] gpt6luna/rw2_dam_fcfe2st.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0026
+[550/720] gpt6luna/rw2_dam_fcff2st.agent_xlsx.r1.json ok turns=4 cost=$0.0032
+[551/720] gpt6luna/rw2_dam_fcff2st.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0021
+[552/720] gpt6luna/rw2_dam_fcffeva.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0011
+[553/720] gpt6luna/rw2_dam_fcffgen.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0011
+[554/720] gpt6luna/rw2_dam_fcfe2st.agent_xlsx.r1.json ok turns=6 cost=$0.0071
+[555/720] gpt6luna/rw2_dam_fcffeva.agent_xlsx_viewer.r1.json ok turns=6 cost=$0.0051
+[556/720] gpt6luna/rw2_dam_fcffeva.agent_xlsx.r1.json ok turns=5 cost=$0.0045
+[557/720] gpt6luna/rw2_dam_fcffvsfcfe.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0006
+[558/720] gpt6luna/rw2_dam_fcffgen.agent_xlsx.r1.json ok turns=5 cost=$0.0056
+[559/720] gpt6luna/rw2_dam_growthbreakdown.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0015
+[560/720] gpt6luna/rw2_dam_fcffgen.agent_xlsx_viewer.r1.json ok turns=8 cost=$0.0085
+[561/720] gpt6luna/rw2_dam_fcffvsfcfe.agent_xlsx.r1.json ok turns=5 cost=$0.0031
+[562/720] gpt6luna/rw2_dam_fcffvsfcfe.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0030
+[563/720] gpt6luna/rw2_dam_growthbreakdown.agent_xlsx.r1.json ok turns=5 cost=$0.0050
+[564/720] gpt6luna/rw2_dam_higrowth.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0018
+[565/720] gpt6luna/rw2_dam_growthbreakdown.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0040
+[566/720] gpt6luna/rw2_dam_macrodur.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0029
+[567/720] gpt6luna/rw2_dam_higrowth.agent_xlsx.r1.json ok turns=8 cost=$0.0165
+[568/720] gpt6luna/rw2_dam_macrodur.agent_xlsx.r1.json ok turns=5 cost=$0.0046
+[569/720] gpt6luna/rw2_dam_normearn.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0014
+[570/720] gpt6luna/rw2_dam_macrodur.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0062
+[571/720] gpt6luna/rw2_dam_normearn.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0022
+[572/720] gpt6luna/rw2_dam_r_dconv.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0007
+[573/720] gpt6luna/rw2_dam_normearn.agent_xlsx.r1.json ok turns=7 cost=$0.0079
+[574/720] gpt6luna/rw2_dam_r_dconv.agent_xlsx.r1.json ok turns=4 cost=$0.0016
+[575/720] gpt6luna/rw2_dam_higrowth.agent_xlsx_viewer.r1.json ok turns=7 cost=$0.0165
+[576/720] gpt6luna/rw2_dam_r_dconv.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0018
+[577/720] gpt6luna/rw2_dam_returncalculator.agent_cellprose_lean.r1.json ok turns=7 cost=$0.0020
+[578/720] gpt6luna/rw2_dam_returncalculator.agent_xlsx.r1.json ok turns=2 cost=$0.0017
+[579/720] gpt6luna/rw2_dam_reval.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0007
+[580/720] gpt6luna/rw2_dam_risk.agent_cellprose_lean.r1.json ok turns=5 cost=$0.0041
+[581/720] gpt6luna/rw2_dam_returncalculator.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0026
+[582/720] gpt6luna/rw2_dam_reval.agent_xlsx.r1.json ok turns=4 cost=$0.0033
+[583/720] gpt6luna/rw2_enron_andy_zipper.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0008
+[584/720] gpt6luna/rw2_enron_andy_zipper.agent_xlsx.r1.json ok turns=4 cost=$0.0008
+[585/720] gpt6luna/rw2_dam_reval.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0050
+[586/720] gpt6luna/rw2_dam_risk.agent_xlsx.r1.json ok turns=4 cost=$0.0034
+[587/720] gpt6luna/rw2_dam_risk.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0037
+[588/720] gpt6luna/rw2_enron_benjamin_rogers.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0007
+[589/720] gpt6luna/rw2_enron_benjamin_rogers.agent_xlsx.r1.json ok turns=3 cost=$0.0009
+[590/720] gpt6luna/rw2_enron_benjamin_rogers.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0009
+[591/720] gpt6luna/rw2_enron_chris_germany.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0016
+[592/720] gpt6luna/rw2_enron_andy_zipper.agent_xlsx_viewer.r1.json ok turns=6 cost=$0.0025
+[593/720] gpt6luna/rw2_enron_chris_germany.agent_xlsx.r1.json ok turns=3 cost=$0.0018
+[594/720] gpt6luna/rw2_enron_chris_germany.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0013
+[595/720] gpt6luna/rw2_enron_daren_farmer.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0013
+[596/720] gpt6luna/rw2_enron_james_steffes.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0007
+[597/720] gpt6luna/rw2_enron_daren_farmer.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0033
+[598/720] gpt6luna/rw2_enron_daren_farmer.agent_xlsx.r1.json ok turns=4 cost=$0.0037
+[599/720] gpt6luna/rw2_enron_james_steffes.agent_xlsx.r1.json ok turns=4 cost=$0.0020
+[600/720] gpt6luna/rw2_enron_jonathan_mckay.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0006
+[601/720] gpt6luna/rw2_enron_jonathan_mckay.agent_xlsx.r1.json ok turns=2 cost=$0.0005
+[602/720] gpt6luna/rw2_enron_kevin_presto.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0003
+[603/720] gpt6luna/rw2_enron_jonathan_mckay.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0009
+[604/720] gpt6luna/rw2_enron_james_steffes.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0029
+[605/720] gpt6luna/rw2_enron_lisa_gang.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0008
+[606/720] gpt6luna/rw2_enron_kevin_presto.agent_xlsx.r1.json ok turns=4 cost=$0.0021
+[607/720] gpt6luna/rw2_enron_kevin_presto.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0023
+[608/720] gpt6luna/rw2_enron_lisa_gang.agent_xlsx.r1.json ok turns=4 cost=$0.0067
+[609/720] gpt6luna/rw2_enron_lynn_blair.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0018
+[610/720] gpt6luna/rw2_enron_lisa_gang.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0083
+[611/720] gpt6luna/rw2_enron_mary_hain.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0007
+[612/720] gpt6luna/rw2_enron_mary_hain.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0013
+[613/720] gpt6luna/rw2_enron_mary_hain.agent_xlsx.r1.json ok turns=4 cost=$0.0021
+[614/720] gpt6luna/rw2_enron_lynn_blair.agent_xlsx.r1.json ok turns=7 cost=$0.0030
+[615/720] gpt6luna/rw2_enron_phillip_allen.agent_cellprose_lean.r1.json ok turns=6 cost=$0.0064
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[616/720] gpt6luna/rw2_enron_lynn_blair.agent_xlsx_viewer.r1.json ok turns=8 cost=$0.0079
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[617/720] gpt6luna/rw2_enron_phillip_allen.agent_xlsx.r1.json ok turns=6 cost=$0.0054
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[618/720] gpt6luna/rw2_enron_phillip_allen.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0133
+[619/720] gpt6luna/rw2_enron_phillip_platter.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0014
+[620/720] gpt6luna/rw2_enron_rick_buy.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0012
+[621/720] gpt6luna/rw2_enron_phillip_platter.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0013
+[622/720] gpt6luna/rw2_enron_phillip_platter.agent_xlsx.r1.json ok turns=7 cost=$0.0029
+[623/720] gpt6luna/rw2_enron_rick_buy.agent_xlsx.r1.json ok turns=5 cost=$0.0033
+[624/720] gpt6luna/rw2_enron_rick_buy.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0035
+[625/720] gpt6luna/rw2_enron_thomas_martin.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0006
+[626/720] gpt6luna/rw2_enron_vkaminski.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0011
+[627/720] gpt6luna/rw2_enron_thomas_martin.agent_xlsx.r1.json ok turns=4 cost=$0.0010
+[628/720] gpt6luna/rw2_enron_thomas_martin.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0021
+[629/720] gpt61sol/rw2_dam_ddm2st.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0097
+[630/720] gpt61sol/rw2_dam_ddm2st.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0166
+[631/720] gpt61sol/rw2_dam_ddm2st.agent_xlsx.r1.json ok turns=2 cost=$0.0169
+[632/720] gpt6luna/rw2_enron_vkaminski.agent_xlsx.r1.json ok turns=7 cost=$0.0047
+[633/720] gpt61sol/rw2_dam_eqexret.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0126
+[634/720] gpt61sol/rw2_dam_eqexret.agent_xlsx.r1.json ok turns=3 cost=$0.0424
+[635/720] gpt61sol/rw2_dam_eqexret.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0436
+[636/720] gpt61sol/rw2_dam_fcfe2st.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0193
+[637/720] gpt61sol/rw2_dam_fcfe2st.agent_xlsx.r1.json ok turns=3 cost=$0.0224
+[638/720] gpt61sol/rw2_dam_fcfe2st.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0165
+[639/720] gpt6luna/rw2_enron_vkaminski.agent_xlsx_viewer.r1.json ok turns=6 cost=$0.0148
+[640/720] gpt61sol/rw2_dam_fcff2st.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0133
+[641/720] gpt61sol/rw2_dam_fcff2st.agent_xlsx.r1.json ok turns=3 cost=$0.0228
+[642/720] gpt61sol/rw2_dam_fcff2st.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0316
+[643/720] gpt61sol/rw2_dam_fcffeva.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0204
+[644/720] gpt61sol/rw2_dam_fcffgen.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0118
+[645/720] gpt61sol/rw2_dam_fcffeva.agent_xlsx.r1.json ok turns=5 cost=$0.0732
+[646/720] gpt61sol/rw2_dam_fcffeva.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0586
+[647/720] gpt61sol/rw2_dam_fcffgen.agent_xlsx.r1.json ok turns=3 cost=$0.0390
+[648/720] gpt61sol/rw2_dam_fcffgen.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0329
+[649/720] gpt61sol/rw2_dam_fcffvsfcfe.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0110
+[650/720] gpt61sol/rw2_dam_fcffvsfcfe.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0210
+[651/720] gpt61sol/rw2_dam_fcffvsfcfe.agent_xlsx.r1.json ok turns=3 cost=$0.0232
+[652/720] gpt61sol/rw2_dam_growthbreakdown.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0118
+[653/720] gpt61sol/rw2_dam_higrowth.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0134
+[654/720] gpt61sol/rw2_dam_growthbreakdown.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0445
+[655/720] gpt61sol/rw2_dam_growthbreakdown.agent_xlsx.r1.json ok turns=4 cost=$0.0245
+[656/720] gpt61sol/rw2_dam_higrowth.agent_xlsx.r1.json ok turns=4 cost=$0.0563
+[657/720] gpt61sol/rw2_dam_macrodur.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0166
+[658/720] gpt61sol/rw2_dam_higrowth.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0990
+[659/720] gpt61sol/rw2_dam_macrodur.agent_xlsx.r1.json ok turns=4 cost=$0.0215
+[660/720] gpt61sol/rw2_dam_macrodur.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0485
+[661/720] gpt61sol/rw2_dam_normearn.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0104
+[662/720] gpt61sol/rw2_dam_normearn.agent_xlsx.r1.json ok turns=4 cost=$0.0439
+[663/720] gpt61sol/rw2_dam_normearn.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0296
+[664/720] gpt61sol/rw2_dam_r_dconv.agent_xlsx.r1.json ok turns=2 cost=$0.0153
+[665/720] gpt61sol/rw2_dam_r_dconv.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0087
+[666/720] gpt61sol/rw2_dam_r_dconv.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0153
+[667/720] gpt61sol/rw2_dam_returncalculator.agent_xlsx.r1.json ok turns=2 cost=$0.0169
+[668/720] gpt61sol/rw2_dam_returncalculator.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0170
+[669/720] gpt61sol/rw2_dam_returncalculator.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0102
+[670/720] gpt61sol/rw2_dam_reval.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0133
+[671/720] gpt61sol/rw2_dam_risk.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0084
+[672/720] gpt61sol/rw2_dam_reval.agent_xlsx.r1.json ok turns=3 cost=$0.0335
+[673/720] gpt61sol/rw2_dam_reval.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0517
+[674/720] gpt61sol/rw2_dam_risk.agent_xlsx.r1.json ok turns=2 cost=$0.0299
+[675/720] gpt61sol/rw2_enron_andy_zipper.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0124
+[676/720] gpt61sol/rw2_dam_risk.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.1127
+[677/720] gpt61sol/rw2_enron_andy_zipper.agent_xlsx.r1.json ok turns=3 cost=$0.0150
+[678/720] gpt61sol/rw2_enron_andy_zipper.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0151
+[679/720] gpt61sol/rw2_enron_benjamin_rogers.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0120
+[680/720] gpt61sol/rw2_enron_benjamin_rogers.agent_xlsx.r1.json ok turns=2 cost=$0.0229
+[681/720] gpt61sol/rw2_enron_benjamin_rogers.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0096
+[682/720] gpt61sol/rw2_enron_chris_germany.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0154
+[683/720] gpt61sol/rw2_enron_chris_germany.agent_xlsx.r1.json ok turns=3 cost=$0.0276
+[684/720] gpt61sol/rw2_enron_chris_germany.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0202
+[685/720] gpt61sol/rw2_enron_daren_farmer.agent_cellprose_lean.r1.json ok turns=4 cost=$0.0276
+[686/720] gpt61sol/rw2_enron_daren_farmer.agent_xlsx.r1.json ok turns=3 cost=$0.0487
+[687/720] gpt61sol/rw2_enron_james_steffes.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0129
+[688/720] gpt61sol/rw2_enron_daren_farmer.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0379
+[689/720] gpt61sol/rw2_enron_james_steffes.agent_xlsx.r1.json ok turns=2 cost=$0.0180
+[690/720] gpt61sol/rw2_enron_james_steffes.agent_xlsx_viewer.r1.json ok turns=2 cost=$0.0191
+[691/720] gpt61sol/rw2_enron_jonathan_mckay.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0105
+[692/720] gpt61sol/rw2_enron_jonathan_mckay.agent_xlsx.r1.json ok turns=3 cost=$0.0117
+[693/720] gpt61sol/rw2_enron_jonathan_mckay.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0129
+[694/720] gpt61sol/rw2_enron_kevin_presto.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0060
+[695/720] gpt61sol/rw2_enron_kevin_presto.agent_xlsx.r1.json ok turns=3 cost=$0.0263
+[696/720] gpt61sol/rw2_enron_kevin_presto.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0380
+[697/720] gpt61sol/rw2_enron_lisa_gang.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0212
+[698/720] gpt61sol/rw2_enron_lisa_gang.agent_xlsx.r1.json ok turns=3 cost=$0.0662
+[699/720] gpt61sol/rw2_enron_lisa_gang.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0660
+[700/720] gpt61sol/rw2_enron_mary_hain.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0079
+[701/720] gpt61sol/rw2_enron_lynn_blair.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0303
+[702/720] gpt61sol/rw2_enron_lynn_blair.agent_xlsx.r1.json ok turns=5 cost=$0.0740
+[703/720] gpt61sol/rw2_enron_mary_hain.agent_xlsx.r1.json ok turns=3 cost=$0.0267
+[704/720] gpt61sol/rw2_enron_mary_hain.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0269
+[705/720] gpt61sol/rw2_enron_lynn_blair.agent_xlsx_viewer.r1.json ok turns=6 cost=$0.0441
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[706/720] gpt61sol/rw2_enron_phillip_allen.agent_cellprose_lean.r1.json ok turns=3 cost=$0.0340
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[707/720] gpt61sol/rw2_enron_phillip_allen.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0356
+[708/720] gpt61sol/rw2_enron_phillip_allen.agent_xlsx.r1.json ok turns=5 cost=$0.0365
+/usr/local/lib/python3.13/site-packages/openpyxl/reader/drawings.py:67: UserWarning: wmf image format is not supported so the image is being dropped
+  warn(msg)
+[709/720] gpt61sol/rw2_enron_phillip_platter.agent_xlsx.r1.json ok turns=4 cost=$0.0176
+[710/720] gpt61sol/rw2_enron_phillip_platter.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0510
+[711/720] gpt61sol/rw2_enron_rick_buy.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0191
+[712/720] gpt61sol/rw2_enron_phillip_platter.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0143
+[713/720] gpt61sol/rw2_enron_thomas_martin.agent_xlsx.r1.json ok turns=2 cost=$0.0118
+[714/720] gpt61sol/rw2_enron_rick_buy.agent_xlsx.r1.json ok turns=4 cost=$0.0356
+[715/720] gpt61sol/rw2_enron_thomas_martin.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0106
+[716/720] gpt61sol/rw2_enron_rick_buy.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0361
+[717/720] gpt61sol/rw2_enron_thomas_martin.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0186
+[718/720] gpt61sol/rw2_enron_vkaminski.agent_cellprose_lean.r1.json ok turns=2 cost=$0.0097
+[719/720] gpt61sol/rw2_enron_vkaminski.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0611
+[720/720] gpt61sol/rw2_enron_vkaminski.agent_xlsx.r1.json ok turns=6 cost=$0.1212
+spend by vendor: anthropic $13.46, openai $5.84
+done, 0 failures recorded, 0 not recorded (runner errors)

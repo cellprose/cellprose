@@ -1,0 +1,99 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_reval",
+ "encoding": "agent_cellprose_v03",
+ "prompt_chars": 1465,
+ "prompt_sha256": "be2c46154fd661a24fd13aae123d12bdb892fca336fe29df4a7521f06f6a1d97",
+ "result": "{\"q1\":0.03,\"q2\":\"Inputs & Property valuation!H32\",\"q3\":[\"Inputs & Property valuation!D22\",\"Inputs & Property valuation!D29\"],\"q4\":[\"Inputs & Property valuation!C18\",\"Inputs & Property valuation!B21\"],\"q5\":[\"Inputs & Property valuation!E16:E22\",\"Inputs & Property valuation!E25:E29\",\"Inputs & Property valuation!E31\",\"Inputs & Property valuation!E33:E35\",\"Inputs & Property valuation!E37:E38\",\"Inputs & Property valuation!E40\",\"Inputs & Property valuation!B40\",\"Equity valuation!E4\",\"Equity valuation!E6:E12\",\"Equity valuation!B2\",\"Equity valuation!C19:G20\",\"Equity valuation!C22:G22\",\"Equity valuation!C24:G26\",\"Equity valuation!E28\",\"Equity valuation!C29:G29\",\"Equity valuation!G30\",\"Equity valuation!B31\",\"Equity valuation!C31:G31\"],\"q6\":[]}",
+ "usage": {
+  "input_tokens": 5424,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3464,
+  "output_tokens_details": {
+   "thinking_tokens": 3218
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 5424,
+   "outputTokens": 3464,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 3218
+  }
+ },
+ "cost": 0.0022744,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_34767af37944440bb6580729acda20cb",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 465,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 20,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_file"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 4959,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 3444,
+     "reasoning_tokens": 3218,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.002274
+  },
+  "finished_at": "2026-11-11T16:10:07+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 42.7
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_file",
+   "args": "{\"path\": \"book.sheet.md\"}",
+   "output_chars": 9469
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "model": "sonnet55",
+ "workbook": "05_multisheet_model",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2269,
+ "result": "Net income Y3 = Summary!D6 = 256721.\n\nY2 revenue for Product B = Revenue!C3 = 226600.\n\nTax in Y2 = Summary!C5.\n\nq4: EBIT Y1 = Summary!B4 = B2-B3, so it reads Summary!B2 and Summary!B3.\n\nq5: Variable costs Y2 = Costs!C2 = Revenue!C5*Inputs!$B$11, so it reads Revenue!C5 and Inputs!B11.\n\nq6: Fixed costs, Inputs!B10, feed Costs!B3:D3. Those change Costs!B4:D4. Then Summary!B3:D3, then EBIT Summary!B4:D4, tax Summary!B5:D5, net income Summary!B6:D6. Tax is MAX(0, EBIT*rate), and EBIT is positive, so tax changes too. The changed cells are Costs!B3:D3, Costs!B4:D4, Summary!B3:D3, Summary!B4:D4, Summary!B5:D5, Summary!B6:D6.\n\nq7: Volume B, Inputs!B6, is not used by any formula. Revenue!B3 uses Inputs!B3*Inputs!B5, which is Price B times Volume A, so Volume B does not affect anything. The answer is [].\n\n```json\n{\"q1\":256721,\"q2\":226600,\"q3\":\"Summary!C5\",\"q4\":[\"Summary!B2\",\"Summary!B3\"],\"q5\":[\"Revenue!C5\",\"Inputs!B11\"],\"q6\":[\"Costs!B3:D3\",\"Costs!B4:D4\",\"Summary!B3:D3\",\"Summary!B4:D4\",\"Summary!B5:D5\",\"Summary!B6:D6\"],\"q7\":[]}\n```",
+ "usage": {
+  "input_tokens": 1275,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 594,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 1275,
+   "outputTokens": 594,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.00849,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T102109Z-d2d3b9",
+  "started_at": "2026-10-09T10:21:09+00:00",
+  "git_sha": "c5cb767",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 3.8,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1275,
+   "output_tokens": 594,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:25:16+00:00"
+ }
+}

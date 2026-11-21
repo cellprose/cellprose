@@ -1,0 +1,59 @@
+{
+ "model": "haiku",
+ "workbook": "05_multisheet_model",
+ "encoding": "agent_xlsx",
+ "result": "```json\n{\n  \"q1\": 256721.048625,\n  \"q2\": 226600,\n  \"q3\": \"Summary!C5\",\n  \"q4\": [\"Summary!B2\", \"Summary!B3\"],\n  \"q5\": [\"Revenue!C5\", \"Inputs!B11\"],\n  \"q6\": [\"Costs!B3\", \"Costs!B4\", \"Costs!C3\", \"Costs!C4\", \"Costs!D3\", \"Costs!D4\", \"Summary!B3\", \"Summary!B4\", \"Summary!B5\", \"Summary!B6\", \"Summary!C3\", \"Summary!C4\", \"Summary!C5\", \"Summary!C6\", \"Summary!D3\", \"Summary!D4\", \"Summary!D5\", \"Summary!D6\"],\n  \"q7\": [\"Costs!B2\", \"Costs!B4\", \"Costs!C2\", \"Costs!C4\", \"Costs!D2\", \"Costs!D4\", \"Revenue!B3\", \"Revenue!B5\", \"Revenue!C3\", \"Revenue!C5\", \"Revenue!D3\", \"Revenue!D5\", \"Summary!B2\", \"Summary!B3\", \"Summary!B4\", \"Summary!B5\", \"Summary!B6\", \"Summary!C2\", \"Summary!C3\", \"Summary!C4\", \"Summary!C5\", \"Summary!C6\", \"Summary!D2\", \"Summary!D3\", \"Summary!D4\", \"Summary!D5\", \"Summary!D6\"]\n}\n```",
+ "usage": {
+  "input_tokens": 82,
+  "cache_creation_input_tokens": 22797,
+  "cache_read_input_tokens": 113920,
+  "output_tokens": 14167,
+  "output_tokens_details": {
+   "thinking_tokens": 5670
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 22797,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 8,
+    "output_tokens": 937,
+    "cache_read_input_tokens": 22017,
+    "cache_creation_input_tokens": 780,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 780
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1269,
+   "outputTokens": 14180,
+   "cacheReadInputTokens": 113920,
+   "cacheCreationInputTokens": 22797,
+   "webSearchRequests": 0,
+   "costUSD": 0.12915500000000002,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 5670,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.12915500000000002,
+ "num_turns": 10,
+ "subtype": "success"
+}

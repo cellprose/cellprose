@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "llama-index-readers-cellprose"
+version = "0.1.0"
+description = "LlamaIndex reader for Excel workbooks as Cellprose text (formulas, every sheet, cell addresses)"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = ["cellprose>=0.3", "llama-index-core>=0.12"]
+
+[project.urls]
+Homepage = "https://cellprose.com"
+Documentation = "https://cellprose.com/guide/"
+Repository = "https://github.com/Utkarsh-Gaikwad/cellprose"
+Issues = "https://github.com/Utkarsh-Gaikwad/cellprose/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/llama_index"]

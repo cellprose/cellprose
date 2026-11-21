@@ -1,0 +1,75 @@
+{
+ "tokenizer": "o200k_base",
+ "workbooks": {
+  "01_sales_log": {
+   "cellprose": 4894,
+   "csv": 4163,
+   "markdown": 4967
+  },
+  "02_employees": {
+   "cellprose": 3387,
+   "csv": 2896,
+   "markdown": 3333
+  },
+  "03_pnl_quarterly": {
+   "cellprose": 548,
+   "csv": 252,
+   "markdown": 376
+  },
+  "04_saas_model": {
+   "cellprose": 763,
+   "csv": 398,
+   "markdown": 563
+  },
+  "05_multisheet_model": {
+   "cellprose": 620,
+   "csv": 284,
+   "markdown": 399
+  },
+  "06_budget_vs_actual": {
+   "cellprose": 601,
+   "csv": 370,
+   "markdown": 517
+  },
+  "07_messy_report": {
+   "cellprose": 787,
+   "csv": 494,
+   "markdown": 933
+  },
+  "08_loan_schedule": {
+   "cellprose": 949,
+   "csv": 829,
+   "markdown": 1079
+  },
+  "09_orders_lookup": {
+   "cellprose": 3178,
+   "csv": 2506,
+   "markdown": 3099
+  },
+  "10_gradebook": {
+   "cellprose": 952,
+   "csv": 644,
+   "markdown": 915
+  },
+  "11_forecast_overrides": {
+   "cellprose": 458,
+   "csv": 247,
+   "markdown": 452
+  },
+  "12_lookalike_drivers": {
+   "cellprose": 467,
+   "csv": 220,
+   "markdown": 298
+  },
+  "13_scenario_switch": {
+   "cellprose": 430,
+   "csv": 207,
+   "markdown": 292
+  },
+  "14_cost_allocation": {
+   "cellprose": 511,
+   "csv": 226,
+   "markdown": 316
+  }
+ }
+}

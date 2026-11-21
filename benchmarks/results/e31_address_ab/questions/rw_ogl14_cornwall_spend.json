@@ -1,0 +1,59 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Expense type' for the row where 'Transaction number' is '0015193437'? Give its cell address.",
+  "cell": "January 26 for Publication!D43",
+  "key": {
+   "G": "0015193437"
+  },
+  "labels": [
+   "G43",
+   "D43",
+   "D1"
+  ],
+  "id": "q1",
+  "truth": "January 26 for Publication!D43"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "January 26 for Publication!C7",
+  "truth": "January 26 for Publication!C7",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Date' for the row where 'Transaction number' is '0010297349'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "January 26 for Publication!F17",
+  "truth": "January 26 for Publication!F17",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Supplier' for the row where 'Transaction number' is '0010298869'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "January 26 for Publication!A22",
+  "truth": "January 26 for Publication!A22",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Department family' for the row where 'Transaction number' is '0010298127'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "January 26 for Publication!D33",
+  "truth": "January 26 for Publication!D33",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Expense type' for the row where 'Transaction number' is '0015194548'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q6",
+  "cell": "January 26 for Publication!G38",
+  "truth": "January 26 for Publication!G38",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Transaction number' for the row where 'Transaction number' is '0015196464'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q7",
+  "cell": "January 26 for Publication!B48",
+  "truth": "January 26 for Publication!B48",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Entity' for the row where 'Transaction number' is '0010298587'? Give its cell address."
+ }
+]

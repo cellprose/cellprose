@@ -1,0 +1,1 @@
+{"text": "{\"q1\": \"Sheet!H29\", \"q2\": \"Sheet!F13\", \"q3\": \"Sheet!A14\", \"q4\": \"Sheet!D23\", \"q5\": \"Sheet!G23\", \"q6\": \"Sheet!B29\"}\n\nSheet name is \"For upload\", so the addresses should read 'For upload'!H29, etc. The JSON above uses a placeholder sheet name, so use the full name with each address.", "input": 2911, "output": 363, "cost": 0.0004726}

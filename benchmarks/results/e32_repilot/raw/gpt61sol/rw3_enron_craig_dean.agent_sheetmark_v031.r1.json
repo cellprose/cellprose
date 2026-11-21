@@ -1,0 +1,242 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw3_enron_craig_dean",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1301,
+ "prompt_sha256": "40fed61067b45b49286730e60c08f763b7be25fa69a9d4ed9b270ee808e1315b",
+ "result": "{\n  \"q1\": 22122.4,\n  \"q2\": \"Preschedule!Z44\",\n  \"q3\": [\"Economics!H32\", \"Economics!I32\"],\n  \"q4\": [\"Balancing!F26\", \"Balancing!G26\"],\n  \"q5\": [\n    \"Deals!AD73\",\n    \"Deals!AE73\",\n    \"Deals!AD107\",\n    \"Deals!AE107\",\n    \"Economics!B17\",\n    \"Economics!D17\",\n    \"Economics!E17\",\n    \"Economics!F17\",\n    \"Economics!G17\",\n    \"Preschedule!H25\",\n    \"Preschedule!H38\",\n    \"Preschedule!H58\",\n    \"Preschedule!H63\",\n    \"Preschedule!H64\",\n    \"Preschedule!H65\",\n    \"Preschedule!H78\",\n    \"Preschedule!B83\",\n    \"Preschedule!H167\",\n    \"Preschedule!H168\",\n    \"Preschedule!Z167\"\n  ],\n  \"q6\": [\n    \"Preschedule!Q96\",\n    \"Preschedule!Q99\",\n    \"Preschedule!Q102\",\n    \"Preschedule!Q106\",\n    \"Preschedule!Q111\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 27503,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 103065,
+  "output_tokens": 1619,
+  "output_tokens_details": {
+   "thinking_tokens": 223
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 27503,
+   "outputTokens": 1619,
+   "cacheReadInputTokens": 103065,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 223
+  }
+ },
+ "cost": 0.277326,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_4ad37fa87c4d4d4b8da368da620ee578",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 453,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 20,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 558,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 23,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1721,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 58,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 1915,
+     "cache_read_tokens": 1718,
+     "cache_write_tokens": 0,
+     "output_tokens": 73,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 10227,
+     "cache_read_tokens": 3630,
+     "cache_write_tokens": 0,
+     "output_tokens": 103,
+     "reasoning_tokens": 21,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 4373,
+     "cache_read_tokens": 13854,
+     "cache_write_tokens": 0,
+     "output_tokens": 90,
+     "reasoning_tokens": 17,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 1133,
+     "cache_read_tokens": 18224,
+     "cache_write_tokens": 0,
+     "output_tokens": 670,
+     "reasoning_tokens": 75,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 1439,
+     "cache_read_tokens": 19354,
+     "cache_write_tokens": 0,
+     "output_tokens": 169,
+     "reasoning_tokens": 62,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 4708,
+     "cache_read_tokens": 20790,
+     "cache_write_tokens": 0,
+     "output_tokens": 134,
+     "reasoning_tokens": 48,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 10,
+     "input_tokens": 976,
+     "cache_read_tokens": 25495,
+     "cache_write_tokens": 0,
+     "output_tokens": 279,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T12:07:08+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 31.4
+ },
+ "num_turns": 10,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la\"}",
+   "output_chars": 161
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"head -60 book.sheet.md\"}",
+   "output_chars": 2065
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -nE '^# Sheet|^F32|^H26|L73|^## .*94|PV Unit 1|GT 1|Difference:|Capacity' book.sheet.md\"}",
+   "output_chars": 3955
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '2088,2275p' book.sheet.md; sed -n '2346,2506p' book.sheet.md; sed -n '850,1020p' book.sheet.md; sed -n '210,270p' book.sheet.md\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '280,380p' book.sheet.md; sed -n '700,727p' book.sheet.md; grep -nE 'Z95|Z9[368]|names|DelPoint|L73|73 =' book.sheet.md | head -35; tail -60 book.sheet.md\"}",
+   "output_chars": 8034
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '175,211p' book.sheet.md; sed -n '250,280p' book.sheet.md; grep -n '^Z89\\\\|^Z95\\\\|^Z9[02368]\\\\|^Z101' book.sheet.md\"}",
+   "output_chars": 2072
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"cat > /tmp/p.py <<'PY'\\nimport re\\nfrom openpyxl.utils.cell import range_boundaries,get_column_letter\\nfrom openpyxl.formula.translate import Translator\\nfrom openpyxl.formula.tokenizer import Tokenizer\\ntext=open('book.sheet.md').read(); vals={}; forms={}; sh=''; mode=''; cols=[]\\ndef expand(r):\\n a,b,c,d=range_boundaries(r.replace('$',''));return [f'{get_column_letter(x)}{y}' for y in range(b,d+1) for x in range(a,c+1)]\\nfor l in text.splitlines():\\n if l.startswith('# Sheet: '):s",
+   "output_chars": 1725
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '2300,2346p' book.sheet.md; sed -n '1735,1797p' book.sheet.md; grep -nE '^H25|^H[0-9]+ =|^AD107|^AE107|^B17|^B5|^B20|^B22|^H6[0-9]|^Z16[789]' book.sheet.md\"}",
+   "output_chars": 9780
+  },
+  {
+   "turn": 9,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -i \\\"s/mode=='formulas'/mode in ('formulas','arrays')/\\\" /tmp/p.py; sed -i \\\"s/'Preschedule!H25'/'Preschedule!H25','Economics!B17'/\\\" /tmp/p.py; python3 /tmp/p.py | tail -40\"}",
+   "output_chars": 1886
+  }
+ ]
+}

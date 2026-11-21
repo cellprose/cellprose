@@ -1,0 +1,12 @@
+{
+ "title": "Formula results: 6-significant-figure rounding, `?` for no cached value, errors, booleans; typed values stay exact",
+ "spec": "§5.3",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

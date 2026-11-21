@@ -1,0 +1,117 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_ddm2st",
+ "encoding": "agent_cellprose_v03",
+ "prompt_chars": 1275,
+ "prompt_sha256": "bf8f7aea9ac8aec4120ca2d57b3c3e6ea0b783676c7c9809a1979895a89e243b",
+ "result": "{\"q1\":\"ddm2st.xls!D43\",\"q2\":[\"ddm2st.xls!E24\",\"ddm2st.xls!D94\",\"ddm2st.xls!C95\",\"ddm2st.xls!D89\"],\"q3\":[\"ddm2st.xls!E64\",\"ddm2st.xls!E63\",\"ddm2st.xls!E65\"],\"q4\":[\"ddm2st.xls!E63\",\"ddm2st.xls!E97\",\"ddm2st.xls!E98\",\"ddm2st.xls!E100\",\"ddm2st.xls!F103\",\"ddm2st.xls!F104\",\"ddm2st.xls!E109\",\"ddm2st.xls!E110\",\"ddm2st.xls!E111\",\"ddm2st.xls!D116:D132\",\"ddm2st.xls!G115:G125\"],\"q5\":[]}",
+ "usage": {
+  "input_tokens": 5275,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 901,
+  "output_tokens_details": {
+   "thinking_tokens": 630
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 5275,
+   "outputTokens": 901,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 630
+  }
+ },
+ "cost": 0.000978,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_626d4ff66346459f9a7ee8c7b7105da7",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 451,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 48,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 586,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 31,
+     "reasoning_tokens": 9,
+     "tool_calls": [
+      "read_file"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 4238,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 822,
+     "reasoning_tokens": 621,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.000978
+  },
+  "finished_at": "2026-11-11T17:01:11+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 2,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 14.9
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la && python3 - <<'PY'\\nimport os\\nfor f in os.listdir('.'):\\n print(repr(f))\\nPY\"}",
+   "output_chars": 176
+  },
+  {
+   "turn": 2,
+   "tool": "read_file",
+   "args": "{\"path\": \"book.sheet.md\"}",
+   "output_chars": 8915
+  }
+ ]
+}

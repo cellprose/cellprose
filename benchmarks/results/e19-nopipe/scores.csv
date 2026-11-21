@@ -1,0 +1,1675 @@
+rep,set,model,workbook,encoding,qid,task,score,exact,failed,answer
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,741
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,59
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,159288
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Sales!H78"""
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Sales!F153"""
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,741
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,59
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,159288
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Sales!H78"""
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Sales!F153"""
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,741
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,59
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,159288
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Sales!H78"""
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Sales!F153"""
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,741
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,59
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,159288
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Sales!H78"""
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Sales!F153"""
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,741
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,59
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,159288
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Sales!H78"""
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Sales!F153"""
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r1,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,741
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,59
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,159288
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Sales!H78"""
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Sales!F153"""
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r2,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,160500
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,45
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Sales"""
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,"""London"""
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Employees!F65"""
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q6,address,1.0,1.0,0,"""Employees!G21"""
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,160500
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,45
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Sales"""
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,"""London"""
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Employees!F65"""
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q6,address,1.0,1.0,0,"""Employees!G21"""
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,160500
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,45
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Sales"""
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,"""London"""
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Employees!F65"""
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm,q6,address,1.0,1.0,0,"""Employees!G21"""
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,160500
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,45
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Sales"""
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q4,lookup,1.0,1.0,0,"""London"""
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Employees!F65"""
+r0,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q6,address,1.0,1.0,0,"""Employees!G21"""
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,160500
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,45
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Sales"""
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q4,lookup,1.0,1.0,0,"""London"""
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Employees!F65"""
+r1,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q6,address,1.0,1.0,0,"""Employees!G21"""
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,160500
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,45
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Sales"""
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q4,lookup,1.0,1.0,0,"""London"""
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Employees!F65"""
+r2,standard,gpt6luna,02_employees,sheetmark_lean_gfm_nopipe,q6,address,1.0,1.0,0,"""Employees!G21"""
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,18531.6
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,243330
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""P&L!C6"""
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""P&L!B12"""
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""P&L!C2"", ""P&L!D2"", ""P&L!E2"", ""P&L!F2"", ""P&L!C4"", ""P&L!D4"", ""P&L!E4"", ""P&L!F4"", ""P&L!C5"", ""P&L!D5"", ""P&L!E5"", ""P&L!F5"", ""P&L!C6"", ""P&L!D6"", ""P&L!E6"", ""P&L!F6"", ""P&L!C8"", ""P&L!D8"", ""P&L!E8"", ""P&L!F8"", ""P&L!C9"", ""P&L!D9"", ""P&L!E9"", ""P&L!F9""]"
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q8,impact,1.0,1.0,0,"[""P&L!B7"", ""P&L!C7"", ""P&L!D7"", ""P&L!E7"", ""P&L!F7"", ""P&L!B8"", ""P&L!C8"", ""P&L!D8"", ""P&L!E8"", ""P&L!F8"", ""P&L!B9"", ""P&L!C9"", ""P&L!D9"", ""P&L!E9"", ""P&L!F9""]"
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,18531.6
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,243330
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""P&L!C6"""
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""P&L!B12"""
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""P&L!C2:F2"", ""P&L!C4:F6"", ""P&L!C8:F9""]"
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q8,impact,1.0,1.0,0,"[""P&L!B7:F9""]"
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,18531.6
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,243330
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""P&L!C6"""
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""P&L!B12"""
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""P&L!C2:F2"", ""P&L!C4:F6"", ""P&L!C8:F9""]"
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm,q8,impact,1.0,1.0,0,"[""P&L!B7:F9""]"
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,18531.6
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,243330
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""P&L!C6"""
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""P&L!B12"""
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""P&L!C2:F2"", ""P&L!C4:F6"", ""P&L!C8:F9""]"
+r0,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q8,impact,1.0,1.0,0,"[""P&L!B7:F9""]"
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,18531.6
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,243330
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""P&L!C6"""
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""P&L!B12"""
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""P&L!C2:E2"", ""P&L!F2"", ""P&L!C4:F4"", ""P&L!C5:F6"", ""P&L!C8:F9""]"
+r1,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q8,impact,1.0,1.0,0,"[""P&L!B7:F7"", ""P&L!B8:F9""]"
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,18531.6
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,243330
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""P&L!C6"""
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""P&L!B12"""
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""P&L!C2:F2"", ""P&L!C4:F4"", ""P&L!C5:F5"", ""P&L!C6:F6"", ""P&L!C8:F8"", ""P&L!C9:F9""]"
+r2,standard,gpt6luna,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q8,impact,1.0,1.0,0,"[""P&L!B7:F7"", ""P&L!B8:F8"", ""P&L!B9:F9""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,361
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,393647
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q6,impact,0.9861,0.0,0,"[""Monthly!B4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M7"", ""Monthly!B9:M9"", ""Monthly!N6"", ""Monthly!N9""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Monthly!B8:M9"", ""Monthly!N9""]"
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,361
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,393647
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Monthly!B4:C4"", ""Monthly!F4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M5"", ""Monthly!B6:M6"", ""Monthly!N6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q7,impact,0.9796,0.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9""]"
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,361
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,393647
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q6,impact,0.9861,0.0,0,"[""Monthly!B4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M5"", ""Monthly!B6:M6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N6"", ""Monthly!N9""]"
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,361
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,393647
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q6,impact,0.9861,0.0,0,"[""Monthly!B4:M4"", ""Monthly!B5:M5"", ""Monthly!C2:M2"", ""Monthly!B6:M6"", ""Monthly!N6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,361
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,393647
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Monthly!C2:M2"", ""Monthly!B4:C4"", ""Monthly!F4:M4"", ""Monthly!B5:M5"", ""Monthly!B6:M6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N6"", ""Monthly!N9""]"
+r1,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,361
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,393647
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Monthly!C2:M2"", ""Monthly!B4:C4"", ""Monthly!F4:M4"", ""Monthly!B5:M5"", ""Monthly!B6:M6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N6"", ""Monthly!N9""]"
+r2,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm_nopipe,q7,impact,0.9796,0.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9""]"
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,256721
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,226600
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Summary!C5"""
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D6""]"
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,256721
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,226600
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Summary!C5"""
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Costs!B3:D4"", ""Summary!B3:D6""]"
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,256721
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,226600
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Summary!C5"""
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Costs!B3:D4"", ""Summary!B3:D6""]"
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,256721
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,226600
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Summary!C5"""
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D6""]"
+r0,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,256721
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,226600
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Summary!C5"""
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Costs!B3:D4"", ""Summary!B3:D6""]"
+r1,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,256721
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,226600
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Summary!C5"""
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D6""]"
+r2,standard,gpt6luna,05_multisheet_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5029
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3304937
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,39947
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""BvA!F8"""
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!C11"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5029
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3304937
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,39947
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""BvA!F8"""
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""BvA!H4"", ""BvA!I4""]"
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q6,trace,0.0,0.0,0,"[""BvA!B2:B9""]"
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""BvA!C11"", ""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5029
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3304937
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,39947
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""BvA!F8"""
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!C11"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,5029
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3304937
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,39947
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""BvA!F8"""
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""BvA!H4"", ""BvA!I4""]"
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r0,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""BvA!C11"", ""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,5029
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3304937
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,39947
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""BvA!F8"""
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""BvA!H4"", ""BvA!I4""]"
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r1,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""BvA!C11"", ""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,5029
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3304937
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,39947
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""BvA!F8"""
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r2,standard,gpt6luna,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q7,impact,0.0,0.0,0,[]
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,519
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3676.5
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8017
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Report!D15"""
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,519
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3676.5
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8017
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Report!D15"""
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,519
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3676.5
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8017
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Report!D15"""
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,519
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3676.5
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,8017
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Report!D15"""
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r0,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,519
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3676.5
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,8017
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Report!D15"""
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r1,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,519
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3676.5
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,8017
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Report!D15"""
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r2,standard,gpt6luna,07_messy_report,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,129050
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,17277.5
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,11136.6
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Loan!D12"""
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,129050
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,17277.5
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,11136.6
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Loan!D12"""
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,129050
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,17277.5
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,11136.6
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Loan!D12"""
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,129050
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,17277.5
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,11136.6
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Loan!D12"""
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r0,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,129050
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,17277.5
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,11136.6
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Loan!D12"""
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r1,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,129050
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,17277.5
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,11136.6
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Loan!D12"""
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r2,standard,gpt6luna,08_loan_schedule,sheetmark_lean_gfm_nopipe,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,3015.04
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,125859
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Hardware"""
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Orders!G45"""
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,3015.04
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,125859
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Hardware"""
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Orders!G45"""
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,3015.04
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,125859
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Hardware"""
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Orders!G45"""
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,3015.04
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,125859
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Hardware"""
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Orders!G45"""
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r0,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q6,impact,0.8333,0.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3""]"
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,3015.04
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,125859
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Hardware"""
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Orders!G45"""
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r1,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!B6"", ""Summary!C3"", ""Summary!C6""]"
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,3015.04
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,125859
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Hardware"""
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Orders!G45"""
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q5,trace,0.0,0.0,0,"[""Orders!C16"", ""Orders!D16""]"
+r2,standard,gpt6luna,09_orders_lookup,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,68.3
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,69.0667
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""C"""
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Grades!E20"""
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Grades!G3:G32"", ""Grades!G34"", ""Grades!H3"", ""Grades!H9:H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H31:H32""]"
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,68.3
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,69.0667
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""C"""
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Grades!E20"""
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Grades!G3:G32"", ""Grades!H3"", ""Grades!H9:H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H31:H32"", ""Grades!G34""]"
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,68.3
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,69.0667
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""C"""
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Grades!E20"""
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm,q6,impact,0.9873,0.0,0,"[""Grades!G3:G32"", ""Grades!H3"", ""Grades!H9"", ""Grades!H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H32"", ""Grades!G34""]"
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,68.3
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,69.0667
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""C"""
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Grades!E20"""
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r0,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Grades!G3:G32"", ""Grades!H3"", ""Grades!H9:H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H31:H32"", ""Grades!G34""]"
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,68.3
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,69.0667
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""C"""
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Grades!E20"""
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r1,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Grades!G3:G32"", ""Grades!G34"", ""Grades!H3"", ""Grades!H9"", ""Grades!H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H31"", ""Grades!H32""]"
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,68.3
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,69.0667
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""C"""
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Grades!E20"""
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r2,standard,gpt6luna,10_gradebook,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Grades!G3:G32"", ""Grades!H3"", ""Grades!H9"", ""Grades!H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H31"", ""Grades!H32"", ""Grades!G34""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1515987
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,0.0,0.0,0,[]
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1515987.648
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,0.0,0.0,0,[]
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1515987
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,0.0,0.0,0,[]
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,1515987
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,1515987
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q4,trace,0.0,0.0,0,[]
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r1,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,1515990
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q4,trace,0.0,0.0,0,[]
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r2,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,559782
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,559782
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,559782
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,559782
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r0,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,559782
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r1,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,559782
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r2,hard,gpt6luna,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,353494
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,[]
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,[]
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,353494
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,[]
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,[]
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,353494
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,[]
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,[]
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,353494
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,[]
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r0,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,[]
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,353494
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,[]
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r1,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,[]
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,353494
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,[]
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r2,hard,gpt6luna,13_scenario_switch,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,[]
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,428571
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4:D7"", ""Allocation!E2"", ""Allocation!E4:E7""]"
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,428571
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4:D7"", ""Allocation!E2"", ""Allocation!E4:E7""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,428571
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4:D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4:E6"", ""Allocation!E7""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,428571
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4:D6"", ""Allocation!E2"", ""Allocation!E4:E6"", ""Allocation!D7"", ""Allocation!E7""]"
+r0,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,428571
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4:D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4:E6"", ""Allocation!E7""]"
+r1,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,428571
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q4,impact,0.9,0.0,0,"[""Drivers!C7"", ""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!E2:E4"", ""Allocation!E6""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4:D6"", ""Allocation!E2"", ""Allocation!E4:E6"", ""Allocation!D7"", ""Allocation!E7""]"
+r2,hard,gpt6luna,14_cost_allocation,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Allocation!C2:C4"", ""Allocation!C6"", ""Allocation!E2:E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,741
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,59
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,159288
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Sales!H78"""
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Sales!F153"""
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,741
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,59
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,159288
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Sales!H78"""
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Sales!F153"""
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,741
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,59
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,159288
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Sales!H78"""
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Sales!F153"""
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,741
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,59
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,159288
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Sales!H78"""
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Sales!F153"""
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,741
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,59
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,159288
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Sales!H78"""
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Sales!F153"""
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r1,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!H153"", ""Sales!F153""]"
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,741
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,59
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,159288
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Sales!H78"""
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Sales!F153"""
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r2,standard,haiku55,01_sales_log,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,160500
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,45
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Sales"""
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,"""London"""
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Employees!F65"""
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm,q6,address,1.0,1.0,0,"""Employees!G21"""
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,160500
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,45
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Sales"""
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,"""London"""
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Employees!F65"""
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm,q6,address,1.0,1.0,0,"""Employees!G21"""
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,160500
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,45
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Sales"""
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,"""London"""
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Employees!F65"""
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm,q6,address,1.0,1.0,0,"""Employees!G21"""
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,160500
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,45
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Sales"""
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q4,lookup,1.0,1.0,0,"""London"""
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Employees!F65"""
+r0,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q6,address,1.0,1.0,0,"""Employees!G21"""
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,160500
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,45
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Sales"""
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q4,lookup,1.0,1.0,0,"""London"""
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Employees!F65"""
+r1,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q6,address,1.0,1.0,0,"""Employees!G21"""
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,160500
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,45
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Sales"""
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q4,lookup,1.0,1.0,0,"""London"""
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Employees!F65"""
+r2,standard,haiku55,02_employees,sheetmark_lean_gfm_nopipe,q6,address,1.0,1.0,0,"""Employees!G21"""
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,18531.6
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,243330
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""P&L!C6"""
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""P&L!B12"""
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""P&L!C2"", ""P&L!D2"", ""P&L!E2"", ""P&L!F2"", ""P&L!C4"", ""P&L!D4"", ""P&L!E4"", ""P&L!F4"", ""P&L!C5"", ""P&L!D5"", ""P&L!E5"", ""P&L!F5"", ""P&L!C6"", ""P&L!D6"", ""P&L!E6"", ""P&L!F6"", ""P&L!C8"", ""P&L!D8"", ""P&L!E8"", ""P&L!F8"", ""P&L!C9"", ""P&L!D9"", ""P&L!E9"", ""P&L!F9""]"
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q8,impact,1.0,1.0,0,"[""P&L!B7"", ""P&L!C7"", ""P&L!D7"", ""P&L!E7"", ""P&L!F7"", ""P&L!B8"", ""P&L!C8"", ""P&L!D8"", ""P&L!E8"", ""P&L!F8"", ""P&L!B9"", ""P&L!C9"", ""P&L!D9"", ""P&L!E9"", ""P&L!F9""]"
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,18531.6
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,243330
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""P&L!C6"""
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""P&L!B12"""
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""P&L!C2"", ""P&L!D2"", ""P&L!E2"", ""P&L!F2"", ""P&L!C4"", ""P&L!D4"", ""P&L!E4"", ""P&L!F4"", ""P&L!C5"", ""P&L!D5"", ""P&L!E5"", ""P&L!F5"", ""P&L!C6"", ""P&L!D6"", ""P&L!E6"", ""P&L!F6"", ""P&L!C8"", ""P&L!D8"", ""P&L!E8"", ""P&L!F8"", ""P&L!C9"", ""P&L!D9"", ""P&L!E9"", ""P&L!F9""]"
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q8,impact,1.0,1.0,0,"[""P&L!B7:F7"", ""P&L!B8:F8"", ""P&L!B9:F9""]"
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,18531.6
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,243330
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'P&L'!C6"""
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""'P&L'!B12"""
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""'P&L'!D6"", ""'P&L'!D7""]"
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""'P&L'!B2"", ""'P&L'!B12""]"
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""'P&L'!C2"", ""'P&L'!D2"", ""'P&L'!E2"", ""'P&L'!F2"", ""'P&L'!C4"", ""'P&L'!D4"", ""'P&L'!E4"", ""'P&L'!F4"", ""'P&L'!C5"", ""'P&L'!D5"", ""'P&L'!E5"", ""'P&L'!F5"", ""'P&L'!C6"", ""'P&L'!D6"", ""'P&L'!E6"", ""'P&L'!F6"", ""'P&L'!C8"", ""'P&L'!D8"", ""'P&L'!E8"", ""'P&L'!F8"", ""'P&L'!C9"", ""'P&L'!D9"", ""'P&L'!E9"", ""'P&L'!F9""]"
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm,q8,impact,1.0,1.0,0,"[""'P&L'!B7"", ""'P&L'!C7"", ""'P&L'!D7"", ""'P&L'!E7"", ""'P&L'!F7"", ""'P&L'!B8"", ""'P&L'!C8"", ""'P&L'!D8"", ""'P&L'!E8"", ""'P&L'!F8"", ""'P&L'!B9"", ""'P&L'!C9"", ""'P&L'!D9"", ""'P&L'!E9"", ""'P&L'!F9""]"
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,18531.6
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,243330
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""P&L!C6"""
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""P&L!B12"""
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""P&L!C2"", ""P&L!D2"", ""P&L!E2"", ""P&L!F2"", ""P&L!C4"", ""P&L!D4"", ""P&L!E4"", ""P&L!F4"", ""P&L!C5"", ""P&L!D5"", ""P&L!E5"", ""P&L!F5"", ""P&L!C6"", ""P&L!D6"", ""P&L!E6"", ""P&L!F6"", ""P&L!C8"", ""P&L!D8"", ""P&L!E8"", ""P&L!F8"", ""P&L!C9"", ""P&L!D9"", ""P&L!E9"", ""P&L!F9""]"
+r0,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q8,impact,1.0,1.0,0,"[""P&L!B7"", ""P&L!C7"", ""P&L!D7"", ""P&L!E7"", ""P&L!F7"", ""P&L!B8"", ""P&L!C8"", ""P&L!D8"", ""P&L!E8"", ""P&L!F8"", ""P&L!B9"", ""P&L!C9"", ""P&L!D9"", ""P&L!E9"", ""P&L!F9""]"
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,18531.6
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,243330
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""'P&L'!C6"""
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""'P&L'!B12"""
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""'P&L'!D6"", ""'P&L'!D7""]"
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""'P&L'!B2"", ""'P&L'!B12""]"
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""'P&L'!C2"", ""'P&L'!D2"", ""'P&L'!E2"", ""'P&L'!F2"", ""'P&L'!C4"", ""'P&L'!D4"", ""'P&L'!E4"", ""'P&L'!F4"", ""'P&L'!C5"", ""'P&L'!D5"", ""'P&L'!E5"", ""'P&L'!F5"", ""'P&L'!C6"", ""'P&L'!D6"", ""'P&L'!E6"", ""'P&L'!F6"", ""'P&L'!C8"", ""'P&L'!D8"", ""'P&L'!E8"", ""'P&L'!F8"", ""'P&L'!C9"", ""'P&L'!D9"", ""'P&L'!E9"", ""'P&L'!F9""]"
+r1,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q8,impact,1.0,1.0,0,"[""'P&L'!B7"", ""'P&L'!C7"", ""'P&L'!D7"", ""'P&L'!E7"", ""'P&L'!F7"", ""'P&L'!B8"", ""'P&L'!C8"", ""'P&L'!D8"", ""'P&L'!E8"", ""'P&L'!F8"", ""'P&L'!B9"", ""'P&L'!C9"", ""'P&L'!D9"", ""'P&L'!E9"", ""'P&L'!F9""]"
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,18531.6
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,243330
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""'P&L'!C6"""
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""'P&L'!B12"""
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""'P&L'!D6"", ""'P&L'!D7""]"
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""'P&L'!B2"", ""'P&L'!B12""]"
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""'P&L'!C2"", ""'P&L'!D2"", ""'P&L'!E2"", ""'P&L'!F2"", ""'P&L'!C4"", ""'P&L'!D4"", ""'P&L'!E4"", ""'P&L'!F4"", ""'P&L'!C5"", ""'P&L'!D5"", ""'P&L'!E5"", ""'P&L'!F5"", ""'P&L'!C6"", ""'P&L'!D6"", ""'P&L'!E6"", ""'P&L'!F6"", ""'P&L'!C8"", ""'P&L'!D8"", ""'P&L'!E8"", ""'P&L'!F8"", ""'P&L'!C9"", ""'P&L'!D9"", ""'P&L'!E9"", ""'P&L'!F9""]"
+r2,standard,haiku55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q8,impact,1.0,1.0,0,"[""'P&L'!B7"", ""'P&L'!C7"", ""'P&L'!D7"", ""'P&L'!E7"", ""'P&L'!F7"", ""'P&L'!B8"", ""'P&L'!C8"", ""'P&L'!D8"", ""'P&L'!E8"", ""'P&L'!F8"", ""'P&L'!B9"", ""'P&L'!C9"", ""'P&L'!D9"", ""'P&L'!E9"", ""'P&L'!F9""]"
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,361
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,393647
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q6,impact,0.9861,0.0,0,"[""Monthly!C2:M2"", ""Monthly!B4:M4"", ""Monthly!B5:M5"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:N9""]"
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:N9""]"
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,361
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,393647
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q6,impact,0.9861,0.0,0,"[""Monthly!B4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M5"", ""Monthly!B6:M6"", ""Monthly!N6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,361
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,393647
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q6,impact,0.9861,0.0,0,"[""Monthly!C2:M2"", ""Monthly!B4:M4"", ""Monthly!B5:M5"", ""Monthly!B6:M6"", ""Monthly!N6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,361
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,393647
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q6,impact,0.9861,0.0,0,"[""Monthly!B4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M5"", ""Monthly!B6:M6"", ""Monthly!N6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,361
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,393647
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q6,impact,0.9861,0.0,0,"[""Monthly!B4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M5"", ""Monthly!B6:M6"", ""Monthly!N6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r1,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,361
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,393647
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q6,impact,0.9861,0.0,0,"[""Monthly!B4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M5"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:N9""]"
+r2,standard,haiku55,04_saas_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:N9""]"
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,256721
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,226600
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Summary!C5"""
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D6""]"
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,256721
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,226600
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Summary!C5"""
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,256721
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,226600
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Summary!C5"""
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,256721
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,226600
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Summary!C5"""
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r0,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,256721
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,226600
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Summary!C5"""
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r1,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,256721
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,226600
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Summary!C5"""
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r2,standard,haiku55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D2"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5029
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3304937
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,39947
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""BvA!F8"""
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q7,impact,0.25,0.0,0,"[""BvA!C11""]"
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5029
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3304937
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,39947
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""BvA!F8"""
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q7,impact,0.25,0.0,0,"[""BvA!C11""]"
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5029
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3304937
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,39947
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""BvA!F8"""
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""BvA!H4"", ""BvA!I4""]"
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm,q7,impact,0.0,0.0,0,[]
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,5029
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3304937
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,39947
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""BvA!F8"""
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r0,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q7,impact,0.25,0.0,0,"[""BvA!C11""]"
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,5029
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3304937
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,39947
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q4,address,0.0,0.0,0,"""Sheet BvA!F8"""
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r1,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q7,impact,0.9231,0.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,5029
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3304937
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,39947
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""BvA!F8"""
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r2,standard,haiku55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!C11"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,519
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3676.5
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8017
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Report!D15"""
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,519
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3676.5
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8017
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Report!D15"""
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,519
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3676.5
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8017
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Report!D15"""
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,519
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3676.5
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,8017
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Report!D15"""
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r0,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,519
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3676.5
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,8017
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Report!D15"""
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r1,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,519
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3676.5
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,8017
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Report!D15"""
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r2,standard,haiku55,07_messy_report,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,129050
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,17277.5
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,11136.6
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Loan!D12"""
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:B30"", ""Loan!C7:C30"", ""Loan!D7:D30"", ""Loan!E7:E30"", ""Loan!F7:F30"", ""Loan!D32""]"
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,129050
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,17277.5
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,11136.6
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Loan!D12"""
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:B30"", ""Loan!C7:C30"", ""Loan!D7:D30"", ""Loan!E7:E30"", ""Loan!F7:F30"", ""Loan!D32""]"
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,129050
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,17277.5
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,11136.6
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Loan!D12"""
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,129050
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,17277.5
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,11136.6
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Loan!D12"""
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r0,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:B30"", ""Loan!C7:C30"", ""Loan!D7:D30"", ""Loan!E7:E30"", ""Loan!F7:F30"", ""Loan!D32""]"
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,129050
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,17277.5
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,11136.6
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Loan!D12"""
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r1,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,129050
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,17277.5
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,11136.6
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Loan!D12"""
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r2,standard,haiku55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:B30"", ""Loan!C7:C30"", ""Loan!D7:D30"", ""Loan!E7:E30"", ""Loan!F7:F30"", ""Loan!D32""]"
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,3015.04
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,125859
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Hardware"""
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Orders!G45"""
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,3015.04
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,125859
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Hardware"""
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Orders!G45"""
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,3015.04
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,125859
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Hardware"""
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Orders!G45"""
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,3015.04
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,125859
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Hardware"""
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Orders!G45"""
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r0,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,3015.04
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,125859
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Hardware"""
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Orders!G45"""
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r1,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,3015.04
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,125859
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Hardware"""
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Orders!G45"""
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r2,standard,haiku55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,68.3
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,69.0667
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""C"""
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Grades!E20"""
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q6,impact,0.7921,0.0,0,"[""Grades!G3:G32"", ""Grades!H3:H32"", ""Grades!G34""]"
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,68.3
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,69.0667
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""C"""
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Grades!E20"""
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q6,impact,0.7921,0.0,0,"[""Grades!G3:G32"", ""Grades!H3:H32"", ""Grades!G34""]"
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,68.3
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,69.0667
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""C"""
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Grades!E20"""
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm,q6,impact,0.7921,0.0,0,"[""Grades!G3:G32"", ""Grades!H3:H32"", ""Grades!G34""]"
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,68.3
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,69.0667
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""C"""
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Grades!E20"""
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r0,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q6,impact,0.7921,0.0,0,"[""Grades!G3:G32"", ""Grades!H3:H32"", ""Grades!G34""]"
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,68.3
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,69.0667
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""C"""
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Grades!E20"""
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r1,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q6,impact,0.7921,0.0,0,"[""Grades!G3:G32"", ""Grades!H3:H32"", ""Grades!G34""]"
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,68.3
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,69.0667
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""C"""
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Grades!E20"""
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r2,standard,haiku55,10_gradebook,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Grades!G3:G32"", ""Grades!G34"", ""Grades!H3"", ""Grades!H9"", ""Grades!H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H31"", ""Grades!H32""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1515987.648
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1515987
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,0.9524,0.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:N2"", ""Forecast!C3:N3""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,0.9756,0.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1515990
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Forecast!C2"", ""Forecast!D2"", ""Forecast!E2"", ""Forecast!G2"", ""Forecast!H2"", ""Forecast!I2"", ""Forecast!K2"", ""Forecast!L2"", ""Forecast!M2"", ""Forecast!N2"", ""Forecast!C3"", ""Forecast!D3"", ""Forecast!E3"", ""Forecast!G3"", ""Forecast!H3"", ""Forecast!I3"", ""Forecast!K3"", ""Forecast!L3"", ""Forecast!M3"", ""Forecast!N3""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Forecast!C4"", ""Forecast!D4"", ""Forecast!E4"", ""Forecast!F4"", ""Forecast!G4"", ""Forecast!I4"", ""Forecast!J4"", ""Forecast!K4"", ""Forecast!L4"", ""Forecast!M4"", ""Forecast!C5"", ""Forecast!D5"", ""Forecast!E5"", ""Forecast!F5"", ""Forecast!G5"", ""Forecast!I5"", ""Forecast!J5"", ""Forecast!L5"", ""Forecast!M5"", ""Forecast!N5""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,1515990
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q5,impact,0.9524,0.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:M3"", ""Forecast!N3""]"
+r0,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,1515987
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Forecast!C2"", ""Forecast!D2"", ""Forecast!E2"", ""Forecast!G2"", ""Forecast!H2"", ""Forecast!I2"", ""Forecast!K2"", ""Forecast!L2"", ""Forecast!M2"", ""Forecast!N2"", ""Forecast!C3"", ""Forecast!D3"", ""Forecast!E3"", ""Forecast!G3"", ""Forecast!H3"", ""Forecast!I3"", ""Forecast!K3"", ""Forecast!L3"", ""Forecast!M3"", ""Forecast!N3""]"
+r1,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Forecast!C4"", ""Forecast!D4"", ""Forecast!E4"", ""Forecast!F4"", ""Forecast!G4"", ""Forecast!I4"", ""Forecast!J4"", ""Forecast!K4"", ""Forecast!L4"", ""Forecast!M4"", ""Forecast!C5"", ""Forecast!D5"", ""Forecast!E5"", ""Forecast!F5"", ""Forecast!G5"", ""Forecast!I5"", ""Forecast!J5"", ""Forecast!L5"", ""Forecast!M5"", ""Forecast!N5""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,1515987
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Forecast!C2"", ""Forecast!D2"", ""Forecast!E2"", ""Forecast!G2"", ""Forecast!H2"", ""Forecast!I2"", ""Forecast!K2"", ""Forecast!L2"", ""Forecast!M2"", ""Forecast!N2"", ""Forecast!C3"", ""Forecast!D3"", ""Forecast!E3"", ""Forecast!G3"", ""Forecast!H3"", ""Forecast!I3"", ""Forecast!K3"", ""Forecast!L3"", ""Forecast!M3"", ""Forecast!N3""]"
+r2,hard,haiku55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Forecast!C4"", ""Forecast!D4"", ""Forecast!E4"", ""Forecast!F4"", ""Forecast!G4"", ""Forecast!I4"", ""Forecast!J4"", ""Forecast!K4"", ""Forecast!L4"", ""Forecast!M4"", ""Forecast!C5"", ""Forecast!D5"", ""Forecast!E5"", ""Forecast!F5"", ""Forecast!G5"", ""Forecast!I5"", ""Forecast!J5"", ""Forecast!L5"", ""Forecast!M5"", ""Forecast!N5""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,559782
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Plan!C4"", ""Plan!D4"", ""Plan!E4"", ""Plan!C9"", ""Plan!D9"", ""Plan!E9"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Plan!C3"", ""Plan!D3"", ""Plan!E3"", ""Plan!C8"", ""Plan!D8"", ""Plan!E8"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Plan!C6"", ""Plan!D6"", ""Plan!E6"", ""Plan!C9"", ""Plan!D9"", ""Plan!E9"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,559782
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Plan!C4"", ""Plan!D4"", ""Plan!E4"", ""Plan!C9"", ""Plan!D9"", ""Plan!E9"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Plan!C3"", ""Plan!D3"", ""Plan!E3"", ""Plan!C8"", ""Plan!D8"", ""Plan!E8"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Plan!C6"", ""Plan!D6"", ""Plan!E6"", ""Plan!C9"", ""Plan!D9"", ""Plan!E9"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,559782
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Plan!C4"", ""Plan!D4"", ""Plan!E4"", ""Plan!C9"", ""Plan!D9"", ""Plan!E9"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Plan!C3"", ""Plan!D3"", ""Plan!E3"", ""Plan!C8"", ""Plan!D8"", ""Plan!E8"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Plan!C6"", ""Plan!D6"", ""Plan!E6"", ""Plan!C9"", ""Plan!D9"", ""Plan!E9"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,559782
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r0,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,559782
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r1,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,559782
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Plan!C4"", ""Plan!D4"", ""Plan!E4"", ""Plan!C9"", ""Plan!D9"", ""Plan!E9"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Plan!C3"", ""Plan!D3"", ""Plan!E3"", ""Plan!C8"", ""Plan!D8"", ""Plan!E8"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r2,hard,haiku55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Plan!C6"", ""Plan!D6"", ""Plan!E6"", ""Plan!C9"", ""Plan!D9"", ""Plan!E9"", ""Plan!C10"", ""Plan!D10"", ""Plan!E10""]"
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,353494
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,[]
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,[]
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,353494
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,[]
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3"", ""Model!C3"", ""Model!D3"", ""Model!E3"", ""Model!F3"", ""Model!B5"", ""Model!C5"", ""Model!D5"", ""Model!E5"", ""Model!F5""]"
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,[]
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,353494
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,[]
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,[]
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,353494
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,[]
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3"", ""Model!C3"", ""Model!D3"", ""Model!E3"", ""Model!F3"", ""Model!B5"", ""Model!C5"", ""Model!D5"", ""Model!E5"", ""Model!F5""]"
+r0,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,[]
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,353494
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,[]
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r1,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,[]
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,353494
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,[]
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r2,hard,haiku55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,[]
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,428571
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!E7""]"
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,428571
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,428571.4
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,428571
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!D7"", ""Allocation!E7""]"
+r0,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,428571
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,428571
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,haiku55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,741
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,59
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,159288
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Sales!H78"""
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Sales!F153"""
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,741
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,59
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,159288
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Sales!H78"""
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Sales!F153"""
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,741
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,59
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,159288
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Sales!H78"""
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Sales!F153"""
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,741
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,59
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,159288
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Sales!H78"""
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Sales!F153"""
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,741
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,59
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,159288
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Sales!H78"""
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Sales!F153"""
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r1,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,741
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,59
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,159288
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Sales!H78"""
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Sales!F153"""
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Sales!F43"", ""Sales!G43""]"
+r2,standard,sonnet55,01_sales_log,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,160500
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,45
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Sales"""
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,"""London"""
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Employees!F65"""
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm,q6,address,1.0,1.0,0,"""Employees!G21"""
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,160500
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,45
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Sales"""
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,"""London"""
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Employees!F65"""
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm,q6,address,1.0,1.0,0,"""Employees!G21"""
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,160500
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,45
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Sales"""
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,"""London"""
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm,q5,address,1.0,1.0,0,"""Employees!F65"""
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm,q6,address,1.0,1.0,0,"""Employees!G21"""
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,160500
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,45
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Sales"""
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q4,lookup,1.0,1.0,0,"""London"""
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Employees!F65"""
+r0,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q6,address,1.0,1.0,0,"""Employees!G21"""
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,160500
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,45
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Sales"""
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q4,lookup,1.0,1.0,0,"""London"""
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Employees!F65"""
+r1,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q6,address,1.0,1.0,0,"""Employees!G21"""
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,160500
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,45
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Sales"""
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q4,lookup,1.0,1.0,0,"""London"""
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q5,address,1.0,1.0,0,"""Employees!F65"""
+r2,standard,sonnet55,02_employees,sheetmark_lean_gfm_nopipe,q6,address,1.0,1.0,0,"""Employees!G21"""
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,18531.6
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,243330
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""P&L!C6"""
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""P&L!B12"""
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""P&L!C2:F2"", ""P&L!C4:F6"", ""P&L!C8:F8"", ""P&L!C9:F9""]"
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q8,impact,1.0,1.0,0,"[""P&L!B7:F7"", ""P&L!B8:F8"", ""P&L!B9:F9""]"
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,18531.6
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,243330
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""P&L!C6"""
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""P&L!B12"""
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""P&L!C2:F2"", ""P&L!C4:F6"", ""P&L!C8:F9""]"
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q8,impact,1.0,1.0,0,"[""P&L!B7:F9""]"
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,18531.6
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,243330
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""P&L!C6"""
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""P&L!B12"""
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""P&L!C2:F2"", ""P&L!C4:F6"", ""P&L!C8:F9""]"
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm,q8,impact,1.0,1.0,0,"[""P&L!B7:F7"", ""P&L!B8:F8"", ""P&L!B9:F9""]"
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,18531.6
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,243330
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""'P&L'!C6"""
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""'P&L'!B12"""
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""'P&L'!D6"", ""'P&L'!D7""]"
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""'P&L'!B2"", ""'P&L'!B12""]"
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""'P&L'!C2:F2"", ""'P&L'!C4:F4"", ""'P&L'!C5:F5"", ""'P&L'!C6:F6"", ""'P&L'!C8:F8"", ""'P&L'!C9:F9""]"
+r0,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q8,impact,1.0,1.0,0,"[""'P&L'!B7:F7"", ""'P&L'!B8:F8"", ""'P&L'!B9:F9""]"
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,18531.6
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,243330
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""P&L!C6"""
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""P&L!B12"""
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""P&L!D6"", ""P&L!D7""]"
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""P&L!B2"", ""P&L!B12""]"
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""P&L!C2:F2"", ""P&L!C4:F4"", ""P&L!C5:F5"", ""P&L!C6:F6"", ""P&L!C8:F8"", ""P&L!C9:F9""]"
+r1,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q8,impact,1.0,1.0,0,"[""P&L!B7:F7"", ""P&L!B8:F8"", ""P&L!B9:F9""]"
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,18531.6
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,243330
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""'P&L'!C6"""
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""'P&L'!B12"""
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""'P&L'!D6"", ""'P&L'!D7""]"
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""'P&L'!B2"", ""'P&L'!B12""]"
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""'P&L'!C2:F2"", ""'P&L'!C4:F4"", ""'P&L'!C5:F5"", ""'P&L'!C6:F6"", ""'P&L'!C8:F8"", ""'P&L'!C9:F9""]"
+r2,standard,sonnet55,03_pnl_quarterly,sheetmark_lean_gfm_nopipe,q8,impact,1.0,1.0,0,"[""'P&L'!B7:F7"", ""'P&L'!B8:F8"", ""'P&L'!B9:F9""]"
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,361
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,393647
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q6,impact,0.9861,0.0,0,"[""Monthly!C2:M2"", ""Monthly!B4:M4"", ""Monthly!B5:M5"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:N9""]"
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:N9""]"
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,361
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,393647
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Monthly!B4:C4"", ""Monthly!F4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M5"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:N9""]"
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:N9""]"
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,361
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,393647
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q6,impact,0.9861,0.0,0,"[""Monthly!B4:M4"", ""Monthly!B5:M5"", ""Monthly!C2:M2"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,361
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,393647
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Monthly!B4"", ""Monthly!C4"", ""Monthly!F4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M5"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:N9""]"
+r0,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:N9""]"
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,361
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,393647
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Monthly!C2:M2"", ""Monthly!B4:C4"", ""Monthly!F4:M4"", ""Monthly!B5:M5"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:N9""]"
+r1,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:N9""]"
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,361
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,393647
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Monthly!J9"""
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Monthly!B5""]"
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Monthly!B4:C4"", ""Monthly!F4:M4"", ""Monthly!C2:M2"", ""Monthly!B5:M5"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:N9""]"
+r2,standard,sonnet55,04_saas_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Monthly!B8:M8"", ""Monthly!B9:N9""]"
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,256721
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,226600
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Summary!C5"""
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Revenue!B3"", ""Revenue!C3"", ""Revenue!D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D2"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,256721
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,226600
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Summary!C5"""
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q7,impact,0.0,0.0,0,[]
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,256721
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,226600
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Summary!C5"""
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D2"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,256721
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,226600
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Summary!C5"""
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r0,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,256721
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,226600
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Summary!C5"""
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r1,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D2"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,256721
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,226600
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q3,address,1.0,1.0,0,"""Summary!C5"""
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Summary!B2"", ""Summary!B3""]"
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Revenue!C5"", ""Inputs!B11""]"
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Costs!B3:D3"", ""Costs!B4:D4"", ""Summary!B3:D3"", ""Summary!B4:D4"", ""Summary!B5:D5"", ""Summary!B6:D6""]"
+r2,standard,sonnet55,05_multisheet_model,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Revenue!B3:D3"", ""Revenue!B5:D5"", ""Costs!B2:D2"", ""Costs!B4:D4"", ""Summary!B2:D6""]"
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5029
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3304937
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,39947
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""BvA!F8"""
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!C11"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5029
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3304937
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,39947
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""BvA!F8"""
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!C11"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5029
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3304937
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,39947
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""BvA!F8"""
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!C11"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,5029
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3304937
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,39947
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""BvA!F8"""
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r0,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!C11"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,5029
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3304937
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,39947
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""BvA!F8"""
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r1,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!C11"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,5029
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3304937
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,39947
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""BvA!F8"""
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""BvA!I4"", ""BvA!H4""]"
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""BvA!H2:H9""]"
+r2,standard,sonnet55,06_budget_vs_actual,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""BvA!I3"", ""BvA!J3"", ""BvA!K3"", ""BvA!C11"", ""BvA!I11"", ""BvA!J11"", ""BvA!K11""]"
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,519
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3676.5
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8017
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Report!D15"""
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,519
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3676.5
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8017
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Report!D15"""
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,519
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,3676.5
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8017
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Report!D15"""
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,519
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3676.5
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,8017
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Report!D15"""
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r0,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,519
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3676.5
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,8017
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Report!D15"""
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r1,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,519
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,3676.5
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,8017
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Report!D15"""
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Report!E34""]"
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Report!C28"", ""Report!D28""]"
+r2,standard,sonnet55,07_messy_report,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Report!I7""]"
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,129050
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,17277.5
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,11136.6
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Loan!D12"""
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,129050
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,17277.5
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,11136.6
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Loan!D12"""
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:B30"", ""Loan!C7:F30"", ""Loan!D32""]"
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,129050
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,17277.5
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,11136.6
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Loan!D12"""
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:F30"", ""Loan!D32""]"
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,129050
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,17277.5
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,11136.6
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Loan!D12"""
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r0,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:B30"", ""Loan!C7:C30"", ""Loan!D7:D30"", ""Loan!E7:E30"", ""Loan!F7:F30"", ""Loan!D32""]"
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,129050
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,17277.5
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,11136.6
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Loan!D12"""
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r1,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:B30"", ""Loan!C7:C30"", ""Loan!D7:D30"", ""Loan!E7:E30"", ""Loan!F7:F30"", ""Loan!D32""]"
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,129050
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,17277.5
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,11136.6
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Loan!D12"""
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Loan!F7""]"
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q6,trace,1.0,1.0,0,"[""Loan!B12"", ""Loan!B2""]"
+r2,standard,sonnet55,08_loan_schedule,sheetmark_lean_gfm_nopipe,q7,impact,0.9959,0.0,0,"[""Loan!B4"", ""Loan!B7:B30"", ""Loan!C7:C30"", ""Loan!D7:D30"", ""Loan!E7:E30"", ""Loan!F7:F30"", ""Loan!D32""]"
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,3015.04
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,125859
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Hardware"""
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Orders!G45"""
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,3015.04
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,125859
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Hardware"""
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Orders!G45"""
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,3015.04
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,125859
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""Hardware"""
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Orders!G45"""
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,3015.04
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,125859
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Hardware"""
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Orders!G45"""
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r0,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,3015.04
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,125859
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Hardware"""
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Orders!G45"""
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r1,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,3015.04
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,125859
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""Hardware"""
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Orders!G45"""
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Orders!C10"", ""Orders!D10""]"
+r2,standard,sonnet55,09_orders_lookup,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Orders!E10"", ""Orders!F10"", ""Orders!G10"", ""Summary!B3"", ""Summary!C3"", ""Summary!B6"", ""Summary!C6""]"
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,68.3
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,69.0667
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""C"""
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Grades!E20"""
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Grades!G3:G32"", ""Grades!G34"", ""Grades!H3"", ""Grades!H9"", ""Grades!H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H31"", ""Grades!H32""]"
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,68.3
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,69.0667
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""C"""
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Grades!E20"""
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Grades!G3:G32"", ""Grades!G34"", ""Grades!H3"", ""Grades!H9"", ""Grades!H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H31"", ""Grades!H32""]"
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,68.3
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,69.0667
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,"""C"""
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Grades!E20"""
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm,q6,impact,0.8791,0.0,0,"[""Grades!G3:G32"", ""Grades!G34"", ""Grades!H3:H12"", ""Grades!H16"", ""Grades!H18:H20"", ""Grades!H22"", ""Grades!H24:H25"", ""Grades!H27"", ""Grades!H31:H32""]"
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,68.3
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,69.0667
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""C"""
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Grades!E20"""
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r0,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Grades!G3:G32"", ""Grades!G34"", ""Grades!H3"", ""Grades!H9"", ""Grades!H10"", ""Grades!H18"", ""Grades!H20"", ""Grades!H24"", ""Grades!H27"", ""Grades!H31"", ""Grades!H32""]"
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,68.3
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,69.0667
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""C"""
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Grades!E20"""
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r1,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q6,impact,0.7921,0.0,0,"[""Grades!G3:G32"", ""Grades!H3:H32"", ""Grades!G34""]"
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,68.3
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q2,lookup,1.0,1.0,0,69.0667
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q3,lookup,1.0,1.0,0,"""C"""
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q4,address,1.0,1.0,0,"""Grades!E20"""
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q5,trace,1.0,1.0,0,"[""Grades!B2:F2"", ""Grades!B15:F15""]"
+r2,standard,sonnet55,10_gradebook,sheetmark_lean_gfm_nopipe,q6,impact,0.7921,0.0,0,"[""Grades!G3:G32"", ""Grades!H3:H32"", ""Grades!G34""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1515987
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""F2"", ""J2""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,0,"[""H4"", ""K5""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1515987
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N2"", ""Forecast!N3""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1515987
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N2"", ""Forecast!N3""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,1515987
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r0,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,1515987
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""F2"", ""J2""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q3,hardcode,1.0,1.0,0,"[""H4"", ""K5""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r1,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,1515987
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r2,hard,sonnet55,11_forecast_overrides,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,559782
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,559782
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,559782
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,559782
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r0,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,559782
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r1,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,559782
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q2,trace,1.0,1.0,0,"[""Plan!C5"", ""Drivers!B4""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Plan!B4"", ""Drivers!B3""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q4,trace,1.0,1.0,0,"[""Plan!B6"", ""Drivers!B6""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Plan!C4:E4"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Plan!C3:E3"", ""Plan!C8:E8"", ""Plan!C10:E10""]"
+r2,hard,sonnet55,12_lookalike_drivers,sheetmark_lean_gfm_nopipe,q7,impact,1.0,1.0,0,"[""Plan!C6:E6"", ""Plan!C9:E9"", ""Plan!C10:E10""]"
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,353494
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,[]
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,[]
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,353494
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,[]
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,[]
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,353494
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,[]
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,[]
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,353494
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,[]
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r0,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,[]
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,353494
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,[]
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r1,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,[]
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,353494
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q2,address,1.0,1.0,0,"""Scenarios!E4"""
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Model!C2"", ""Scenarios!E4""]"
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,[]
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Scenarios!E5"", ""Model!B3:F3"", ""Model!B5:F5""]"
+r2,hard,sonnet55,13_scenario_switch,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,[]
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,428571
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Allocation!D3"", ""Allocation!C5""]"
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!D7"", ""Allocation!E7""]"
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,428571
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Allocation!D3"", ""Allocation!C5""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!D7"", ""Allocation!E7""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,428571
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,428571
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!E7""]"
+r0,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,428571
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!D7"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!E7""]"
+r1,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!C7"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!E7""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q1,lookup,1.0,1.0,0,428571
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q2,hardcode,1.0,1.0,0,"[""Allocation!C5"", ""Allocation!D3""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q3,trace,1.0,1.0,0,"[""Shared!B2"", ""Drivers!B6"", ""Drivers!B7""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q4,impact,1.0,1.0,0,"[""Drivers!C7"", ""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q5,impact,1.0,1.0,0,"[""Drivers!D7"", ""Allocation!D2"", ""Allocation!D4"", ""Allocation!D5"", ""Allocation!D6"", ""Allocation!E2"", ""Allocation!E4"", ""Allocation!E5"", ""Allocation!E6"", ""Allocation!D7"", ""Allocation!E7""]"
+r2,hard,sonnet55,14_cost_allocation,sheetmark_lean_gfm_nopipe,q6,impact,1.0,1.0,0,"[""Allocation!C2"", ""Allocation!C3"", ""Allocation!C4"", ""Allocation!C6"", ""Allocation!E2"", ""Allocation!E3"", ""Allocation!E4"", ""Allocation!E6"", ""Allocation!C7"", ""Allocation!E7""]"

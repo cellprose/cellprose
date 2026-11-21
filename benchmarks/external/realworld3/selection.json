@@ -1,0 +1,1224 @@
+{
+ "about": "Written by external/realworld3.py select; the rule is in realworld2.py and that file's docstring.",
+ "seed": 20261107,
+ "excluded_authors_from_rw2": 75,
+ "workbooks": {
+  "rw3_enron_andrea_ring": {
+   "source": "enron",
+   "file": "enron__andrea_ring__7__IFERCJan.xlsx",
+   "sha256": "f545d4616cbde8e55806223bc8781b98763a0e6d83961f03d2daee7c78de6988",
+   "original": "andrea_ring__7__IFERCJan.xlsx",
+   "original_sha256": "f545d4616cbde8e55806223bc8781b98763a0e6d83961f03d2daee7c78de6988",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 162,
+   "tokens_o200k_v03": 2936
+  },
+  "rw3_enron_craig_dean": {
+   "source": "enron",
+   "file": "enron__craig_dean__4356__11-9act.xlsx",
+   "sha256": "4c10c296286e12dbf1dfcf26ce700fddcb2f6b015a9d8b6c1f0e8f2f837f4749",
+   "original": "craig_dean__4356__11-9act.xlsx",
+   "original_sha256": "4c10c296286e12dbf1dfcf26ce700fddcb2f6b015a9d8b6c1f0e8f2f837f4749",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 3030,
+   "tokens_o200k_v03": 67071
+  },
+  "rw3_enron_danny_mccarty": {
+   "source": "enron",
+   "file": "enron__danny_mccarty__4661__XTRANSCO - Economics.xlsx",
+   "sha256": "87787cc5cd02f4f3cc981793799405657a42c8bbbee18a329f2cc02bcd5bc87d",
+   "original": "danny_mccarty__4661__XTRANSCO - Economics.xlsx",
+   "original_sha256": "87787cc5cd02f4f3cc981793799405657a42c8bbbee18a329f2cc02bcd5bc87d",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 2236,
+   "tokens_o200k_v03": 22081
+  },
+  "rw3_enron_david_delainey": {
+   "source": "enron",
+   "file": "enron__david_delainey__8089__2000group expenses.xlsx",
+   "sha256": "0aa536b48808c728f292f40fb4b11915d7c92a73a9041991b9cc667d4eaa528b",
+   "original": "david_delainey__8089__2000group expenses.xlsx",
+   "original_sha256": "0aa536b48808c728f292f40fb4b11915d7c92a73a9041991b9cc667d4eaa528b",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 73,
+   "tokens_o200k_v03": 2992
+  },
+  "rw3_enron_errol_mclaughlin_jr": {
+   "source": "enron",
+   "file": "enron__errol_mclaughlin_jr__10270__Access Trades.xlsx",
+   "sha256": "663e98bc0e1fa24bf19d447e7e3fd44ba23ca8e9bf290088367c6291603282c1",
+   "original": "errol_mclaughlin_jr__10270__Access Trades.xlsx",
+   "original_sha256": "663e98bc0e1fa24bf19d447e7e3fd44ba23ca8e9bf290088367c6291603282c1",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 126,
+   "tokens_o200k_v03": 1218
+  },
+  "rw3_enron_holden_salisbury": {
+   "source": "enron",
+   "file": "enron__holden_salisbury__12296__$ Calculator.xlsx",
+   "sha256": "5a9cb0a51f2c5c4562f3900b50a22f636a5502730862cb690dba5c2f4d31695b",
+   "original": "holden_salisbury__12296__$ Calculator.xlsx",
+   "original_sha256": "5a9cb0a51f2c5c4562f3900b50a22f636a5502730862cb690dba5c2f4d31695b",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 61,
+   "tokens_o200k_v03": 4023
+  },
+  "rw3_enron_john_arnold": {
+   "source": "enron",
+   "file": "enron__john_arnold__15200__AppalachiaGas2.xlsx",
+   "sha256": "7b35d3a80f5c612c223d623ddb4f6d59e1341cd99c9ab9dd8716f6bdd49f28bc",
+   "original": "john_arnold__15200__AppalachiaGas2.xlsx",
+   "original_sha256": "7b35d3a80f5c612c223d623ddb4f6d59e1341cd99c9ab9dd8716f6bdd49f28bc",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 1167,
+   "tokens_o200k_v03": 21928
+  },
+  "rw3_enron_john_hodge": {
+   "source": "enron",
+   "file": "enron__john_hodge__16246__Tricia Roome.xlsx",
+   "sha256": "2f15a81cdc8ef4d77ed6d40d41772735dfaf0403c7c4ffd0067da035f2a75958",
+   "original": "john_hodge__16246__Tricia Roome.xlsx",
+   "original_sha256": "2f15a81cdc8ef4d77ed6d40d41772735dfaf0403c7c4ffd0067da035f2a75958",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 199,
+   "tokens_o200k_v03": 2825
+  },
+  "rw3_enron_john_lavorato": {
+   "source": "enron",
+   "file": "enron__john_lavorato__16532__Turbine Position Report 111601.xlsx",
+   "sha256": "e60d7e27c77f576251fb875f8e0e8ea4911af2f3a0b382a21ad449896dee01fd",
+   "original": "john_lavorato__16532__Turbine Position Report 111601.xlsx",
+   "original_sha256": "e60d7e27c77f576251fb875f8e0e8ea4911af2f3a0b382a21ad449896dee01fd",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 3810,
+   "tokens_o200k_v03": 30115
+  },
+  "rw3_enron_kimberly_watson": {
+   "source": "enron",
+   "file": "enron__kimberly_watson__20561__Index-Indexmarginanalysissummaryunwind.xlsx",
+   "sha256": "ff6f741c6bb65bc2ddf48d57d14af9c96fdd23df58c97e717e898d4095a9df6a",
+   "original": "kimberly_watson__20561__Index-Indexmarginanalysissummaryunwind.xlsx",
+   "original_sha256": "ff6f741c6bb65bc2ddf48d57d14af9c96fdd23df58c97e717e898d4095a9df6a",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 51,
+   "tokens_o200k_v03": 2468
+  },
+  "rw3_enron_mark_haedicke": {
+   "source": "enron",
+   "file": "enron__mark_haedicke__24593__2001BUDGET-102049 ns.xlsx",
+   "sha256": "536167435d606e7aa08e35735e8c7008bc6d2fa661ae721bd53b9e6e038fbe32",
+   "original": "mark_haedicke__24593__2001BUDGET-102049 ns.xlsx",
+   "original_sha256": "536167435d606e7aa08e35735e8c7008bc6d2fa661ae721bd53b9e6e038fbe32",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 2923,
+   "tokens_o200k_v03": 23678
+  },
+  "rw3_enron_mark_whitt": {
+   "source": "enron",
+   "file": "enron__mark_whitt__25262__11-5-01 Hot List.xlsx",
+   "sha256": "cf9ffd605b6fb4e3a340ab2f9ac1962208be7cdd3f39ec98ffb50311163ea28b",
+   "original": "mark_whitt__25262__11-5-01 Hot List.xlsx",
+   "original_sha256": "cf9ffd605b6fb4e3a340ab2f9ac1962208be7cdd3f39ec98ffb50311163ea28b",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 57,
+   "tokens_o200k_v03": 3609
+  },
+  "rw3_enron_mary_fischer": {
+   "source": "enron",
+   "file": "enron__mary_fischer__25634__31Q.xlsx",
+   "sha256": "569647c2641f0b5d5f67d8b9249bb0ab42b8109cef53f66c8de72f6e7ba959e1",
+   "original": "mary_fischer__25634__31Q.xlsx",
+   "original_sha256": "569647c2641f0b5d5f67d8b9249bb0ab42b8109cef53f66c8de72f6e7ba959e1",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 784,
+   "tokens_o200k_v03": 39444
+  },
+  "rw3_enron_paul_y_barbo": {
+   "source": "enron",
+   "file": "enron__paul_y'barbo__28521__Eco Inventory.xlsx",
+   "sha256": "9646ab89b77a938b65f7e4289a312df356a8c5c550b3b6184e2a900f9cc4fb8b",
+   "original": "paul_y'barbo__28521__Eco Inventory.xlsx",
+   "original_sha256": "9646ab89b77a938b65f7e4289a312df356a8c5c550b3b6184e2a900f9cc4fb8b",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 10245,
+   "tokens_o200k_v03": 82630
+  },
+  "rw3_enron_ryan_slinger": {
+   "source": "enron",
+   "file": "enron__ryan_slinger__33681__6_21act.xlsx",
+   "sha256": "60e3f7853229b3bca2b14a825104b17d21e3b7a45ec7d1e703957b0bb0133544",
+   "original": "ryan_slinger__33681__6_21act.xlsx",
+   "original_sha256": "60e3f7853229b3bca2b14a825104b17d21e3b7a45ec7d1e703957b0bb0133544",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 3120,
+   "tokens_o200k_v03": 61762
+  }
+ },
+ "screened": [
+  {
+   "file": "kimberly_watson__20576__Index to Index Hedge Strategy Cal 02 and 03.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "brad_mckay__1429__transcoz6.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "danny_mccarty__4637__Lay Agenda.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_sanders__31737__Summary8.23.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "22 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10117__Rpt PMA Log Gas Two RM 0301.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "7 formulas"
+  },
+  {
+   "file": "john_hodge__16371__Enron 11 02.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "5 formulas"
+  },
+  {
+   "file": "jane_tholt__13280__West NatGas Prices 1016.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "jeff_king__14266__2-5-2002.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_lavorato__16532__Turbine Position Report 111601.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "chris_dorland__1597__TimeLog_12192001.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "holden_salisbury__12331__Book1.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "9 formulas"
+  },
+  {
+   "file": "andrea_ring__45__Book1.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "13 formulas"
+  },
+  {
+   "file": "richard_sanders__31855__Enron -  credit explosure .xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "21 formulas"
+  },
+  {
+   "file": "jane_tholt__13264__ExpansionSummary 10-11-01.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33253__BOOKREQUEST.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "mary_fischer__25634__31Q.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "andrew_lewis__56__Tony_deals.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_whitt__25172__Transport-Storage Review 12-171.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "craig_dean__4377__Proposed New Shift Schedule for 2001.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "danny_mccarty__4641__NeubauerBonusCommercial_UnP.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "8 formulas"
+  },
+  {
+   "file": "andrea_ring__30__ENRONGAS(1200).xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "theresa_staab__39616__Howell Nomination-LCG.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "robert_badeer__33083__CALILT Fax.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "kevin_hyatt__19607__Project Sun Devil.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10785__adjustment.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_hodge__16411__Exec-noneol.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "joe_quenet__15070__PJM.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10318__tudor 12-29 ng-pr-opt.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "danny_mccarty__4652__KilmerMerit.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "31 formulas"
+  },
+  {
+   "file": "chris_dorland__1630__1999_equities.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "ryan_slinger__33674__5_14act.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "richard_shapiro__32219__99contributions.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "4 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33226__FTCan_Gas_Bench.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_arnold__15187__PNL correlations-2.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "john_hodge__16246__Tricia Roome.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "kimberly_watson__20643__sharris1001wk4.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "robin_rodrigue__33328__FTCan_Gas_Bench.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "kimberly_watson__20561__Index-Indexmarginanalysissummaryunwind.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "david_delainey__8089__2000group expenses.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10142__coal summay01-09-01.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "craig_dean__4442__EES September Daily.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "vladi_pimenov__41045__NYSummary.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10082__Bkrqs934.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "richard_shapiro__32601__Accomplishment-june5th2001-Masteredit.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "6 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10709__NGDKRS0601_fix.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "unreadable: ValueError"
+  },
+  {
+   "file": "robin_rodrigue__33267__4andgas.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "kevin_hyatt__19635__Aquila Red Lake Project.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "juan_hernandez__17546__04_13_01 PG INDEX REPORT.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "bill_williams_iii__1405__EES October Daily.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "martin_cuilla__25344__Quotes.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "bill_williams_iii__1409__EES October Daily.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "kevin_hyatt__19602__ARC.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "richard_shapiro__32401__Lisa - EIM Budget.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "12 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33323__BUTTONS.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10034__Integration Test Contact List.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "vladi_pimenov__41056__Vladi's Deals.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10297__103820OPMHoursSurveyJan01.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "26 formulas"
+  },
+  {
+   "file": "juan_hernandez__17592__10-4-00.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "bill_rapp__1367__USGT nov&dec01 vols&rates B.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10830__x.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tori_kuykendall__40054__Foward Curves.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "barry_tycholiz__850__01GrandPrixSched.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "15 formulas"
+  },
+  {
+   "file": "joe_quenet__15074__PJM.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_sanders__31929__NSM_J5529_Detail.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "36 formulas"
+  },
+  {
+   "file": "paul_y'barbo__28521__Eco Inventory.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "john_arnold__15204__KCS VPP Volumes.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "jane_tholt__13154__Enron 01.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10865__Capital Book Template.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jason_wolfe__13474__Enron Pricing Report.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "craig_dean__4356__11-9act.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "jane_tholt__13107__EOL_Product_Listen.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "5 formulas"
+  },
+  {
+   "file": "richard_shapiro__32241__washingtonheadcount.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "vladi_pimenov__41052__NYSummary.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10145__Bkrqs679.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "juan_hernandez__17577__09-12-00.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jane_tholt__13118__Resend 081701 Sent out to Customers.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "258792 tokens"
+  },
+  {
+   "file": "shelley_corman__38750__Price-ImbalQtyTableAug2000-Sep2001-Ver2.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "12 formulas"
+  },
+  {
+   "file": "john_arnold__15457__prc.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "barry_tycholiz__886__Orig-West0401.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "jason_wolfe__13337__Simulation Teams.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "shelley_corman__38751__ctrclist.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "theresa_staab__39613__Rate Schedule 10-01-01.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33275__ngpl_1207.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_shapiro__32399__Budget02SS.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "12 formulas"
+  },
+  {
+   "file": "jason_wolfe__13507__RP01-180 Data Response 11-00 vol 2.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "196341 tokens"
+  },
+  {
+   "file": "shelley_corman__38757__Throughput Graphs.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10716__Rpt PMA Log Errol 1001.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "5 formulas"
+  },
+  {
+   "file": "john_arnold__15200__AppalachiaGas2.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "robin_rodrigue__33214__IMCan_Gas_Bench.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10122__Mercado Extend - 2.07.01.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "brad_mckay__1412__NY City Forecast.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "ryan_slinger__33681__6_21act.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "robin_rodrigue__33342__Conversion.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "susan_bailey__39381__Bp Capital Energy Fund Lp.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "monique_sanchez__28302__pos.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_whitt__25220__10-8-01 Hot List.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "49 formulas"
+  },
+  {
+   "file": "jay_reitmeyer__13722__CMS - Med Bow - 092401.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "tori_kuykendall__39965__DailyPrices.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10906__aaaCredit Report.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "shelley_corman__38759__finalTWrev.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "robin_rodrigue__33301__DUB_02092001.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "susan_pereira__39443__LAGASMAR.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "2 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33350__Orig.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "29 formulas"
+  },
+  {
+   "file": "jay_reitmeyer__13720__Sublette.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "jay_reitmeyer__13739__Enron Pricing Report.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33258__HS_STORAGE.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "theresa_staab__39639__Dec '01 on call calendar.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "27 formulas"
+  },
+  {
+   "file": "jay_reitmeyer__13551__citizens load.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "barry_tycholiz__876__ENE comps.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "jeff_king__14258__curve marking.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "robin_rodrigue__33296__canada.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "juan_hernandez__17590__10-09-00.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "andrew_lewis__58__liborfordi.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_shapiro__32188__midwest-headcount.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "danny_mccarty__4662__Prelim Truck Survey Results.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "37 formulas"
+  },
+  {
+   "file": "barry_tycholiz__826__Financial Products.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "tori_kuykendall__39974__tds 125.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "martin_cuilla__25357__SagarinLines week2.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "jay_reitmeyer__13548__Rockies Forecast.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "chris_dorland__1583__NW Update.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "harry_arora__12154__Plan_IncomeSheets_Presto.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "tori_kuykendall__39972__WESTJ.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "mark_haedicke__24593__2001BUDGET-102049 ns.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "richard_sanders__31920__BidOffer4.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "6 formulas"
+  },
+  {
+   "file": "theresa_staab__39625__September noms for Quest.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "8 formulas"
+  },
+  {
+   "file": "barry_tycholiz__870__EPNG BP Tariff Sheet.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "22 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10710__Rpt PMA Log RM 0601.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "5 formulas"
+  },
+  {
+   "file": "steven_harris__39308__Q1 Enron Graph.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "holden_salisbury__12284__ed050101.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jay_reitmeyer__13747__Enron Pricing Report.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "chris_dorland__1584__AB OPS Sheet.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10285__PG&EForwards Reports.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "3 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33242__YTD Recon.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "andrea_ring__7__IFERCJan.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "bill_williams_iii__1393__EES July Dailies.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "richard_shapiro__32195__mar01.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "30 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10816__Bkrqs777.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "mark_whitt__25262__11-5-01 Hot List.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10014__gas book moves.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jason_wolfe__13344__Gas_Logistics_Metrics.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "30 formulas"
+  },
+  {
+   "file": "juan_hernandez__17586__09-21-00.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robert_badeer__33064__CA-LT Perf.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33531__FTCan_Gas_Bench.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "459095 tokens"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10789__SherryDKRSummary.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jason_wolfe__13351__Bkrqs654.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10060__phys procedures.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jason_wolfe__13342__Gas_Settlements_Metrics.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "42 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10130__new counterparty details 12 11 00.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jason_wolfe__13355__Rpt PMA Log Gas One RM.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "15 formulas"
+  },
+  {
+   "file": "danny_mccarty__4661__XTRANSCO - Economics.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "robin_rodrigue__33352__IMCan_Gas_Bench.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "holden_salisbury__12296__$ Calculator.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10089__Trades 1211.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33217__FTCan_Gas_Bench.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "vladi_pimenov__41076__VLADI-GASDAILY-CURVEFETCH.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "149728 tokens"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10037__netcoBook-Portfolios011702.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10115__PMA Log Gas Two Rm 0101.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "8 formulas"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10829__Bkrqs902.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "richard_shapiro__32125__TRAssumptions&SIRESERatesCase.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "16 formulas"
+  },
+  {
+   "file": "robert_badeer__33150__CALILT Fax.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10839__BOOKREQUESTNG-X-OPTY.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "1 formulas"
+  },
+  {
+   "file": "richard_shapiro__32130__Attachment 6.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "joe_quenet__15083__PJM.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33271__FRANK.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "andrew_lewis__75__Exxon Gulf Coast 0401.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "chris_dorland__1603__MIRANT - Nov 30 2001 Termination.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "volatile formulas (RAND, NOW, ...)"
+  },
+  {
+   "file": "monique_sanchez__28319__Mike_NCD_Reconciliation_05_29.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "jane_tholt__13332__Enron Pricing Report.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "theresa_staab__39594__Kennedy e-mail without gathering.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "reads another workbook"
+  },
+  {
+   "file": "bill_williams_iii__1398__EES September Daily.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "susan_bailey__39376__PugetSoundEnergy.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "harry_arora__12173__1203optsheet.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "a question type has no candidate"
+  },
+  {
+   "file": "theresa_staab__39636__Enron Statement_0901.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "0 formulas"
+  },
+  {
+   "file": "robin_rodrigue__33225__FTCan_Gas_Bench.xlsx",
+   "source": "enron",
+   "eligible": false,
+   "reason": "302117 tokens"
+  },
+  {
+   "file": "errol_mclaughlin_jr__10270__Access Trades.xlsx",
+   "source": "enron",
+   "eligible": true,
+   "reason": "ok"
+  }
+ ]
+}

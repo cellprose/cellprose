@@ -1,0 +1,78 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw_ogl14_cornwall_spend",
+ "encoding": "none",
+ "prompt_chars": 998,
+ "prompt_sha256": "7cd2220728436024b68d793c0c950f472e34b7381da3f06a11ae00644eb291d8",
+ "result": "{\"q1\":\"Unknown\",\"q2\":\"Unknown\",\"q3\":\"Unknown\"}",
+ "usage": {
+  "input_tokens": 284,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 79,
+  "output_tokens_details": {
+   "thinking_tokens": 57
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 284,
+   "outputTokens": 79,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 57
+  }
+ },
+ "cost": 0.001358,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 2.4,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_6e66702b4f5b4aefbdb6ace472e40ac7",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "input_tokens": 284,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 79,
+   "output_tokens_details": {
+    "reasoning_tokens": 57
+   },
+   "total_tokens": 363,
+   "billed_input_tokens": 284,
+   "tokenizer_input_tokens_o200k": 273,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 273
+  },
+  "finished_at": "2026-11-07T09:10:53+00:00"
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "title": "A v0.3 reader still reads a v0.2 grid, with outer pipes on every row",
+ "spec": "§3, §12",
+ "read": {
+  "input": "input.sheet.md",
+  "expected": "decoded.json"
+ }
+}

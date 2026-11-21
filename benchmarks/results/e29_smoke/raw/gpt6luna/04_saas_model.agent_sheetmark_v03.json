@@ -1,0 +1,98 @@
+{
+ "model": "gpt6luna",
+ "workbook": "04_saas_model",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1116,
+ "prompt_sha256": "47fe9e6be22997f960fcba618e50495b1accf18416b56438b3e82d863b81d0fc",
+ "result": "{\"q1\":361,\"q2\":393647,\"q3\":\"Monthly!J9\",\"q4\":[\"Monthly!B5\"],\"q5\":[\"Monthly!B6\",\"Assumptions!B7\"],\"q6\":[\"Monthly!C2:M2\",\"Monthly!B4:M4\",\"Monthly!B5:M5\",\"Monthly!B6:M6\",\"Monthly!B7:M7\",\"Monthly!B9:M9\",\"Monthly!N6\",\"Monthly!N9\"],\"q7\":[\"Monthly!B8:M8\",\"Monthly!B9:M9\",\"Monthly!N9\"]}",
+ "usage": {
+  "input_tokens": 1584,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1200,
+  "output_tokens_details": {
+   "thinking_tokens": 1043
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 1584,
+   "outputTokens": 1200,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1043
+  }
+ },
+ "cost": 0.0007583999999999999,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_e3f1414801d541dd9797371c36b6bdc8",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 386,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 36,
+     "reasoning_tokens": 9,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1198,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1164,
+     "reasoning_tokens": 1034,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-06T17:12:29+00:00",
+  "run_id": "20261106T171213Z-c13f75",
+  "started_at": "2026-11-06T17:12:13+00:00",
+  "git_sha": "bac1000",
+  "git_dirty": true,
+  "corpus": ".",
+  "inputs_sha256": "68d8cc073cde45dd3381ac6ca43668cb502033f7294c45e2f26834983f2faccf",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 15.5
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l && cat book.sheet.md\"}",
+   "output_chars": 1453
+  }
+ ]
+}

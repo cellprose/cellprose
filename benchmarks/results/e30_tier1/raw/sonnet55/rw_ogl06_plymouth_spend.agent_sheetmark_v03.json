@@ -1,0 +1,122 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_ogl06_plymouth_spend",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 912,
+ "prompt_sha256": "0aa66f915cac439e38adcfcaaf60db11e34bae84983939fa1323c87c18db84a4",
+ "result": "{\"q1\": 1299775.98, \"q2\": \"KNOWLEDGE ACADEMY LTD (THE)\", \"q3\": \"BI report!D262\"}",
+ "usage": {
+  "input_tokens": 8383,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 420,
+  "output_tokens_details": {
+   "thinking_tokens": 145
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 8383,
+   "outputTokens": 420,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 145
+  }
+ },
+ "cost": 0.020966,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 883,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 88,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3155,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 187,
+     "reasoning_tokens": 55,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 4345,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 145,
+     "reasoning_tokens": 90,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:01:48+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 6.0
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"head -c 3000 book.sheet.md; grep -n -E \\\"47168013|47248380|47401369\\\" book.sheet.md | head\"}",
+   "output_chars": 4270
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n -E \\\"^## |^# \\\" book.sheet.md\"}",
+   "output_chars": 90
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 385,392p book.sheet.md | cut -c1-200\"}",
+   "output_chars": 1606
+  }
+ ]
+}

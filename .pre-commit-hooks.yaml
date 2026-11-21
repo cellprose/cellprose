@@ -1,0 +1,7 @@
+- id: cellprose
+  name: cellprose sidecar
+  description: Keep a .sheet.md beside each committed .xlsx
+  entry: cellprose pre-commit
+  language: system
+  files: '\.xlsm?$'
+  pass_filenames: false

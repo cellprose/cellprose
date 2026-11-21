@@ -1,0 +1,152 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_census_nrc",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1292,
+ "prompt_sha256": "b3e56f250528d68fb4a695721671d3627e5678dc68ced2f8716ac29a0be30e79",
+ "result": "{\"q1\":1437,\"q2\":514,\"q3\":\"Table 1 - Permits!L16\",\"q4\":503,\"q5\":0.061}",
+ "usage": {
+  "input_tokens": 12421,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 12371,
+  "output_tokens": 770,
+  "output_tokens_details": {
+   "thinking_tokens": 303
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 12421,
+   "outputTokens": 770,
+   "cacheReadInputTokens": 12371,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 303
+  }
+ },
+ "cost": 0.0028642,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_34ccf68291ab442aa651b23ad64f9f8a",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 466,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 78,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 652,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 118,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3735,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 177,
+     "reasoning_tokens": 52,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 4910,
+     "cache_read_tokens": 3732,
+     "cache_write_tokens": 0,
+     "output_tokens": 330,
+     "reasoning_tokens": 227,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2658,
+     "cache_read_tokens": 8639,
+     "cache_write_tokens": 0,
+     "output_tokens": 67,
+     "reasoning_tokens": 24,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:08:45+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.3
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nprint(w.sheetnames)\\nfor s in w.sheetnames:\\n ws=w[s]\\n print(s,ws.max_row,ws.max_column)\\nPY\"}",
+   "output_chars": 272
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=True)\\nfor sn in ['Table 1 - Permits','Table 3 - Starts']:\\n ws=w[sn]; print('\\\\n###',sn)\\n for r in range(1, min(ws.max_row,24)+1):\\n  print(r,[ws.cell(r,c).value for c in range(1,15)])\\nPY\"}",
+   "output_chars": 6490
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nfor data in [True,False]:\\n w=openpyxl.load_workbook('book.xlsx',data_only=data)\\n ws=w['Table 1 - Permits']; print('\\\\ndata',data)\\n for r in range(35,73):\\n  vals=[ws.cell(r,c).value for c in range(1,15)]\\n  if any(v is not None for v in vals): print(r,vals)\\nPY\"}",
+   "output_chars": 9345
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=True); ws=w['Table 1 - Permits']\\nfor r in range(1,ws.max_row+1):\\n print(r, ws.row_dimensions[r].hidden, [ws.cell(r,c).value for c in range(1,4)])\\nPY\"}",
+   "output_chars": 5656
+  }
+ ]
+}

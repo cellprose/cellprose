@@ -1,0 +1,73 @@
+{
+ "model": "sonnet",
+ "workbook": "08_loan_schedule",
+ "encoding": "agent_xlsx",
+ "result": "{\"q1\":129050.118772642,\"q2\":17277.508601066,\"q3\":11136.5628583777,\"q4\":\"Loan!D12\",\"q5\":[\"Loan!F7\"],\"q6\":[\"Loan!B12\",\"Loan!B2\"],\"q7\":[\"Loan!B4\",\"Loan!B7:B30\",\"Loan!C7:C30\",\"Loan!D7:D30\",\"Loan!E7:E30\",\"Loan!F7:F30\",\"Loan!D32\"]}",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 5882,
+  "cache_read_input_tokens": 13846,
+  "output_tokens": 656,
+  "output_tokens_details": {
+   "thinking_tokens": 198
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5882,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 152,
+    "cache_read_input_tokens": 7757,
+    "cache_creation_input_tokens": 278,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 278
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1541,
+   "outputTokens": 191,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0002496,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 167,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 6,
+   "outputTokens": 656,
+   "cacheReadInputTokens": 13846,
+   "cacheCreationInputTokens": 5882,
+   "webSearchRequests": 0,
+   "costUSD": 0.0328692,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 198,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.033118800000000004,
+ "num_turns": 3,
+ "subtype": "success"
+}

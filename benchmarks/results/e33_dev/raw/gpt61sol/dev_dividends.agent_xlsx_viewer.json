@@ -1,0 +1,116 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_dividends",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1471,
+ "prompt_sha256": "8c08441e2cd2eba63066365071b00ca7c8e0ef093e01fe7d082df5c581c164cf",
+ "result": "{\n  \"q1\": 1324,\n  \"q2\": \"Inputs!E59\",\n  \"q3\": [\n    \"Analysis of past dividends!C2\",\n    \"Analysis of past dividends!C21\",\n    \"Analysis of past dividends!C22\"\n  ],\n  \"q4\": [\n    \"Analysis of past dividends!F2\",\n    \"Inputs!E4\",\n    \"Analysis of past dividends!F3\",\n    \"Analysis of past dividends!F4\",\n    \"Analysis of past dividends!F5\",\n    \"Inputs!E5\",\n    \"Inputs!E3\"\n  ],\n  \"q5\": [\n    \"Analysis of past dividends!F4\",\n    \"Analysis of past dividends!F6\",\n    \"Analysis of past dividends!F8\",\n    \"Analysis of past dividends!F9\",\n    \"Analysis of past dividends!F17\",\n    \"Analysis of past dividends!L4\",\n    \"Analysis of past dividends!L6\",\n    \"Analysis of past dividends!L8\",\n    \"Analysis of past dividends!L9\",\n    \"Analysis of past dividends!B38\",\n    \"Analysis of past dividends!B39\",\n    \"Analysis of past dividends!B40\",\n    \"Analysis of past dividends!B41\",\n    \"Analysis of past dividends!B42\",\n    \"Analysis of past dividends!B43\",\n    \"Analysis of past dividends!C38\",\n    \"Analysis of past dividends!C39\",\n    \"Analysis of past dividends!C40\"\n  ],\n  \"q6\": [\n    \"Inputs!F12\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 10865,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 9785,
+  "output_tokens": 789,
+  "output_tokens_details": {
+   "thinking_tokens": 14
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 10865,
+   "outputTokens": 789,
+   "cacheReadInputTokens": 9785,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 14
+  }
+ },
+ "cost": 0.04919,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_7bcf4a9e1c2a4c158cd10831a1048a6e",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 563,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 109,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 9788,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 344,
+     "reasoning_tokens": 14,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 514,
+     "cache_read_tokens": 9785,
+     "cache_write_tokens": 0,
+     "output_tokens": 336,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:13:40+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 9.2
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');print(w.sheetnames)\\nfor s in w:\\n print('\\\\nSHEET',s.title,s.max_row,s.max_column)\\n for row in s:\\n  v=['%s:%s'%(c.coordinate,c.value) for c in row if c.value is not None];print(' | '.join(v))\\nPY\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nfrom openpyxl.formula.tokenizer import Tokenizer\\nfrom openpyxl.utils.cell import range_boundaries\\nw=openpyxl.load_workbook('book.xlsx'); deps={}\\nfor s in w:\\n for row in s:\\n  for c in row:\\n   if c.data_type!='f':continue\\n   d=set()\\n   for t in Tokenizer(c.value).items:\\n    if t.subtype!='RANGE':continue\\n    a=t.value\\n    if '!' in a: sh,a=a.rsplit('!',1);sh=sh.strip(\\\"'\\\").replace(\\\"''\\\", \\\"'\\\")\\n    else:sh=s.title\\n    try:\\n     x,y,X,",
+   "output_chars": 577
+  }
+ ]
+}

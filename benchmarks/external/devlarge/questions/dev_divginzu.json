@@ -1,0 +1,140 @@
+[
+ {
+  "type": "lookup",
+  "cell": "US Industry averages!G2",
+  "q": "What is the value in the row labelled 'Advertising', column headed 'Unlevered Beta', in the sheet 'US Industry averages'?",
+  "truth": 1.00800989034213,
+  "labels": [
+   "A2",
+   "G1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "US Industry averages!V15",
+  "q": "Which cell holds the value in the row labelled 'Business & Consumer Services', column headed 'Net Cap Ex as % of Revenues', in the sheet 'US Industry averages'? Give its cell address.",
+  "truth": "US Industry averages!V15",
+  "labels": [
+   "A15",
+   "V1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Country ERP!D108",
+  "q": "Consider the cell Country ERP!D108 (in the row labelled 'Aaa'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Country ERP!B1",
+   "Country ERP!E108"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Country ERP!D145",
+  "q": "Consider the cell Country ERP!D145 (in the row labelled 'A2'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Country ERP!B1",
+   "Country ERP!E145"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Country ERP!E209",
+  "factor": 1.1,
+  "q": "Suppose the number in Country ERP!E209 (in the row labelled 'Western Europe') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Country ERP!B209",
+   "ERP calculator!C26",
+   "ERP calculator!E26",
+   "ERP calculator!E29",
+   "Inputs!B17",
+   "Stories to Numbers!B12",
+   "Stories to Numbers!D34",
+   "Stories to Numbers!D35",
+   "Stories to Numbers!D36",
+   "Stories to Numbers!D37",
+   "Stories to Numbers!D38",
+   "Stories to Numbers!D40",
+   "Stories to Numbers!F12",
+   "Stories to Numbers!F15",
+   "Stories to Numbers!F16",
+   "Stories to Numbers!F17",
+   "Stories to Numbers!F18",
+   "Stories to Numbers!F19",
+   "Stories to Numbers!F20",
+   "Stories to Numbers!F21",
+   "Stories to Numbers!F22",
+   "Stories to Numbers!F23",
+   "Stories to Numbers!F24",
+   "Stories to Numbers!G15",
+   "Stories to Numbers!G16",
+   "Stories to Numbers!G17",
+   "Stories to Numbers!G18",
+   "Stories to Numbers!G19",
+   "Stories to Numbers!G20",
+   "Stories to Numbers!G21",
+   "Stories to Numbers!G22",
+   "Stories to Numbers!G23",
+   "Stories to Numbers!G24",
+   "Stories to Numbers!G40",
+   "Valuation Output!C17",
+   "Valuation Output!C18",
+   "Valuation Output!C19",
+   "Valuation Output!D17",
+   "Valuation Output!D18",
+   "Valuation Output!D19",
+   "Valuation Output!D24",
+   "Valuation Output!D25",
+   "Valuation Output!D3",
+   "Valuation Output!D35",
+   "Valuation Output!D36",
+   "Valuation Output!D37",
+   "Valuation Output!D38",
+   "Valuation Output!E17",
+   "Valuation Output!E18",
+   "Valuation Output!E19",
+   "Valuation Output!E27",
+   "Valuation Output!E28",
+   "Valuation Output!E29",
+   "Valuation Output!E31",
+   "Valuation Output!F17",
+   "Valuation Output!F18",
+   "Valuation Output!F19",
+   "Valuation Output!G17",
+   "Valuation Output!G18",
+   "Valuation Output!G19",
+   "Valuation Output!H17",
+   "Valuation Output!H18",
+   "Valuation Output!H19",
+   "Valuation Output!I17",
+   "Valuation Output!I18",
+   "Valuation Output!I19",
+   "Valuation Output!J17",
+   "Valuation Output!J18",
+   "Valuation Output!J19",
+   "Valuation Output!K17",
+   "Valuation Output!K18",
+   "Valuation Output!K19",
+   "Valuation Output!L17",
+   "Valuation Output!L18",
+   "Valuation Output!L19"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Country ERP!C72",
+  "range": "Country ERP!C72:F72",
+  "q": "Consider the range Country ERP!C72:F72 (the row of 'Aaa'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Country ERP!C72",
+   "Country ERP!E72",
+   "Country ERP!F72"
+  ],
+  "id": "q6"
+ }
+]

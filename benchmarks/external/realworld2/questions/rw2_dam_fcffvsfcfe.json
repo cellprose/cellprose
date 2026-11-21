@@ -1,0 +1,83 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Sheet1!H13",
+  "q": "What is the value in the row labelled 'Reinvestment rate', column headed 'Terminal Year', in the sheet 'Sheet1'?",
+  "truth": 0.5,
+  "labels": [
+   "A13",
+   "H11"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "Sheet1!G14",
+  "q": "Consider the cell Sheet1!G14 (in the row labelled 'EBIT'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sheet1!C3",
+   "Sheet1!F14"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Sheet1!H18",
+  "q": "Consider the cell Sheet1!H18 (in the row labelled 'FCFF'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sheet1!H16",
+   "Sheet1!H17"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "impact",
+  "cell": "Sheet1!E11",
+  "factor": 1.1,
+  "q": "Suppose the number in Sheet1!E11 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Sheet1!B21",
+   "Sheet1!B22",
+   "Sheet1!B23",
+   "Sheet1!B35",
+   "Sheet1!B38",
+   "Sheet1!C21",
+   "Sheet1!C26",
+   "Sheet1!C27",
+   "Sheet1!C28",
+   "Sheet1!C29",
+   "Sheet1!C31",
+   "Sheet1!C32",
+   "Sheet1!C34",
+   "Sheet1!C38",
+   "Sheet1!D21",
+   "Sheet1!D26",
+   "Sheet1!D27",
+   "Sheet1!D28",
+   "Sheet1!D29",
+   "Sheet1!D31",
+   "Sheet1!D32",
+   "Sheet1!D34",
+   "Sheet1!D38",
+   "Sheet1!E20",
+   "Sheet1!E26",
+   "Sheet1!E27",
+   "Sheet1!E28",
+   "Sheet1!E29",
+   "Sheet1!E31",
+   "Sheet1!E32",
+   "Sheet1!E34"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Sheet1!F11",
+  "range": "Sheet1!F11:F18",
+  "q": "Consider the range Sheet1!F11:F18. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Sheet1!F11"
+  ],
+  "id": "q5"
+ }
+]

@@ -1,0 +1,45 @@
+---
+sheetmark: 0.1
+profile: full
+sheets: [Drivers, Shared, Allocation]
+not_preserved: [styles]
+---
+
+# Sheet: Drivers
+
+## Range A1:D7
+
+| # | A | B | C | D |
+|---|---|---|---|---|
+| 1 | Department | Headcount | Floor area | Tickets |
+| 2 | Engineering | 60 | 900 | 120 |
+| 3 | Sales | 25 | 600 | 40 |
+| 4 | Support | 30 | 400 | 900 |
+| 5 | Finance | 10 | 200 | 60 |
+| 6 | Marketing | 15 | 300 | 80 |
+| 7 | Total | =SUM(B2:B6) → 140 | =SUM(C2:C6) → 2400 | =SUM(D2:D6) → 1200 |
+
+# Sheet: Shared
+
+## Range A1:C4
+
+| # | A | B | C |
+|---|---|---|---|
+| 1 | Pool | Annual cost | Driver |
+| 2 | IT | 600000 | Headcount |
+| 3 | Facilities | 450000 | Floor area |
+| 4 | Helpdesk | 300000 | Tickets |
+
+# Sheet: Allocation
+
+## Range A1:E7
+
+| # | A | B | C | D | E |
+|---|---|---|---|---|---|
+| 1 | Department | IT | Facilities | Helpdesk | Total |
+| 2 | Engineering | =Shared!$B$2*Drivers!B2/Drivers!$B$7 → 257142.8571 | =Shared!$B$3*Drivers!C2/Drivers!$C$7 → 168750 | =Shared!$B$4*Drivers!D2/Drivers!$D$7 → 30000 | =SUM(B2:D2) → 455892.8571 |
+| 3 | Sales | =Shared!$B$2*Drivers!B3/Drivers!$B$7 → 107142.8571 | =Shared!$B$3*Drivers!C3/Drivers!$C$7 → 112500 | 9000 | =SUM(B3:D3) → 228642.8571 |
+| 4 | Support | =Shared!$B$2*Drivers!B4/Drivers!$B$7 → 128571.4286 | =Shared!$B$3*Drivers!C4/Drivers!$C$7 → 75000 | =Shared!$B$4*Drivers!D4/Drivers!$D$7 → 225000 | =SUM(B4:D4) → 428571.4286 |
+| 5 | Finance | =Shared!$B$2*Drivers!B5/Drivers!$B$7 → 42857.14286 | 37500 | =Shared!$B$4*Drivers!D5/Drivers!$D$7 → 15000 | =SUM(B5:D5) → 95357.14286 |
+| 6 | Marketing | =Shared!$B$2*Drivers!B6/Drivers!$B$7 → 64285.71429 | =Shared!$B$3*Drivers!C6/Drivers!$C$7 → 56250 | =Shared!$B$4*Drivers!D6/Drivers!$D$7 → 20000 | =SUM(B6:D6) → 140535.7143 |
+| 7 | Total | =SUM(B2:B6) → 600000 | =SUM(C2:C6) → 450000 | =SUM(D2:D6) → 299000 | =SUM(E2:E6) → 1349000 |

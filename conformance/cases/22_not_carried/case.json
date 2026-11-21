@@ -1,0 +1,8 @@
+{
+ "title": "Dropped features are counted in the front matter note, over all sheets, in a fixed order",
+ "spec": "§3",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ }
+}

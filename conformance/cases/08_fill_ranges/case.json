@@ -1,0 +1,12 @@
+{
+ "title": "Greedy fill ranges: rectangles, mixed $ references, an override, cross-sheet references, a fill down and a fill right",
+ "spec": "§6.1, §7",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

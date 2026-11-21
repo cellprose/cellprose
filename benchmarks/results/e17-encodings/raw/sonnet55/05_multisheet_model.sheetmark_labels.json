@@ -1,0 +1,65 @@
+{
+ "model": "sonnet55",
+ "workbook": "05_multisheet_model",
+ "encoding": "sheetmark_labels",
+ "prompt_chars": 2685,
+ "result": "Net income in Y3 is Summary!D6 = 256721.0486.\n\nProduct B revenue in Y2 is Revenue!C3 = 226600.\n\nTax in Y2 is in Summary!C5.\n\nEBIT in Y1 (Summary!B4) is B2-B3, so it reads Summary!B2 and Summary!B3.\n\nVariable costs in Y2 (Costs!C2) is Revenue!C5*Inputs!$B$11, so it reads Revenue!C5 and Inputs!B11.\n\nIf fixed costs (Inputs!B10) rose 10%:\n- Costs!B3:D3 change directly.\n- Costs!B4:D4 change because they add fixed costs.\n- Summary!B3:D3 change because they pull total costs.\n- Summary!B4:D4 change because EBIT is revenue minus costs.\n- Summary!B5:D5 change because tax is taken on EBIT.\n- Summary!B6:D6 change because net income is EBIT minus tax.\n\nIf Volume B (Inputs!B6) rose 10%, the answer depends on whether anything reads that cell. Revenue!B3 uses Inputs!B3*Inputs!B5, and the formula range B2:B4 = Inputs!B2*Inputs!B5 shifts by row. So B3 = Inputs!B3*Inputs!B6 (Price B \u00d7 Volume B), which does read Inputs!B6. Revenue!B3 therefore changes.\n\nThe effects then flow through:\n- Revenue!C3 and D3 grow from B3.\n- Revenue!B5:D5 sum the products.\n- Costs!B2:D2 are variable costs on total revenue.\n- Costs!B4:D4 are total costs.\n- Summary!B2:D6 all change, since revenue, costs, EBIT, tax and net income all move.\n\n<br>\n\n```json\n{\"q1\":256721.0486,\"q2\":226600,\"q3\":\"Summary!C5\",\"q4\":[\"Summary!B2\",\"Summary!B3\"],\"q5\":[\"Revenue!C5\",\"Inputs!B11\"],\"q6\":[\"Costs!B3:D3\",\"Costs!B4:D4\",\"Summary!B3:D3\",\"Summary!B4:D4\",\"Summary!B5:D5\",\"Summary!B6:D6\"],\"q7\":[\"Revenue!B3\",\"Revenue!C3\",\"Revenue!D3\",\"Revenue!B5:D5\",\"Costs!B2:D2\",\"Costs!B4:D4\",\"Summary!B2:D6\"]}\n```",
+ "usage": {
+  "input_tokens": 1492,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 827,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 1492,
+   "outputTokens": 827,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.011254,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T105651Z-65938b",
+  "started_at": "2026-10-09T10:56:51+00:00",
+  "git_sha": "acbac33",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 5.1,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1492,
+   "output_tokens": 827,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:59:40+00:00"
+ }
+}

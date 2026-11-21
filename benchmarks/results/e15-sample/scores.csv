@@ -1,0 +1,161 @@
+rep,set,model,workbook,encoding,qid,task,score,exact,answer
+r0,standard,gpt61sol,01_sales_log,csv,q1,lookup,1.0,1.0,741
+r0,standard,gpt61sol,01_sales_log,csv,q2,lookup,1.0,1.0,59
+r0,standard,gpt61sol,01_sales_log,csv,q3,lookup,1.0,1.0,159288.25
+r0,standard,gpt61sol,01_sales_log,csv,q4,address,1.0,1.0,"""Sales!H78"""
+r0,standard,gpt61sol,01_sales_log,csv,q5,address,1.0,1.0,"""Sales!F153"""
+r0,standard,gpt61sol,01_sales_log,csv,q6,trace,1.0,1.0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,gpt61sol,01_sales_log,csv,q7,impact,1.0,1.0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,gpt61sol,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,741
+r0,standard,gpt61sol,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,59
+r0,standard,gpt61sol,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,159288
+r0,standard,gpt61sol,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,"""Sales!H78"""
+r0,standard,gpt61sol,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,"""Sales!F153"""
+r0,standard,gpt61sol,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,gpt61sol,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,gpt61sol,04_saas_model,csv,q1,lookup,1.0,1.0,361
+r0,standard,gpt61sol,04_saas_model,csv,q2,lookup,1.0,1.0,393647
+r0,standard,gpt61sol,04_saas_model,csv,q3,address,1.0,1.0,"""Monthly!J9"""
+r0,standard,gpt61sol,04_saas_model,csv,q4,trace,1.0,1.0,"[""Monthly!B5""]"
+r0,standard,gpt61sol,04_saas_model,csv,q5,trace,1.0,1.0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,gpt61sol,04_saas_model,csv,q6,impact,0.9861,0.0,"[""Monthly!C2:M2"", ""Monthly!B4:M7"", ""Monthly!N6"", ""Monthly!B9:N9""]"
+r0,standard,gpt61sol,04_saas_model,csv,q7,impact,1.0,1.0,"[""Monthly!B8:M9"", ""Monthly!N9""]"
+r0,standard,gpt61sol,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,361
+r0,standard,gpt61sol,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,393647
+r0,standard,gpt61sol,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,"""Monthly!J9"""
+r0,standard,gpt61sol,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,"[""Monthly!B5""]"
+r0,standard,gpt61sol,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,gpt61sol,04_saas_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,"[""Monthly!C2:M2"", ""Monthly!B4:C4"", ""Monthly!F4:M4"", ""Monthly!B5:M5"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:N9""]"
+r0,standard,gpt61sol,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,"[""Monthly!B8:M8"", ""Monthly!B9:N9""]"
+r0,hard,gpt61sol,11_forecast_overrides,csv,q1,lookup,1.0,1.0,1515987.648
+r0,hard,gpt61sol,11_forecast_overrides,csv,q2,hardcode,1.0,1.0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,gpt61sol,11_forecast_overrides,csv,q3,hardcode,0.6667,0.0,"[""Forecast!K5""]"
+r0,hard,gpt61sol,11_forecast_overrides,csv,q4,trace,1.0,1.0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,gpt61sol,11_forecast_overrides,csv,q5,impact,1.0,1.0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r0,hard,gpt61sol,11_forecast_overrides,csv,q6,impact,0.9524,0.0,"[""Forecast!C4:M4"", ""Forecast!C5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r0,hard,gpt61sol,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,1515990
+r0,hard,gpt61sol,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,gpt61sol,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,gpt61sol,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,0.0,0.0,[]
+r0,hard,gpt61sol,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r0,hard,gpt61sol,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r0,standard,gpt6astra,01_sales_log,csv,q1,lookup,1.0,1.0,741
+r0,standard,gpt6astra,01_sales_log,csv,q2,lookup,1.0,1.0,59
+r0,standard,gpt6astra,01_sales_log,csv,q3,lookup,1.0,1.0,159288.25
+r0,standard,gpt6astra,01_sales_log,csv,q4,address,1.0,1.0,"""Sales!H78"""
+r0,standard,gpt6astra,01_sales_log,csv,q5,address,1.0,1.0,"""Sales!F153"""
+r0,standard,gpt6astra,01_sales_log,csv,q6,trace,1.0,1.0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,gpt6astra,01_sales_log,csv,q7,impact,1.0,1.0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,gpt6astra,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,741
+r0,standard,gpt6astra,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,59
+r0,standard,gpt6astra,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,159288
+r0,standard,gpt6astra,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,"""Sales!H78"""
+r0,standard,gpt6astra,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,"""Sales!F153"""
+r0,standard,gpt6astra,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,gpt6astra,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,gpt6astra,04_saas_model,csv,q1,lookup,1.0,1.0,361
+r0,standard,gpt6astra,04_saas_model,csv,q2,lookup,1.0,1.0,393647
+r0,standard,gpt6astra,04_saas_model,csv,q3,address,1.0,1.0,"""Monthly!J9"""
+r0,standard,gpt6astra,04_saas_model,csv,q4,trace,1.0,1.0,"[""Monthly!B5""]"
+r0,standard,gpt6astra,04_saas_model,csv,q5,trace,1.0,1.0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,gpt6astra,04_saas_model,csv,q6,impact,0.9861,0.0,"[""Monthly!C2:M2"", ""Monthly!B4:M4"", ""Monthly!B5:M5"", ""Monthly!B6:N6"", ""Monthly!B7:M7"", ""Monthly!B9:N9""]"
+r0,standard,gpt6astra,04_saas_model,csv,q7,impact,1.0,1.0,"[""Monthly!B8:M8"", ""Monthly!B9:N9""]"
+r0,standard,gpt6astra,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,361
+r0,standard,gpt6astra,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,393647
+r0,standard,gpt6astra,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,"""Monthly!J9"""
+r0,standard,gpt6astra,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,"[""Monthly!B5""]"
+r0,standard,gpt6astra,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,gpt6astra,04_saas_model,sheetmark_lean_gfm,q6,impact,1.0,1.0,"[""Monthly!C2:M2"", ""Monthly!B4:C4"", ""Monthly!F4:M4"", ""Monthly!B5:M7"", ""Monthly!N6"", ""Monthly!B9:N9""]"
+r0,standard,gpt6astra,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,"[""Monthly!B8:M9"", ""Monthly!N9""]"
+r0,hard,gpt6astra,11_forecast_overrides,csv,q1,lookup,1.0,1.0,1515987.648
+r0,hard,gpt6astra,11_forecast_overrides,csv,q2,hardcode,1.0,1.0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,gpt6astra,11_forecast_overrides,csv,q3,hardcode,0.6667,0.0,"[""Forecast!K5""]"
+r0,hard,gpt6astra,11_forecast_overrides,csv,q4,trace,1.0,1.0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,gpt6astra,11_forecast_overrides,csv,q5,impact,1.0,1.0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:N3""]"
+r0,hard,gpt6astra,11_forecast_overrides,csv,q6,impact,0.9524,0.0,"[""Forecast!C4:M4"", ""Forecast!C5:J5"", ""Forecast!L5:N5""]"
+r0,hard,gpt6astra,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,1515990
+r0,hard,gpt6astra,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,gpt6astra,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,gpt6astra,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,1.0,1.0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,gpt6astra,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:N3""]"
+r0,hard,gpt6astra,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:N5""]"
+r0,standard,gpt6luna,01_sales_log,csv,q1,lookup,1.0,1.0,741
+r0,standard,gpt6luna,01_sales_log,csv,q2,lookup,1.0,1.0,59
+r0,standard,gpt6luna,01_sales_log,csv,q3,lookup,1.0,1.0,159288.25
+r0,standard,gpt6luna,01_sales_log,csv,q4,address,1.0,1.0,"""Sales!H78"""
+r0,standard,gpt6luna,01_sales_log,csv,q5,address,1.0,1.0,"""Sales!F153"""
+r0,standard,gpt6luna,01_sales_log,csv,q6,trace,1.0,1.0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,gpt6luna,01_sales_log,csv,q7,impact,1.0,1.0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,741
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,59
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,159288
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,"""Sales!H78"""
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,"""Sales!F153"""
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,gpt6luna,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,gpt6luna,04_saas_model,csv,q1,lookup,1.0,1.0,361
+r0,standard,gpt6luna,04_saas_model,csv,q2,lookup,1.0,1.0,393647
+r0,standard,gpt6luna,04_saas_model,csv,q3,address,1.0,1.0,"""Monthly!J9"""
+r0,standard,gpt6luna,04_saas_model,csv,q4,trace,1.0,1.0,"[""Monthly!B5""]"
+r0,standard,gpt6luna,04_saas_model,csv,q5,trace,1.0,1.0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,gpt6luna,04_saas_model,csv,q6,impact,0.9861,0.0,"[""Monthly!C2:M2"", ""Monthly!B4:M7"", ""Monthly!B9:M9"", ""Monthly!N6"", ""Monthly!N9""]"
+r0,standard,gpt6luna,04_saas_model,csv,q7,impact,0.0,0.0,[]
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,361
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,393647
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,"""Monthly!J9"""
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,"[""Monthly!B5""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q6,impact,0.9861,0.0,"[""Monthly!C2:M2"", ""Monthly!B4:M4"", ""Monthly!B5:M5"", ""Monthly!B6:M6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N6"", ""Monthly!N9""]"
+r0,standard,gpt6luna,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,hard,gpt6luna,11_forecast_overrides,csv,q1,lookup,1.0,1.0,1515987.648
+r0,hard,gpt6luna,11_forecast_overrides,csv,q2,hardcode,1.0,1.0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,gpt6luna,11_forecast_overrides,csv,q3,hardcode,0.6667,0.0,"[""Forecast!K5""]"
+r0,hard,gpt6luna,11_forecast_overrides,csv,q4,trace,1.0,1.0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,gpt6luna,11_forecast_overrides,csv,q5,impact,1.0,1.0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r0,hard,gpt6luna,11_forecast_overrides,csv,q6,impact,0.9524,0.0,"[""Forecast!C4:M4"", ""Forecast!C5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,1515987
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,0.0,0.0,[]
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,0.9524,0.0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:M3"", ""Forecast!N3""]"
+r0,hard,gpt6luna,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"
+r0,standard,opus55,01_sales_log,csv,q1,lookup,1.0,1.0,741
+r0,standard,opus55,01_sales_log,csv,q2,lookup,1.0,1.0,59
+r0,standard,opus55,01_sales_log,csv,q3,lookup,1.0,1.0,159288.25
+r0,standard,opus55,01_sales_log,csv,q4,address,1.0,1.0,"""Sales!H78"""
+r0,standard,opus55,01_sales_log,csv,q5,address,1.0,1.0,"""Sales!F153"""
+r0,standard,opus55,01_sales_log,csv,q6,trace,1.0,1.0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,opus55,01_sales_log,csv,q7,impact,1.0,1.0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,opus55,01_sales_log,sheetmark_lean_gfm,q1,lookup,1.0,1.0,741
+r0,standard,opus55,01_sales_log,sheetmark_lean_gfm,q2,lookup,1.0,1.0,59
+r0,standard,opus55,01_sales_log,sheetmark_lean_gfm,q3,lookup,1.0,1.0,159288
+r0,standard,opus55,01_sales_log,sheetmark_lean_gfm,q4,address,1.0,1.0,"""Sales!H78"""
+r0,standard,opus55,01_sales_log,sheetmark_lean_gfm,q5,address,1.0,1.0,"""Sales!F153"""
+r0,standard,opus55,01_sales_log,sheetmark_lean_gfm,q6,trace,1.0,1.0,"[""Sales!F43"", ""Sales!G43""]"
+r0,standard,opus55,01_sales_log,sheetmark_lean_gfm,q7,impact,1.0,1.0,"[""Sales!H43"", ""Sales!F153"", ""Sales!H153""]"
+r0,standard,opus55,04_saas_model,csv,q1,lookup,1.0,1.0,361
+r0,standard,opus55,04_saas_model,csv,q2,lookup,1.0,1.0,393647
+r0,standard,opus55,04_saas_model,csv,q3,address,1.0,1.0,"""Monthly!J9"""
+r0,standard,opus55,04_saas_model,csv,q4,trace,1.0,1.0,"[""Monthly!B5""]"
+r0,standard,opus55,04_saas_model,csv,q5,trace,1.0,1.0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,opus55,04_saas_model,csv,q6,impact,0.9861,0.0,"[""Monthly!B4:M4"", ""Monthly!B5:M5"", ""Monthly!C2:M2"", ""Monthly!B6:M6"", ""Monthly!N6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,standard,opus55,04_saas_model,csv,q7,impact,1.0,1.0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,standard,opus55,04_saas_model,sheetmark_lean_gfm,q1,lookup,1.0,1.0,361
+r0,standard,opus55,04_saas_model,sheetmark_lean_gfm,q2,lookup,1.0,1.0,393647
+r0,standard,opus55,04_saas_model,sheetmark_lean_gfm,q3,address,1.0,1.0,"""Monthly!J9"""
+r0,standard,opus55,04_saas_model,sheetmark_lean_gfm,q4,trace,1.0,1.0,"[""Monthly!B5""]"
+r0,standard,opus55,04_saas_model,sheetmark_lean_gfm,q5,trace,1.0,1.0,"[""Monthly!B6"", ""Assumptions!B7""]"
+r0,standard,opus55,04_saas_model,sheetmark_lean_gfm,q6,impact,0.9861,0.0,"[""Monthly!B4:M4"", ""Monthly!B5:M5"", ""Monthly!C2:M2"", ""Monthly!B6:M6"", ""Monthly!N6"", ""Monthly!B7:M7"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,standard,opus55,04_saas_model,sheetmark_lean_gfm,q7,impact,1.0,1.0,"[""Monthly!B8:M8"", ""Monthly!B9:M9"", ""Monthly!N9""]"
+r0,hard,opus55,11_forecast_overrides,csv,q1,lookup,1.0,1.0,1515987.648
+r0,hard,opus55,11_forecast_overrides,csv,q2,hardcode,1.0,1.0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,opus55,11_forecast_overrides,csv,q3,hardcode,0.0,0.0,"[""Forecast!L5""]"
+r0,hard,opus55,11_forecast_overrides,csv,q4,trace,1.0,1.0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,opus55,11_forecast_overrides,csv,q5,impact,1.0,1.0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:N3""]"
+r0,hard,opus55,11_forecast_overrides,csv,q6,impact,0.9048,0.0,"[""Forecast!C4:M4"", ""Forecast!C5:K5"", ""Forecast!M5:N5""]"
+r0,hard,opus55,11_forecast_overrides,sheetmark_lean_gfm,q1,lookup,1.0,1.0,1515987.648
+r0,hard,opus55,11_forecast_overrides,sheetmark_lean_gfm,q2,hardcode,1.0,1.0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,opus55,11_forecast_overrides,sheetmark_lean_gfm,q3,hardcode,1.0,1.0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,opus55,11_forecast_overrides,sheetmark_lean_gfm,q4,trace,1.0,1.0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,opus55,11_forecast_overrides,sheetmark_lean_gfm,q5,impact,1.0,1.0,"[""Forecast!C2:E2"", ""Forecast!G2:I2"", ""Forecast!K2:M2"", ""Forecast!N2"", ""Forecast!C3:E3"", ""Forecast!G3:I3"", ""Forecast!K3:M3"", ""Forecast!N3""]"
+r0,hard,opus55,11_forecast_overrides,sheetmark_lean_gfm,q6,impact,1.0,1.0,"[""Forecast!C4:G4"", ""Forecast!I4:M4"", ""Forecast!C5:G5"", ""Forecast!I5:J5"", ""Forecast!L5:M5"", ""Forecast!N5""]"

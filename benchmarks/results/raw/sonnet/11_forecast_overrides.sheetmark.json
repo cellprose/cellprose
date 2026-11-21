@@ -1,0 +1,72 @@
+{
+ "model": "sonnet",
+ "workbook": "11_forecast_overrides",
+ "encoding": "sheetmark",
+ "prompt_chars": 2335,
+ "result": "{\"q1\":1515987.648,\"q2\":[\"F2\",\"J2\"],\"q3\":[\"H4\",\"K5\"],\"q4\":[\"Forecast!F2\",\"Forecast!B7\"],\"q5\":[\"Forecast!C2:E2\",\"Forecast!G2:I2\",\"Forecast!K2:M2\",\"Forecast!C3:E3\",\"Forecast!G3:I3\",\"Forecast!K3:M3\",\"Forecast!N2:N3\"],\"q6\":[\"Forecast!C4:G4\",\"Forecast!I4:M4\",\"Forecast!C5:G5\",\"Forecast!I5:J5\",\"Forecast!L5:M5\",\"Forecast!N5\"]}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2692,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 829,
+  "output_tokens_details": {
+   "thinking_tokens": 617
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2692,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 829,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2692,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2692
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1887,
+   "outputTokens": 12,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.001947,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 829,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 2692,
+   "webSearchRequests": 0,
+   "costUSD": 0.019062000000000003,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 617,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.021009000000000003
+}

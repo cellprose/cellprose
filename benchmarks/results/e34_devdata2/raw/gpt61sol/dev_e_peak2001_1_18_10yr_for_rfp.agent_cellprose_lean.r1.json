@@ -1,0 +1,119 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_peak2001_1_18_10yr_for_rfp",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 4282,
+ "prompt_sha256": "e5452e81a85c01c637fe882819670c3d3c8d929d1355d66f4a70e9f5de3e6f8d",
+ "result": "{\n  \"q1\": 0.051,\n  \"q2\": \"Seller's's PP Calc!W9\",\n  \"q3\": [\n    \"Seller's's PP Calc!A12\",\n    \"Seller's's PP Calc!B90\"\n  ],\n  \"q4\": [\n    \"Purchasers!A41:A42\"\n  ],\n  \"q5\": [\n    \"Purchasers!S131\",\n    \"Purchasers!AB131:AC131\",\n    \"Purchasers!AE131:AF131\",\n    \"Purchasers!R133:S133\",\n    \"Purchasers!AB133:AC133\",\n    \"Purchasers!AE133:AF133\",\n    \"Swaps!E131\",\n    \"Swaps!O131\",\n    \"Swaps!Q131\",\n    \"Swaps!S131\",\n    \"Swaps!U131\",\n    \"Swaps!W131:AA131\",\n    \"Swaps!AC131\",\n    \"Swaps!E133\",\n    \"Swaps!O133\",\n    \"Swaps!Q133\",\n    \"Swaps!S133\",\n    \"Swaps!U133\",\n    \"Swaps!W133:AA133\",\n    \"Swaps!AC133\",\n    \"Seller's's PP Calc!L132\",\n    \"Seller's's PP Calc!P132\",\n    \"Seller's's PP Calc!S132:U132\",\n    \"Seller's's PP Calc!X132\",\n    \"Seller's's PP Calc!L134\",\n    \"Seller's's PP Calc!P134\",\n    \"Seller's's PP Calc!S134:U134\",\n    \"Seller's's PP Calc!X134\"\n  ],\n  \"q6\": [\n    \"Purchasers!E34\",\n    \"Purchasers!G34\",\n    \"Purchasers!I34\",\n    \"Purchasers!K34\",\n    \"Purchasers!M34\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 895,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 3896,
+  "output_tokens": 542,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 895,
+   "outputTokens": 542,
+   "cacheReadInputTokens": 3896,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.015001999999999998,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_4a2c95e124374c70b5ad5c507ab45ec9",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 1948,
+     "cache_write_tokens": 0,
+     "output_tokens": 133,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 892,
+     "cache_read_tokens": 1948,
+     "cache_write_tokens": 0,
+     "output_tokens": 409,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T16:30:35+00:00",
+  "run_id": "20261107T162647Z-9ba68e",
+  "started_at": "2026-11-07T16:26:47+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 13.1
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Seller's's PP Calc!S3:X11\", \"Purchasers!E34:P34\"]}",
+   "output_chars": 776
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Seller's's PP Calc!C90\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 110
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Purchasers!C41\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 70
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Purchasers!R131\", \"factor\": 1.1}",
+   "output_chars": 587
+  }
+ ]
+}

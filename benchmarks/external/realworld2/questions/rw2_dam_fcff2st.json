@@ -1,0 +1,103 @@
+[
+ {
+  "type": "lookup",
+  "cell": "NewFCFF2Stage!N134",
+  "q": "What is the value in the row labelled 'EBIT * (1 - tax rate)', column headed 'Terminal Year', in the sheet 'NewFCFF2Stage'?",
+  "truth": 6494.75424716556,
+  "labels": [
+   "B134",
+   "N133"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "NewFCFF2Stage!F149",
+  "q": "Consider the cell NewFCFF2Stage!F149 (in the row labelled 'Present Value of FCFF in high growth phase ='). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "NewFCFF2Stage!D138",
+   "NewFCFF2Stage!E138",
+   "NewFCFF2Stage!F138",
+   "NewFCFF2Stage!G138",
+   "NewFCFF2Stage!H138",
+   "NewFCFF2Stage!I138",
+   "NewFCFF2Stage!J138",
+   "NewFCFF2Stage!K138",
+   "NewFCFF2Stage!L138",
+   "NewFCFF2Stage!M138"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "NewFCFF2Stage!E137",
+  "q": "Consider the cell NewFCFF2Stage!E137 (in the row labelled 'Free Cashflow to Firm'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "NewFCFF2Stage!E133",
+   "NewFCFF2Stage!E134",
+   "NewFCFF2Stage!E135",
+   "NewFCFF2Stage!E136",
+   "NewFCFF2Stage!E43"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "impact",
+  "cell": "NewFCFF2Stage!E30",
+  "factor": 1.1,
+  "q": "Suppose the number in NewFCFF2Stage!E30 (in the row labelled 'Book Value of Debt =') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "NewFCFF2Stage!C67",
+   "NewFCFF2Stage!D122",
+   "NewFCFF2Stage!D123",
+   "NewFCFF2Stage!D127",
+   "NewFCFF2Stage!D128",
+   "NewFCFF2Stage!D129",
+   "NewFCFF2Stage!D134",
+   "NewFCFF2Stage!D135",
+   "NewFCFF2Stage!D136",
+   "NewFCFF2Stage!D137",
+   "NewFCFF2Stage!D138",
+   "NewFCFF2Stage!E134",
+   "NewFCFF2Stage!E135",
+   "NewFCFF2Stage!E136",
+   "NewFCFF2Stage!E137",
+   "NewFCFF2Stage!E138",
+   "NewFCFF2Stage!E141",
+   "NewFCFF2Stage!E147",
+   "NewFCFF2Stage!F134",
+   "NewFCFF2Stage!F135",
+   "NewFCFF2Stage!F136",
+   "NewFCFF2Stage!F137",
+   "NewFCFF2Stage!F138",
+   "NewFCFF2Stage!F149",
+   "NewFCFF2Stage!F150",
+   "NewFCFF2Stage!F151",
+   "NewFCFF2Stage!F154",
+   "NewFCFF2Stage!F156",
+   "NewFCFF2Stage!G134",
+   "NewFCFF2Stage!G135",
+   "NewFCFF2Stage!G136",
+   "NewFCFF2Stage!G137",
+   "NewFCFF2Stage!G138",
+   "NewFCFF2Stage!H134",
+   "NewFCFF2Stage!H135",
+   "NewFCFF2Stage!H136",
+   "NewFCFF2Stage!H137",
+   "NewFCFF2Stage!H138",
+   "NewFCFF2Stage!N134",
+   "NewFCFF2Stage!N135",
+   "NewFCFF2Stage!N136",
+   "NewFCFF2Stage!N137"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "NewFCFF2Stage!I133",
+  "range": "NewFCFF2Stage!I133:I138",
+  "q": "Consider the range NewFCFF2Stage!I133:I138. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q5"
+ }
+]

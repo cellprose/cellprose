@@ -1,0 +1,68 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Summary!F24",
+  "q": "What is the value in the row labelled 'ASTORIA 5-9____', column headed 'PJM $/Mwhr', in the sheet 'Summary'?",
+  "truth": 4.49,
+  "labels": [
+   "B24",
+   "F1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Summary!E15",
+  "q": "Which cell holds the value in the row labelled 'ALBANY___3', column headed 'OH $/Mwhr', in the sheet 'Summary'? Give its cell address.",
+  "truth": "Summary!E15",
+  "labels": [
+   "B15",
+   "E1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Calculator!F15",
+  "q": "Consider the cell Calculator!F15 (in the row labelled 'NYPA'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Calculator!D15",
+   "Calculator!F2"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Stripped!I258",
+  "q": "Consider the cell Stripped!I258 (in the row labelled 'NIAGARA MOHAWK'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Stripped!F258",
+   "Stripped!H258"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Stripped!G256",
+  "factor": 1.1,
+  "q": "Suppose the number in Stripped!G256 (in the row labelled 'NYPA') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Calculator!D11",
+   "Calculator!D16",
+   "Stripped!G277"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Stripped!F256",
+  "range": "Stripped!F256:I256",
+  "q": "Consider the range Stripped!F256:I256 (the row of 'NYPA'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Stripped!F256",
+   "Stripped!G256",
+   "Stripped!H256"
+  ],
+  "id": "q6"
+ }
+]

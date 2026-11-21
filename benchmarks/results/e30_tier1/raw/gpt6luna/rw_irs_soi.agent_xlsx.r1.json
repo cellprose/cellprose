@@ -1,0 +1,116 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_irs_soi",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1363,
+ "prompt_sha256": "ae1bf20158d6748d6b228c92e1e65c5502da4f24925b847d1708bd4a4627ddde",
+ "result": "{\"q1\":22602996,\"q2\":2458885718,\"q3\":\"TBL11!U29\",\"q4\":[\"TBL11!Q27\",\"TBL11!G27\"],\"q5\":[\"TBL11!U26\"]}",
+ "usage": {
+  "input_tokens": 8579,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 6411,
+  "output_tokens": 688,
+  "output_tokens_details": {
+   "thinking_tokens": 298
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 8579,
+   "outputTokens": 688,
+   "cacheReadInputTokens": 6411,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 298
+  }
+ },
+ "cost": 0.001843,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_4d407807fc734f65b788ed29cfbb3d9c",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 485,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 121,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 6414,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 297,
+     "reasoning_tokens": 89,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1680,
+     "cache_read_tokens": 6411,
+     "cache_write_tokens": 0,
+     "output_tokens": 270,
+     "reasoning_tokens": 209,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:09:59+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.7
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl, os\\np='book.xlsx'; wbf=openpyxl.load_workbook(p, data_only=False)\\nprint(wbf.sheetnames)\\nws=wbf['TBL11']; print(ws.max_row,ws.max_column)\\nfor row in ws.iter_rows():\\n vals=[c.value for c in row]\\n if any(v is not None for v in vals): print(row[0].row, vals[:15])\\nPY\"}",
+   "output_chars": 12193
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False);s=w['TBL11']\\nfor r in range(3,10):\\n print('ROW',r,[(openpyxl.utils.get_column_letter(c),s.cell(r,c).value) for c in range(1,29) if s.cell(r,c).value is not None])\\nfor r in [20,22,26,27,29]:\\n print('ROW',r, [(openpyxl.utils.get_column_letter(c),s.cell(r,c).value) for c in range(1,29) if s.cell(r,c).value is not None])\\nfor row in s.iter_rows():\\n for c in row:\\n  if c.data_type=='f': print('F",
+   "output_chars": 3029
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "model": "sonnet",
+ "workbook": "05_multisheet_model",
+ "encoding": "agent_sheetmark",
+ "result": "{\"q1\":256721,\"q2\":226600,\"q3\":\"Summary!C5\",\"q4\":[\"Summary!B2\",\"Summary!B3\"],\"q5\":[\"Revenue!C5\",\"Inputs!B11\"],\"q6\":[\"Costs!B4:D4\",\"Summary!B3:D3\",\"Summary!B4:D4\",\"Summary!B5:D5\",\"Summary!B6:D6\"],\"q7\":[\"Revenue!B3:D3\",\"Revenue!B5:D5\",\"Costs!B2:D2\",\"Costs!B4:D4\",\"Summary!B2:D2\",\"Summary!B3:D3\",\"Summary!B4:D4\",\"Summary!B5:D5\",\"Summary!B6:D6\"]}",
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2708,
+  "cache_read_input_tokens": 6108,
+  "output_tokens": 411,
+  "output_tokens_details": {
+   "thinking_tokens": 131
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2708,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 356,
+    "cache_read_input_tokens": 3955,
+    "cache_creation_input_tokens": 906,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 906
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1558,
+   "outputTokens": 169,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.00024029999999999999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 147,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 411,
+   "cacheReadInputTokens": 6108,
+   "cacheCreationInputTokens": 2708,
+   "webSearchRequests": 0,
+   "costUSD": 0.0161716,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 131,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.0164119,
+ "num_turns": 2,
+ "subtype": "success"
+}

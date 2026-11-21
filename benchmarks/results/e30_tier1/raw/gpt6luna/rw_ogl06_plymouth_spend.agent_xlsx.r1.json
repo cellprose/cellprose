@@ -1,0 +1,116 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_ogl06_plymouth_spend",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 908,
+ "prompt_sha256": "9b5f80e7367df0547d3ce287a37282fc0aed33598abb6c30731e58a205eef279",
+ "result": "{\"q1\":1299775.98,\"q2\":\"KNOWLEDGE ACADEMY LTD (THE)\",\"q3\":\"BI report!D262\"}",
+ "usage": {
+  "input_tokens": 1677,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1065,
+  "output_tokens": 300,
+  "output_tokens_details": {
+   "thinking_tokens": 26
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 1677,
+   "outputTokens": 300,
+   "cacheReadInputTokens": 1065,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 26
+  }
+ },
+ "cost": 0.0004242,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_36b42b88c9264c03b7761d6215b691ba",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 361,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 103,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1068,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 159,
+     "reasoning_tokens": 26,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 248,
+     "cache_read_tokens": 1065,
+     "cache_write_tokens": 0,
+     "output_tokens": 38,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:10:10+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 5.0
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\np='book.xlsx'\\nw=openpyxl.load_workbook(p,data_only=True)\\nprint(w.sheetnames)\\ns=w['BI report']\\nfor row in s.iter_rows(min_row=1,max_row=5,values_only=False):\\n print([(c.coordinate,c.value) for c in row if c.value is not None])\\nPY\"}",
+   "output_chars": 1719
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\ns=openpyxl.load_workbook('book.xlsx',data_only=True)['BI report']\\nfor r in range(1,s.max_row+1):\\n if s.cell(r,7).value in (47168013,47248380,47401369):\\n  print(r,s.cell(r,7).value,'AP',s.cell(r,8).value,'Supplier',s.cell(r,6).value,'expense',s.cell(r,4).value)\\nPY\"}",
+   "output_chars": 251
+  }
+ ]
+}

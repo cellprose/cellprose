@@ -1,0 +1,58 @@
+{
+ "model": "haiku",
+ "workbook": "12_lookalike_drivers",
+ "encoding": "none",
+ "prompt_chars": 1159,
+ "result": "```json\n{\n  \"q1\": 1000,\n  \"q2\": [\"Sheet1!C4\", \"Sheet1!I10\"],\n  \"q3\": [\"Sheet1!B3\", \"Sheet1!I9\"],\n  \"q4\": [\"Sheet1!B5\", \"Sheet1!I11\"],\n  \"q5\": [\"Sheet1!C3\", \"Sheet1!D3\", \"Sheet1!E3\", \"Sheet1!C6\", \"Sheet1!D6\", \"Sheet1!E6\"],\n  \"q6\": [\"Sheet1!C2\", \"Sheet1!D2\", \"Sheet1!E2\", \"Sheet1!C6\", \"Sheet1!D6\", \"Sheet1!E6\"],\n  \"q7\": [\"Sheet1!C5\", \"Sheet1!D5\", \"Sheet1!E5\", \"Sheet1!C6\", \"Sheet1!D6\", \"Sheet1!E6\"]\n}\n```\n\n**Assumptions made:**\n- Standard financial model layout: rows for Revenue/Wages/Rent/Marketing/Profit, columns for Y1-Y4\n- Column layout: B=Y1, C=Y2, D=Y3, E=Y4; Rows: 2=Revenue, 3=Wages, 4=Rent, 5=Marketing, 6=Profit\n- Parameters stored in column I around rows 9-12 (Wage Inflation, Rent Inflation, Marketing Growth, Price Inflation)\n- Each year compounds on the previous year using the growth/inflation parameters\n- Profit = Revenue - Wages - Rent - Marketing\n- Changes to inflation parameters cascade through current and future years, affecting both the direct cost/revenue items and downstream profit calculations",
+ "usage": {
+  "input_tokens": 1500,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7082,
+  "output_tokens_details": {
+   "thinking_tokens": 6678
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1500,
+    "output_tokens": 7082,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 2702,
+   "outputTokens": 7096,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.038182,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 6678,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.038182
+}

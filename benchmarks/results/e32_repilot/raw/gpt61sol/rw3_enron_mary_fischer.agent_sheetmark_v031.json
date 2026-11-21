@@ -1,0 +1,152 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw3_enron_mary_fischer",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1276,
+ "prompt_sha256": "42eff180902a93e5e01b0dfdc7e3233028210726b5829df7e1bb697c3118e653",
+ "result": "{\n  \"q1\": -13304252,\n  \"q2\": \"E20.XLS!E16\",\n  \"q3\": [\"E8.XLS!C19:I19\"],\n  \"q4\": [\"E20.XLS!C30:I30\"],\n  \"q5\": [\"E20.XLS!K16\", \"E20.XLS!C41\", \"E20.XLS!K41\"],\n  \"q6\": []\n}",
+ "usage": {
+  "input_tokens": 10532,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 9803,
+  "output_tokens": 303,
+  "output_tokens_details": {
+   "thinking_tokens": 49
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 10532,
+   "outputTokens": 303,
+   "cacheReadInputTokens": 9803,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 49
+  }
+ },
+ "cost": 0.0437,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_c6b71ccf1e63458b895ae45fe34e5a2b",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 465,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 27,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 945,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 27,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1173,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 61,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 7466,
+     "cache_read_tokens": 1170,
+     "cache_write_tokens": 0,
+     "output_tokens": 88,
+     "reasoning_tokens": 49,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 483,
+     "cache_read_tokens": 8633,
+     "cache_write_tokens": 0,
+     "output_tokens": 100,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:57:17+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.6
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l; head -80 book.sheet.md\"}",
+   "output_chars": 970
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n '^# Sheet:' book.sheet.md\"}",
+   "output_chars": 414
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '2078,2340p' book.sheet.md; sed -n '4076,4505p' book.sheet.md; sed -n '5914,6267p' book.sheet.md\"}",
+   "output_chars": 14227
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n -i 'E20\\\\|C41\\\\|K41' book.sheet.md\"}",
+   "output_chars": 677
+  }
+ ]
+}

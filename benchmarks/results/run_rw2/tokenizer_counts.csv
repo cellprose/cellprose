@@ -1,0 +1,13 @@
+model,encoding,n,billed_in,tokenizer_count,tokenizer,count_vs_billed,count_vs_csv
+gpt61sol,cellprose_v03,90,18990.8,18979.8,o200k_base (tiktoken),0.999,1.597
+gpt61sol,csv,90,11893.733333333334,11882.733333333334,o200k_base (tiktoken),0.999,1.0
+gpt61sol,markitdown,90,24260.633333333335,24249.633333333335,o200k_base (tiktoken),1.0,2.041
+gpt6luna,cellprose_v03,90,18990.8,18979.8,o200k_base (tiktoken),0.999,1.597
+gpt6luna,csv,90,11893.733333333334,11882.733333333334,o200k_base (tiktoken),0.999,1.0
+gpt6luna,markitdown,90,24260.633333333335,24249.633333333335,o200k_base (tiktoken),1.0,2.041
+haiku55,cellprose_v03,90,23449.0,23449.0,anthropic count_tokens,1.0,1.307
+haiku55,csv,90,17945.233333333334,17945.233333333334,anthropic count_tokens,1.0,1.0
+haiku55,markitdown,90,32105.166666666668,32105.166666666668,anthropic count_tokens,1.0,1.789
+sonnet55,cellprose_v03,90,23449.0,23449.0,anthropic count_tokens,1.0,1.307
+sonnet55,csv,90,17945.233333333334,17945.233333333334,anthropic count_tokens,1.0,1.0
+sonnet55,markitdown,90,32105.166666666668,32105.166666666668,anthropic count_tokens,1.0,1.789

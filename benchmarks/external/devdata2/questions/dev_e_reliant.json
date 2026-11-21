@@ -1,0 +1,75 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Deal!O48",
+  "q": "What is the value in the row labelled 'Difference to Model Calculation', in the sheet 'Deal'?",
+  "truth": 81326.86651950433,
+  "labels": [
+   "M48"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Max Rates!O47",
+  "q": "Which cell holds the value in the row labelled 'Commodity Costs per CBS', in the sheet 'Max Rates'? Give its cell address.",
+  "truth": "Max Rates!O47",
+  "labels": [
+   "M47"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Deal!G34",
+  "q": "Consider the cell Deal!G34. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Deal!B34",
+   "Deal!C34",
+   "Deal!D34",
+   "Deal!E34",
+   "Deal!F34"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Deal!O37",
+  "q": "Consider the cell Deal!O37. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Deal!L37",
+   "Deal!M37"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Deal!M28",
+  "factor": 1.1,
+  "q": "Suppose the number in Deal!M28 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Deal!O28",
+   "Deal!O38",
+   "Deal!O46",
+   "Deal!O48",
+   "Deal!Q28",
+   "Deal!Q38"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Deal!B7",
+  "range": "Deal!B7:J7",
+  "q": "Consider the range Deal!B7:J7. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Deal!B7",
+   "Deal!C7",
+   "Deal!E7",
+   "Deal!F7",
+   "Deal!H7",
+   "Deal!I7"
+  ],
+  "id": "q6"
+ }
+]

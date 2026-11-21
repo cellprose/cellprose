@@ -1,0 +1,266 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_dam_fcffginzu",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1325,
+ "prompt_sha256": "e56e283ae7a16cde25d13dcfd45a6c7d0a5ae270a55ca0aab2298bd89b666a17",
+ "result": "{\"q1\": 377.14, \"q2\": 0.0830099, \"q3\": \"Valuation Model!F62\", \"q4\": [\"Valuation Model!F65\", \"Valuation Model!F66\", \"Valuation Model!F67\"], \"q5\": [\"Valuation Model!F72\", \"Valuation Model!F71\"], \"q6\": [\"Master Inputs Start here!B59\", \"Master Inputs Start here!B61\", \"Valuation Model!D16\", \"Valuation Model!D17\", \"Valuation Model!D27\", \"Valuation Model!D28\", \"Valuation Model!D30\", \"Valuation Model!D31\", \"Valuation Model!D47:L47\", \"Valuation Model!D48:M48\", \"Valuation Model!D49:M49\", \"Valuation Model!F61\", \"Valuation Model!F62\", \"Valuation Model!F63\", \"Valuation Model!F65\", \"Valuation Model!F68\", \"Valuation Model!F70\", \"Valuation Model!F71\", \"Valuation Model!F73\", \"Input Summary!B5\", \"Cost of capital worksheet!B4\", \"Cost of capital worksheet!B38\", \"Cost of capital worksheet!E38\", \"Cost of capital worksheet!B39\", \"Cost of capital worksheet!C39\", \"Cost of capital worksheet!D39\", \"Cost of capital worksheet!C35\", \"Cost of capital worksheet!B40\", \"Cost of capital worksheet!E40\", \"Option Value!D9\", \"Option Value!F14\", \"Option Value!C15\", \"Option Value!B20\", \"Option Value!B21\", \"Option Value!B23\", \"Option Value!B24\", \"Option Value!C26\", \"Option Value!D27\", \"Stories to Numbers!B13\", \"Stories to Numbers!B14\", \"Stories to Numbers!C20\", \"Stories to Numbers!C22\", \"Stories to Numbers!C23\", \"Stories to Numbers!C26\", \"Stories to Numbers!C28\", \"Stories to Numbers!C29\", \"Stories to Numbers!C30\", \"Stories to Numbers!C31\", \"Stories to Numbers!E21\", \"Stories to Numbers!F20\", \"Stories to Numbers!F21\"]}",
+ "usage": {
+  "input_tokens": 217787,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5502,
+  "output_tokens_details": {
+   "thinking_tokens": 3668
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 217787,
+   "outputTokens": 5502,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 3668
+  }
+ },
+ "cost": 0.49059400000000003,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1035,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 74,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2297,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 90,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3161,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 78,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 11549,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 69,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 19756,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 628,
+     "reasoning_tokens": 374,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 23085,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 250,
+     "reasoning_tokens": 99,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 26166,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 2119,
+     "reasoning_tokens": 1902,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 30931,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 495,
+     "reasoning_tokens": 423,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 32632,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 920,
+     "reasoning_tokens": 870,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 10,
+     "input_tokens": 33560,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 48,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 11,
+     "input_tokens": 33615,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 731,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:07:35+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 57.1
+ },
+ "num_turns": 11,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la; head -c 3000 book.sheet.md; wc book.sheet.md\"}",
+   "output_chars": 3199
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n \\\"^# Sheet\\\" book.sheet.md; grep -n -i \\\"shares\\\\|B32\\\" book.sheet.md | head -50\"}",
+   "output_chars": 1644
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 100,325p book.sheet.md; sed -n 324,722p book.sheet.md\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 395,722p book.sheet.md | cut -c1-900\"}",
+   "output_chars": 13017
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 1348,1420p book.sheet.md | cut -c1-600; sed -n 1496,1530p book.sheet.md | cut -c1-600; grep -n \\\"Master Inputs Start here'!B\\\\(61\\\\|32\\\\)\\\\|Option Value'\\\\|Cost of capital worksheet'\\\" book.sheet.md | cut -c1-200\"}",
+   "output_chars": 2317
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 722,748p book.sheet.md | cut -c1-400; sed -n 2488,2600p book.sheet.md | cut -c1-300\"}",
+   "output_chars": 2303
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 1496,1804p book.sheet.md | grep -n \\\"^[A-Z]*[0-9:A-Z]* = \\\" | cut -c1-300 | head -80; sed -n 1530,1700p book.sheet.md | grep -v \\\"^[0-9]*|\\\" | cut -c1-200 | head -80\"}",
+   "output_chars": 4007
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 1420,1496p book.sheet.md | cut -c1-500; grep -n \\\"Valuation Model'!\\\\(D16\\\\|D17\\\\|D27\\\\|D28\\\\|D30\\\\|D31\\\\|F71\\\\|F7[0-3]\\\\|F6[0-9]\\\\|D4[0-9]\\\\)\\\" book.sheet.md | cut -c1-160; grep -n \\\"B40\\\\|E40\\\\|B39\\\\|C39\\\\|D39\\\\|E38\\\\|B38\\\" book.sheet.md | sed -n 1,40p | cut -c1-120\"}",
+   "output_chars": 3845
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 1233,1347p book.sheet.md | cut -c1-400\"}",
+   "output_chars": 2092
+  },
+  {
+   "turn": 9,
+   "tool": "bash",
+   "args": "{\"command\": \"echo ok\"}",
+   "output_chars": 3
+  },
+  {
+   "turn": 10,
+   "tool": "bash",
+   "args": "{\"command\": \"echo done\"}",
+   "output_chars": 5
+  }
+ ]
+}

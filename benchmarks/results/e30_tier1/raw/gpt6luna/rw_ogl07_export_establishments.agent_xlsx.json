@@ -1,0 +1,134 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_ogl07_export_establishments",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1038,
+ "prompt_sha256": "01b58d1f89b3b0b125f95f232a3715ba4b5a0c38a4ba8867c28f6b2e936d369a",
+ "result": "{\"q1\":\"Animal By-Products\",\"q2\":\"Animal by-products\",\"q3\":\"Sheet1!D692\"}",
+ "usage": {
+  "input_tokens": 2395,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1044,
+  "output_tokens": 411,
+  "output_tokens_details": {
+   "thinking_tokens": 48
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 2395,
+   "outputTokens": 411,
+   "cacheReadInputTokens": 1044,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 48
+  }
+ },
+ "cost": 0.0005494,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_d00aabacfc284056a2d4bd4d094fc87c",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 408,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 92,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 793,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 168,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1047,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 122,
+     "reasoning_tokens": 48,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 147,
+     "cache_read_tokens": 1044,
+     "cache_write_tokens": 0,
+     "output_tokens": 29,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:03:56+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 6.7
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\np='book.xlsx'; w=openpyxl.load_workbook(p,data_only=True)\\ns=w['Sheet1']\\nfor row in s.iter_rows(min_row=1,max_row=min(s.max_row,10),values_only=True): print(row)\\nprint(s.max_row,s.max_column)\\nPY\"}",
+   "output_chars": 929
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\ns=openpyxl.load_workbook('book.xlsx',data_only=True)['Sheet1']\\nfor i in range(2,s.max_row+1):\\n c,ch,sec,link=[s.cell(i,j).value for j in range(1,5)]\\n if (c=='Czechia (CZ)' and sec=='Composting Plants (ABP-COMP)') or (c=='Ireland ROI (IE)' and sec=='Composting plants (ABP-COMP)') or (c=='Romania (RO)' and sec=='Eggs and egg products (EEP)'):\\n  print(i,c,ch,sec,link)\\nPY\"}",
+   "output_chars": 278
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\ns=openpyxl.load_workbook('book.xlsx',data_only=True)['Sheet1']\\nfor i in (174,433): print(repr(s.cell(i,2).value))\\nPY\"}",
+   "output_chars": 43
+  }
+ ]
+}

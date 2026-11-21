@@ -1,0 +1,155 @@
+{
+ "model": "haiku55",
+ "workbook": "rw_dam_fcffsimpleginzu",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1217,
+ "prompt_sha256": "e1748283e31178c5f6c0be6f43c946b125494312277971d29f68922ecf96da4e",
+ "result": "```json\n{\"q1\": 7.18784, \"q2\": 16394.5, \"q3\": \"'Valuation output'!B31\", \"q4\": [\"'Valuation output'!B24\", \"'Valuation output'!B25\", \"'Valuation output'!B26\", \"'Valuation output'!B27\", \"'Valuation output'!B28\"], \"q5\": [\"'Valuation output'!B34\", \"'Valuation output'!B33\"], \"q6\": [\"'Valuation output'!B32\", \"'Valuation output'!B33\", \"'Valuation output'!B35\", \"'Stories to Numbers'!D38\", \"'Stories to Numbers'!D39\"]}\n```",
+ "usage": {
+  "input_tokens": 53952,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1589,
+  "output_tokens_details": {
+   "thinking_tokens": 1065
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 53952,
+   "outputTokens": 1589,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1065
+  }
+ },
+ "cost": 0.0061897,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 996,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 56,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 9604,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 100,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 10721,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 89,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 13679,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 66,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 18952,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1278,
+     "reasoning_tokens": 1065,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T08:58:47+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.5
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cat ./book.sheet.md\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; grep -n \\\"^## \\\" book.sheet.md; awk '/^## Sheet: Valuation output/,0' book.sheet.md | head -c 15000\"}",
+   "output_chars": 1596
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; grep -n \\\"Sheet: Valuation\\\" book.sheet.md; sed -n 329,424p book.sheet.md\"}",
+   "output_chars": 4128
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 424,710p book.sheet.md\"}",
+   "output_chars": 9417
+  }
+ ]
+}

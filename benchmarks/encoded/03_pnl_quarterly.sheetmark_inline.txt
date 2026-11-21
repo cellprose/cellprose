@@ -1,0 +1,51 @@
+---
+sheetmark: 0.1
+profile: full
+sheets: [P&L]
+not_preserved: [styles]
+---
+
+# Sheet: P&L
+
+## Range A1:F9
+
+| # | A | B | C | D | E | F |
+|---|---|---|---|---|---|---|
+| 1 |  | Q1 | Q2 | Q3 | Q4 | Total |
+| 2 | Units | 1200 | =B2*(1+Growth) → 1296 | =C2*(1+Growth) → 1399.68 | =D2*(1+Growth) → 1511.6544 | =SUM(B2:E2) → 5407.3344 |
+| 3 | Price | =Price → 45 | =Price → 45 | =Price → 45 | =Price → 45 |  |
+| 4 | Revenue | =B2*B3 → 54000 | =C2*C3 → 58320 | =D2*D3 → 62985.6 | =E2*E3 → 68024.448 | =SUM(B4:E4) → 243330.048 |
+| 5 | COGS | =B4*COGS_Pct → 22680 | =C4*COGS_Pct → 24494.4 | =D4*COGS_Pct → 26453.952 | =E4*COGS_Pct → 28570.26816 | =SUM(B5:E5) → 102198.6202 |
+| 6 | Gross profit | =B4-B5 → 31320 | =C4-C5 → 33825.6 | =D4-D5 → 36531.648 | =E4-E5 → 39454.17984 | =SUM(B6:E6) → 141131.4278 |
+| 7 | Opex | =Opex → 18000 | =Opex → 18000 | =Opex → 18000 | =Opex → 18000 | =SUM(B7:E7) → 72000 |
+| 8 | EBITDA | =B6-B7 → 13320 | =C6-C7 → 15825.6 | =D6-D7 → 18531.648 | =E6-E7 → 21454.17984 | =SUM(B8:E8) → 69131.42784 |
+| 9 | EBITDA margin | =B8/B4 → 0.2466666667 | =C8/C4 → 0.2713580247 | =D8/D4 → 0.2942203932 | =E8/E4 → 0.315389253 | =F8/F4 → 0.2841055941 |
+
+```formats
+B4:F8 = "\$#,##0"
+B9:F9 = "0.0%"
+```
+
+## Range A11:B15
+
+| # | A | B |
+|---|---|---|
+| 11 | Assumptions |  |
+| 12 | Growth | 0.08 |
+| 13 | Price | 45 |
+| 14 | COGS % | 0.42 |
+| 15 | Opex per quarter | 18000 |
+
+```formats
+B12 = "0%"
+B14 = "0%"
+```
+
+# Names
+
+```names
+COGS_Pct = 'P&L'!$B$14
+Growth = 'P&L'!$B$12
+Opex = 'P&L'!$B$15
+Price = 'P&L'!$B$13
+```

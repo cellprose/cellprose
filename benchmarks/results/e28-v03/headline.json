@@ -1,0 +1,224 @@
+{
+ "oneshot_standard": [
+  {
+   "model": "gpt61sol",
+   "encoding": "csv",
+   "n": 30,
+   "acc": 99.4,
+   "tokens": 1886.3333333333335,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.006216133333333334,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 30,
+   "acc": 99.7,
+   "tokens": 2178.266666666667,
+   "tokens_vs": 15.0,
+   "tout_vs": -25.0,
+   "cost": 0.0061954666666666665,
+   "cost_vs": -0.0,
+   "cost_per_correct_vs": -1.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "sheetmark_v03",
+   "n": 30,
+   "acc": 100.0,
+   "tokens": 2130.7000000000003,
+   "tokens_vs": 13.0,
+   "tout_vs": -22.0,
+   "cost": 0.0061558,
+   "cost_vs": -1.0,
+   "cost_per_correct_vs": -2.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "csv",
+   "n": 30,
+   "acc": 98.3,
+   "tokens": 2441.7,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.00058849,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 30,
+   "acc": 99.5,
+   "tokens": 2504.1000000000004,
+   "tokens_vs": 3.0,
+   "tout_vs": -35.0,
+   "cost": 0.00047269000000000006,
+   "cost_vs": -20.0,
+   "cost_per_correct_vs": -21.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "sheetmark_v03",
+   "n": 30,
+   "acc": 99.6,
+   "tokens": 2558.366666666667,
+   "tokens_vs": 5.0,
+   "tout_vs": -23.0,
+   "cost": 0.0005216233333333334,
+   "cost_vs": -11.0,
+   "cost_per_correct_vs": -13.0
+  }
+ ],
+ "oneshot_hard": [
+  {
+   "model": "gpt61sol",
+   "encoding": "csv",
+   "n": 12,
+   "acc": 96.0,
+   "tokens": 856.8333333333333,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.004364333333333334,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 12,
+   "acc": 100.0,
+   "tokens": 1068.5,
+   "tokens_vs": 25.0,
+   "tout_vs": -7.0,
+   "cost": 0.004603,
+   "cost_vs": 5.0,
+   "cost_per_correct_vs": 1.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "sheetmark_v03",
+   "n": 12,
+   "acc": 100.0,
+   "tokens": 1034.25,
+   "tokens_vs": 21.0,
+   "tout_vs": -11.0,
+   "cost": 0.0044345,
+   "cost_vs": 2.0,
+   "cost_per_correct_vs": -2.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "csv",
+   "n": 12,
+   "acc": 91.5,
+   "tokens": 1749.8333333333333,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.0006647166666666667,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 12,
+   "acc": 97.1,
+   "tokens": 1739.5833333333335,
+   "tokens_vs": -1.0,
+   "tout_vs": -20.0,
+   "cost": 0.0005656916666666666,
+   "cost_vs": -15.0,
+   "cost_per_correct_vs": -20.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "sheetmark_v03",
+   "n": 12,
+   "acc": 95.4,
+   "tokens": 1660.6666666666665,
+   "tokens_vs": -5.0,
+   "tout_vs": -25.0,
+   "cost": 0.0005349333333333333,
+   "cost_vs": -20.0,
+   "cost_per_correct_vs": -23.0
+  }
+ ],
+ "oneshot_all": [
+  {
+   "model": "gpt61sol",
+   "encoding": "csv",
+   "n": 42,
+   "acc": 98.4,
+   "tokens": 1592.1904761904761,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.005687047619047619,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 42,
+   "acc": 99.8,
+   "tokens": 1861.1904761904761,
+   "tokens_vs": 17.0,
+   "tout_vs": -19.0,
+   "cost": 0.005740476190476191,
+   "cost_vs": 1.0,
+   "cost_per_correct_vs": -0.0
+  },
+  {
+   "model": "gpt61sol",
+   "encoding": "sheetmark_v03",
+   "n": 42,
+   "acc": 100.0,
+   "tokens": 1817.4285714285713,
+   "tokens_vs": 14.0,
+   "tout_vs": -19.0,
+   "cost": 0.005664,
+   "cost_vs": -0.0,
+   "cost_per_correct_vs": -2.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "csv",
+   "n": 42,
+   "acc": 96.3,
+   "tokens": 2244.0238095238096,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.0006102690476190476,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 42,
+   "acc": 98.8,
+   "tokens": 2285.6666666666665,
+   "tokens_vs": 2.0,
+   "tout_vs": -30.0,
+   "cost": 0.0004992619047619048,
+   "cost_vs": -18.0,
+   "cost_per_correct_vs": -20.0
+  },
+  {
+   "model": "gpt6luna",
+   "encoding": "sheetmark_v03",
+   "n": 42,
+   "acc": 98.4,
+   "tokens": 2301.8809523809523,
+   "tokens_vs": 3.0,
+   "tout_vs": -23.0,
+   "cost": 0.0005254261904761905,
+   "cost_vs": -14.0,
+   "cost_per_correct_vs": -16.0
+  }
+ ]
+}

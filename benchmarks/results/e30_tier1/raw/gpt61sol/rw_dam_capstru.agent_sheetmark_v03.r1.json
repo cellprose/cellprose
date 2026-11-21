@@ -1,0 +1,152 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw_dam_capstru",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1221,
+ "prompt_sha256": "66ca9ae84e9f7dcc01ee604efa1dc388a8b5542a14f4c2bf1c56eda51d1deeac",
+ "result": "{\"q1\":0.0956712,\"q2\":218233,\"q3\":\"Optimal CS Worksheet!E16\",\"q4\":[\"Optimal CS Worksheet!F7\",\"Optimal CS Worksheet!F4\",\"Optimal CS Worksheet!C8\"],\"q5\":[\"Optimal CS Worksheet!F12\",\"Optimal CS Worksheet!E12\"]}",
+ "usage": {
+  "input_tokens": 4742,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 5361,
+  "output_tokens": 188,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 4742,
+   "outputTokens": 188,
+   "cacheReadInputTokens": 5361,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.022086,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_db80ab1b7d4a43c7974eb9ca567e694f",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 421,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 27,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1526,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 30,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 52,
+     "cache_read_tokens": 1523,
+     "cache_write_tokens": 0,
+     "output_tokens": 29,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 697,
+     "cache_read_tokens": 1572,
+     "cache_write_tokens": 0,
+     "output_tokens": 29,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2046,
+     "cache_read_tokens": 2266,
+     "cache_write_tokens": 0,
+     "output_tokens": 73,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:10:43+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 7.2
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la; head -80 book.sheet.md\"}",
+   "output_chars": 4115
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n \\\"Sheet: Optimal CS Worksheet\\\" book.sheet.md\"}",
+   "output_chars": 34
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '268,370p' book.sheet.md\"}",
+   "output_chars": 1519
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '400,540p' book.sheet.md\"}",
+   "output_chars": 4246
+  }
+ ]
+}

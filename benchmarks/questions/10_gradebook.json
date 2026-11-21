@@ -1,0 +1,97 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is Aarav Nguyen's weighted score?",
+  "cell": "Grades!G10",
+  "id": "q1",
+  "truth": 68.3
+ },
+ {
+  "type": "lookup",
+  "q": "What is the class average on the final?",
+  "cell": "Grades!F34",
+  "id": "q2",
+  "truth": 69.0666666666667
+ },
+ {
+  "type": "lookup",
+  "q": "What letter grade did Maya Joshi get?",
+  "cell": "Grades!H5",
+  "id": "q3",
+  "truth": "C"
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds Zara Silva's midterm score? Give its cell address.",
+  "cell": "Grades!E20",
+  "id": "q4",
+  "truth": "Grades!E20"
+ },
+ {
+  "type": "trace",
+  "q": "Consider Noah Das's weighted score. List the cells its formula reads directly (not indirectly).",
+  "cell": "Grades!G15",
+  "id": "q5",
+  "truth": [
+   "Grades!B15",
+   "Grades!B2",
+   "Grades!C15",
+   "Grades!C2",
+   "Grades!D15",
+   "Grades!D2",
+   "Grades!E15",
+   "Grades!E2",
+   "Grades!F15",
+   "Grades!F2"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose the weight of the final increased by 10%. List every other cell whose value would change.",
+  "cell": "Grades!F2",
+  "factor": 1.1,
+  "id": "q6",
+  "truth": [
+   "Grades!G10",
+   "Grades!G11",
+   "Grades!G12",
+   "Grades!G13",
+   "Grades!G14",
+   "Grades!G15",
+   "Grades!G16",
+   "Grades!G17",
+   "Grades!G18",
+   "Grades!G19",
+   "Grades!G20",
+   "Grades!G21",
+   "Grades!G22",
+   "Grades!G23",
+   "Grades!G24",
+   "Grades!G25",
+   "Grades!G26",
+   "Grades!G27",
+   "Grades!G28",
+   "Grades!G29",
+   "Grades!G3",
+   "Grades!G30",
+   "Grades!G31",
+   "Grades!G32",
+   "Grades!G34",
+   "Grades!G4",
+   "Grades!G5",
+   "Grades!G6",
+   "Grades!G7",
+   "Grades!G8",
+   "Grades!G9",
+   "Grades!H10",
+   "Grades!H18",
+   "Grades!H20",
+   "Grades!H24",
+   "Grades!H27",
+   "Grades!H3",
+   "Grades!H31",
+   "Grades!H32",
+   "Grades!H9"
+  ]
+ }
+]

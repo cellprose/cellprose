@@ -1,0 +1,70 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Sheet1!F145",
+  "q": "What is the value in the row labelled 'CGLF Index December 1999', in the sheet 'Sheet1'?",
+  "truth": 2.11,
+  "labels": [
+   "A145"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Sheet1!F61",
+  "q": "Which cell holds the value in the row labelled 'CGLF Index August 1999', in the sheet 'Sheet1'? Give its cell address.",
+  "truth": "Sheet1!F61",
+  "labels": [
+   "A61"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Sheet1!C202",
+  "q": "Consider the cell Sheet1!C202 (in the row labelled 'Fuel Price'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sheet1!C201",
+   "Sheet1!E196",
+   "Sheet1!F189"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Sheet1!C152",
+  "q": "Consider the cell Sheet1!C152 (in the row labelled 'Transport'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sheet1!C148",
+   "Sheet1!C149",
+   "Sheet1!C150",
+   "Sheet1!F145"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Sheet1!C149",
+  "factor": 1.1,
+  "q": "Suppose the number in Sheet1!C149 (in the row labelled 'Aca') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Sheet1!C152",
+   "Sheet1!E152",
+   "Sheet1!E162",
+   "Sheet1!F163"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Sheet1!C127",
+  "range": "Sheet1!C127:C131",
+  "q": "Consider the range Sheet1!C127:C131. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Sheet1!C127",
+   "Sheet1!C128",
+   "Sheet1!C129"
+  ],
+  "id": "q6"
+ }
+]

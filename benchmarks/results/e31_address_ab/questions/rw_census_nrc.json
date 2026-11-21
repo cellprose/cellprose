@@ -1,0 +1,14 @@
+[
+ {
+  "type": "address",
+  "cell": "Table 1 - Permits!L16",
+  "labels": [
+   "A16",
+   "L5",
+   "L6"
+  ],
+  "q": "In the sheet 'Table 1 - Permits', Table 1a, which cell holds the West total for May 2023? Give its cell address.",
+  "id": "q1",
+  "truth": "Table 1 - Permits!L16"
+ }
+]

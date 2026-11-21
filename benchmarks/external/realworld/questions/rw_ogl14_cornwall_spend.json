@@ -1,0 +1,47 @@
+[
+ {
+  "type": "lookup",
+  "q": "In the sheet 'January 26 for Publication', for the row where 'Transaction number' is '0010298776', what is the value of '\u00a3'?",
+  "cell": "January 26 for Publication!H12",
+  "key": {
+   "G": "0010298776"
+  },
+  "labels": [
+   "G12",
+   "H12",
+   "H1"
+  ],
+  "id": "q1",
+  "truth": 46037.49
+ },
+ {
+  "type": "lookup",
+  "q": "In the sheet 'January 26 for Publication', for the row where 'Transaction number' is '0015193430', what is the value of 'Supplier'?",
+  "cell": "January 26 for Publication!F28",
+  "key": {
+   "G": "0015193430"
+  },
+  "labels": [
+   "G28",
+   "F28",
+   "F1"
+  ],
+  "id": "q2",
+  "truth": "NHS PROPERTY SERVICES LTD"
+ },
+ {
+  "type": "address",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Expense type' for the row where 'Transaction number' is '0015193437'? Give its cell address.",
+  "cell": "January 26 for Publication!D43",
+  "key": {
+   "G": "0015193437"
+  },
+  "labels": [
+   "G43",
+   "D43",
+   "D1"
+  ],
+  "id": "q3",
+  "truth": "January 26 for Publication!D43"
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "cellprose-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "Browser viewer for .sheet.md files on GitHub. Core library plus MV3 extension shell.",
+  "scripts": {
+    "sync": "node sync-core.js",
+    "test": "node sync-core.js --check && node --test test/core.test.js"
+  }
+}

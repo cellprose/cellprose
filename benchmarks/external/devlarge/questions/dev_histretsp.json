@@ -1,0 +1,132 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Nominal vs Real Data!P11",
+  "q": "What is the value in the row labelled '75th percentile', column headed 'Stocks', in the sheet 'Nominal vs Real Data'?",
+  "truth": 0.2597,
+  "labels": [
+   "O11",
+   "P1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Returns by year!X126",
+  "q": "Which cell holds the value in the row labelled 'S&P 500 minus Lowest Decile', column headed '3-month T. Bill (Real)', in the sheet 'Returns by year'? Give its cell address.",
+  "truth": "Returns by year!X126",
+  "labels": [
+   "Q126",
+   "X121"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Returns by year!K101",
+  "q": "Consider the cell Returns by year!K101. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Returns by year!D101",
+   "Returns by year!K100"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Returns by year!AH36",
+  "q": "Consider the cell Returns by year!AH36. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Returns by year!AA36",
+   "Returns by year!AH35"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Nominal vs Real Data!F39",
+  "factor": 1.1,
+  "q": "Suppose the number in Nominal vs Real Data!F39 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Nominal vs Real Data!K39",
+   "Nominal vs Real Data!K40",
+   "Nominal vs Real Data!K41",
+   "Nominal vs Real Data!K42",
+   "Nominal vs Real Data!K43",
+   "Nominal vs Real Data!K44",
+   "Nominal vs Real Data!K45",
+   "Nominal vs Real Data!K46",
+   "Nominal vs Real Data!K47",
+   "Nominal vs Real Data!K48",
+   "Nominal vs Real Data!K49",
+   "Nominal vs Real Data!K50",
+   "Nominal vs Real Data!K51",
+   "Nominal vs Real Data!K52",
+   "Nominal vs Real Data!K53",
+   "Nominal vs Real Data!K54",
+   "Nominal vs Real Data!K55",
+   "Nominal vs Real Data!K56",
+   "Nominal vs Real Data!K57",
+   "Nominal vs Real Data!K58",
+   "Nominal vs Real Data!K59",
+   "Nominal vs Real Data!K60",
+   "Nominal vs Real Data!K61",
+   "Nominal vs Real Data!K62",
+   "Nominal vs Real Data!K63",
+   "Nominal vs Real Data!K64",
+   "Nominal vs Real Data!K65",
+   "Nominal vs Real Data!K66",
+   "Nominal vs Real Data!K67",
+   "Nominal vs Real Data!K68",
+   "Nominal vs Real Data!K69",
+   "Nominal vs Real Data!K70",
+   "Nominal vs Real Data!K71",
+   "Nominal vs Real Data!K72",
+   "Nominal vs Real Data!K73",
+   "Nominal vs Real Data!K74",
+   "Nominal vs Real Data!K75",
+   "Nominal vs Real Data!K76",
+   "Nominal vs Real Data!K77",
+   "Nominal vs Real Data!K78",
+   "Nominal vs Real Data!K79",
+   "Nominal vs Real Data!K80",
+   "Nominal vs Real Data!K81",
+   "Nominal vs Real Data!K82",
+   "Nominal vs Real Data!K83",
+   "Nominal vs Real Data!K84",
+   "Nominal vs Real Data!K85",
+   "Nominal vs Real Data!K86",
+   "Nominal vs Real Data!K87",
+   "Nominal vs Real Data!K88",
+   "Nominal vs Real Data!K89",
+   "Nominal vs Real Data!K90",
+   "Nominal vs Real Data!K91",
+   "Nominal vs Real Data!K92",
+   "Nominal vs Real Data!K93",
+   "Nominal vs Real Data!K94",
+   "Nominal vs Real Data!K95",
+   "Nominal vs Real Data!K96",
+   "Nominal vs Real Data!K97",
+   "Nominal vs Real Data!K98",
+   "Nominal vs Real Data!K99"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Nominal vs Real Data!A13",
+  "range": "Nominal vs Real Data!A13:K13",
+  "q": "Consider the range Nominal vs Real Data!A13:K13. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Nominal vs Real Data!A13",
+   "Nominal vs Real Data!B13",
+   "Nominal vs Real Data!C13",
+   "Nominal vs Real Data!D13",
+   "Nominal vs Real Data!E13",
+   "Nominal vs Real Data!F13",
+   "Nominal vs Real Data!G13",
+   "Nominal vs Real Data!H13",
+   "Nominal vs Real Data!I13"
+  ],
+  "id": "q6"
+ }
+]

@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_histretsp",
+ "encoding": "sheetmark_v031",
+ "prompt_chars": 103463,
+ "prompt_sha256": "03d14c5fb8051ce05cfce419f68f13908203f36e8f438275f72fb5920bee3685",
+ "result": "{\"q1\": 0.2597, \"q2\": \"Returns by year!X121\", \"q3\": [\"Returns by year!K100\", \"Returns by year!D101\"], \"q4\": [\"Returns by year!AH35\", \"Returns by year!V36\"], \"q5\": [\"Nominal vs Real Data!K39\", \"Nominal vs Real Data!K40\", \"Nominal vs Real Data!K41\", \"Nominal vs Real Data!K42\", \"Nominal vs Real Data!K43\", \"Nominal vs Real Data!K44\", \"Nominal vs Real Data!K45\", \"Nominal vs Real Data!K46\", \"Nominal vs Real Data!K47\", \"Nominal vs Real Data!K48\", \"Nominal vs Real Data!K49\", \"Nominal vs Real Data!K50\", \"Nominal vs Real Data!K51\", \"Nominal vs Real Data!K52\", \"Nominal vs Real Data!K53\", \"Nominal vs Real Data!K54\", \"Nominal vs Real Data!K55\", \"Nominal vs Real Data!K56\", \"Nominal vs Real Data!K57\", \"Nominal vs Real Data!K58\", \"Nominal vs Real Data!K59\", \"Nominal vs Real Data!K60\", \"Nominal vs Real Data!K61\", \"Nominal vs Real Data!K62\", \"Nominal vs Real Data!K63\", \"Nominal vs Real Data!K64\", \"Nominal vs Real Data!K65\", \"Nominal vs Real Data!K66\", \"Nominal vs Real Data!K67\", \"Nominal vs Real Data!K68\", \"Nominal vs Real Data!K69\", \"Nominal vs Real Data!K70\", \"Nominal vs Real Data!K71\", \"Nominal vs Real Data!K72\", \"Nominal vs Real Data!K73\", \"Nominal vs Real Data!K74\", \"Nominal vs Real Data!K75\", \"Nominal vs Real Data!K76\", \"Nominal vs Real Data!K77\", \"Nominal vs Real Data!K78\", \"Nominal vs Real Data!K79\", \"Nominal vs Real Data!K80\", \"Nominal vs Real Data!K81\", \"Nominal vs Real Data!K82\", \"Nominal vs Real Data!K83\", \"Nominal vs Real Data!K84\", \"Nominal vs Real Data!K85\", \"Nominal vs Real Data!K86\", \"Nominal vs Real Data!K87\", \"Nominal vs Real Data!K88\", \"Nominal vs Real Data!K89\", \"Nominal vs Real Data!K90\", \"Nominal vs Real Data!K91\", \"Nominal vs Real Data!K92\", \"Nominal vs Real Data!K93\", \"Nominal vs Real Data!K94\", \"Nominal vs Real Data!K95\", \"Nominal vs Real Data!K96\", \"Nominal vs Real Data!K97\", \"Nominal vs Real Data!K98\", \"Nominal vs Real Data!K99\"], \"q6\": [\"Nominal vs Real Data!A13\", \"Nominal vs Real Data!B13\", \"Nominal vs Real Data!C13\", \"Nominal vs Real Data!D13\", \"Nominal vs Real Data!E13\", \"Nominal vs Real Data!F13\", \"Nominal vs Real Data!G13\", \"Nominal vs Real Data!H13\", \"Nominal vs Real Data!I13\"]}",
+ "usage": {
+  "input_tokens": 59775,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2813,
+  "output_tokens_details": {
+   "thinking_tokens": 1670
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 59775,
+   "outputTokens": 2813,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1670
+  }
+ },
+ "cost": 0.007384,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T130946Z-3b4774",
+  "started_at": "2026-11-07T13:09:46+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "86fd51349b29cc81ee8ae533feb2ddae5ce8a31dfaf7619d70f8a0276a9ad6c6",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 11.4,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 59775,
+   "output_tokens": 2813,
+   "output_tokens_details": {
+    "thinking_tokens": 1670
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 59775
+  },
+  "finished_at": "2026-11-07T13:10:21+00:00"
+ }
+}

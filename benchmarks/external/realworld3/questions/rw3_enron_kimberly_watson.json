@@ -1,0 +1,72 @@
+[
+ {
+  "type": "lookup",
+  "cell": "I to I Summary!F9",
+  "q": "What is the value in the row labelled 'Nov. '02 - Dec. '02', column headed 'Margin', in the sheet 'I to I Summary'?",
+  "truth": 1350845,
+  "labels": [
+   "C9",
+   "F3"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "I to I Summary!O10",
+  "q": "Which cell holds the value in the row labelled 'Calendar 2002', column headed 'on Unwind', in the sheet 'I to I Summary'? Give its cell address.",
+  "truth": "I to I Summary!O10",
+  "labels": [
+   "C10",
+   "O3"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "I to I Summary!K18",
+  "q": "Consider the cell I to I Summary!K18 (in the row labelled 'Totals'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "I to I Summary!K11",
+   "I to I Summary!K16",
+   "I to I Summary!K6"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "I to I Summary!I18",
+  "q": "Consider the cell I to I Summary!I18 (in the row labelled 'Totals'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "I to I Summary!I11",
+   "I to I Summary!I16",
+   "I to I Summary!I6"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "I to I Summary!F16",
+  "factor": 1.1,
+  "q": "Suppose the number in I to I Summary!F16 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "I to I Summary!F18",
+   "I to I Summary!G16",
+   "I to I Summary!G18"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "I to I Summary!D15",
+  "range": "I to I Summary!D15:J15",
+  "q": "Consider the range I to I Summary!D15:J15 (the row of 'Calendar 2003'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "I to I Summary!D15",
+   "I to I Summary!E15",
+   "I to I Summary!F15",
+   "I to I Summary!H15",
+   "I to I Summary!I15"
+  ],
+  "id": "q6"
+ }
+]

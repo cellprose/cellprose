@@ -1,0 +1,320 @@
+{
+ "workbooks": {
+  "rw_irs_soi": {
+   "source_file": "irs_soi_20in11si.xlsx",
+   "sha256": "6d1e01a8a05a1cf101fe38d97eb74c10c37f5f8d2eee52fd86ac5d507dd461dc",
+   "licence": "US federal government work, public domain (IRS)",
+   "source_url": "https://www.irs.gov/pub/irs-soi/20in11si.xls",
+   "committed_in_git": true,
+   "questions": 5,
+   "types": [
+    "address",
+    "impact",
+    "lookup",
+    "trace"
+   ],
+   "formula_cells": 5,
+   "tokens_o200k": {
+    "csv": 6030,
+    "sheetmark_lean_gfm": 6832,
+    "sheetmark_v03": 7101
+   }
+  },
+  "rw_census_nrc": {
+   "source_file": "census_newresconst.xlsx",
+   "sha256": "919bcb276e3aa5bb93e7167037cafefa2f1c24eb06fc1e0c19635156f636771e",
+   "licence": "US federal government work, public domain (Census)",
+   "source_url": "https://www.census.gov/construction/nrc/xls/newresconst.xls",
+   "committed_in_git": true,
+   "questions": 5,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 10,
+   "tokens_o200k": {
+    "csv": 16812,
+    "sheetmark_lean_gfm": 22903,
+    "sheetmark_v03": 22633
+   }
+  },
+  "rw_bea_gdp": {
+   "source_file": "bea_gdp4q22.xlsx",
+   "sha256": "289af5ef72665d2b5fb7e7a16a43a0a8949e89283a8624f21d1687a5c050c29d",
+   "licence": "US federal government work, public domain (BEA)",
+   "source_url": "https://www.bea.gov/sites/default/files/2023-03/gdp4q22_3rd.xlsx",
+   "committed_in_git": true,
+   "questions": 4,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 55757,
+    "sheetmark_lean_gfm": 57973,
+    "sheetmark_v03": 59024
+   }
+  },
+  "rw_worldbank_gdp": {
+   "source_file": "worldbank_gdp.xlsx",
+   "sha256": "4c33f0770ca86647dd7c1e04b7d50e2c6af85f7f6e587b8862b96f4cdfeb71f8",
+   "licence": "CC BY 4.0 (World Bank Open Data)",
+   "source_url": "https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=excel",
+   "committed_in_git": true,
+   "questions": 4,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 128355,
+    "sheetmark_lean_gfm": 130048,
+    "sheetmark_v03": 131188
+   }
+  },
+  "rw_dam_fcffginzu": {
+   "source_file": "dam_fcffginzu.xlsx",
+   "sha256": "df8f9e91cc53afe2bdb33cf39b8f2719206ac03b6a5031f1858f82235ea944c9",
+   "licence": "No explicit licence; published by A. Damodaran (NYU Stern) for free public use. Do not redistribute outside this project; not committed to repos.",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffginzu.xlsx",
+   "committed_in_git": false,
+   "questions": 6,
+   "types": [
+    "address",
+    "impact",
+    "lookup",
+    "trace"
+   ],
+   "formula_cells": 894,
+   "tokens_o200k": {
+    "csv": 49133,
+    "sheetmark_lean_gfm": 62599,
+    "sheetmark_v03": 74777
+   }
+  },
+  "rw_dam_fcffsimpleginzu": {
+   "source_file": "dam_fcffsimpleginzu.xlsx",
+   "sha256": "d6ffb67d965dc22463e4d013636befab3da431e7fc608936a82612fa73198e72",
+   "licence": "No explicit licence; published by A. Damodaran (NYU Stern) for free public use. Do not redistribute outside this project; not committed to repos.",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffsimpleginzu.xlsx",
+   "committed_in_git": false,
+   "questions": 6,
+   "types": [
+    "address",
+    "impact",
+    "lookup",
+    "trace"
+   ],
+   "formula_cells": 1231,
+   "tokens_o200k": {
+    "csv": 66883,
+    "sheetmark_lean_gfm": 82244,
+    "sheetmark_v03": 103530
+   }
+  },
+  "rw_dam_fcffsimpleginzucorona": {
+   "source_file": "dam_fcffsimpleginzuCorona.xlsx",
+   "sha256": "ea1320dd137d0135f7e31e69b80eb9a1dfa611ff5d5e1f618a00eda31bc5ac70",
+   "licence": "No explicit licence; published by A. Damodaran (NYU Stern) for free public use. Do not redistribute outside this project; not committed to repos.",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffsimpleginzuCorona.xlsx",
+   "committed_in_git": false,
+   "questions": 5,
+   "types": [
+    "address",
+    "impact",
+    "lookup",
+    "trace"
+   ],
+   "formula_cells": 1063,
+   "tokens_o200k": {
+    "csv": 49948,
+    "sheetmark_lean_gfm": 62371,
+    "sheetmark_v03": 75396
+   }
+  },
+  "rw_dam_capstru": {
+   "source_file": "dam_capstru.xlsx",
+   "sha256": "32ccdad0e50d87226908162ab512e067a7614fbbe26b9291b7f0de155d2b7115",
+   "licence": "No explicit licence; published by A. Damodaran (NYU Stern) for free public use. Do not redistribute outside this project; not committed to repos.",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/capstru.xlsx",
+   "committed_in_git": false,
+   "questions": 5,
+   "types": [
+    "address",
+    "lookup",
+    "trace"
+   ],
+   "formula_cells": 1052,
+   "tokens_o200k": {
+    "csv": 17882,
+    "sheetmark_lean_gfm": 28609,
+    "sheetmark_v03": 29380
+   }
+  },
+  "rw_ogl00_rail_codes": {
+   "source_file": "ogl00_Translink_Northern_Ireland_Rai.xlsx",
+   "sha256": "58bd3d41bf99d3a28dd58b7ced8f3c264e98fd3d2fea0aec993fd4d18f07ae9d",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "source_url": "https://admin.opendatani.gov.uk/dataset/e41b1057-b0bd-4419-95eb-77057c8ad6b0/resource/ba078f82-0138-4f98-940c-4e06abe1aec5/download/location-conversion-codes-page1.xls",
+   "committed_in_git": true,
+   "questions": 3,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 2814,
+    "sheetmark_lean_gfm": 3645,
+    "sheetmark_v03": 3421
+   }
+  },
+  "rw_ogl01_dof_payments": {
+   "source_file": "ogl01_Department_of_Finance___Depart.xlsx",
+   "sha256": "9cf1d37a70510333691229f18dc48ba405b926524f166eb8d795717a8f3848af",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "source_url": "https://admin.opendatani.gov.uk/dataset/9f2a1038-d9e2-4d92-97a6-4ef46658e643/resource/36d4b85c-d0c5-491d-8831-bb1fef3a4e68/download/r378-payments-over-25k-new-version-apr-262.xlsx",
+   "committed_in_git": true,
+   "questions": 3,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 5450,
+    "sheetmark_lean_gfm": 5988,
+    "sheetmark_v03": 5851
+   }
+  },
+  "rw_ogl04_doh_payments": {
+   "source_file": "ogl04_Department_of_Health___Departm.xlsx",
+   "sha256": "3c4f600415488987521c9fe619e79f7b174a7b354e1db752dbf484ccc5a93822",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "source_url": "https://admin.opendatani.gov.uk/dataset/31665512-77a5-4968-8319-2729936d5568/resource/5bee71a8-0384-4e06-b0cf-5ee526ae0cdf/download/august-2026-27-department-of-health-payments-over-25000.xlsx",
+   "committed_in_git": true,
+   "questions": 3,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 1368,
+    "sheetmark_lean_gfm": 1569,
+    "sheetmark_v03": 1537
+   }
+  },
+  "rw_ogl05_purchase_orders": {
+   "source_file": "ogl05_Purchase_Orders_over__5000.xlsx",
+   "sha256": "6652b78e8e0e4a40e6e14749c567e69966bf8ea8f93ca85e8ff2647e693a821c",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "source_url": "https://live-iag-static-assets.s3-eu-west-1.amazonaws.com/pdf/Transparency/spendOver5000/Purchase+Orders+Over+%C2%A35000+-+January+-+March+2019.xlsx",
+   "committed_in_git": true,
+   "questions": 3,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 27385,
+    "sheetmark_lean_gfm": 29774,
+    "sheetmark_v03": 29269
+   }
+  },
+  "rw_ogl06_plymouth_spend": {
+   "source_file": "ogl06_Spend_over__25_000_in_Plymouth.xlsx",
+   "sha256": "1eb473dbddfc17aec1f784ae80c36aee8971dfe0a12e1a63fe5b9e9174a22ffb",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "source_url": "https://www.plymouthhospitals.nhs.uk/download.cfm?doc=docm93jijm4n16172.xlsx&ver=23427",
+   "committed_in_git": true,
+   "questions": 3,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 37728,
+    "sheetmark_lean_gfm": 39944,
+    "sheetmark_v03": 39444
+   }
+  },
+  "rw_ogl07_export_establishments": {
+   "source_file": "ogl07_Establishments_approved_to_exp.xlsx",
+   "sha256": "6fc7f66e0c3df3bb6105387ae53e35562a584fae5dc52db8db7c67601f2d4e96",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "source_url": "https://s3.eu-west-1.amazonaws.com/data.defra.gov.uk/Food/cert/auth_establishments/List+of+EU+and+EFTA+approved+establishments.xlsx",
+   "committed_in_git": true,
+   "questions": 3,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 24766,
+    "sheetmark_lean_gfm": 27479,
+    "sheetmark_v03": 26762
+   }
+  },
+  "rw_ogl12_purchase_cards": {
+   "source_file": "ogl12_Purchase_Card_Transactions.xlsx",
+   "sha256": "f6dd611e919890e9bffc2fc8e873c72ab6152798c9a2fda1a8a8a01ac4ff3990",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "source_url": "https://s3-eu-west-1.amazonaws.com/live-iag-static-assets/pdf/Transparency/purchaseCardTransactions/Purchasing+Card+-+Nov+18.xlsx",
+   "committed_in_git": true,
+   "questions": 3,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 16601,
+    "sheetmark_lean_gfm": 18051,
+    "sheetmark_v03": 17770
+   }
+  },
+  "rw_ogl13_worcs_spend": {
+   "source_file": "ogl13_Spend_over__25_000_in_Worceste.xlsx",
+   "sha256": "b3e8545a4ef03bcf807f4dc393dd6e03e7a751a0931cf0a3497f860ef0c2ce5e",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "source_url": "https://www.hacw.nhs.uk/download.cfm?doc=docm93jijm4n13241.xlsx&ver=23952",
+   "committed_in_git": true,
+   "questions": 3,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 78,
+   "tokens_o200k": {
+    "csv": 2774,
+    "sheetmark_lean_gfm": 3245,
+    "sheetmark_v03": 3202
+   }
+  },
+  "rw_ogl14_cornwall_spend": {
+   "source_file": "ogl14_Cornwall_Partnership_NHS_Found.xlsx",
+   "sha256": "ecc1cd0926cce2fe6aed81ed043ea5e23d01ec885e1ef7051e43bc2185f5f736",
+   "licence": "Open Government Licence v3.0 (data.gov.uk catalogue: uk-ogl)",
+   "source_url": "https://www.cornwallft.nhs.uk/download.cfm?doc=docm93jijm4n20985.xlsx&ver=59157",
+   "committed_in_git": true,
+   "questions": 3,
+   "types": [
+    "address",
+    "lookup"
+   ],
+   "formula_cells": 0,
+   "tokens_o200k": {
+    "csv": 2856,
+    "sheetmark_lean_gfm": 3214,
+    "sheetmark_v03": 3196
+   }
+  }
+ },
+ "about": "Written by external/realworld.py build. tokens_o200k are OpenAI-tokenizer counts of the CSV, v0.2 and v0.3 encodings."
+}

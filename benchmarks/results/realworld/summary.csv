@@ -1,0 +1,9 @@
+set,model,encoding,n,failed_questions,lookup,address,trace,impact,hardcode,all,trace_exact,impact_exact,hardcode_exact,tokens,tokens_vs_csv
+standard,haiku55,csv,67,0,97.4,70.6,55.8,15.2,,80.7,37.5,0.0,,,
+standard,haiku55,sheetmark_lean_gfm,67,0,100.0,76.5,100.0,56.3,,91.4,100.0,25.0,,,
+standard,sonnet55,csv,67,0,100.0,100.0,95.8,86.4,,98.7,87.5,25.0,,,
+standard,sonnet55,sheetmark_lean_gfm,67,0,100.0,100.0,100.0,75.6,,98.5,100.0,25.0,,,
+all,haiku55,csv,67,0,97.4,70.6,55.8,15.2,,80.7,37.5,0.0,,,
+all,haiku55,sheetmark_lean_gfm,67,0,100.0,76.5,100.0,56.3,,91.4,100.0,25.0,,,
+all,sonnet55,csv,67,0,100.0,100.0,95.8,86.4,,98.7,87.5,25.0,,,
+all,sonnet55,sheetmark_lean_gfm,67,0,100.0,100.0,100.0,75.6,,98.5,100.0,25.0,,,

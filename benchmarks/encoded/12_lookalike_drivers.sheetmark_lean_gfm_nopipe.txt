@@ -1,0 +1,47 @@
+---
+sheetmark: 0.1
+---
+
+# Sheet: Drivers
+
+## A1:B7
+
+#|A|B
+-|-|-
+1|Driver|Value
+2|Price inflation|0.03
+3|Wage inflation|0.03
+4|Rent escalation|0.03
+5|Volume growth|0.05
+6|Marketing growth|0.05
+7|Utilities inflation|0.03
+
+
+# Sheet: Plan
+
+## A1:E10
+
+#|A|B|C|D|E
+-|-|-|-|-|-
+1|Line|Y1|Y2|Y3|Y4
+2|Volume|50000|52500|55125|57881.2
+3|Unit price|20|20.6|21.218|21.8545
+4|Wages|400000|412000|424360|437091
+5|Rent|120000|123600|127308|131127
+6|Marketing|90000|94500|99225|104186
+7|Utilities|30000|30900|31827|32781.8
+8|Revenue|1000000|1081500|1.16964e+06|1.26497e+06
+9|Total costs|640000|661000|682720|705186
+10|Profit|360000|420500|486922|559782
+
+```formulas
+C2:E2 = B2*(1+Drivers!$B$5)
+C3:E3 = B3*(1+Drivers!$B$2)
+C4:E4 = B4*(1+Drivers!$B$3)
+C5:E5 = B5*(1+Drivers!$B$4)
+C6:E6 = B6*(1+Drivers!$B$6)
+C7:E7 = B7*(1+Drivers!$B$7)
+B8:E8 = B2*B3
+B9:E9 = SUM(B4:B7)
+B10:E10 = B8-B9
+```

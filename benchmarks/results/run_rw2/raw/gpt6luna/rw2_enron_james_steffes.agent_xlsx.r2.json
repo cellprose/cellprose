@@ -1,0 +1,171 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_enron_james_steffes",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1250,
+ "prompt_sha256": "c4203f4516d5e9421714515dda05e06059fd8d1ce1e7a21de27fcc4038d81c52",
+ "result": "{\"q1\":\"compare!L23\",\"q2\":[\"PG&E tables!D33:D37\"],\"q3\":[\"PG&E tables!E33:E37\"],\"q4\":[\"PG&E tables!E20\",\"PG&E tables!G23\",\"PG&E tables!N13\",\"PG&E tables!E21\",\"PG&E tables!H23\",\"PG&E tables!K23\",\"PG&E tables!N23\",\"PG&E tables!M40\",\"PG&E tables!N14\",\"PG&E tables!E24\",\"PG&E tables!H24\",\"PG&E tables!K24\",\"PG&E tables!N24\",\"PG&E tables!N40\",\"PG&E tables!N16\",\"PG&E tables!N21\",\"PG&E tables!N41\"],\"q5\":[\"PG&E tables!D33:D37\",\"PG&E tables!D39\"]}",
+ "usage": {
+  "input_tokens": 6552,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 13250,
+  "output_tokens": 2068,
+  "output_tokens_details": {
+   "thinking_tokens": 775
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 6552,
+   "outputTokens": 2068,
+   "cacheReadInputTokens": 13250,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 775
+  }
+ },
+ "cost": 0.0030142,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_47936af0086f45b19ecc87b4308d2421",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 440,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 84,
+     "reasoning_tokens": 12,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 588,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 133,
+     "reasoning_tokens": 14,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3875,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 674,
+     "reasoning_tokens": 240,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 689,
+     "cache_read_tokens": 3872,
+     "cache_write_tokens": 0,
+     "output_tokens": 107,
+     "reasoning_tokens": 17,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 265,
+     "cache_read_tokens": 4558,
+     "cache_write_tokens": 0,
+     "output_tokens": 436,
+     "reasoning_tokens": 42,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 695,
+     "cache_read_tokens": 4820,
+     "cache_write_tokens": 0,
+     "output_tokens": 634,
+     "reasoning_tokens": 450,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.001822
+  },
+  "finished_at": "2026-11-11T17:07:08+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 2,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 33.4
+ },
+ "num_turns": 6,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nprint(w.sheetnames)\\nfor s in w:\\n print(s.title,s.max_row,s.max_column)\\nPY\"}",
+   "output_chars": 123
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nfor sn in ['compare','PG&E tables']:\\n s=w[sn]; print('\\\\n',sn)\\n for row in s.iter_rows():\\n  vals=[f'{c.coordinate}={c.value}' for c in row if c.value is not None]\\n  if vals: print(' | '.join(vals))\\nPY\"}",
+   "output_chars": 5902
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl,re\\nfrom openpyxl.formula import Tokenizer\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\n# formula parse refs\\nfrom openpyxl.formula import Tokenizer\\nfrom openpyxl.utils.cell import range_boundaries\\n\\ndef refs(formula):\\n out=[]\\n try: toks=Tokenizer(formula).items\\n except: return out\\n for t in toks:\\n  if t.type=='OPERAND' and t.subtype=='RANGE':\\n   v=t.value\\n   # handle sheet references, quoted\\n   # skip external\\n   if '!' in v:\\",
+   "output_chars": 3
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nfrom openpyxl.formula import Tokenizer\\nfor f in ['=D20*$A$31/1000','=D39+D20','=SUM(E19:E20)']:\\n print(f,[(t.value,t.type,t.subtype) for t in Tokenizer(f).items])\\nPY\"}",
+   "output_chars": 361
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nfrom openpyxl.formula import Tokenizer\\nfrom openpyxl.utils.cell import range_boundaries,get_column_letter\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\ndef refs(formula):\\n out=[]\\n for t in Tokenizer(formula).items:\\n  if t.type=='OPERAND' and t.subtype=='RANGE':\\n   v=t.value\\n   if '!' in v: sn,cr=v.rsplit('!',1); sn=sn.strip(\\\"'\\\")\\n   else: sn=None; cr=v\\n   if '[' in cr: continue\\n   cr=cr.replace('$','')\\n   try:\\n    a,b,c,d=rang",
+   "output_chars": 509
+  }
+ ]
+}

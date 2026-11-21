@@ -1,0 +1,275 @@
+# Loan
+
+## Record 1
+```
+Loan amount: Annual rate
+250000: 0.065
+```
+
+## Record 2
+```
+Loan amount: Term (years)
+250000: 2
+```
+
+## Record 3
+```
+Loan amount: Monthly payment
+250000: 11136.56286
+```
+
+## Record 5
+```
+Loan amount: Month
+250000: Opening balance
+Unnamed: 2: Payment
+Unnamed: 3: Interest
+Unnamed: 4: Principal
+Unnamed: 5: Closing balance
+```
+
+## Record 6
+```
+Loan amount: 1
+250000: 250000
+Unnamed: 2: 11136.56286
+Unnamed: 3: 1354.166667
+Unnamed: 4: 9782.396192
+Unnamed: 5: 240217.6038
+```
+
+## Record 7
+```
+Loan amount: 2
+250000: 240217.6038
+Unnamed: 2: 11136.56286
+Unnamed: 3: 1301.178687
+Unnamed: 4: 9835.384171
+Unnamed: 5: 230382.2196
+```
+
+## Record 8
+```
+Loan amount: 3
+250000: 230382.2196
+Unnamed: 2: 11136.56286
+Unnamed: 3: 1247.90369
+Unnamed: 4: 9888.659169
+Unnamed: 5: 220493.5605
+```
+
+## Record 9
+```
+Loan amount: 4
+250000: 220493.5605
+Unnamed: 2: 11136.56286
+Unnamed: 3: 1194.340119
+Unnamed: 4: 9942.222739
+Unnamed: 5: 210551.3377
+```
+
+## Record 10
+```
+Loan amount: 5
+250000: 210551.3377
+Unnamed: 2: 11136.56286
+Unnamed: 3: 1140.486413
+Unnamed: 4: 9996.076446
+Unnamed: 5: 200555.2613
+```
+
+## Record 11
+```
+Loan amount: 6
+250000: 200555.2613
+Unnamed: 2: 11136.56286
+Unnamed: 3: 1086.340999
+Unnamed: 4: 10050.22186
+Unnamed: 5: 190505.0394
+```
+
+## Record 12
+```
+Loan amount: 7
+250000: 190505.0394
+Unnamed: 2: 11136.56286
+Unnamed: 3: 1031.902297
+Unnamed: 4: 10104.66056
+Unnamed: 5: 180400.3789
+```
+
+## Record 13
+```
+Loan amount: 8
+250000: 180400.3789
+Unnamed: 2: 11136.56286
+Unnamed: 3: 977.1687188
+Unnamed: 4: 10159.39414
+Unnamed: 5: 170240.9847
+```
+
+## Record 14
+```
+Loan amount: 9
+250000: 170240.9847
+Unnamed: 2: 11136.56286
+Unnamed: 3: 922.1386672
+Unnamed: 4: 10214.42419
+Unnamed: 5: 160026.5605
+```
+
+## Record 15
+```
+Loan amount: 10
+250000: 160026.5605
+Unnamed: 2: 11136.56286
+Unnamed: 3: 866.8105362
+Unnamed: 4: 10269.75232
+Unnamed: 5: 149756.8082
+```
+
+## Record 16
+```
+Loan amount: 11
+250000: 149756.8082
+Unnamed: 2: 11136.56286
+Unnamed: 3: 811.1827111
+Unnamed: 4: 10325.38015
+Unnamed: 5: 139431.4281
+```
+
+## Record 17
+```
+Loan amount: 12
+250000: 139431.4281
+Unnamed: 2: 11136.56286
+Unnamed: 3: 755.2535687
+Unnamed: 4: 10381.30929
+Unnamed: 5: 129050.1188
+```
+
+## Record 18
+```
+Loan amount: 13
+250000: 129050.1188
+Unnamed: 2: 11136.56286
+Unnamed: 3: 699.0214767
+Unnamed: 4: 10437.54138
+Unnamed: 5: 118612.5774
+```
+
+## Record 19
+```
+Loan amount: 14
+250000: 118612.5774
+Unnamed: 2: 11136.56286
+Unnamed: 3: 642.4847942
+Unnamed: 4: 10494.07806
+Unnamed: 5: 108118.4993
+```
+
+## Record 20
+```
+Loan amount: 15
+250000: 108118.4993
+Unnamed: 2: 11136.56286
+Unnamed: 3: 585.6418714
+Unnamed: 4: 10550.92099
+Unnamed: 5: 97567.57834
+```
+
+## Record 21
+```
+Loan amount: 16
+250000: 97567.57834
+Unnamed: 2: 11136.56286
+Unnamed: 3: 528.4910493
+Unnamed: 4: 10608.07181
+Unnamed: 5: 86959.50653
+```
+
+## Record 22
+```
+Loan amount: 17
+250000: 86959.50653
+Unnamed: 2: 11136.56286
+Unnamed: 3: 471.0306604
+Unnamed: 4: 10665.5322
+Unnamed: 5: 76293.97433
+```
+
+## Record 23
+```
+Loan amount: 18
+250000: 76293.97433
+Unnamed: 2: 11136.56286
+Unnamed: 3: 413.2590276
+Unnamed: 4: 10723.30383
+Unnamed: 5: 65570.6705
+```
+
+## Record 24
+```
+Loan amount: 19
+250000: 65570.6705
+Unnamed: 2: 11136.56286
+Unnamed: 3: 355.1744652
+Unnamed: 4: 10781.38839
+Unnamed: 5: 54789.28211
+```
+
+## Record 25
+```
+Loan amount: 20
+250000: 54789.28211
+Unnamed: 2: 11136.56286
+Unnamed: 3: 296.7752781
+Unnamed: 4: 10839.78758
+Unnamed: 5: 43949.49453
+```
+
+## Record 26
+```
+Loan amount: 21
+250000: 43949.49453
+Unnamed: 2: 11136.56286
+Unnamed: 3: 238.059762
+Unnamed: 4: 10898.5031
+Unnamed: 5: 33050.99143
+```
+
+## Record 27
+```
+Loan amount: 22
+250000: 33050.99143
+Unnamed: 2: 11136.56286
+Unnamed: 3: 179.0262036
+Unnamed: 4: 10957.53665
+Unnamed: 5: 22093.45478
+```
+
+## Record 28
+```
+Loan amount: 23
+250000: 22093.45478
+Unnamed: 2: 11136.56286
+Unnamed: 3: 119.67288
+Unnamed: 4: 11016.88998
+Unnamed: 5: 11076.5648
+```
+
+## Record 29
+```
+Loan amount: 24
+250000: 11076.5648
+Unnamed: 2: 11136.56286
+Unnamed: 3: 59.99805933
+Unnamed: 4: 11076.5648
+Unnamed: 5: 1.073203748e-10
+```
+
+## Record 31
+```
+Loan amount: Total interest
+Unnamed: 3: 17277.5086
+```

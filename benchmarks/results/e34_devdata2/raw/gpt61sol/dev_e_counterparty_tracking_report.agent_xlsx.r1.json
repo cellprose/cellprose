@@ -1,0 +1,152 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_counterparty_tracking_report",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1434,
+ "prompt_sha256": "06fec9fba41ab2db5420602e62d115b2a095ef189a783b5323fc0131b50c3951",
+ "result": "{\n  \"q1\": 1,\n  \"q2\": \"Tier 2 Counterparties!W18\",\n  \"q3\": [\n    \"Mission Critical Counterparties!U98\",\n    \"Mission Critical Counterparties!P98\"\n  ],\n  \"q4\": [\n    \"Tier 2 Counterparties!U59\",\n    \"Tier 2 Counterparties!P59\"\n  ],\n  \"q5\": [\n    \"Tier 2 Counterparties!S18\",\n    \"Tier 2 Counterparties!S19\",\n    \"Tier 2 Counterparties!S74\",\n    \"Tier 2 Counterparties!S75\"\n  ],\n  \"q6\": [\n    \"Tier 2 Counterparties!P20:P33\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 11018,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 17603,
+  "output_tokens": 824,
+  "output_tokens_details": {
+   "thinking_tokens": 49
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 11018,
+   "outputTokens": 824,
+   "cacheReadInputTokens": 17603,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 49
+  }
+ },
+ "cost": 0.06548200000000001,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_f0e9d5d29dbc40ec9d19fd6163a97ef6",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 473,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 20,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 576,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 228,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 7999,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 185,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 1614,
+     "cache_read_tokens": 7996,
+     "cache_write_tokens": 0,
+     "output_tokens": 221,
+     "reasoning_tokens": 49,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 356,
+     "cache_read_tokens": 9607,
+     "cache_write_tokens": 0,
+     "output_tokens": 170,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T16:29:31+00:00",
+  "run_id": "20261107T162647Z-9ba68e",
+  "started_at": "2026-11-07T16:26:47+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 14.4
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la\"}",
+   "output_chars": 157
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');v=openpyxl.load_workbook('book.xlsx',data_only=True)\\nfor sn in w.sheetnames:\\n s=w[sn];print(sn,s.max_row,s.max_column)\\nfor sn,rg in [('Mission Critical Counterparties',(1,35)),('Tier 2 Counterparties',(1,65))]:\\n s=w[sn];print('\\\\n',sn)\\n for row in s:\\n  if rg[0]<=row[0].row<=rg[1]:\\n   print(' '.join(f'{c.column_letter}{c.row}:{c.value}' for c in row if c.value is not None))\\nfor sn,cell in [('Mission Crit",
+   "output_chars": 16761
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');v=openpyxl.load_workbook('book.xlsx',data_only=True)\\ns=w.worksheets[0]\\nfor row in s:\\n for c in row:\\n  if c.value=='Yes' and c.column!=10 and c.row>100:print(c.coordinate,[(x.coordinate,x.value,v[s.title][x.coordinate].value) for x in row if x.value is not None])\\nfor s in w:\\n print('\\\\nFORMULAS',s.title)\\n for row in s:\\n  for c in row:\\n   if c.data_type=='f' and (c.column==19 or '!' in c.value):print(c.c",
+   "output_chars": 3371
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx')\\nfor s in w:\\n for row in s:\\n  for c in row:\\n   if c.data_type=='f' and any(x in c.value.replace('$','') for x in ['S15','S18','S19','S74','S75']): print(s.title,c.coordinate,c.value)\\nprint('yes row labels')\\nfor s in [w.worksheets[0]]:\\n for row in s:\\n  for c in row:\\n   if isinstance(c.value,str) and c.value.lower()=='yes' and c.column>=15:print(c.coordinate)\\nPY\"}",
+   "output_chars": 329
+  }
+ ]
+}

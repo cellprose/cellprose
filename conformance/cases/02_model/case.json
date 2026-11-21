@@ -1,0 +1,12 @@
+{
+ "title": "Two sheets, fill ranges, cross-sheet reference, defined name, frozen pane, currency format",
+ "spec": "§6.4, §7",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

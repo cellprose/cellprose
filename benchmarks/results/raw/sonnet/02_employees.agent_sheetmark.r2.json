@@ -1,0 +1,73 @@
+{
+ "model": "sonnet",
+ "workbook": "02_employees",
+ "encoding": "agent_sheetmark",
+ "result": "Row numbers are in the first column, so E1063 is on row 65 and E1019 is on row 21.\n\n{\"q1\": 160500, \"q2\": 45, \"q3\": \"Sales\", \"q4\": \"London\", \"q5\": \"Employees!F65\", \"q6\": \"Employees!G21\"}",
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3061,
+  "cache_read_input_tokens": 6028,
+  "output_tokens": 277,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3061,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 93,
+    "cache_read_input_tokens": 3875,
+    "cache_creation_input_tokens": 1339,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1339
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1486,
+   "outputTokens": 291,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.00029410000000000005,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 269,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 277,
+   "cacheReadInputTokens": 6028,
+   "cacheCreationInputTokens": 3061,
+   "webSearchRequests": 0,
+   "costUSD": 0.016227600000000002,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.0165217,
+ "num_turns": 2,
+ "subtype": "success"
+}

@@ -1,0 +1,78 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_ddm3st",
+ "encoding": "sheetmark_v031",
+ "prompt_chars": 14833,
+ "prompt_sha256": "675bd023b523562f44fad4db29d0cd7fb5da4a2c850ab143ee0afd7f7c4da07d",
+ "result": "{\"q1\":1.1,\"q2\":\"ddm3st.xls!D85\",\"q3\":[\"ddm3st.xls!E33\",\"ddm3st.xls!L97\",\"ddm3st.xls!K99\",\"ddm3st.xls!D92\"],\"q4\":[\"ddm3st.xls!E64\",\"ddm3st.xls!E106\",\"ddm3st.xls!E105\"],\"q5\":[\"ddm3st.xls!C103:J103\",\"ddm3st.xls!C106:J107\",\"ddm3st.xls!C110:J110\",\"ddm3st.xls!E116\",\"ddm3st.xls!F119:F121\"],\"q6\":[]}",
+ "usage": {
+  "input_tokens": 6719,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 426,
+  "output_tokens_details": {
+   "thinking_tokens": 268
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 6719,
+   "outputTokens": 426,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 268
+  }
+ },
+ "cost": 0.017698,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261107T130946Z-3b4774",
+  "started_at": "2026-11-07T13:09:46+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "86fd51349b29cc81ee8ae533feb2ddae5ce8a31dfaf7619d70f8a0276a9ad6c6",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 7.9,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_cb14b76525fc4ac09de6e621e83acbfb",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "input_tokens": 6719,
+   "input_tokens_details": {
+    "cache_write_tokens": 6716,
+    "cached_tokens": 0,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 426,
+   "output_tokens_details": {
+    "reasoning_tokens": 268
+   },
+   "total_tokens": 7145,
+   "billed_input_tokens": 6719,
+   "tokenizer_input_tokens_o200k": 6708,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 6708
+  },
+  "finished_at": "2026-11-07T13:10:23+00:00"
+ }
+}

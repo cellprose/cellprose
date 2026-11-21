@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_dam_fcffginzu",
+ "encoding": "csv",
+ "prompt_chars": 110259,
+ "prompt_sha256": "9e31e256c99b7619ea24549de749e592534f9d0ebbf345d63e4d1105e76fca2a",
+ "result": "```json\n{\n  \"q1\": 377.140217,\n  \"q2\": 0.08300988546,\n  \"q3\": \"Valuation Model!F62\",\n  \"q4\": [\"Valuation Model!F65\", \"Valuation Model!F66\", \"Valuation Model!F67\"],\n  \"q5\": [\"Valuation Model!F71\", \"Valuation Model!F72\"],\n  \"q6\": [\n    \"Master Inputs Start here!B61\",\n    \"Valuation Model!D16\",\n    \"Valuation Model!D28\",\n    \"Valuation Model!D30\",\n    \"Valuation Model!D31\",\n    \"Valuation Model!D47:L47\",\n    \"Valuation Model!D48:M48\",\n    \"Valuation Model!D49:M49\",\n    \"Valuation Model!F61\",\n    \"Valuation Model!F62\",\n    \"Valuation Model!F63\",\n    \"Valuation Model!F65\",\n    \"Valuation Model!F68\",\n    \"Valuation Model!F70\",\n    \"Valuation Model!F71\",\n    \"Valuation Model!F73\",\n    \"Input Summary!B5\",\n    \"Stories to Numbers!B12\",\n    \"Stories to Numbers!B13\",\n    \"Stories to Numbers!C19\",\n    \"Stories to Numbers!C21\",\n    \"Stories to Numbers!C22\",\n    \"Stories to Numbers!C25\",\n    \"Stories to Numbers!C27\",\n    \"Stories to Numbers!C28\",\n    \"Stories to Numbers!C30\",\n    \"Stories to Numbers!E19\",\n    \"Stories to Numbers!E20\",\n    \"Stories to Numbers!F19\",\n    \"Stories to Numbers!F20\",\n    \"Option Value!D9\",\n    \"Option Value!F14\",\n    \"Option Value!C15\",\n    \"Option Value!B20\",\n    \"Option Value!B21\",\n    \"Option Value!B23\",\n    \"Option Value!B24\",\n    \"Option Value!C26\",\n    \"Option Value!D27\",\n    \"Cost of capital worksheet!B4\",\n    \"Cost of capital worksheet!C35\",\n    \"Cost of capital worksheet!B37\",\n    \"Cost of capital worksheet!E37\",\n    \"Cost of capital worksheet!B38\",\n    \"Cost of capital worksheet!C38\",\n    \"Cost of capital worksheet!B39\",\n    \"Cost of capital worksheet!E39\"\n  ]\n}\n```",
+ "usage": {
+  "input_tokens": 59153,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 8483,
+  "output_tokens_details": {
+   "thinking_tokens": 7686
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 59153,
+   "outputTokens": 8483,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 7686
+  }
+ },
+ "cost": 0.203136,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 60.4,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 59153,
+   "output_tokens": 8483,
+   "output_tokens_details": {
+    "thinking_tokens": 7686
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 59153
+  },
+  "finished_at": "2026-11-07T09:02:25+00:00"
+ }
+}

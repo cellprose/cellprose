@@ -1,0 +1,69 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Preschedule!Y95",
+  "q": "What is the value in the row labelled 'PV Unit 1', column headed 'Difference:', in the sheet 'Preschedule'?",
+  "truth": 171,
+  "labels": [
+   "A95",
+   "Y88"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Preschedule!Z44",
+  "q": "Which cell holds the value in the row labelled 'GT 1', column headed 'Capacity', in the sheet 'Preschedule'? Give its cell address.",
+  "truth": "Preschedule!Z44",
+  "labels": [
+   "A44",
+   "Z40"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Economics!F32",
+  "q": "Consider the cell Economics!F32 (in the row labelled 'PV Unit 3'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Economics!H32",
+   "Economics!I32"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Balancing!H26",
+  "q": "Consider the cell Balancing!H26. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Balancing!F26",
+   "Balancing!G26"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Deals!L73",
+  "factor": 1.1,
+  "q": "Suppose the number in Deals!L73 (in the row labelled '4C') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Economics!B17",
+   "Preschedule!H25"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Preschedule!Q94",
+  "range": "Preschedule!Q94:Q115",
+  "q": "Consider the range Preschedule!Q94:Q115 (the column of '#REF!'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Preschedule!Q102",
+   "Preschedule!Q106",
+   "Preschedule!Q111",
+   "Preschedule!Q96",
+   "Preschedule!Q99"
+  ],
+  "id": "q6"
+ }
+]

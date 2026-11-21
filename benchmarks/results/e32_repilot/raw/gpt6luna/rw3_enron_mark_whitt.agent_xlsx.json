@@ -1,0 +1,134 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw3_enron_mark_whitt",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1359,
+ "prompt_sha256": "8176d59797e1373760c9b9777cab6f8510d0edd3f57c49e405aabfc79d7846e9",
+ "result": "{\"q1\":2002,\"q2\":\"Sheet2!B5\",\"q3\":[\"West Gas Hot List!G48\",\"West Gas Hot List!H48\"],\"q4\":[\"West Gas Hot List!G15\",\"West Gas Hot List!H15\"],\"q5\":[\"West Gas Hot List!I59\",\"West Gas Hot List!I66\",\"West Gas Hot List!I11\",\"Sheet2!B5\"],\"q6\":[\"West Gas Hot List!I34\",\"West Gas Hot List!I35\",\"West Gas Hot List!I36\"]}",
+ "usage": {
+  "input_tokens": 7596,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 4698,
+  "output_tokens": 1962,
+  "output_tokens_details": {
+   "thinking_tokens": 1510
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 7596,
+   "outputTokens": 1962,
+   "cacheReadInputTokens": 4698,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1510
+  }
+ },
+ "cost": 0.0022104,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_d69e7d382ca549c68004c4f04d7d75e4",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 467,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 85,
+     "reasoning_tokens": 9,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 604,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 143,
+     "reasoning_tokens": 22,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 4701,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 935,
+     "reasoning_tokens": 804,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 1824,
+     "cache_read_tokens": 4698,
+     "cache_write_tokens": 0,
+     "output_tokens": 799,
+     "reasoning_tokens": 675,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:55:13+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 21.5
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl, os\\np='book.xlsx'; w=openpyxl.load_workbook(p,data_only=False)\\nprint(w.sheetnames)\\nfor s in w:\\n print(s.title,s.max_row,s.max_column)\\nPY\"}",
+   "output_chars": 99
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nfor sn in ['West Gas Hot List','Sheet2']:\\n s=w[sn]; print('\\\\n',sn)\\n for row in s.iter_rows():\\n  vals=[f'{c.coordinate}={c.value}' for c in row if c.value is not None]\\n  if vals: print(' | '.join(vals))\\nPY\"}",
+   "output_chars": 8632
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nfor s in w:\\n for row in s:\\n  for c in row:\\n   if isinstance(c.value,str) and c.value.startswith('='): print(s.title,c.coordinate,c.value)\\nprint('chart')\\ns=w['Chart2']\\nfor row in s:\\n for c in row:\\n  if c.value is not None: print(c.coordinate,c.value)\\nPY\"}",
+   "output_chars": 2055
+  }
+ ]
+}

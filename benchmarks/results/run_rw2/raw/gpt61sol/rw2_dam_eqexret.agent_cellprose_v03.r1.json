@@ -1,0 +1,117 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw2_dam_eqexret",
+ "encoding": "agent_cellprose_v03",
+ "prompt_chars": 1373,
+ "prompt_sha256": "f0a44642eeb168ec98c586962478267f31945e16be983d7da4cacd01a26fc7cb",
+ "result": "{\n  \"q1\": 0.22,\n  \"q2\": \"Inputs!B2\",\n  \"q3\": [\n    \"Inputs!B15\",\n    \"Excess Return Valuation!F7\",\n    \"Excess Return Valuation!F10\",\n    \"Excess Return Valuation!F11\",\n    \"Excess Return Valuation!F12\"\n  ],\n  \"q4\": [\n    \"Inputs!B15\",\n    \"Excess Return Valuation!J7\",\n    \"Excess Return Valuation!J8\",\n    \"Excess Return Valuation!J22\"\n  ],\n  \"q5\": [\n    \"Excess Return Valuation!B28\",\n    \"Excess Return Valuation!B29\"\n  ],\n  \"q6\": [\n    \"Normalized Earnings!B5:F5\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 7198,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1391,
+  "output_tokens": 229,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 7198,
+   "outputTokens": 229,
+   "cacheReadInputTokens": 1391,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.019468,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_3fa5a170eab64165987f044ea006b619",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 457,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 27,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1394,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 20,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_file"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 5347,
+     "cache_read_tokens": 1391,
+     "cache_write_tokens": 0,
+     "output_tokens": 182,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.016964
+  },
+  "finished_at": "2026-11-11T16:44:37+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 6.9
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la; head -80 book.sheet.md\"}",
+   "output_chars": 3159
+  },
+  {
+   "turn": 2,
+   "tool": "read_file",
+   "args": "{\"path\": \"book.sheet.md\"}",
+   "output_chars": 14162
+  }
+ ]
+}

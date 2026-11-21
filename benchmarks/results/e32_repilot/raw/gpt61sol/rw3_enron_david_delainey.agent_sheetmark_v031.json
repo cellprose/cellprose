@@ -1,0 +1,116 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw3_enron_david_delainey",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1241,
+ "prompt_sha256": "059d5a074e8830937f6624724a41587f4d1160877413078ad97d0e8e0a9c2b71",
+ "result": "{\n  \"q1\": 43.4,\n  \"q2\": \"Sheet1!U19\",\n  \"q3\": [\"Sheet1!S13\", \"Sheet1!R13\"],\n  \"q4\": [\"Sheet1!D10\", \"Sheet1!C10\"],\n  \"q5\": [\"Sheet1!E24\", \"Sheet1!R9\", \"Sheet1!T9\", \"Sheet1!U9\", \"Sheet1!R19\", \"Sheet1!T19\", \"Sheet1!U19\"],\n  \"q6\": [\"Sheet1!B108:D108\"]\n}",
+ "usage": {
+  "input_tokens": 4651,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1159,
+  "output_tokens": 260,
+  "output_tokens_details": {
+   "thinking_tokens": 76
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 4651,
+   "outputTokens": 260,
+   "cacheReadInputTokens": 1159,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 76
+  }
+ },
+ "cost": 0.01422,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_92ebc400a5af4d61a1647d8723bfe977",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 432,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 27,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1162,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 21,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3057,
+     "cache_read_tokens": 1159,
+     "cache_write_tokens": 0,
+     "output_tokens": 212,
+     "reasoning_tokens": 76,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:56:35+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 6.8
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l; head -70 book.sheet.md\"}",
+   "output_chars": 1240
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cat book.sheet.md\"}",
+   "output_chars": 7525
+  }
+ ]
+}

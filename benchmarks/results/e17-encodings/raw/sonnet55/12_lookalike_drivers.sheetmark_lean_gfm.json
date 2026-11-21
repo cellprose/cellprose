@@ -1,0 +1,65 @@
+{
+ "model": "sonnet55",
+ "workbook": "12_lookalike_drivers",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2051,
+ "result": "Reading the workbook, Y4 profit is Plan!E10 = 559782.\n\nq2: Y3 rent is Plan!D5 = C5*(1+Drivers!$B$4). It reads Plan!C5 and Drivers!B4.\n\nq3: Y2 wages is Plan!C4 = B4*(1+Drivers!$B$3). It reads Plan!B4 and Drivers!B3.\n\nq4: Y2 marketing is Plan!C6 = B6*(1+Drivers!$B$6). It reads Plan!B6 and Drivers!B6.\n\nq5: Wage inflation is Drivers!B3. It feeds Plan!C4:E4. Total costs in Plan!C9:E9 depend on those, and profit in Plan!C10:E10 depends on total costs. Revenue is unaffected. Plan!B9 and Plan!B10 stay the same because column B is not computed from drivers.\n\nq6: Price inflation is Drivers!B2. It feeds Plan!C3:E3. Revenue in Plan!C8:E8 depends on unit price, and profit in Plan!C10:E10 depends on revenue.\n\nq7: Marketing growth is Drivers!B6. It feeds Plan!C6:E6. Total costs in Plan!C9:E9 depend on marketing, and profit in Plan!C10:E10 depends on total costs.\n\n```json\n{\"q1\":559782,\"q2\":[\"Plan!C5\",\"Drivers!B4\"],\"q3\":[\"Plan!B4\",\"Drivers!B3\"],\"q4\":[\"Plan!B6\",\"Drivers!B6\"],\"q5\":[\"Plan!C4:E4\",\"Plan!C9:E9\",\"Plan!C10:E10\"],\"q6\":[\"Plan!C3:E3\",\"Plan!C8:E8\",\"Plan!C10:E10\"],\"q7\":[\"Plan!C6:E6\",\"Plan!C9:E9\",\"Plan!C10:E10\"]}\n```",
+ "usage": {
+  "input_tokens": 1086,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 644,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 1086,
+   "outputTokens": 644,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.008612,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T105651Z-65938b",
+  "started_at": "2026-10-09T10:56:51+00:00",
+  "git_sha": "acbac33",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 4.0,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1086,
+   "output_tokens": 644,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T11:00:46+00:00"
+ }
+}

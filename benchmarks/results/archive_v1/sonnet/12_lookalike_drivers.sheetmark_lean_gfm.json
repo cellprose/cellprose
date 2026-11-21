@@ -1,0 +1,72 @@
+{
+ "model": "sonnet",
+ "workbook": "12_lookalike_drivers",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2037,
+ "result": "{\"q1\":559782,\"q2\":[\"Plan!C5\",\"Drivers!B4\"],\"q3\":[\"Plan!B4\",\"Drivers!B3\"],\"q4\":[\"Plan!B6\",\"Drivers!B6\"],\"q5\":[\"Plan!C4:E4\",\"Plan!C9:E9\",\"Plan!C10:E10\"],\"q6\":[\"Plan!C3:E3\",\"Plan!C8:E8\",\"Plan!C10:E10\"],\"q7\":[\"Plan!C6:E6\",\"Plan!C9:E9\",\"Plan!C10:E10\"]}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2534,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 482,
+  "output_tokens_details": {
+   "thinking_tokens": 300
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2534,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 482,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2534,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2534
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1730,
+   "outputTokens": 12,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.00179,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 482,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 2534,
+   "webSearchRequests": 0,
+   "costUSD": 0.014959999999999998,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 300,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.016749999999999998
+}

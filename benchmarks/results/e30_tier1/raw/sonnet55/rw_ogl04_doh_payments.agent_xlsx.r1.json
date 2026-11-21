@@ -1,0 +1,115 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_ogl04_doh_payments",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 906,
+ "prompt_sha256": "0b899794942d6e6adb763f781fe050306072ee268b3ee88ba8df8067975fd0a3",
+ "result": "{\"q1\": 2103091.25, \"q2\": \"SCOTTISH GOVERNMENT\", \"q3\": \"For upload!H29\"}",
+ "usage": {
+  "input_tokens": 5652,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 387,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 5652,
+   "outputTokens": 387,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.015174,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 887,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 189,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1717,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 150,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3048,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 48,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:08:01+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 4.2
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd /; cd - >/dev/null; python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb: print(ws.title,ws.dimensions)\\nws=wb['For upload']\\nfor r in ws.iter_rows(min_row=1,max_row=6):\\n  for c in r:\\n    if c.value is not None: print(c.coordinate,repr(c.value))\\n\\\"\"}",
+   "output_chars": 979
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['For upload']\\nfor r in ws.iter_rows(min_row=2):\\n  print(r[0].row,repr(r[5].value),r[4].value,r[6].value,r[7].value)\\n\\\"\"}",
+   "output_chars": 1678
+  }
+ ]
+}

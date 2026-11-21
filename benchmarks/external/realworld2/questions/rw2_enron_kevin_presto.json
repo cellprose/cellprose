@@ -1,0 +1,52 @@
+[
+ {
+  "type": "trace",
+  "cell": "PJM!C18",
+  "q": "Consider the cell PJM!C18 (in the row labelled 'Chalk Point'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "PJM!H10",
+   "PJM!H11",
+   "PJM!H12",
+   "PJM!H13",
+   "PJM!H14",
+   "PJM!H15",
+   "PJM!H16",
+   "PJM!H17",
+   "PJM!H18"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "NPCC!C18",
+  "q": "Consider the cell NPCC!C18 (in the row labelled 'Manchester Street'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "NPCC!H16",
+   "NPCC!H17",
+   "NPCC!H18"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "impact",
+  "cell": "PJM!H25",
+  "factor": 1.1,
+  "q": "Suppose the number in PJM!H25 (in the row labelled 'Coal') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "PJM!C25",
+   "PJM!C48"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "hardcode",
+  "cell": "NPCC!G17",
+  "range": "NPCC!G17:L17",
+  "q": "Consider the range NPCC!G17:L17 (the row of 'Gas'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "NPCC!G17",
+   "NPCC!H17"
+  ],
+  "id": "q4"
+ }
+]

@@ -1,0 +1,59 @@
+{
+ "model": "haiku",
+ "workbook": "02_employees",
+ "encoding": "agent_xlsx",
+ "result": "```json\n{\"q1\": 160500, \"q2\": 45, \"q3\": \"Sales\", \"q4\": \"London\", \"q5\": \"Employees!F65\", \"q6\": \"Employees!G21\"}\n```",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 3212,
+  "cache_read_input_tokens": 10363,
+  "output_tokens": 728,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3212,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 64,
+    "cache_read_input_tokens": 4343,
+    "cache_creation_input_tokens": 1022,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1022
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1491,
+   "outputTokens": 748,
+   "cacheReadInputTokens": 10363,
+   "cacheCreationInputTokens": 3212,
+   "webSearchRequests": 0,
+   "costUSD": 0.00126913,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.00126913,
+ "num_turns": 3,
+ "subtype": "success"
+}

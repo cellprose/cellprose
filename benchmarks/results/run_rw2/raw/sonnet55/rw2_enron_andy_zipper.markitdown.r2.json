@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw2_enron_andy_zipper",
+ "encoding": "markitdown",
+ "prompt_chars": 276432,
+ "prompt_sha256": "6c5a662234327ff1e45859e2e0cc355392369504f374eec66599589267e50d95",
+ "result": "```json\n{\"q1\":25000,\"q2\":\"Enron Activity - Dynegy Direct!D18\",\"q3\":[\"DD-EGL!B322\",\"DD-EGL!W322\"],\"q4\":[\"DD-EPM!E109\",\"DD-EPM!AA109\"],\"q5\":[\"DD-EPM!B27\",\"DD-EPM!C27\"]}\n```\n\nThe workbook text gives no cell coordinates or formulas, so q2 to q5 are inferred, not read directly.\n\n- **q1:** The Wade Hicks row in DD-EGL shows a Total Volume of 25000.\n- **q2:** I counted rows from the top of the 'Enron Activity - Dynegy Direct' table. Susan Pereira falls in row 18, and Notional Volume is column D.\n- **q3:** Wade Hicks' row has a period of 1, a volume of 25000 and a total volume of 25000. That fits Total Volume (column C) = Period (column B) \u00d7 Volume (column W), so I read C322 as `=B322*W322`.\n- **q4:** For Clint Dean in DD-EPM, 24000 \u00d7 50 = 1,200,000, which matches the notional value shown. I therefore read F109 as Total Volume (column E) \u00d7 Price (column AA).\n- **q5:** I guessed that the delivery start and end hours (columns B and C) are typed in. The filler rows carry constant 16 and 24 that look like leftover typed values. Columns D, E and F look like formulas.",
+ "usage": {
+  "input_tokens": 189448,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3040,
+  "output_tokens_details": {
+   "thinking_tokens": 2555
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 189448,
+   "outputTokens": 3040,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 2555
+  }
+ },
+ "cost": 0.409296,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 2,
+  "wall_seconds": 24.9,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 189448,
+   "output_tokens": 3040,
+   "output_tokens_details": {
+    "thinking_tokens": 2555
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 189448
+  },
+  "finished_at": "2026-11-11T15:14:22+00:00"
+ }
+}

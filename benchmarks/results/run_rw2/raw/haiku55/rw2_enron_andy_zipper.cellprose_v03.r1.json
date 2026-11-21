@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_andy_zipper",
+ "encoding": "cellprose_v03",
+ "prompt_chars": 63373,
+ "prompt_sha256": "1187589ff1b614393b28daf61cec187afd29234142446e209ea09232f6338870",
+ "result": "{\"q1\": 25000, \"q2\": \"'Enron Activity - Dynegy Direct'!D18\", \"q3\": [\"'DD-EGL'!B322\", \"'DD-EGL'!W322\"], \"q4\": [\"'DD-EPM'!E109\", \"'DD-EPM'!AA109\"], \"q5\": []}",
+ "usage": {
+  "input_tokens": 46831,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 759,
+  "output_tokens_details": {
+   "thinking_tokens": 651
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 46831,
+   "outputTokens": 759,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 651
+  }
+ },
+ "cost": 0.0050626,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 4.4,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 46831,
+   "output_tokens": 759,
+   "output_tokens_details": {
+    "thinking_tokens": 651
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 46831
+  },
+  "finished_at": "2026-11-11T14:26:46+00:00"
+ }
+}

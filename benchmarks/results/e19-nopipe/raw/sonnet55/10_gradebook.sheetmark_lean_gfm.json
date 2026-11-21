@@ -1,0 +1,77 @@
+{
+ "model": "sonnet55",
+ "workbook": "10_gradebook",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2609,
+ "prompt_sha256": "74027ffd608932cf5a5910c8e9dd6682914d6c043d69133170bea003db56443d",
+ "result": "q1: Aarav Nguyen is row 10, G10 = 68.3.\n\nq2: The Final column is F, and its class average is F34 = 69.0667.\n\nq3: Maya Joshi is row 5, H5 = C.\n\nq4: Zara Silva is row 20, and the Midterm column is E, so the cell is Grades!E20.\n\nq5: Noah Das is row 15, so G15 = SUMPRODUCT($B$2:$F$2,B15:F15). The cells it reads directly are Grades!B2:F2 and Grades!B15:F15.\n\nq6: If the weight of the final (F2) increased by 10%, the cells that change are those that depend on F2. That means G3:G32 (the weighted scores), and H3:H32 only where the letter grade changes. G34 (the average of the weighted scores) also changes. Letter changes would need recomputation, but \"would change\" is ambiguous. I'll list G3:G32, G34, and the H cells whose letter actually changes.\n\nInterpreting \"increased by 10%\" as F2 going from 0.4 to 0.44, each weighted score changes by 0.04 \u00d7 F. Computing the new G for each row:\n\n- Row 3: 59.5+2.32=61.82 \u2192 D (was F), changes.\n- Row 4: 75.3+2.2=77.5 \u2192 C, no change.\n- Row 5: 73.8+3.68=77.48 \u2192 C, no change.\n- Row 6: 74.1+2.68=76.78 \u2192 C, no change.\n- Row 7: 72.7+2.96=75.66 \u2192 C, no change.\n- Row 8: 80.6+3.76=84.36 \u2192 B, no change.\n- Row 9: 69.5+3.28=72.78 \u2192 C (was D), changes.\n- Row 10: 68.3+2.72=71.02 \u2192 C (was D), changes.\n- Row 11: 73.9+2.88=76.78 \u2192 C, no change.\n- Row 12: 83.8+3.08=86.88 \u2192 B, no change.\n- Row 13: 62.3+3.04=65.34 \u2192 D, no change.\n- Row 14: 71.2+2=73.2 \u2192 C, no change.\n- Row 15: 60.2+2.08=62.28 \u2192 D, no change.\n- Row 16: 66.3+2.68=68.98 \u2192 D, no change.\n- Row 17: 62.3+2.16=64.46 \u2192 D, no change.\n- Row 18: 69+2.96=71.96 \u2192 C (was D), changes.\n- Row 19: 81.4+3.76=85.16 \u2192 B, no change.\n- Row 20: 67.8+2.36=70.16 \u2192 C (was D), changes.\n- Row 21: 63.8+2.4=66.2 \u2192 D, no change.\n- Row 22: 66.6+2.76=69.36 \u2192 D, no change.\n- Row 23: 72.2+2.48=74.68 \u2192 C, no change.\n- Row 24: 67.7+3.04=70.74 \u2192 C (was D), changes.\n- Row 25: 75.9+3.28=79.18 \u2192 C, no change.\n- Row 26: 71.9+3.2=75.1 \u2192 C, no change.\n- Row 27: 69.6+1.8=71.4 \u2192 C (was D), changes.\n- Row 28: 53+2.16=55.16 \u2192 F, no change.\n- Row 29: 70.8+2.12=72.92 \u2192 C, no change.\n- Row 30: 80.6+3.64=84.24 \u2192 B, no change.\n- Row 31: 77+3.12=80.12 \u2192 B (was C), changes.\n- Row 32: 68.8+2.28=71.08 \u2192 C (was D), changes.\n\nThe H cells that change are H3, H9, H10, H18, H20, H24, H27, H31 and H32.\n\n```json\n{\"q1\": 68.3, \"q2\": 69.0667, \"q3\": \"C\", \"q4\": \"Grades!E20\", \"q5\": [\"Grades!B2:F2\", \"Grades!B15:F15\"], \"q6\": [\"Grades!G3:G32\", \"Grades!G34\", \"Grades!H3\", \"Grades!H9\", \"Grades!H10\", \"Grades!H18\", \"Grades!H20\", \"Grades!H24\", \"Grades!H27\", \"Grades!H31\", \"Grades!H32\"]}\n```",
+ "usage": {
+  "input_tokens": 1606,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1388,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 1606,
+   "outputTokens": 1388,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.017092,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261010T051113Z-1cce47",
+  "started_at": "2026-10-10T05:11:13+00:00",
+  "git_sha": "b4d0b9c",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "6fcc7fe80dfd05ee580a20abc2ef6488b77b3463260a0d44f0f6bfa9ec522753",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 0,
+  "wall_seconds": 8.1,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1606,
+   "output_tokens": 1388,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 1606
+  },
+  "finished_at": "2026-10-10T05:12:09+00:00"
+ }
+}

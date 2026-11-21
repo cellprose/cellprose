@@ -1,0 +1,70 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Industry averages!L7",
+  "q": "What is the value in the row labelled 'Automotive', column headed 'Market Debt/Capital', in the sheet 'Industry averages'?",
+  "truth": 0.57367970143265,
+  "labels": [
+   "A7",
+   "L1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Industry averages!J14",
+  "q": "Which cell holds the value in the row labelled 'Chemical (Basic)', column headed 'Std deviation in stock prices', in the sheet 'Industry averages'? Give its cell address.",
+  "truth": "Industry averages!J14",
+  "labels": [
+   "A14",
+   "J1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Cost of capital worksheet!C39",
+  "q": "Consider the cell Cost of capital worksheet!C39 (in the row labelled 'Weight in Cost of Capital'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Cost of capital worksheet!C38",
+   "Cost of capital worksheet!E38"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Input page!L45",
+  "q": "Consider the cell Input page!L45 (in the row labelled 'FCFF'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Input page!L43",
+   "Input page!L44"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Cost of capital worksheet!B5",
+  "factor": 1.1,
+  "q": "Suppose the number in Cost of capital worksheet!B5 (in the row labelled 'Current Market Price per share =') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Cost of capital worksheet!B38",
+   "Cost of capital worksheet!B39",
+   "Cost of capital worksheet!B40",
+   "Cost of capital worksheet!C35",
+   "Cost of capital worksheet!C39",
+   "Cost of capital worksheet!E38",
+   "Cost of capital worksheet!E40"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Input page!H42",
+  "range": "Input page!H42:H46",
+  "q": "Consider the range Input page!H42:H46. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Input page!H44"
+  ],
+  "id": "q6"
+ }
+]

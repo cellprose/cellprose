@@ -1,0 +1,8 @@
+{
+ "title": "A reader decodes every cell form: types, quotes, apostrophes, escapes and line breaks",
+ "spec": "§5.3",
+ "read": {
+  "input": "input.sheet.md",
+  "expected": "decoded.json"
+ }
+}

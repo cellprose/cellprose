@@ -1,0 +1,66 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Valuation Model!E26",
+  "q": "What is the value in the row labelled 'Tax Rate for computing income=', column headed 'Forever', in the sheet 'Valuation Model'?",
+  "truth": 0.275,
+  "labels": [
+   "B26",
+   "E17"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "R&D converter!B75",
+  "q": "Which cell holds the value in the row labelled 'Electric Utility (East)', in the sheet 'R&D converter'? Give its cell address.",
+  "truth": "R&D converter!B75",
+  "labels": [
+   "A75"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Historical Numbers!D13",
+  "q": "Consider the cell Historical Numbers!D13 (in the row labelled 'Reinvestment Rate'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Historical Numbers!D12",
+   "Historical Numbers!D2"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Cross Holdings Valuation!C9",
+  "q": "Consider the cell Cross Holdings Valuation!C9 (in the row labelled 'Hyundai Samho'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Cross Holdings Valuation!B9",
+   "Cross Holdings Valuation!D9"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Earnings Normalizer!C26",
+  "factor": 1.1,
+  "q": "Suppose the number in Earnings Normalizer!C26 (in the row labelled 'Inventory') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Earnings Normalizer!B33",
+   "Earnings Normalizer!B35",
+   "Earnings Normalizer!C24",
+   "Earnings Normalizer!G24"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Terminal Value!C11",
+  "range": "Terminal Value!C11:C16",
+  "q": "Consider the range Terminal Value!C11:C16 (the column of 'Reinvestment Rate'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Terminal Value!C11"
+  ],
+  "id": "q6"
+ }
+]

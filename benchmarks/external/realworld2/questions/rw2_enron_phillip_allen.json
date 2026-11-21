@@ -1,0 +1,72 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Proforma!Y61",
+  "q": "What is the value in the row labelled 'Tax @ 40%', in the sheet 'Proforma'?",
+  "truth": -24307.043974524626,
+  "labels": [
+   "Q61"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Initial Mix!D11",
+  "q": "Which cell holds the value in the row labelled 'Builder's Risk', column headed '% Tcost', in the sheet 'Initial Mix'? Give its cell address.",
+  "truth": "Initial Mix!D11",
+  "labels": [
+   "B11",
+   "D6"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Initial Mix!AC93",
+  "q": "Consider the cell Initial Mix!AC93 (in the row labelled 'Parking & Drives'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Initial Mix!AB7",
+   "Initial Mix!AB93"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "UCost Final!AC153",
+  "q": "Consider the cell UCost Final!AC153 (in the row labelled 'Less Defferred C. Profit'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "UCost Final!AB153",
+   "UCost Final!AB9"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "UCost Final!N94",
+  "factor": 1.1,
+  "q": "Suppose the number in UCost Final!N94 (in the row labelled 'Lump Sum') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "UCost Final!O110",
+   "UCost Final!O124",
+   "UCost Final!O125",
+   "UCost Final!O94",
+   "UCost Final!P110",
+   "UCost Final!P124",
+   "UCost Final!P125",
+   "UCost Final!P94"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "UCost Final!AP26",
+  "range": "UCost Final!AP26:AP40",
+  "q": "Consider the range UCost Final!AP26:AP40 (the column of 'Estimate Totals'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "UCost Final!AP28",
+   "UCost Final!AP32",
+   "UCost Final!AP34"
+  ],
+  "id": "q6"
+ }
+]

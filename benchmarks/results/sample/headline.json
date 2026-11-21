@@ -1,0 +1,224 @@
+{
+ "oneshot_standard": [
+  {
+   "model": "haiku45",
+   "encoding": "csv",
+   "n": 2,
+   "acc": 52.4,
+   "tokens": 8626.5,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.031838500000000006,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "haiku45",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 2,
+   "acc": 92.8,
+   "tokens": 6877.5,
+   "tokens_vs": -20.0,
+   "tout_vs": -40.0,
+   "cost": 0.0207415,
+   "cost_vs": -35.0,
+   "cost_per_correct_vs": -63.0
+  },
+  {
+   "model": "haiku55",
+   "encoding": "csv",
+   "n": 2,
+   "acc": 99.9,
+   "tokens": 4631.0,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.0009857,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "haiku55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 2,
+   "acc": 99.9,
+   "tokens": 4585.0,
+   "tokens_vs": -1.0,
+   "tout_vs": -51.0,
+   "cost": 0.0007129,
+   "cost_vs": -28.0,
+   "cost_per_correct_vs": -28.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "csv",
+   "n": 2,
+   "acc": 99.9,
+   "tokens": 3917.5,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.012579,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 2,
+   "acc": 100.0,
+   "tokens": 4689.5,
+   "tokens_vs": 20.0,
+   "tout_vs": 25.0,
+   "cost": 0.015303,
+   "cost_vs": 22.0,
+   "cost_per_correct_vs": 22.0
+  }
+ ],
+ "oneshot_hard": [
+  {
+   "model": "haiku45",
+   "encoding": "csv",
+   "n": 1,
+   "acc": 83.9,
+   "tokens": 8830.0,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.041562,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "haiku45",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 1,
+   "acc": 100.0,
+   "tokens": 10641.0,
+   "tokens_vs": 21.0,
+   "tout_vs": 19.0,
+   "cost": 0.049613,
+   "cost_vs": 19.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "haiku55",
+   "encoding": "csv",
+   "n": 1,
+   "acc": 93.7,
+   "tokens": 3856.0,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.0016036,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "haiku55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 1,
+   "acc": 100.0,
+   "tokens": 3348.0,
+   "tokens_vs": -13.0,
+   "tout_vs": -25.0,
+   "cost": 0.0012496,
+   "cost_vs": -22.0,
+   "cost_per_correct_vs": -27.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "csv",
+   "n": 1,
+   "acc": 93.7,
+   "tokens": 2220.0,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.015712,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 1,
+   "acc": 100.0,
+   "tokens": 1988.0,
+   "tokens_vs": -10.0,
+   "tout_vs": -34.0,
+   "cost": 0.011392,
+   "cost_vs": -27.0,
+   "cost_per_correct_vs": -32.0
+  }
+ ],
+ "oneshot_all": [
+  {
+   "model": "haiku45",
+   "encoding": "csv",
+   "n": 3,
+   "acc": 62.9,
+   "tokens": 8694.333333333332,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.03507966666666667,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "haiku45",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 3,
+   "acc": 95.2,
+   "tokens": 8132.0,
+   "tokens_vs": -6.0,
+   "tout_vs": -16.0,
+   "cost": 0.03036533333333333,
+   "cost_vs": -13.0,
+   "cost_per_correct_vs": -43.0
+  },
+  {
+   "model": "haiku55",
+   "encoding": "csv",
+   "n": 3,
+   "acc": 97.8,
+   "tokens": 4372.666666666666,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.0011916666666666666,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "haiku55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 3,
+   "acc": 99.9,
+   "tokens": 4172.666666666667,
+   "tokens_vs": -5.0,
+   "tout_vs": -37.0,
+   "cost": 0.0008918,
+   "cost_vs": -25.0,
+   "cost_per_correct_vs": -27.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "csv",
+   "n": 3,
+   "acc": 97.8,
+   "tokens": 3351.6666666666665,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.013623333333333335,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 3,
+   "acc": 100.0,
+   "tokens": 3789.0,
+   "tokens_vs": 13.0,
+   "tout_vs": -7.0,
+   "cost": 0.013999333333333334,
+   "cost_vs": 3.0,
+   "cost_per_correct_vs": 1.0
+  }
+ ]
+}

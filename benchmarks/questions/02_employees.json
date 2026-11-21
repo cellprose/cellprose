@@ -1,0 +1,44 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is the salary of employee E1042?",
+  "cell": "Employees!F44",
+  "id": "q1",
+  "truth": 160500
+ },
+ {
+  "type": "lookup",
+  "q": "How old is employee E1007?",
+  "cell": "Employees!E9",
+  "id": "q2",
+  "truth": 45
+ },
+ {
+  "type": "lookup",
+  "q": "Which department is employee E1088 in?",
+  "cell": "Employees!C90",
+  "id": "q3",
+  "truth": "Sales"
+ },
+ {
+  "type": "lookup",
+  "q": "In which city does employee E1115 work?",
+  "cell": "Employees!D117",
+  "id": "q4",
+  "truth": "London"
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds the salary of employee E1063? Give its cell address.",
+  "cell": "Employees!F65",
+  "id": "q5",
+  "truth": "Employees!F65"
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds the start date of employee E1019? Give its cell address.",
+  "cell": "Employees!G21",
+  "id": "q6",
+  "truth": "Employees!G21"
+ }
+]

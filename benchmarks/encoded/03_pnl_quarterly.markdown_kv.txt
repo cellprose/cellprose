@@ -1,0 +1,109 @@
+# P&L
+
+## Record 1
+```
+Unnamed: 0: Units
+Q1: 1200
+Q2: 1296
+Q3: 1399.68
+Q4: 1511.6544
+Total: 5407.3344
+```
+
+## Record 2
+```
+Unnamed: 0: Price
+Q1: 45
+Q2: 45
+Q3: 45
+Q4: 45
+```
+
+## Record 3
+```
+Unnamed: 0: Revenue
+Q1: 54000
+Q2: 58320
+Q3: 62985.6
+Q4: 68024.448
+Total: 243330.048
+```
+
+## Record 4
+```
+Unnamed: 0: COGS
+Q1: 22680
+Q2: 24494.4
+Q3: 26453.952
+Q4: 28570.26816
+Total: 102198.6202
+```
+
+## Record 5
+```
+Unnamed: 0: Gross profit
+Q1: 31320
+Q2: 33825.6
+Q3: 36531.648
+Q4: 39454.17984
+Total: 141131.4278
+```
+
+## Record 6
+```
+Unnamed: 0: Opex
+Q1: 18000
+Q2: 18000
+Q3: 18000
+Q4: 18000
+Total: 72000
+```
+
+## Record 7
+```
+Unnamed: 0: EBITDA
+Q1: 13320
+Q2: 15825.6
+Q3: 18531.648
+Q4: 21454.17984
+Total: 69131.42784
+```
+
+## Record 8
+```
+Unnamed: 0: EBITDA margin
+Q1: 0.2466666667
+Q2: 0.2713580247
+Q3: 0.2942203932
+Q4: 0.315389253
+Total: 0.2841055941
+```
+
+## Record 10
+```
+Unnamed: 0: Assumptions
+```
+
+## Record 11
+```
+Unnamed: 0: Growth
+Q1: 0.08
+```
+
+## Record 12
+```
+Unnamed: 0: Price
+Q1: 45
+```
+
+## Record 13
+```
+Unnamed: 0: COGS %
+Q1: 0.42
+```
+
+## Record 14
+```
+Unnamed: 0: Opex per quarter
+Q1: 18000
+```

@@ -1,0 +1,154 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Valuation Model!F71",
+  "labels": [
+   "B71"
+  ],
+  "q": "In the sheet 'Valuation Model', what is the 'Value of equity per share'?",
+  "key": {
+   "B": "Value of equity per share ="
+  },
+  "id": "q1",
+  "truth": 377.1402170197516
+ },
+ {
+  "type": "lookup",
+  "cell": "Valuation Model!D58",
+  "labels": [
+   "B58"
+  ],
+  "q": "In the sheet 'Valuation Model', what is the 'Cost of Capital in Stable Phase'?",
+  "key": {
+   "B": "Cost of Capital in Stable Phase ="
+  },
+  "id": "q2",
+  "truth": 0.08300988545867843
+ },
+ {
+  "type": "address",
+  "cell": "Valuation Model!F62",
+  "labels": [
+   "B62"
+  ],
+  "q": "In the sheet 'Valuation Model', which cell holds the present value of the terminal value of the firm (the row that starts 'Present Value of Terminal Value')? Give its cell address.",
+  "key": {
+   "B": "Present Value of Terminal Value of Firm ="
+  },
+  "id": "q3",
+  "truth": "Valuation Model!F62"
+ },
+ {
+  "type": "trace",
+  "cell": "Valuation Model!F68",
+  "labels": [
+   "B68"
+  ],
+  "q": "Consider 'Market Value of Equity =' in the sheet 'Valuation Model'. List the cells its formula reads directly (not indirectly).",
+  "key": {
+   "B": "Market Value of Equity ="
+  },
+  "id": "q4",
+  "truth": [
+   "Valuation Model!F65",
+   "Valuation Model!F66",
+   "Valuation Model!F67"
+  ]
+ },
+ {
+  "type": "trace",
+  "cell": "Valuation Model!F73",
+  "labels": [
+   "B73"
+  ],
+  "q": "Consider '% Under or Over valued =' in the sheet 'Valuation Model'. List the cells its formula reads directly (not indirectly).",
+  "key": {
+   "B": "% Under or Over valued ="
+  },
+  "id": "q5",
+  "truth": [
+   "Valuation Model!F71",
+   "Valuation Model!F72"
+  ]
+ },
+ {
+  "type": "impact",
+  "cell": "Master Inputs Start here!B32",
+  "factor": 1.1,
+  "labels": [
+   "A32"
+  ],
+  "q": "Suppose the number of shares outstanding in 'Master Inputs Start here' (cell B32) were 10% higher. List every other cell whose value would change.",
+  "id": "q6",
+  "truth": [
+   "Cost of capital worksheet!B38",
+   "Cost of capital worksheet!B39",
+   "Cost of capital worksheet!B4",
+   "Cost of capital worksheet!B40",
+   "Cost of capital worksheet!C35",
+   "Cost of capital worksheet!C39",
+   "Cost of capital worksheet!E38",
+   "Cost of capital worksheet!E40",
+   "Input Summary!B5",
+   "Master Inputs Start here!B59",
+   "Master Inputs Start here!B61",
+   "Option Value!D9",
+   "Option Value!F14",
+   "Stories to Numbers!B13",
+   "Stories to Numbers!B14",
+   "Stories to Numbers!C20",
+   "Stories to Numbers!C22",
+   "Stories to Numbers!C23",
+   "Stories to Numbers!C26",
+   "Stories to Numbers!C28",
+   "Stories to Numbers!C29",
+   "Stories to Numbers!C31",
+   "Stories to Numbers!E21",
+   "Stories to Numbers!F20",
+   "Stories to Numbers!F21",
+   "Valuation Model!D16",
+   "Valuation Model!D17",
+   "Valuation Model!D27",
+   "Valuation Model!D28",
+   "Valuation Model!D30",
+   "Valuation Model!D31",
+   "Valuation Model!D47",
+   "Valuation Model!D48",
+   "Valuation Model!D49",
+   "Valuation Model!E47",
+   "Valuation Model!E48",
+   "Valuation Model!E49",
+   "Valuation Model!F47",
+   "Valuation Model!F48",
+   "Valuation Model!F49",
+   "Valuation Model!F61",
+   "Valuation Model!F62",
+   "Valuation Model!F63",
+   "Valuation Model!F65",
+   "Valuation Model!F68",
+   "Valuation Model!F70",
+   "Valuation Model!F71",
+   "Valuation Model!F73",
+   "Valuation Model!G47",
+   "Valuation Model!G48",
+   "Valuation Model!G49",
+   "Valuation Model!H47",
+   "Valuation Model!H48",
+   "Valuation Model!H49",
+   "Valuation Model!I47",
+   "Valuation Model!I48",
+   "Valuation Model!I49",
+   "Valuation Model!J47",
+   "Valuation Model!J48",
+   "Valuation Model!J49",
+   "Valuation Model!K47",
+   "Valuation Model!K48",
+   "Valuation Model!K49",
+   "Valuation Model!L47",
+   "Valuation Model!L48",
+   "Valuation Model!L49",
+   "Valuation Model!M48",
+   "Valuation Model!M49"
+  ]
+ }
+]

@@ -1,0 +1,34 @@
+{
+ "version": 1,
+ "about": "Fixes which workbooks may be used to tune the format, prompt and runner (dev) and which are held out for the final run only. See docs/PROTOCOL.md section 3. Any workbook not listed under dev is held out, so a newly added workbook is fenced by default.",
+ "dev": [
+  "01_sales_log",
+  "02_employees",
+  "03_pnl_quarterly",
+  "04_saas_model",
+  "05_multisheet_model",
+  "06_budget_vs_actual",
+  "07_messy_report",
+  "08_loan_schedule",
+  "09_orders_lookup",
+  "10_gradebook",
+  "11_forecast_overrides",
+  "12_lookalike_drivers",
+  "13_scenario_switch",
+  "14_cost_allocation"
+ ],
+ "held_out": {
+  "corpora": [
+   "external/spreadsheetbench"
+  ],
+  "name_prefixes": [
+   "sb_",
+   "rw_"
+  ],
+  "note": "SpreadsheetBench-derived workbooks are named sb_<task id>; real-world workbooks will be rw_<name>. Their files stay out of git or are added only with their own review, but the split applies to them by name."
+ },
+ "subset": {
+  "seed": 20261009,
+  "note": "Seed for drawing a random subset of the held-out workbooks (api_run.py --subset N). Fixed here, before any held-out result exists; the size is chosen with the cost estimate and recorded with the run."
+ }
+}

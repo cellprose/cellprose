@@ -1,0 +1,60 @@
+{
+ "model": "gpt6luna",
+ "workbook": "02_employees",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 7966,
+ "result": "{\"q1\":160500,\"q2\":45,\"q3\":\"Sales\",\"q4\":\"London\",\"q5\":\"Employees!F65\",\"q6\":\"Employees!G21\"}",
+ "usage": {
+  "input_tokens": 3,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 3639,
+  "output_tokens": 132,
+  "output_tokens_details": {
+   "thinking_tokens": 88
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 3,
+   "outputTokens": 132,
+   "cacheReadInputTokens": 3639,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 88
+  }
+ },
+ "cost": 0.00043020000000000005,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261009T105651Z-65938b",
+  "started_at": "2026-10-09T10:56:51+00:00",
+  "git_sha": "acbac33",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 2.9,
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_2fac60cc209e44c3955f170e7a17d81e",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "provider_usage": {
+   "input_tokens": 3642,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 3639
+   },
+   "output_tokens": 132,
+   "output_tokens_details": {
+    "reasoning_tokens": 88
+   },
+   "total_tokens": 3774,
+   "billed_input_tokens": 3642,
+   "tokenizer_input_tokens_o200k": 3631
+  },
+  "finished_at": "2026-10-09T11:01:31+00:00"
+ }
+}

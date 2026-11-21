@@ -1,0 +1,72 @@
+{
+ "model": "sonnet",
+ "workbook": "10_gradebook",
+ "encoding": "markdown",
+ "prompt_chars": 2798,
+ "result": "{\"q1\":68.3,\"q2\":69.06666667,\"q3\":\"C\",\"q4\":\"Grades!E20\",\"q5\":[\"Grades!B15:F15\",\"Grades!B2:F2\"],\"q6\":[\"Grades!G3:G33\",\"Grades!G35\",\"Grades!H3:H33\"]}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3172,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 767,
+  "output_tokens_details": {
+   "thinking_tokens": 669
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3172,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 767,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3172,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3172
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 2824,
+   "outputTokens": 235,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0003999,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 219,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 767,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 3172,
+   "webSearchRequests": 0,
+   "costUSD": 0.020361999999999998,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 669,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.0207619
+}

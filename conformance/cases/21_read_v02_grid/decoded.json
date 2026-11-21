@@ -1,0 +1,32 @@
+{
+ "sheets": [
+  {
+   "name": "Old",
+   "state": "visible",
+   "freeze": null,
+   "merges": [],
+   "names": {},
+   "cells": {
+    "A1": {
+     "v": "Item"
+    },
+    "B1": {
+     "v": "Qty"
+    },
+    "C1": {
+     "v": "Price"
+    },
+    "D1": {
+     "f": "B2*2"
+    },
+    "A2": {
+     "v": "Pens"
+    },
+    "B2": {
+     "v": 5
+    }
+   }
+  }
+ ],
+ "names": {}
+}

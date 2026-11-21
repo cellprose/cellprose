@@ -1,0 +1,60 @@
+{
+ "model": "gpt6astra",
+ "workbook": "08_loan_schedule",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2744,
+ "result": "{\n  \"q1\": 129050,\n  \"q2\": 17277.5,\n  \"q3\": 11136.6,\n  \"q4\": \"Loan!D12\",\n  \"q5\": [\"Loan!F7\"],\n  \"q6\": [\"Loan!B12\", \"Loan!B2\"],\n  \"q7\": [\"Loan!B4\", \"Loan!B7:F30\", \"Loan!D32\"]\n}",
+ "usage": {
+  "input_tokens": 1219,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 179,
+  "output_tokens_details": {
+   "thinking_tokens": 76
+  }
+ },
+ "modelUsage": {
+  "gpt-6-astra": {
+   "inputTokens": 1219,
+   "outputTokens": 179,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 76
+  }
+ },
+ "cost": 0.02114,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261009T102109Z-d2d3b9",
+  "started_at": "2026-10-09T10:21:09+00:00",
+  "git_sha": "c5cb767",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 5.0,
+  "requested_model": "gpt-6-astra",
+  "returned_model": "gpt-6-astra",
+  "request_id": "req_a34041c1131c45a588a621af4fa6897b",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "provider_usage": {
+   "input_tokens": 1219,
+   "input_tokens_details": {
+    "cache_write_tokens": 1216,
+    "cached_tokens": 0
+   },
+   "output_tokens": 179,
+   "output_tokens_details": {
+    "reasoning_tokens": 76
+   },
+   "total_tokens": 1398,
+   "billed_input_tokens": 1219,
+   "tokenizer_input_tokens_o200k": 1208
+  },
+  "finished_at": "2026-10-09T10:27:41+00:00"
+ }
+}

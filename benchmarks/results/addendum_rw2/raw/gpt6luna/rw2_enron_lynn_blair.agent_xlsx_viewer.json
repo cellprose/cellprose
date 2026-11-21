@@ -1,0 +1,156 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_enron_lynn_blair",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1420,
+ "prompt_sha256": "e5f417c6b9629178e4fbe26e9fc7b56b253c375343199ecfe88cf01b21ee6475",
+ "result": "{\"q1\":-2123900.63,\"q2\":\"Conf. Letter Imb. Comparison!F32\",\"q3\":[\"Original OBA's!H86\",\"Original OBA's!G86\"],\"q4\":[\"Ellis-Woodward-Clark!P8:P10\"],\"q5\":[\"Original OBA's!I56\",\"Original OBA's!G63\",\"Original OBA's!I63\"],\"q6\":[\"Original OBA's!AS28:AS31\",\"Original OBA's!AS33\"]}",
+ "usage": {
+  "input_tokens": 12538,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 21345,
+  "output_tokens": 2157,
+  "output_tokens_details": {
+   "thinking_tokens": 1185
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 12538,
+   "outputTokens": 2157,
+   "cacheReadInputTokens": 21345,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1185
+  }
+ },
+ "cost": 0.0044668,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_b38db30967e042cfa5f3a76c4d087cfc",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 574,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 171,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash",
+      "view_xlsx",
+      "view_xlsx",
+      "view_xlsx"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 10089,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 839,
+     "reasoning_tokens": 325,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1176,
+     "cache_read_tokens": 10086,
+     "cache_write_tokens": 0,
+     "output_tokens": 359,
+     "reasoning_tokens": 191,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 699,
+     "cache_read_tokens": 11259,
+     "cache_write_tokens": 0,
+     "output_tokens": 788,
+     "reasoning_tokens": 669,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.002546
+  },
+  "finished_at": "2026-11-11T18:17:37+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 29.3
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nprint(w.sheetnames)\\nfor s in w.sheetnames:\\n print(s,w[s].max_row,w[s].max_column)\\nPY\"}",
+   "output_chars": 205
+  },
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Conf. Letter Imb. Comparison\", \"range\": \"\"}",
+   "output_chars": 1668
+  },
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Original OBA's\", \"range\": \"A48:AT90\"}",
+   "output_chars": 13653
+  },
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Ellis-Woodward-Clark\", \"range\": \"A1:Z20\"}",
+   "output_chars": 2832
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nfrom openpyxl.formula import Tokenizer\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\ns=w[\\\"Original OBA's\\\"]\\nfor r in range(28,35): print(r,s[f'AS{r}'].value)\\n# graph cells formula refs using tokenizer translate range into addresses\\nfrom openpyxl.formula import Tokenizer\\nfrom openpyxl.utils.cell import range_boundaries\\nfrom collections import defaultdict,deque\\n\\ndef refs(formula, sheet):\\n out=set()\\n try:t=Tokenizer(formula)\\n exce",
+   "output_chars": 761
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nwbf=openpyxl.load_workbook('book.xlsx',data_only=False); wbd=openpyxl.load_workbook('book.xlsx',data_only=True)\\ns='Original OBA\\\\'s'\\nfor a in ['G63','I56','I63','G65','I65','I74','J74','I76','I78','G91','I91','I93','I95','I97','I99','AC78','M78','Q78','U78','Y78','J93','AC97']:\\n print(a,wbf[s][a].value,'=>',wbd[s][a].value)\\nPY\"}",
+   "output_chars": 630
+  }
+ ]
+}

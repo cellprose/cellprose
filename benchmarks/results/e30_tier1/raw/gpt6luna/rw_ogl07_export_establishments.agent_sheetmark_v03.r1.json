@@ -1,0 +1,152 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_ogl07_export_establishments",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1042,
+ "prompt_sha256": "a59e362306bd68672f12f12dae3770c41077cd4331901b8c78b40825fad872c4",
+ "result": "{\"q1\":\"Animal By-Products\",\"q2\":\"Animal by-products\",\"q3\":\"Sheet1!D692\"}",
+ "usage": {
+  "input_tokens": 4366,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 9238,
+  "output_tokens": 407,
+  "output_tokens_details": {
+   "thinking_tokens": 173
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 4366,
+   "outputTokens": 407,
+   "cacheReadInputTokens": 9238,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 173
+  }
+ },
+ "cost": 0.0015639,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_43c240db685c4d74b3eae87c18f0d611",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 409,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 27,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2633,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 100,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 250,
+     "cache_read_tokens": 2630,
+     "cache_write_tokens": 0,
+     "output_tokens": 72,
+     "reasoning_tokens": 31,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 857,
+     "cache_read_tokens": 2877,
+     "cache_write_tokens": 0,
+     "output_tokens": 119,
+     "reasoning_tokens": 84,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 217,
+     "cache_read_tokens": 3731,
+     "cache_write_tokens": 0,
+     "output_tokens": 89,
+     "reasoning_tokens": 58,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:10:18+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.0
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l && head -80 book.sheet.md\"}",
+   "output_chars": 7315
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\np='book.sheet.md'\\nlines=open(p).read().splitlines()\\nfor l in lines:\\n if any(s in l for s in ['Czechia (CZ)','Ireland ROI (IE)','Romania (RO)']):\\n  if ('Composting' in l or 'Eggs and egg products' in l): print(l)\\nPY\"}",
+   "output_chars": 449
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '168,178p;429,436p;689,694p' book.sheet.md\"}",
+   "output_chars": 2669
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -E '^(174|433|692)\\\\|' book.sheet.md\"}",
+   "output_chars": 280
+  }
+ ]
+}

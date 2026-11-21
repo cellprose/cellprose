@@ -1,0 +1,140 @@
+[
+ {
+  "type": "lookup",
+  "cell": "FCFF Valuation!B33",
+  "q": "What is the value in the row labelled 'Revenues', column headed 'Base', in the sheet 'FCFF Valuation'?",
+  "truth": 12406,
+  "labels": [
+   "A33",
+   "B30"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "FCFF Valuation!B42",
+  "q": "Which cell holds the value in the row labelled '- Capital Expenditures', column headed 'Base', in the sheet 'FCFF Valuation'? Give its cell address.",
+  "truth": "FCFF Valuation!B42",
+  "labels": [
+   "A42",
+   "B30"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "FCFF Valuation!I32",
+  "q": "Consider the cell FCFF Valuation!I32 (in the row labelled 'Growth in Deprec'n'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "FCFF Valuation!E15",
+   "FCFF Valuation!E23",
+   "FCFF Valuation!I30",
+   "FCFF Valuation!L30"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "FCFF Valuation!C42",
+  "q": "Consider the cell FCFF Valuation!C42 (in the row labelled '- Capital Expenditures'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "FCFF Valuation!B42",
+   "FCFF Valuation!E15"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "FCFF Valuation!E24",
+  "factor": 1.1,
+  "q": "Suppose the number in FCFF Valuation!E24 (in the row labelled 'Enter operating expenses as a % of revenues in stable period =') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "EVA Valuation!B10",
+   "EVA Valuation!B7",
+   "EVA Valuation!H13",
+   "EVA Valuation!H2",
+   "EVA Valuation!H4",
+   "EVA Valuation!H6",
+   "EVA Valuation!I13",
+   "EVA Valuation!I2",
+   "EVA Valuation!I4",
+   "EVA Valuation!I6",
+   "EVA Valuation!J13",
+   "EVA Valuation!J2",
+   "EVA Valuation!J4",
+   "EVA Valuation!J6",
+   "EVA Valuation!K13",
+   "EVA Valuation!K2",
+   "EVA Valuation!K4",
+   "EVA Valuation!K6",
+   "EVA Valuation!L13",
+   "EVA Valuation!L2",
+   "EVA Valuation!L4",
+   "EVA Valuation!L5",
+   "EVA Valuation!L6",
+   "EVA Valuation!M13",
+   "EVA Valuation!M2",
+   "EVA Valuation!M4",
+   "FCFF Valuation!C58",
+   "FCFF Valuation!C60",
+   "FCFF Valuation!C61",
+   "FCFF Valuation!C65",
+   "FCFF Valuation!D65",
+   "FCFF Valuation!E65",
+   "FCFF Valuation!F65",
+   "FCFF Valuation!G65",
+   "FCFF Valuation!H35",
+   "FCFF Valuation!H36",
+   "FCFF Valuation!H37",
+   "FCFF Valuation!H40",
+   "FCFF Valuation!H44",
+   "FCFF Valuation!H55",
+   "FCFF Valuation!H65",
+   "FCFF Valuation!H66",
+   "FCFF Valuation!I35",
+   "FCFF Valuation!I36",
+   "FCFF Valuation!I37",
+   "FCFF Valuation!I40",
+   "FCFF Valuation!I44",
+   "FCFF Valuation!I55",
+   "FCFF Valuation!I65",
+   "FCFF Valuation!I66",
+   "FCFF Valuation!J35",
+   "FCFF Valuation!J36",
+   "FCFF Valuation!J37",
+   "FCFF Valuation!J40",
+   "FCFF Valuation!J44",
+   "FCFF Valuation!J55",
+   "FCFF Valuation!J65",
+   "FCFF Valuation!J66",
+   "FCFF Valuation!K35",
+   "FCFF Valuation!K36",
+   "FCFF Valuation!K37",
+   "FCFF Valuation!K40",
+   "FCFF Valuation!K44",
+   "FCFF Valuation!K55",
+   "FCFF Valuation!K65",
+   "FCFF Valuation!K66",
+   "FCFF Valuation!L35",
+   "FCFF Valuation!L36",
+   "FCFF Valuation!L37",
+   "FCFF Valuation!L40",
+   "FCFF Valuation!L44",
+   "FCFF Valuation!L45",
+   "FCFF Valuation!L55",
+   "FCFF Valuation!L65",
+   "FCFF Valuation!L66"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "FCFF Valuation!I30",
+  "range": "FCFF Valuation!I30:I33",
+  "q": "Consider the range FCFF Valuation!I30:I33. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "FCFF Valuation!I30"
+  ],
+  "id": "q6"
+ }
+]
