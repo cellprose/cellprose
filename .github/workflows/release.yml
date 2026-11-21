@@ -49,7 +49,7 @@ jobs:
           done
           twine check dist/core/* dist/integrations/*
           (cd js && npm pack --pack-destination ../dist/npm)
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: dist
           path: dist/
