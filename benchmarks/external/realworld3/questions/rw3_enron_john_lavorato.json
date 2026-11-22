@@ -1,0 +1,72 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Summary by Region!H26",
+  "q": "What is the value in the row labelled 'GRAND TOTALS', column headed 'SCHEDULED CONTRACT PYMTS TO DATE', in the sheet 'Summary by Region'?",
+  "truth": 391.6189440000001,
+  "labels": [
+   "F26",
+   "H6"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Summary by Status!H15",
+  "q": "Which cell holds the value in the row labelled 'Total Tentative', column headed 'CONTRACT COST', in the sheet 'Summary by Status'? Give its cell address.",
+  "truth": "Summary by Status!H15",
+  "labels": [
+   "F15",
+   "H6"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Cost Cancel Details!AT7",
+  "q": "Consider the cell Cost Cancel Details!AT7 (in the row labelled '% Cancellation'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Cost Cancel Details!AS8",
+   "Cost Cancel Details!AT8"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Cost Cancel Details!AH14",
+  "q": "Consider the cell Cost Cancel Details!AH14 (in the row labelled '% Cumulative Progress Payments'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Cost Cancel Details!AG14",
+   "Cost Cancel Details!AH13"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Cost Cancel Details!AI64",
+  "factor": 1.1,
+  "q": "Suppose the number in Cost Cancel Details!AI64 (in the row labelled '% Cumulative Cancellation') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Cost Cancel Details!AI120",
+   "Cost Cancel Details!AI124",
+   "Cost Cancel Details!AI125",
+   "Cost Cancel Details!AI129",
+   "Cost Cancel Details!AI130",
+   "Cost Cancel Details!AI63",
+   "Cost Cancel Details!AI67",
+   "Cost Cancel Details!AJ63"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Cost Cancel Details!AE101",
+  "range": "Cost Cancel Details!AE101:AE104",
+  "q": "Consider the range Cost Cancel Details!AE101:AE104. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Cost Cancel Details!AE101",
+   "Cost Cancel Details!AE103"
+  ],
+  "id": "q6"
+ }
+]

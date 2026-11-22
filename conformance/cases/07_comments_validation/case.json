@@ -1,0 +1,12 @@
+{
+ "title": "Comments and data validation: carried in the comments and validation blocks",
+ "spec": "§8",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

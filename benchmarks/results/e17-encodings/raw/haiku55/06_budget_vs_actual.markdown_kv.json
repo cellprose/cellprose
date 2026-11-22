@@ -1,0 +1,65 @@
+{
+ "model": "haiku55",
+ "workbook": "06_budget_vs_actual",
+ "encoding": "markdown_kv",
+ "prompt_chars": 3165,
+ "result": "{\"q1\": 5029, \"q2\": 3304937, \"q3\": 39947, \"q4\": \"BvA!F8\", \"q5\": [\"BvA!H4\", \"BvA!I4\"], \"q6\": [\"BvA!H2:H9\"], \"q7\": [\"BvA!I3\", \"BvA!J3\", \"BvA!K3\", \"BvA!C11\", \"BvA!I11\", \"BvA!J11\", \"BvA!K11\"]}",
+ "usage": {
+  "input_tokens": 1609,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1441,
+  "output_tokens_details": {
+   "thinking_tokens": 1299
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1609,
+   "outputTokens": 1441,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1299
+  }
+ },
+ "cost": 0.0008814,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T105651Z-65938b",
+  "started_at": "2026-10-09T10:56:51+00:00",
+  "git_sha": "acbac33",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 7.0,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1609,
+   "output_tokens": 1441,
+   "output_tokens_details": {
+    "thinking_tokens": 1299
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:57:38+00:00"
+ }
+}

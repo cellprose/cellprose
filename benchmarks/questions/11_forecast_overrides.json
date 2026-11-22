@@ -1,0 +1,99 @@
+[
+ {
+  "type": "lookup",
+  "q": "What are FY bookings?",
+  "cell": "Forecast!N2",
+  "id": "q1",
+  "truth": 1515987.648
+ },
+ {
+  "type": "hardcode",
+  "q": "Consider the bookings row for Feb through Dec (C2:M2). List the cells that hold typed-in numbers rather than formulas.",
+  "cell": "Forecast!C2",
+  "range": "Forecast!C2:M2",
+  "id": "q2",
+  "truth": [
+   "Forecast!F2",
+   "Forecast!J2"
+  ]
+ },
+ {
+  "type": "hardcode",
+  "q": "Consider the headcount and payroll rows for Feb through Dec (C4:M5). List the cells that hold typed-in numbers rather than formulas.",
+  "cell": "Forecast!C4",
+  "range": "Forecast!C4:M5",
+  "id": "q3",
+  "truth": [
+   "Forecast!H4",
+   "Forecast!K5"
+  ]
+ },
+ {
+  "type": "trace",
+  "q": "Consider Jun bookings. List the cells its formula reads directly (not indirectly).",
+  "cell": "Forecast!G2",
+  "id": "q4",
+  "truth": [
+   "Forecast!B7",
+   "Forecast!F2"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose monthly growth increased by 10%. List every other cell whose value would change.",
+  "cell": "Forecast!B7",
+  "factor": 1.1,
+  "id": "q5",
+  "truth": [
+   "Forecast!C2",
+   "Forecast!C3",
+   "Forecast!D2",
+   "Forecast!D3",
+   "Forecast!E2",
+   "Forecast!E3",
+   "Forecast!G2",
+   "Forecast!G3",
+   "Forecast!H2",
+   "Forecast!H3",
+   "Forecast!I2",
+   "Forecast!I3",
+   "Forecast!K2",
+   "Forecast!K3",
+   "Forecast!L2",
+   "Forecast!L3",
+   "Forecast!M2",
+   "Forecast!M3",
+   "Forecast!N2",
+   "Forecast!N3"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose hires per month increased by 50%. List every other cell whose value would change.",
+  "cell": "Forecast!B10",
+  "factor": 1.5,
+  "id": "q6",
+  "truth": [
+   "Forecast!C4",
+   "Forecast!C5",
+   "Forecast!D4",
+   "Forecast!D5",
+   "Forecast!E4",
+   "Forecast!E5",
+   "Forecast!F4",
+   "Forecast!F5",
+   "Forecast!G4",
+   "Forecast!G5",
+   "Forecast!I4",
+   "Forecast!I5",
+   "Forecast!J4",
+   "Forecast!J5",
+   "Forecast!K4",
+   "Forecast!L4",
+   "Forecast!L5",
+   "Forecast!M4",
+   "Forecast!M5",
+   "Forecast!N5"
+  ]
+ }
+]

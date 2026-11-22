@@ -1,0 +1,224 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_dam_fcffginzu",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1325,
+ "prompt_sha256": "e56e283ae7a16cde25d13dcfd45a6c7d0a5ae270a55ca0aab2298bd89b666a17",
+ "result": "{\"q1\":377.14,\"q2\":0.0830099,\"q3\":\"Valuation Model!F62\",\"q4\":[\"Valuation Model!F65\",\"Valuation Model!F66\",\"Valuation Model!F67\"],\"q5\":[\"Valuation Model!F72\",\"Valuation Model!F71\"],\"q6\":[\"Master Inputs Start here!B61\",\"Option Value!D9\",\"Cost of capital worksheet!B4\",\"Valuation Model!D16\",\"Valuation Model!D28\",\"Valuation Model!D30\",\"Valuation Model!D31\",\"Valuation Model!D47:M49\",\"Valuation Model!F61\",\"Valuation Model!F62\",\"Valuation Model!F63\",\"Valuation Model!F65\",\"Valuation Model!F68\",\"Valuation Model!F70\",\"Valuation Model!F71\",\"Valuation Model!F73\"]}",
+ "usage": {
+  "input_tokens": 16377,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 55482,
+  "output_tokens": 2702,
+  "output_tokens_details": {
+   "thinking_tokens": 2140
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 16377,
+   "outputTokens": 2702,
+   "cacheReadInputTokens": 55482,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 2140
+  }
+ },
+ "cost": 0.0085369,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_f9ef88c05e2e444ab76abfc931995388",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 446,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 32,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1580,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 66,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 151,
+     "cache_read_tokens": 1577,
+     "cache_write_tokens": 0,
+     "output_tokens": 29,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 6341,
+     "cache_read_tokens": 1725,
+     "cache_write_tokens": 0,
+     "output_tokens": 55,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 1448,
+     "cache_read_tokens": 8063,
+     "cache_write_tokens": 0,
+     "output_tokens": 127,
+     "reasoning_tokens": 98,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 352,
+     "cache_read_tokens": 9508,
+     "cache_write_tokens": 0,
+     "output_tokens": 130,
+     "reasoning_tokens": 69,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 2063,
+     "cache_read_tokens": 9857,
+     "cache_write_tokens": 0,
+     "output_tokens": 542,
+     "reasoning_tokens": 493,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 921,
+     "cache_read_tokens": 11917,
+     "cache_write_tokens": 0,
+     "output_tokens": 46,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 3075,
+     "cache_read_tokens": 12835,
+     "cache_write_tokens": 0,
+     "output_tokens": 1675,
+     "reasoning_tokens": 1480,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:02:48+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 34.9
+ },
+ "num_turns": 9,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la && file book.sheet.md && head -80 book.sheet.md\"}",
+   "output_chars": 3821
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n \\\"# Sheet: Valuation Model\\\\|Value of equity per share\\\\|Cost of Capital in Stable Phase\\\\|Market Value of Equity =\\\\|Under or Over valued\\\\|Present Value of Terminal Value\\\" book.sheet.md\"}",
+   "output_chars": 254
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '324,660p' book.sheet.md\"}",
+   "output_chars": 14627
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '660,725p' book.sheet.md && grep -n '^##.*B32\\\\|^32|\\\\|B32' book.sheet.md | head -20\"}",
+   "output_chars": 3286
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n \\\"B32\\\" book.sheet.md\"}",
+   "output_chars": 615
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '95,225p' book.sheet.md; sed -n '1360,1395p' book.sheet.md; sed -n '1485,1520p' book.sheet.md\"}",
+   "output_chars": 5133
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n \\\"# Sheet: Option Value\\\\|# Sheet: Cost of capital worksheet\\\\|^##\\\" book.sheet.md | tail -40\"}",
+   "output_chars": 662
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '1348,1495p' book.sheet.md; sed -n '1496,1718p' book.sheet.md\"}",
+   "output_chars": 6480
+  }
+ ]
+}

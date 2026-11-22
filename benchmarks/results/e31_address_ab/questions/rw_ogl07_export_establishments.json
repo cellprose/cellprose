@@ -1,0 +1,61 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'Sheet1', which cell holds 'Link' for the row where 'Country' is 'Romania (RO)' and 'SectorSection' is 'Eggs and egg products (EEP)'? Give its cell address.",
+  "cell": "Sheet1!D692",
+  "key": {
+   "A": "Romania (RO)",
+   "C": "Eggs and egg products (EEP)"
+  },
+  "labels": [
+   "A692",
+   "C692",
+   "D692",
+   "D1"
+  ],
+  "id": "q1",
+  "truth": "Sheet1!D692"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "Sheet1!C88",
+  "truth": "Sheet1!C88",
+  "q": "In the sheet 'Sheet1', which cell holds 'SectorSection' for the row where 'Country' is 'Bulgaria (BG)' and 'SectorSection' is 'Semen Collection Centres (SEM-COL)'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "Sheet1!B260",
+  "truth": "Sheet1!B260",
+  "q": "In the sheet 'Sheet1', which cell holds 'Chapter' for the row where 'Country' is 'Finland (FI)' and 'SectorSection' is 'Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "Sheet1!A347",
+  "truth": "Sheet1!A347",
+  "q": "In the sheet 'Sheet1', which cell holds 'Country' for the row where 'Country' is 'Greece (GR)' and 'SectorSection' is 'Establishments or plants for the storage of derived products (ABP-STORP)'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "Sheet1!D519",
+  "truth": "Sheet1!D519",
+  "q": "In the sheet 'Sheet1', which cell holds 'Link' for the row where 'Country' is 'Lithuania (LT)' and 'SectorSection' is 'Germinal product storage centres (GERM-STO)'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q6",
+  "cell": "Sheet1!C606",
+  "truth": "Sheet1!C606",
+  "q": "In the sheet 'Sheet1', which cell holds 'SectorSection' for the row where 'Country' is 'Norway (NO)' and 'SectorSection' is 'Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q7",
+  "cell": "Sheet1!B778",
+  "truth": "Sheet1!B778",
+  "q": "In the sheet 'Sheet1', which cell holds 'Chapter' for the row where 'Country' is 'Spain (ES)' and 'SectorSection' is 'Eggs and egg products (EEP)'? Give its cell address."
+ }
+]

@@ -1,0 +1,155 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_apv",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 4711,
+ "prompt_sha256": "02b8668f813fd4ae41d52c6e167f88c3056614d575d62dea6efbcaec8446d0d5",
+ "result": "{\n  \"q1\": 0.028,\n  \"q2\": \"Adjusted Present Value!D64\",\n  \"q3\": [\n    \"Adjusted Present Value!C48\",\n    \"Adjusted Present Value!B50\",\n    \"Adjusted Present Value!C68\"\n  ],\n  \"q4\": [\n    \"Inputs!B29\",\n    \"Default Spreads and Ratios!E29\",\n    \"Default Spreads and Ratios!E49\"\n  ],\n  \"q5\": [\n    \"Adjusted Present Value!E27\",\n    \"Adjusted Present Value!E87\"\n  ],\n  \"q6\": [\n    \"Country ERP!C132\",\n    \"Country ERP!E132:F132\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 3409,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 12516,
+  "output_tokens": 366,
+  "output_tokens_details": {
+   "thinking_tokens": 13
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 3409,
+   "outputTokens": 366,
+   "cacheReadInputTokens": 12516,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 13
+  }
+ },
+ "cost": 0.03551,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_270c6bb79b52409ab703957cc45314dc",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 1861,
+     "cache_write_tokens": 0,
+     "output_tokens": 143,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2490,
+     "cache_read_tokens": 1861,
+     "cache_write_tokens": 0,
+     "output_tokens": 26,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 101,
+     "cache_read_tokens": 4348,
+     "cache_write_tokens": 0,
+     "output_tokens": 42,
+     "reasoning_tokens": 13,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 815,
+     "cache_read_tokens": 4446,
+     "cache_write_tokens": 0,
+     "output_tokens": 155,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T15:15:36+00:00",
+  "run_id": "20261107T151519Z-fc325b",
+  "started_at": "2026-11-07T15:15:19+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 15.9
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Adjusted Present Value!D71:H87\", \"Adjusted Present Value!C25:H40\", \"Country ERP!A132:F132\"]}",
+   "output_chars": 4621
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Adjusted Present Value!C50\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 164
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Adjusted Present Value!H87\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 218
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Default Spreads and Ratios!B49\", \"factor\": 1.1}",
+   "output_chars": 144
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Funds/Debt\", \"sheet\": \"Adjusted Present Value\"}",
+   "output_chars": 121
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Adjusted Present Value!A62:K68\"]}",
+   "output_chars": 1340
+  }
+ ]
+}

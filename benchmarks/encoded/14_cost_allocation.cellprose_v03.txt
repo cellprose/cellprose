@@ -1,0 +1,58 @@
+---
+cellprose: 0.3
+---
+
+Note: the first field of each table row is its row number, not a cell; column A is the second field.
+
+# Sheet: Drivers
+
+## A1:D7
+
+#|A|B|C|D
+-|-|-|-|-
+1|Department|Headcount|Floor area|Tickets
+2|Engineering|60|900|120
+3|Sales|25|600|40
+4|Support|30|400|900
+5|Finance|10|200|60
+6|Marketing|15|300|80
+7|Total|140|2400|1200
+
+```formulas
+B7:D7 = SUM(B2:B6)
+```
+
+# Sheet: Shared
+
+## A1:C4
+
+#|A|B|C
+-|-|-|-
+1|Pool|Annual cost|Driver
+2|IT|600000|Headcount
+3|Facilities|450000|Floor area
+4|Helpdesk|300000|Tickets
+
+# Sheet: Allocation
+
+## A1:E7
+
+#|A|B|C|D|E
+-|-|-|-|-|-
+1|Department|IT|Facilities|Helpdesk|Total
+2|Engineering|257143|168750|30000|455893
+3|Sales|107143|112500|9000|228643
+4|Support|128571|75000|225000|428571
+5|Finance|42857.1|37500|15000|95357.1
+6|Marketing|64285.7|56250|20000|140536
+7|Total|600000|450000|299000|1349000
+
+```formulas
+B2:B6 = Shared!$B$2*Drivers!B2/Drivers!$B$7
+C2:C4 = Shared!$B$3*Drivers!C2/Drivers!$C$7
+D2 = Shared!$B$4*Drivers!D2/Drivers!$D$7
+E2:E6 = SUM(B2:D2)
+D4:D6 = Shared!$B$4*Drivers!D4/Drivers!$D$7
+C6 = Shared!$B$3*Drivers!C6/Drivers!$C$7
+B7:E7 = SUM(B2:B6)
+```

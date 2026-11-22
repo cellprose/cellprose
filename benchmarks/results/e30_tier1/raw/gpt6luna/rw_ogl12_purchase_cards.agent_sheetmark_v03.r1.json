@@ -1,0 +1,170 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_ogl12_purchase_cards",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 956,
+ "prompt_sha256": "83712d212ea7a555f7cf85776e65b14bd6d194986739ce6a40c9e4534bb456c7",
+ "result": "{\"q1\":5.4,\"q2\":\"ASDA STORES 4840\",\"q3\":\"NOV 18!E241\"}",
+ "usage": {
+  "input_tokens": 5726,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 19332,
+  "output_tokens": 375,
+  "output_tokens_details": {
+   "thinking_tokens": 143
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 5726,
+   "outputTokens": 375,
+   "cacheReadInputTokens": 19332,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 143
+  }
+ },
+ "cost": 0.0026933,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_1f7390c385a64294998cb6d6718e2b8c",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 380,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 27,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 4637,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 57,
+     "reasoning_tokens": 10,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 132,
+     "cache_read_tokens": 4634,
+     "cache_write_tokens": 0,
+     "output_tokens": 58,
+     "reasoning_tokens": 17,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 75,
+     "cache_read_tokens": 4763,
+     "cache_write_tokens": 0,
+     "output_tokens": 81,
+     "reasoning_tokens": 40,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 268,
+     "cache_read_tokens": 4835,
+     "cache_write_tokens": 0,
+     "output_tokens": 88,
+     "reasoning_tokens": 47,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 234,
+     "cache_read_tokens": 5100,
+     "cache_write_tokens": 0,
+     "output_tokens": 64,
+     "reasoning_tokens": 29,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:10:24+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.1
+ },
+ "num_turns": 6,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l && head -80 book.sheet.md\"}",
+   "output_chars": 12906
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -nE 'GPC111800000(150|240)\\\\||GPC11180000060\\\\|' book.sheet.md\"}",
+   "output_chars": 179
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -nE 'GPC111800000150|GPC111800000240' book.sheet.md\"}",
+   "output_chars": 11
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n 'GPC111800000' book.sheet.md | grep -E '150|240'\"}",
+   "output_chars": 528
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n 'GPC11180000150\\\\|GPC11180000240' book.sheet.md\"}",
+   "output_chars": 405
+  }
+ ]
+}

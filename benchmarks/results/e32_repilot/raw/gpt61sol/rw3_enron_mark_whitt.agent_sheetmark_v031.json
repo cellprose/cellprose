@@ -1,0 +1,116 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw3_enron_mark_whitt",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1363,
+ "prompt_sha256": "15a83c5f0d940f68a815490969f5194820725f89298e8a9f2fb80103d4ca7ef7",
+ "result": "{\n  \"q1\": 2002,\n  \"q2\": \"Sheet2!B5\",\n  \"q3\": [\"West Gas Hot List!G48\", \"West Gas Hot List!H48\"],\n  \"q4\": [\"West Gas Hot List!G15\", \"West Gas Hot List!H15\"],\n  \"q5\": [\"West Gas Hot List!I59\", \"West Gas Hot List!I66\", \"West Gas Hot List!I11\", \"Sheet2!B5\"],\n  \"q6\": [\"West Gas Hot List!I34:I36\"]\n}",
+ "usage": {
+  "input_tokens": 5585,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1440,
+  "output_tokens": 235,
+  "output_tokens_details": {
+   "thinking_tokens": 57
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 5585,
+   "outputTokens": 235,
+   "cacheReadInputTokens": 1440,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 57
+  }
+ },
+ "cost": 0.016399999999999998,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_c137464cfe6b454093d32f054bb6e30e",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 468,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 27,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1443,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 21,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3674,
+     "cache_read_tokens": 1440,
+     "cache_write_tokens": 0,
+     "output_tokens": 187,
+     "reasoning_tokens": 57,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:57:09+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 5.3
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la; head -80 book.sheet.md\"}",
+   "output_chars": 2273
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cat book.sheet.md\"}",
+   "output_chars": 8251
+  }
+ ]
+}

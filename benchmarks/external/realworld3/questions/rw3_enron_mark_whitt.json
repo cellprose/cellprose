@@ -1,0 +1,69 @@
+[
+ {
+  "type": "lookup",
+  "cell": "West Gas Hot List!E47",
+  "q": "What is the value in the row labelled 'Gas supply support', column headed 'Q4', in the sheet 'West Gas Hot List'?",
+  "truth": 2002,
+  "labels": [
+   "C47",
+   "E46"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Sheet2!B5",
+  "q": "Which cell holds the value in the row labelled 'Q4', column headed 'Orig Amount', in the sheet 'Sheet2'? Give its cell address.",
+  "truth": "Sheet2!B5",
+  "labels": [
+   "A5",
+   "B1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "West Gas Hot List!I48",
+  "q": "Consider the cell West Gas Hot List!I48 (in the row labelled 'N'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "West Gas Hot List!G48",
+   "West Gas Hot List!H48"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "West Gas Hot List!I15",
+  "q": "Consider the cell West Gas Hot List!I15 (in the row labelled 'N'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "West Gas Hot List!G15",
+   "West Gas Hot List!H15"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "West Gas Hot List!H59",
+  "factor": 1.1,
+  "q": "Suppose the number in West Gas Hot List!H59 (in the row labelled 'Q4') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Sheet2!B5",
+   "West Gas Hot List!I11",
+   "West Gas Hot List!I59",
+   "West Gas Hot List!I66"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "West Gas Hot List!I30",
+  "range": "West Gas Hot List!I30:I36",
+  "q": "Consider the range West Gas Hot List!I30:I36 (the column of 'Expected Value'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "West Gas Hot List!I34",
+   "West Gas Hot List!I35",
+   "West Gas Hot List!I36"
+  ],
+  "id": "q6"
+ }
+]

@@ -1,0 +1,90 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is Support's total allocated cost?",
+  "cell": "Allocation!E4",
+  "id": "q1",
+  "truth": 428571.428571429
+ },
+ {
+  "type": "hardcode",
+  "q": "Consider the allocation table body (B2:D6). List the cells that hold typed-in numbers rather than formulas.",
+  "cell": "Allocation!B2",
+  "range": "Allocation!B2:D6",
+  "id": "q2",
+  "truth": [
+   "Allocation!C5",
+   "Allocation!D3"
+  ]
+ },
+ {
+  "type": "trace",
+  "q": "Consider Marketing's IT allocation. List the cells its formula reads directly (not indirectly).",
+  "cell": "Allocation!B6",
+  "id": "q3",
+  "truth": [
+   "Drivers!B6",
+   "Drivers!B7",
+   "Shared!B2"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose Finance's floor area increased by 10%. List every other cell whose value would change.",
+  "cell": "Drivers!C5",
+  "factor": 1.1,
+  "id": "q4",
+  "truth": [
+   "Allocation!C2",
+   "Allocation!C3",
+   "Allocation!C4",
+   "Allocation!C6",
+   "Allocation!C7",
+   "Allocation!E2",
+   "Allocation!E3",
+   "Allocation!E4",
+   "Allocation!E6",
+   "Allocation!E7",
+   "Drivers!C7"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose Sales' ticket count increased by 10%. List every other cell whose value would change.",
+  "cell": "Drivers!D3",
+  "factor": 1.1,
+  "id": "q5",
+  "truth": [
+   "Allocation!D2",
+   "Allocation!D4",
+   "Allocation!D5",
+   "Allocation!D6",
+   "Allocation!D7",
+   "Allocation!E2",
+   "Allocation!E4",
+   "Allocation!E5",
+   "Allocation!E6",
+   "Allocation!E7",
+   "Drivers!D7"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose the Facilities annual cost increased by 10%. List every other cell whose value would change.",
+  "cell": "Shared!B3",
+  "factor": 1.1,
+  "id": "q6",
+  "truth": [
+   "Allocation!C2",
+   "Allocation!C3",
+   "Allocation!C4",
+   "Allocation!C6",
+   "Allocation!C7",
+   "Allocation!E2",
+   "Allocation!E3",
+   "Allocation!E4",
+   "Allocation!E6",
+   "Allocation!E7"
+  ]
+ }
+]

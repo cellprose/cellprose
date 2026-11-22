@@ -1,0 +1,112 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Seller's's PP Calc!W8",
+  "q": "What is the value in the row labelled 'Ten Year UST', column headed 'Factor', in the sheet 'Seller's's PP Calc'?",
+  "truth": 0.051,
+  "labels": [
+   "V8",
+   "W6"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Seller's's PP Calc!W9",
+  "q": "Which cell holds the value in the row labelled 'Swap Spread', column headed 'Factor', in the sheet 'Seller's's PP Calc'? Give its cell address.",
+  "truth": "Seller's's PP Calc!W9",
+  "labels": [
+   "V9",
+   "W6"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Seller's's PP Calc!C90",
+  "q": "Consider the cell Seller's's PP Calc!C90. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Seller's's PP Calc!A12",
+   "Seller's's PP Calc!B90"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Purchasers!C41",
+  "q": "Consider the cell Purchasers!C41. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Purchasers!A41",
+   "Purchasers!A42"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Purchasers!R131",
+  "factor": 1.1,
+  "q": "Suppose the number in Purchasers!R131 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Purchasers!AB131",
+   "Purchasers!AB133",
+   "Purchasers!AC131",
+   "Purchasers!AC133",
+   "Purchasers!AE131",
+   "Purchasers!AE133",
+   "Purchasers!AF131",
+   "Purchasers!AF133",
+   "Purchasers!R133",
+   "Purchasers!S131",
+   "Purchasers!S133",
+   "Seller's's PP Calc!L132",
+   "Seller's's PP Calc!L134",
+   "Seller's's PP Calc!P132",
+   "Seller's's PP Calc!P134",
+   "Seller's's PP Calc!S132",
+   "Seller's's PP Calc!S134",
+   "Seller's's PP Calc!T132",
+   "Seller's's PP Calc!T134",
+   "Seller's's PP Calc!U132",
+   "Seller's's PP Calc!U134",
+   "Seller's's PP Calc!X132",
+   "Seller's's PP Calc!X134",
+   "Swaps!AA131",
+   "Swaps!AA133",
+   "Swaps!AC131",
+   "Swaps!AC133",
+   "Swaps!E131",
+   "Swaps!E133",
+   "Swaps!O131",
+   "Swaps!O133",
+   "Swaps!Q131",
+   "Swaps!Q133",
+   "Swaps!S131",
+   "Swaps!S133",
+   "Swaps!U131",
+   "Swaps!U133",
+   "Swaps!W131",
+   "Swaps!W133",
+   "Swaps!X131",
+   "Swaps!X133",
+   "Swaps!Y131",
+   "Swaps!Y133",
+   "Swaps!Z131",
+   "Swaps!Z133"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Purchasers!E34",
+  "range": "Purchasers!E34:P34",
+  "q": "Consider the range Purchasers!E34:P34. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Purchasers!E34",
+   "Purchasers!G34",
+   "Purchasers!I34",
+   "Purchasers!K34",
+   "Purchasers!M34"
+  ],
+  "id": "q6"
+ }
+]

@@ -1,0 +1,135 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_enron_rick_buy",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1407,
+ "prompt_sha256": "f75a7cf1c2c43ceb769ca5d17cb820ea588d116ff537123953079f261581711d",
+ "result": "{\"q1\":56160711,\"q2\":\"COB 100101!G9\",\"q3\":[\"Breakdown!Y18\",\"Breakdown!Z18\"],\"q4\":[\"Breakdown!AG13:AG15\"],\"q5\":[\"COB 082801!E8\",\"COB 082801!G8\",\"COB 082801!D11\",\"COB 082801!E11\",\"COB 082801!G11\",\"Daily Change Graph!C4\"],\"q6\":[\"Breakdown!AJ14\",\"Breakdown!AK14\",\"Breakdown!AL14\",\"Breakdown!AN14\"]}",
+ "usage": {
+  "input_tokens": 4974,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 3158,
+  "output_tokens": 1320,
+  "output_tokens_details": {
+   "thinking_tokens": 786
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 4974,
+   "outputTokens": 1320,
+   "cacheReadInputTokens": 3158,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 786
+  }
+ },
+ "cost": 0.0014732,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_baf8aca06d5f47d99a476f0b2200e2bb",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 475,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 123,
+     "reasoning_tokens": 25,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 781,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 206,
+     "reasoning_tokens": 12,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3161,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 480,
+     "reasoning_tokens": 377,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 557,
+     "cache_read_tokens": 3158,
+     "cache_write_tokens": 0,
+     "output_tokens": 511,
+     "reasoning_tokens": 372,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.001189
+  },
+  "finished_at": "2026-11-11T17:09:32+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 2,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 21.2
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nprint(w.sheetnames)\\nfor s in ['COB 091701','COB 100101','Breakdown','COB 082801']:\\n ws=w[s]; print(s,ws.max_row,ws.max_column)\\nPY\"}",
+   "output_chars": 352
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nfor sn in ['COB 091701','COB 100101','COB 082801']:\\n ws=w[sn];print('\\\\n',sn)\\n for row in ws.iter_rows():\\n  vals=[f'{c.coordinate}={c.value}' for c in row if c.value is not None]\\n  print(' | '.join(vals))\\nws=w['Breakdown']\\nfor r in [14,16,18]:\\n print('\\\\nBREAK',r)\\n for c in range(1,45):\\n  x=ws.cell(r,c)\\n  if x.value is not None: print(x.coordinate,repr(x.value))\\nPY\"}",
+   "output_chars": 4775
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl,re\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nfor ws in w:\\n for row in ws:\\n  for c in row:\\n   if isinstance(c.value,str) and c.value.startswith('=') and '082801' in c.value:\\n    print(ws.title,c.coordinate,c.value)\\nPY\"}",
+   "output_chars": 150
+  }
+ ]
+}

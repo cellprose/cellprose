@@ -1,0 +1,50 @@
+{
+ "sheets": [
+  {
+   "name": "Types",
+   "cells": {
+    "A1": {"v": "Kind"},
+    "B1": {"v": "Value"},
+    "A2": {"v": "Integer"},
+    "B2": {"v": 1200},
+    "A3": {"v": "Decimal"},
+    "B3": {"v": 0.125},
+    "A4": {"v": "Small"},
+    "B4": {"v": -3.2e-07},
+    "A5": {"v": "Boolean"},
+    "B5": {"v": true},
+    "A6": {"v": "Date"},
+    "B6": {"t": "date", "v": "2026-10-07", "fmt": "yyyy-mm-dd"},
+    "A7": {"v": "Date-time"},
+    "B7": {"t": "datetime", "v": "2026-10-07T14:30:05", "fmt": "yyyy-mm-dd hh:mm:ss"},
+    "A8": {"v": "Time"},
+    "B8": {"t": "time", "v": "09:05:00", "fmt": "hh:mm:ss"},
+    "A9": {"v": "Error"},
+    "B9": {"t": "error", "v": "#DIV/0!"},
+    "A10": {"v": "Empty"},
+    "A11": {"v": "Text"},
+    "B11": {"v": "Revenue"},
+    "A12": {"v": "Looks numeric"},
+    "B12": {"v": "00123"},
+    "A13": {"v": "Looks like a formula"},
+    "B13": {"v": "=not a formula"},
+    "A14": {"v": "Looks boolean"},
+    "B14": {"v": "TRUE"},
+    "A15": {"v": "Pipe"},
+    "B15": {"v": "a|b"},
+    "A16": {"v": "Backslash"},
+    "B16": {"v": "C:\\dir\\"},
+    "A17": {"v": "Line break"},
+    "B17": {"v": "line1\nline2"},
+    "A18": {"v": "Literal tag"},
+    "B18": {"v": "1 <br> 2"},
+    "A19": {"v": "Padded"},
+    "B19": {"v": " padded "},
+    "A20": {"v": "Quoted"},
+    "B20": {"v": "\"hello\""},
+    "A21": {"v": "Leading apostrophe"},
+    "B21": {"v": "'quoted"}
+   }
+  }
+ ]
+}

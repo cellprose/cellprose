@@ -1,0 +1,58 @@
+[
+ {
+  "type": "trace",
+  "cell": "day 4!H108",
+  "q": "Consider the cell day 4!H108 (in the row labelled 'EES/EEMC(PGES)'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "day 4!H106",
+   "day 4!H107"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "EES-Schedule day 1!J14",
+  "q": "Consider the cell EES-Schedule day 1!J14 (in the row labelled 'EEMC (PGES)'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "EES-Schedule day 1!J11",
+   "EES-Schedule day 1!J12",
+   "EES-Schedule day 1!J13"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "impact",
+  "cell": "EES-Schedule day 1!F104",
+  "factor": 1.1,
+  "q": "Suppose the number in EES-Schedule day 1!F104 (in the row labelled 'EES') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "EES-Schedule day 1!D104",
+   "EES-Schedule day 1!D107",
+   "EES-Schedule day 1!D108",
+   "EES-Schedule day 1!D130",
+   "EES-Schedule day 1!F107",
+   "EES-Schedule day 1!F108",
+   "EES-Schedule day 1!F130"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "hardcode",
+  "cell": "day 4!U7",
+  "range": "day 4!U7:U19",
+  "q": "Consider the range day 4!U7:U19. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "day 4!U10",
+   "day 4!U11",
+   "day 4!U12",
+   "day 4!U13",
+   "day 4!U17",
+   "day 4!U18",
+   "day 4!U19",
+   "day 4!U7",
+   "day 4!U8",
+   "day 4!U9"
+  ],
+  "id": "q4"
+ }
+]

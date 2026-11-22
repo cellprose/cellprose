@@ -1,0 +1,212 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw3_enron_mark_haedicke",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1368,
+ "prompt_sha256": "4f8407f80dd9fce3ae117c931308012c0fc4e64ec5e442d68019a75303e52e64",
+ "result": "{\"q1\": 87256, \"q2\": \"Detail!M32\", \"q3\": [\"Detail!F188\", \"Detail!E216\"], \"q4\": [\"Detail!O207\", \"Detail!N235\"], \"q5\": [\"Headcount!M13\", \"Headcount!M15\", \"Headcount!M28\", \"Headcount!M33\", \"Headcount!M35\"], \"q6\": [\"Detail!C154:P154\"]}",
+ "usage": {
+  "input_tokens": 64790,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1826,
+  "output_tokens_details": {
+   "thinking_tokens": 880
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 64790,
+   "outputTokens": 1826,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 880
+  }
+ },
+ "cost": 0.14784,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1076,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 77,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2969,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 127,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3476,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 387,
+     "reasoning_tokens": 218,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 7765,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 234,
+     "reasoning_tokens": 111,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 9284,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 134,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 11934,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 289,
+     "reasoning_tokens": 134,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 13914,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 442,
+     "reasoning_tokens": 417,
+     "tool_calls": [
+      "json"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 14372,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 136,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T12:02:33+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 19.5
+ },
+ "num_turns": 8,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; ls; head -c 3000 book.sheet.md; wc book.sheet.md\"}",
+   "output_chars": 3046
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; grep -n -E \\\"^# Sheet|Regular - USE|BENEFITS - CALC|^(216|235|154)\\\\|\\\" book.sheet.md | head -50; grep -n \\\"Headcount!\\\" book.sheet.md | head -30\"}",
+   "output_chars": 602
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 680,810p book.sheet.md; sed -n 380,400p book.sheet.md\"}",
+   "output_chars": 4540
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 808,830p book.sheet.md; grep -n \\\"Headcount\\\" book.sheet.md | head -30\"}",
+   "output_chars": 564
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 830,1000p book.sheet.md; sed -n 396,470p book.sheet.md | grep -n -i \\\"formulas\\\" ; grep -n \\\"Row 154\\\\|154\\\" book.sheet.md | head -30\"}",
+   "output_chars": 2012
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 1000,1180p book.sheet.md; sed -n 480,500p book.sheet.md; grep -n \\\"Headcount!\\\" book.sheet.md; grep -n \\\"^[A-Za-z_]* = \\\" book.sheet.md | head -20\"}",
+   "output_chars": 3547
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 395,400p book.sheet.md; sed -n 440,480p book.sheet.md | head -50; grep -n \\\"^## \\\" book.sheet.md | sed -n 1,60p; grep -n -E \\\"(Headcount|M8|M28|M33)\\\" book.sheet.md | sed -n 1,5p\"}",
+   "output_chars": 2468
+  },
+  {
+   "turn": 7,
+   "tool": "json",
+   "args": "{}",
+   "output_chars": 26
+  }
+ ]
+}

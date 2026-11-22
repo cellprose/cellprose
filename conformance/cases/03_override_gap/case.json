@@ -1,0 +1,12 @@
+{
+ "title": "A typed-in override splits a fill range in two",
+ "spec": "§6.2, §6.3",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

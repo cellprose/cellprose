@@ -1,0 +1,209 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_d_txrrc_stg",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1398,
+ "prompt_sha256": "253decde0f7d0368a415da944be75710e50a12f7d84132120d2fe56051f7b7c2",
+ "result": "```json\n{\"q1\": 325, \"q2\": \"History By Facility!K256\", \"q3\": [\"History By Facility!T205:T216\"], \"q4\": [\"Sheet1!M14\", \"Sheet1!K14\"], \"q5\": [\"History By Facility!AE241\", \"History By Facility!I247\", \"History By Facility!AE247\"], \"q6\": [\"History By Facility!E89:E111\"]}\n```",
+ "usage": {
+  "input_tokens": 79726,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 4729,
+  "output_tokens_details": {
+   "thinking_tokens": 2414
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 79726,
+   "outputTokens": 4729,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 2414
+  }
+ },
+ "cost": 0.010337100000000002,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1073,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 195,
+     "reasoning_tokens": 13,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2701,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 368,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3511,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 370,
+     "reasoning_tokens": 114,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 4425,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 456,
+     "reasoning_tokens": 268,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 9983,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 574,
+     "reasoning_tokens": 313,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 17651,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1542,
+     "reasoning_tokens": 1062,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 19795,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 729,
+     "reasoning_tokens": 281,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 20587,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 495,
+     "reasoning_tokens": 363,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T14:44:01+00:00",
+  "run_id": "20261107T144214Z-4c5d55",
+  "started_at": "2026-11-07T14:42:14+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devdata",
+  "inputs_sha256": "8f2dfc187ecd6fcbe50c6f9073b724bf0b0ec4242a6c061a380dbb2d07709a78",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 24.6
+ },
+ "num_turns": 8,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb: print(ws.title, ws.dimensions)\\nws=wb['History By Facility']\\nfor r in ws.iter_rows(min_row=1,max_row=12):\\n  for c in r:\\n    if c.value is not None: print(c.coordinate, repr(c.value))\\n\\\"\"}",
+   "output_chars": 1848
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['History By Facility']\\n# header row search\\nfor r in range(1,4):\\n  print(r,[ (c.coordinate,c.value) for c in ws[r] if c.value and 'RRC' in str(c.value) and ('1/31/00' in str(c.value) or '3/31/01' in str(c.value))])\\nfor r in range(1,278):\\n  v=ws.cell(r,1).value; b=ws.cell(r,2).value; c=ws.cell(r,3).value; e=ws.cell(r,5).value\\n  if (c in ('Palo Pinto','Wharton','Salt Domes')) or (e and 'WORKING'",
+   "output_chars": 764
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nfrom openpyxl.utils import get_column_letter as L\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['History By Facility']\\nfor r in range(1,278):\\n  for c in range(1,84):\\n    v=ws.cell(r,c).value\\n    if isinstance(v,str) and ('1/31/00' in v or '3/31/01' in v): print(ws.cell(r,c).coordinate,v)\\nprint([ (L(c),ws.cell(2,c).value) for c in range(1,84) if ws.cell(2,c).value])\\n\\\" | head -80\"}",
+   "output_chars": 709
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['History By Facility']\\nfor r in range(116,277):\\n  print(r,[ws.cell(r,c).value for c in (1,3,5)], ws.cell(r,7).value, ws.cell(r,11).value, ws.cell(r,9).value, ws.cell(r,20).value)\\n\\\"\"}",
+   "output_chars": 8948
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb:\\n  for row in ws.iter_rows():\\n    for c in row:\\n      if isinstance(c.value,str) and any(k in c.value for k in ('Wharton','Palo','Pinto','Salt Dom','Denton')): print(ws.title,c.coordinate,repr(c.value))\\nws=wb['Sheet1']\\nfor r in range(1,49):\\n  print(r,[ws.cell(r,c).value for c in range(1,26) if ws.cell(r,c).value is not None])\\n\\\" | head -120\"}",
+   "output_chars": 14547
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl,re\\nwb=openpyxl.load_workbook('book.xlsx')\\nprint('Sheet1 N14', wb['Sheet1']['N14'].value)\\nprint('HBF T217', wb['History By Facility']['T217'].value)\\nprint('HBF G135',wb['History By Facility']['G135'].value,'K256',wb['History By Facility']['K256'].value, 'D135',wb['History By Facility']['D135'].value)\\nprint('I241',wb['History By Facility']['I241'].value, wb['History By Facility']['C241'].value)\\nws=wb['History By Facility']\\nprint([ws.cell(r",
+   "output_chars": 1074
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl,re\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor s in wb:\\n  for row in s.iter_rows():\\n    for c in row:\\n      v=c.value\\n      if isinstance(v,str) and v.startswith('=') and re.search(r'(I\\\\\\\\\\\\$?247|AE\\\\\\\\\\\\$?241|AE\\\\\\\\\\\\$?247|I\\\\\\\\\\\\$?24[0-9]\\\\b|AE\\\\d+)',v): print(s.title,c.coordinate,v)\\n\\\" | grep -v \\\"AE2[34]\\\" | head; python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('/dev/null') \\\" 2>/dev/null; cd . && python3 -c \\\"\\nimport open",
+   "output_chars": 108
+  }
+ ]
+}

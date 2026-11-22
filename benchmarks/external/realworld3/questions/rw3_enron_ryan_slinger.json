@@ -1,0 +1,96 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Preschedule!Z42",
+  "q": "What is the value in the row labelled 'NEWMAN 2 (25-78)', column headed 'Capacity', in the sheet 'Preschedule'?",
+  "truth": 78,
+  "labels": [
+   "A42",
+   "Z40"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Fuel!E39",
+  "q": "Which cell holds the value in the row labelled '1/1-12/31/98 price not given (SJ)', column headed 'Volume', in the sheet 'Fuel'? Give its cell address.",
+  "truth": "Fuel!E39",
+  "labels": [
+   "B39",
+   "E37"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Preschedule!E62",
+  "q": "Consider the cell Preschedule!E62 (in the row labelled 'Palo Verde 510'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Preschedule!E12",
+   "Preschedule!E13",
+   "Preschedule!E14",
+   "Preschedule!E15",
+   "Preschedule!E22",
+   "Preschedule!E29",
+   "Preschedule!E30",
+   "Preschedule!E31",
+   "Preschedule!E32",
+   "Preschedule!E53",
+   "Preschedule!E54",
+   "Preschedule!E55"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Preschedule!C29",
+  "q": "Consider the cell Preschedule!C29 (in the row labelled 'PV PRESCHEDULED'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Deals!G71",
+   "Deals!G77"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Preschedule!Z50",
+  "factor": 1.1,
+  "q": "Suppose the number in Preschedule!Z50 (in the row labelled 'RIO GRANDE 6 (20-48)') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Preschedule!C67",
+   "Preschedule!D67",
+   "Preschedule!E67",
+   "Preschedule!F67",
+   "Preschedule!G67",
+   "Preschedule!H67",
+   "Preschedule!I67",
+   "Preschedule!J67",
+   "Preschedule!K67",
+   "Preschedule!L67",
+   "Preschedule!M67",
+   "Preschedule!O67",
+   "Preschedule!P67",
+   "Preschedule!Q67",
+   "Preschedule!R67",
+   "Preschedule!S67",
+   "Preschedule!T67",
+   "Preschedule!U67",
+   "Preschedule!V67",
+   "Preschedule!W67",
+   "Preschedule!X67",
+   "Preschedule!Y67"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Deals!AB14",
+  "range": "Deals!AB14:AF14",
+  "q": "Consider the range Deals!AB14:AF14 (the row of 'PV'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Deals!AB14",
+   "Deals!AC14"
+  ],
+  "id": "q6"
+ }
+]

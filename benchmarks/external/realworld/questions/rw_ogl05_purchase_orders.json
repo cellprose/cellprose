@@ -1,0 +1,47 @@
+[
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Sheet 1', for the row where 'Purchase Order No' is 'ZZC657809', what is the value of 'Net Order Value Over \u00a35000.00 (line item value shown here)'?",
+  "cell": "Sheet 1!K104",
+  "key": {
+   "B": "ZZC657809"
+  },
+  "labels": [
+   "B104",
+   "K104",
+   "K1"
+  ],
+  "id": "q1",
+  "truth": 7985.17
+ },
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Sheet 1', for the row where 'Purchase Order No' is 'ZZP656547', what is the value of 'Supplier Name'?",
+  "cell": "Sheet 1!E258",
+  "key": {
+   "B": "ZZP656547"
+  },
+  "labels": [
+   "B258",
+   "E258",
+   "E1"
+  ],
+  "id": "q2",
+  "truth": "The Dodd Group"
+ },
+ {
+  "type": "address",
+  "q": "In the sheet 'Sheet 1', which cell holds 'Pro Class Description' for the row where 'Purchase Order No' is 'ZZP658117'? Give its cell address.",
+  "cell": "Sheet 1!G418",
+  "key": {
+   "B": "ZZP658117"
+  },
+  "labels": [
+   "B418",
+   "G418",
+   "G1"
+  ],
+  "id": "q3",
+  "truth": "Sheet 1!G418"
+ }
+]

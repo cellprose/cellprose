@@ -1,0 +1,69 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Bottom up Estimator!O34",
+  "q": "What is the value in the row labelled 'FURNITURE & FIXTURES MFRS', column headed 'Currency', in the sheet 'Bottom up Estimator'?",
+  "truth": -0.106140354757438,
+  "labels": [
+   "K34",
+   "O9"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Duration Calculator!C6",
+  "q": "Which cell holds the value in the row labelled 'Cyclicality of firm's assets =', column headed 'Based on Firm Value', in the sheet 'Duration Calculator'? Give its cell address.",
+  "truth": "Duration Calculator!C6",
+  "labels": [
+   "A6",
+   "C3"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Annual Data!C16",
+  "q": "Consider the cell Annual Data!C16. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Annual Data!B16",
+   "Annual Data!B17"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Annual Data!I14",
+  "q": "Consider the cell Annual Data!I14. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Annual Data!H14",
+   "Annual Data!H15"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Quarterly Data!P71",
+  "factor": 1.1,
+  "q": "Suppose the number in Quarterly Data!P71 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Quarterly Data!Q70",
+   "Quarterly Data!Q71"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Quarterly Data!A91",
+  "range": "Quarterly Data!A91:I91",
+  "q": "Consider the range Quarterly Data!A91:I91. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Quarterly Data!A91",
+   "Quarterly Data!B91",
+   "Quarterly Data!D91",
+   "Quarterly Data!F91",
+   "Quarterly Data!H91"
+  ],
+  "id": "q6"
+ }
+]

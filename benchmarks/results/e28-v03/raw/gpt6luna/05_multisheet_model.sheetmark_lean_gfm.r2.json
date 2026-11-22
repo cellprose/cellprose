@@ -1,0 +1,77 @@
+{
+ "model": "gpt6luna",
+ "workbook": "05_multisheet_model",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2269,
+ "prompt_sha256": "0e01a392cab899061fca7a74bf6989f704284a31e61f752a87fe507df4ea0be9",
+ "result": "{\"q1\":256721,\"q2\":226600,\"q3\":\"Summary!C5\",\"q4\":[\"Summary!B2\",\"Summary!B3\"],\"q5\":[\"Revenue!C5\",\"Inputs!B11\"],\"q6\":[\"Costs!B3:D3\",\"Costs!B4:D4\",\"Summary!B3:D6\"],\"q7\":[\"Revenue!B3:D3\",\"Revenue!B5:D5\",\"Costs!B2:D2\",\"Costs!B4:D4\",\"Summary!B2:D6\"]}",
+ "usage": {
+  "input_tokens": 908,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 556,
+  "output_tokens_details": {
+   "thinking_tokens": 437
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 908,
+   "outputTokens": 556,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 437
+  }
+ },
+ "cost": 0.0003688,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261020T071426Z-090f60",
+  "started_at": "2026-10-20T07:14:26+00:00",
+  "git_sha": "812d938",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "686bfb063dad87d67fe6c01eb35a7ae9c8de2cc64f54d6e80f0bc8f895e4350e",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.15.0",
+  "rep": 2,
+  "wall_seconds": 7.2,
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_308adaefbfe745ca8003baed51d43c8d",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "input_tokens": 908,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 556,
+   "output_tokens_details": {
+    "reasoning_tokens": 437
+   },
+   "total_tokens": 1464,
+   "billed_input_tokens": 908,
+   "tokenizer_input_tokens_o200k": 897,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 897
+  },
+  "finished_at": "2026-10-20T07:21:28+00:00"
+ }
+}

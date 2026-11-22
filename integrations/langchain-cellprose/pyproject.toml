@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "langchain-cellprose"
+version = "0.1.0"
+description = "LangChain document loader for Excel workbooks as Cellprose text (formulas, every sheet, cell addresses)"
+readme = "README.md"
+authors = [{ name = "Utkarsh Gaikwad" }]
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = ["cellprose>=0.3", "langchain-core>=0.3"]
+
+[project.urls]
+Homepage = "https://cellprose.com"
+Documentation = "https://cellprose.com/guide/"
+Repository = "https://github.com/cellprose/cellprose"
+Issues = "https://github.com/cellprose/cellprose/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/langchain_cellprose"]

@@ -1,0 +1,98 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_ogl12_purchase_cards",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 952,
+ "prompt_sha256": "e207153e8b048f8811c4b494c67eafd6cb8394996ebb3b1abfc8b4aa7f7b2b84",
+ "result": "{\"q1\":5.4,\"q2\":\"ASDA STORES 4840\",\"q3\":\"NOV 18!E241\"}",
+ "usage": {
+  "input_tokens": 1808,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 214,
+  "output_tokens_details": {
+   "thinking_tokens": 27
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 1808,
+   "outputTokens": 214,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 27
+  }
+ },
+ "cost": 0.0002878,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_009e79d13f494f6cbdcfe50ecc59d16f",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 379,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 152,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1429,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 62,
+     "reasoning_tokens": 27,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:10:16+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 3.1
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=True)\\nprint(w.sheetnames)\\ns=w['NOV 18']\\nfor row in s.iter_rows():\\n vals=[c.value for c in row]\\n if any(v in ('GPC11180000060','GPC11180000150','GPC11180000240') for v in vals): print(row[0].row, vals)\\nfor i,row in enumerate(s.iter_rows(min_row=1,max_row=10),1): print(i,[c.value for c in row])\\nPY\"}",
+   "output_chars": 2791
+  }
+ ]
+}

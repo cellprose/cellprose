@@ -1,0 +1,79 @@
+# Scenarios
+
+## Record 2
+```
+Active scenario (1=Base, 2=Upside, 3=Downside): Driver
+1: Base
+Unnamed: 2: Upside
+Unnamed: 3: Downside
+Unnamed: 4: Active
+```
+
+## Record 3
+```
+Active scenario (1=Base, 2=Upside, 3=Downside): Growth
+1: 0.06
+Unnamed: 2: 0.12
+Unnamed: 3: 0.01
+Unnamed: 4: 0.06
+```
+
+## Record 4
+```
+Active scenario (1=Base, 2=Upside, 3=Downside): Margin
+1: 0.22
+Unnamed: 2: 0.27
+Unnamed: 3: 0.15
+Unnamed: 4: 0.22
+```
+
+## Record 5
+```
+Active scenario (1=Base, 2=Upside, 3=Downside): Capex % revenue
+1: 0.08
+Unnamed: 2: 0.1
+Unnamed: 3: 0.05
+Unnamed: 4: 0.08
+```
+
+# Model
+
+## Record 1
+```
+Line: Revenue
+Y1: 2000000
+Y2: 2120000
+Y3: 2247200
+Y4: 2382032
+Y5: 2524953.92
+```
+
+## Record 2
+```
+Line: EBIT
+Y1: 440000
+Y2: 466400
+Y3: 494384
+Y4: 524047.04
+Y5: 555489.8624
+```
+
+## Record 3
+```
+Line: Capex
+Y1: 160000
+Y2: 169600
+Y3: 179776
+Y4: 190562.56
+Y5: 201996.3136
+```
+
+## Record 4
+```
+Line: Free cash flow
+Y1: 280000
+Y2: 296800
+Y3: 314608
+Y4: 333484.48
+Y5: 353493.5488
+```

@@ -1,0 +1,142 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_growthbreakdown",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1436,
+ "prompt_sha256": "f7a7266925a4c6e7d0fd4e70f6678f7d9a1c9d49647b612626c4094922b9c4c6",
+ "result": "{\"q1\":0.57367970143265,\"q2\":\"Industry averages!J14\",\"q3\":[\"Cost of capital worksheet!C38\",\"Cost of capital worksheet!E38\"],\"q4\":[\"Input page!L43\",\"Input page!L44\"],\"q5\":[\"Cost of capital worksheet!B38\",\"Cost of capital worksheet!E38\",\"Cost of capital worksheet!B39\",\"Cost of capital worksheet!C39\",\"Cost of capital worksheet!C35\",\"Cost of capital worksheet!B40\",\"Cost of capital worksheet!E40\"],\"q6\":[\"Input page!H44\"]}",
+ "usage": {
+  "input_tokens": 12546,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 10509,
+  "output_tokens": 1609,
+  "output_tokens_details": {
+   "thinking_tokens": 1136
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 12546,
+   "outputTokens": 1609,
+   "cacheReadInputTokens": 10509,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1136
+  }
+ },
+ "cost": 0.00311,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_a323bc09b15049efa03c5fa1e07ed662",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 468,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 111,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 663,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 133,
+     "reasoning_tokens": 16,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 10512,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 249,
+     "reasoning_tokens": 137,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 903,
+     "cache_read_tokens": 10509,
+     "cache_write_tokens": 0,
+     "output_tokens": 1116,
+     "reasoning_tokens": 983,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.002164
+  },
+  "finished_at": "2026-11-11T16:36:22+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 23.7
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl, os\\np='book.xlsx'\\nw=openpyxl.load_workbook(p,data_only=False)\\nprint(w.sheetnames)\\nfor s in w.sheetnames:\\n print(s,w[s].max_row,w[s].max_column)\\nPY\"}",
+   "output_chars": 138
+  },
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l\"}",
+   "output_chars": 61
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nfor sn in w.sheetnames:\\n s=w[sn]; print('\\\\n###',sn)\\n for row in s.iter_rows():\\n  vals=['%s=%s'%(c.coordinate,c.value) for c in row if c.value is not None]\\n  if vals: print(' | '.join(vals))\\nPY\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nfor sn in ['Cost of capital worksheet']:\\n s=w[sn]\\n for row in s.iter_rows():\\n  x=[f'{c.coordinate}={c.value}' for c in row if c.value is not None]\\n  if x: print(' | '.join(x))\\nPY\"}",
+   "output_chars": 1632
+  }
+ ]
+}

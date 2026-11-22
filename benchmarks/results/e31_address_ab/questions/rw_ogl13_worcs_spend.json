@@ -1,0 +1,45 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'Sheet1', which cell holds 'Expense Area' for the row where 'Supplier Name' is 'WORCESTER CITY COUNCIL'? Give its cell address.",
+  "cell": "Sheet1!E38",
+  "key": {
+   "F": "WORCESTER CITY COUNCIL"
+  },
+  "labels": [
+   "F38",
+   "E38",
+   "E3"
+  ],
+  "id": "q1",
+  "truth": "Sheet1!E38"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "Sheet1!F19",
+  "truth": "Sheet1!F19",
+  "q": "In the sheet 'Sheet1', which cell holds 'Supplier Name' for the row where 'Supplier Name' is 'WORCESTERSHIRE COUNTY COUNCIL'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "Sheet1!B29",
+  "truth": "Sheet1!B29",
+  "q": "In the sheet 'Sheet1', which cell holds 'Ledger Description' for the row where 'Supplier Name' is 'LEICESTERSHIRE PARTNERSHIP NHS TRUST'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "Sheet1!E38",
+  "truth": "Sheet1!E38",
+  "q": "In the sheet 'Sheet1', which cell holds 'Expense Area' for the row where 'Supplier Name' is 'WORCESTER CITY COUNCIL'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "Sheet1!H43",
+  "truth": "Sheet1!H43",
+  "q": "In the sheet 'Sheet1', which cell holds 'Amount Paid' for the row where 'Supplier Name' is 'ACTION FOR CHILDREN SERVICES LTD'? Give its cell address."
+ }
+]

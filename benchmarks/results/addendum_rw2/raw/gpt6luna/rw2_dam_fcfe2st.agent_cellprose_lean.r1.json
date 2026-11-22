@@ -1,0 +1,127 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_fcfe2st",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 3533,
+ "prompt_sha256": "69c11ddcc645f3f454fb2ad4d9574391b50143590cf5c6a939ecc3c526e265b6",
+ "result": "{\"q1\":1,\"q2\":[\"NewFCFE2Stage!F130:F131\"],\"q3\":[\"NewFCFE2Stage!F72\",\"NewFCFE2Stage!D75\",\"NewFCFE2Stage!D108\"],\"q4\":[\"NewFCFE2Stage!C53\",\"NewFCFE2Stage!C57\",\"NewFCFE2Stage!D107:D108\",\"NewFCFE2Stage!D119:H119\",\"NewFCFE2Stage!N119:N120\",\"NewFCFE2Stage!D122:H123\",\"NewFCFE2Stage!N122\",\"NewFCFE2Stage!E126\",\"NewFCFE2Stage!E128\",\"NewFCFE2Stage!F130:F132\",\"NewFCFE2Stage!E138:E139\"],\"q5\":[\"NewFCFE2Stage!D21:D25\",\"NewFCFE2Stage!D27\"]}",
+ "usage": {
+  "input_tokens": 4310,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2920,
+  "output_tokens": 438,
+  "output_tokens_details": {
+   "thinking_tokens": 86
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 4310,
+   "outputTokens": 438,
+   "cacheReadInputTokens": 2920,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 86
+  }
+ },
+ "cost": 0.000942,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_017b1fa7f267423792bfdf9297e58fd1",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 1460,
+     "cache_write_tokens": 0,
+     "output_tokens": 155,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif",
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 4307,
+     "cache_read_tokens": 1460,
+     "cache_write_tokens": 0,
+     "output_tokens": 283,
+     "reasoning_tokens": 86,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.000679
+  },
+  "finished_at": "2026-11-11T18:34:09+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.4
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"NewFCFE2Stage!A1:N139\"]}",
+   "output_chars": 9839
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"NewFCFE2Stage!F132\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 85
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"NewFCFE2Stage!D113\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 127
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"NewFCFE2Stage!E50\", \"factor\": 1.1}",
+   "output_chars": 321
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"NewFCFE2Stage!D21:D27\"]}",
+   "output_chars": 167
+  }
+ ]
+}

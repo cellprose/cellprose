@@ -1,0 +1,194 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw3_enron_ryan_slinger",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1387,
+ "prompt_sha256": "bdaa5f6938bc3946e4ccd4a927848c04a6fc3f5b16c3dd17cc53f26015dadd71",
+ "result": "{\"q1\": 78, \"q2\": \"Fuel!E39\", \"q3\": [\"Preschedule!E12:E15\",\"Preschedule!E29:E32\",\"Preschedule!E22\",\"Preschedule!E53:E55\"], \"q4\": [\"Deals!G71\",\"Deals!G77\"], \"q5\": [\"Preschedule!Z58\"], \"q6\": [\"Deals!AB14\",\"Deals!AC14\"]}",
+ "usage": {
+  "input_tokens": 65289,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1505,
+  "output_tokens_details": {
+   "thinking_tokens": 554
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 65289,
+   "outputTokens": 1505,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 554
+  }
+ },
+ "cost": 0.14562799999999998,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1097,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 79,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3517,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 145,
+     "reasoning_tokens": 24,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 7383,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 235,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 11182,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 400,
+     "reasoning_tokens": 245,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 13188,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 318,
+     "reasoning_tokens": 171,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 14079,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 169,
+     "reasoning_tokens": 92,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 14843,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 159,
+     "reasoning_tokens": 22,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:52:39+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 15.1
+ },
+ "num_turns": 7,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; ls -la; head -c 3000 book.sheet.md; wc book.sheet.md\"}",
+   "output_chars": 3196
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; grep -n \\\"^#\\\" book.sheet.md; grep -n -i \\\"newman 2\\\\|price not given\\\\|Palo Verde 510\\\\|RIO GRANDE 6\\\" book.sheet.md | cut -c1-300\"}",
+   "output_chars": 4825
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 85,150p book.sheet.md | cut -c1-400; sed -n 1824,1860p book.sheet.md; sed -n 1060,1070p book.sheet.md|cut -c1-200\"}",
+   "output_chars": 4296
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 1,6p book.sheet.md >/dev/null; sed -n 1120,1145p book.sheet.md; sed -n 1165,1182p book.sheet.md|cut -c1-300\"}",
+   "output_chars": 716
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 1142,1150p book.sheet.md; sed -n 39,86p book.sheet.md | cut -c1-200; grep -n \\\"Z50\\\\|Z41:Z\\\\|Z4[0-9]:\\\\|Z5[0-9]\\\\|Z\\\\$50\\\" book.sheet.md | cut -c1-300\"}",
+   "output_chars": 2019
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; grep -n \\\"Preschedule!\\\" book.sheet.md | cut -c1-300; grep -n \\\"Z4[0-9]\\\\|Z5[0-9]\\\" book.sheet.md | grep -v \\\"^\\\\(9\\\\|10\\\\|11\\\\)[0-9]:\\\" | cut -c1-200|head -30\"}",
+   "output_chars": 780
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 2937,3000p book.sheet.md | cut -c1-200\"}",
+   "output_chars": 878
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "model": "sonnet55",
+ "workbook": "13_scenario_switch",
+ "encoding": "sheetmark_lean",
+ "prompt_chars": 1842,
+ "result": "Reading the workbook, the active scenario is 1 (Base), so the model uses the Base column through the Active column E.\n\nq1: Y5 free cash flow is Model!F5 = 353494.\n\nq2: The growth rate the model uses is Scenarios!E4, the named range Growth.\n\nq3: Y3 revenue is Model!D2 = C2*(1+Growth). It directly reads Model!C2 and Scenarios!E4, which Growth points to.\n\nq4: Upside growth is Scenarios!C4. Because scenario 1 is active, E4 does not read C4 now, so a change in C4 changes nothing. The answer is [].\n\nq5: Base margin is Scenarios!B5. It feeds Scenarios!E5, which is Margin. Margin feeds Model!B3:F3 (EBIT), and EBIT feeds Model!B5:F5 (free cash flow). The cells that change are Scenarios!E5, Model!B3:F3 and Model!B5:F5.\n\nq6: Downside capex % is Scenarios!D6, which is not selected, so nothing changes. The answer is [].\n\n{\"q1\": 353494, \"q2\": \"Scenarios!E4\", \"q3\": [\"Model!C2\", \"Scenarios!E4\"], \"q4\": [], \"q5\": [\"Scenarios!E5\", \"Model!B3:F3\", \"Model!B5:F5\"], \"q6\": []}",
+ "usage": {
+  "input_tokens": 943,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 461,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 943,
+   "outputTokens": 461,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.006496,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T105651Z-65938b",
+  "started_at": "2026-10-09T10:56:51+00:00",
+  "git_sha": "acbac33",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 3.6,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 943,
+   "output_tokens": 461,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T11:00:54+00:00"
+ }
+}

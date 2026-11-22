@@ -1,0 +1,116 @@
+{
+ "model": "gpt6luna",
+ "workbook": "01_sales_log",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1053,
+ "prompt_sha256": "f71e08bbdad3f9b90f3792618e21810d954545a87d96df0fa75dd758d071dfa6",
+ "result": "{\"q1\":741,\"q2\":59,\"q3\":159288.25,\"q4\":\"Sales!H78\",\"q5\":\"Sales!F153\",\"q6\":[\"Sales!F43\",\"Sales!G43\"],\"q7\":[\"Sales!H43\",\"Sales!F153\",\"Sales!H153\"]}",
+ "usage": {
+  "input_tokens": 10414,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 9792,
+  "output_tokens": 401,
+  "output_tokens_details": {
+   "thinking_tokens": 78
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 10414,
+   "outputTokens": 401,
+   "cacheReadInputTokens": 9792,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 78
+  }
+ },
+ "cost": 0.0022211,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_f7020d580f934046afa201d1d45b25a6",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 392,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 132,
+     "reasoning_tokens": 9,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 9795,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 197,
+     "reasoning_tokens": 69,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 227,
+     "cache_read_tokens": 9792,
+     "cache_write_tokens": 0,
+     "output_tokens": 72,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-06T17:12:22+00:00",
+  "run_id": "20261106T171213Z-c13f75",
+  "started_at": "2026-11-06T17:12:13+00:00",
+  "git_sha": "bac1000",
+  "git_dirty": true,
+  "corpus": ".",
+  "inputs_sha256": "68d8cc073cde45dd3381ac6ca43668cb502033f7294c45e2f26834983f2faccf",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.3
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nprint(w.sheetnames)\\nfor s in w:\\n print('\\\\nSHEET',s.title,s.max_row,s.max_column)\\n for row in s.iter_rows():\\n  vals=[f'{c.coordinate}={c.value}' for c in row if c.value is not None]\\n  if vals: print(' | '.join(vals))\\nPY\"}",
+   "output_chars": 17570
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False); s=w['Sales']\\nrev=sum(s.cell(r,6).value*s.cell(r,7).value for r in range(2,152))\\nprint(rev, '1042',s['F43'].value*s['G43'].value)\\nprint('units total',sum(s.cell(r,6).value for r in range(2,152)))\\nPY\"}",
+   "output_chars": 36
+  }
+ ]
+}

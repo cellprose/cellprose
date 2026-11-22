@@ -1,0 +1,71 @@
+[
+ {
+  "type": "lookup",
+  "cell": "CONSUMING EAST!B11",
+  "q": "What is the value in the row labelled 'Mar', column headed 'Week', in the sheet 'CONSUMING EAST'?",
+  "truth": 10,
+  "labels": [
+   "A11",
+   "B1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "CONSUMING EAST!B2",
+  "q": "Which cell holds the value in the row labelled 'Jan', column headed 'Week', in the sheet 'CONSUMING EAST'? Give its cell address.",
+  "truth": "CONSUMING EAST!B2",
+  "labels": [
+   "A2",
+   "B1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "PRODUCING!V44",
+  "q": "Consider the cell PRODUCING!V44. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "PRODUCING!K43",
+   "PRODUCING!K44"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "WEST!V26",
+  "q": "Consider the cell WEST!V26. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "WEST!K25",
+   "WEST!K26"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "WEST!K37",
+  "factor": 1.1,
+  "q": "Suppose the number in WEST!K37 (in the row labelled 'Sep') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "WEST!V37",
+   "WEST!V38"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "CONSUMING EAST!O25",
+  "range": "CONSUMING EAST!O25:V25",
+  "q": "Consider the range CONSUMING EAST!O25:V25. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "CONSUMING EAST!O25",
+   "CONSUMING EAST!P25",
+   "CONSUMING EAST!Q25",
+   "CONSUMING EAST!R25",
+   "CONSUMING EAST!S25",
+   "CONSUMING EAST!T25",
+   "CONSUMING EAST!U25"
+  ],
+  "id": "q6"
+ }
+]

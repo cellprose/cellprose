@@ -1,0 +1,140 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_ogl14_cornwall_spend",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 967,
+ "prompt_sha256": "156a11937314aa00cb618f36b426345958844a6310b9f84db74f802ddaf6fba1",
+ "result": "{\"q1\": 46037.49, \"q2\": \"NHS PROPERTY SERVICES LTD\", \"q3\": \"January 26 for Publication!D43\"}",
+ "usage": {
+  "input_tokens": 13198,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 468,
+  "output_tokens_details": {
+   "thinking_tokens": 139
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 13198,
+   "outputTokens": 468,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 139
+  }
+ },
+ "cost": 0.031075999999999996,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 893,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 106,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3433,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 144,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 4346,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 164,
+     "reasoning_tokens": 139,
+     "tool_calls": [
+      "json"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 4526,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 54,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:08:32+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 9.4
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd /; cd - >/dev/null; ls; head -c 3000 book.sheet.md; grep -n -E \\\"0010298776|0015193430|0015193437\\\" book.sheet.md\"}",
+   "output_chars": 3531
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n -E \\\"^(12|28|43)\\\\|\\\" book.sheet.md | cut -c1-30\"}",
+   "output_chars": 93
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 30,40p book.sheet.md | cut -c1-80\"}",
+   "output_chars": 891
+  },
+  {
+   "turn": 3,
+   "tool": "json",
+   "args": "{}",
+   "output_chars": 26
+  }
+ ]
+}

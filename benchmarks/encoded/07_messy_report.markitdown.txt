@@ -1,0 +1,38 @@
+## Report
+| Warehouse Report - Q3 2026 | Unnamed: 1 | Unnamed: 2 | Unnamed: 3 | Unnamed: 4 | Unnamed: 5 | Unnamed: 6 | Unnamed: 7 | Unnamed: 8 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Prepared by the ops team. Figures in units unless noted. | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Inventory | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| SKU | Item | On hand | Reorder point | Below reorder? | NaN | NaN | Summary | NaN |
+| SKU-1001 | Bolt M6 | 331 | 100 | NO | NaN | NaN | Items below reorder | 5.0 |
+| SKU-1002 | Bolt M8 | 404 | 300 | NO | NaN | NaN | Total on hand | 5531.0 |
+| SKU-1003 | Nut M6 | 49 | 75 | YES | NaN | NaN | Open PO value | 8017.0 |
+| SKU-1004 | Washer | 840 | 250 | NO | NaN | NaN | NaN | NaN |
+| SKU-1005 | Bracket | 96 | 175 | YES | NaN | NaN | NaN | NaN |
+| SKU-1006 | Hinge | 596 | 50 | NO | NaN | NaN | NaN | NaN |
+| SKU-1007 | Spring | 519 | 125 | NO | NaN | NaN | NaN | NaN |
+| SKU-1008 | Gasket | 38 | 75 | YES | NaN | NaN | NaN | NaN |
+| SKU-1009 | Clamp | 444 | 200 | NO | NaN | NaN | NaN | NaN |
+| SKU-1010 | Rivet | 71 | 125 | YES | NaN | NaN | NaN | NaN |
+| SKU-1011 | Pin | 92 | 250 | YES | NaN | NaN | NaN | NaN |
+| SKU-1012 | Bearing | 434 | 50 | NO | NaN | NaN | NaN | NaN |
+| SKU-1013 | Seal | 846 | 275 | NO | NaN | NaN | NaN | NaN |
+| SKU-1014 | Spacer | 126 | 125 | NO | NaN | NaN | NaN | NaN |
+| SKU-1015 | Shim | 645 | 300 | NO | NaN | NaN | NaN | NaN |
+| NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Pending orders | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| PO | SKU | Qty | Unit cost | Line total | NaN | NaN | NaN | NaN |
+| PO-5001 | SKU-1010 | 150 | 2.62 | 393 | NaN | NaN | NaN | NaN |
+| PO-5002 | SKU-1007 | 150 | 4.39 | 658.5 | NaN | NaN | NaN | NaN |
+| PO-5003 | SKU-1001 | 950 | 3.87 | 3676.5 | NaN | NaN | NaN | NaN |
+| PO-5004 | SKU-1005 | 750 | 0.69 | 517.5 | NaN | NaN | NaN | NaN |
+| PO-5005 | SKU-1002 | 550 | 2.54 | 1397 | NaN | NaN | NaN | NaN |
+| PO-5006 | SKU-1011 | 350 | 0.51 | 178.5 | NaN | NaN | NaN | NaN |
+| PO-5007 | SKU-1010 | 400 | 1.71 | 684 | NaN | NaN | NaN | NaN |
+| PO-5008 | SKU-1009 | 200 | 2.56 | 512 | NaN | NaN | NaN | NaN |
+| Total | NaN | NaN | NaN | 8017 | NaN | NaN | NaN | NaN |
+| NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Note: costs exclude freight. | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |

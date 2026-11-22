@@ -1,0 +1,12 @@
+{
+ "title": "Smallest file: one sheet, one region",
+ "spec": "§2",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

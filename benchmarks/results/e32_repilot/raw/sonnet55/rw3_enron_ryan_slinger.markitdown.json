@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw3_enron_ryan_slinger",
+ "encoding": "markitdown",
+ "prompt_chars": 202218,
+ "prompt_sha256": "99c2afc0c924cfcd7402fc38536be54746fb0e790095f18e37a57e3c74301f26",
+ "result": "```json\n{\n  \"q1\": 78,\n  \"q2\": \"Fuel!E39\",\n  \"q3\": [\"Preschedule!E12:E15\", \"Preschedule!E22\", \"Preschedule!E29:E32\", \"Preschedule!E53:E55\"],\n  \"q4\": [\"Deals!G12\", \"Deals!G15\", \"Deals!G16\"],\n  \"q5\": [\"Preschedule!B67:Y67\", \"Preschedule!B173:Y173\"],\n  \"q6\": [\"Deals!AB14:AC14\"]\n}\n```\n\nq1 and q2 are read directly from the sheets. The other answers are partly inferred, since the workbook text shows values but not formulas.\n\n- **q3:** I matched the Palo Verde 510 values to the Palo Verde unit generation less the PV sales and purchase rows, and checked this for hours 1, 7 and 14. I did not see the formula itself, so the exact list is a best guess.\n- **q4:** Row 29 shows 0, and I guessed it reads the empty PV deal rows (Deals G12, G15, G16). I did not see the formula itself.\n- **q5:** Preschedule!Z50 is a typed capacity of 48. The Unloaded Generation row (67) matches capacity minus generation for the units, including RG6, which is how I inferred it reads Z50. The Actual Spinning Res row (173) also matches a capped capacity-minus-generation calculation, but that link is less certain.\n- **q6:** In row 14, hours 23 and 24 (AB, AC) are typed 75s. The total, billing and position columns look calculated or are text.",
+ "usage": {
+  "input_tokens": 135003,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 9100,
+  "output_tokens_details": {
+   "thinking_tokens": 8569
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 135003,
+   "outputTokens": 9100,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 8569
+  }
+ },
+ "cost": 0.361006,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T114909Z-9d399b",
+  "started_at": "2026-11-07T11:49:09+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "97799dc7cae4419ad17ce7400209690855e6f4d90d97802d658ce3352d442245",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 82.6,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 135003,
+   "output_tokens": 9100,
+   "output_tokens_details": {
+    "thinking_tokens": 8569
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 135003
+  },
+  "finished_at": "2026-11-07T11:57:38+00:00"
+ }
+}

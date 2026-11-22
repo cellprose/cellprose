@@ -1,0 +1,77 @@
+{
+ "model": "sonnet55",
+ "workbook": "13_scenario_switch",
+ "encoding": "sheetmark_lean_gfm_nopipe",
+ "prompt_chars": 1842,
+ "prompt_sha256": "b5f6b2c55f2494068c38c10e9617c953d6e16a2b6ed2edcb900d5823830e8fd1",
+ "result": "Reading the workbook:\n\n- Scenarios!B1 is 1, so the Base scenario is active.\n- Free cash flow in Y5 is Model!F5 = 353494.\n- The growth rate the model uses is Growth = Scenarios!E4.\n- Y3 revenue is Model!D2 = C2*(1+Growth), so it reads Model!C2 and Scenarios!E4 directly. The named range Growth resolves to Scenarios!E4.\n\n**q4:** Upside growth is Scenarios!C4. Active scenario is Base, so E4 takes B4. Changing C4 changes nothing else, so the answer is [].\n\n**q5:** Base margin is Scenarios!B5. It feeds Scenarios!E5, which Margin points to. E5 feeds Model!B3:F3 (EBIT), and EBIT feeds Model!B5:F5 (free cash flow). Revenue does not depend on margin. The cells that change besides B5 are Scenarios!E5, Model!B3:F3 and Model!B5:F5.\n\n**q6:** Downside capex % is Scenarios!D6. Base is active, so E6 does not change, and nothing else changes. The answer is [].\n\n```json\n{\"q1\":353494,\"q2\":\"Scenarios!E4\",\"q3\":[\"Model!C2\",\"Scenarios!E4\"],\"q4\":[],\"q5\":[\"Scenarios!E5\",\"Model!B3:F3\",\"Model!B5:F5\"],\"q6\":[]}\n```",
+ "usage": {
+  "input_tokens": 956,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 492,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 956,
+   "outputTokens": 492,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.006832,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261010T051113Z-1cce47",
+  "started_at": "2026-10-10T05:11:13+00:00",
+  "git_sha": "b4d0b9c",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "6fcc7fe80dfd05ee580a20abc2ef6488b77b3463260a0d44f0f6bfa9ec522753",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 0,
+  "wall_seconds": 3.9,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 956,
+   "output_tokens": 492,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 956
+  },
+  "finished_at": "2026-10-10T05:12:16+00:00"
+ }
+}

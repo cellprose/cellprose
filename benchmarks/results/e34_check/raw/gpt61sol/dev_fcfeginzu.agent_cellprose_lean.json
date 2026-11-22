@@ -1,0 +1,151 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_fcfeginzu",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 4931,
+ "prompt_sha256": "08ac720977ea646aeb1a54bb08d633ad087fe1fef2854297b37de1e547a05edd",
+ "result": "{\n  \"q1\": 0.530889362771159,\n  \"q2\": \"Global Industry averages!N4\",\n  \"q3\": [\"Country ERP!B1\", \"Country ERP!E111\"],\n  \"q4\": [\"Beta calculator!B10:C10\"],\n  \"q5\": [\n    \"R&D converter!B25\",\n    \"R&D converter!D25:E25\",\n    \"R&D converter!D35:E35\",\n    \"R&D converter!D37\",\n    \"R&D converter!D39\"\n  ],\n  \"q6\": [\"Country ERP!C216:D216\"]\n}",
+ "usage": {
+  "input_tokens": 935,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 6343,
+  "output_tokens": 337,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 935,
+   "outputTokens": 337,
+   "cacheReadInputTokens": 6343,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.017926,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_df6c382db6704e2a9c5450e62fe56c66",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 1828,
+     "cache_write_tokens": 0,
+     "output_tokens": 174,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 862,
+     "cache_read_tokens": 1828,
+     "cache_write_tokens": 0,
+     "output_tokens": 26,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 70,
+     "cache_read_tokens": 2687,
+     "cache_write_tokens": 0,
+     "output_tokens": 137,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T15:15:43+00:00",
+  "run_id": "20261107T151519Z-fc325b",
+  "started_at": "2026-11-07T15:15:19+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.7
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Computer Services\", \"sheet\": \"Global Industry averages\"}",
+   "output_chars": 180
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Air Transport\", \"sheet\": \"Global Industry averages\"}",
+   "output_chars": 170
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'Global Industry averages'!A1:AA1\", \"'Country ERP'!B216:E216\"]}",
+   "output_chars": 910
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Country ERP!D111\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 91
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Beta calculator!D10\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 78
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"R&D converter!B11\", \"factor\": 1.1}",
+   "output_chars": 164
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'Global Industry averages'!Z21\"]}",
+   "output_chars": 77
+  }
+ ]
+}

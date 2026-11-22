@@ -1,0 +1,87 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Inputs!E64",
+  "q": "What is the value in the row labelled 'Enter dividends paid in the most recent year =', column headed 'Return on market', in the sheet 'Inputs'?",
+  "truth": 1324,
+  "labels": [
+   "A64",
+   "E40"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Inputs!E59",
+  "q": "Which cell holds the value in the row labelled 'Enter non-cash working capital as a percent of revenues', column headed 'Return on market', in the sheet 'Inputs'? Give its cell address.",
+  "truth": "Inputs!E59",
+  "labels": [
+   "A59",
+   "E40"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Analysis of past dividends!C23",
+  "q": "Consider the cell Analysis of past dividends!C23 (in the row labelled 'ROE - Cost of Equity'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Analysis of past dividends!C2",
+   "Analysis of past dividends!C21",
+   "Analysis of past dividends!C22"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Analysis of past dividends!F9",
+  "q": "Consider the cell Analysis of past dividends!F9 (in the row labelled 'Free CF to Equity (target debt ratio)'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Analysis of past dividends!F2",
+   "Analysis of past dividends!F3",
+   "Analysis of past dividends!F4",
+   "Analysis of past dividends!F5",
+   "Inputs!E3",
+   "Inputs!E4",
+   "Inputs!E5"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Inputs!D13",
+  "factor": 1.1,
+  "q": "Suppose the number in Inputs!D13 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Analysis of past dividends!B38",
+   "Analysis of past dividends!B39",
+   "Analysis of past dividends!B40",
+   "Analysis of past dividends!B41",
+   "Analysis of past dividends!B42",
+   "Analysis of past dividends!B43",
+   "Analysis of past dividends!C38",
+   "Analysis of past dividends!C39",
+   "Analysis of past dividends!C40",
+   "Analysis of past dividends!F17",
+   "Analysis of past dividends!F4",
+   "Analysis of past dividends!F6",
+   "Analysis of past dividends!F8",
+   "Analysis of past dividends!F9",
+   "Analysis of past dividends!L4",
+   "Analysis of past dividends!L6",
+   "Analysis of past dividends!L8",
+   "Analysis of past dividends!L9"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Inputs!F9",
+  "range": "Inputs!F9:F18",
+  "q": "Consider the range Inputs!F9:F18 (the column of 'Net Debt Issued'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Inputs!F12"
+  ],
+  "id": "q6"
+ }
+]

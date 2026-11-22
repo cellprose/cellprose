@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sheetmark"
+version = "0.3.0"
+description = "Renamed to cellprose. This package only forwards `import sheetmark` and the old commands to cellprose."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = ["cellprose>=0.3"]
+
+[project.scripts]
+sheetmark = "sheetmark:main"
+sheetmark-mcp = "sheetmark:mcp_main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sheetmark"]

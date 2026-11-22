@@ -1,0 +1,53 @@
+[
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Sheet1', for the row where 'Country' is 'Czechia (CZ)' and 'SectorSection' is 'Composting Plants (ABP-COMP)', what is the value of 'Chapter'?",
+  "cell": "Sheet1!B174",
+  "key": {
+   "A": "Czechia (CZ)",
+   "C": "Composting Plants (ABP-COMP)"
+  },
+  "labels": [
+   "A174",
+   "C174",
+   "B174",
+   "B1"
+  ],
+  "id": "q1",
+  "truth": "Animal By-Products "
+ },
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Sheet1', for the row where 'Country' is 'Ireland ROI (IE)' and 'SectorSection' is 'Composting plants (ABP-COMP)', what is the value of 'Chapter'?",
+  "cell": "Sheet1!B433",
+  "key": {
+   "A": "Ireland ROI (IE)",
+   "C": "Composting plants (ABP-COMP)"
+  },
+  "labels": [
+   "A433",
+   "C433",
+   "B433",
+   "B1"
+  ],
+  "id": "q2",
+  "truth": "Animal by-products"
+ },
+ {
+  "type": "address",
+  "q": "In the sheet 'Sheet1', which cell holds 'Link' for the row where 'Country' is 'Romania (RO)' and 'SectorSection' is 'Eggs and egg products (EEP)'? Give its cell address.",
+  "cell": "Sheet1!D692",
+  "key": {
+   "A": "Romania (RO)",
+   "C": "Eggs and egg products (EEP)"
+  },
+  "labels": [
+   "A692",
+   "C692",
+   "D692",
+   "D1"
+  ],
+  "id": "q3",
+  "truth": "Sheet1!D692"
+ }
+]

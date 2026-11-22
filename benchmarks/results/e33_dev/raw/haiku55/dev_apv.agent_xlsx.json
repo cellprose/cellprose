@@ -1,0 +1,227 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_apv",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1361,
+ "prompt_sha256": "63f05a3a7cb0e1892acf6c5eb3c51ed72e333789af187d481c12c33ba1cc0bda",
+ "result": "{\"q1\": 0.028, \"q2\": \"'Adjusted Present Value'!D64\", \"q3\": [\"'Adjusted Present Value'!B50\", \"'Adjusted Present Value'!C68\", \"'Adjusted Present Value'!C48\"], \"q4\": [\"Inputs!B29\", \"'Default Spreads and Ratios'!E29\", \"'Default Spreads and Ratios'!E49\"], \"q5\": [\"'Adjusted Present Value'!B101\", \"'Adjusted Present Value'!B102\", \"'Adjusted Present Value'!B103\", \"'Adjusted Present Value'!B107\", \"'Adjusted Present Value'!B108\", \"'Adjusted Present Value'!B109\", \"'Adjusted Present Value'!B110\", \"'Adjusted Present Value'!B111\", \"'Adjusted Present Value'!B112\", \"'Adjusted Present Value'!B113\", \"'Adjusted Present Value'!B114\", \"'Adjusted Present Value'!B115\", \"'Adjusted Present Value'!B116\", \"'Adjusted Present Value'!B43\", \"'Adjusted Present Value'!B50\", \"'Adjusted Present Value'!B51\", \"'Adjusted Present Value'!B56\", \"'Adjusted Present Value'!B57\", \"'Adjusted Present Value'!B58\", \"'Adjusted Present Value'!B59\", \"'Adjusted Present Value'!B61\", \"'Adjusted Present Value'!B96\", \"'Adjusted Present Value'!B97\", \"'Adjusted Present Value'!B98\", \"'Adjusted Present Value'!C100\", \"'Adjusted Present Value'!C101\", \"'Adjusted Present Value'!C102\", \"'Adjusted Present Value'!C103\", \"'Adjusted Present Value'!C108\", \"'Adjusted Present Value'!C109\", \"'Adjusted Present Value'!C110\", \"'Adjusted Present Value'!C111\", \"'Adjusted Present Value'!C112\", \"'Adjusted Present Value'!C113\", \"'Adjusted Present Value'!C114\", \"'Adjusted Present Value'!C115\", \"'Adjusted Present Value'!C116\", \"'Adjusted Present Value'!C49\", \"'Adjusted Present Value'!C50\", \"'Adjusted Present Value'!C51\", \"'Adjusted Present Value'!C56\", \"'Adjusted Present Value'!C57\", \"'Adjusted Present Value'!C58\", \"'Adjusted Present Value'!C59\", \"'Adjusted Present Value'!C61\", \"'Adjusted Present Value'!C63\", \"'Adjusted Present Value'!C64\", \"'Adjusted Present Value'!C65\", \"'Adjusted Present Value'!C66\", \"'Adjusted Present Value'!C67\", \"'Adjusted Present Value'!C68\", \"'Adjusted Present Value'!C7\", \"'Adjusted Present Value'!C96\", \"'Adjusted Present Value'!C97\", \"'Adjusted Present Value'!C98\", \"'Adjusted Present Value'!C99\", \"'Adjusted Present Value'!D100\", \"'Adjusted Present Value'!D101\", \"'Adjusted Present Value'!D102\", \"'Adjusted Present Value'!D103\", \"'Adjusted Present Value'!D107\", \"'Adjusted Present Value'!D108\", \"'Adjusted Present Value'!D109\", \"'Adjusted Present Value'!D110\", \"'Adjusted Present Value'!D111\", \"'Adjusted Present Value'!D112\", \"'Adjusted Present Value'!D113\", \"'Adjusted Present Value'!D114\", \"'Adjusted Present Value'!D115\", \"'Adjusted Present Value'!D116\", \"'Adjusted Present Value'!D14\", \"'Adjusted Present Value'!D15\", \"'Adjusted Present Value'!D16\", \"'Adjusted Present Value'!D17\", \"'Adjusted Present Value'!D18\", \"'Adjusted Present Value'!D19\", \"'Adjusted Present Value'!D20\", \"'Adjusted Present Value'!D21\", \"'Adjusted Present Value'!D22\", \"'Adjusted Present Value'!D23\", \"'Adjusted Present Value'!D49\", \"'Adjusted Present Value'!D50\", \"'Adjusted Present Value'!D51\", \"'Adjusted Present Value'!D56\", \"'Adjusted Present Value'!D57\", \"'Adjusted Present Value'!D58\", \"'Adjusted Present Value'!D59\", \"'Adjusted Present Value'!D61\", \"'Adjusted Present Value'!D63\", \"'Adjusted Present Value'!D64\", \"'Adjusted Present Value'!D65\", \"'Adjusted Present Value'!D66\", \"'Adjusted Present Value'!D67\", \"'Adjusted Present Value'!D68\", \"'Adjusted Present Value'!D90\", \"'Adjusted Present Value'!D91\", \"'Adjusted Present Value'!D92\", \"'Adjusted Present Value'!D93\", \"'Adjusted Present Value'!D96\", \"'Adjusted Present Value'!D97\", \"'Adjusted Present Value'!D98\", \"'Adjusted Present Value'!D99\", \"'Adjusted Present Value'!E100\", \"'Adjusted Present Value'!E101\", \"'Adjusted Present Value'!E102\", \"'Adjusted Present Value'!E103\", \"'Adjusted Present Value'!E107\", \"'Adjusted Present Value'!E108\", \"'Adjusted Present Value'!E109\", \"'Adjusted Present Value'!E110\", \"'Adjusted Present Value'!E111\", \"'Adjusted Present Value'!E112\", \"'Adjusted Present Value'!E113\", \"'Adjusted Present Value'!E114\", \"'Adjusted Present Value'!E115\", \"'Adjusted Present Value'!E116\", \"'Adjusted Present Value'!E14\", \"'Adjusted Present Value'!E15\", \"'Adjusted Present Value'!E16\", \"'Adjusted Present Value'!E17\", \"'Adjusted Present Value'!E18\", \"'Adjusted Present Value'!E19\", \"'Adjusted Present Value'!E20\", \"'Adjusted Present Value'!E21\", \"'Adjusted Present Value'!E22\", \"'Adjusted Present Value'!E23\", \"'Adjusted Present Value'!E27\", \"'Adjusted Present Value'!E49\", \"'Adjusted Present Value'!E50\", \"'Adjusted Present Value'!E51\", \"'Adjusted Present Value'!E56\", \"'Adjusted Present Value'!E57\", \"'Adjusted Present Value'!E58\", \"'Adjusted Present Value'!E59\", \"'Adjusted Present Value'!E61\", \"'Adjusted Present Value'!E63\", \"'Adjusted Present Value'!E64\", \"'Adjusted Present Value'!E65\", \"'Adjusted Present Value'!E66\", \"'Adjusted Present Value'!E67\", \"'Adjusted Present Value'!E68\", \"'Adjusted Present Value'!E87\", \"'Adjusted Present Value'!E96\", \"'Adjusted Present Value'!E97\", \"'Adjusted Present Value'!E98\", \"'Adjusted Present Value'!E99\", \"'Adjusted Present Value'!F10\", \"'Adjusted Present Value'!F100\", \"'Adjusted Present Value'!F101\", \"'Adjusted Present Value'!F102\", \"'Adjusted Present Value'!F103\", \"'Adjusted Present Value'!F108\", \"'Adjusted Present Value'!F109\", \"'Adjusted Present Value'!F11\", \"'Adjusted Present Value'!F110\", \"'Adjusted Present Value'!F111\", \"'Adjusted Present Value'!F112\", \"'Adjusted Present Value'!F113\", \"'Adjusted Present Value'!F114\", \"'Adjusted Present Value'!F115\", \"'Adjusted Present Value'!F116\", \"'Adjusted Present Value'!F14\", \"'Adjusted Present Value'!F15\", \"'Adjusted Present Value'!F16\", \"'Adjusted Present Value'!F17\", \"'Adjusted Present Value'!F18\", \"'Adjusted Present Value'!F19\", \"'Adjusted Present Value'!F20\", \"'Adjusted Present Value'!F21\", \"'Adjusted Present Value'!F22\", \"'Adjusted Present Value'!F23\", \"'Adjusted Present Value'!F49\", \"'Adjusted Present Value'!F50\", \"'Adjusted Present Value'!F51\", \"'Adjusted Present Value'!F56\", \"'Adjusted Present Value'!F57\", \"'Adjusted Present Value'!F58\", \"'Adjusted Present Value'!F59\", \"'Adjusted Present Value'!F61\", \"'Adjusted Present Value'!F63\", \"'Adjusted Present Value'!F64\", \"'Adjusted Present Value'!F65\", \"'Adjusted Present Value'!F66\", \"'Adjusted Present Value'!F67\", \"'Adjusted Present Value'!F68\", \"'Adjusted Present Value'!F96\", \"'Adjusted Present Value'!F97\", \"'Adjusted Present Value'!F98\", \"'Adjusted Present Value'!F99\", \"'Adjusted Present Value'!G100\", \"'Adjusted Present Value'!G101\", \"'Adjusted Present Value'!G102\", \"'Adjusted Present Value'!G103\", \"'Adjusted Present Value'!G108\", \"'Adjusted Present Value'!G109\", \"'Adjusted Present Value'!G110\", \"'Adjusted Present Value'!G111\", \"'Adjusted Present Value'!G112\", \"'Adjusted Present Value'!G113\", \"'Adjusted Present Value'!G114\", \"'Adjusted Present Value'!G115\", \"'Adjusted Present Value'!G116\", \"'Adjusted Present Value'!G14\", \"'Adjusted Present Value'!G15\", \"'Adjusted Present Value'!G16\", \"'Adjusted Present Value'!G17\", \"'Adjusted Present Value'!G18\", \"'Adjusted Present Value'!G19\", \"'Adjusted Present Value'!G20\", \"'Adjusted Present Value'!G21\", \"'Adjusted Present Value'!G22\", \"'Adjusted Present Value'!G23\", \"'Adjusted Present Value'!G49\", \"'Adjusted Present Value'!G50\", \"'Adjusted Present Value'!G51\", \"'Adjusted Present Value'!G56\", \"'Adjusted Present Value'!G57\", \"'Adjusted Present Value'!G58\", \"'Adjusted Present Value'!G59\", \"'Adjusted Present Value'!G61\", \"'Adjusted Present Value'!G63\", \"'Adjusted Present Value'!G64\", \"'Adjusted Present Value'!G65\", \"'Adjusted Present Value'!G66\", \"'Adjusted Present Value'!G67\", \"'Adjusted Present Value'!G68\", \"'Adjusted Present Value'!G96\", \"'Adjusted Present Value'!G97\", \"'Adjusted Present Value'!G98\", \"'Adjusted Present Value'!G99\", \"'Adjusted Present Value'!H100\", \"'Adjusted Present Value'!H101\", \"'Adjusted Present Value'!H102\", \"'Adjusted Present Value'!H103\", \"'Adjusted Present Value'!H107\", \"'Adjusted Present Value'!H108\", \"'Adjusted Present Value'!H109\", \"'Adjusted Present Value'!H110\", \"'Adjusted Present Value'!H111\", \"'Adjusted Present Value'!H112\", \"'Adjusted Present Value'!H113\", \"'Adjusted Present Value'!H114\", \"'Adjusted Present Value'!H115\", \"'Adjusted Present Value'!H116\", \"'Adjusted Present Value'!H14\", \"'Adjusted Present Value'!H15\", \"'Adjusted Present Value'!H16\", \"'Adjusted Present Value'!H17\", \"'Adjusted Present Value'!H18\", \"'Adjusted Present Value'!H19\", \"'Adjusted Present Value'!H20\", \"'Adjusted Present Value'!H21\", \"'Adjusted Present Value'!H22\", \"'Adjusted Present Value'!H23\", \"'Adjusted Present Value'!H49\", \"'Adjusted Present Value'!H50\", \"'Adjusted Present Value'!H51\", \"'Adjusted Present Value'!H56\", \"'Adjusted Present Value'!H57\", \"'Adjusted Present Value'!H58\", \"'Adjusted Present Value'!H59\", \"'Adjusted Present Value'!H61\", \"'Adjusted Present Value'!H63\", \"'Adjusted Present Value'!H64\", \"'Adjusted Present Value'!H65\", \"'Adjusted Present Value'!H66\", \"'Adjusted Present Value'!H67\", \"'Adjusted Present Value'!H68\", \"'Adjusted Present Value'!H96\", \"'Adjusted Present Value'!H97\", \"'Adjusted Present Value'!H98\", \"'Adjusted Present Value'!H99\", \"'Adjusted Present Value'!I100\", \"'Adjusted Present Value'!I101\", \"'Adjusted Present Value'!I102\", \"'Adjusted Present Value'!I103\", \"'Adjusted Present Value'!I107\", \"'Adjusted Present Value'!I108\", \"'Adjusted Present Value'!I109\", \"'Adjusted Present Value'!I110\", \"'Adjusted Present Value'!I111\", \"'Adjusted Present Value'!I112\", \"'Adjusted Present Value'!I113\", \"'Adjusted Present Value'!I114\", \"'Adjusted Present Value'!I115\", \"'Adjusted Present Value'!I116\", \"'Adjusted Present Value'!I49\", \"'Adjusted Present Value'!I50\", \"'Adjusted Present Value'!I51\", \"'Adjusted Present Value'!I56\", \"'Adjusted Present Value'!I57\", \"'Adjusted Present Value'!I58\", \"'Adjusted Present Value'!I59\", \"'Adjusted Present Value'!I61\", \"'Adjusted Present Value'!I63\", \"'Adjusted Present Value'!I64\", \"'Adjusted Present Value'!I65\", \"'Adjusted Present Value'!I66\", \"'Adjusted Present Value'!I67\", \"'Adjusted Present Value'!I68\", \"'Adjusted Present Value'!I8\", \"'Adjusted Present Value'!I92\", \"'Adjusted Present Value'!I96\", \"'Adjusted Present Value'!I97\", \"'Adjusted Present Value'!I98\", \"'Adjusted Present Value'!I99\", \"'Adjusted Present Value'!J100\", \"'Adjusted Present Value'!J101\", \"'Adjusted Present Value'!J102\", \"'Adjusted Present Value'!J103\", \"'Adjusted Present Value'!J49\", \"'Adjusted Present Value'!J50\", \"'Adjusted Present Value'!J51\", \"'Adjusted Present Value'!J56\", \"'Adjusted Present Value'!J57\", \"'Adjusted Present Value'!J58\", \"'Adjusted Present Value'!J59\", \"'Adjusted Present Value'!J61\", \"'Adjusted Present Value'!J63\", \"'Adjusted Present Value'!J64\", \"'Adjusted Present Value'!J65\", \"'Adjusted Present Value'!J66\", \"'Adjusted Present Value'!J67\", \"'Adjusted Present Value'!J68\", \"'Adjusted Present Value'!J96\", \"'Adjusted Present Value'!J97\", \"'Adjusted Present Value'!J98\", \"'Adjusted Present Value'!J99\", \"'Adjusted Present Value'!K100\", \"'Adjusted Present Value'!K101\", \"'Adjusted Present Value'!K102\", \"'Adjusted Present Value'!K103\", \"'Adjusted Present Value'!K26\", \"'Adjusted Present Value'!K27\", \"'Adjusted Present Value'!K28\", \"'Adjusted Present Value'!K31\", \"'Adjusted Present Value'!K49\", \"'Adjusted Present Value'!K50\", \"'Adjusted Present Value'!K51\", \"'Adjusted Present Value'!K56\", \"'Adjusted Present Value'!K57\", \"'Adjusted Present Value'!K58\", \"'Adjusted Present Value'!K59\", \"'Adjusted Present Value'!K61\", \"'Adjusted Present Value'!K63\", \"'Adjusted Present Value'!K64\", \"'Adjusted Present Value'!K65\", \"'Adjusted Present Value'!K66\", \"'Adjusted Present Value'!K67\", \"'Adjusted Present Value'!K68\", \"'Adjusted Present Value'!K96\", \"'Adjusted Present Value'!K97\", \"'Adjusted Present Value'!K98\", \"'Adjusted Present Value'!K99\", \"'Default Spreads and Ratios'!D10\", \"'Default Spreads and Ratios'!D7\", \"'Default Spreads and Ratios'!D8\", \"'Default Spreads and Ratios'!D9\", \"'Default Spreads and Ratios'!F4\", \"'Operating Lease Information'!C17\", \"'Operating Lease Information'!C27\", \"'Operating Lease Information'!C28\", \"'Operating Lease Information'!C29\", \"'Operating Lease Information'!C30\", \"'Operating Lease Information'!C31\", \"'Operating Lease Information'!C32\", \"'Operating Lease Information'!C33\", \"'Operating Lease Information'!F37\"], \"q6\": [\"'Country ERP'!C132\", \"'Country ERP'!E132\", \"'Country ERP'!F132\"]}",
+ "usage": {
+  "input_tokens": 188969,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 13213,
+  "output_tokens_details": {
+   "thinking_tokens": 4256
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 188969,
+   "outputTokens": 13213,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 4256
+  }
+ },
+ "cost": 0.0255034,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1069,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 276,
+     "reasoning_tokens": 13,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2880,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 325,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 12086,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1379,
+     "reasoning_tokens": 644,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 13473,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 792,
+     "reasoning_tokens": 65,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 25209,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1042,
+     "reasoning_tokens": 861,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 26983,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1398,
+     "reasoning_tokens": 1098,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 34444,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1041,
+     "reasoning_tokens": 875,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 36077,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 638,
+     "reasoning_tokens": 453,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 36748,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 6322,
+     "reasoning_tokens": 247,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:11:48+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 52.0
+ },
+ "num_turns": 9,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb: print(ws.title, ws.dimensions)\\nws=wb['Adjusted Present Value']\\nfor r in ws.iter_rows():\\n  for c in r:\\n    if c.value is not None and (c.row<12 or c.row in (50,87) or c.column_letter in 'AB' and c.row>0 and isinstance(c.value,str) and ('Aaa' in c.value or 'Funds' in c.value or 'Beta' in c.value)): print(c.coordinate, repr(c.value))\\n\\\" | head -300\"}",
+   "output_chars": 2320
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Adjusted Present Value']\\nfor r in range(60,100):\\n  print(r,[ (c.coordinate,c.value) for c in ws[r] if c.value is not None][:12])\\nprint([ (c.coordinate,c.value) for c in ws[42]+ws[43]+ws[44]+ws[48]+ws[68] if c.value is not None])\\nws=wb['Default Spreads and Ratios']\\nfor r in ws.iter_rows(min_row=45,max_row=49):\\n  print([(c.coordinate,c.value) for c in r if c.value is not None])\\nws=wb['Country",
+   "output_chars": 13796
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl,re\\nfrom openpyxl.utils import range_boundaries,get_column_letter\\nwb=openpyxl.load_workbook('book.xlsx')\\n# build formula map\\nforms={}\\nfor ws in wb:\\n  for row in ws.iter_rows():\\n    for c in row:\\n      if isinstance(c.value,str) and c.value.startswith('='):\\n        forms[(ws.title,c.coordinate)]=c.value\\nref_re=re.compile(r\\\\\\\"(?:'([^']+)'|([A-Za-z][A-Za-z0-9 ]*?))?!?\\\\\\\\$?([A-Z]{1,3})\\\\\\\\$?(\\\\d+)(?::\\\\\\\\$?([A-Z]{1,3})\\\\\\\\$?(\\\\d+))?\\\\\\\")",
+   "output_chars": 3
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/t.py <<'EOF'\\nimport openpyxl,re\\nfrom openpyxl.utils import range_boundaries,get_column_letter\\nwb=openpyxl.load_workbook('book.xlsx')\\nforms={}\\nfor ws in wb:\\n  for row in ws.iter_rows():\\n    for c in row:\\n      if isinstance(c.value,str) and c.value.startswith('='):\\n        forms[(ws.title,c.coordinate)]=c.value\\ntok=re.compile(r\\\"(?:'([^']+)'!|([A-Za-z_][A-Za-z0-9_]*)!)?(\\\\$?[A-Z]{1,3}\\\\$?\\\\d+(?::\\\\$?[A-Z]{1,3}\\\\$?\\\\d+)?)\\\")\\ndef refs(sheet,f):\\n  out=[]\\n",
+   "output_chars": 19094
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat >> /tmp/t.py <<'EOF'\\nprint('=== direct')\\nfor d in dep.get(target,[]): print(d, forms[d])\\nprint('=== DS formulas')\\nfor k,f in forms.items():\\n  if k[0]=='Default Spreads and Ratios': print(k,f)\\nEOF\\npython3 /tmp/t.py | sed -n '/=== direct/,$p'\"}",
+   "output_chars": 1156
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat >> /tmp/t.py <<'EOF'\\nimport json\\nlst=[f\\\"{s}!{c}\\\" if ' ' not in s else f\\\"'{s}'!{c}\\\" for s,c in sorted(seen)]\\nprint('JSONQ5',json.dumps(lst))\\nprint(len(lst))\\nEOF\\npython3 /tmp/t.py | sed -n '/JSONQ5/,$p'; python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Country ERP']; print([(c.coordinate,c.value) for c in ws[132]])\\nprint(wb['Adjusted Present Value']['G71'].value, wb['Adjusted Present Value']['G87'].value)\\\"\"}",
+   "output_chars": 12208
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat >> /tmp/t.py <<'EOF'\\nprint('=== dependents of E27/E87')\\nfor t in [('Adjusted Present Value','E27'),('Adjusted Present Value','E87')]:\\n  print(t, dep.get(t))\\nEOF\\npython3 /tmp/t.py | sed -n '/=== dependents/,$p'\"}",
+   "output_chars": 1150
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx',data_only=True)\\nws=wb['Adjusted Present Value']; print(ws['G87'].value, ws['G71'].value, ws['D64'].value)\\nprint(wb['Default Spreads and Ratios']['D49'].value, wb['Adjusted Present Value']['F7'].value)\\\"\"}",
+   "output_chars": 52
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_markets_enron_online_3_1",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 18200,
+ "prompt_sha256": "44ac81bf3d2f0b0f28f8ada969aa497bb70c8a6e0dc36d55146ea8e3ce098e2b",
+ "result": "{\n  \"q1\": 1532920,\n  \"q2\": \"Private Label Ass!C44\",\n  \"q3\": [\n    \"Expenses!B92\",\n    \"Total Market Size!C136\"\n  ],\n  \"q4\": [\n    \"Cash Flow!B10:B14\"\n  ],\n  \"q5\": [\n    \"Many to Many Ass.!D24\",\n    \"' Volume Assumptions'!B79:L79\",\n    \"' Volume Assumptions'!B90:L90\",\n    \"Total Market Size!B8:L8\",\n    \"Total Market Size!B19:L19\",\n    \"Total Market Size!B27:L27\",\n    \"Total Market Size!B38:L38\",\n    \"Total Market Size!B46:L46\",\n    \"Total Market Size!B57:L57\",\n    \"Total Market Size!B65:L65\",\n    \"Total Market Size!B76:L76\",\n    \"Total Market Size!B84:L84\",\n    \"Total Market Size!B95:L95\",\n    \"Total Market Size!B103:L103\",\n    \"Total Market Size!B114:L114\",\n    \"Total Market Size!B122:L122\",\n    \"Total Market Size!B133:L133\",\n    \"Total Market Size!B138:L138\",\n    \"Total Market Size!B144\",\n    \"Liquids!D13\",\n    \"Liquids!I14:I15\",\n    \"Liquids!D15\",\n    \"Liquids!D17:D18\",\n    \"Liquids!I17:I18\",\n    \"VAS CF!B7:L11\",\n    \"VAS CF!B17:L17\",\n    \"VAS CF!B29:L29\",\n    \"VAS CF!B41:L41\",\n    \"VAS CF!B53:L53\",\n    \"Total CF!B7:L11\",\n    \"Total CF!B17:L17\",\n    \"Total CF!B29:L29\",\n    \"Total CF!B41:L41\",\n    \"Total CF!B53:L53\"\n  ],\n  \"q6\": [\n    \"Many to Many Revenue!J23\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 9691,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 6787,
+  "output_tokens": 656,
+  "output_tokens_details": {
+   "thinking_tokens": 58
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 9691,
+   "outputTokens": 656,
+   "cacheReadInputTokens": 6787,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 58
+  }
+ },
+ "cost": 0.039516,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_9a8b23d589a34d0a8d451cb2baf8f2a7",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 6790,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 143,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2901,
+     "cache_read_tokens": 6787,
+     "cache_write_tokens": 0,
+     "output_tokens": 513,
+     "reasoning_tokens": 58,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T16:28:01+00:00",
+  "run_id": "20261107T162647Z-9ba68e",
+  "started_at": "2026-11-07T16:26:47+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 17.0
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'VAS CF'!A38:M69\", \"'Private Label Ass'!A41:D53\", \"'Many to Many Revenue'!J23:J36\"]}",
+   "output_chars": 4667
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Expenses!C92\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 115
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Cash Flow!B15\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 77
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Liquids!D8\", \"factor\": 1.1}",
+   "output_chars": 844
+  }
+ ]
+}

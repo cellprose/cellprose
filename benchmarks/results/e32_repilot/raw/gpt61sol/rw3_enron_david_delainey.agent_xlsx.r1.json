@@ -1,0 +1,98 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw3_enron_david_delainey",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1237,
+ "prompt_sha256": "76a41cdedd02c4e778d52406f5b1bef7ebad5c06e3b3cbef7b7875d4d1c63d47",
+ "result": "{\"q1\":43.4,\"q2\":\"Sheet1!S19\",\"q3\":[\"Sheet1!S13\",\"Sheet1!R13\"],\"q4\":[\"Sheet1!D10\",\"Sheet1!C10\"],\"q5\":[\"Sheet1!E24\",\"Sheet1!R9\",\"Sheet1!T9\",\"Sheet1!U9\",\"Sheet1!R19\",\"Sheet1!T19\",\"Sheet1!U19\"],\"q6\":[\"Sheet1!B108\",\"Sheet1!C108\",\"Sheet1!D108\"]}",
+ "usage": {
+  "input_tokens": 2815,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 295,
+  "output_tokens_details": {
+   "thinking_tokens": 68
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 2815,
+   "outputTokens": 295,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 68
+  }
+ },
+ "cost": 0.00858,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_03f7d622bb9b4d3abb09e21d2995df58",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 431,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 104,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2384,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 191,
+     "reasoning_tokens": 68,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T12:07:12+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 5.3
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');s=w['Sheet1'];print(s.max_row,s.max_column)\\nfor row in s:\\n vals=['%s:%s'%(c.column_letter,c.value) for c in row if c.value is not None]\\n if vals:print(row[0].row,' '.join(vals))\\nPY\"}",
+   "output_chars": 5396
+  }
+ ]
+}

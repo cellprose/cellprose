@@ -1,0 +1,78 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw2_dam_eqexret",
+ "encoding": "csv",
+ "prompt_chars": 8295,
+ "prompt_sha256": "757b97f7df5a0507150c260bcc7091e2204bdacb06221d9567588e841f176758",
+ "result": "{\n  \"q1\": 0.22,\n  \"q2\": \"Inputs!B2\",\n  \"q3\": [\"Excess Return Valuation!F10\", \"Excess Return Valuation!F12\"],\n  \"q4\": [\"Excess Return Valuation!J20\", \"Excess Return Valuation!J22\"],\n  \"q5\": [\"Excess Return Valuation!B28\", \"Excess Return Valuation!B29\"],\n  \"q6\": [\"Normalized Earnings!B5:F5\"]\n}",
+ "usage": {
+  "input_tokens": 2663,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 401,
+  "output_tokens_details": {
+   "thinking_tokens": 283
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 2663,
+   "outputTokens": 401,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 283
+  }
+ },
+ "cost": 0.009336,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 9.2,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_3fc4ba4ac36a47acac769c73952ad8f3",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "input_tokens": 2663,
+   "input_tokens_details": {
+    "cache_write_tokens": 2660,
+    "cached_tokens": 0,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 401,
+   "output_tokens_details": {
+    "reasoning_tokens": 283
+   },
+   "total_tokens": 3064,
+   "billed_input_tokens": 2663,
+   "tokenizer_input_tokens_o200k": 2652,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 2652
+  },
+  "finished_at": "2026-11-11T14:57:21+00:00"
+ }
+}

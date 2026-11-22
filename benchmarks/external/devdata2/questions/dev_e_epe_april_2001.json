@@ -1,0 +1,81 @@
+[
+ {
+  "type": "lookup",
+  "cell": "APRIL (9)!D11",
+  "q": "What is the value in the row labelled 'PNM TAG 11206', column headed 'FOR THE DAY', in the sheet 'APRIL (9)'?",
+  "truth": 20555,
+  "labels": [
+   "C11",
+   "D8"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "APRIL (9)!F11",
+  "q": "Which cell holds the value in the row labelled 'SDGE TAG 2474', column headed 'FOR THE DAY', in the sheet 'APRIL (9)'? Give its cell address.",
+  "truth": "APRIL (9)!F11",
+  "labels": [
+   "E11",
+   "F8"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "APRIL (5)!I34",
+  "q": "Consider the cell APRIL (5)!I34. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "APRIL (5)!C34",
+   "APRIL (5)!D34",
+   "APRIL (5)!E34",
+   "APRIL (5)!F34",
+   "APRIL (5)!G34",
+   "APRIL (5)!H34"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "APRIL (5)!I17",
+  "q": "Consider the cell APRIL (5)!I17. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "APRIL (5)!C17",
+   "APRIL (5)!D17",
+   "APRIL (5)!E17",
+   "APRIL (5)!F17",
+   "APRIL (5)!G17",
+   "APRIL (5)!H17"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "APRIL (1)!K21",
+  "factor": 1.1,
+  "q": "Suppose the number in APRIL (1)!K21 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "APRIL (1)!K39",
+   "APRIL (1)!K41",
+   "APRIL (1)!Q21",
+   "APRIL (1)!Q39",
+   "APRIL (1)!Q41"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "APRIL (6)!A26",
+  "range": "APRIL (6)!A26:G26",
+  "q": "Consider the range APRIL (6)!A26:G26. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "APRIL (6)!A26",
+   "APRIL (6)!B26",
+   "APRIL (6)!C26",
+   "APRIL (6)!D26",
+   "APRIL (6)!E26",
+   "APRIL (6)!F26"
+  ],
+  "id": "q6"
+ }
+]

@@ -1,0 +1,87 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Feb 00!AB23",
+  "q": "What is the value in the row labelled 'Total Available', column headed 'Month to Date', in the sheet 'Feb 00'?",
+  "truth": 5391735,
+  "labels": [
+   "A23",
+   "AB5"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Feb 00!AB10",
+  "q": "Which cell holds the value in the row labelled 'HPL Points', column headed 'Month to Date', in the sheet 'Feb 00'? Give its cell address.",
+  "truth": "Feb 00!AB10",
+  "labels": [
+   "C10",
+   "AB5"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Feb 00!U33",
+  "q": "Consider the cell Feb 00!U33 (in the row labelled 'Subtotal'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Feb 00!U28",
+   "Feb 00!U29",
+   "Feb 00!U30",
+   "Feb 00!U31",
+   "Feb 00!U32"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Feb 00!I15",
+  "q": "Consider the cell Feb 00!I15 (in the row labelled 'Total HPL'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Feb 00!I10",
+   "Feb 00!I11",
+   "Feb 00!I12",
+   "Feb 00!I13",
+   "Feb 00!I14"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Feb 00!Y51",
+  "factor": 1.1,
+  "q": "Suppose the number in Feb 00!Y51 (in the row labelled 'Lufkin Diboll') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Feb 00!AB13",
+   "Feb 00!AB15",
+   "Feb 00!AB23",
+   "Feb 00!AB51",
+   "Feb 00!AB54",
+   "Feb 00!AB56",
+   "Feb 00!AB71",
+   "Feb 00!Y13",
+   "Feb 00!Y15",
+   "Feb 00!Y23",
+   "Feb 00!Y54",
+   "Feb 00!Y56",
+   "Feb 00!Y71"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Feb 00!S40",
+  "range": "Feb 00!S40:S46",
+  "q": "Consider the range Feb 00!S40:S46. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Feb 00!S40",
+   "Feb 00!S41",
+   "Feb 00!S42",
+   "Feb 00!S44",
+   "Feb 00!S45",
+   "Feb 00!S46"
+  ],
+  "id": "q6"
+ }
+]

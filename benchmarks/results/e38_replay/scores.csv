@@ -1,0 +1,13 @@
+rep,set,model,workbook,encoding,qid,task,score,exact,failed,answer
+r0,hard,haiku55,11_forecast_overrides,cellprose_v03,q1,lookup,1.0,1.0,0,1515990
+r0,hard,haiku55,11_forecast_overrides,cellprose_v03,q2,hardcode,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!J2""]"
+r0,hard,haiku55,11_forecast_overrides,cellprose_v03,q3,hardcode,1.0,1.0,0,"[""Forecast!H4"", ""Forecast!K5""]"
+r0,hard,haiku55,11_forecast_overrides,cellprose_v03,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,haiku55,11_forecast_overrides,cellprose_v03,q5,impact,1.0,1.0,0,"[""Forecast!C2"", ""Forecast!D2"", ""Forecast!E2"", ""Forecast!G2"", ""Forecast!H2"", ""Forecast!I2"", ""Forecast!K2"", ""Forecast!L2"", ""Forecast!M2"", ""Forecast!N2"", ""Forecast!C3"", ""Forecast!D3"", ""Forecast!E3"", ""Forecast!G3"", ""Forecast!H3"", ""Forecast!I3"", ""Forecast!K3"", ""Forecast!L3"", ""Forecast!M3"", ""Forecast!N3""]"
+r0,hard,haiku55,11_forecast_overrides,cellprose_v03,q6,impact,1.0,1.0,0,"[""Forecast!C4"", ""Forecast!D4"", ""Forecast!E4"", ""Forecast!F4"", ""Forecast!G4"", ""Forecast!I4"", ""Forecast!J4"", ""Forecast!K4"", ""Forecast!L4"", ""Forecast!M4"", ""Forecast!C5"", ""Forecast!D5"", ""Forecast!E5"", ""Forecast!F5"", ""Forecast!G5"", ""Forecast!I5"", ""Forecast!J5"", ""Forecast!L5"", ""Forecast!M5"", ""Forecast!N5""]"
+r0,hard,haiku55,11_forecast_overrides,csv,q1,lookup,1.0,1.0,0,1515987.648
+r0,hard,haiku55,11_forecast_overrides,csv,q2,hardcode,0.6667,0.0,0,"[""Forecast!J2""]"
+r0,hard,haiku55,11_forecast_overrides,csv,q3,hardcode,0.6667,0.0,0,"[""Forecast!K5""]"
+r0,hard,haiku55,11_forecast_overrides,csv,q4,trace,1.0,1.0,0,"[""Forecast!F2"", ""Forecast!B7""]"
+r0,hard,haiku55,11_forecast_overrides,csv,q5,impact,0.9524,0.0,0,"[""Forecast!C2"", ""Forecast!D2"", ""Forecast!E2"", ""Forecast!F2"", ""Forecast!G2"", ""Forecast!H2"", ""Forecast!I2"", ""Forecast!K2"", ""Forecast!L2"", ""Forecast!M2"", ""Forecast!N2"", ""Forecast!C3"", ""Forecast!D3"", ""Forecast!E3"", ""Forecast!F3"", ""Forecast!G3"", ""Forecast!H3"", ""Forecast!I3"", ""Forecast!K3"", ""Forecast!L3"","
+r0,hard,haiku55,11_forecast_overrides,csv,q6,impact,0.9524,0.0,0,"[""Forecast!C4"", ""Forecast!D4"", ""Forecast!E4"", ""Forecast!F4"", ""Forecast!G4"", ""Forecast!H4"", ""Forecast!I4"", ""Forecast!J4"", ""Forecast!K4"", ""Forecast!L4"", ""Forecast!M4"", ""Forecast!C5"", ""Forecast!D5"", ""Forecast!E5"", ""Forecast!F5"", ""Forecast!G5"", ""Forecast!H5"", ""Forecast!I5"", ""Forecast!J5"", ""Forecast!L5"","

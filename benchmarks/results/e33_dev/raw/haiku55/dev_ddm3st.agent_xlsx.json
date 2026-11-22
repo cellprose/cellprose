@@ -1,0 +1,119 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_ddm3st",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1347,
+ "prompt_sha256": "ef81da7f7a931e082ae8a8cfd21ab86ab2aebf6fd4bd5df5d40faf086166e4b8",
+ "result": "{\"q1\": 1.1, \"q2\": \"ddm3st.xls!D85\", \"q3\": [\"ddm3st.xls!E33\", \"ddm3st.xls!L97\", \"ddm3st.xls!K99\", \"ddm3st.xls!D92\"], \"q4\": [\"ddm3st.xls!E64\", \"ddm3st.xls!E106\", \"ddm3st.xls!E105\"], \"q5\": [\"ddm3st.xls!C97:L97\", \"ddm3st.xls!C98:L98\", \"ddm3st.xls!C99:L99\", \"ddm3st.xls!C100:L100\", \"ddm3st.xls!C103:L103\", \"ddm3st.xls!C106:L106\", \"ddm3st.xls!C107:L107\", \"ddm3st.xls!C110:L110\", \"ddm3st.xls!E116\", \"ddm3st.xls!F118\", \"ddm3st.xls!F119\", \"ddm3st.xls!F120\", \"ddm3st.xls!F121\"], \"q6\": []}",
+ "usage": {
+  "input_tokens": 20572,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2275,
+  "output_tokens_details": {
+   "thinking_tokens": 1377
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 20572,
+   "outputTokens": 2275,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1377
+  }
+ },
+ "cost": 0.0031947,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1065,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 176,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 8702,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1762,
+     "reasoning_tokens": 1377,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 10805,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 337,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:11:06+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 9.9
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nprint(wb.sheetnames)\\nws=wb['ddm3st.xls']\\nprint(ws.dimensions)\\nfor row in ws.iter_rows():\\n    for c in row:\\n        if c.value is not None: print(c.coordinate, repr(c.value))\\n\\\" | head -700\"}",
+   "output_chars": 11633
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"echo '{\\\"q1\\\": 1.1, \\\"q2\\\": \\\"ddm3st.xls!D85\\\", \\\"q3\\\": [\\\"ddm3st.xls!E33\\\", \\\"ddm3st.xls!L97\\\", \\\"ddm3st.xls!K99\\\", \\\"ddm3st.xls!D92\\\"], \\\"q4\\\": [\\\"ddm3st.xls!E64\\\", \\\"ddm3st.xls!E106\\\", \\\"ddm3st.xls!E105\\\"], \\\"q5\\\": [\\\"ddm3st.xls!C97:L97\\\", \\\"ddm3st.xls!C98:L98\\\", \\\"ddm3st.xls!C99:L99\\\", \\\"ddm3st.xls!C100:L100\\\", \\\"ddm3st.xls!C103:L103\\\", \\\"ddm3st.xls!C106:L106\\\", \\\"ddm3st.xls!C107:L107\\\", \\\"ddm3st.xls!C110:L110\\\", \\\"ddm3st.xls!E116\\\", \\\"ddm3st.xls!F118\\\", \\\"ddm3st.xls!F119\\\", \\\"d",
+   "output_chars": 479
+  }
+ ]
+}

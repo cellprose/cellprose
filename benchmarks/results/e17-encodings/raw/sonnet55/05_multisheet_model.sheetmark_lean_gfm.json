@@ -1,0 +1,65 @@
+{
+ "model": "sonnet55",
+ "workbook": "05_multisheet_model",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2269,
+ "result": "Q1: Summary!D6 = 256721.\n\nQ2: Revenue!C3 = 226600.\n\nQ3: Summary!C5.\n\nQ4: EBIT Y1 is Summary!B4 = B2-B3, so it reads Summary!B2 and Summary!B3.\n\nQ5: Variable costs Y2 is Costs!C2 = Revenue!C5*Inputs!$B$11, so it reads Revenue!C5 and Inputs!B11.\n\nQ6: Fixed costs is Inputs!B10. It feeds Costs!B3:D3, which feed Costs!B4:D4, which feed Summary!B3:D3, then Summary!B4:D4, then Summary!B5:D5 and Summary!B6:D6.\n\nTax is MAX(0, B4*rate), and EBIT is positive, so it changes. The affected cells are Costs!B3:D3, Costs!B4:D4, Summary!B3:D3, Summary!B4:D4, Summary!B5:D5, Summary!B6:D6.\n\nQ7: Volume B is Inputs!B6. Note that Revenue!B3 uses Inputs!B3*Inputs!B5, which is Price B times Volume A, so Volume B is not actually used by any formula. Revenue!B2 = B2*B5 = Price A \u00d7 Volume A, and B3 = Price B \u00d7 Volume A = 80*1000 = 80000, which does not match the shown 200000. The formula as written is B2:B4 = Inputs!B2*Inputs!B5, which for B3 would be relative-shifted to Inputs!B3*Inputs!B6 = 80*2500 = 200000, matching. So B3 depends on Inputs!B6.\n\nRevenue!B3 changes, and so do C3 and D3 and Revenue!B5:D5. Then Costs!B2:D2, Costs!B4:D4, Summary!B2:D2, Summary!B4:D4, Summary!B5:D5, Summary!B6:D6 also change. Summary!B3:D3 changes via Costs!B4:D4.\n\n```json\n{\"q1\":256721,\"q2\":226600,\"q3\":\"Summary!C5\",\"q4\":[\"Summary!B2\",\"Summary!B3\"],\"q5\":[\"Revenue!C5\",\"Inputs!B11\"],\"q6\":[\"Costs!B4:D4\",\"Summary!B3:D3\",\"Summary!B4:D4\",\"Summary!B5:D5\",\"Summary!B6:D6\"],\"q7\":[\"Revenue!B3:D3\",\"Revenue!B5:D5\",\"Costs!B2:D2\",\"Costs!B4:D4\",\"Summary!B2:D2\",\"Summary!B3:D3\",\"Summary!B4:D4\",\"Summary!B5:D5\",\"Summary!B6:D6\"]}\n```\n\nCorrection: in q6, Costs!B3:D3 also changes since it reads Inputs!B10 directly, so the final answer includes it.\n\n```json\n{\"q1\":256721,\"q2\":226600,\"q3\":\"Summary!C5\",\"q4\":[\"Summary!B2\",\"Summary!B3\"],\"q5\":[\"Revenue!C5\",\"Inputs!B11\"],\"q6\":[\"Costs!B3:D3\",\"Costs!B4:D4\",\"Summary!B3:D3\",\"Summary!B4:D4\",\"Summary!B5:D5\",\"Summary!B6:D6\"],\"q7\":[\"Revenue!B3:D3\",\"Revenue!B5:D5\",\"Costs!B2:D2\",\"Costs!B4:D4\",\"Summary!B2:D2\",\"Summary!B3:D3\",\"Summary!B4:D4\",\"Summary!B5:D5\",\"Summary!B6:D6\"]}\n```",
+ "usage": {
+  "input_tokens": 1275,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1206,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 1275,
+   "outputTokens": 1206,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.01461,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T105651Z-65938b",
+  "started_at": "2026-10-09T10:56:51+00:00",
+  "git_sha": "acbac33",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 6.7,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1275,
+   "output_tokens": 1206,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:59:44+00:00"
+ }
+}

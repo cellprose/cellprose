@@ -1,0 +1,133 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_apv",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1361,
+ "prompt_sha256": "63f05a3a7cb0e1892acf6c5eb3c51ed72e333789af187d481c12c33ba1cc0bda",
+ "result": "{\"q1\": 0.028, \"q2\": \"Adjusted Present Value!D64\", \"q3\": [\"Adjusted Present Value!B50\", \"Adjusted Present Value!C68\", \"Adjusted Present Value!C48\"], \"q4\": [\"Inputs!B29\", \"Default Spreads and Ratios!E29\", \"Default Spreads and Ratios!E49\"], \"q5\": [], \"q6\": [\"Country ERP!C132\", \"Country ERP!E132\", \"Country ERP!F132\"]}",
+ "usage": {
+  "input_tokens": 41006,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2840,
+  "output_tokens_details": {
+   "thinking_tokens": 2363
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 41006,
+   "outputTokens": 2840,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 2363
+  }
+ },
+ "cost": 0.0055206000000000005,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1233,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 239,
+     "reasoning_tokens": 16,
+     "tool_calls": [
+      "view_xlsx",
+      "view_xlsx",
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 16642,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1342,
+     "reasoning_tokens": 1256,
+     "tool_calls": [
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 23131,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1259,
+     "reasoning_tokens": 1091,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:11:10+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 14.4
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Adjusted Present Value\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Default Spreads and Ratios\", \"range\": \"A40:H55\"}",
+   "output_chars": 637
+  },
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Country ERP\", \"range\": \"A125:H140\"}",
+   "output_chars": 2023
+  },
+  {
+   "turn": 2,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Adjusted Present Value\", \"range\": \"D73:H90\"}",
+   "output_chars": 8207
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_d_scores99",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1289,
+ "prompt_sha256": "540d6d210341cbe2a56e99176afff6aa7f2e29898563ecec5e2a485cd9d87706",
+ "result": "```json\n{\"q1\": 10, \"q2\": \"Week #3!F9\", \"q3\": [\"Week #5!G11\", \"Week #5!E11\"], \"q4\": [\"Week #5!G17\", \"Week #5!E17\"], \"q5\": [\"Week #4!AL11\", \"Week #4!AF27\", \"Week #4!AF28\"], \"q6\": [\"Total!F15\", \"Total!G15\", \"Total!H15\", \"Total!I15\"]}\n```",
+ "usage": {
+  "input_tokens": 41601,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2291,
+  "output_tokens_details": {
+   "thinking_tokens": 1153
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 41601,
+   "outputTokens": 2291,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1153
+  }
+ },
+ "cost": 0.005305600000000001,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1037,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 128,
+     "reasoning_tokens": 13,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1256,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 173,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 8896,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 884,
+     "reasoning_tokens": 516,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 14054,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 780,
+     "reasoning_tokens": 445,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 16358,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 326,
+     "reasoning_tokens": 179,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T14:43:40+00:00",
+  "run_id": "20261107T144214Z-4c5d55",
+  "started_at": "2026-11-07T14:42:14+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devdata",
+  "inputs_sha256": "8f2dfc187ecd6fcbe50c6f9073b724bf0b0ec4242a6c061a380dbb2d07709a78",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.7
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb:\\n    print('==',ws.title,ws.dimensions)\\n\\\"\"}",
+   "output_chars": 130
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor name in ['Week #3','Week #5']:\\n    ws=wb[name]\\n    print('==',name)\\n    for row in ws.iter_rows():\\n        for c in row:\\n            if c.value is not None: print(c.coordinate,repr(c.value))\\n\\\" | head -700\"}",
+   "output_chars": 8944
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Week #4']\\nfor r in [5,11]:\\n  for c in ws[r]:\\n    if c.value is not None: print(c.coordinate,repr(c.value))\\nfor row in ws.iter_rows():\\n  for c in row:\\n    if isinstance(c.value,str) and c.value.startswith('=') and c.column_letter in ('F','G','AL','AM','AN'): print(c.coordinate,c.value)\\nprint('--- Week4 AF col')\\nfor row in ws.iter_rows(min_col=32,max_col=32):\\n  for c in row:\\n    if c.value",
+   "output_chars": 5027
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb:\\n  for row in ws.iter_rows():\\n    for c in row:\\n      v=c.value\\n      if isinstance(v,str) and v.startswith('=') and ('!' in v or 'AL' in v or 'AF' in v or 'AM' in v or 'AN' in v or 'AO' in v): print(ws.title,c.coordinate,v)\\n\\\" | grep -v \\\"=SUM(H\\\\|=SUM(AF\\\" | head -80; python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Payout']\\nfor row in ws.iter_rows():\\n ",
+   "output_chars": 1775
+  }
+ ]
+}

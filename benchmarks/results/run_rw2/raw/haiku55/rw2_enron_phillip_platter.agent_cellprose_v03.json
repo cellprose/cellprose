@@ -1,0 +1,192 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_phillip_platter",
+ "encoding": "agent_cellprose_v03",
+ "prompt_chars": 1065,
+ "prompt_sha256": "b16c7838ad4e2db9d225baa6faca51cbd2c3df012eb50eea12d9f30f43e83060",
+ "result": "{\"q1\": [\"day 4!H106\", \"day 4!H107\"], \"q2\": [\"EES-Schedule day 1!J11\", \"EES-Schedule day 1!J12\", \"EES-Schedule day 1!J13\"], \"q3\": [\"EES-Schedule day 1!D104\", \"EES-Schedule day 1!F107\", \"EES-Schedule day 1!D107\", \"EES-Schedule day 1!F108\", \"EES-Schedule day 1!D108\", \"EES-Schedule day 1!F130\", \"EES-Schedule day 1!D130\"], \"q4\": [\"day 4!U7\", \"day 4!U8\", \"day 4!U9\", \"day 4!U10\", \"day 4!U11\", \"day 4!U12\", \"day 4!U13\", \"day 4!U17\", \"day 4!U18\", \"day 4!U19\"]}",
+ "usage": {
+  "input_tokens": 16,
+  "cache_creation_input_tokens": 13321,
+  "cache_read_input_tokens": 44703,
+  "output_tokens": 5089,
+  "output_tokens_details": {
+   "thinking_tokens": 2211
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 16,
+   "outputTokens": 5089,
+   "cacheReadInputTokens": 44703,
+   "cacheCreationInputTokens": 13321,
+   "thinkingTokens": 2211
+  }
+ },
+ "cost": 0.008348500000000002,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 948,
+     "output_tokens": 108,
+     "reasoning_tokens": 16,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 948,
+     "cache_write_tokens": 2676,
+     "output_tokens": 110,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 3624,
+     "cache_write_tokens": 4107,
+     "output_tokens": 343,
+     "reasoning_tokens": 193,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 7731,
+     "cache_write_tokens": 1472,
+     "output_tokens": 1753,
+     "reasoning_tokens": 549,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2,
+     "cache_read_tokens": 9203,
+     "cache_write_tokens": 1881,
+     "output_tokens": 814,
+     "reasoning_tokens": 403,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 2,
+     "cache_read_tokens": 11084,
+     "cache_write_tokens": 1029,
+     "output_tokens": 1156,
+     "reasoning_tokens": 519,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 2,
+     "cache_read_tokens": 12113,
+     "cache_write_tokens": 1208,
+     "output_tokens": 805,
+     "reasoning_tokens": 531,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.004658
+  },
+  "finished_at": "2026-11-11T15:56:08+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 24.7
+ },
+ "num_turns": 7,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && ls -la && head -c 3000 book.sheet.md && echo && grep -n \\\"^#\\\" book.sheet.md | head -50\"}",
+   "output_chars": 4203
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n \\\"^# Sheet\\\\|^## \\\" book.sheet.md | sed -n 50,400p; echo; grep -n \\\"formulas\\\" -A12 book.sheet.md | head -300\"}",
+   "output_chars": 5670
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n \\\"^# Sheet\\\" book.sheet.md; sed -n 1,6p book.sheet.md >/dev/null; awk 'NR>=4180' book.sheet.md | head -20; grep -n \\\"day 4\\\" book.sheet.md | head; tail -c 1500 book.sheet.md\"}",
+   "output_chars": 1773
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/p.py <<'EOF'\\nimport re,sys\\nfrom openpyxl.utils import column_index_from_string as ci, get_column_letter as gl\\nlines=open('book.sheet.md').read().split('\\\\n')\\nsheets={}  # name -> {'vals':{addr:val}, 'forms':{addr:formula}}\\ncur=None; sec=None; mode=None; header=None\\ndef addr(c,r): return f\\\"{gl(c)}{r}\\\"\\ndef shift(f, dr, dc):\\n    # shift relative refs in formula by offset\\n    def rep(m):\\n        d1,col,d2,row=m.group(1),m.group(2),m.group(3),m.group(4)\\n  ",
+   "output_chars": 185
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport json;s=json.load(open('/tmp/s.json'))\\nd4=s['day 4'];e=s['EES-Schedule day 1']\\nprint('H108',d4['forms'].get('H108'), d4['vals'].get('H108'))\\nprint('J14 e',e['forms'].get('J14'), e['vals'].get('J14'))\\nprint('F104 e',e['forms'].get('F104'), e['vals'].get('F104'))\\nfor r in range(7,20): print('U%d'%r, d4['forms'].get('U%d'%r), d4['vals'].get('U%d'%r))\\nprint([k for k in e['forms'] if 'EES' in str(e['forms'][k])][:5])\\nimport re\\nprint(sorted(set(re.find",
+   "output_chars": 366
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/dep.py <<'EOF'\\nimport json,re\\nfrom openpyxl.utils import column_index_from_string as ci, get_column_letter as gl\\ns=json.load(open('/tmp/s.json'))\\nsh='EES-Schedule day 1'\\nforms=s[sh]['forms']\\ndef refs(f):\\n    out=set()\\n    f2=re.sub(r'\\\\$','',f)\\n    for m in re.finditer(r'([A-Z]{1,3})(\\\\d+):([A-Z]{1,3})(\\\\d+)|(?<![A-Za-z])([A-Z]{1,3})(\\\\d+)(?![\\\\d(])',f2):\\n        if m.group(1):\\n            c1,r1,c2,r2=ci(m.group(1)),int(m.group(2)),ci(m.group(3)),int(m.",
+   "output_chars": 79
+  }
+ ]
+}

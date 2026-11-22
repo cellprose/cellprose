@@ -1,0 +1,69 @@
+[
+ {
+  "type": "lookup",
+  "cell": "July 17 Supply Price!G20",
+  "q": "What is the value in the row labelled '(Ln14)', column headed '(Ln14D+Ln32E)', in the sheet 'July 17 Supply Price'?",
+  "truth": -0.18757499999999983,
+  "labels": [
+   "C20",
+   "G16"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "July 17 Supply Price!D24",
+  "q": "Which cell holds the value in the row labelled '(Ln1-Ln20)', column headed '(D)', in the sheet 'July 17 Supply Price'? Give its cell address.",
+  "truth": "July 17 Supply Price!D24",
+  "labels": [
+   "C24",
+   "D2"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Sales!D704",
+  "q": "Consider the cell Sales!D704. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sales!B704",
+   "Sales!C9"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Sales!D817",
+  "q": "Consider the cell Sales!D817. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Sales!B817",
+   "Sales!C9"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Sales!K35",
+  "factor": 1.1,
+  "q": "Suppose the number in Sales!K35 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Sales!L35",
+   "Sales!M35",
+   "Sales!O35",
+   "Sales!P35",
+   "Sales!S35",
+   "Sales!V35"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Sales!O22",
+  "range": "Sales!O22:V22",
+  "q": "Consider the range Sales!O22:V22. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Sales!Q22"
+  ],
+  "id": "q6"
+ }
+]

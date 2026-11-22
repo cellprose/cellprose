@@ -1,0 +1,123 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw2_enron_daren_farmer",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1315,
+ "prompt_sha256": "640abc5b7d77b47ac58135bfd4653e5c84f8a18d7971f6935d9462e8f4331774",
+ "result": "{\"q1\": 5391735, \"q2\": \"Feb 00!AB10\", \"q3\": [\"Feb 00!U28:U32\"], \"q4\": [\"Feb 00!I10:I14\"], \"q5\": [\"Feb 00!Y13\",\"Feb 00!Y15\",\"Feb 00!Y23\",\"Feb 00!Y54\",\"Feb 00!Y56\",\"Feb 00!Y71\",\"Feb 00!AB51\",\"Feb 00!AB13\",\"Feb 00!AB15\",\"Feb 00!AB23\",\"Feb 00!AB54\",\"Feb 00!AB56\",\"Feb 00!AB71\"], \"q6\": [\"Feb 00!S40\",\"Feb 00!S41\",\"Feb 00!S42\",\"Feb 00!S44\",\"Feb 00!S45\",\"Feb 00!S46\"]}",
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 11013,
+  "cache_read_input_tokens": 9912,
+  "output_tokens": 1538,
+  "output_tokens_details": {
+   "thinking_tokens": 609
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 1538,
+   "cacheReadInputTokens": 9912,
+   "cacheCreationInputTokens": 11013,
+   "thinkingTokens": 609
+  }
+ },
+ "cost": 0.057246,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 1048,
+     "output_tokens": 202,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 1048,
+     "cache_write_tokens": 7816,
+     "output_tokens": 508,
+     "reasoning_tokens": 45,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 8864,
+     "cache_write_tokens": 2149,
+     "output_tokens": 828,
+     "reasoning_tokens": 564,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.04392
+  },
+  "finished_at": "2026-11-11T15:59:49+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 13.0
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd /root 2>/dev/null; cd \\\"$OLDPWD\\\" 2>/dev/null; python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nprint(wb.sheetnames)\\nws=wb['Feb 00']\\nprint(ws.dimensions)\\nfor r in ws.iter_rows():\\n  for c in r:\\n    if c.value is not None: print(c.coordinate,repr(c.value))\\n\\\" | head -700\"}",
+   "output_chars": 10250
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Feb 00']\\nfor r in ws.iter_rows(min_row=48):\\n  for c in r:\\n    if c.value is not None and c.column_letter in 'ABCDYZ' or (c.value is not None and c.column_letter in ('AB','AC','AA')): print(c.coordinate,repr(c.value))\\nv=openpyxl.load_workbook('book.xlsx',data_only=True)['Feb 00']\\nprint(v['AB23'].value,v['AB10'].value)\\n\\\"; \"}",
+   "output_chars": 1896
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 -c \\\"\\nimport openpyxl,re\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Feb 00']\\nfor r in ws.iter_rows():\\n  for c in r:\\n    if isinstance(c.value,str) and c.value.startswith('=') and re.search(r'\\\\bY5[0-9]|Y\\\\d+:Y',c.value) : print(c.coordinate,c.value)\\n\\\" | grep -v '^[A-Z]*\\\\(13\\\\|14\\\\) ' | head -50\"}",
+   "output_chars": 167
+  }
+ ]
+}

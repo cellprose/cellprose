@@ -1,0 +1,618 @@
+{
+ "about": "Written by external/realworld2.py build.",
+ "workbooks": {
+  "rw2_dam_ddm2st": {
+   "source": "damodaran",
+   "file": "ddm2st.xlsx",
+   "sha256": "409c216f23fe2de980ec5ebe8277abb9c42ed46a49c88ca44854539c72f255f7",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/ddm2st.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 100,
+   "tokens_o200k_v03": 3580,
+   "source_sha256": "399826b958be599abfe4e8923a9f726dc385df08286f014d6fb42501ec52c523",
+   "cell_sha256": "1118ef36acea385e475f76dcbcbdfaa521dad8764059b75a6621155c81b74612",
+   "questions": 5,
+   "types": [
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_eqexret": {
+   "source": "damodaran",
+   "file": "eqexret.xlsx",
+   "sha256": "ad8dda00110fc28bdb233a7d0fc98b0ba22c68c0b2bc6d6e1f7bca5b1c23a3bf",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/eqexret.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 175,
+   "tokens_o200k_v03": 5288,
+   "source_sha256": "0556d0aa4394c9d7223988dca2d80443e0acd9f85643b5994a321280729ea91d",
+   "cell_sha256": "eb0d90d54dc48a6a188a43be34d5c2fc38f29a898820048febbbe0b15f33acc1",
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_fcfe2st": {
+   "source": "damodaran",
+   "file": "fcfe2st.xlsx",
+   "sha256": "598b485fecb440dc3f89cccd7a71a7491232e1362e138afa3ccfbf5de96fe1ef",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcfe2st.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 106,
+   "tokens_o200k_v03": 4333,
+   "source_sha256": "3ccaddeafa2d902a43a10fb8e9023ae7cd97693ebf55a8aad36f95d27e08bca0",
+   "cell_sha256": "f4688942c7277e8be5fdb2caa52b1c66e579b58e449b9be2758c30823085f209",
+   "questions": 5,
+   "types": [
+    "lookup",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_fcff2st": {
+   "source": "damodaran",
+   "file": "fcff2st.xlsx",
+   "sha256": "e2ef16e19b5a6c6f174837f05fa0bbcb73e38dca9c833e499a3c0bcdcd19d279",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcff2st.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 107,
+   "tokens_o200k_v03": 6212,
+   "source_sha256": "6bcb01bb95d301fd1e95c6664704882e861d902c6a680bf9be27f552ef436135",
+   "cell_sha256": "25e28a19ef7bc12840cebb72dc0676414dc8ca2a0b00dda81bf0340caadb9e71",
+   "questions": 5,
+   "types": [
+    "lookup",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_fcffeva": {
+   "source": "damodaran",
+   "file": "fcffeva.xlsx",
+   "sha256": "02762d86297ae4c1f35fb2f88f860eed43d6593a13d7c8a0cf504876165e269d",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffeva.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 383,
+   "tokens_o200k_v03": 5415,
+   "source_sha256": "0ceef622045663b407ff0f486cc94ff9826a1913362b78890e0c7b205e6c20f3",
+   "cell_sha256": "8e06145e0fcde31f8484adf3e87700148c6f0e614337abae4a6d9102f3cf5981",
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_fcffgen": {
+   "source": "damodaran",
+   "file": "fcffgen.xlsx",
+   "sha256": "cd22cd9626bc4b56a05fa958689561925702ce2d84240d00de05482f831d1c31",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffgen.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 344,
+   "tokens_o200k_v03": 7875,
+   "source_sha256": "ea58f97a6bde7fe7d5eec4c37f5174fdf542ff08def48efca934920bc36bab02",
+   "cell_sha256": "bbfb430645e093312a5613d9d8b2a76e993f3101ecf82beddc350c8c7af63a4d",
+   "questions": 5,
+   "types": [
+    "lookup",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_fcffvsfcfe": {
+   "source": "damodaran",
+   "file": "fcffvsfcfe.xlsx",
+   "sha256": "4f963096bf5e0a9a6bb88c1fbba8238fafc5d804e4014f2f8ce1235bae7ae0ef",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/fcffvsfcfe.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 144,
+   "tokens_o200k_v03": 2296,
+   "source_sha256": "052aeb5a281eace4134982e3527ee26ea450fc14c77eef9c4a1e4609ccd8baa3",
+   "cell_sha256": "01c5442d002fc37a0ffe66adeb39e5084f314421900f93fdee7e657709193b48",
+   "questions": 5,
+   "types": [
+    "lookup",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_growthbreakdown": {
+   "source": "damodaran",
+   "file": "growthbreakdown.xlsx",
+   "sha256": "69a619885972692e57c222b9f1e0540eadf142af692c3231a141da291e59f51a",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/growthbreakdown.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 157,
+   "tokens_o200k_v03": 17036,
+   "source_sha256": "5d00ab632aa7d06ed5681438d66db20a09cd17db37b0526d79e2b4bad564045f",
+   "cell_sha256": "9fe475cd3b98fe05702e3bb5c154ce9c330e816d61d3ebd4a84cd75f2ea197af",
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_higrowth": {
+   "source": "damodaran",
+   "file": "higrowth.xlsx",
+   "sha256": "d03bf8d9c4dd52f04893fc0fbfbf9a77cc9c9c3e29fcf07877ed833447b7029c",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/higrowth.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 581,
+   "tokens_o200k_v03": 23947,
+   "source_sha256": "ebe341830626c4d1e923564e7b12011c6d3e6f053728ed713706138e005fd3a9",
+   "cell_sha256": "09ed1437f8a40548efe679ec699fb0407a93818cbdaf8b6f8ee9012f75dbd5a8",
+   "questions": 5,
+   "types": [
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_macrodur": {
+   "source": "damodaran",
+   "file": "macrodur.xlsx",
+   "sha256": "f4fdf0351c8420da79315e500332d5cdf394880a871139dbddd6c3f7dcab26a9",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/macrodur.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 1925,
+   "tokens_o200k_v03": 57329,
+   "source_sha256": "3dd6478f092f76f1ae3cdef30834ec25395f6212910c3673b2ce6f1bc78bdb83",
+   "cell_sha256": "1432ddac589123691c58dd05b568cdaa5960a923dfe137fb73e74348e1b49ad8",
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_normearn": {
+   "source": "damodaran",
+   "file": "normearn.xlsx",
+   "sha256": "dfab93f15b411b82d7ee6f3e35dc01a7107fd6356957ed4f4dfda55946abd4e4",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/normearn.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 114,
+   "tokens_o200k_v03": 13678,
+   "source_sha256": "1ac40ee0abd3c17c375e024e379c6aa9ac30856a6361731d164150b3aaf73cff",
+   "cell_sha256": "c147aab119696c836986e1eae3ba25435b4d3c1ad203e964bc92192b5e1660d3",
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_r_dconv": {
+   "source": "damodaran",
+   "file": "R&DConv.xlsx",
+   "sha256": "764fb5a6b2f5b042169724c7910446151c1850efaf1d71b1914c3da9f42d91bd",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/R&DConv.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 147,
+   "tokens_o200k_v03": 2817,
+   "source_sha256": "44a171a3f3c2524ba151284c4a1312a10c16cd6cf7ad9aac38cd7926cf3f2f3b",
+   "cell_sha256": "8cefc4cc0dc6179f99672d454891f6e6a0531e03e004fdd7532d4272d5c481ae",
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_returncalculator": {
+   "source": "damodaran",
+   "file": "returncalculator.xlsx",
+   "sha256": "a3e18a971163efdcdc3ceeb8f9466716bc16855b42ee7627de6a57db6ef4f228",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/returncalculator.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 171,
+   "tokens_o200k_v03": 6495,
+   "source_sha256": "13ffa2455d2d1569047b5fb947705753195f1e5b40bc2f984a91da50b81189e0",
+   "cell_sha256": "b11bb0263d40330a4bb336de83bd65d76e4dfe510706f95d46ad13354c240555",
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_reval": {
+   "source": "damodaran",
+   "file": "reval.xlsx",
+   "sha256": "3383bd9f614c12f75eb907d5b2b5ece5838ccd9bd781886baf740d815975976a",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/reval.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 343,
+   "tokens_o200k_v03": 4438,
+   "source_sha256": "a425f355af7d9d674c3f28f06036f9e4fe1a4293349a2bdbb686e33b43e72144",
+   "cell_sha256": "516a430572602758df06a551b20d2d359d34be4d6009d83d9e1039a11be24180",
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_dam_risk": {
+   "source": "damodaran",
+   "file": "risk.xlsx",
+   "sha256": "454ac859e72f11f5f567580b01f84d78f2f1c743b0f3fed9e479b324069e5132",
+   "source_url": "https://pages.stern.nyu.edu/~adamodar/pc/risk.xls",
+   "licence": "none stated (A. Damodaran, NYU Stern); not committed",
+   "formula_cells": 432,
+   "tokens_o200k_v03": 9272,
+   "source_sha256": "f596e6f17dd265b04de0a6f048e571cd809b3275d19b6e4824649da6eb0508eb",
+   "cell_sha256": "adfdd6a4ab3052b28084877817163c5ff2ada903adb56a82a13042968bc202db",
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "rw2_enron_andy_zipper": {
+   "source": "enron",
+   "file": "enron__andy_zipper__154__ICE - Mar28 Power & Gas VOL.xlsx",
+   "sha256": "1f6a723668d63aa45e9da3301b98e4653dd93e0a8d15b9708816e86082f8904b",
+   "original": "andy_zipper__154__ICE - Mar28 Power & Gas VOL.xlsx",
+   "original_sha256": "1f6a723668d63aa45e9da3301b98e4653dd93e0a8d15b9708816e86082f8904b",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 6041,
+   "tokens_o200k_v03": 36182,
+   "questions": 5,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_benjamin_rogers": {
+   "source": "enron",
+   "file": "enron__benjamin_rogers__1024__TLR Analysis.xlsx",
+   "sha256": "81178bbca6f9f02633b8fe129f0a4932b84938cfe8c0a574c66d3769a9fa88e8",
+   "original": "benjamin_rogers__1024__TLR Analysis.xlsx",
+   "original_sha256": "81178bbca6f9f02633b8fe129f0a4932b84938cfe8c0a574c66d3769a9fa88e8",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 280,
+   "tokens_o200k_v03": 7780,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_chris_germany": {
+   "source": "enron",
+   "file": "enron__chris_germany__1745__allegheny.xlsx",
+   "sha256": "eb84373af26e1b4a7183b06438715bc89c70c5a43759386c446a87c64716800c",
+   "original": "chris_germany__1745__allegheny.xlsx",
+   "original_sha256": "eb84373af26e1b4a7183b06438715bc89c70c5a43759386c446a87c64716800c",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 77,
+   "tokens_o200k_v03": 7335,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_daren_farmer": {
+   "source": "enron",
+   "file": "enron__daren_farmer__6595__HPL-Feb.xlsx",
+   "sha256": "2c05d68876b670319bb504823e2fe5fdc634f5aa5c8ce5555d632e9a59e3347f",
+   "original": "daren_farmer__6595__HPL-Feb.xlsx",
+   "original_sha256": "2c05d68876b670319bb504823e2fe5fdc634f5aa5c8ce5555d632e9a59e3347f",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 473,
+   "tokens_o200k_v03": 7778,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_james_steffes": {
+   "source": "enron",
+   "file": "enron__james_steffes__12835__PX Values.xlsx",
+   "sha256": "baf303c6ece9dbb83d65e61fb039f329be6e738829ef5fbec468acd9e3db79ba",
+   "original": "james_steffes__12835__PX Values.xlsx",
+   "original_sha256": "baf303c6ece9dbb83d65e61fb039f329be6e738829ef5fbec468acd9e3db79ba",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 137,
+   "tokens_o200k_v03": 6529,
+   "questions": 5,
+   "types": [
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_jonathan_mckay": {
+   "source": "enron",
+   "file": "enron__jonathan_mckay__16929__grandview buy.xlsx",
+   "sha256": "7ec38398a1486c50269b8753d8572a954547b248502c95604f12c76e5ad257d1",
+   "original": "jonathan_mckay__16929__grandview buy.xlsx",
+   "original_sha256": "7ec38398a1486c50269b8753d8572a954547b248502c95604f12c76e5ad257d1",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 56,
+   "tokens_o200k_v03": 1003,
+   "questions": 5,
+   "types": [
+    "lookup",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_kevin_presto": {
+   "source": "enron",
+   "file": "enron__kevin_presto__19901__10-24 1000 Report.xlsx",
+   "sha256": "342b58389e8f3062f41b2a01c054182e0c174bb11b211d6412b0bad3003489a5",
+   "original": "kevin_presto__19901__10-24 1000 Report.xlsx",
+   "original_sha256": "342b58389e8f3062f41b2a01c054182e0c174bb11b211d6412b0bad3003489a5",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 137,
+   "tokens_o200k_v03": 6493,
+   "questions": 4,
+   "types": [
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_lisa_gang": {
+   "source": "enron",
+   "file": "enron__lisa_gang__22393__Hanson Scheduling Model_4_16.xlsx",
+   "sha256": "8349ea90a3104c12cdf400cadaf970532d8129946a2367cf72b3b7485c9dcab5",
+   "original": "lisa_gang__22393__Hanson Scheduling Model_4_16.xlsx",
+   "original_sha256": "8349ea90a3104c12cdf400cadaf970532d8129946a2367cf72b3b7485c9dcab5",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 306,
+   "tokens_o200k_v03": 4055,
+   "questions": 5,
+   "types": [
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_lynn_blair": {
+   "source": "enron",
+   "file": "enron__lynn_blair__24402__JKnight Gathering Imb thru 4-01.xlsx",
+   "sha256": "b7a91d15bf0a286654a3a84799dafade272f0cd65c7fc6cd0414bbbecd9a7c07",
+   "original": "lynn_blair__24402__JKnight Gathering Imb thru 4-01.xlsx",
+   "original_sha256": "b7a91d15bf0a286654a3a84799dafade272f0cd65c7fc6cd0414bbbecd9a7c07",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 1274,
+   "tokens_o200k_v03": 50784,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_mary_hain": {
+   "source": "enron",
+   "file": "enron__mary_hain__25858__EnronMarch2001.xlsx",
+   "sha256": "bbc43c580f47f0bc254a3ff7c26e8bc471df77548c613f73cd1220e5f5b6cc2a",
+   "original": "mary_hain__25858__EnronMarch2001.xlsx",
+   "original_sha256": "bbc43c580f47f0bc254a3ff7c26e8bc471df77548c613f73cd1220e5f5b6cc2a",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 404,
+   "tokens_o200k_v03": 3688,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_phillip_allen": {
+   "source": "enron",
+   "file": "enron__phillip_allen__28908__version 12_17.xlsx",
+   "sha256": "ff5a97ed767ec2263e069910b9185a79ccca90f33beffa65be51066645405838",
+   "original": "phillip_allen__28908__version 12_17.xlsx",
+   "original_sha256": "ff5a97ed767ec2263e069910b9185a79ccca90f33beffa65be51066645405838",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 4307,
+   "tokens_o200k_v03": 92824,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_phillip_platter": {
+   "source": "enron",
+   "file": "enron__phillip_platter__31383__EES_Schedule.xlsx",
+   "sha256": "0678c2d56c98314b359602f861c96579220f147df46c736f471f1a9ff58b49e5",
+   "original": "phillip_platter__31383__EES_Schedule.xlsx",
+   "original_sha256": "0678c2d56c98314b359602f861c96579220f147df46c736f471f1a9ff58b49e5",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 3207,
+   "tokens_o200k_v03": 49147,
+   "questions": 4,
+   "types": [
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_rick_buy": {
+   "source": "enron",
+   "file": "enron__rick_buy__32818__NP Daily Marks.xlsx",
+   "sha256": "8a767958d9e948a4176f91fd28670cb581846e705df544810edb6bcbfdcdc470",
+   "original": "rick_buy__32818__NP Daily Marks.xlsx",
+   "original_sha256": "8a767958d9e948a4176f91fd28670cb581846e705df544810edb6bcbfdcdc470",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 582,
+   "tokens_o200k_v03": 16591,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_thomas_martin": {
+   "source": "enron",
+   "file": "enron__thomas_martin__39741__6th floorplan 10.03c.xlsx",
+   "sha256": "b02c50335823661f6dd80befecfeb045568a4fdc0ffec1207c7362468acf7fb9",
+   "original": "thomas_martin__39741__6th floorplan 10.03c.xlsx",
+   "original_sha256": "b02c50335823661f6dd80befecfeb045568a4fdc0ffec1207c7362468acf7fb9",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 373,
+   "tokens_o200k_v03": 8846,
+   "questions": 4,
+   "types": [
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw2_enron_vkaminski": {
+   "source": "enron",
+   "file": "enron__vkaminski__40703__STORAGE-PRC-27.xlsx",
+   "sha256": "058fa275137df42e3865c750a1fc4afe9ba8b0db0da364514686929c7c0cffd5",
+   "original": "vkaminski__40703__STORAGE-PRC-27.xlsx",
+   "original_sha256": "058fa275137df42e3865c750a1fc4afe9ba8b0db0da364514686929c7c0cffd5",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 1330,
+   "tokens_o200k_v03": 89193,
+   "questions": 5,
+   "types": [
+    "lookup",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  }
+ }
+}

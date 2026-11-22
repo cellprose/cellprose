@@ -1,0 +1,62 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is free cash flow in Y5?",
+  "cell": "Model!F5",
+  "id": "q1",
+  "truth": 353493.5488
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds the growth rate the model actually uses? Give its cell address.",
+  "cell": "Scenarios!E4",
+  "id": "q2",
+  "truth": "Scenarios!E4"
+ },
+ {
+  "type": "trace",
+  "q": "Consider Y3 revenue. List the cells its formula reads directly (not indirectly).",
+  "cell": "Model!D2",
+  "id": "q3",
+  "truth": [
+   "Model!C2",
+   "Scenarios!E4"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose upside growth increased by 10%. List every other cell whose value would change.",
+  "cell": "Scenarios!C4",
+  "factor": 1.1,
+  "id": "q4",
+  "truth": []
+ },
+ {
+  "type": "impact",
+  "q": "Suppose base margin increased by 10%. List every other cell whose value would change.",
+  "cell": "Scenarios!B5",
+  "factor": 1.1,
+  "id": "q5",
+  "truth": [
+   "Model!B3",
+   "Model!B5",
+   "Model!C3",
+   "Model!C5",
+   "Model!D3",
+   "Model!D5",
+   "Model!E3",
+   "Model!E5",
+   "Model!F3",
+   "Model!F5",
+   "Scenarios!E5"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose downside capex % increased by 10%. List every other cell whose value would change.",
+  "cell": "Scenarios!D6",
+  "factor": 1.1,
+  "id": "q6",
+  "truth": []
+ }
+]

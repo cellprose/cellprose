@@ -1,0 +1,65 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Breakouts!E19",
+  "q": "What is the value in the row labelled 'Key Dist', column headed '% of Total Contrib', in the sheet 'Breakouts'?",
+  "truth": 0.05369,
+  "labels": [
+   "B19",
+   "E7"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Breakouts!C19",
+  "q": "Which cell holds the value in the row labelled 'Key Dist', column headed '# of Contribs', in the sheet 'Breakouts'? Give its cell address.",
+  "truth": "Breakouts!C19",
+  "labels": [
+   "B19",
+   "C7"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "CorpContr_00!K158",
+  "q": "Consider the cell CorpContr_00!K158 (in the row labelled 'Unassigned Total'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "CorpContr_00!K151",
+   "CorpContr_00!K152",
+   "CorpContr_00!K153"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "CorpContr_00!K157",
+  "q": "Consider the cell CorpContr_00!K157 (in the row labelled 'Sub.'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "CorpContr_00!K155",
+   "CorpContr_00!K156"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "CorpContr_00!K78",
+  "factor": 1.1,
+  "q": "Suppose the number in CorpContr_00!K78 (in the row labelled 'Tim Aron') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "CorpContr_00!K156",
+   "CorpContr_00!K157",
+   "CorpContr_00!K159"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "CorpContr_00!K155",
+  "range": "CorpContr_00!K155:K159",
+  "q": "Consider the range CorpContr_00!K155:K159. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q6"
+ }
+]

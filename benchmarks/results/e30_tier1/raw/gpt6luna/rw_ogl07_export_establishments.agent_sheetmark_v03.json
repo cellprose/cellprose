@@ -1,0 +1,116 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_ogl07_export_establishments",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1042,
+ "prompt_sha256": "a59e362306bd68672f12f12dae3770c41077cd4331901b8c78b40825fad872c4",
+ "result": "{\"q1\":\"Animal By-Products\",\"q2\":\"Animal by-products\",\"q3\":\"Sheet1!D692\"}",
+ "usage": {
+  "input_tokens": 6997,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 6392,
+  "output_tokens": 203,
+  "output_tokens_details": {
+   "thinking_tokens": 89
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 6997,
+   "outputTokens": 203,
+   "cacheReadInputTokens": 6392,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 89
+  }
+ },
+ "cost": 0.0014404,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_90e0c70abb5f427fa1b8522b31744b48",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 409,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 20,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_file"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 6395,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 89,
+     "reasoning_tokens": 26,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 193,
+     "cache_read_tokens": 6392,
+     "cache_write_tokens": 0,
+     "output_tokens": 94,
+     "reasoning_tokens": 63,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:03:56+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 4.1
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_file",
+   "args": "{\"path\": \"book.sheet.md\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -nE 'Czechia \\\\(CZ\\\\).*Composting Plants|Ireland ROI \\\\(IE\\\\).*Composting plants|Romania \\\\(RO\\\\).*Eggs and egg products' book.sheet.md\"}",
+   "output_chars": 292
+  }
+ ]
+}

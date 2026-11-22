@@ -1,0 +1,72 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Industry averages!G20",
+  "q": "What is the value in the row labelled 'Chemical (Diversified)', column headed 'MV Debt to Capital Ratio', in the sheet 'Industry averages'?",
+  "truth": 0.21457200226403,
+  "labels": [
+   "A20",
+   "G1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "R&D converter!B128",
+  "q": "Which cell holds the value in the row labelled 'Semiconductor', in the sheet 'R&D converter'? Give its cell address.",
+  "truth": "R&D converter!B128",
+  "labels": [
+   "A128"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "R&D converter!D33",
+  "q": "Consider the cell R&D converter!D33. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "R&D converter!B33",
+   "R&D converter!C33"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "R&D converter!C30",
+  "q": "Consider the cell R&D converter!C30. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "R&D converter!A30",
+   "R&D converter!F6"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Operating lease converter!B8",
+  "factor": 1.1,
+  "q": "Suppose the number in Operating lease converter!B8 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Operating lease converter!B26",
+   "Operating lease converter!C26",
+   "Operating lease converter!C30",
+   "Operating lease converter!F33",
+   "Operating lease converter!F34",
+   "Operating lease converter!F35"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Earnings Normalizer & Output!B19",
+  "range": "Earnings Normalizer & Output!B19:G19",
+  "q": "Consider the range Earnings Normalizer & Output!B19:G19 (the row of 'Revenues'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Earnings Normalizer & Output!B19",
+   "Earnings Normalizer & Output!C19",
+   "Earnings Normalizer & Output!D19",
+   "Earnings Normalizer & Output!E19",
+   "Earnings Normalizer & Output!F19"
+  ],
+  "id": "q6"
+ }
+]

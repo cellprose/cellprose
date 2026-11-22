@@ -1,0 +1,57 @@
+[
+ {
+  "type": "address",
+  "cell": "Scheduling!AA16",
+  "q": "Which cell holds the value in the row labelled 'Preschedule Quantity for Tuesday', column headed 'Total', in the sheet 'Scheduling'? Give its cell address.",
+  "truth": "Scheduling!AA16",
+  "labels": [
+   "B16",
+   "AA10"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "Scheduling!E26",
+  "q": "Consider the cell Scheduling!E26 (in the row labelled 'Real Time Decremental Quantity (Hanson needs to sell) for Tuesday'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Scheduling!AJ5",
+   "Scheduling!E20",
+   "Scheduling!E23"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Scheduling!O20",
+  "q": "Consider the cell Scheduling!O20 (in the row labelled 'Total Decremental Quantity (Hanson needs to sell) for Tuesday'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Scheduling!AJ5",
+   "Scheduling!O12",
+   "Scheduling!O14"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "impact",
+  "cell": "Scheduling!H14",
+  "factor": 1.1,
+  "q": "Suppose the number in Scheduling!H14 (in the row labelled 'Expected Usage for Tuesday') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Scheduling!AA14",
+   "Scheduling!AA16",
+   "Scheduling!H16",
+   "Scheduling!H18",
+   "Scheduling!H24"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Scheduling!M16",
+  "range": "Scheduling!M16:M27",
+  "q": "Consider the range Scheduling!M16:M27 (the column of 'HE'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q5"
+ }
+]

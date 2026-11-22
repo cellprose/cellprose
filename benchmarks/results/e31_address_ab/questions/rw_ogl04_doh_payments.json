@@ -1,0 +1,52 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'For upload', which cell holds 'Postcode' for the row where 'Invoice number' is 'ARGI/00019766'? Give its cell address.",
+  "cell": "For upload!H29",
+  "key": {
+   "F": "ARGI/00019766"
+  },
+  "labels": [
+   "F29",
+   "H29",
+   "H1"
+  ],
+  "id": "q1",
+  "truth": "For upload!H29"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "For upload!F13",
+  "truth": "For upload!F13",
+  "q": "In the sheet 'For upload', which cell holds 'Invoice number' for the row where 'Invoice number' is 5190040? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "For upload!A14",
+  "truth": "For upload!A14",
+  "q": "In the sheet 'For upload', which cell holds 'Department' for the row where 'Invoice number' is 5195367? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "For upload!D23",
+  "truth": "For upload!D23",
+  "q": "In the sheet 'For upload', which cell holds 'Expense type' for the row where 'Invoice number' is 80057279? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "For upload!G23",
+  "truth": "For upload!G23",
+  "q": "In the sheet 'For upload', which cell holds 'Invoice Amount' for the row where 'Invoice number' is 80057279? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q6",
+  "cell": "For upload!B29",
+  "truth": "For upload!B29",
+  "q": "In the sheet 'For upload', which cell holds 'Organisation' for the row where 'Invoice number' is 'ARGI/00019766'? Give its cell address."
+ }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "type": "lookup",
+  "cell": "IT Tab!E26",
+  "q": "What is the value in the row labelled '3513d', column headed 'ECS location', in the sheet 'IT Tab'?",
+  "truth": 541,
+  "labels": [
+   "D26",
+   "E1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "IT Tab!C222",
+  "q": "Which cell holds the value in the row labelled 'Stacey', in the sheet 'IT Tab'? Give its cell address.",
+  "truth": "IT Tab!C222",
+  "labels": [
+   "B222"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Floor Plan Changes!I7",
+  "q": "Consider the cell Floor Plan Changes!I7 (in the row labelled 'Beck'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Floor Plan Changes!G7",
+   "Floor Plan Changes!H7"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "5th floor analysis!F16",
+  "q": "Consider the cell 5th floor analysis!F16 (in the row labelled 'Frazier'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "5th floor analysis!D16",
+   "5th floor analysis!E16"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Floor Plan Changes!Q112",
+  "factor": 1.1,
+  "q": "Suppose the number in Floor Plan Changes!Q112 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Floor Plan Changes!B97",
+   "Floor Plan Changes!B99",
+   "Floor Plan Changes!G28",
+   "Floor Plan Changes!H28",
+   "Floor Plan Changes!Q116"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Floor Plan Changes!K87",
+  "range": "Floor Plan Changes!K87:O87",
+  "q": "Consider the range Floor Plan Changes!K87:O87. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Floor Plan Changes!O87"
+  ],
+  "id": "q6"
+ }
+]

@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw2_enron_andy_zipper",
+ "encoding": "cellprose_v03",
+ "prompt_chars": 63373,
+ "prompt_sha256": "1187589ff1b614393b28daf61cec187afd29234142446e209ea09232f6338870",
+ "result": "q1: DD-EGL row 10, Wade Hicks, Total Volume (column C) = 25000.\n\nq2: In 'Enron Activity - Dynegy Direct', Susan Pereira is in row 18 and Notional Volume is column D, so the cell is D18.\n\nq3: DD-EGL!C322 has the formula B322*W322, so it reads B322 and W322.\n\nq4: DD-EPM!F109 has the formula E109*AA109, so it reads E109 and AA109.\n\nq5: In DD-EPM row 27 the data shows \"#N/A|16|24|1|0|0\", i.e. A=#N/A, B=16, C=24, D=1, E=0, F=0. Every column A\u2013F in the formulas section is covered by a formula, so the values come from formulas. The question asks which cells hold typed-in numbers, but the sheet formulas cover A10:F508 entirely, so none are typed in. The #N/A in A is a formula result as well.\n\n{\"q1\": 25000, \"q2\": \"Enron Activity - Dynegy Direct!D18\", \"q3\": [\"DD-EGL!B322\", \"DD-EGL!W322\"], \"q4\": [\"DD-EPM!E109\", \"DD-EPM!AA109\"], \"q5\": []}",
+ "usage": {
+  "input_tokens": 46831,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 415,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 46831,
+   "outputTokens": 415,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.097812,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 3.6,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 46831,
+   "output_tokens": 415,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 46831
+  },
+  "finished_at": "2026-11-11T13:54:04+00:00"
+ }
+}

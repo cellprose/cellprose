@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw2_dam_higrowth",
+ "encoding": "markitdown",
+ "prompt_chars": 47584,
+ "prompt_sha256": "d7cb4588eb7d8f63fe9988830b8be8bb3b4645658681f1bc49f0aa5da4fdf1e2",
+ "result": "```json\n{\n  \"q1\": \"Industry Averages!G24\",\n  \"q2\": [\"DCFValuation!G5\", \"DCFValuation!F12\", \"Input Sheet(assumtion)!B16\"],\n  \"q3\": [\"Other Expenses to Capitalize!A34\", \"Other Expenses to Capitalize!F6\"],\n  \"q4\": [\"R&D!C25\", \"R&D!C26\", \"R&D!C27\", \"R&D!D25\", \"R&D!D26\", \"R&D!D27\", \"R&D!E25\", \"R&D!E26\", \"R&D!E27\", \"R&D!D35\", \"R&D!E35\", \"R&D!D37\", \"R&D!D39\", \"R&D!D40\"],\n  \"q5\": [\"Revenue Growth Numbers!B3:B12\"]\n}\n```",
+ "usage": {
+  "input_tokens": 29955,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3464,
+  "output_tokens_details": {
+   "thinking_tokens": 3201
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 29955,
+   "outputTokens": 3464,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 3201
+  }
+ },
+ "cost": 0.09455,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 28.2,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 29955,
+   "output_tokens": 3464,
+   "output_tokens_details": {
+    "thinking_tokens": 3201
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 29955
+  },
+  "finished_at": "2026-11-11T14:31:51+00:00"
+ }
+}

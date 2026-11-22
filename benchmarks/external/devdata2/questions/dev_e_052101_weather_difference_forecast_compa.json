@@ -1,0 +1,76 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Report!B8",
+  "q": "What is the value in the row labelled 'Week', column headed 'Daily Total', in the sheet 'Report'?",
+  "truth": 76.42474313624425,
+  "labels": [
+   "A8",
+   "B7"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Report!P8",
+  "q": "Which cell holds the value in the row labelled 'PGE', in the sheet 'Report'? Give its cell address.",
+  "truth": "Report!P8",
+  "labels": [
+   "F8"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Differences!Q31",
+  "q": "Consider the cell Differences!Q31. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "ActualWeather050701-051301!Q31",
+   "ForecastedWeather050701-051301!Q31"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Summary!N8",
+  "q": "Consider the cell Summary!N8. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Differences!N32",
+   "Differences!N8"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "ForecastedWeather050701-051301!O48",
+  "factor": 1.1,
+  "q": "Suppose the number in ForecastedWeather050701-051301!O48 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Differences!AA48",
+   "Differences!AB48",
+   "Differences!AC48",
+   "Differences!O48",
+   "ForecastedWeather050701-051301!AA48",
+   "ForecastedWeather050701-051301!AB48",
+   "Summary!AA16",
+   "Summary!AB16",
+   "Summary!AC16",
+   "Summary!AE16",
+   "Summary!AF16",
+   "Summary!O16"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Summary!F2",
+  "range": "Summary!F2:F25",
+  "q": "Consider the range Summary!F2:F25. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Summary!F10",
+   "Summary!F18",
+   "Summary!F2"
+  ],
+  "id": "q6"
+ }
+]

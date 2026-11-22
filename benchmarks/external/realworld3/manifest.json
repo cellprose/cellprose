@@ -1,0 +1,320 @@
+{
+ "about": "Written by external/realworld2.py build.",
+ "workbooks": {
+  "rw3_enron_andrea_ring": {
+   "source": "enron",
+   "file": "enron__andrea_ring__7__IFERCJan.xlsx",
+   "sha256": "f545d4616cbde8e55806223bc8781b98763a0e6d83961f03d2daee7c78de6988",
+   "original": "andrea_ring__7__IFERCJan.xlsx",
+   "original_sha256": "f545d4616cbde8e55806223bc8781b98763a0e6d83961f03d2daee7c78de6988",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 162,
+   "tokens_o200k_v03": 2936,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_craig_dean": {
+   "source": "enron",
+   "file": "enron__craig_dean__4356__11-9act.xlsx",
+   "sha256": "4c10c296286e12dbf1dfcf26ce700fddcb2f6b015a9d8b6c1f0e8f2f837f4749",
+   "original": "craig_dean__4356__11-9act.xlsx",
+   "original_sha256": "4c10c296286e12dbf1dfcf26ce700fddcb2f6b015a9d8b6c1f0e8f2f837f4749",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 3030,
+   "tokens_o200k_v03": 67071,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_danny_mccarty": {
+   "source": "enron",
+   "file": "enron__danny_mccarty__4661__XTRANSCO - Economics.xlsx",
+   "sha256": "87787cc5cd02f4f3cc981793799405657a42c8bbbee18a329f2cc02bcd5bc87d",
+   "original": "danny_mccarty__4661__XTRANSCO - Economics.xlsx",
+   "original_sha256": "87787cc5cd02f4f3cc981793799405657a42c8bbbee18a329f2cc02bcd5bc87d",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 2236,
+   "tokens_o200k_v03": 22081,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_david_delainey": {
+   "source": "enron",
+   "file": "enron__david_delainey__8089__2000group expenses.xlsx",
+   "sha256": "0aa536b48808c728f292f40fb4b11915d7c92a73a9041991b9cc667d4eaa528b",
+   "original": "david_delainey__8089__2000group expenses.xlsx",
+   "original_sha256": "0aa536b48808c728f292f40fb4b11915d7c92a73a9041991b9cc667d4eaa528b",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 73,
+   "tokens_o200k_v03": 2992,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_errol_mclaughlin_jr": {
+   "source": "enron",
+   "file": "enron__errol_mclaughlin_jr__10270__Access Trades.xlsx",
+   "sha256": "663e98bc0e1fa24bf19d447e7e3fd44ba23ca8e9bf290088367c6291603282c1",
+   "original": "errol_mclaughlin_jr__10270__Access Trades.xlsx",
+   "original_sha256": "663e98bc0e1fa24bf19d447e7e3fd44ba23ca8e9bf290088367c6291603282c1",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 126,
+   "tokens_o200k_v03": 1218,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_holden_salisbury": {
+   "source": "enron",
+   "file": "enron__holden_salisbury__12296__$ Calculator.xlsx",
+   "sha256": "5a9cb0a51f2c5c4562f3900b50a22f636a5502730862cb690dba5c2f4d31695b",
+   "original": "holden_salisbury__12296__$ Calculator.xlsx",
+   "original_sha256": "5a9cb0a51f2c5c4562f3900b50a22f636a5502730862cb690dba5c2f4d31695b",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 61,
+   "tokens_o200k_v03": 4023,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_john_arnold": {
+   "source": "enron",
+   "file": "enron__john_arnold__15200__AppalachiaGas2.xlsx",
+   "sha256": "7b35d3a80f5c612c223d623ddb4f6d59e1341cd99c9ab9dd8716f6bdd49f28bc",
+   "original": "john_arnold__15200__AppalachiaGas2.xlsx",
+   "original_sha256": "7b35d3a80f5c612c223d623ddb4f6d59e1341cd99c9ab9dd8716f6bdd49f28bc",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 1167,
+   "tokens_o200k_v03": 21928,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_john_hodge": {
+   "source": "enron",
+   "file": "enron__john_hodge__16246__Tricia Roome.xlsx",
+   "sha256": "2f15a81cdc8ef4d77ed6d40d41772735dfaf0403c7c4ffd0067da035f2a75958",
+   "original": "john_hodge__16246__Tricia Roome.xlsx",
+   "original_sha256": "2f15a81cdc8ef4d77ed6d40d41772735dfaf0403c7c4ffd0067da035f2a75958",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 199,
+   "tokens_o200k_v03": 2825,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_john_lavorato": {
+   "source": "enron",
+   "file": "enron__john_lavorato__16532__Turbine Position Report 111601.xlsx",
+   "sha256": "e60d7e27c77f576251fb875f8e0e8ea4911af2f3a0b382a21ad449896dee01fd",
+   "original": "john_lavorato__16532__Turbine Position Report 111601.xlsx",
+   "original_sha256": "e60d7e27c77f576251fb875f8e0e8ea4911af2f3a0b382a21ad449896dee01fd",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 3810,
+   "tokens_o200k_v03": 30115,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_kimberly_watson": {
+   "source": "enron",
+   "file": "enron__kimberly_watson__20561__Index-Indexmarginanalysissummaryunwind.xlsx",
+   "sha256": "ff6f741c6bb65bc2ddf48d57d14af9c96fdd23df58c97e717e898d4095a9df6a",
+   "original": "kimberly_watson__20561__Index-Indexmarginanalysissummaryunwind.xlsx",
+   "original_sha256": "ff6f741c6bb65bc2ddf48d57d14af9c96fdd23df58c97e717e898d4095a9df6a",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 51,
+   "tokens_o200k_v03": 2468,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_mark_haedicke": {
+   "source": "enron",
+   "file": "enron__mark_haedicke__24593__2001BUDGET-102049 ns.xlsx",
+   "sha256": "536167435d606e7aa08e35735e8c7008bc6d2fa661ae721bd53b9e6e038fbe32",
+   "original": "mark_haedicke__24593__2001BUDGET-102049 ns.xlsx",
+   "original_sha256": "536167435d606e7aa08e35735e8c7008bc6d2fa661ae721bd53b9e6e038fbe32",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 2923,
+   "tokens_o200k_v03": 23678,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_mark_whitt": {
+   "source": "enron",
+   "file": "enron__mark_whitt__25262__11-5-01 Hot List.xlsx",
+   "sha256": "cf9ffd605b6fb4e3a340ab2f9ac1962208be7cdd3f39ec98ffb50311163ea28b",
+   "original": "mark_whitt__25262__11-5-01 Hot List.xlsx",
+   "original_sha256": "cf9ffd605b6fb4e3a340ab2f9ac1962208be7cdd3f39ec98ffb50311163ea28b",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 57,
+   "tokens_o200k_v03": 3609,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_mary_fischer": {
+   "source": "enron",
+   "file": "enron__mary_fischer__25634__31Q.xlsx",
+   "sha256": "569647c2641f0b5d5f67d8b9249bb0ab42b8109cef53f66c8de72f6e7ba959e1",
+   "original": "mary_fischer__25634__31Q.xlsx",
+   "original_sha256": "569647c2641f0b5d5f67d8b9249bb0ab42b8109cef53f66c8de72f6e7ba959e1",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 784,
+   "tokens_o200k_v03": 39444,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_paul_y_barbo": {
+   "source": "enron",
+   "file": "enron__paul_y'barbo__28521__Eco Inventory.xlsx",
+   "sha256": "9646ab89b77a938b65f7e4289a312df356a8c5c550b3b6184e2a900f9cc4fb8b",
+   "original": "paul_y'barbo__28521__Eco Inventory.xlsx",
+   "original_sha256": "9646ab89b77a938b65f7e4289a312df356a8c5c550b3b6184e2a900f9cc4fb8b",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 10245,
+   "tokens_o200k_v03": 82630,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "rw3_enron_ryan_slinger": {
+   "source": "enron",
+   "file": "enron__ryan_slinger__33681__6_21act.xlsx",
+   "sha256": "60e3f7853229b3bca2b14a825104b17d21e3b7a45ec7d1e703957b0bb0133544",
+   "original": "ryan_slinger__33681__6_21act.xlsx",
+   "original_sha256": "60e3f7853229b3bca2b14a825104b17d21e3b7a45ec7d1e703957b0bb0133544",
+   "source_url": "https://doi.org/10.6084/m9.figshare.1221767",
+   "licence": "CC BY 4.0 (Hermans and Murphy-Hill, 2015)",
+   "formula_cells": 3120,
+   "tokens_o200k_v03": 61762,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  }
+ }
+}

@@ -1,0 +1,52 @@
+[
+ {
+  "type": "lookup",
+  "cell": "DD-EGL!C10",
+  "q": "What is the value in the row labelled 'Wade Hicks', column headed 'Total Volume', in the sheet 'DD-EGL'?",
+  "truth": 25000,
+  "labels": [
+   "A10",
+   "C9"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Enron Activity - Dynegy Direct!D18",
+  "q": "Which cell holds the value in the row labelled 'Susan Pereira', column headed 'Notional Volume', in the sheet 'Enron Activity - Dynegy Direct'? Give its cell address.",
+  "truth": "Enron Activity - Dynegy Direct!D18",
+  "labels": [
+   "B18",
+   "D10"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "DD-EGL!C322",
+  "q": "Consider the cell DD-EGL!C322 (in the row labelled '#N/A'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "DD-EGL!B322",
+   "DD-EGL!W322"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "DD-EPM!F109",
+  "q": "Consider the cell DD-EPM!F109 (in the row labelled '#N/A'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "DD-EPM!AA109",
+   "DD-EPM!E109"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "DD-EPM!A27",
+  "range": "DD-EPM!A27:F27",
+  "q": "Consider the range DD-EPM!A27:F27. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q5"
+ }
+]

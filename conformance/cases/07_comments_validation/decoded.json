@@ -1,0 +1,58 @@
+{
+ "sheets": [
+  {
+   "name": "Budget",
+   "state": "visible",
+   "freeze": null,
+   "merges": [],
+   "names": {},
+   "cells": {
+    "A1": {
+     "v": "Item"
+    },
+    "B1": {
+     "v": "Status"
+    },
+    "C1": {
+     "v": "Qty"
+    },
+    "A2": {
+     "v": "Pens"
+    },
+    "B2": {
+     "v": "Yes"
+    },
+    "C2": {
+     "v": 5
+    },
+    "A3": {
+     "v": "Ink"
+    },
+    "B3": {
+     "v": "No"
+    },
+    "C3": {
+     "v": 120
+    }
+   },
+   "comments": {
+    "C3": "Excludes one-offs.\nCheck with | finance"
+   },
+   "validations": [
+    {
+     "sqref": "B2:B3",
+     "type": "list",
+     "formula1": "\"Yes,No\""
+    },
+    {
+     "sqref": "C2",
+     "type": "whole",
+     "operator": "between",
+     "formula1": "0",
+     "formula2": "100"
+    }
+   ]
+  }
+ ],
+ "names": {}
+}

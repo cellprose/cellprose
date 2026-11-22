@@ -1,0 +1,47 @@
+[
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Sheet1', for the row where 'Supplier Name' is 'INSIGHTS LEARNING & DEVELOPMENT LTD', what is the value of 'Expense Type'?",
+  "cell": "Sheet1!D12",
+  "key": {
+   "F": "INSIGHTS LEARNING & DEVELOPMENT LTD"
+  },
+  "labels": [
+   "F12",
+   "D12",
+   "D3"
+  ],
+  "id": "q1",
+  "truth": "LEARNING & DEVELOPMENT"
+ },
+ {
+  "type": "lookup",
+  "q": "In the sheet 'Sheet1', for the row where 'Supplier Name' is 'SOUTH WARWICKSHIRE AND WORCESTERSHIRE MIND LTD', what is the value of 'Expense Area'?",
+  "cell": "Sheet1!E28",
+  "key": {
+   "F": "SOUTH WARWICKSHIRE AND WORCESTERSHIRE MIND LTD"
+  },
+  "labels": [
+   "F28",
+   "E28",
+   "E3"
+  ],
+  "id": "q2",
+  "truth": "VARIOUS SITES"
+ },
+ {
+  "type": "address",
+  "q": "In the sheet 'Sheet1', which cell holds 'Expense Area' for the row where 'Supplier Name' is 'WORCESTER CITY COUNCIL'? Give its cell address.",
+  "cell": "Sheet1!E38",
+  "key": {
+   "F": "WORCESTER CITY COUNCIL"
+  },
+  "labels": [
+   "F38",
+   "E38",
+   "E3"
+  ],
+  "id": "q3",
+  "truth": "Sheet1!E38"
+ }
+]

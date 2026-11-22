@@ -1,0 +1,52 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'Page1', which cell holds 'Postcode' for the row where 'Invoice number' is 'SIN033553'? Give its cell address.",
+  "cell": "Page1!H86",
+  "key": {
+   "F": "SIN033553"
+  },
+  "labels": [
+   "F86",
+   "H86",
+   "H1"
+  ],
+  "id": "q1",
+  "truth": "Page1!H86"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "Page1!E7",
+  "truth": "Page1!E7",
+  "q": "In the sheet 'Page1', which cell holds 'Supplier' for the row where 'Invoice number' is '92115197'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "Page1!H23",
+  "truth": "Page1!H23",
+  "q": "In the sheet 'Page1', which cell holds 'Postcode' for the row where 'Invoice number' is 'INV00019126545'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "Page1!F86",
+  "truth": "Page1!F86",
+  "q": "In the sheet 'Page1', which cell holds 'Invoice number' for the row where 'Invoice number' is 'SIN033553'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "Page1!A106",
+  "truth": "Page1!A106",
+  "q": "In the sheet 'Page1', which cell holds 'Department' for the row where 'Invoice number' is 'RETRN000000000180'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q6",
+  "cell": "Page1!D38",
+  "truth": "Page1!D38",
+  "q": "In the sheet 'Page1', which cell holds 'Expense type' for the row where 'Invoice number' is '251050/26/0376'? Give its cell address."
+ }
+]

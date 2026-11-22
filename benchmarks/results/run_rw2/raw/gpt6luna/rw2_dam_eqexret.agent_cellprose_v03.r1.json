@@ -1,0 +1,99 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_eqexret",
+ "encoding": "agent_cellprose_v03",
+ "prompt_chars": 1373,
+ "prompt_sha256": "f0a44642eeb168ec98c586962478267f31945e16be983d7da4cacd01a26fc7cb",
+ "result": "{\"q1\":0.22,\"q2\":\"Inputs!B2\",\"q3\":[\"Inputs!B15\",\"Excess Return Valuation!F7\",\"Excess Return Valuation!F10\",\"Excess Return Valuation!F11\",\"Excess Return Valuation!F12\"],\"q4\":[\"Inputs!B15\",\"Excess Return Valuation!J7\",\"Excess Return Valuation!J8\",\"Excess Return Valuation!J22\"],\"q5\":[\"Excess Return Valuation!B28\",\"Excess Return Valuation!B29\"],\"q6\":[\"Normalized Earnings!B5:F5\"]}",
+ "usage": {
+  "input_tokens": 6258,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 492,
+  "output_tokens_details": {
+   "thinking_tokens": 335
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 6258,
+   "outputTokens": 492,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 335
+  }
+ },
+ "cost": 0.0008718,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_ed438185754c4b0f913e01ce69e56bf7",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 457,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 20,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_file"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 5801,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 472,
+     "reasoning_tokens": 335,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.000872
+  },
+  "finished_at": "2026-11-11T16:34:13+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 12.2
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_file",
+   "args": "{\"path\": \"book.sheet.md\"}",
+   "output_chars": 14162
+  }
+ ]
+}

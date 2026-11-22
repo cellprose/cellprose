@@ -1,0 +1,251 @@
+224 calls to run, 784 already on disk in results/run_sb
+calls: 224
+haiku55/agent_cellprose_v03: about $0.0149 per call (mean of 30 API pilot calls, E32, uncached list price)
+haiku55/agent_xlsx: about $0.0092 per call (mean of 30 API pilot calls, E32, uncached list price)
+haiku55/agent_xlsx_viewer: about $0.0092 per call (mean of 30 API pilot calls, E32, uncached list price)
+sonnet55/agent_cellprose_v03: about $0.1359 per call (mean of 30 API pilot calls, E32, uncached list price)
+sonnet55/agent_xlsx: about $0.1243 per call (mean of 30 API pilot calls, E32, uncached list price)
+sonnet55/agent_xlsx_viewer: about $0.1243 per call (mean of 30 API pilot calls, E32, uncached list price)
+expected cost: $18.86
+worst case (every call reaches the $1.00 cap, plus one turn): $224.00
+anthropic host: api.anthropic.com (workspace header: no)
+anthropic host: api.anthropic.com (workspace header: no)
+openai host: api.openai.com
+openai host: api.openai.com
+resuming run id 20261111T143900Z-6f34b0: 224 calls left
+[1/224] sonnet55/sb_44296.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0284
+[2/224] sonnet55/sb_44296.agent_xlsx.r1.json ok turns=4 cost=$0.0282
+[3/224] sonnet55/sb_45738.agent_xlsx.r1.json ok turns=3 cost=$0.0284
+[4/224] sonnet55/sb_44296.agent_cellprose_v03.r1.json ok turns=5 cost=$0.0543
+[5/224] sonnet55/sb_45738.agent_cellprose_v03.r1.json ok turns=2 cost=$0.0162
+[6/224] sonnet55/sb_45738.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0470
+[7/224] sonnet55/sb_47766.agent_xlsx.r1.json ok turns=3 cost=$0.0356
+[8/224] sonnet55/sb_47766.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0393
+[9/224] sonnet55/sb_47766.agent_cellprose_v03.r1.json ok turns=2 cost=$0.0216
+[10/224] sonnet55/sb_47933.agent_xlsx.r1.json ok turns=3 cost=$0.0198
+[11/224] sonnet55/sb_47933.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0182
+[12/224] sonnet55/sb_47933.agent_cellprose_v03.r1.json ok turns=6 cost=$0.0480
+[13/224] sonnet55/sb_48921.agent_xlsx.r1.json ok turns=3 cost=$0.0212
+[14/224] sonnet55/sb_42216.agent_xlsx_viewer.r1.json ok turns=6 cost=$0.1801
+[15/224] sonnet55/sb_48921.agent_cellprose_v03.r1.json ok turns=4 cost=$0.0284
+[16/224] sonnet55/sb_48921.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0252
+[17/224] sonnet55/sb_49333.agent_xlsx.r1.json ok turns=5 cost=$0.0576
+[18/224] sonnet55/sb_49333.agent_cellprose_v03.r1.json ok turns=4 cost=$0.0561
+[19/224] sonnet55/sb_49333.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0327
+[20/224] sonnet55/sb_50916.agent_xlsx.r1.json ok turns=2 cost=$0.0349
+[21/224] sonnet55/sb_50916.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0156
+[22/224] sonnet55/sb_50916.agent_cellprose_v03.r1.json ok turns=3 cost=$0.0291
+[23/224] sonnet55/sb_52050.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0251
+[24/224] sonnet55/sb_42216.agent_xlsx.r1.json ok turns=6 cost=$0.1765
+/usr/local/lib/python3.13/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+[25/224] sonnet55/sb_52216.agent_xlsx.r1.json ok turns=2 cost=$0.0212
+[26/224] sonnet55/sb_52050.agent_cellprose_v03.r1.json ok turns=5 cost=$0.0494
+[27/224] sonnet55/sb_52216.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0227
+[28/224] sonnet55/sb_52216.agent_cellprose_v03.r1.json ok turns=2 cost=$0.0175
+[29/224] sonnet55/sb_53161.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0230
+[30/224] sonnet55/sb_54675.agent_xlsx.r1.json ok turns=4 cost=$0.0710
+[31/224] sonnet55/sb_53161.agent_cellprose_v03.r1.json ok turns=3 cost=$0.0322
+[32/224] sonnet55/sb_52050.agent_xlsx.r1.json ok turns=6 cost=$0.0742
+[33/224] sonnet55/sb_54675.agent_cellprose_v03.r1.json ok turns=3 cost=$0.0205
+[34/224] sonnet55/sb_54675.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0178
+[35/224] sonnet55/sb_54717.agent_cellprose_v03.r1.json ok turns=2 cost=$0.0143
+[36/224] sonnet55/sb_54717.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0325
+[37/224] sonnet55/sb_54717.agent_xlsx.r1.json ok turns=4 cost=$0.0605
+[38/224] sonnet55/sb_54925.agent_cellprose_v03.r1.json ok turns=2 cost=$0.0272
+[39/224] sonnet55/sb_54925.agent_xlsx.r1.json ok turns=4 cost=$0.0532
+[40/224] sonnet55/sb_54925.agent_xlsx_viewer.r1.json ok turns=5 cost=$0.0597
+[41/224] sonnet55/sb_53161.agent_xlsx.r1.json ok turns=6 cost=$0.1078
+[42/224] sonnet55/sb_56225.agent_xlsx.r1.json ok turns=3 cost=$0.0478
+[43/224] sonnet55/sb_56225.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0308
+[44/224] sonnet55/sb_56225.agent_cellprose_v03.r1.json ok turns=2 cost=$0.0165
+[45/224] sonnet55/sb_57232.agent_xlsx.r1.json ok turns=4 cost=$0.0352
+[46/224] sonnet55/sb_57232.agent_cellprose_v03.r1.json ok turns=3 cost=$0.0257
+[47/224] sonnet55/sb_58723.agent_xlsx.r1.json ok turns=3 cost=$0.0337
+[48/224] sonnet55/sb_57232.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0260
+[49/224] sonnet55/sb_58723.agent_xlsx_viewer.r1.json ok turns=4 cost=$0.0486
+[50/224] sonnet55/sb_58723.agent_cellprose_v03.r1.json ok turns=3 cost=$0.0242
+[51/224] sonnet55/sb_9391.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0212
+[52/224] sonnet55/sb_9391.agent_xlsx.r1.json ok turns=4 cost=$0.0334
+[53/224] sonnet55/sb_9391.agent_cellprose_v03.r1.json ok turns=3 cost=$0.0190
+[54/224] sonnet55/sb_9569.agent_xlsx_viewer.r1.json ok turns=3 cost=$0.0243
+[55/224] sonnet55/sb_9569.agent_cellprose_v03.r1.json ok turns=5 cost=$0.0502
+[56/224] haiku55/sb_11842.agent_xlsx.r2.json ok turns=5 cost=$0.0109
+[57/224] haiku55/sb_11842.agent_xlsx_viewer.r2.json ok turns=5 cost=$0.0102
+[58/224] haiku55/sb_14240.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0042
+[59/224] haiku55/sb_14240.agent_xlsx.r2.json ok turns=3 cost=$0.0044
+[60/224] sonnet55/sb_9569.agent_xlsx.r1.json ok turns=4 cost=$0.0353
+[61/224] haiku55/sb_18645.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0006
+[62/224] haiku55/sb_18645.agent_xlsx.r2.json ok turns=4 cost=$0.0051
+[63/224] haiku55/sb_18645.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0025
+[64/224] haiku55/sb_11842.agent_cellprose_v03.r2.json ok turns=6 cost=$0.0076
+[65/224] haiku55/sb_14240.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0024
+[66/224] haiku55/sb_31202.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0013
+[67/224] haiku55/sb_31746.agent_xlsx.r2.json ok turns=3 cost=$0.0024
+[68/224] haiku55/sb_31202.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0048
+[69/224] haiku55/sb_31202.agent_xlsx.r2.json ok turns=4 cost=$0.0067
+[70/224] haiku55/sb_31915.agent_xlsx.r2.json ok turns=2 cost=$0.0014
+[71/224] haiku55/sb_31746.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0024
+[72/224] haiku55/sb_31915.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0007
+[73/224] haiku55/sb_31915.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0018
+[74/224] haiku55/sb_32612.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0007
+[75/224] haiku55/sb_32612.agent_xlsx.r2.json ok turns=3 cost=$0.0021
+[76/224] haiku55/sb_32612.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0013
+[77/224] haiku55/sb_31746.agent_cellprose_v03.r2.json ok turns=5 cost=$0.0069
+[78/224] haiku55/sb_36764.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0008
+[79/224] haiku55/sb_36764.agent_xlsx.r2.json ok turns=3 cost=$0.0010
+[80/224] haiku55/sb_36764.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0019
+[81/224] haiku55/sb_41978.agent_xlsx.r2.json ok turns=3 cost=$0.0011
+[82/224] haiku55/sb_41978.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0022
+[83/224] haiku55/sb_41978.agent_cellprose_v03.r2.json ok turns=5 cost=$0.0027
+[84/224] haiku55/sb_42216.agent_xlsx.r2.json ok turns=3 cost=$0.0031
+[85/224] haiku55/sb_44296.agent_xlsx.r2.json ok turns=3 cost=$0.0028
+[86/224] haiku55/sb_42216.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0018
+[87/224] haiku55/sb_42216.agent_xlsx_viewer.r2.json ok turns=2 cost=$0.0025
+[88/224] haiku55/sb_44296.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0029
+[89/224] haiku55/sb_45738.agent_xlsx.r2.json ok turns=2 cost=$0.0008
+[90/224] haiku55/sb_44296.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0016
+[91/224] haiku55/sb_45738.agent_xlsx_viewer.r2.json ok turns=2 cost=$0.0016
+[92/224] haiku55/sb_45738.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0022
+[93/224] haiku55/sb_47766.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0036
+[94/224] haiku55/sb_47933.agent_xlsx.r2.json ok turns=3 cost=$0.0011
+[95/224] haiku55/sb_47766.agent_xlsx.r2.json ok turns=3 cost=$0.0031
+[96/224] haiku55/sb_47933.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0016
+[97/224] haiku55/sb_47933.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0012
+[98/224] haiku55/sb_47766.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0027
+[99/224] haiku55/sb_48921.agent_xlsx.r2.json ok turns=3 cost=$0.0015
+[100/224] haiku55/sb_48921.agent_xlsx_viewer.r2.json ok turns=2 cost=$0.0009
+[101/224] haiku55/sb_49333.agent_xlsx.r2.json ok turns=4 cost=$0.0054
+[102/224] haiku55/sb_49333.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0029
+[103/224] haiku55/sb_49333.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0061
+[104/224] haiku55/sb_50916.agent_xlsx.r2.json ok turns=3 cost=$0.0013
+[105/224] haiku55/sb_50916.agent_xlsx_viewer.r2.json ok turns=2 cost=$0.0020
+[106/224] haiku55/sb_52050.agent_xlsx.r2.json ok turns=3 cost=$0.0014
+[107/224] haiku55/sb_50916.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0015
+[108/224] haiku55/sb_48921.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0067
+/usr/local/lib/python3.13/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+[109/224] haiku55/sb_52050.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0030
+[110/224] haiku55/sb_52216.agent_xlsx.r2.json ok turns=2 cost=$0.0012
+[111/224] haiku55/sb_52050.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0017
+[112/224] haiku55/sb_52216.agent_xlsx_viewer.r2.json ok turns=2 cost=$0.0013
+[113/224] haiku55/sb_52216.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0013
+[114/224] haiku55/sb_53161.agent_xlsx.r2.json ok turns=2 cost=$0.0012
+[115/224] haiku55/sb_54675.agent_xlsx.r2.json ok turns=2 cost=$0.0015
+[116/224] haiku55/sb_53161.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0021
+[117/224] haiku55/sb_54675.agent_xlsx_viewer.r2.json ok turns=2 cost=$0.0017
+[118/224] haiku55/sb_54675.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0013
+[119/224] haiku55/sb_54717.agent_xlsx.r2.json ok turns=2 cost=$0.0017
+[120/224] haiku55/sb_54717.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0012
+[121/224] haiku55/sb_54717.agent_xlsx_viewer.r2.json ok turns=5 cost=$0.0028
+[122/224] haiku55/sb_53161.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0033
+[123/224] haiku55/sb_56225.agent_xlsx.r2.json ok turns=2 cost=$0.0014
+[124/224] haiku55/sb_54925.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0018
+[125/224] haiku55/sb_56225.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0017
+[126/224] haiku55/sb_54925.agent_xlsx.r2.json ok turns=3 cost=$0.0029
+[127/224] haiku55/sb_56225.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0010
+[128/224] haiku55/sb_54925.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0039
+[129/224] haiku55/sb_57232.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0035
+[130/224] haiku55/sb_57232.agent_xlsx.r2.json ok turns=4 cost=$0.0050
+[131/224] haiku55/sb_57232.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0049
+[132/224] haiku55/sb_58723.agent_xlsx.r2.json ok turns=2 cost=$0.0018
+[133/224] haiku55/sb_58723.agent_xlsx_viewer.r2.json ok turns=2 cost=$0.0017
+[134/224] haiku55/sb_9391.agent_xlsx.r2.json ok turns=2 cost=$0.0010
+[135/224] haiku55/sb_58723.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0013
+[136/224] haiku55/sb_9391.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0014
+[137/224] haiku55/sb_9569.agent_xlsx_viewer.r2.json ok turns=2 cost=$0.0010
+[138/224] haiku55/sb_9391.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0013
+[139/224] haiku55/sb_9569.agent_xlsx.r2.json ok turns=4 cost=$0.0020
+[140/224] haiku55/sb_9569.agent_cellprose_v03.r2.json ok turns=6 cost=$0.0047
+[141/224] sonnet55/sb_11842.agent_cellprose_v03.r2.json ok turns=5 cost=$0.0978
+[142/224] sonnet55/sb_11842.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0992
+[143/224] sonnet55/sb_11842.agent_xlsx.r2.json ok turns=4 cost=$0.1457
+[144/224] sonnet55/sb_14240.agent_xlsx.r2.json ok turns=4 cost=$0.0555
+[145/224] sonnet55/sb_14240.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0323
+[146/224] sonnet55/sb_14240.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0320
+[147/224] sonnet55/sb_18645.agent_xlsx.r2.json ok turns=3 cost=$0.0255
+[148/224] sonnet55/sb_18645.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0216
+[149/224] sonnet55/sb_18645.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0147
+[150/224] sonnet55/sb_31202.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0198
+[151/224] sonnet55/sb_31746.agent_xlsx.r2.json ok turns=3 cost=$0.0336
+[152/224] sonnet55/sb_31202.agent_xlsx.r2.json ok turns=3 cost=$0.0773
+[153/224] sonnet55/sb_31202.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0846
+[154/224] sonnet55/sb_31915.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0120
+[155/224] sonnet55/sb_31746.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0312
+[156/224] sonnet55/sb_31746.agent_xlsx_viewer.r2.json ok turns=5 cost=$0.0595
+[157/224] sonnet55/sb_31915.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0229
+[158/224] sonnet55/sb_32612.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0126
+[159/224] sonnet55/sb_32612.agent_xlsx.r2.json ok turns=3 cost=$0.0195
+[160/224] sonnet55/sb_32612.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0260
+[161/224] sonnet55/sb_36764.agent_xlsx.r2.json ok turns=3 cost=$0.0129
+[162/224] sonnet55/sb_36764.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0113
+[163/224] sonnet55/sb_41978.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0194
+[164/224] sonnet55/sb_36764.agent_cellprose_v03.r2.json ok turns=5 cost=$0.0471
+[165/224] sonnet55/sb_41978.agent_xlsx.r2.json ok turns=3 cost=$0.0212
+[166/224] sonnet55/sb_41978.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0300
+[167/224] sonnet55/sb_42216.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0186
+[168/224] sonnet55/sb_42216.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0398
+[169/224] sonnet55/sb_42216.agent_xlsx.r2.json ok turns=5 cost=$0.0645
+[170/224] sonnet55/sb_44296.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0284
+[171/224] sonnet55/sb_44296.agent_xlsx.r2.json ok turns=5 cost=$0.0513
+[172/224] sonnet55/sb_45738.agent_xlsx.r2.json ok turns=3 cost=$0.0445
+[173/224] sonnet55/sb_44296.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0428
+[174/224] sonnet55/sb_45738.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0303
+[175/224] sonnet55/sb_45738.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0178
+[176/224] sonnet55/sb_47766.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0390
+[177/224] sonnet55/sb_47766.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0208
+[178/224] sonnet55/sb_31915.agent_xlsx.r2.json ok turns=6 cost=$0.1140
+[179/224] sonnet55/sb_47933.agent_xlsx.r2.json ok turns=3 cost=$0.0183
+[180/224] sonnet55/sb_47933.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0288
+[181/224] sonnet55/sb_47933.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0235
+[182/224] sonnet55/sb_47766.agent_xlsx.r2.json ok turns=4 cost=$0.0752
+[183/224] sonnet55/sb_48921.agent_xlsx.r2.json ok turns=4 cost=$0.0192
+[184/224] sonnet55/sb_48921.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0173
+[185/224] sonnet55/sb_49333.agent_xlsx.r2.json ok turns=3 cost=$0.0374
+[186/224] sonnet55/sb_49333.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0273
+[187/224] sonnet55/sb_49333.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0569
+[188/224] sonnet55/sb_50916.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0149
+[189/224] sonnet55/sb_50916.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0289
+[190/224] sonnet55/sb_52050.agent_xlsx.r2.json ok turns=3 cost=$0.0273
+[191/224] sonnet55/sb_52050.agent_xlsx_viewer.r2.json ok turns=5 cost=$0.0414
+[192/224] sonnet55/sb_52050.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0268
+/usr/local/lib/python3.13/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+/usr/local/lib/python3.13/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+[193/224] sonnet55/sb_52216.agent_xlsx.r2.json ok turns=3 cost=$0.0324
+[194/224] sonnet55/sb_52216.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0229
+[195/224] sonnet55/sb_52216.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0175
+[196/224] sonnet55/sb_53161.agent_xlsx.r2.json ok turns=3 cost=$0.0271
+[197/224] sonnet55/sb_53161.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0243
+[198/224] sonnet55/sb_54675.agent_xlsx.r2.json ok turns=3 cost=$0.0484
+[199/224] sonnet55/sb_53161.agent_cellprose_v03.r2.json ok turns=5 cost=$0.0491
+[200/224] sonnet55/sb_50916.agent_xlsx.r2.json ok turns=5 cost=$0.1489
+[201/224] sonnet55/sb_54675.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0177
+[202/224] sonnet55/sb_54675.agent_cellprose_v03.r2.json ok turns=4 cost=$0.0250
+[203/224] sonnet55/sb_54717.agent_xlsx.r2.json ok turns=3 cost=$0.0399
+[204/224] sonnet55/sb_54717.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0231
+[205/224] sonnet55/sb_48921.agent_xlsx_viewer.r2.json ok turns=7 cost=$0.0603
+[206/224] sonnet55/sb_54717.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0365
+[207/224] sonnet55/sb_54925.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0319
+[208/224] sonnet55/sb_56225.agent_xlsx.r2.json ok turns=3 cost=$0.0443
+[209/224] sonnet55/sb_54925.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0275
+[210/224] sonnet55/sb_54925.agent_xlsx.r2.json ok turns=3 cost=$0.0433
+[211/224] sonnet55/sb_56225.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0321
+[212/224] sonnet55/sb_56225.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0283
+[213/224] sonnet55/sb_57232.agent_xlsx.r2.json ok turns=4 cost=$0.0339
+[214/224] sonnet55/sb_57232.agent_cellprose_v03.r2.json ok turns=3 cost=$0.0271
+[215/224] sonnet55/sb_57232.agent_xlsx_viewer.r2.json ok turns=4 cost=$0.0294
+[216/224] sonnet55/sb_58723.agent_xlsx.r2.json ok turns=3 cost=$0.0425
+[217/224] sonnet55/sb_58723.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0156
+[218/224] sonnet55/sb_9391.agent_xlsx.r2.json ok turns=2 cost=$0.0133
+[219/224] sonnet55/sb_9391.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0175
+[220/224] sonnet55/sb_58723.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0516
+[221/224] sonnet55/sb_9391.agent_cellprose_v03.r2.json ok turns=2 cost=$0.0106
+[222/224] sonnet55/sb_9569.agent_xlsx.r2.json ok turns=3 cost=$0.0223
+[223/224] sonnet55/sb_9569.agent_xlsx_viewer.r2.json ok turns=3 cost=$0.0229
+[224/224] sonnet55/sb_9569.agent_cellprose_v03.r2.json ok turns=5 cost=$0.0561
+spend by vendor: anthropic $5.61
+done, 0 failures recorded, 0 not recorded (runner errors)

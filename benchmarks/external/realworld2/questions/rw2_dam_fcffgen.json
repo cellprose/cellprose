@@ -1,0 +1,66 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Option Valuation!C13",
+  "q": "What is the value in the row labelled 'Stock Price=', in the sheet 'Option Valuation'?",
+  "truth": 84,
+  "labels": [
+   "A13"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "The Valuation of Amazon!C98",
+  "q": "Consider the cell The Valuation of Amazon!C98 (in the row labelled '- COGS'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "The Valuation of Amazon!C96",
+   "The Valuation of Amazon!C97",
+   "The Valuation of Amazon!D61",
+   "The Valuation of Amazon!E45"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "The Valuation of Amazon!L105",
+  "q": "Consider the cell The Valuation of Amazon!L105 (in the row labelled '- Chg. Working Capital'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "The Valuation of Amazon!E45",
+   "The Valuation of Amazon!G70",
+   "The Valuation of Amazon!K97",
+   "The Valuation of Amazon!L96",
+   "The Valuation of Amazon!L97"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "impact",
+  "cell": "The Valuation of Amazon!F87",
+  "factor": 1.1,
+  "q": "Suppose the number in The Valuation of Amazon!F87 (in the row labelled 'If no, enter capital expenditures as % of depreciation in steady state:') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Sheet1!C11",
+   "Sheet1!D11",
+   "Sheet1!D12",
+   "The Valuation of Amazon!E121",
+   "The Valuation of Amazon!E127",
+   "The Valuation of Amazon!F130",
+   "The Valuation of Amazon!F131",
+   "The Valuation of Amazon!F133",
+   "The Valuation of Amazon!M104",
+   "The Valuation of Amazon!M106"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "The Valuation of Amazon!B69",
+  "range": "The Valuation of Amazon!B69:G69",
+  "q": "Consider the range The Valuation of Amazon!B69:G69. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "The Valuation of Amazon!C69"
+  ],
+  "id": "q5"
+ }
+]

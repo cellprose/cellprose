@@ -1,0 +1,212 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw3_enron_john_lavorato",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1459,
+ "prompt_sha256": "70110eba24297f585c1924d8571431794700e83097f150ca6d9ab8a2821a3bc9",
+ "result": "```json\n{\"q1\": 391.619, \"q2\": \"Summary by Status!H15\", \"q3\": [\"Cost Cancel Details!AT8\", \"Cost Cancel Details!AS8\"], \"q4\": [\"Cost Cancel Details!AG14\", \"Cost Cancel Details!AH13\"], \"q5\": [\"Cost Cancel Details!AI63\", \"Cost Cancel Details!AJ63\", \"Cost Cancel Details!AI67\", \"Cost Cancel Details!AI120\", \"Cost Cancel Details!AI124\", \"Cost Cancel Details!AI125\", \"Cost Cancel Details!AI129\", \"Cost Cancel Details!AI130\"], \"q6\": [\"Cost Cancel Details!AE101\", \"Cost Cancel Details!AE103\"]}\n```",
+ "usage": {
+  "input_tokens": 117547,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 3306,
+  "output_tokens_details": {
+   "thinking_tokens": 2415
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 117547,
+   "outputTokens": 3306,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 2415
+  }
+ },
+ "cost": 0.268154,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1109,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 79,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3026,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 148,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 7716,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 120,
+     "reasoning_tokens": 45,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 10331,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 112,
+     "reasoning_tokens": 36,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 14806,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 287,
+     "reasoning_tokens": 181,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 23799,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 478,
+     "reasoning_tokens": 364,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 27465,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1814,
+     "reasoning_tokens": 1789,
+     "tool_calls": [
+      "json"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 29295,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 268,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T12:02:48+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 51.4
+ },
+ "num_turns": 8,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; ls -la; head -c 3000 book.sheet.md; wc book.sheet.md\"}",
+   "output_chars": 3189
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; grep -n \\\"^# Sheet\\\\|^## \\\" book.sheet.md | head -100\"}",
+   "output_chars": 992
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 150,420p book.sheet.md | cut -c1-600\"}",
+   "output_chars": 6272
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 541,730p book.sheet.md | cut -c1-500\"}",
+   "output_chars": 3968
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 727,830p book.sheet.md | cut -c1-2500\"}",
+   "output_chars": 5512
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; sed -n 1018,1060p book.sheet.md | cut -c1-1800; sed -n 1213,1401p book.sheet.md | cut -c1-1800\"}",
+   "output_chars": 11618
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . ; grep -n \\\"^C[0-9]* = \\\\|^D[0-9]*:BB[0-9]* = \\\\|^D[0-9]* = \\\" book.sheet.md | sed -n 1,200p\"}",
+   "output_chars": 4644
+  },
+  {
+   "turn": 7,
+   "tool": "json",
+   "args": "{}",
+   "output_chars": 26
+  }
+ ]
+}

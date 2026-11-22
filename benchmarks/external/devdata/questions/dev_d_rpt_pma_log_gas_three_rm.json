@@ -1,0 +1,70 @@
+[
+ {
+  "type": "lookup",
+  "cell": "JAN!F20",
+  "q": "What is the value in the row labelled 'Broker Fees: $18,338 on g/l for Dec00 vs $17,118 in risk p&l', column headed 'Risk', in the sheet 'JAN'?",
+  "truth": -1220,
+  "labels": [
+   "E20",
+   "F4"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "JAN!F25",
+  "q": "Which cell holds the value in the row labelled 'Book Admin: Bruce Mills', column headed 'Risk', in the sheet 'JAN'? Give its cell address.",
+  "truth": "JAN!F25",
+  "labels": [
+   "E25",
+   "F4"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "MGWST AUG00!K5",
+  "q": "Consider the cell MGWST AUG00!K5 (in the row labelled 'BASIS SWAP'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "MGWST AUG00!D5",
+   "MGWST AUG00!J5"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "MGWST AUG00!K16",
+  "q": "Consider the cell MGWST AUG00!K16 (in the row labelled 'BASIS SWAP'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "MGWST AUG00!D16",
+   "MGWST AUG00!J16"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "MGWST AUG00!F11",
+  "factor": 1.1,
+  "q": "Suppose the number in MGWST AUG00!F11 (in the row labelled 'BASIS SWAP') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "MGWST AUG00!F46",
+   "MGWST AUG00!J11",
+   "MGWST AUG00!J46",
+   "MGWST AUG00!K11",
+   "MGWST AUG00!K46"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "JAN!F15",
+  "range": "JAN!F15:F18",
+  "q": "Consider the range JAN!F15:F18 (the column of 'Risk'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "JAN!F15",
+   "JAN!F16",
+   "JAN!F17"
+  ],
+  "id": "q6"
+ }
+]

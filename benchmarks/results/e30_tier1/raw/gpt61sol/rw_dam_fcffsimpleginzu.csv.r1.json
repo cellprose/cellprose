@@ -1,0 +1,78 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw_dam_fcffsimpleginzu",
+ "encoding": "csv",
+ "prompt_chars": 150093,
+ "prompt_sha256": "5de1d143fe72df4ae082c047501684269dd8c10c6dfaa97bb0f46fdd6174adb8",
+ "result": "{\n  \"q1\": 7.18784027,\n  \"q2\": 16394.53893,\n  \"q3\": \"'Valuation output'!B31\",\n  \"q4\": [\n    \"'Valuation output'!B24:B28\"\n  ],\n  \"q5\": [\n    \"'Valuation output'!B34\",\n    \"'Valuation output'!B33\"\n  ],\n  \"q6\": [\n    \"'Input sheet'!I27\",\n    \"'Input sheet'!I29\",\n    \"'Input sheet'!J36\",\n    \"'Valuation output'!B27\",\n    \"'Valuation output'!B29\",\n    \"'Valuation output'!B31\",\n    \"'Valuation output'!B33\",\n    \"'Valuation output'!B35\",\n    \"'Valuation output'!B39:L39\",\n    \"'Valuation output'!B40:L40\",\n    \"'Stories to Numbers'!B13\",\n    \"'Stories to Numbers'!D35:D36\",\n    \"'Stories to Numbers'!D39\",\n    \"'Valuation as picture'!B21\",\n    \"'Valuation as picture'!B23\",\n    \"'Valuation as picture'!B25\",\n    \"'Valuation as picture'!B28\",\n    \"'Valuation as picture'!B31\",\n    \"'Valuation as picture'!E30:N30\",\n    \"'Diagnostics'!B17\",\n    \"'Diagnostics'!B27\",\n    \"'Diagnostics'!D27\",\n    \"'Diagnostics'!B36\"\n  ],\n  \"q6_note\": \"B18 contains Cash and Marketable Securities, not shares outstanding; shares outstanding is B21. The list follows the explicitly specified B18, with dependencies inferred because formulas are not provided.\"\n}",
+ "usage": {
+  "input_tokens": 3,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 67218,
+  "output_tokens": 1931,
+  "output_tokens_details": {
+   "thinking_tokens": 1552
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 3,
+   "outputTokens": 1931,
+   "cacheReadInputTokens": 67218,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1552
+  }
+ },
+ "cost": 0.153752,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 31.6,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_d7cd41cefadf452291e5da4bffe323f8",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "input_tokens": 67221,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 67218,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 1931,
+   "output_tokens_details": {
+    "reasoning_tokens": 1552
+   },
+   "total_tokens": 69152,
+   "billed_input_tokens": 67221,
+   "tokenizer_input_tokens_o200k": 67210,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 67210
+  },
+  "finished_at": "2026-11-07T09:21:38+00:00"
+ }
+}

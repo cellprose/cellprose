@@ -1,0 +1,73 @@
+{
+ "model": "sonnet",
+ "workbook": "01_sales_log",
+ "encoding": "agent_xlsx",
+ "result": "```json\n{\"q1\":741,\"q2\":59,\"q3\":159288.25,\"q4\":\"Sales!H78\",\"q5\":\"Sales!F153\",\"q6\":[\"Sales!F43\",\"Sales!G43\"],\"q7\":[\"Sales!H43\",\"Sales!F153\",\"Sales!H153\"]}\n```",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 8170,
+  "cache_read_input_tokens": 10680,
+  "output_tokens": 631,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 8170,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 99,
+    "cache_read_input_tokens": 6747,
+    "cache_creation_input_tokens": 1423,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1423
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1188,
+   "outputTokens": 13,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.001253,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 6,
+   "outputTokens": 631,
+   "cacheReadInputTokens": 10680,
+   "cacheCreationInputTokens": 8170,
+   "webSearchRequests": 0,
+   "costUSD": 0.041138,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.042391,
+ "num_turns": 3,
+ "subtype": "success"
+}

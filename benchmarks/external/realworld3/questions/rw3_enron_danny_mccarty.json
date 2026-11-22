@@ -1,0 +1,110 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Basic Calculations!C6",
+  "q": "What is the value in the row labelled 'Idling : Hours', column headed 'Maximum', in the sheet 'Basic Calculations'?",
+  "truth": 0.4444444444444444,
+  "labels": [
+   "B6",
+   "C1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Capacity!E22",
+  "q": "Which cell holds the value in the row labelled 'Gross Idling capacity utlization', column headed 'Minimum', in the sheet 'Capacity'? Give its cell address.",
+  "truth": "Capacity!E22",
+  "labels": [
+   "A22",
+   "E1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Revenue!E3",
+  "q": "Consider the cell Revenue!E3 (in the row labelled 'Number'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Revenue!C3",
+   "Revenue!D3"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "CF!I59",
+  "q": "Consider the cell CF!I59 (in the row labelled 'Marginal contribution'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "CF!I3",
+   "CF!I7"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Revenue!D14",
+  "factor": 1.1,
+  "q": "Suppose the number in Revenue!D14 (in the row labelled 'Units') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Costs!E19",
+   "Costs!F19",
+   "Costs!G19",
+   "Costs!H19",
+   "Costs!I19",
+   "Costs!J19",
+   "Costs!K19",
+   "Costs!L19",
+   "Costs!M19",
+   "Costs!N19",
+   "Revenue!E14",
+   "Revenue!E15",
+   "Revenue!E16",
+   "Revenue!E17",
+   "Revenue!F14",
+   "Revenue!F16",
+   "Revenue!F17",
+   "Revenue!G14",
+   "Revenue!G15",
+   "Revenue!G16",
+   "Revenue!G17",
+   "Revenue!H14",
+   "Revenue!H15",
+   "Revenue!H16",
+   "Revenue!H17",
+   "Revenue!I14",
+   "Revenue!I15",
+   "Revenue!I16",
+   "Revenue!I17",
+   "Revenue!J14",
+   "Revenue!J15",
+   "Revenue!J16",
+   "Revenue!J17",
+   "Revenue!K14",
+   "Revenue!K15",
+   "Revenue!K16",
+   "Revenue!K17",
+   "Revenue!L14",
+   "Revenue!L16",
+   "Revenue!L17",
+   "Revenue!M14",
+   "Revenue!M16",
+   "Revenue!M17",
+   "Revenue!N14",
+   "Revenue!N15",
+   "Revenue!N16",
+   "Revenue!N17"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Costs!M47",
+  "range": "Costs!M47:M55",
+  "q": "Consider the range Costs!M47:M55. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Costs!M53"
+  ],
+  "id": "q6"
+ }
+]

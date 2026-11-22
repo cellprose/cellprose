@@ -1,0 +1,59 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'NOV 18', which cell holds 'Purpose of Expenditure' for the row where 'Transaction Number' is 'GPC11180000240'? Give its cell address.",
+  "cell": "NOV 18!E241",
+  "key": {
+   "I": "GPC11180000240"
+  },
+  "labels": [
+   "I241",
+   "E241",
+   "E1"
+  ],
+  "id": "q1",
+  "truth": "NOV 18!E241"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "NOV 18!C31",
+  "truth": "NOV 18!C31",
+  "q": "In the sheet 'NOV 18', which cell holds 'Service Category Label' for the row where 'Transaction Number' is 'GPC11180000030'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "NOV 18!F91",
+  "truth": "NOV 18!F91",
+  "q": "In the sheet 'NOV 18', which cell holds 'Procurement (Merchant) Category' for the row where 'Transaction Number' is 'GPC11180000090'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "NOV 18!I121",
+  "truth": "NOV 18!I121",
+  "q": "In the sheet 'NOV 18', which cell holds 'Transaction Number' for the row where 'Transaction Number' is 'GPC11180000120'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "NOV 18!B181",
+  "truth": "NOV 18!B181",
+  "q": "In the sheet 'NOV 18', which cell holds 'Department where exp. Incurred' for the row where 'Transaction Number' is 'GPC11180000180'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q6",
+  "cell": "NOV 18!E211",
+  "truth": "NOV 18!E211",
+  "q": "In the sheet 'NOV 18', which cell holds 'Purpose of Expenditure' for the row where 'Transaction Number' is 'GPC11180000210'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q7",
+  "cell": "NOV 18!H271",
+  "truth": "NOV 18!H271",
+  "q": "In the sheet 'NOV 18', which cell holds 'Settlement Date' for the row where 'Transaction Number' is 'GPC11180000270'? Give its cell address."
+ }
+]

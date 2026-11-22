@@ -1,0 +1,158 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_ogl05_purchase_orders",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 975,
+ "prompt_sha256": "330db0099f25c3bbe66ff5db20cbeeffa087cf20a05c070c25bfb7cb7234f0d9",
+ "result": "{\"q1\": 7985.17, \"q2\": \"The Dodd Group\", \"q3\": \"Sheet 1!G418\"}",
+ "usage": {
+  "input_tokens": 15098,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 503,
+  "output_tokens_details": {
+   "thinking_tokens": 54
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 15098,
+   "outputTokens": 503,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 54
+  }
+ },
+ "cost": 0.035226,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 929,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 97,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2763,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 205,
+     "reasoning_tokens": 54,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3713,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 69,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 3788,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 90,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 3905,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 42,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:08:08+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 6.6
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"head -c 3000 book.sheet.md; grep -n -E \\\"ZZC657809|ZZP656547|ZZP658117\\\" book.sheet.md | head\"}",
+   "output_chars": 3543
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n \\\"ZZC657809\\\" book.sheet.md | cat -A | head -5; sed -n 24,30p book.sheet.md\"}",
+   "output_chars": 1470
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -c ZZC657809 book.sheet.md\"}",
+   "output_chars": 2
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"echo\"}",
+   "output_chars": 1
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 268p book.sheet.md | cut -c1-20; sed -n 428p book.sheet.md | cut -c1-10\"}",
+   "output_chars": 32
+  }
+ ]
+}

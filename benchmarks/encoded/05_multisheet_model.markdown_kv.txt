@@ -1,0 +1,169 @@
+# Inputs
+
+## Record 1
+```
+Input: Price A
+Value: 120
+```
+
+## Record 2
+```
+Input: Price B
+Value: 80
+```
+
+## Record 3
+```
+Input: Price C
+Value: 45
+```
+
+## Record 4
+```
+Input: Volume A
+Value: 1000
+```
+
+## Record 5
+```
+Input: Volume B
+Value: 2500
+```
+
+## Record 6
+```
+Input: Volume C
+Value: 6000
+```
+
+## Record 7
+```
+Input: Volume growth
+Value: 0.1
+```
+
+## Record 8
+```
+Input: Price growth
+Value: 0.03
+```
+
+## Record 9
+```
+Input: Fixed costs
+Value: 150000
+```
+
+## Record 10
+```
+Input: Variable cost %
+Value: 0.35
+```
+
+## Record 11
+```
+Input: Tax rate
+Value: 0.25
+```
+
+# Revenue
+
+## Record 1
+```
+Product: Product A
+Y1: 120000
+Y2: 135960
+Y3: 154042.68
+```
+
+## Record 2
+```
+Product: Product B
+Y1: 200000
+Y2: 226600
+Y3: 256737.8
+```
+
+## Record 3
+```
+Product: Product C
+Y1: 270000
+Y2: 305910
+Y3: 346596.03
+```
+
+## Record 4
+```
+Product: Total
+Y1: 590000
+Y2: 668470
+Y3: 757376.51
+```
+
+# Costs
+
+## Record 1
+```
+Cost: Variable
+Y1: 206500
+Y2: 233964.5
+Y3: 265081.7785
+```
+
+## Record 2
+```
+Cost: Fixed
+Y1: 150000
+Y2: 150000
+Y3: 150000
+```
+
+## Record 3
+```
+Cost: Total
+Y1: 356500
+Y2: 383964.5
+Y3: 415081.7785
+```
+
+# Summary
+
+## Record 1
+```
+Line: Revenue
+Y1: 590000
+Y2: 668470
+Y3: 757376.51
+```
+
+## Record 2
+```
+Line: Costs
+Y1: 356500
+Y2: 383964.5
+Y3: 415081.7785
+```
+
+## Record 3
+```
+Line: EBIT
+Y1: 233500
+Y2: 284505.5
+Y3: 342294.7315
+```
+
+## Record 4
+```
+Line: Tax
+Y1: 58375
+Y2: 71126.375
+Y3: 85573.68287
+```
+
+## Record 5
+```
+Line: Net income
+Y1: 175125
+Y2: 213379.125
+Y3: 256721.0486
+```

@@ -1,0 +1,50 @@
+{
+ "run": {
+  "run_id": "20261121T160101Z-e721be",
+  "started_at": "2026-11-21T16:01:01+00:00",
+  "git_sha": "3631d4d",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "e20126401d9341f92bcdefd3d1d9610ef568d41b39d89b673193282fa1571cab",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.12.0"
+ },
+ "invocation": {
+  "argv": [
+   "--models",
+   "haiku55",
+   "--workbooks",
+   "11_forecast_overrides",
+   "--encs",
+   "csv,cellprose_v03",
+   "--out",
+   "results/e35_replay",
+   "--max-usd",
+   "0.10"
+  ],
+  "models": [
+   "haiku55"
+  ],
+  "workbooks": [
+   "11_forecast_overrides"
+  ],
+  "encodings": [
+   "csv",
+   "cellprose_v03"
+  ],
+  "reps": 1,
+  "first_rep": 0,
+  "prices_checked": null
+ },
+ "inputs": {
+  "digest": "e20126401d9341f92bcdefd3d1d9610ef568d41b39d89b673193282fa1571cab",
+  "files": {
+   "questions/11_forecast_overrides.json": "b5b4110745315e01bfebe201f1fcf53b8c98d803fa74442d92898e7eba12270e",
+   "encoded/11_forecast_overrides.cellprose_v03.txt": "2a4b6c0c28d2f65acc1f306c28e5c51694cf7b393aa00cde744ec77693f785b4",
+   "encoded/11_forecast_overrides.csv.txt": "e85553261b382a1182ab6a0d0994a10818d1ecaa54115bd081dc90d667d72b6f"
+  }
+ }
+}

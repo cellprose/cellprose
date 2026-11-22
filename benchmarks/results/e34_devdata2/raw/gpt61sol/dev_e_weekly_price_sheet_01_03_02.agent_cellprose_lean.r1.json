@@ -1,0 +1,155 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_weekly_price_sheet_01_03_02",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 3619,
+ "prompt_sha256": "6db52803f32bffcc73ee21b152fbdc59f55940ce83cd398ad7036fe7848dbf5b",
+ "result": "{\"q1\":3.195,\"q2\":\"Term Prices!BF20\",\"q3\":[\"Term Prices!BE1\",\"Term Prices!AW201:AX201\"],\"q4\":[\"Term Prices!BE1\",\"Term Prices!AW89:AX89\"],\"q5\":[\"Term Prices!Q14:R14\",\"Term Prices!Q25:R25\"],\"q6\":[\"Term Prices!AO38:AO45\"]}",
+ "usage": {
+  "input_tokens": 3972,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 13146,
+  "output_tokens": 304,
+  "output_tokens_details": {
+   "thinking_tokens": 17
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 3972,
+   "outputTokens": 304,
+   "cacheReadInputTokens": 13146,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 17
+  }
+ },
+ "cost": 0.037276000000000004,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_de970f2b56b4419aab00814ed4df4464",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 1562,
+     "cache_write_tokens": 0,
+     "output_tokens": 138,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3122,
+     "cache_read_tokens": 1562,
+     "cache_write_tokens": 0,
+     "output_tokens": 42,
+     "reasoning_tokens": 17,
+     "tool_calls": [
+      "find"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 663,
+     "cache_read_tokens": 4681,
+     "cache_write_tokens": 0,
+     "output_tokens": 32,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 184,
+     "cache_read_tokens": 5341,
+     "cache_write_tokens": 0,
+     "output_tokens": 92,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T16:31:35+00:00",
+  "run_id": "20261107T163112Z-879c4d",
+  "started_at": "2026-11-07T16:31:12+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 12.5
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Term Prices!AJ10:AS20\", \"Term Prices!Z22:AS33\", \"Term Prices!AO37:AO45\"]}",
+   "output_chars": 6031
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Term Prices!BE201\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 110
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Term Prices!BE89\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 104
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Term Prices!AP14\", \"factor\": 1.1}",
+   "output_chars": 127
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"SoCal\", \"sheet\": \"Term Prices\"}",
+   "output_chars": 1197
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Term Prices!BF10:BI10\", \"Term Prices!BF20\"]}",
+   "output_chars": 276
+  }
+ ]
+}

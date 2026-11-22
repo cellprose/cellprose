@@ -1,0 +1,137 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_dividends",
+ "encoding": "agent_xlsx_cellprose",
+ "prompt_chars": 1471,
+ "prompt_sha256": "8c08441e2cd2eba63066365071b00ca7c8e0ef093e01fe7d082df5c581c164cf",
+ "result": "{\n  \"q1\": 1324,\n  \"q2\": \"Inputs!E59\",\n  \"q3\": [\n    \"Analysis of past dividends!C2\",\n    \"Analysis of past dividends!C21\",\n    \"Analysis of past dividends!C22\"\n  ],\n  \"q4\": [\n    \"Inputs!E3\",\n    \"Inputs!E4\",\n    \"Inputs!E5\",\n    \"Analysis of past dividends!F2\",\n    \"Analysis of past dividends!F3\",\n    \"Analysis of past dividends!F4\",\n    \"Analysis of past dividends!F5\"\n  ],\n  \"q5\": [\n    \"Analysis of past dividends!F4\",\n    \"Analysis of past dividends!L4\",\n    \"Analysis of past dividends!F6\",\n    \"Analysis of past dividends!L6\",\n    \"Analysis of past dividends!F8\",\n    \"Analysis of past dividends!L8\",\n    \"Analysis of past dividends!F9\",\n    \"Analysis of past dividends!L9\",\n    \"Analysis of past dividends!F17\",\n    \"Analysis of past dividends!B38\",\n    \"Analysis of past dividends!C38\",\n    \"Analysis of past dividends!B39\",\n    \"Analysis of past dividends!C39\",\n    \"Analysis of past dividends!B40\",\n    \"Analysis of past dividends!C40\",\n    \"Analysis of past dividends!B41\",\n    \"Analysis of past dividends!B42\",\n    \"Analysis of past dividends!B43\"\n  ],\n  \"q6\": [\n    \"Inputs!F12\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 11067,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 8864,
+  "output_tokens": 473,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 11067,
+   "outputTokens": 473,
+   "cacheReadInputTokens": 8864,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.044592,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_04273453b82b4f9b8c7df45f77886380",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 727,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 14,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "outline"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 8867,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 123,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "trace",
+      "read_range",
+      "trace",
+      "trace"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1473,
+     "cache_read_tokens": 8864,
+     "cache_write_tokens": 0,
+     "output_tokens": 336,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:13:31+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 5.6
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "outline",
+   "args": "{}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Inputs!D13\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 1147
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"Inputs!A55:F64\"}",
+   "output_chars": 1698
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Analysis of past dividends!C23\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 318
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Analysis of past dividends!F9\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 453
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw2_dam_macrodur",
+ "encoding": "agent_cellprose_v03",
+ "prompt_chars": 1297,
+ "prompt_sha256": "3a4a73309de9f77946e4d9a2c0bebceef51dd2429a63034f36ebfc665fbe4f12",
+ "result": "{\"q1\": -0.106140354757438, \"q2\": \"Duration Calculator!C6\", \"q3\": [\"Annual Data!B16\", \"Annual Data!B17\"], \"q4\": [\"Annual Data!H14\", \"Annual Data!H15\"], \"q5\": [\"Quarterly Data!Q70\", \"Quarterly Data!Q71\"], \"q6\": [\"Quarterly Data!A91\", \"Quarterly Data!B91\", \"Quarterly Data!D91\", \"Quarterly Data!F91\", \"Quarterly Data!H91\"]}",
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 13214,
+  "cache_read_input_tokens": 11507,
+  "output_tokens": 971,
+  "output_tokens_details": {
+   "thinking_tokens": 418
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 10,
+   "outputTokens": 971,
+   "cacheReadInputTokens": 11507,
+   "cacheCreationInputTokens": 13214,
+   "thinkingTokens": 418
+  }
+ },
+ "cost": 0.059172,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 1029,
+     "output_tokens": 94,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 1029,
+     "cache_write_tokens": 1882,
+     "output_tokens": 161,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash",
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 2911,
+     "cache_write_tokens": 4656,
+     "output_tokens": 268,
+     "reasoning_tokens": 153,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 7567,
+     "cache_write_tokens": 5647,
+     "output_tokens": 448,
+     "reasoning_tokens": 265,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.043916
+  },
+  "finished_at": "2026-11-11T15:58:32+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 10.4
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la; head -c 3000 book.sheet.md; wc book.sheet.md; grep -n '^#' book.sheet.md | head -50\"}",
+   "output_chars": 3865
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 81,135p book.sheet.md; sed -n 198,365p book.sheet.md | grep -n -i -E 'FURNITURE|Currency|^#' \"}",
+   "output_chars": 2471
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 365,460p book.sheet.md\"}",
+   "output_chars": 5244
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n 458,470p book.sheet.md; grep -n -E '^(71|72|91)\\\\|' book.sheet.md | sed -n 1,10p; sed -n 600,682p book.sheet.md\"}",
+   "output_chars": 8913
+  }
+ ]
+}

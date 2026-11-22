@@ -1,0 +1,77 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw_ogl14_cornwall_spend",
+ "encoding": "csv",
+ "prompt_chars": 10037,
+ "prompt_sha256": "1bb6ca0bb885b186c1de8230a53760e13eb0005d4b45d7e8057e3682b00d7c45",
+ "result": "{\"q1\":46037.49,\"q2\":\"NHS PROPERTY SERVICES LTD\",\"q3\":\"'January 26 for Publication'!D43\"}",
+ "usage": {
+  "input_tokens": 3138,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 170,
+  "output_tokens_details": {
+   "thinking_tokens": 133
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 3138,
+   "outputTokens": 170,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 133
+  }
+ },
+ "cost": 0.007976,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261012T170532Z-f2cfbe",
+  "started_at": "2026-10-12T17:05:32+00:00",
+  "git_sha": "960479a",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "0aa45e294c5b47184517e9ee701b0187b619e11732ce039616ccddf976717ba2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 0,
+  "wall_seconds": 4.3,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_a14520e0372a4246bec9355dd98eaa90",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "input_tokens": 3138,
+   "input_tokens_details": {
+    "cache_write_tokens": 3135,
+    "cached_tokens": 0
+   },
+   "output_tokens": 170,
+   "output_tokens_details": {
+    "reasoning_tokens": 133
+   },
+   "total_tokens": 3308,
+   "billed_input_tokens": 3138,
+   "tokenizer_input_tokens_o200k": 3127,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 3127
+  },
+  "finished_at": "2026-10-12T17:11:11+00:00"
+ }
+}

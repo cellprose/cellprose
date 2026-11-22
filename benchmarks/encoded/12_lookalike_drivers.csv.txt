@@ -1,0 +1,20 @@
+## Drivers
+Driver,Value
+Price inflation,0.03
+Wage inflation,0.03
+Rent escalation,0.03
+Volume growth,0.05
+Marketing growth,0.05
+Utilities inflation,0.03
+
+## Plan
+Line,Y1,Y2,Y3,Y4
+Volume,50000,52500,55125,57881.25
+Unit price,20,20.6,21.218,21.85454
+Wages,400000,412000,424360,437090.8
+Rent,120000,123600,127308,131127.24
+Marketing,90000,94500,99225,104186.25
+Utilities,30000,30900,31827,32781.81
+Revenue,1000000,1081500,1169642.25,1264968.093
+Total costs,640000,661000,682720,705186.1
+Profit,360000,420500,486922.25,559781.9934

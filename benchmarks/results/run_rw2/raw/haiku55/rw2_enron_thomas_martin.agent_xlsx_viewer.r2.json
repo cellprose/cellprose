@@ -1,0 +1,138 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_thomas_martin",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1043,
+ "prompt_sha256": "ae85aa888b883ce4431a025f9aff9ea165255ded5fe93e5665fa180574bff835",
+ "result": "{\"q1\": [\"Floor Plan!G28\", \"Floor Plan!H28\"], \"q2\": [\"Floor Plan!C80:C83\"], \"q3\": [\"Floor Plan!Y94\", \"Floor Plan!Z94\", \"Floor Plan!AA94\", \"Floor Plan!AB94\"], \"q4\": [\"Floor Plan!P68\"]}",
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 18068,
+  "cache_read_input_tokens": 34636,
+  "output_tokens": 1914,
+  "output_tokens_details": {
+   "thinking_tokens": 487
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 10,
+   "outputTokens": 1914,
+   "cacheReadInputTokens": 34636,
+   "cacheCreationInputTokens": 18068,
+   "thinkingTokens": 487
+  }
+ },
+ "cost": 0.006228399999999999,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 1095,
+     "output_tokens": 71,
+     "reasoning_tokens": 13,
+     "tool_calls": [
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 1095,
+     "cache_write_tokens": 15098,
+     "output_tokens": 1009,
+     "reasoning_tokens": 351,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 16193,
+     "cache_write_tokens": 1155,
+     "output_tokens": 648,
+     "reasoning_tokens": 60,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 17348,
+     "cache_write_tokens": 720,
+     "output_tokens": 186,
+     "reasoning_tokens": 63,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.003563
+  },
+  "finished_at": "2026-11-11T16:54:25+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 2,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 9.6
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Floor Plan\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl,re\\nfrom openpyxl.utils import range_boundaries,get_column_letter\\nwb=openpyxl.load_workbook('book.xlsx')\\nprint(wb.sheetnames)\\nws=wb['Floor Plan']\\nfor c in ['G28','H28','C80','C81','C82','C83','AC94','P68','O68']:\\n  print(c, ws[c].value)\\n# build dependents\\nrefs={}\\npat=re.compile(r\\\\\\\"(?:'?([A-Za-z0-9 ]+)'?!)?\\\\\\\\$?([A-Z]{1,3})\\\\\\\\$?(\\\\d+)(?::\\\\\\\\$?([A-Z]{1,3})\\\\\\\\$?(\\\\d+))?\\\\\\\")\\nfor s in wb.worksheets:\\n  for row in s.iter_rows():\\n    ",
+   "output_chars": 207
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cat > /tmp/d.py <<'EOF'\\nimport openpyxl,re\\nfrom openpyxl.utils import get_column_letter, column_index_from_string as ci\\nwb=openpyxl.load_workbook('book.xlsx')\\npat=re.compile(r\\\"(?:'([^']+)'!|([A-Za-z][A-Za-z0-9_]*)!)?\\\\$?([A-Z]{1,3})\\\\$?(\\\\d+)(?::\\\\$?([A-Z]{1,3})\\\\$?(\\\\d+))?\\\")\\nrefs={}\\nfor s in wb.worksheets:\\n  for row in s.iter_rows():\\n    for cell in row:\\n      v=cell.value\\n      if isinstance(v,str) and v.startswith('='):\\n        for m in pat.finditer(v):\\n          sh",
+   "output_chars": 97
+  }
+ ]
+}

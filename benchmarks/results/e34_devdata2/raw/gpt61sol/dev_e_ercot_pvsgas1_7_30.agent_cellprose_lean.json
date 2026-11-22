@@ -1,0 +1,116 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_ercot_pvsgas1_7_30",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 1872,
+ "prompt_sha256": "8506d285cac94d6e9d88247d0b264325a1904e63acafeb14d9dcbbd34a615c89",
+ "result": "{\"q1\":38.05,\"q2\":\"Snapshot!B6\",\"q3\":[\"Historical!B5\",\"Historical!C5\"],\"q4\":[\"Historical!B196\",\"Historical!C196\"],\"q5\":[\"Historical!I2\",\"Historical!D106:E106\"],\"q6\":[\"Historical!B173\",\"Historical!C173\"]}",
+ "usage": {
+  "input_tokens": 2326,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1367,
+  "output_tokens": 150,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 2326,
+   "outputTokens": 150,
+   "cacheReadInputTokens": 1367,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.008886,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_823dd8865d774304834b7b7bafb51559",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 878,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 45,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1370,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 27,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 78,
+     "cache_read_tokens": 1367,
+     "cache_write_tokens": 0,
+     "output_tokens": 78,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T16:27:30+00:00",
+  "run_id": "20261107T162647Z-9ba68e",
+  "started_at": "2026-11-07T16:26:47+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.3
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Snapshot!A1:D14\", \"Historical!B173:E173\", \"Historical!D196:E196\", \"Historical!D5:E5\"]}",
+   "output_chars": 778
+  },
+  {
+   "turn": 2,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Historical!B106\", \"factor\": 1.1}",
+   "output_chars": 107
+  }
+ ]
+}

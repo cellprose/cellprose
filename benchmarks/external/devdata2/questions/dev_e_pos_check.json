@@ -1,0 +1,63 @@
+[
+ {
+  "type": "lookup",
+  "cell": "THURS_Peak_Pos_TieOut!CG2",
+  "q": "What is the value in the row labelled 'Total', column headed 'Total 2007', in the sheet 'THURS_Peak_Pos_TieOut'?",
+  "truth": -843753.75,
+  "labels": [
+   "C2",
+   "CG1"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "THURS_Peak_Pos_TieOut!G2",
+  "q": "Which cell holds the value in the row labelled 'Total', column headed 'Total 2001', in the sheet 'THURS_Peak_Pos_TieOut'? Give its cell address.",
+  "truth": "THURS_Peak_Pos_TieOut!G2",
+  "labels": [
+   "C2",
+   "G1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "THURS_Peak_Pos_TieOut!BV36",
+  "q": "Consider the cell THURS_Peak_Pos_TieOut!BV36 (in the row labelled 'SP15'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "THURS_Peak_Pos_TieOut!BV28",
+   "THURS_Peak_Pos_TieOut!BV6"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "THURS_Peak_Pos_TieOut!HP34",
+  "q": "Consider the cell THURS_Peak_Pos_TieOut!HP34 (in the row labelled 'NP15'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "THURS_Peak_Pos_TieOut!HP26",
+   "THURS_Peak_Pos_TieOut!HP4"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "THURS_Peak_Pos_TieOut!AR14",
+  "factor": 1.1,
+  "q": "Suppose the number in THURS_Peak_Pos_TieOut!AR14 (in the row labelled 'WSCC-N') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "THURS_Peak_Pos_TieOut!AR29",
+   "THURS_Peak_Pos_TieOut!AR37"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "THURS_Peak_Pos_TieOut!EU25",
+  "range": "THURS_Peak_Pos_TieOut!EU25:EU30",
+  "q": "Consider the range THURS_Peak_Pos_TieOut!EU25:EU30. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q6"
+ }
+]

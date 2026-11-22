@@ -1,0 +1,134 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_dam_fcffgen",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 4068,
+ "prompt_sha256": "b8db36d2ea85b9a1d3a73b48949e02c9fd141a5d7ac8aae9497bb1911dd48db7",
+ "result": "```json\n{\"q1\": 84, \"q2\": [\"The Valuation of Amazon!E45\", \"The Valuation of Amazon!C96\", \"The Valuation of Amazon!C97\", \"The Valuation of Amazon!D61\"], \"q3\": [\"The Valuation of Amazon!E45\", \"The Valuation of Amazon!L96\", \"The Valuation of Amazon!L97\", \"The Valuation of Amazon!K97\", \"The Valuation of Amazon!G70\"], \"q4\": [\"Sheet1!C11\", \"Sheet1!D11\", \"Sheet1!D12\", \"The Valuation of Amazon!M104\", \"The Valuation of Amazon!M106\", \"The Valuation of Amazon!E121\", \"The Valuation of Amazon!E127\", \"The Valuation of Amazon!F130\", \"The Valuation of Amazon!F131\", \"The Valuation of Amazon!F133\", \"The Valuation of Amazon!F135\", \"The Valuation of Amazon!F136\"], \"q5\": [\"The Valuation of Amazon!C69\"]}\n```",
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 9263,
+  "cache_read_input_tokens": 11002,
+  "output_tokens": 1511,
+  "output_tokens_details": {
+   "thinking_tokens": 790
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 1511,
+   "cacheReadInputTokens": 11002,
+   "cacheCreationInputTokens": 9263,
+   "thinkingTokens": 790
+  }
+ },
+ "cost": 0.0027828,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 3023,
+     "output_tokens": 178,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 3023,
+     "cache_write_tokens": 4956,
+     "output_tokens": 684,
+     "reasoning_tokens": 496,
+     "tool_calls": [
+      "trace",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 7979,
+     "cache_write_tokens": 1284,
+     "output_tokens": 649,
+     "reasoning_tokens": 294,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.002024
+  },
+  "finished_at": "2026-11-11T18:02:16+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 7.2
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Stock Price=\", \"sheet\": \"Option Valuation\"}",
+   "output_chars": 79
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"The Valuation of Amazon!B96:M109\", \"The Valuation of Amazon!B57:G74\", \"The Valuation of Amazon!B111:M118\"]}",
+   "output_chars": 6898
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"The Valuation of Amazon!F87\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 307
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"The Valuation of Amazon!B85:G87\", \"The Valuation of Amazon!B69:G69\"]}",
+   "output_chars": 664
+  }
+ ]
+}

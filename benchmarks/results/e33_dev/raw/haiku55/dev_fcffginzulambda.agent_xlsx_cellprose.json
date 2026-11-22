@@ -1,0 +1,151 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_fcffginzulambda",
+ "encoding": "agent_xlsx_cellprose",
+ "prompt_chars": 1417,
+ "prompt_sha256": "ade206fddc38b4454395d71d147c59b0294ffe8756b5644c63a153644a6581d7",
+ "result": "{\"q1\": 0.275, \"q2\": \"R&D converter!B75\", \"q3\": [\"Historical Numbers!D12\", \"Historical Numbers!D2\"], \"q4\": [\"Cross Holdings Valuation!D9\", \"Cross Holdings Valuation!B9\"], \"q5\": [\"Earnings Normalizer!C24\", \"Earnings Normalizer!G24\", \"Earnings Normalizer!B33\", \"Earnings Normalizer!B35\"], \"q6\": [\"Terminal Value!C11\"]}",
+ "usage": {
+  "input_tokens": 41408,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1198,
+  "output_tokens_details": {
+   "thinking_tokens": 605
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 41408,
+   "outputTokens": 1198,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 605
+  }
+ },
+ "cost": 0.004739800000000001,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1614,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 41,
+     "reasoning_tokens": 15,
+     "tool_calls": [
+      "outline"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 11180,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 208,
+     "reasoning_tokens": 21,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 13811,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 563,
+     "reasoning_tokens": 357,
+     "tool_calls": [
+      "find",
+      "find",
+      "trace"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 14803,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 386,
+     "reasoning_tokens": 212,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:12:18+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 7.1
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "outline",
+   "args": "{}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor s,rs in [('Earnings Normalizer','A17:H35'),('Terminal Value','A1:E16')]:\\n  ws=wb[s]\\n  for row in ws[rs]:\\n    for c in row:\\n      if c.value is not None: print(s,c.coordinate,repr(c.value))\\n\\\"\"}",
+   "output_chars": 4296
+  },
+  {
+   "turn": 3,
+   "tool": "find",
+   "args": "{\"text\": \"Tax Rate for computing income\"}",
+   "output_chars": 77
+  },
+  {
+   "turn": 3,
+   "tool": "find",
+   "args": "{\"text\": \"Electric Utility (East)\"}",
+   "output_chars": 170
+  },
+  {
+   "turn": 3,
+   "tool": "trace",
+   "args": "{\"cell\": \"Earnings Normalizer!C26\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 404
+  }
+ ]
+}

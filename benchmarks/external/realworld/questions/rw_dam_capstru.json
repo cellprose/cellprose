@@ -1,0 +1,72 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Optimal CS Worksheet!E19",
+  "labels": [
+   "C19",
+   "E11"
+  ],
+  "q": "In the sheet 'Optimal CS Worksheet', what is the current WACC (the 'Current' column of the row labelled WACC)?",
+  "key": {
+   "C": "WACC"
+  },
+  "id": "q1",
+  "truth": 0.09567120276370804
+ },
+ {
+  "type": "lookup",
+  "cell": "Optimal CS Worksheet!F21",
+  "labels": [
+   "C21",
+   "F11"
+  ],
+  "q": "In the sheet 'Optimal CS Worksheet', what is the optimal enterprise value (the 'Optimal' column of the row labelled 'Enterprise value')?",
+  "key": {
+   "C": "Enterprise value"
+  },
+  "id": "q2",
+  "truth": 218233.40818955714
+ },
+ {
+  "type": "address",
+  "cell": "Optimal CS Worksheet!E16",
+  "labels": [
+   "C16",
+   "E11"
+  ],
+  "q": "In the sheet 'Optimal CS Worksheet', which cell holds the current 'Rating on Debt'? Give its cell address.",
+  "key": {
+   "C": "Rating on Debt"
+  },
+  "id": "q3",
+  "truth": "Optimal CS Worksheet!E16"
+ },
+ {
+  "type": "trace",
+  "cell": "Optimal CS Worksheet!E15",
+  "labels": [
+   "C15"
+  ],
+  "q": "Consider the current 'Cost of Equity' in the sheet 'Optimal CS Worksheet'. List the cells its formula reads directly (not indirectly).",
+  "id": "q4",
+  "truth": [
+   "Optimal CS Worksheet!C8",
+   "Optimal CS Worksheet!F4",
+   "Optimal CS Worksheet!F7"
+  ]
+ },
+ {
+  "type": "trace",
+  "cell": "Optimal CS Worksheet!G12",
+  "labels": [
+   "C12",
+   "G11"
+  ],
+  "q": "Consider the 'Change' column of the 'D/(D+E) Ratio' row in the sheet 'Optimal CS Worksheet'. List the cells its formula reads directly (not indirectly).",
+  "id": "q5",
+  "truth": [
+   "Optimal CS Worksheet!E12",
+   "Optimal CS Worksheet!F12"
+  ]
+ }
+]

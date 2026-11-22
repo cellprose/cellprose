@@ -1,0 +1,389 @@
+{
+ "model": "haiku55",
+ "workbook": "rw3_enron_craig_dean",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1301,
+ "prompt_sha256": "40fed61067b45b49286730e60c08f763b7be25fa69a9d4ed9b270ee808e1315b",
+ "result": "{\"q1\": 171, \"q2\": \"Preschedule!Z44\", \"q3\": [\"Economics!H32\", \"Economics!I32\"], \"q4\": [\"Balancing!F26\", \"Balancing!G26\"], \"q5\": [\"Deals!AD73\", \"Deals!AE73\", \"Deals!AD107\", \"Deals!AE107\", \"Economics!B17\", \"Economics!D17\", \"Economics!F17\", \"Economics!G17\", \"Economics!B47\", \"Economics!D47\", \"Preschedule!AA59\", \"Preschedule!AA61\"], \"q6\": [\"Preschedule!Q96\", \"Preschedule!Q99\", \"Preschedule!Q102\", \"Preschedule!Q106\", \"Preschedule!Q111\"]}",
+ "usage": {
+  "input_tokens": 563621,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 14331,
+  "output_tokens_details": {
+   "thinking_tokens": 11628
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 563621,
+   "outputTokens": 14331,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 11628
+  }
+ },
+ "cost": 0.0635276,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1038,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 93,
+     "reasoning_tokens": 12,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3485,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 118,
+     "reasoning_tokens": 32,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 5719,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 197,
+     "reasoning_tokens": 123,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 9449,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 191,
+     "reasoning_tokens": 82,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 17377,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 437,
+     "reasoning_tokens": 274,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 20923,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 569,
+     "reasoning_tokens": 308,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 22205,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 2199,
+     "reasoning_tokens": 1898,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 25624,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 423,
+     "reasoning_tokens": 347,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 30421,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 179,
+     "reasoning_tokens": 103,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 10,
+     "input_tokens": 32359,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 196,
+     "reasoning_tokens": 122,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 11,
+     "input_tokens": 35425,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 849,
+     "reasoning_tokens": 687,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 12,
+     "input_tokens": 41605,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 2553,
+     "reasoning_tokens": 2479,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 13,
+     "input_tokens": 45741,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1077,
+     "reasoning_tokens": 903,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 14,
+     "input_tokens": 48818,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1061,
+     "reasoning_tokens": 887,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 15,
+     "input_tokens": 51906,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1488,
+     "reasoning_tokens": 1193,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 16,
+     "input_tokens": 53695,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 587,
+     "reasoning_tokens": 496,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 17,
+     "input_tokens": 57767,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1098,
+     "reasoning_tokens": 911,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 18,
+     "input_tokens": 60064,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1016,
+     "reasoning_tokens": 771,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:49:31+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 70.2
+ },
+ "num_turns": 18,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && ls -la && wc -c book.sheet.md && head -c 3000 book.sheet.md\"}",
+   "output_chars": 3182
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n \\\"^# Sheet\\\\|^## \\\\|^\\\\`\\\\`\\\\`\\\" book.sheet.md | head -300\"}",
+   "output_chars": 4008
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 585,710p book.sheet.md | cut -c1-900\"}",
+   "output_chars": 4528
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n \\\"Difference\\\\|Capacity\\\\|GT 1\\\\|PV Unit 1\\\\|PV Unit 3\\\\|#REF\\\" book.sheet.md | cut -c1-300\"}",
+   "output_chars": 10095
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/p.py <<'EOF'\\nimport sys,re\\nlines=open('/home/user/book.sheet.md' if False else 'book.sheet.md').read().split('\\\\n')\\nEOF\\nsed -n 867,905p book.sheet.md | cut -c1-400; sed -n 867,870p book.sheet.md | head -2\"}",
+   "output_chars": 4250
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport re\\nL=open('book.sheet.md').read().split('\\\\n')\\ndef cols(n):\\n    s='';n+=1\\n    while n: n,r=divmod(n-1,26); s=chr(65+r)+s\\n    return s\\nfor i in [87,88,89]:\\n    pass\\nfor ln in L:\\n    if ln.startswith('88|') or ln.startswith('95|') or ln.startswith('86|') or ln.startswith('119|'):\\n        f=ln.split('|')\\n        print(ln[:30], [(cols(j-1),v) for j,v in enumerate(f) if j>0 and v and j>0][-4:])\\n\\\"\"}",
+   "output_chars": 1194
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nL=open('book.sheet.md').read().split('\\\\n')\\ndef cols(n):\\n    s='';n+=1\\n    while n: n,r=divmod(n-1,26); s=chr(65+r)+s\\n    return s\\nfor ln in L:\\n    if ln.split('|')[0] in ('40','44','67','69','79','80','83','84') and 700<L.index(ln)<1000:\\n        f=ln.split('|')\\n        print(L.index(ln)+1, [(cols(j-1),v) for j,v in enumerate(f) if j>0 and v][:4], [(cols(j-1),v) for j,v in enumerate(f) if j>0 and v][-3:])\\n\\\"; sed -n 709,720p book.sheet.md | cut -c1-20",
+   "output_chars": 1694
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 2088,2345p book.sheet.md | cut -c1-600\"}",
+   "output_chars": 6088
+  },
+  {
+   "turn": 9,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 2346,2506p book.sheet.md | cut -c1-500\"}",
+   "output_chars": 2690
+  },
+  {
+   "turn": 10,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 131,300p book.sheet.md | cut -c1-400\"}",
+   "output_chars": 4247
+  },
+  {
+   "turn": 11,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 567,584p book.sheet.md | cut -c1-300; sed -n 2990,3100p book.sheet.md | cut -c1-300 | head -150; grep -n \\\"DelPoint\\\\s*=\\\\|DPrice\\\\|DType\\\\s*=\\\\|Deals!\\\" book.sheet.md | cut -c1-250 | head -80\"}",
+   "output_chars": 7328
+  },
+  {
+   "turn": 12,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 300,470p book.sheet.md | cut -c1-400\"}",
+   "output_chars": 2168
+  },
+  {
+   "turn": 13,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n \\\"AD107\\\\|AE107\\\\|AD73\\\\|AE73\\\\|AD10[0-9]\\\\|AD19\\\\|AE19\\\\|B17\\\\|D17\\\\|F17\\\\|G17\\\\|B47\\\\|D47\\\\|AD89\\\\|AE89\\\\|Economics!\\\" book.sheet.md | cut -c1-250; grep -n \\\"AD19:\\\\|AE19\\\" book.sheet.md | head\"}",
+   "output_chars": 2981
+  },
+  {
+   "turn": 14,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 740,757p book.sheet.md | cut -c1-300; sed -n 1291,1300p book.sheet.md | cut -c1-200; sed -n 1339,1341p book.sheet.md | cut -c1-200; sed -n 1789,1790p book.sheet.md; sed -n 2331,2344p book.sheet.md | cut -c1-120\"}",
+   "output_chars": 2781
+  },
+  {
+   "turn": 15,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nL=open('book.sheet.md').read().split('\\\\n')\\ndef cols(n):\\n    s='';n+=1\\n    while n: n,r=divmod(n-1,26); s=chr(65+r)+s\\n    return s\\nrows={}\\nfor ln in L[866:1282]:\\n    f=ln.split('|')\\n    if f[0].isdigit():\\n        r=int(f[0]); \\n        rows[r]=f\\nfor r in range(94,116):\\n    f=rows.get(r)\\n    if f: print(r, f[17] if len(f)>17 else None, '| A=',f[1][:20])\\n\\\"; sed -n 956,1108p book.sheet.md | grep -n \\\"^Q\\\\|[^A-Z]Q[0-9]\\\" | head -40\"}",
+   "output_chars": 483
+  },
+  {
+   "turn": 16,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 956,1108p book.sheet.md | cut -c1-160 | awk 'NR<=400' | head -150\"}",
+   "output_chars": 5165
+  },
+  {
+   "turn": 17,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 1339,1789p book.sheet.md | grep -E \\\"^Q[0-9]+ |^[A-Z]+[0-9]+:Q|:Q[0-9]+ \\\" | cut -c1-120 | head; sed -n 1110,1112p book.sheet.md | cut -c1-100; grep -n \\\"^Q\\\" book.sheet.md | sed -n 1,5p | cut -c1-100\"}",
+   "output_chars": 1580
+  }
+ ]
+}

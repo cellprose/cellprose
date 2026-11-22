@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw2_dam_risk",
+ "encoding": "none",
+ "prompt_chars": 1231,
+ "prompt_sha256": "dd7858cacc82ef77402b3859bb0b0021b183b20e87a1c514ea412aaa1d51e94d",
+ "result": "{\"q1\": 10, \"q2\": \"Risk&RetWS!B8\", \"q3\": [\"Risk&RetWS!G57\", \"Risk&RetWS!G58\"], \"q4\": [\"Risk&RetWS!B52\", \"Risk&RetWS!B53\"], \"q5\": [\"Risk&RetWS!C45\", \"Risk&RetWS!C46\", \"Risk&RetWS!C47\", \"Risk&RetWS!C48\"], \"q6\": []}",
+ "usage": {
+  "input_tokens": 527,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 155,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 527,
+   "outputTokens": 155,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.002604,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 2.4,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 527,
+   "output_tokens": 155,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 527
+  },
+  "finished_at": "2026-11-11T14:32:42+00:00"
+ }
+}

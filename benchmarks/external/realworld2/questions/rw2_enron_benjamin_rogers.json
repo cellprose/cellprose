@@ -1,0 +1,93 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Sept!C8",
+  "q": "What is the value in the row labelled '2c', column headed 'Number of Incidents', in the sheet 'Sept'?",
+  "truth": 2,
+  "labels": [
+   "B8",
+   "C4"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Sept!C6",
+  "q": "Which cell holds the value in the row labelled '2a', column headed 'Number of Incidents', in the sheet 'Sept'? Give its cell address.",
+  "truth": "Sept!C6",
+  "labels": [
+   "B6",
+   "C4"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Summary!D16",
+  "q": "Consider the cell Summary!D16 (in the row labelled 'Annual Totals'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Summary!D10",
+   "Summary!D11",
+   "Summary!D12",
+   "Summary!D13",
+   "Summary!D14",
+   "Summary!D15",
+   "Summary!D4",
+   "Summary!D5",
+   "Summary!D6",
+   "Summary!D7",
+   "Summary!D8",
+   "Summary!D9"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Summary!I5",
+  "q": "Consider the cell Summary!I5 (in the row labelled 'Feb'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Summary!C5",
+   "Summary!D5",
+   "Summary!E5",
+   "Summary!F5",
+   "Summary!G5",
+   "Summary!H5"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Jul!C7",
+  "factor": 1.1,
+  "q": "Suppose the number in Jul!C7 (in the row labelled '2b') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Jul!C13",
+   "Summary!E10",
+   "Summary!E16",
+   "Summary!I10",
+   "Summary!I16",
+   "Summary!L10",
+   "Summary!L16",
+   "Summary!M10",
+   "Summary!M16"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Nov!C5",
+  "range": "Nov!C5:C13",
+  "q": "Consider the range Nov!C5:C13 (the column of 'Number of Incidents'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Nov!C10",
+   "Nov!C11",
+   "Nov!C12",
+   "Nov!C5",
+   "Nov!C6",
+   "Nov!C7",
+   "Nov!C8",
+   "Nov!C9"
+  ],
+  "id": "q6"
+ }
+]

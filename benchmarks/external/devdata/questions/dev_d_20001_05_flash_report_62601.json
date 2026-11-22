@@ -1,0 +1,65 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Var. Rpt EPMI!J431",
+  "q": "What is the value in the row labelled 'Offsets 2001 04 acctg variance.', in the sheet 'Var. Rpt EPMI'?",
+  "truth": -42000,
+  "labels": [
+   "E431"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Var. Rpt EPMI!J88",
+  "q": "Which cell holds the value in the row labelled '605393.1 and 605550.1 both deals PMA's not flashed, pulled through Unify', in the sheet 'Var. Rpt EPMI'? Give its cell address.",
+  "truth": "Var. Rpt EPMI!J88",
+  "labels": [
+   "E88"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Var. Rpt EPMI!K41",
+  "q": "Consider the cell Var. Rpt EPMI!K41 (in the row labelled 'Financial Liquidations'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Var. Rpt EPMI!E41",
+   "Var. Rpt EPMI!H41"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Var. Rpt EPMI!K45",
+  "q": "Consider the cell Var. Rpt EPMI!K45 (in the row labelled 'OTC & EXCHG - PV'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Var. Rpt EPMI!E45",
+   "Var. Rpt EPMI!H45"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Var. Rpt EPMI!J113",
+  "factor": 1.1,
+  "q": "Suppose the number in Var. Rpt EPMI!J113 (in the row labelled '566035.1 - Vol adjustments to 10 MIN Spinning Reserves. Index settled for April ') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Var. Rpt EPMI!K141",
+   "Var. Rpt EPMI!K733"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "reconciliation!D11",
+  "range": "reconciliation!D11:I11",
+  "q": "Consider the range reconciliation!D11:I11 (the row of 'Russ's file'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "reconciliation!D11",
+   "reconciliation!F11",
+   "reconciliation!G11"
+  ],
+  "id": "q6"
+ }
+]

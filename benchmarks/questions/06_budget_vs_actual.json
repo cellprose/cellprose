@@ -1,0 +1,72 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is Marketing's Q1 variance?",
+  "cell": "BvA!J4",
+  "id": "q1",
+  "truth": 5029
+ },
+ {
+  "type": "lookup",
+  "q": "What is total Q1 actual spend?",
+  "cell": "BvA!I11",
+  "id": "q2",
+  "truth": 3304937
+ },
+ {
+  "type": "lookup",
+  "q": "What is Support's February actual?",
+  "cell": "BvA!E5",
+  "id": "q3",
+  "truth": 39947
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds Legal's March budget? Give its cell address.",
+  "cell": "BvA!F8",
+  "id": "q4",
+  "truth": "BvA!F8"
+ },
+ {
+  "type": "trace",
+  "q": "Consider Marketing's Q1 variance. List the cells its formula reads directly (not indirectly).",
+  "cell": "BvA!J4",
+  "id": "q5",
+  "truth": [
+   "BvA!H4",
+   "BvA!I4"
+  ]
+ },
+ {
+  "type": "trace",
+  "q": "Consider the total Q1 budget. List the cells its formula reads directly (not indirectly).",
+  "cell": "BvA!H11",
+  "id": "q6",
+  "truth": [
+   "BvA!H2",
+   "BvA!H3",
+   "BvA!H4",
+   "BvA!H5",
+   "BvA!H6",
+   "BvA!H7",
+   "BvA!H8",
+   "BvA!H9"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose Sales' January actual increased by 10%. List every other cell whose value would change.",
+  "cell": "BvA!C3",
+  "factor": 1.1,
+  "id": "q7",
+  "truth": [
+   "BvA!C11",
+   "BvA!I11",
+   "BvA!I3",
+   "BvA!J11",
+   "BvA!J3",
+   "BvA!K11",
+   "BvA!K3"
+  ]
+ }
+]

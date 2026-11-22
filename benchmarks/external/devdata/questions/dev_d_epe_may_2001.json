@@ -1,0 +1,96 @@
+[
+ {
+  "type": "lookup",
+  "cell": "MAY(5)!M7",
+  "q": "What is the value in the row labelled 'Time', column headed 'FROM WESCO', in the sheet 'MAY(5)'?",
+  "truth": 310,
+  "labels": [
+   "B7",
+   "M6"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "MAY(3)!L7",
+  "q": "Which cell holds the value in the row labelled 'Time', column headed 'FROM AEP', in the sheet 'MAY(3)'? Give its cell address.",
+  "truth": "MAY(3)!L7",
+  "labels": [
+   "B7",
+   "L6"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "MAY(13)!J39",
+  "q": "Consider the cell MAY(13)!J39 (in the row labelled 'PDT TOTAL'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "MAY(13)!C39",
+   "MAY(13)!D39",
+   "MAY(13)!E39",
+   "MAY(13)!F39",
+   "MAY(13)!G39",
+   "MAY(13)!H39",
+   "MAY(13)!I39"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "MAY(6)!J17",
+  "q": "Consider the cell MAY(6)!J17. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "MAY(6)!C17",
+   "MAY(6)!D17",
+   "MAY(6)!E17",
+   "MAY(6)!F17",
+   "MAY(6)!G17",
+   "MAY(6)!H17",
+   "MAY(6)!I17"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "MAY(9)!H29",
+  "factor": 1.1,
+  "q": "Suppose the number in MAY(9)!H29 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "MAY(9)!H37",
+   "MAY(9)!H39",
+   "MAY(9)!V29",
+   "MAY(9)!V37",
+   "MAY(9)!V39"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "MAY(8)!A26",
+  "range": "MAY(8)!A26:T26",
+  "q": "Consider the range MAY(8)!A26:T26. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "MAY(8)!A26",
+   "MAY(8)!B26",
+   "MAY(8)!C26",
+   "MAY(8)!D26",
+   "MAY(8)!E26",
+   "MAY(8)!F26",
+   "MAY(8)!G26",
+   "MAY(8)!H26",
+   "MAY(8)!I26",
+   "MAY(8)!J26",
+   "MAY(8)!K26",
+   "MAY(8)!L26",
+   "MAY(8)!M26",
+   "MAY(8)!N26",
+   "MAY(8)!O26",
+   "MAY(8)!P26",
+   "MAY(8)!Q26",
+   "MAY(8)!R26",
+   "MAY(8)!S26"
+  ],
+  "id": "q6"
+ }
+]

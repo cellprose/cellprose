@@ -1,0 +1,101 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_ddm3st",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1347,
+ "prompt_sha256": "ef81da7f7a931e082ae8a8cfd21ab86ab2aebf6fd4bd5df5d40faf086166e4b8",
+ "result": "{\"q1\": 1.1, \"q2\": \"ddm3st.xls!D85\", \"q3\": [\"ddm3st.xls!E33\", \"ddm3st.xls!L97\", \"ddm3st.xls!K99\", \"ddm3st.xls!D92\"], \"q4\": [\"ddm3st.xls!E64\", \"ddm3st.xls!E106\", \"ddm3st.xls!E105\"], \"q5\": [\"ddm3st.xls!C103:J103\", \"ddm3st.xls!C106:J106\", \"ddm3st.xls!C107:J107\", \"ddm3st.xls!C110:J110\", \"ddm3st.xls!E116\", \"ddm3st.xls!F119\", \"ddm3st.xls!F120\", \"ddm3st.xls!F121\"], \"q6\": []}",
+ "usage": {
+  "input_tokens": 11265,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2115,
+  "output_tokens_details": {
+   "thinking_tokens": 1796
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 11265,
+   "outputTokens": 2115,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1796
+  }
+ },
+ "cost": 0.0021839999999999997,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1229,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 59,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 10036,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 2056,
+     "reasoning_tokens": 1796,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:11:20+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 9.5
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"ddm3st.xls\"}",
+   "output_chars": 13985
+  }
+ ]
+}

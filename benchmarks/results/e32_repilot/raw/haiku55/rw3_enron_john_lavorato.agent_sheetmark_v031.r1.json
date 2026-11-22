@@ -1,0 +1,227 @@
+{
+ "model": "haiku55",
+ "workbook": "rw3_enron_john_lavorato",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1459,
+ "prompt_sha256": "70110eba24297f585c1924d8571431794700e83097f150ca6d9ab8a2821a3bc9",
+ "result": "{\"q1\": 391.619, \"q2\": \"Summary by Status!H15\", \"q3\": [\"Cost Cancel Details!AS8\", \"Cost Cancel Details!AT8\"], \"q4\": [\"Cost Cancel Details!AG14\", \"Cost Cancel Details!AH13\"], \"q5\": [\"Cost Cancel Details!AI63\", \"Cost Cancel Details!AJ63\", \"Cost Cancel Details!BC63\", \"Cost Cancel Details!AI67\", \"Cost Cancel Details!AI120\", \"Cost Cancel Details!AI124\", \"Cost Cancel Details!AI125\", \"Cost Cancel Details!AI133\", \"Cost Cancel Details!AI134\"], \"q6\": [\"Cost Cancel Details!AE101\", \"Cost Cancel Details!AE103\"]}",
+ "usage": {
+  "input_tokens": 149566,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5677,
+  "output_tokens_details": {
+   "thinking_tokens": 4563
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 149566,
+   "outputTokens": 5677,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 4563
+  }
+ },
+ "cost": 0.0177951,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1109,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 97,
+     "reasoning_tokens": 16,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3037,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 95,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3247,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 87,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 6275,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 520,
+     "reasoning_tokens": 454,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 9258,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 246,
+     "reasoning_tokens": 179,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 20596,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 67,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 31345,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 67,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 35412,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 3527,
+     "reasoning_tokens": 3221,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 39287,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 971,
+     "reasoning_tokens": 693,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T11:59:08+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 28.5
+ },
+ "num_turns": 9,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && ls -la && wc -c book.sheet.md && head -c 3000 book.sheet.md\"}",
+   "output_chars": 3177
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n \\\"^# Sheet\\\" book.sheet.md; grep -n \\\"Summary by Region\\\" -A3 book.sheet.md | head; \"}",
+   "output_chars": 207
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 155,200p book.sheet.md; echo ----; sed -n 541,726p book.sheet.md\"}",
+   "output_chars": 4689
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 200,346p book.sheet.md\"}",
+   "output_chars": 4017
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 727,1000p book.sheet.md\"}",
+   "output_chars": 14449
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 1000,1300p book.sheet.md\"}",
+   "output_chars": 13500
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 1300,1500p book.sheet.md\"}",
+   "output_chars": 5797
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nfrom openpyxl.utils import get_column_letter as g, column_index_from_string as c\\nprint(c('AI'), c('V'), c('BB'))\\nrow='0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0.1|0.013|0.017|0.016|0.027|0.049|0.059|0.058|0.05|0.053|0.054|0.053|0.041|0.03|0.032|0.018|0.017|0.014|0.012|0.096|0.095|0.092|0.004|0|0|0|0|0|0|0|0|0|0|1'\\nprint(row)\\n\\\"; grep -n \\\"^64|\\\" book.sheet.md\"}",
+   "output_chars": 445
+  }
+ ]
+}

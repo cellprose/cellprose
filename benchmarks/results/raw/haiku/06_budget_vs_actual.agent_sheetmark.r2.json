@@ -1,0 +1,59 @@
+{
+ "model": "haiku",
+ "workbook": "06_budget_vs_actual",
+ "encoding": "agent_sheetmark",
+ "result": "```json\n{\"q1\": 5029, \"q2\": 3304937, \"q3\": 39947, \"q4\": \"BvA!F8\", \"q5\": [\"BvA!H4\", \"BvA!I4\"], \"q6\": [\"BvA!H2\", \"BvA!H3\", \"BvA!H4\", \"BvA!H5\", \"BvA!H6\", \"BvA!H7\", \"BvA!H8\", \"BvA!H9\"], \"q7\": [\"BvA!I3\", \"BvA!J3\", \"BvA!K3\", \"BvA!I11\", \"BvA!J11\", \"BvA!K11\"]}\n```",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 3805,
+  "cache_read_input_tokens": 10886,
+  "output_tokens": 1416,
+  "output_tokens_details": {
+   "thinking_tokens": 989
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3805,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 192,
+    "cache_read_input_tokens": 4787,
+    "cache_creation_input_tokens": 1171,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1171
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1556,
+   "outputTokens": 1729,
+   "cacheReadInputTokens": 10886,
+   "cacheCreationInputTokens": 3805,
+   "webSearchRequests": 0,
+   "costUSD": 0.00188996,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 1280,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.00188996,
+ "num_turns": 3,
+ "subtype": "success"
+}

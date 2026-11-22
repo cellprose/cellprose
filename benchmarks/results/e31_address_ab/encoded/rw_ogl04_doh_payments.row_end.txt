@@ -1,0 +1,47 @@
+---
+cellprose: 0.3
+---
+
+# Sheet: For upload
+
+## A1:H32
+
+A|B|C|D|E|F|G|H|#
+-|-|-|-|-|-|-|-|-
+Department|Organisation|Check Date|Expense type|Supplier|Invoice number|Invoice Amount|Postcode|1
+DOH|Department of Health|2026-08-17|P - Contract Other Services|NEXUS NI|1700|32000|BT9 6SA|2
+DOH|Department of Health|2026-08-18|P - Contract Other Services|NHS BUSINESS SERVICES AUTHORITY|85240|85748.44|NE99 1UQ|3
+DOH|Department of Health|2026-08-03|Other Non EU Grants (Current)|ULSTER UNIVERSITY|187715|26945.89|BT52 1SA|4
+DOH|Department of Health|2026-08-03|P - Student Bursary|EDUCATION AUTHORITY|586444|145098.36|BT61 9AX|5
+DOH|Department of Health|2026-08-03|P - Course Fees - inside NI|EDUCATION AUTHORITY|586444|9535|BT61 9AX|6
+DOH|Department of Health|2026-08-10|P - Student Bursary|EDUCATION AUTHORITY|586571|34449.98|BT61 9AX|7
+DOH|Department of Health|2026-08-10|P - Course Fees - inside NI|EDUCATION AUTHORITY|586571|19069.99|BT61 9AX|8
+DOH|Department of Health|2026-08-10|P - Student Bursary|EDUCATION AUTHORITY|586586|86539.53|BT61 9AX|9
+DOH|Department of Health|2026-08-10|P - Course Fees - inside NI|EDUCATION AUTHORITY|586586|19070|BT61 9AX|10
+DOH|Department of Health|2026-08-24|P - Student Bursary|EDUCATION AUTHORITY|586658|105428.83|BT61 9AX|11
+DOH|Department of Health|2026-08-24|P - Course Fees - inside NI|EDUCATION AUTHORITY|586658|46855|BT61 9AX|12
+DOH|Department of Health|2026-08-17|Fixed Asset Clearing Account|UK HEALTH SECURITY AGENCY|5190040|2103091.25|SP4 0JG|13
+DOH|Department of Health|2026-08-10|P - Storage Costs|UK HEALTH SECURITY AGENCY|5195367|478846.94|SP4 0JG|14
+DOH|Department of Health|2026-08-12|P - Managed Services - Information Technology / Systems|DEPARTMENT OF FINANCE|10088447|47225|BT1 4NN|15
+DOH|Department of Health|2026-08-19|A - Other Staff Costs|DEPARTMENT OF FINANCE|10088514|98935.65|BT1 4NN|16
+DOH|Department of Health|2026-08-26|P - Contract Other Services|SCOTTISH GOVERNMENT|16645298|1787500|EH6 6QQ|17
+DOH|Department of Health|2026-08-26|P - Contract Other Services|SCOTTISH GOVERNMENT|16646302|1787500|EH6 6QQ|18
+DOH|Department of Health|2026-08-26|P - Contract Other Services|SCOTTISH GOVERNMENT|16647295|370000|EH6 6QQ|19
+DOH|Department of Health|2026-08-27|A - Pay - Temporary, Contract and Agency Staff - Non Industrial|DEPARTMENT OF FINANCE|20006373|402885.42|BT1 4NN|20
+DOH|Department of Health|2026-08-27|A - Pension Costs - Temporary, Contract and Agency Staff|DEPARTMENT OF FINANCE|20006373|127877.33|BT1 4NN|21
+DOH|Department of Health|2026-08-27|A - Employers NIC  - Temporary, Contract and Agency Staff|DEPARTMENT OF FINANCE|20006373|50181.06|BT1 4NN|22
+DOH|Department of Health|2026-08-18|P - Course Fees - inside NI|QUEEN'S UNIVERSITY OF BELFAST|80057279|1094311|BT7 1NN|23
+DOH|Department of Health|2026-08-18|P - Course Fees - inside NI|QUEEN'S UNIVERSITY OF BELFAST|80057280|58668.96|BT7 1NN|24
+DOH|Department of Health|2026-08-18|P - Course Fees - inside NI|QUEEN'S UNIVERSITY OF BELFAST|80057282|57258|BT7 1NN|25
+DOH|Department of Health|2026-08-05|A - Pay - Temporary, Contract and Agency Staff - Non Industrial|BELFAST HEALTH & SOCIAL CARE TRUST|A0161053|21591.52|BT79 0NS|26
+DOH|Department of Health|2026-08-05|A - Pension Costs - Temporary, Contract and Agency Staff|BELFAST HEALTH & SOCIAL CARE TRUST|A0161053|3437.62|BT79 0NS|27
+DOH|Department of Health|2026-08-05|A - Employers NIC  - Temporary, Contract and Agency Staff|BELFAST HEALTH & SOCIAL CARE TRUST|A0161053|3176.18|BT79 0NS|28
+DOH|Department of Health|2026-08-18|P - Course Fees - inside NI|ROYAL COLLEGE OF NURSING|ARGI/00019766|398580|W1G 0RN|29
+DOH|Department of Health|2026-08-13|EU Grants to NDPBs, other bodies & organisations within CGA (Current)|SPECIAL EU PROGRAMMES BODY*GRANTEE|ERS-DOH-EF00928248-ERS-3|2224410.06|BT2 7GP|30
+DOH|Department of Health|2026-08-13|Other Non EU Grants (Current)|SPECIAL EU PROGRAMMES BODY*GRANTEE|ERS-DOH-EF00928248-ERS-3|556102.52|BT2 7GP|31
+DOH|Department of Health|2026-08-17|P - Contract Other Services|DEPARTMENT OF HEALTH & SOCIAL CARE|FTI007075|239055.45|LS2 7UE|32
+
+```formats
+C2:C32 = mm-dd-yy
+G2:G32 = [$£-809]#,##0.00
+```

@@ -1,0 +1,259 @@
+# Report
+
+## Record 1
+```
+Warehouse Report - Q3 2026: Prepared by the ops team. Figures in units unless noted.
+```
+
+## Record 3
+```
+Warehouse Report - Q3 2026: Inventory
+```
+
+## Record 4
+```
+Warehouse Report - Q3 2026: SKU
+Unnamed: 1: Item
+Unnamed: 2: On hand
+Unnamed: 3: Reorder point
+Unnamed: 4: Below reorder?
+Unnamed: 7: Summary
+```
+
+## Record 5
+```
+Warehouse Report - Q3 2026: SKU-1001
+Unnamed: 1: Bolt M6
+Unnamed: 2: 331
+Unnamed: 3: 100
+Unnamed: 4: NO
+Unnamed: 7: Items below reorder
+Unnamed: 8: 5
+```
+
+## Record 6
+```
+Warehouse Report - Q3 2026: SKU-1002
+Unnamed: 1: Bolt M8
+Unnamed: 2: 404
+Unnamed: 3: 300
+Unnamed: 4: NO
+Unnamed: 7: Total on hand
+Unnamed: 8: 5531
+```
+
+## Record 7
+```
+Warehouse Report - Q3 2026: SKU-1003
+Unnamed: 1: Nut M6
+Unnamed: 2: 49
+Unnamed: 3: 75
+Unnamed: 4: YES
+Unnamed: 7: Open PO value
+Unnamed: 8: 8017
+```
+
+## Record 8
+```
+Warehouse Report - Q3 2026: SKU-1004
+Unnamed: 1: Washer
+Unnamed: 2: 840
+Unnamed: 3: 250
+Unnamed: 4: NO
+```
+
+## Record 9
+```
+Warehouse Report - Q3 2026: SKU-1005
+Unnamed: 1: Bracket
+Unnamed: 2: 96
+Unnamed: 3: 175
+Unnamed: 4: YES
+```
+
+## Record 10
+```
+Warehouse Report - Q3 2026: SKU-1006
+Unnamed: 1: Hinge
+Unnamed: 2: 596
+Unnamed: 3: 50
+Unnamed: 4: NO
+```
+
+## Record 11
+```
+Warehouse Report - Q3 2026: SKU-1007
+Unnamed: 1: Spring
+Unnamed: 2: 519
+Unnamed: 3: 125
+Unnamed: 4: NO
+```
+
+## Record 12
+```
+Warehouse Report - Q3 2026: SKU-1008
+Unnamed: 1: Gasket
+Unnamed: 2: 38
+Unnamed: 3: 75
+Unnamed: 4: YES
+```
+
+## Record 13
+```
+Warehouse Report - Q3 2026: SKU-1009
+Unnamed: 1: Clamp
+Unnamed: 2: 444
+Unnamed: 3: 200
+Unnamed: 4: NO
+```
+
+## Record 14
+```
+Warehouse Report - Q3 2026: SKU-1010
+Unnamed: 1: Rivet
+Unnamed: 2: 71
+Unnamed: 3: 125
+Unnamed: 4: YES
+```
+
+## Record 15
+```
+Warehouse Report - Q3 2026: SKU-1011
+Unnamed: 1: Pin
+Unnamed: 2: 92
+Unnamed: 3: 250
+Unnamed: 4: YES
+```
+
+## Record 16
+```
+Warehouse Report - Q3 2026: SKU-1012
+Unnamed: 1: Bearing
+Unnamed: 2: 434
+Unnamed: 3: 50
+Unnamed: 4: NO
+```
+
+## Record 17
+```
+Warehouse Report - Q3 2026: SKU-1013
+Unnamed: 1: Seal
+Unnamed: 2: 846
+Unnamed: 3: 275
+Unnamed: 4: NO
+```
+
+## Record 18
+```
+Warehouse Report - Q3 2026: SKU-1014
+Unnamed: 1: Spacer
+Unnamed: 2: 126
+Unnamed: 3: 125
+Unnamed: 4: NO
+```
+
+## Record 19
+```
+Warehouse Report - Q3 2026: SKU-1015
+Unnamed: 1: Shim
+Unnamed: 2: 645
+Unnamed: 3: 300
+Unnamed: 4: NO
+```
+
+## Record 23
+```
+Warehouse Report - Q3 2026: Pending orders
+```
+
+## Record 24
+```
+Warehouse Report - Q3 2026: PO
+Unnamed: 1: SKU
+Unnamed: 2: Qty
+Unnamed: 3: Unit cost
+Unnamed: 4: Line total
+```
+
+## Record 25
+```
+Warehouse Report - Q3 2026: PO-5001
+Unnamed: 1: SKU-1010
+Unnamed: 2: 150
+Unnamed: 3: 2.62
+Unnamed: 4: 393
+```
+
+## Record 26
+```
+Warehouse Report - Q3 2026: PO-5002
+Unnamed: 1: SKU-1007
+Unnamed: 2: 150
+Unnamed: 3: 4.39
+Unnamed: 4: 658.5
+```
+
+## Record 27
+```
+Warehouse Report - Q3 2026: PO-5003
+Unnamed: 1: SKU-1001
+Unnamed: 2: 950
+Unnamed: 3: 3.87
+Unnamed: 4: 3676.5
+```
+
+## Record 28
+```
+Warehouse Report - Q3 2026: PO-5004
+Unnamed: 1: SKU-1005
+Unnamed: 2: 750
+Unnamed: 3: 0.69
+Unnamed: 4: 517.5
+```
+
+## Record 29
+```
+Warehouse Report - Q3 2026: PO-5005
+Unnamed: 1: SKU-1002
+Unnamed: 2: 550
+Unnamed: 3: 2.54
+Unnamed: 4: 1397
+```
+
+## Record 30
+```
+Warehouse Report - Q3 2026: PO-5006
+Unnamed: 1: SKU-1011
+Unnamed: 2: 350
+Unnamed: 3: 0.51
+Unnamed: 4: 178.5
+```
+
+## Record 31
+```
+Warehouse Report - Q3 2026: PO-5007
+Unnamed: 1: SKU-1010
+Unnamed: 2: 400
+Unnamed: 3: 1.71
+Unnamed: 4: 684
+```
+
+## Record 32
+```
+Warehouse Report - Q3 2026: PO-5008
+Unnamed: 1: SKU-1009
+Unnamed: 2: 200
+Unnamed: 3: 2.56
+Unnamed: 4: 512
+```
+
+## Record 33
+```
+Warehouse Report - Q3 2026: Total
+Unnamed: 4: 8017
+```
+
+## Record 35
+```
+Warehouse Report - Q3 2026: Note: costs exclude freight.
+```

@@ -1,0 +1,34 @@
+{
+ "sheets": [
+  {
+   "name": "Plain",
+   "cells": {
+    "A1": {
+     "v": 1
+    },
+    "B1": {
+     "v": 2
+    }
+   },
+   "dropped": {
+    "charts": 2,
+    "conditional formats": 1,
+    "hyperlinks": 1
+   }
+  },
+  {
+   "name": "Second",
+   "cells": {
+    "A1": {
+     "v": "x"
+    },
+    "B1": {
+     "v": "y"
+    }
+   },
+   "dropped": {
+    "charts": 1
+   }
+  }
+ ]
+}

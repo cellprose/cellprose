@@ -1,0 +1,17 @@
+[
+ {
+  "type": "address",
+  "cell": "Table 1!K6",
+  "key": {
+   "A": 2
+  },
+  "labels": [
+   "B6",
+   "J3",
+   "K4"
+  ],
+  "q": "In BEA Table 1, which cell holds the seasonally adjusted annual rate for Personal consumption expenditures (line 2) in the second quarter of 2020? Give its cell address.",
+  "id": "q1",
+  "truth": "Table 1!K6"
+ }
+]

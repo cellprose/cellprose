@@ -1,0 +1,5 @@
+model,encoding,n,billed_in,tokenizer_count,tokenizer,count_vs_billed,count_vs_csv
+haiku55,csv,17,39302.705882352944,39302.705882352944,anthropic count_tokens,1.0,1.0
+haiku55,sheetmark_lean_gfm,17,43683.58823529412,43683.58823529412,anthropic count_tokens,1.0,1.111
+sonnet55,csv,17,39302.705882352944,39302.705882352944,anthropic count_tokens,1.0,1.0
+sonnet55,sheetmark_lean_gfm,17,43683.58823529412,43683.58823529412,anthropic count_tokens,1.0,1.111

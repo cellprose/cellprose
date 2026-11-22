@@ -1,0 +1,78 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_dam_fcffsimpleginzucorona",
+ "encoding": "markitdown",
+ "prompt_chars": 122196,
+ "prompt_sha256": "657c9b8356248e4cb7b0fc33a56cffa2428702e568bd8f13782c878ac7f22e3d",
+ "result": "{\"q1\":88.687837,\"q2\":68699.316015,\"q3\":\"Valuation output!B18\",\"q4\":[\"Valuation output!B16\",\"Valuation output!B17\",\"Input sheet!B58\"],\"q5\":[\"Cost of capital worksheet!B6\",\"Cost of capital worksheet!B48\",\"Cost of capital worksheet!E48\",\"Cost of capital worksheet!B49:E49\",\"Cost of capital worksheet!C45\",\"Cost of capital worksheet!B50\",\"Cost of capital worksheet!E50\",\"Input sheet!B31\",\"Valuation output!C12:L12\",\"Valuation output!C13:L13\",\"Valuation output!C14:L14\",\"Valuation output!B19:B21\",\"Valuation output!B23:B24\",\"Valuation output!B29\",\"Valuation output!B31\",\"Valuation output!B32:B33\",\"Valuation output!B35\",\"Summary Sheet!H29:H38\",\"Summary Sheet!C42:C51\",\"Summary Sheet!F42:F52\",\"Diagnostics!B8:B9\",\"Stories to Numbers!D29:D31\",\"Stories to Numbers!D35\",\"Stories to Numbers!D38\"]}",
+ "usage": {
+  "input_tokens": 3,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 56116,
+  "output_tokens": 4594,
+  "output_tokens_details": {
+   "thinking_tokens": 4339
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 3,
+   "outputTokens": 4594,
+   "cacheReadInputTokens": 56116,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 4339
+  }
+ },
+ "cost": 0.0079089,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 49.1,
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_e66d8415adb14c858f53c5557bb3d515",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "input_tokens": 56119,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 56116,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 4594,
+   "output_tokens_details": {
+    "reasoning_tokens": 4339
+   },
+   "total_tokens": 60713,
+   "billed_input_tokens": 56119,
+   "tokenizer_input_tokens_o200k": 56108,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 56108
+  },
+  "finished_at": "2026-11-07T09:18:42+00:00"
+ }
+}

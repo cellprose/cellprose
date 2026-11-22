@@ -1,0 +1,655 @@
+{
+ "version": 1,
+ "about": "Questions for the real-world held-out set (docs/PROTOCOL.md section 3). Each workbook is either a hand-written list of questions or a `table` rule. Ground truth is never typed: external/realworld.py computes it from the workbook (cached value for lookup, the cell itself for address, the formula's direct precedents for trace, a LibreOffice recalculation of the perturbed workbook for impact). `key` makes the builder check that the described row/cell is the only match, and `labels` lists the cells a reviewer reads to check the question text against the sheet (printed in review.md).",
+ "selection_rule": "Workbooks: every open-licence file in tests/real/ that holds a data table or formulas and encodes to under 150,000 tokens, plus the four native-.xlsx Damodaran models whose SHA-256 is pinned in tests/real/manifest.json. Chosen before any model run, from the sizes and formula counts in real-workbooks/MANIFEST.md. Table workbooks (`table`): rows at 20%, 50% and 80% of the data rows, the key column must identify the row uniquely, 2 lookups on the first two `lookups` columns, 1 address on `address`. Hand-written workbooks: 4-6 questions chosen for a spread of question types and layouts (label and value in separate regions, year headers in a row above, suppressed and footnoted values, a repeated label such as 'Services').",
+ "workbooks": {
+  "rw_irs_soi": {
+   "file": "irs_soi_20in11si.xlsx",
+   "questions": [
+    {
+     "type": "lookup",
+     "cell": "TBL11!B20",
+     "key": {
+      "A": "$50,000 under $75,000"
+     },
+     "labels": [
+      "A20",
+      "B4",
+      "B3"
+     ],
+     "q": "In IRS Table 1.1 (sheet TBL11), how many 'All returns' (number of returns) are in the '$50,000 under $75,000' size of adjusted gross income class?",
+     "rows": [
+      10,
+      29
+     ]
+    },
+    {
+     "type": "lookup",
+     "cell": "TBL11!L22",
+     "key": {
+      "A": "$100,000 under $200,000"
+     },
+     "labels": [
+      "A22",
+      "K4",
+      "L5"
+     ],
+     "q": "In IRS Table 1.1 (sheet TBL11), what is the taxable income amount for the '$100,000 under $200,000' size of adjusted gross income class?",
+     "rows": [
+      10,
+      29
+     ]
+    },
+    {
+     "type": "address",
+     "cell": "TBL11!U29",
+     "key": {
+      "A": "$10,000,000 or more"
+     },
+     "labels": [
+      "A29",
+      "U5"
+     ],
+     "q": "Which cell holds the average total income tax (dollars) for the '$10,000,000 or more' size of adjusted gross income class (first block of the table, 'Size of adjusted gross income')? Give its cell address.",
+     "rows": [
+      10,
+      29
+     ]
+    },
+    {
+     "type": "trace",
+     "cell": "TBL11!U27",
+     "key": {
+      "A": "$2,000,000 under $5,000,000"
+     },
+     "labels": [
+      "A27",
+      "U5"
+     ],
+     "q": "Consider the average total income tax (dollars) for the '$2,000,000 under $5,000,000' class. List the cells its formula reads directly (not indirectly).",
+     "rows": [
+      10,
+      29
+     ]
+    },
+    {
+     "type": "impact",
+     "cell": "TBL11!G26",
+     "factor": 1.1,
+     "key": {
+      "A": "$1,500,000 under $2,000,000"
+     },
+     "labels": [
+      "A26",
+      "G4"
+     ],
+     "q": "Suppose the number of taxable returns in the '$1,500,000 under $2,000,000' class were 10% higher. List every other cell whose value would change.",
+     "rows": [
+      10,
+      29
+     ]
+    }
+   ]
+  },
+  "rw_census_nrc": {
+   "file": "census_newresconst.xlsx",
+   "questions": [
+    {
+     "type": "lookup",
+     "cell": "Table 1 - Permits!B14",
+     "labels": [
+      "A11",
+      "A14",
+      "A4",
+      "B5",
+      "B6"
+     ],
+     "q": "In the sheet 'Table 1 - Permits', Table 1a (seasonally adjusted annual rate, thousands of units), what is the United States total for March 2023?"
+    },
+    {
+     "type": "lookup",
+     "cell": "Table 3 - Starts!K13",
+     "labels": [
+      "A11",
+      "A13",
+      "J5",
+      "K6"
+     ],
+     "q": "In the sheet 'Table 3 - Starts', Table 3a (seasonally adjusted annual rate), how many 1-unit housing units were started in the South in February 2023?"
+    },
+    {
+     "type": "address",
+     "cell": "Table 1 - Permits!L16",
+     "labels": [
+      "A16",
+      "L5",
+      "L6"
+     ],
+     "q": "In the sheet 'Table 1 - Permits', Table 1a, which cell holds the West total for May 2023? Give its cell address."
+    },
+    {
+     "type": "lookup",
+     "cell": "Table 1 - Permits!E15",
+     "labels": [
+      "A15",
+      "E5",
+      "E6"
+     ],
+     "q": "In the sheet 'Table 1 - Permits', Table 1a, how many permits for 5 units or more were issued in the United States in April 2023?"
+    },
+    {
+     "type": "lookup",
+     "cell": "Table 1 - Permits!B29",
+     "labels": [
+      "A29",
+      "B5",
+      "B6"
+     ],
+     "q": "In the sheet 'Table 1 - Permits', under Percent Change, what is the United States total change of December 2023 from December 2022 (as the decimal fraction stored in the cell)?"
+    }
+   ]
+  },
+  "rw_bea_gdp": {
+   "file": "bea_gdp4q22.xlsx",
+   "questions": [
+    {
+     "type": "lookup",
+     "cell": "Table 1!E5",
+     "key": {
+      "A": 1
+     },
+     "labels": [
+      "B5",
+      "E2"
+     ],
+     "q": "In BEA Table 1 (Real Gross Domestic Product: percent change), what is the percent change for Gross domestic product (GDP), line 1, in the 2022 column?"
+    },
+    {
+     "type": "lookup",
+     "cell": "Table 1!D17",
+     "key": {
+      "A": 13
+     },
+     "labels": [
+      "B17",
+      "D2"
+     ],
+     "q": "In BEA Table 1, what is the percent change in Residential fixed investment (line 13) for 2021?"
+    },
+    {
+     "type": "lookup",
+     "cell": "Table 1!E22",
+     "key": {
+      "A": 18
+     },
+     "labels": [
+      "B22",
+      "E2",
+      "B20"
+     ],
+     "q": "In BEA Table 1, what is the 2022 percent change for exports of services (line 18, the Services row under Exports)?"
+    },
+    {
+     "type": "address",
+     "cell": "Table 1!K6",
+     "key": {
+      "A": 2
+     },
+     "labels": [
+      "B6",
+      "J3",
+      "K4"
+     ],
+     "q": "In BEA Table 1, which cell holds the seasonally adjusted annual rate for Personal consumption expenditures (line 2) in the second quarter of 2020? Give its cell address."
+    }
+   ]
+  },
+  "rw_worldbank_gdp": {
+   "file": "worldbank_gdp.xlsx",
+   "questions": [
+    {
+     "type": "lookup",
+     "at": {
+      "sheet": "Data",
+      "row": {
+       "A": "Germany"
+      },
+      "col": {
+       "4": "2022"
+      }
+     },
+     "labels": [
+      "A60",
+      "BO4"
+     ],
+     "q": "In the 'Data' sheet, what is GDP (current US$) for Germany in 2022?"
+    },
+    {
+     "type": "lookup",
+     "at": {
+      "sheet": "Data",
+      "row": {
+       "A": "Japan"
+      },
+      "col": {
+       "4": "2021"
+      }
+     },
+     "labels": [
+      "A124",
+      "BN4"
+     ],
+     "q": "In the 'Data' sheet, what is GDP (current US$) for Japan in 2021?"
+    },
+    {
+     "type": "address",
+     "at": {
+      "sheet": "Data",
+      "row": {
+       "A": "India"
+      },
+      "col": {
+       "4": "2023"
+      }
+     },
+     "labels": [
+      "A114",
+      "BP4"
+     ],
+     "q": "Which cell holds GDP (current US$) for India in 2023 in the 'Data' sheet? Give its cell address."
+    },
+    {
+     "type": "lookup",
+     "at": {
+      "sheet": "Data",
+      "row": {
+       "A": "Kenya"
+      },
+      "col": {
+       "4": "2022"
+      }
+     },
+     "labels": [
+      "A126",
+      "BO4"
+     ],
+     "q": "In the 'Data' sheet, what is GDP (current US$) for Kenya in 2022?"
+    }
+   ]
+  },
+  "rw_dam_fcffginzu": {
+   "file": "dam_fcffginzu.xlsx",
+   "questions": [
+    {
+     "type": "lookup",
+     "cell": "Valuation Model!F71",
+     "labels": [
+      "B71"
+     ],
+     "q": "In the sheet 'Valuation Model', what is the 'Value of equity per share'?",
+     "key": {
+      "B": "Value of equity per share ="
+     }
+    },
+    {
+     "type": "lookup",
+     "cell": "Valuation Model!D58",
+     "labels": [
+      "B58"
+     ],
+     "q": "In the sheet 'Valuation Model', what is the 'Cost of Capital in Stable Phase'?",
+     "key": {
+      "B": "Cost of Capital in Stable Phase ="
+     }
+    },
+    {
+     "type": "address",
+     "cell": "Valuation Model!F62",
+     "labels": [
+      "B62"
+     ],
+     "q": "In the sheet 'Valuation Model', which cell holds the present value of the terminal value of the firm (the row that starts 'Present Value of Terminal Value')? Give its cell address.",
+     "key": {
+      "B": "Present Value of Terminal Value of Firm ="
+     }
+    },
+    {
+     "type": "trace",
+     "cell": "Valuation Model!F68",
+     "labels": [
+      "B68"
+     ],
+     "q": "Consider 'Market Value of Equity =' in the sheet 'Valuation Model'. List the cells its formula reads directly (not indirectly).",
+     "key": {
+      "B": "Market Value of Equity ="
+     }
+    },
+    {
+     "type": "trace",
+     "cell": "Valuation Model!F73",
+     "labels": [
+      "B73"
+     ],
+     "q": "Consider '% Under or Over valued =' in the sheet 'Valuation Model'. List the cells its formula reads directly (not indirectly).",
+     "key": {
+      "B": "% Under or Over valued ="
+     }
+    },
+    {
+     "type": "impact",
+     "cell": "Master Inputs Start here!B32",
+     "factor": 1.1,
+     "labels": [
+      "A32"
+     ],
+     "q": "Suppose the number of shares outstanding in 'Master Inputs Start here' (cell B32) were 10% higher. List every other cell whose value would change."
+    }
+   ]
+  },
+  "rw_dam_fcffsimpleginzu": {
+   "file": "dam_fcffsimpleginzu.xlsx",
+   "questions": [
+    {
+     "type": "lookup",
+     "cell": "Valuation output!B33",
+     "labels": [
+      "A33"
+     ],
+     "q": "In the sheet 'Valuation output', what is the 'Estimated value /share'?",
+     "key": {
+      "A": "Estimated value /share"
+     }
+    },
+    {
+     "type": "lookup",
+     "cell": "Valuation output!B20",
+     "labels": [
+      "A20"
+     ],
+     "q": "In the sheet 'Valuation output', what is 'PV (CF over next 10 years)'?",
+     "key": {
+      "A": "PV (CF over next 10 years)"
+     }
+    },
+    {
+     "type": "address",
+     "cell": "Valuation output!B31",
+     "labels": [
+      "A31"
+     ],
+     "q": "In the sheet 'Valuation output', which cell holds 'Value of equity in common stock'? Give its cell address.",
+     "key": {
+      "A": "Value of equity in common stock"
+     }
+    },
+    {
+     "type": "trace",
+     "cell": "Valuation output!B29",
+     "labels": [
+      "A29"
+     ],
+     "q": "Consider 'Value of equity' in the sheet 'Valuation output'. List the cells its formula reads directly (not indirectly).",
+     "key": {
+      "A": "Value of equity"
+     }
+    },
+    {
+     "type": "trace",
+     "cell": "Valuation output!B35",
+     "labels": [
+      "A35"
+     ],
+     "q": "Consider 'Price as % of value' in the sheet 'Valuation output'. List the cells its formula reads directly (not indirectly).",
+     "key": {
+      "A": "Price as % of value"
+     }
+    },
+    {
+     "type": "impact",
+     "cell": "Input sheet!B21",
+     "factor": 1.1,
+     "labels": [
+      "A21"
+     ],
+     "q": "Suppose the number of shares outstanding in 'Input sheet' (cell B18) were 10% higher. List every other cell whose value would change."
+    }
+   ]
+  },
+  "rw_dam_fcffsimpleginzucorona": {
+   "file": "dam_fcffsimpleginzuCorona.xlsx",
+   "questions": [
+    {
+     "type": "lookup",
+     "cell": "Valuation output!B33",
+     "labels": [
+      "A33"
+     ],
+     "q": "In the sheet 'Valuation output', what is the 'Estimated value /share'?",
+     "key": {
+      "A": "Estimated value /share"
+     }
+    },
+    {
+     "type": "lookup",
+     "cell": "Valuation output!B24",
+     "labels": [
+      "A24"
+     ],
+     "q": "In the sheet 'Valuation output', what is the 'Value of operating assets'?",
+     "key": {
+      "A": "Value of operating assets ="
+     }
+    },
+    {
+     "type": "address",
+     "cell": "Valuation output!B18",
+     "labels": [
+      "A18"
+     ],
+     "q": "In the sheet 'Valuation output', which cell holds the 'Terminal value'? Give its cell address.",
+     "key": {
+      "A": "Terminal value"
+     }
+    },
+    {
+     "type": "trace",
+     "cell": "Valuation output!B18",
+     "labels": [
+      "A18"
+     ],
+     "q": "Consider 'Terminal value' in the sheet 'Valuation output'. List the cells its formula reads directly (not indirectly).",
+     "key": {
+      "A": "Terminal value"
+     }
+    },
+    {
+     "type": "impact",
+     "cell": "Input sheet!B18",
+     "factor": 1.1,
+     "labels": [
+      "A18"
+     ],
+     "q": "Suppose the number of shares outstanding in 'Input sheet' (cell B18) were 10% higher. List every other cell whose value would change."
+    }
+   ]
+  },
+  "rw_dam_capstru": {
+   "file": "dam_capstru.xlsx",
+   "questions": [
+    {
+     "type": "lookup",
+     "cell": "Optimal CS Worksheet!E19",
+     "labels": [
+      "C19",
+      "E11"
+     ],
+     "q": "In the sheet 'Optimal CS Worksheet', what is the current WACC (the 'Current' column of the row labelled WACC)?",
+     "key": {
+      "C": "WACC"
+     }
+    },
+    {
+     "type": "lookup",
+     "cell": "Optimal CS Worksheet!F21",
+     "labels": [
+      "C21",
+      "F11"
+     ],
+     "q": "In the sheet 'Optimal CS Worksheet', what is the optimal enterprise value (the 'Optimal' column of the row labelled 'Enterprise value')?",
+     "key": {
+      "C": "Enterprise value"
+     }
+    },
+    {
+     "type": "address",
+     "cell": "Optimal CS Worksheet!E16",
+     "labels": [
+      "C16",
+      "E11"
+     ],
+     "q": "In the sheet 'Optimal CS Worksheet', which cell holds the current 'Rating on Debt'? Give its cell address.",
+     "key": {
+      "C": "Rating on Debt"
+     }
+    },
+    {
+     "type": "trace",
+     "cell": "Optimal CS Worksheet!E15",
+     "labels": [
+      "C15"
+     ],
+     "q": "Consider the current 'Cost of Equity' in the sheet 'Optimal CS Worksheet'. List the cells its formula reads directly (not indirectly)."
+    },
+    {
+     "type": "trace",
+     "cell": "Optimal CS Worksheet!G12",
+     "labels": [
+      "C12",
+      "G11"
+     ],
+     "q": "Consider the 'Change' column of the 'D/(D+E) Ratio' row in the sheet 'Optimal CS Worksheet'. List the cells its formula reads directly (not indirectly)."
+    }
+   ]
+  },
+  "rw_ogl00_rail_codes": {
+   "file": "ogl00_Translink_Northern_Ireland_Rai.xlsx",
+   "table": {
+    "sheet": "Sheet2",
+    "header_row": 1,
+    "key": "E",
+    "lookups": [
+     "H",
+     "I"
+    ],
+    "address": "H"
+   }
+  },
+  "rw_ogl01_dof_payments": {
+   "file": "ogl01_Department_of_Finance___Depart.xlsx",
+   "table": {
+    "sheet": "Page1",
+    "header_row": 1,
+    "key": "F",
+    "lookups": [
+     "G",
+     "E"
+    ],
+    "address": "H"
+   }
+  },
+  "rw_ogl04_doh_payments": {
+   "file": "ogl04_Department_of_Health___Departm.xlsx",
+   "table": {
+    "sheet": "For upload",
+    "header_row": 1,
+    "key": "F",
+    "lookups": [
+     "G",
+     "E"
+    ],
+    "address": "H"
+   }
+  },
+  "rw_ogl05_purchase_orders": {
+   "file": "ogl05_Purchase_Orders_over__5000.xlsx",
+   "table": {
+    "sheet": "Sheet 1",
+    "header_row": 1,
+    "key": "B",
+    "lookups": [
+     "K",
+     "E"
+    ],
+    "address": "G"
+   }
+  },
+  "rw_ogl06_plymouth_spend": {
+   "file": "ogl06_Spend_over__25_000_in_Plymouth.xlsx",
+   "table": {
+    "sheet": "BI report",
+    "header_row": 2,
+    "key": "G",
+    "lookups": [
+     "H",
+     "F"
+    ],
+    "address": "D"
+   }
+  },
+  "rw_ogl07_export_establishments": {
+   "file": "ogl07_Establishments_approved_to_exp.xlsx",
+   "table": {
+    "sheet": "Sheet1",
+    "header_row": 1,
+    "key": [
+     "A",
+     "C"
+    ],
+    "lookups": [
+     "B",
+     "B"
+    ],
+    "address": "D"
+   }
+  },
+  "rw_ogl12_purchase_cards": {
+   "file": "ogl12_Purchase_Card_Transactions.xlsx",
+   "table": {
+    "sheet": "NOV 18",
+    "header_row": 1,
+    "key": "I",
+    "lookups": [
+     "J",
+     "D"
+    ],
+    "address": "E"
+   }
+  },
+  "rw_ogl13_worcs_spend": {
+   "file": "ogl13_Spend_over__25_000_in_Worceste.xlsx",
+   "table": {
+    "sheet": "Sheet1",
+    "header_row": 3,
+    "key": "F",
+    "lookups": [
+     "D",
+     "E"
+    ],
+    "address": "E"
+   }
+  },
+  "rw_ogl14_cornwall_spend": {
+   "file": "ogl14_Cornwall_Partnership_NHS_Found.xlsx",
+   "table": {
+    "sheet": "January 26 for Publication",
+    "header_row": 1,
+    "key": "G",
+    "lookups": [
+     "H",
+     "F"
+    ],
+    "address": "D"
+   }
+  }
+ }
+}

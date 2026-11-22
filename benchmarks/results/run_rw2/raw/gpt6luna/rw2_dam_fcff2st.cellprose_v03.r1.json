@@ -1,0 +1,78 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_fcff2st",
+ "encoding": "cellprose_v03",
+ "prompt_chars": 19141,
+ "prompt_sha256": "0c0409ae1bd7690aebea3119465ba2479ace502385fda94cd92116233411a7e8",
+ "result": "{\"q1\":6494.75,\"q2\":[\"NewFCFF2Stage!D138:M138\"],\"q3\":[\"NewFCFF2Stage!E43\",\"NewFCFF2Stage!E133\",\"NewFCFF2Stage!D134\",\"NewFCFF2Stage!D135\",\"NewFCFF2Stage!D136\"],\"q4\":[\"NewFCFF2Stage!C67\",\"NewFCFF2Stage!D122\",\"NewFCFF2Stage!D123\",\"NewFCFF2Stage!D127:D129\",\"NewFCFF2Stage!D134:M138\",\"NewFCFF2Stage!N134:N137\",\"NewFCFF2Stage!E141\",\"NewFCFF2Stage!E147\",\"NewFCFF2Stage!F149:F151\",\"NewFCFF2Stage!F154\",\"NewFCFF2Stage!F156\"],\"q5\":[]}",
+ "usage": {
+  "input_tokens": 6603,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1090,
+  "output_tokens_details": {
+   "thinking_tokens": 896
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 6603,
+   "outputTokens": 1090,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 896
+  }
+ },
+ "cost": 0.0012053,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 14.4,
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_5e59a07a22874cada569fe39f631d45e",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "input_tokens": 6603,
+   "input_tokens_details": {
+    "cache_write_tokens": 6600,
+    "cached_tokens": 0,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 1090,
+   "output_tokens_details": {
+    "reasoning_tokens": 896
+   },
+   "total_tokens": 7693,
+   "billed_input_tokens": 6603,
+   "tokenizer_input_tokens_o200k": 6592,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 6592
+  },
+  "finished_at": "2026-11-11T14:40:08+00:00"
+ }
+}

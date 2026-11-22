@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_phillip_platter",
+ "encoding": "markitdown",
+ "prompt_chars": 174050,
+ "prompt_sha256": "751ce42895c96e2b58175035338a18406d57f90670f6b33bfb9cffab7ec81bce",
+ "result": "```json\n{\"q1\": [\"day 4!H104\", \"day 4!H106\"], \"q2\": [], \"q3\": [\"EES-Schedule day 1!D104\", \"EES-Schedule day 1!F108\", \"EES-Schedule day 1!F110\"], \"q4\": []}\n```\n\nI could not see any formulas in the workbook, only cell values, so these are best guesses. Row and column positions are inferred from the layout, and the day 4 addresses in q1 are especially uncertain.",
+ "usage": {
+  "input_tokens": 112840,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1373,
+  "output_tokens_details": {
+   "thinking_tokens": 1216
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 112840,
+   "outputTokens": 1373,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1216
+  }
+ },
+ "cost": 0.0598525,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261111T134446Z-4cc39c",
+  "started_at": "2026-11-11T13:44:46+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "cba87b44e49e730da9903ad3cb3b2852ebdf23db970aa87a877e251df0d15035",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 7.8,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 112840,
+   "output_tokens": 1373,
+   "output_tokens_details": {
+    "thinking_tokens": 1216
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 112840
+  },
+  "finished_at": "2026-11-11T14:28:37+00:00"
+ }
+}

@@ -1,0 +1,47 @@
+---
+sheetmark: 0.1
+profile: full
+sheets: [Drivers, Plan]
+not_preserved: [styles]
+---
+
+# Sheet: Drivers
+
+## Range A1:B7
+
+| # | A: Driver | B: Value |
+|---|---|---|
+| 2 | Price inflation | 0.03 |
+| 3 | Wage inflation | 0.03 |
+| 4 | Rent escalation | 0.03 |
+| 5 | Volume growth | 0.05 |
+| 6 | Marketing growth | 0.05 |
+| 7 | Utilities inflation | 0.03 |
+
+# Sheet: Plan
+
+## Range A1:E10
+
+| # | A: Line | B: Y1 | C: Y2 | D: Y3 | E: Y4 |
+|---|---|---|---|---|---|
+| 2 | Volume | 50000 | 52500 | 55125 | 57881.25 |
+| 3 | Unit price | 20 | 20.6 | 21.218 | 21.85454 |
+| 4 | Wages | 400000 | 412000 | 424360 | 437090.8 |
+| 5 | Rent | 120000 | 123600 | 127308 | 131127.24 |
+| 6 | Marketing | 90000 | 94500 | 99225 | 104186.25 |
+| 7 | Utilities | 30000 | 30900 | 31827 | 32781.81 |
+| 8 | Revenue | 1000000 | 1081500 | 1169642.25 | 1264968.093 |
+| 9 | Total costs | 640000 | 661000 | 682720 | 705186.1 |
+| 10 | Profit | 360000 | 420500 | 486922.25 | 559781.9934 |
+
+```formulas
+C2:E2 = B2*(1+Drivers!$B$5)
+C3:E3 = B3*(1+Drivers!$B$2)
+C4:E4 = B4*(1+Drivers!$B$3)
+C5:E5 = B5*(1+Drivers!$B$4)
+C6:E6 = B6*(1+Drivers!$B$6)
+C7:E7 = B7*(1+Drivers!$B$7)
+B8:E8 = B2*B3
+B9:E9 = SUM(B4:B7)
+B10:E10 = B8-B9
+```

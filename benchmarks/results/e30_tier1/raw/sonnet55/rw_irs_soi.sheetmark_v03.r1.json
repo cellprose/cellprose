@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_irs_soi",
+ "encoding": "sheetmark_v03",
+ "prompt_chars": 14975,
+ "prompt_sha256": "de572fa4ffcd45f78e3d352064bece428ef55204f4c3204f50bd032090859495",
+ "result": "Row mapping: row 20 is $50,000 under $75,000, so B20 = 22602996.\n\nq2: row 22 is $100,000 under $200,000. Taxable income amount is column L, so L22 = 2458885718. The columns are G=number of taxable returns, H=percent, I=AGI amount, J=percent, K=taxable income number of returns, L=taxable income amount.\n\nq3: row 29 is $10,000,000 or more, and column U holds the average, so U29.\n\nq4: row 27 is $2,000,000 under $5,000,000. The formula U27 = Q27*1000/G27, so it reads Q27 and G27.\n\nq5: Row 26 is $1,500,000 under $2,000,000, so G26 changes. Cells that depend on G26 are those whose formulas reference it. The only formulas are U25:U29, so U26 depends on G26 = Q26*1000/G26. Nothing else is a formula, so the answer is U26.\n\n{\"q1\": 22602996, \"q2\": 2458885718, \"q3\": \"TBL11!U29\", \"q4\": [\"TBL11!Q27\", \"TBL11!G27\"], \"q5\": [\"TBL11!U26\"]}",
+ "usage": {
+  "input_tokens": 8210,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 391,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 8210,
+   "outputTokens": 391,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.02033,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 3.2,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 8210,
+   "output_tokens": 391,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 8210
+  },
+  "finished_at": "2026-11-07T09:14:45+00:00"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "model": "sonnet55",
+ "workbook": "08_loan_schedule",
+ "encoding": "sheetmark_lean_gfm_nopipe",
+ "prompt_chars": 2678,
+ "prompt_sha256": "f99dc9e30c30828b704574197a2e45d9a141a4cef4919a9068fd53f45501010b",
+ "result": "{\"q1\":129050,\"q2\":17277.5,\"q3\":11136.6,\"q4\":\"Loan!D12\",\"q5\":[\"Loan!F7\"],\"q6\":[\"Loan!B12\",\"Loan!B2\"],\"q7\":[\"Loan!B4\",\"Loan!B7:B30\",\"Loan!C7:C30\",\"Loan!D7:D30\",\"Loan!E7:E30\",\"Loan!F7:F30\",\"Loan!D32\"]}",
+ "usage": {
+  "input_tokens": 1418,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 399,
+  "output_tokens_details": {
+   "thinking_tokens": 256
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 1418,
+   "outputTokens": 399,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 256
+  }
+ },
+ "cost": 0.006826,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261010T051113Z-1cce47",
+  "started_at": "2026-10-10T05:11:13+00:00",
+  "git_sha": "b4d0b9c",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "6fcc7fe80dfd05ee580a20abc2ef6488b77b3463260a0d44f0f6bfa9ec522753",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 2,
+  "wall_seconds": 3.1,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1418,
+   "output_tokens": 399,
+   "output_tokens_details": {
+    "thinking_tokens": 256
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 1418
+  },
+  "finished_at": "2026-10-10T05:16:14+00:00"
+ }
+}

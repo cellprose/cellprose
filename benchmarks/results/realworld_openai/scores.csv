@@ -1,0 +1,403 @@
+rep,set,model,workbook,encoding,qid,task,score,exact,failed,answer
+r0,standard,gpt61sol,rw_bea_gdp,csv,q1,lookup,1.0,1.0,0,2.1
+r0,standard,gpt61sol,rw_bea_gdp,csv,q2,lookup,1.0,1.0,0,10.7
+r0,standard,gpt61sol,rw_bea_gdp,csv,q3,lookup,1.0,1.0,0,8.7
+r0,standard,gpt61sol,rw_bea_gdp,csv,q4,address,1.0,1.0,0,"""Table 1!K6"""
+r0,standard,gpt61sol,rw_bea_gdp,markitdown,q1,lookup,1.0,1.0,0,2.1
+r0,standard,gpt61sol,rw_bea_gdp,markitdown,q2,lookup,1.0,1.0,0,10.7
+r0,standard,gpt61sol,rw_bea_gdp,markitdown,q3,lookup,1.0,1.0,0,8.7
+r0,standard,gpt61sol,rw_bea_gdp,markitdown,q4,address,1.0,1.0,0,"""Table 1!K6"""
+r0,standard,gpt61sol,rw_bea_gdp,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,2.1
+r0,standard,gpt61sol,rw_bea_gdp,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,10.7
+r0,standard,gpt61sol,rw_bea_gdp,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8.7
+r0,standard,gpt61sol,rw_bea_gdp,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Table 1!K6"""
+r0,standard,gpt61sol,rw_census_nrc,csv,q1,lookup,1.0,1.0,0,1437
+r0,standard,gpt61sol,rw_census_nrc,csv,q2,lookup,1.0,1.0,0,514
+r0,standard,gpt61sol,rw_census_nrc,csv,q3,address,1.0,1.0,0,"""'Table 1 - Permits'!L16"""
+r0,standard,gpt61sol,rw_census_nrc,csv,q4,lookup,1.0,1.0,0,503
+r0,standard,gpt61sol,rw_census_nrc,csv,q5,lookup,1.0,1.0,0,0.061
+r0,standard,gpt61sol,rw_census_nrc,markitdown,q1,lookup,1.0,1.0,0,1437
+r0,standard,gpt61sol,rw_census_nrc,markitdown,q2,lookup,1.0,1.0,0,514
+r0,standard,gpt61sol,rw_census_nrc,markitdown,q3,address,1.0,1.0,0,"""'Table 1 - Permits'!L16"""
+r0,standard,gpt61sol,rw_census_nrc,markitdown,q4,lookup,1.0,1.0,0,503
+r0,standard,gpt61sol,rw_census_nrc,markitdown,q5,lookup,1.0,1.0,0,0.061
+r0,standard,gpt61sol,rw_census_nrc,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1437
+r0,standard,gpt61sol,rw_census_nrc,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,514
+r0,standard,gpt61sol,rw_census_nrc,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'Table 1 - Permits'!L16"""
+r0,standard,gpt61sol,rw_census_nrc,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,503
+r0,standard,gpt61sol,rw_census_nrc,sheetmark_lean_gfm,q5,lookup,1.0,1.0,0,0.061
+r0,standard,gpt61sol,rw_dam_capstru,csv,q1,lookup,1.0,1.0,0,0.09567120276
+r0,standard,gpt61sol,rw_dam_capstru,csv,q2,lookup,1.0,1.0,0,218233.4082
+r0,standard,gpt61sol,rw_dam_capstru,csv,q3,address,1.0,1.0,0,"""'Optimal CS Worksheet'!E16"""
+r0,standard,gpt61sol,rw_dam_capstru,csv,q4,trace,0.6667,0.0,0,"[""'Optimal CS Worksheet'!F7"", ""'Optimal CS Worksheet'!E14"", ""'Optimal CS Worksheet'!C8""]"
+r0,standard,gpt61sol,rw_dam_capstru,csv,q5,trace,1.0,1.0,0,"[""'Optimal CS Worksheet'!F12"", ""'Optimal CS Worksheet'!E12""]"
+r0,standard,gpt61sol,rw_dam_capstru,markitdown,q1,lookup,1.0,1.0,0,0.095671
+r0,standard,gpt61sol,rw_dam_capstru,markitdown,q2,lookup,1.0,1.0,0,218233.40819
+r0,standard,gpt61sol,rw_dam_capstru,markitdown,q3,address,1.0,1.0,0,"""'Optimal CS Worksheet'!E16"""
+r0,standard,gpt61sol,rw_dam_capstru,markitdown,q4,trace,0.6667,0.0,0,"[""'Optimal CS Worksheet'!F7"", ""'Optimal CS Worksheet'!E14"", ""'Optimal CS Worksheet'!C8""]"
+r0,standard,gpt61sol,rw_dam_capstru,markitdown,q5,trace,1.0,1.0,0,"[""'Optimal CS Worksheet'!F12"", ""'Optimal CS Worksheet'!E12""]"
+r0,standard,gpt61sol,rw_dam_capstru,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,0.095671
+r0,standard,gpt61sol,rw_dam_capstru,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,218233
+r0,standard,gpt61sol,rw_dam_capstru,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'Optimal CS Worksheet'!E16"""
+r0,standard,gpt61sol,rw_dam_capstru,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""'Optimal CS Worksheet'!F7"", ""'Optimal CS Worksheet'!F4"", ""'Optimal CS Worksheet'!C8""]"
+r0,standard,gpt61sol,rw_dam_capstru,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""'Optimal CS Worksheet'!F12"", ""'Optimal CS Worksheet'!E12""]"
+r0,standard,gpt61sol,rw_dam_fcffginzu,csv,q1,lookup,1.0,1.0,0,377.140217
+r0,standard,gpt61sol,rw_dam_fcffginzu,csv,q2,lookup,1.0,1.0,0,0.08300988546
+r0,standard,gpt61sol,rw_dam_fcffginzu,csv,q3,address,1.0,1.0,0,"""Valuation Model!F62"""
+r0,standard,gpt61sol,rw_dam_fcffginzu,csv,q4,trace,1.0,1.0,0,"[""Valuation Model!F65"", ""Valuation Model!F66"", ""Valuation Model!F67""]"
+r0,standard,gpt61sol,rw_dam_fcffginzu,csv,q5,trace,1.0,1.0,0,"[""Valuation Model!F72"", ""Valuation Model!F71""]"
+r0,standard,gpt61sol,rw_dam_fcffginzu,csv,q6,impact,0.8472,0.0,0,"[""Master Inputs Start here!B59"", ""Master Inputs Start here!B61"", ""Valuation Model!D16:D17"", ""Valuation Model!D27:D28"", ""Valuation Model!D30:D31"", ""Valuation Model!D47:L47"", ""Valuation Model!D48:M49"", ""Valuation Model!F61:F63"", ""Valuation Model!F65"", ""Valuation Model!F68"", ""Valuation Model!F70:F71"", "
+r0,standard,gpt61sol,rw_dam_fcffginzu,markitdown,q1,lookup,1.0,1.0,0,377.140217
+r0,standard,gpt61sol,rw_dam_fcffginzu,markitdown,q2,lookup,1.0,1.0,0,0.08301
+r0,standard,gpt61sol,rw_dam_fcffginzu,markitdown,q3,address,1.0,1.0,0,"""'Valuation Model'!F62"""
+r0,standard,gpt61sol,rw_dam_fcffginzu,markitdown,q4,trace,1.0,1.0,0,"[""'Valuation Model'!F65"", ""'Valuation Model'!F66"", ""'Valuation Model'!F67""]"
+r0,standard,gpt61sol,rw_dam_fcffginzu,markitdown,q5,trace,1.0,1.0,0,"[""'Valuation Model'!F71"", ""'Valuation Model'!F72""]"
+r0,standard,gpt61sol,rw_dam_fcffginzu,markitdown,q6,impact,0.9444,0.0,0,"[""'Master Inputs Start here'!B59"", ""'Master Inputs Start here'!B61"", ""'Valuation Model'!D16:D17"", ""'Valuation Model'!D27:D28"", ""'Valuation Model'!D30:D31"", ""'Valuation Model'!D47:L47"", ""'Valuation Model'!D48:M49"", ""'Valuation Model'!F61:F63"", ""'Valuation Model'!F65"", ""'Valuation Model'!F68"", ""'Valua"
+r0,standard,gpt61sol,rw_dam_fcffginzu,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,377.14
+r0,standard,gpt61sol,rw_dam_fcffginzu,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,0.08301
+r0,standard,gpt61sol,rw_dam_fcffginzu,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Valuation Model!F62"""
+r0,standard,gpt61sol,rw_dam_fcffginzu,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Valuation Model!F65"", ""Valuation Model!F66"", ""Valuation Model!F67""]"
+r0,standard,gpt61sol,rw_dam_fcffginzu,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Valuation Model!F72"", ""Valuation Model!F71""]"
+r0,standard,gpt61sol,rw_dam_fcffginzu,sheetmark_lean_gfm,q6,impact,0.9444,0.0,0,"[""Master Inputs Start here!B59"", ""Master Inputs Start here!B61"", ""Valuation Model!D16"", ""Valuation Model!D17"", ""Valuation Model!D27"", ""Valuation Model!D28"", ""Valuation Model!D30"", ""Valuation Model!D31"", ""Valuation Model!D47:M49"", ""Valuation Model!F61:F63"", ""Valuation Model!F65"", ""Valuation Model!F68"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,csv,q1,lookup,1.0,1.0,0,7.18784027
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,csv,q2,lookup,1.0,1.0,0,16394.53893
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,csv,q3,address,1.0,1.0,0,"""Valuation output!B31"""
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,csv,q4,trace,1.0,1.0,0,"[""Valuation output!B24:B28""]"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,csv,q5,trace,1.0,1.0,0,"[""Valuation output!B34"", ""Valuation output!B33""]"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,csv,q6,impact,0.7882,0.0,0,"[""Input sheet!B35"", ""Input sheet!I31"", ""Valuation output!C12:K12"", ""Valuation output!C13:L13"", ""Valuation output!C14:L14"", ""Valuation output!B19:B21"", ""Valuation output!B23:B24"", ""Valuation output!B29"", ""Valuation output!B31:B33"", ""Valuation output!B35"", ""Stories to Numbers!D15"", ""Stories to Numbers"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,markitdown,q1,lookup,1.0,1.0,0,7.18784
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,markitdown,q2,lookup,1.0,1.0,0,16394.538929
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,markitdown,q3,address,1.0,1.0,0,"""'Valuation output'!B31"""
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,markitdown,q4,trace,1.0,1.0,0,"[""'Valuation output'!B24:B28""]"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,markitdown,q5,trace,1.0,1.0,0,"[""'Valuation output'!B34"", ""'Valuation output'!B33""]"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,markitdown,q6,impact,0.9064,0.0,0,"[""'Input sheet'!B35"", ""'Input sheet'!I31"", ""'Valuation output'!C12:K12"", ""'Valuation output'!C13:L14"", ""'Valuation output'!B19:B21"", ""'Valuation output'!B23:B24"", ""'Valuation output'!B29"", ""'Valuation output'!B31:B33"", ""'Valuation output'!B35"", ""'Stories to Numbers'!D15"", ""'Stories to Numbers'!D31:D"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,7.18784
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,16394.5
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'Valuation output'!B31"""
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""'Valuation output'!B24"", ""'Valuation output'!B25"", ""'Valuation output'!B26"", ""'Valuation output'!B27"", ""'Valuation output'!B28""]"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""'Valuation output'!B34"", ""'Valuation output'!B33""]"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q6,impact,0.1419,0.0,0,"[""'Input sheet'!I27"", ""'Input sheet'!I29"", ""'Input sheet'!J36"", ""'Valuation output'!B27"", ""'Valuation output'!B29"", ""'Valuation output'!B31"", ""'Valuation output'!B33"", ""'Valuation output'!B35"", ""'Valuation output'!B39:L39"", ""'Valuation output'!B40:L40"", ""'Stories to Numbers'!B13"", ""'Stories to Numbe"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,csv,q1,lookup,1.0,1.0,0,88.68783748
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,csv,q2,lookup,1.0,1.0,0,68699.31602
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,csv,q3,address,1.0,1.0,0,"""Valuation output!B18"""
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,csv,q4,trace,1.0,1.0,0,"[""Valuation output!B16"", ""Valuation output!B17"", ""Valuation output!M2""]"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,csv,q5,impact,0.9655,0.0,0,"[""Input sheet!B31"", ""Cost of capital worksheet!B6"", ""Cost of capital worksheet!C45"", ""Cost of capital worksheet!B48"", ""Cost of capital worksheet!E48"", ""Cost of capital worksheet!B49:C49"", ""Cost of capital worksheet!B50"", ""Cost of capital worksheet!E50"", ""Option value!D9"", ""Option value!F14"", ""Option"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,markitdown,q1,lookup,1.0,1.0,0,88.687837
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,markitdown,q2,lookup,1.0,1.0,0,68699.316015
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,markitdown,q3,address,1.0,1.0,0,"""'Valuation output'!B18"""
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,markitdown,q4,trace,1.0,1.0,0,"[""'Valuation output'!B16"", ""'Valuation output'!B17"", ""'Valuation output'!M2""]"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,markitdown,q5,impact,0.9655,0.0,0,"[""'Input sheet'!B31"", ""'Cost of capital worksheet'!B6"", ""'Cost of capital worksheet'!C45"", ""'Cost of capital worksheet'!B48"", ""'Cost of capital worksheet'!E48"", ""'Cost of capital worksheet'!B49:C49"", ""'Cost of capital worksheet'!B50"", ""'Cost of capital worksheet'!E50"", ""'Option value'!D9"", ""'Option "
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,88.6878
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,68699.3
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'Valuation output'!B18"""
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""'Valuation output'!B16"", ""'Valuation output'!B17"", ""'Valuation output'!M2""]"
+r0,standard,gpt61sol,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q5,impact,0.9655,0.0,0,"[""'Input sheet'!B31"", ""'Cost of capital worksheet'!B6"", ""'Cost of capital worksheet'!C45"", ""'Cost of capital worksheet'!B48"", ""'Cost of capital worksheet'!E48"", ""'Cost of capital worksheet'!B49:C49"", ""'Cost of capital worksheet'!B50"", ""'Cost of capital worksheet'!E50"", ""'Option value'!D9"", ""'Option "
+r0,standard,gpt61sol,rw_irs_soi,csv,q1,lookup,1.0,1.0,0,22602996
+r0,standard,gpt61sol,rw_irs_soi,csv,q2,lookup,1.0,1.0,0,2458885718
+r0,standard,gpt61sol,rw_irs_soi,csv,q3,address,1.0,1.0,0,"""TBL11!U29"""
+r0,standard,gpt61sol,rw_irs_soi,csv,q4,trace,0.0,0.0,0,[]
+r0,standard,gpt61sol,rw_irs_soi,csv,q5,impact,0.0,0.0,0,[]
+r0,standard,gpt61sol,rw_irs_soi,markitdown,q1,lookup,1.0,1.0,0,22602996
+r0,standard,gpt61sol,rw_irs_soi,markitdown,q2,lookup,1.0,1.0,0,2458885718
+r0,standard,gpt61sol,rw_irs_soi,markitdown,q3,address,0.0,0.0,0,"""TBL11!U30"""
+r0,standard,gpt61sol,rw_irs_soi,markitdown,q4,trace,0.0,0.0,0,"[""TBL11!G28"", ""TBL11!Q28""]"
+r0,standard,gpt61sol,rw_irs_soi,markitdown,q5,impact,0.0,0.0,0,"[""TBL11!U27""]"
+r0,standard,gpt61sol,rw_irs_soi,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,22602996
+r0,standard,gpt61sol,rw_irs_soi,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,2458885718
+r0,standard,gpt61sol,rw_irs_soi,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""TBL11!U29"""
+r0,standard,gpt61sol,rw_irs_soi,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""TBL11!Q27"", ""TBL11!G27""]"
+r0,standard,gpt61sol,rw_irs_soi,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""TBL11!U26""]"
+r0,standard,gpt61sol,rw_ogl00_rail_codes,csv,q1,lookup,1.0,1.0,0,285370
+r0,standard,gpt61sol,rw_ogl00_rail_codes,csv,q2,lookup,1.0,1.0,0,364591
+r0,standard,gpt61sol,rw_ogl00_rail_codes,csv,q3,address,1.0,1.0,0,"""Sheet2!H58"""
+r0,standard,gpt61sol,rw_ogl00_rail_codes,markitdown,q1,lookup,1.0,1.0,0,285370
+r0,standard,gpt61sol,rw_ogl00_rail_codes,markitdown,q2,lookup,1.0,1.0,0,364591
+r0,standard,gpt61sol,rw_ogl00_rail_codes,markitdown,q3,address,1.0,1.0,0,"""Sheet2!H58"""
+r0,standard,gpt61sol,rw_ogl00_rail_codes,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,285370
+r0,standard,gpt61sol,rw_ogl00_rail_codes,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,364591
+r0,standard,gpt61sol,rw_ogl00_rail_codes,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Sheet2!H58"""
+r0,standard,gpt61sol,rw_ogl01_dof_payments,csv,q1,lookup,1.0,1.0,0,151200
+r0,standard,gpt61sol,rw_ogl01_dof_payments,csv,q2,lookup,1.0,1.0,0,"""RED RIDGE SOLUTIONS LTD"""
+r0,standard,gpt61sol,rw_ogl01_dof_payments,csv,q3,address,1.0,1.0,0,"""Page1!H86"""
+r0,standard,gpt61sol,rw_ogl01_dof_payments,markitdown,q1,lookup,1.0,1.0,0,151200.0
+r0,standard,gpt61sol,rw_ogl01_dof_payments,markitdown,q2,lookup,1.0,1.0,0,"""RED RIDGE SOLUTIONS LTD"""
+r0,standard,gpt61sol,rw_ogl01_dof_payments,markitdown,q3,address,1.0,1.0,0,"""Page1!H86"""
+r0,standard,gpt61sol,rw_ogl01_dof_payments,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,151200
+r0,standard,gpt61sol,rw_ogl01_dof_payments,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""RED RIDGE SOLUTIONS LTD"""
+r0,standard,gpt61sol,rw_ogl01_dof_payments,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Page1!H86"""
+r0,standard,gpt61sol,rw_ogl04_doh_payments,csv,q1,lookup,1.0,1.0,0,2103091.25
+r0,standard,gpt61sol,rw_ogl04_doh_payments,csv,q2,lookup,1.0,1.0,0,"""SCOTTISH GOVERNMENT"""
+r0,standard,gpt61sol,rw_ogl04_doh_payments,csv,q3,address,1.0,1.0,0,"""'For upload'!H29"""
+r0,standard,gpt61sol,rw_ogl04_doh_payments,markitdown,q1,lookup,1.0,1.0,0,2103091.25
+r0,standard,gpt61sol,rw_ogl04_doh_payments,markitdown,q2,lookup,1.0,1.0,0,"""SCOTTISH GOVERNMENT"""
+r0,standard,gpt61sol,rw_ogl04_doh_payments,markitdown,q3,address,1.0,1.0,0,"""'For upload'!H29"""
+r0,standard,gpt61sol,rw_ogl04_doh_payments,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,2103091.25
+r0,standard,gpt61sol,rw_ogl04_doh_payments,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""SCOTTISH GOVERNMENT"""
+r0,standard,gpt61sol,rw_ogl04_doh_payments,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'For upload'!H29"""
+r0,standard,gpt61sol,rw_ogl05_purchase_orders,csv,q1,lookup,1.0,1.0,0,7985.17
+r0,standard,gpt61sol,rw_ogl05_purchase_orders,csv,q2,lookup,1.0,1.0,0,"""The Dodd Group"""
+r0,standard,gpt61sol,rw_ogl05_purchase_orders,csv,q3,address,1.0,1.0,0,"""'Sheet 1'!G418"""
+r0,standard,gpt61sol,rw_ogl05_purchase_orders,markitdown,q1,lookup,1.0,1.0,0,7985.17
+r0,standard,gpt61sol,rw_ogl05_purchase_orders,markitdown,q2,lookup,1.0,1.0,0,"""The Dodd Group"""
+r0,standard,gpt61sol,rw_ogl05_purchase_orders,markitdown,q3,address,1.0,1.0,0,"""'Sheet 1'!G418"""
+r0,standard,gpt61sol,rw_ogl05_purchase_orders,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,7985.17
+r0,standard,gpt61sol,rw_ogl05_purchase_orders,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""The Dodd Group"""
+r0,standard,gpt61sol,rw_ogl05_purchase_orders,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'Sheet 1'!G418"""
+r0,standard,gpt61sol,rw_ogl06_plymouth_spend,csv,q1,lookup,1.0,1.0,0,1299775.98
+r0,standard,gpt61sol,rw_ogl06_plymouth_spend,csv,q2,lookup,1.0,1.0,0,"""KNOWLEDGE ACADEMY LTD (THE)"""
+r0,standard,gpt61sol,rw_ogl06_plymouth_spend,csv,q3,address,1.0,1.0,0,"""BI report!D262"""
+r0,standard,gpt61sol,rw_ogl06_plymouth_spend,markitdown,q1,lookup,1.0,1.0,0,1299775.98
+r0,standard,gpt61sol,rw_ogl06_plymouth_spend,markitdown,q2,lookup,1.0,1.0,0,"""KNOWLEDGE ACADEMY LTD (THE)"""
+r0,standard,gpt61sol,rw_ogl06_plymouth_spend,markitdown,q3,address,1.0,1.0,0,"""BI report!D262"""
+r0,standard,gpt61sol,rw_ogl06_plymouth_spend,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1299775.98
+r0,standard,gpt61sol,rw_ogl06_plymouth_spend,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""KNOWLEDGE ACADEMY LTD (THE)"""
+r0,standard,gpt61sol,rw_ogl06_plymouth_spend,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'BI report'!D262"""
+r0,standard,gpt61sol,rw_ogl07_export_establishments,csv,q1,lookup,1.0,1.0,0,"""Animal By-Products """
+r0,standard,gpt61sol,rw_ogl07_export_establishments,csv,q2,lookup,1.0,1.0,0,"""Animal by-products"""
+r0,standard,gpt61sol,rw_ogl07_export_establishments,csv,q3,address,1.0,1.0,0,"""Sheet1!D692"""
+r0,standard,gpt61sol,rw_ogl07_export_establishments,markitdown,q1,lookup,1.0,1.0,0,"""Animal By-Products"""
+r0,standard,gpt61sol,rw_ogl07_export_establishments,markitdown,q2,lookup,1.0,1.0,0,"""Animal by-products"""
+r0,standard,gpt61sol,rw_ogl07_export_establishments,markitdown,q3,address,1.0,1.0,0,"""Sheet1!D692"""
+r0,standard,gpt61sol,rw_ogl07_export_establishments,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,"""Animal By-Products"""
+r0,standard,gpt61sol,rw_ogl07_export_establishments,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""Animal by-products"""
+r0,standard,gpt61sol,rw_ogl07_export_establishments,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Sheet1!D692"""
+r0,standard,gpt61sol,rw_ogl12_purchase_cards,csv,q1,lookup,1.0,1.0,0,5.4
+r0,standard,gpt61sol,rw_ogl12_purchase_cards,csv,q2,lookup,1.0,1.0,0,"""ASDA STORES 4840"""
+r0,standard,gpt61sol,rw_ogl12_purchase_cards,csv,q3,address,1.0,1.0,0,"""'NOV 18'!E241"""
+r0,standard,gpt61sol,rw_ogl12_purchase_cards,markitdown,q1,lookup,1.0,1.0,0,5.4
+r0,standard,gpt61sol,rw_ogl12_purchase_cards,markitdown,q2,lookup,1.0,1.0,0,"""ASDA STORES 4840"""
+r0,standard,gpt61sol,rw_ogl12_purchase_cards,markitdown,q3,address,1.0,1.0,0,"""'NOV 18'!E241"""
+r0,standard,gpt61sol,rw_ogl12_purchase_cards,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5.4
+r0,standard,gpt61sol,rw_ogl12_purchase_cards,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""ASDA STORES 4840"""
+r0,standard,gpt61sol,rw_ogl12_purchase_cards,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'NOV 18'!E241"""
+r0,standard,gpt61sol,rw_ogl13_worcs_spend,csv,q1,lookup,1.0,1.0,0,"""LEARNING & DEVELOPMENT"""
+r0,standard,gpt61sol,rw_ogl13_worcs_spend,csv,q2,lookup,1.0,1.0,0,"""VARIOUS SITES"""
+r0,standard,gpt61sol,rw_ogl13_worcs_spend,csv,q3,address,1.0,1.0,0,"""Sheet1!E38"""
+r0,standard,gpt61sol,rw_ogl13_worcs_spend,markitdown,q1,lookup,1.0,1.0,0,"""LEARNING & DEVELOPMENT"""
+r0,standard,gpt61sol,rw_ogl13_worcs_spend,markitdown,q2,lookup,1.0,1.0,0,"""VARIOUS SITES"""
+r0,standard,gpt61sol,rw_ogl13_worcs_spend,markitdown,q3,address,1.0,1.0,0,"""Sheet1!E38"""
+r0,standard,gpt61sol,rw_ogl13_worcs_spend,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,"""LEARNING & DEVELOPMENT"""
+r0,standard,gpt61sol,rw_ogl13_worcs_spend,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""VARIOUS SITES"""
+r0,standard,gpt61sol,rw_ogl13_worcs_spend,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Sheet1!E38"""
+r0,standard,gpt61sol,rw_ogl14_cornwall_spend,csv,q1,lookup,1.0,1.0,0,46037.49
+r0,standard,gpt61sol,rw_ogl14_cornwall_spend,csv,q2,lookup,1.0,1.0,0,"""NHS PROPERTY SERVICES LTD"""
+r0,standard,gpt61sol,rw_ogl14_cornwall_spend,csv,q3,address,1.0,1.0,0,"""'January 26 for Publication'!D43"""
+r0,standard,gpt61sol,rw_ogl14_cornwall_spend,markitdown,q1,lookup,1.0,1.0,0,46037.49
+r0,standard,gpt61sol,rw_ogl14_cornwall_spend,markitdown,q2,lookup,1.0,1.0,0,"""NHS PROPERTY SERVICES LTD"""
+r0,standard,gpt61sol,rw_ogl14_cornwall_spend,markitdown,q3,address,1.0,1.0,0,"""'January 26 for Publication'!D43"""
+r0,standard,gpt61sol,rw_ogl14_cornwall_spend,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,46037.49
+r0,standard,gpt61sol,rw_ogl14_cornwall_spend,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""NHS PROPERTY SERVICES LTD"""
+r0,standard,gpt61sol,rw_ogl14_cornwall_spend,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""'January 26 for Publication'!D43"""
+r0,standard,gpt61sol,rw_worldbank_gdp,csv,q1,lookup,1.0,1.0,0,4201021706000
+r0,standard,gpt61sol,rw_worldbank_gdp,csv,q2,lookup,1.0,1.0,0,5225933521000
+r0,standard,gpt61sol,rw_worldbank_gdp,csv,q3,address,1.0,1.0,0,"""Data!BP114"""
+r0,standard,gpt61sol,rw_worldbank_gdp,csv,q4,lookup,1.0,1.0,0,114448978200
+r0,standard,gpt61sol,rw_worldbank_gdp,markitdown,q1,lookup,1.0,1.0,0,4201022000000
+r0,standard,gpt61sol,rw_worldbank_gdp,markitdown,q2,lookup,1.0,1.0,0,5225934000000
+r0,standard,gpt61sol,rw_worldbank_gdp,markitdown,q3,address,1.0,1.0,0,"""Data!BP114"""
+r0,standard,gpt61sol,rw_worldbank_gdp,markitdown,q4,lookup,1.0,1.0,0,114449000000
+r0,standard,gpt61sol,rw_worldbank_gdp,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,4201021706000
+r0,standard,gpt61sol,rw_worldbank_gdp,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,5225933521000
+r0,standard,gpt61sol,rw_worldbank_gdp,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Data!BP114"""
+r0,standard,gpt61sol,rw_worldbank_gdp,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,114448978200
+r0,standard,gpt6luna,rw_bea_gdp,csv,q1,lookup,1.0,1.0,0,2.1
+r0,standard,gpt6luna,rw_bea_gdp,csv,q2,lookup,1.0,1.0,0,10.7
+r0,standard,gpt6luna,rw_bea_gdp,csv,q3,lookup,1.0,1.0,0,8.7
+r0,standard,gpt6luna,rw_bea_gdp,csv,q4,address,1.0,1.0,0,"""Table 1!K6"""
+r0,standard,gpt6luna,rw_bea_gdp,markitdown,q1,lookup,1.0,1.0,0,2.1
+r0,standard,gpt6luna,rw_bea_gdp,markitdown,q2,lookup,1.0,1.0,0,10.7
+r0,standard,gpt6luna,rw_bea_gdp,markitdown,q3,lookup,1.0,1.0,0,8.7
+r0,standard,gpt6luna,rw_bea_gdp,markitdown,q4,address,1.0,1.0,0,"""Table 1!K6"""
+r0,standard,gpt6luna,rw_bea_gdp,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,2.1
+r0,standard,gpt6luna,rw_bea_gdp,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,10.7
+r0,standard,gpt6luna,rw_bea_gdp,sheetmark_lean_gfm,q3,lookup,1.0,1.0,0,8.7
+r0,standard,gpt6luna,rw_bea_gdp,sheetmark_lean_gfm,q4,address,1.0,1.0,0,"""Table 1!K6"""
+r0,standard,gpt6luna,rw_census_nrc,csv,q1,lookup,1.0,1.0,0,1437
+r0,standard,gpt6luna,rw_census_nrc,csv,q2,lookup,0.0,0.0,0,87
+r0,standard,gpt6luna,rw_census_nrc,csv,q3,address,1.0,1.0,0,"""Table 1 - Permits!L16"""
+r0,standard,gpt6luna,rw_census_nrc,csv,q4,lookup,1.0,1.0,0,503
+r0,standard,gpt6luna,rw_census_nrc,csv,q5,lookup,1.0,1.0,0,0.061
+r0,standard,gpt6luna,rw_census_nrc,markitdown,q1,lookup,1.0,1.0,0,1437
+r0,standard,gpt6luna,rw_census_nrc,markitdown,q2,lookup,1.0,1.0,0,514
+r0,standard,gpt6luna,rw_census_nrc,markitdown,q3,address,1.0,1.0,0,"""Table 1 - Permits!L16"""
+r0,standard,gpt6luna,rw_census_nrc,markitdown,q4,lookup,1.0,1.0,0,503
+r0,standard,gpt6luna,rw_census_nrc,markitdown,q5,lookup,1.0,1.0,0,0.061
+r0,standard,gpt6luna,rw_census_nrc,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1437
+r0,standard,gpt6luna,rw_census_nrc,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,514
+r0,standard,gpt6luna,rw_census_nrc,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Table 1 - Permits!L16"""
+r0,standard,gpt6luna,rw_census_nrc,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,503
+r0,standard,gpt6luna,rw_census_nrc,sheetmark_lean_gfm,q5,lookup,1.0,1.0,0,0.061
+r0,standard,gpt6luna,rw_dam_capstru,csv,q1,lookup,1.0,1.0,0,0.09567120276
+r0,standard,gpt6luna,rw_dam_capstru,csv,q2,lookup,1.0,1.0,0,218233.4082
+r0,standard,gpt6luna,rw_dam_capstru,csv,q3,address,0.0,0.0,0,"""Optimal CS Worksheet!E18"""
+r0,standard,gpt6luna,rw_dam_capstru,csv,q4,trace,0.0,0.0,0,"[""Optimal CS Worksheet!F5"", ""Optimal CS Worksheet!F8"", ""Optimal CS Worksheet!C9""]"
+r0,standard,gpt6luna,rw_dam_capstru,csv,q5,trace,0.0,0.0,0,"[""Optimal CS Worksheet!E14"", ""Optimal CS Worksheet!F14""]"
+r0,standard,gpt6luna,rw_dam_capstru,markitdown,q1,lookup,1.0,1.0,0,0.095671
+r0,standard,gpt6luna,rw_dam_capstru,markitdown,q2,lookup,1.0,1.0,0,218233.40819
+r0,standard,gpt6luna,rw_dam_capstru,markitdown,q3,address,1.0,1.0,0,"""Optimal CS Worksheet!E16"""
+r0,standard,gpt6luna,rw_dam_capstru,markitdown,q4,trace,1.0,1.0,0,"[""Optimal CS Worksheet!F4"", ""Optimal CS Worksheet!F7"", ""Optimal CS Worksheet!C8""]"
+r0,standard,gpt6luna,rw_dam_capstru,markitdown,q5,trace,1.0,1.0,0,"[""Optimal CS Worksheet!E12"", ""Optimal CS Worksheet!F12""]"
+r0,standard,gpt6luna,rw_dam_capstru,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,0.095671
+r0,standard,gpt6luna,rw_dam_capstru,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,218233
+r0,standard,gpt6luna,rw_dam_capstru,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Optimal CS Worksheet!E16"""
+r0,standard,gpt6luna,rw_dam_capstru,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Optimal CS Worksheet!F7"", ""Optimal CS Worksheet!F4"", ""Optimal CS Worksheet!C8""]"
+r0,standard,gpt6luna,rw_dam_capstru,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Optimal CS Worksheet!F12"", ""Optimal CS Worksheet!E12""]"
+r0,standard,gpt6luna,rw_dam_fcffginzu,csv,q1,lookup,1.0,1.0,0,377.140217
+r0,standard,gpt6luna,rw_dam_fcffginzu,csv,q2,lookup,1.0,1.0,0,0.08300988546
+r0,standard,gpt6luna,rw_dam_fcffginzu,csv,q3,address,0.0,0.0,0,"""'Valuation Model'!G64"""
+r0,standard,gpt6luna,rw_dam_fcffginzu,csv,q4,trace,0.0,0.0,0,"[""'Valuation Model'!G67"", ""'Valuation Model'!G68"", ""'Valuation Model'!G69""]"
+r0,standard,gpt6luna,rw_dam_fcffginzu,csv,q5,trace,0.0,0.0,0,"[""'Valuation Model'!G73"", ""'Valuation Model'!G74""]"
+r0,standard,gpt6luna,rw_dam_fcffginzu,csv,q6,impact,0.448,0.0,0,"[""'Master Inputs Start here'!B61"", ""'Valuation Model'!D17"", ""'Valuation Model'!D29"", ""'Valuation Model'!D31"", ""'Valuation Model'!D32"", ""'Valuation Model'!D48:M48"", ""'Valuation Model'!D49:M49"", ""'Valuation Model'!D50:M50"", ""'Valuation Model'!G63"", ""'Valuation Model'!G64"", ""'Valuation Model'!G65"", ""'V"
+r0,standard,gpt6luna,rw_dam_fcffginzu,markitdown,q1,lookup,1.0,1.0,0,377.140217
+r0,standard,gpt6luna,rw_dam_fcffginzu,markitdown,q2,lookup,1.0,1.0,0,0.08301
+r0,standard,gpt6luna,rw_dam_fcffginzu,markitdown,q3,address,0.0,0.0,0,"""'Valuation Model'!D62"""
+r0,standard,gpt6luna,rw_dam_fcffginzu,markitdown,q4,trace,0.0,0.0,0,"[""'Valuation Model'!D65:D67""]"
+r0,standard,gpt6luna,rw_dam_fcffginzu,markitdown,q5,trace,0.0,0.0,0,"[""'Valuation Model'!D71"", ""'Valuation Model'!D72""]"
+r0,standard,gpt6luna,rw_dam_fcffginzu,markitdown,q6,impact,0.5794,0.0,0,"[""'Valuation Model'!D16"", ""'Valuation Model'!D28"", ""'Valuation Model'!D30"", ""'Valuation Model'!D31"", ""'Valuation Model'!D47:L49"", ""'Valuation Model'!D61:D63"", ""'Valuation Model'!D65"", ""'Valuation Model'!D68"", ""'Valuation Model'!D70:D71"", ""'Valuation Model'!D73""]"
+r0,standard,gpt6luna,rw_dam_fcffginzu,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,377.14
+r0,standard,gpt6luna,rw_dam_fcffginzu,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,0.08301
+r0,standard,gpt6luna,rw_dam_fcffginzu,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Valuation Model!F62"""
+r0,standard,gpt6luna,rw_dam_fcffginzu,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Valuation Model!F65"", ""Valuation Model!F66"", ""Valuation Model!F67""]"
+r0,standard,gpt6luna,rw_dam_fcffginzu,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Valuation Model!F72"", ""Valuation Model!F71""]"
+r0,standard,gpt6luna,rw_dam_fcffginzu,sheetmark_lean_gfm,q6,impact,0.9781,0.0,0,"[""Master Inputs Start here!B59"", ""Master Inputs Start here!B61"", ""Valuation Model!D16"", ""Valuation Model!D17"", ""Valuation Model!D27"", ""Valuation Model!D28"", ""Valuation Model!D30"", ""Valuation Model!D31"", ""Valuation Model!D47:M49"", ""Valuation Model!F61:F63"", ""Valuation Model!F65"", ""Valuation Model!F68"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,csv,q1,lookup,1.0,1.0,0,7.18784027
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,csv,q2,lookup,1.0,1.0,0,16394.53893
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,csv,q3,address,1.0,1.0,0,"""'Valuation output'!B31"""
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,csv,q4,trace,1.0,1.0,0,"[""'Valuation output'!B24"", ""'Valuation output'!B25"", ""'Valuation output'!B26"", ""'Valuation output'!B27"", ""'Valuation output'!B28""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,csv,q5,trace,1.0,1.0,0,"[""'Valuation output'!B33"", ""'Valuation output'!B34""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,csv,q6,impact,0.5605,0.0,0,"[""'Valuation output'!C12:K12"", ""'Valuation output'!C13:L14"", ""'Valuation output'!B19:B21"", ""'Valuation output'!B23:B24"", ""'Valuation output'!B29"", ""'Valuation output'!B31:B33"", ""'Valuation output'!B35"", ""'Cost of capital worksheet'!B13"", ""'Cost of capital worksheet'!B53"", ""'Cost of capital worksheet"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,markitdown,q1,lookup,1.0,1.0,0,7.18784
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,markitdown,q2,lookup,1.0,1.0,0,16394.538929
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,markitdown,q3,address,1.0,1.0,0,"""Valuation output!B31"""
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,markitdown,q4,trace,1.0,1.0,0,"[""Valuation output!B24:B28""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,markitdown,q5,trace,1.0,1.0,0,"[""Valuation output!B33"", ""Valuation output!B34""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,markitdown,q6,impact,0.6087,0.0,0,"[""Cost of capital worksheet!B8"", ""Cost of capital worksheet!B13"", ""Cost of capital worksheet!B52"", ""Cost of capital worksheet!B56"", ""Cost of capital worksheet!E56"", ""Cost of capital worksheet!B57:C57"", ""Cost of capital worksheet!E57"", ""Cost of capital worksheet!B58"", ""Cost of capital worksheet!E58"","
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,7.18784
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,16394.5
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Valuation output!B31"""
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Valuation output!B24"", ""Valuation output!B25"", ""Valuation output!B26"", ""Valuation output!B27"", ""Valuation output!B28""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q5,trace,1.0,1.0,0,"[""Valuation output!B33"", ""Valuation output!B34""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzu,sheetmark_lean_gfm,q6,impact,0.1401,0.0,0,"[""Input sheet!I27"", ""Input sheet!I28"", ""Input sheet!I29"", ""Input sheet!J36"", ""Valuation output!B27"", ""Valuation output!B29"", ""Valuation output!B31"", ""Valuation output!B33"", ""Valuation output!B35"", ""Valuation output!B39:L40"", ""Stories to Numbers!B13"", ""Stories to Numbers!D35:D36"", ""Stories to Numbers"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,csv,q1,lookup,1.0,1.0,0,88.68783748
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,csv,q2,lookup,1.0,1.0,0,68699.31602
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,csv,q3,address,1.0,1.0,0,"""Valuation output!B18"""
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,csv,q4,trace,1.0,1.0,0,"[""Valuation output!B16"", ""Valuation output!B17"", ""Valuation output!M2""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,csv,q5,impact,0.6995,0.0,0,"[""Cost of capital worksheet!B7"", ""Cost of capital worksheet!B49"", ""Cost of capital worksheet!C46"", ""Cost of capital worksheet!E49"", ""Cost of capital worksheet!B50:C50"", ""Cost of capital worksheet!B51"", ""Cost of capital worksheet!E51"", ""Input sheet!B31"", ""Valuation output!C12:L14"", ""Valuation output!"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,markitdown,q1,lookup,1.0,1.0,0,88.687837
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,markitdown,q2,lookup,1.0,1.0,0,68699.316015
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,markitdown,q3,address,1.0,1.0,0,"""Valuation output!B18"""
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,markitdown,q4,trace,1.0,1.0,0,"[""Valuation output!B16"", ""Valuation output!B17"", ""Valuation output!M2""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,markitdown,q5,impact,0.0777,0.0,0,"[""Valuation output!B32"", ""Valuation output!B33"", ""Valuation output!B35"", ""Stories to Numbers!D37"", ""Stories to Numbers!D38""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,88.6878
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,68699.3
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Valuation output!B18"""
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""Valuation output!B16"", ""Valuation output!B17"", ""Valuation output!M2""]"
+r0,standard,gpt6luna,rw_dam_fcffsimpleginzucorona,sheetmark_lean_gfm,q5,impact,0.9023,0.0,0,"[""Option value!D9"", ""Option value!F14"", ""Option value!C15"", ""Option value!B20:B21"", ""Option value!B23:B24"", ""Option value!C26"", ""Option value!D27"", ""Cost of capital worksheet!B6"", ""Cost of capital worksheet!B48"", ""Cost of capital worksheet!C45"", ""Cost of capital worksheet!E48:E50"", ""Cost of capital "
+r0,standard,gpt6luna,rw_irs_soi,csv,q1,lookup,1.0,1.0,0,22602996
+r0,standard,gpt6luna,rw_irs_soi,csv,q2,lookup,1.0,1.0,0,2458885718
+r0,standard,gpt6luna,rw_irs_soi,csv,q3,address,0.0,0.0,0,"""TBL11!U28"""
+r0,standard,gpt6luna,rw_irs_soi,csv,q4,trace,0.0,0.0,0,"[""TBL11!G26"", ""TBL11!Q26""]"
+r0,standard,gpt6luna,rw_irs_soi,csv,q5,impact,0.0,0.0,0,"[""TBL11!G9"", ""TBL11!G45:G49"", ""TBL11!G54:G69"", ""TBL11!H10:H48"", ""TBL11!H51:H68"", ""TBL11!U9"", ""TBL11!U25"", ""TBL11!U45:U49"", ""TBL11!U54:U69""]"
+r0,standard,gpt6luna,rw_irs_soi,markitdown,q1,lookup,1.0,1.0,0,22602996
+r0,standard,gpt6luna,rw_irs_soi,markitdown,q2,lookup,1.0,1.0,0,2458885718
+r0,standard,gpt6luna,rw_irs_soi,markitdown,q3,address,1.0,1.0,0,"""TBL11!U29"""
+r0,standard,gpt6luna,rw_irs_soi,markitdown,q4,trace,1.0,1.0,0,"[""TBL11!G27"", ""TBL11!Q27""]"
+r0,standard,gpt6luna,rw_irs_soi,markitdown,q5,impact,0.0196,0.0,0,"[""TBL11!G10"", ""TBL11!G46:G50"", ""TBL11!G55:G70"", ""TBL11!H11:H29"", ""TBL11!H31:H49"", ""TBL11!H52:H69"", ""TBL11!U10"", ""TBL11!U26"", ""TBL11!U46:U50"", ""TBL11!U55:U70""]"
+r0,standard,gpt6luna,rw_irs_soi,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,22602996
+r0,standard,gpt6luna,rw_irs_soi,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,2458885718
+r0,standard,gpt6luna,rw_irs_soi,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""TBL11!U29"""
+r0,standard,gpt6luna,rw_irs_soi,sheetmark_lean_gfm,q4,trace,1.0,1.0,0,"[""TBL11!Q27"", ""TBL11!G27""]"
+r0,standard,gpt6luna,rw_irs_soi,sheetmark_lean_gfm,q5,impact,1.0,1.0,0,"[""TBL11!U26""]"
+r0,standard,gpt6luna,rw_ogl00_rail_codes,csv,q1,lookup,1.0,1.0,0,285370
+r0,standard,gpt6luna,rw_ogl00_rail_codes,csv,q2,lookup,1.0,1.0,0,364591
+r0,standard,gpt6luna,rw_ogl00_rail_codes,csv,q3,address,1.0,1.0,0,"""Sheet2!H58"""
+r0,standard,gpt6luna,rw_ogl00_rail_codes,markitdown,q1,lookup,1.0,1.0,0,285370
+r0,standard,gpt6luna,rw_ogl00_rail_codes,markitdown,q2,lookup,1.0,1.0,0,364591
+r0,standard,gpt6luna,rw_ogl00_rail_codes,markitdown,q3,address,1.0,1.0,0,"""Sheet2!H58"""
+r0,standard,gpt6luna,rw_ogl00_rail_codes,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,285370
+r0,standard,gpt6luna,rw_ogl00_rail_codes,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,364591
+r0,standard,gpt6luna,rw_ogl00_rail_codes,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Sheet2!H58"""
+r0,standard,gpt6luna,rw_ogl01_dof_payments,csv,q1,lookup,1.0,1.0,0,151200
+r0,standard,gpt6luna,rw_ogl01_dof_payments,csv,q2,lookup,1.0,1.0,0,"""RED RIDGE SOLUTIONS LTD"""
+r0,standard,gpt6luna,rw_ogl01_dof_payments,csv,q3,address,0.0,0.0,0,"""Page1!H55"""
+r0,standard,gpt6luna,rw_ogl01_dof_payments,markitdown,q1,lookup,1.0,1.0,0,151200
+r0,standard,gpt6luna,rw_ogl01_dof_payments,markitdown,q2,lookup,1.0,1.0,0,"""RED RIDGE SOLUTIONS LTD"""
+r0,standard,gpt6luna,rw_ogl01_dof_payments,markitdown,q3,address,1.0,1.0,0,"""Page1!H86"""
+r0,standard,gpt6luna,rw_ogl01_dof_payments,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,151200
+r0,standard,gpt6luna,rw_ogl01_dof_payments,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""RED RIDGE SOLUTIONS LTD"""
+r0,standard,gpt6luna,rw_ogl01_dof_payments,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Page1!H86"""
+r0,standard,gpt6luna,rw_ogl04_doh_payments,csv,q1,lookup,1.0,1.0,0,2103091.25
+r0,standard,gpt6luna,rw_ogl04_doh_payments,csv,q2,lookup,1.0,1.0,0,"""SCOTTISH GOVERNMENT"""
+r0,standard,gpt6luna,rw_ogl04_doh_payments,csv,q3,address,1.0,1.0,0,"""For upload!H29"""
+r0,standard,gpt6luna,rw_ogl04_doh_payments,markitdown,q1,lookup,1.0,1.0,0,2103091.25
+r0,standard,gpt6luna,rw_ogl04_doh_payments,markitdown,q2,lookup,1.0,1.0,0,"""SCOTTISH GOVERNMENT"""
+r0,standard,gpt6luna,rw_ogl04_doh_payments,markitdown,q3,address,1.0,1.0,0,"""For upload!H29"""
+r0,standard,gpt6luna,rw_ogl04_doh_payments,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,2103091.25
+r0,standard,gpt6luna,rw_ogl04_doh_payments,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""SCOTTISH GOVERNMENT"""
+r0,standard,gpt6luna,rw_ogl04_doh_payments,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""For upload!H29"""
+r0,standard,gpt6luna,rw_ogl05_purchase_orders,csv,q1,lookup,1.0,1.0,0,7985.17
+r0,standard,gpt6luna,rw_ogl05_purchase_orders,csv,q2,lookup,1.0,1.0,0,"""The Dodd Group"""
+r0,standard,gpt6luna,rw_ogl05_purchase_orders,csv,q3,address,0.0,0.0,0,"""Sheet 1!G419"""
+r0,standard,gpt6luna,rw_ogl05_purchase_orders,markitdown,q1,lookup,1.0,1.0,0,7985.17
+r0,standard,gpt6luna,rw_ogl05_purchase_orders,markitdown,q2,lookup,1.0,1.0,0,"""The Dodd Group"""
+r0,standard,gpt6luna,rw_ogl05_purchase_orders,markitdown,q3,address,1.0,1.0,0,"""'Sheet 1'!G418"""
+r0,standard,gpt6luna,rw_ogl05_purchase_orders,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,7985.17
+r0,standard,gpt6luna,rw_ogl05_purchase_orders,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""The Dodd Group"""
+r0,standard,gpt6luna,rw_ogl05_purchase_orders,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Sheet 1!G418"""
+r0,standard,gpt6luna,rw_ogl06_plymouth_spend,csv,q1,lookup,1.0,1.0,0,1299775.98
+r0,standard,gpt6luna,rw_ogl06_plymouth_spend,csv,q2,lookup,1.0,1.0,0,"""KNOWLEDGE ACADEMY LTD (THE)"""
+r0,standard,gpt6luna,rw_ogl06_plymouth_spend,csv,q3,address,0.0,0.0,0,"""BI report!D260"""
+r0,standard,gpt6luna,rw_ogl06_plymouth_spend,markitdown,q1,lookup,1.0,1.0,0,1299775.98
+r0,standard,gpt6luna,rw_ogl06_plymouth_spend,markitdown,q2,lookup,1.0,1.0,0,"""KNOWLEDGE ACADEMY LTD (THE)"""
+r0,standard,gpt6luna,rw_ogl06_plymouth_spend,markitdown,q3,address,1.0,1.0,0,"""BI report!D262"""
+r0,standard,gpt6luna,rw_ogl06_plymouth_spend,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,1299775.98
+r0,standard,gpt6luna,rw_ogl06_plymouth_spend,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""KNOWLEDGE ACADEMY LTD (THE)"""
+r0,standard,gpt6luna,rw_ogl06_plymouth_spend,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""BI report!D262"""
+r0,standard,gpt6luna,rw_ogl07_export_establishments,csv,q1,lookup,1.0,1.0,0,"""Animal By-Products"""
+r0,standard,gpt6luna,rw_ogl07_export_establishments,csv,q2,lookup,1.0,1.0,0,"""Animal by-products"""
+r0,standard,gpt6luna,rw_ogl07_export_establishments,csv,q3,address,0.0,0.0,0,"""Sheet1!D693"""
+r0,standard,gpt6luna,rw_ogl07_export_establishments,markitdown,q1,lookup,1.0,1.0,0,"""Animal By-Products"""
+r0,standard,gpt6luna,rw_ogl07_export_establishments,markitdown,q2,lookup,1.0,1.0,0,"""Animal by-products"""
+r0,standard,gpt6luna,rw_ogl07_export_establishments,markitdown,q3,address,0.0,0.0,0,"""Sheet1!D696"""
+r0,standard,gpt6luna,rw_ogl07_export_establishments,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,"""Animal By-Products"""
+r0,standard,gpt6luna,rw_ogl07_export_establishments,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""Animal by-products"""
+r0,standard,gpt6luna,rw_ogl07_export_establishments,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Sheet1!D692"""
+r0,standard,gpt6luna,rw_ogl12_purchase_cards,csv,q1,lookup,1.0,1.0,0,5.4
+r0,standard,gpt6luna,rw_ogl12_purchase_cards,csv,q2,lookup,1.0,1.0,0,"""ASDA STORES 4840"""
+r0,standard,gpt6luna,rw_ogl12_purchase_cards,csv,q3,address,1.0,1.0,0,"""NOV 18!E241"""
+r0,standard,gpt6luna,rw_ogl12_purchase_cards,markitdown,q1,lookup,1.0,1.0,0,5.4
+r0,standard,gpt6luna,rw_ogl12_purchase_cards,markitdown,q2,lookup,1.0,1.0,0,"""ASDA STORES 4840"""
+r0,standard,gpt6luna,rw_ogl12_purchase_cards,markitdown,q3,address,1.0,1.0,0,"""NOV 18!E241"""
+r0,standard,gpt6luna,rw_ogl12_purchase_cards,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,5.4
+r0,standard,gpt6luna,rw_ogl12_purchase_cards,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""ASDA STORES 4840"""
+r0,standard,gpt6luna,rw_ogl12_purchase_cards,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""NOV 18!E241"""
+r0,standard,gpt6luna,rw_ogl13_worcs_spend,csv,q1,lookup,1.0,1.0,0,"""LEARNING & DEVELOPMENT"""
+r0,standard,gpt6luna,rw_ogl13_worcs_spend,csv,q2,lookup,1.0,1.0,0,"""VARIOUS SITES"""
+r0,standard,gpt6luna,rw_ogl13_worcs_spend,csv,q3,address,1.0,1.0,0,"""Sheet1!E38"""
+r0,standard,gpt6luna,rw_ogl13_worcs_spend,markitdown,q1,lookup,1.0,1.0,0,"""LEARNING & DEVELOPMENT"""
+r0,standard,gpt6luna,rw_ogl13_worcs_spend,markitdown,q2,lookup,1.0,1.0,0,"""VARIOUS SITES"""
+r0,standard,gpt6luna,rw_ogl13_worcs_spend,markitdown,q3,address,1.0,1.0,0,"""Sheet1!E38"""
+r0,standard,gpt6luna,rw_ogl13_worcs_spend,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,"""LEARNING & DEVELOPMENT"""
+r0,standard,gpt6luna,rw_ogl13_worcs_spend,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""VARIOUS SITES"""
+r0,standard,gpt6luna,rw_ogl13_worcs_spend,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Sheet1!E38"""
+r0,standard,gpt6luna,rw_ogl14_cornwall_spend,csv,q1,lookup,1.0,1.0,0,46037.49
+r0,standard,gpt6luna,rw_ogl14_cornwall_spend,csv,q2,lookup,1.0,1.0,0,"""NHS PROPERTY SERVICES LTD"""
+r0,standard,gpt6luna,rw_ogl14_cornwall_spend,csv,q3,address,1.0,1.0,0,"""January 26 for Publication!D43"""
+r0,standard,gpt6luna,rw_ogl14_cornwall_spend,markitdown,q1,lookup,1.0,1.0,0,46037.49
+r0,standard,gpt6luna,rw_ogl14_cornwall_spend,markitdown,q2,lookup,1.0,1.0,0,"""NHS PROPERTY SERVICES LTD"""
+r0,standard,gpt6luna,rw_ogl14_cornwall_spend,markitdown,q3,address,0.0,0.0,0,"""January 26 for Publication!D42"""
+r0,standard,gpt6luna,rw_ogl14_cornwall_spend,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,46037.49
+r0,standard,gpt6luna,rw_ogl14_cornwall_spend,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,"""NHS PROPERTY SERVICES LTD"""
+r0,standard,gpt6luna,rw_ogl14_cornwall_spend,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""January 26 for Publication!D43"""
+r0,standard,gpt6luna,rw_worldbank_gdp,csv,q1,lookup,1.0,1.0,0,4201021706000
+r0,standard,gpt6luna,rw_worldbank_gdp,csv,q2,lookup,1.0,1.0,0,5225933521000
+r0,standard,gpt6luna,rw_worldbank_gdp,csv,q3,address,1.0,1.0,0,"""Data!BP114"""
+r0,standard,gpt6luna,rw_worldbank_gdp,csv,q4,lookup,1.0,1.0,0,114448978200
+r0,standard,gpt6luna,rw_worldbank_gdp,markitdown,q1,lookup,0.0,0.0,0,4562208000000
+r0,standard,gpt6luna,rw_worldbank_gdp,markitdown,q2,lookup,1.0,1.0,0,5225934000000
+r0,standard,gpt6luna,rw_worldbank_gdp,markitdown,q3,address,1.0,1.0,0,"""Data!BP114"""
+r0,standard,gpt6luna,rw_worldbank_gdp,markitdown,q4,lookup,1.0,1.0,0,114449000000
+r0,standard,gpt6luna,rw_worldbank_gdp,sheetmark_lean_gfm,q1,lookup,1.0,1.0,0,4201021706000
+r0,standard,gpt6luna,rw_worldbank_gdp,sheetmark_lean_gfm,q2,lookup,1.0,1.0,0,5225933521000
+r0,standard,gpt6luna,rw_worldbank_gdp,sheetmark_lean_gfm,q3,address,1.0,1.0,0,"""Data!BP114"""
+r0,standard,gpt6luna,rw_worldbank_gdp,sheetmark_lean_gfm,q4,lookup,1.0,1.0,0,114448978200

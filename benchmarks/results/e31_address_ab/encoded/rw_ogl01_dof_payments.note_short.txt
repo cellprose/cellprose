@@ -1,0 +1,188 @@
+---
+cellprose: 0.3
+---
+
+Rows: row number, then columns A, B, C in order.
+
+# Sheet: Page1
+
+## A1:H106
+
+#|A|B|C|D|E|F|G|H
+-|-|-|-|-|-|-|-|-
+1|Department|Organisation|Check Date|Expense type|Supplier|Invoice number|Invoice Amount|Postcode
+2|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|NORTHERN IRELAND HOUSING EXECUTIVE|'509735|2256197.57|BT2 8PB
+3|DOF|Department of Finance|2026-04-23|EU Grants to Private Sector - Persons & NPISH(Current)|SPECIAL EU PROGRAMMES BODY|EF06239156|1377460.61|BT2 7GP
+4|DOF|Department of Finance|2026-04-01|A - Contract Payroll & HR Processing|FUJITSU SERVICES LTD|'1010015394|789784.79|WA3 6GD
+5|DOF|Department of Finance|2026-04-15|Accrued/Prepaid Lease Payments (non PFI)|SAVILLS (NI) LIMITED|'234231|685929.96|BT1 2DX
+6|DOF|Department of Finance|2026-04-01|A - Contract Payroll & HR Processing|FUJITSU SERVICES LTD|'1030048994|562304.44|WA3 6GD
+7|DOF|Department of Finance|2026-04-28|A - Contract Other Services|SERCO LTD|'92115197|546051.68|RG27 9UY
+8|DOF|Department of Finance|2026-04-22|A - Consultancy Advice - Programme & Project Management|ERNST & YOUNG LLP|GB01G000773143|494400|SE1 2AF
+9|DOF|Department of Finance|2026-04-30|Accrued/Prepaid Lease Payments (non PFI)|MCCONNELL CHARTERED SURVEYORS LTD|'15688|426300|BT1 4NX
+10|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|CHOICE HOUSING IRELAND LTD|'509741|385852.39|BT1 4DN
+11|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|RADIUS HOUSING ASSOCIATION LTD|'509752|363712.74|BT9 6AA
+12|DOF|Department of Finance|2026-04-23|Grants to private sector - Persons and NPISH (Current)|SPECIAL EU PROGRAMMES BODY|EF06239156|344365.15|BT2 7GP
+13|DOF|Department of Finance|2026-04-16|A - Non - Capital Purchases - Computer Hardware/Software|BRITISH TELECOM PLC|IN977009|342098.06|BT1 3BT
+14|DOF|Department of Finance|2026-04-27|Accrued/Prepaid Lease Payments (non PFI)|CAUSEWAY ASSET MANAGEMENT|SI-00609|312690|BT2 7FD
+15|DOF|Department of Finance|2026-04-24|A - Electricity|ELECTRIC IRELAND|'911390234|300131.03|BT7 2JD
+16|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|APEX HOUSING ASSOCIATION|'509738|299944.59|BT48 6HL
+17|DOF|Land & Property Services|2026-04-24|Accrued/Prepaid Lease Payments (non PFI)|BRITISH TELECOM PLC|IN977985|223102.16|NW9 6LB
+18|DOF|Land & Property Services|2026-04-21|P - Software Maintenance - Contract|ITS COMPUTING LIMITED|INV00019126564|219403.43|BT3 9ED
+19|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|CLANMILL HOUSING ASSOCIATION|'509740|204314.93|BT1 2DX
+20|DOF|Department of Finance|2026-04-01|A - Contract Payroll & HR Processing|FUJITSU SERVICES LTD|'1030048996|196735.22|WA3 6GD
+21|DOF|Department of Finance|2026-04-13|Fixed Asset Clearing Account|EUROPEAN DYNAMICS UK LTD|017.DOF.2026|183870|SE19 3RW
+22|DOF|Department of Finance|2026-04-15|Accrued/Prepaid Lease Payments (non PFI)|CAMPBELL CAIRNS COMMERCIAL|KILLYM-41|157695|BT1 6JH
+23|DOF|Land & Property Services|2026-04-02|Fixed Asset Clearing Account|ITS COMPUTING LIMITED|INV00019126545|151200|BT3 9ED
+24|DOF|Department of Finance|2026-04-02|A - Non - Capital Purchases - Computer Hardware/Software|PLATFORM.SH|INV-UK-1111|135119.04|EC1V 2NX
+25|DOF|Department of Finance|2026-04-10|A - Non - Capital Purchases - Software Licences|BRITISH TELECOM PLC|IN977834|128684.16|BT1 3BT
+26|DOF|Department of Finance|2026-04-01|A - Contract Payroll & HR Processing|FUJITSU SERVICES LTD|'1010015393|128665.78|WA3 6GD
+27|DOF|Department of Finance|2026-04-20|A - Contract Other Services|BRITISH TELECOM PLC|IN977986|108984.74|NW9 6LB
+28|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|HABINTEG HOUSING ASSOCIATION (ULSTER) LTD|'509744|105011.9|BT18 9JE
+29|DOF|Land & Property Services|2026-04-02|P - Software Maintenance - Contract|IMGS|'2232825|100000|D11 Y77P
+30|DOF|Northern Ireland Statistical Research Agency|2026-04-29|P - Registrar Charges|BELFAST CITY COUNCIL|INV00056238|96220.62|BT2 8DJ
+31|DOF|Department of Finance|2026-04-16|Accrued/Prepaid Lease Payments (non PFI)|O'CONNOR KENNEDY TURTLE|'95951|96000|BT2 8GD
+32|DOF|Department of Finance|2026-04-13|Cost Pass-Through Control|VERSION1|INVSOL034103|88926|B2 5DB
+33|DOF|Department of Finance|2026-04-09|A - Hardware Maintenance - Contract|BRITISH TELECOM PLC|IN977783|88297.14|BT1 3BT
+34|DOF|Department of Finance|2026-04-29|A - Gas|FIRMUS ENERGY|PD10326|86025.25|BT41 4LZ
+35|DOF|Land & Property Services|2026-04-10|P - Software Maintenance - Contract|KOREC|'202115|82800|IE
+36|DOF|Department of Finance|2026-04-27|A - Service Charges - Property|CAUSEWAY ASSET MANAGEMENT|SI-00609|82420|BT2 7FD
+37|DOF|Department of Finance|2026-04-30|A - Hardware Maintenance - Contract|BRITISH TELECOM PLC|IN978091|81666.34|BT1 3BT
+38|DOF|Department of Finance|2026-04-13|C - Properties Buildings Project Work|DORAN CONSULTING|251050/26/0376|79348.67|BT2 8FE
+39|DOF|Land & Property Services|2026-04-24|P - Software Maintenance - Contract|ESRI|IE-PIN102940|78000|IE
+40|DOF|Land & Property Services|2026-04-08|Fixed Asset Clearing Account|ESRI|IE-PIN102898|74500|IE
+41|DOF|Department of Finance|2026-04-17|A - Other Professional Costs|SUMER ACCOUNTANTS NI LTD|'737744|67284|BT1 6DN
+42|DOF|Department of Finance|2026-04-09|A - Managed Services - Information Technology / Systems|ASITE SOLUTIONS LIMITED|INV_S013532|64800|W1J 5JA
+43|DOF|Department of Finance|2026-04-08|A - Software Maintenance - Contract|SURECERT|INV-1197|64472.4|BT3 9DT
+44|DOF|Department of Finance|2026-04-13|Cost Pass-Through Control|VERSION1|INVSOL034094|64414.2|B2 5DB
+45|DOF|Department of Finance|2026-04-01|A - Non - Capital Purchases - Software Licences|BRITISH TELECOM PLC|IN977712|64342.08|BT1 3BT
+46|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|ARBOUR HOUSING|'509748|64166.9|BT62 3EN
+47|DOF|Department of Finance|2026-04-01|Cost Pass-Through Control|FUJITSU SERVICES LTD|'1010015414|64054.43|WA3 6GD
+48|DOF|Department of Finance|2026-04-09|A - Non - Capital Purchases - Computer Hardware/Software|BRITISH TELECOM PLC|IN977742|63184.8|BT1 3BT
+49|DOF|Department of Finance|2026-04-01|Cost Pass-Through Control|FUJITSU SERVICES LTD|'1010015390|63027.9|WA3 6GD
+50|DOF|Department of Finance|2026-04-29|Accrued/Prepaid Lease Payments (non PFI)|MCCONNELL CHARTERED SURVEYORS LTD|'15823|61200|BT1 4NX
+51|DOF|Northern Ireland Statistical Research Agency|2026-04-21|P - Statistical Services Fees & Costs|BUSINESS SERVICES ORGANISATION|H0065388|61000|BT79 0NS
+52|DOF|Department of Finance|2026-04-29|A - Gas|FIRMUS ENERGY|PD20326|58641.88|BT41 4LZ
+53|DOF|Department of Finance|2026-04-22|A - Non - Capital Purchases - Software Licences|BRITISH TELECOM PLC|IN977934|55513.4|NW9 6LB
+54|DOF|Land & Property Services|2026-04-30|P - Software Maintenance - Contract|RED RIDGE SOLUTIONS LTD|LPSINV279|55500|BT41 3QZ
+55|DOF|Department of Finance|2026-04-15|A - Subscriptions to professional bodies|CHARTERED INST OF PROCUREMENT & SUPPLY|SIN2603S0149274|55200|PE9 3NZ
+56|DOF|Department of Finance|2026-04-16|A - Electronic Publications|GOVERNMENT LEGAL DEPARTMENT|A4682|54518.4|WC2B 4TS
+57|DOF|Department of Finance|2026-04-03|Fixed Asset Clearing Account|STANFORD MARSH GROUP|'471686|53256|WR4 9ND
+58|DOF|Department of Finance|2026-04-01|A - Contract Payroll & HR Processing|FUJITSU SERVICES LTD|'1030048990|50542.24|WA3 6GD
+59|DOF|Northern Ireland Statistical Research Agency|2026-04-09|P - Registrar Charges|FERMANAGH & OMAGH DISTRICT COUNCIL|'1019698|48534.36|BT79 7BL
+60|DOF|Department of Finance|2026-04-10|Cost Pass-Through Control|EXPLEO TECHNOLOGY UK LTD|NI2026-00063|47191.2|EC2R 6DA
+61|DOF|Northern Ireland Statistical Research Agency|2026-04-28|P - Registrar Charges|ARMAGH CITY BANBRIDGE & CRAIGAVON BOROUGH COUNCIL|'4000061733|47189.72|BT64 1AL
+62|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|TRIANGLE HOUSING|'509750|46172.83|BT53 6BD
+63|DOF|Department of Finance|2026-04-01|A - Contract Computer Services & Data Processing|VIATEL CYBER LTD|VCL-70799|45600|BT3 9DT
+64|DOF|Department of Finance|2026-04-29|A - Maintenance of Buildings - Cyclical|IRWIN M&E LIMITED (RESP BODY)|SI0003150|45294.51|BT63 5WE
+65|DOF|Department of Finance|2026-04-01|A - Maintenance of Buildings - Cyclical|CHC GROUP LTD|'7355|44923.65|BT63 5QD
+66|DOF|Department of Finance|2026-04-28|Accrued/Prepaid Lease Payments (non PFI)|ALTERITY INVESTMENTS LIMITED|01052026-43500.00|43500|BT7 3JH
+67|DOF|Department of Finance|2026-04-20|A - Other Professional Costs|SUMER ACCOUNTANTS NI LTD|'738278|43008|BT1 6DN
+68|DOF|Department of Finance|2026-04-13|Cost Pass-Through Control|VERSION1|INVSOL034106|42403.2|B2 5DB
+69|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|NB HOUSING|'509746|41121.81|BT14 7EQ
+70|DOF|Land & Property Services|2026-04-08|P - Other Encashment Fees|ITS COMPUTING LIMITED|INV00019126549|40857.28|BT3 9ED
+71|DOF|Department of Finance|2026-04-29|Accrued/Prepaid Lease Payments (non PFI)|INN HOUSE LTD T/A RUE|INV-0067|39000|BT78 1BF
+72|DOF|Department of Finance|2026-04-29|A - Maintenance of Buildings - PD Requests|IRWIN M&E LIMITED (RESP BODY)|SI0003166|38400|BT63 5WE
+73|DOF|Land & Property Services|2026-04-22|Fixed Asset Clearing Account|BRITISH TELECOM PLC|IN978018|37863.74|NW9 6LB
+74|DOF|Department of Finance|2026-04-20|A - Water Charges|NORTHERN IRELAND WATER|'6048165925|37553.53|BT1 9DJ
+75|DOF|Department of Finance|2026-04-13|Cost Pass-Through Control|EXPLEO TECHNOLOGY UK LTD|NI2026-00060|36841.2|EC2R 6DA
+76|DOF|Land & Property Services|2026-04-23|Other Debtors|CROWN SOLICITOR FOR NORTHERN IRELAND|ERS-DOF-EF00590593-ERS-154|36309.6|BT1 3JY
+77|DOF|Department of Finance|2026-04-22|A - Contract Other Services|INNAXYS LTD|SI-209|34594.32|DE75 7EF
+78|DOF|Department of Finance|2026-04-29|A - Maintenance - Grounds|IRWIN M&E LIMITED (RESP BODY)|SI0003150|33112.6|BT63 5WE
+79|DOF|Department of Finance|2026-04-29|A - Service Charges - Property|MCCONNELL CHARTERED SURVEYORS LTD|'15823|32985|BT1 4NX
+80|DOF|Department of Finance|2026-04-13|A - Other Professional Fees|CAPITA|'6077144228|32835.41|DL1 9HN
+81|DOF|Department of Finance|2026-04-27|A - Contract Other Services|BUSINESS IN THE COMMUNITY|SIN015818|32400|BT5 4HD
+82|DOF|Department of Finance|2026-04-01|A - Contract Payroll & HR Processing|FUJITSU SERVICES LTD|'1030048995|32352.32|WA3 6GD
+83|DOF|Department of Finance|2026-04-30|A - Water Charges|NORTHERN IRELAND WATER|'7048338984|32005.11|BT1 9DJ
+84|DOF|Department of Finance|2026-04-16|A - Non - Capital Purchases - Telecommunications/Networks|BRITISH TELECOM PLC|IN977917|31884.77|NW9 6LB
+85|DOF|Department of Finance|2026-04-24|A - Basic Pay  - Non Industrial|NORTHERN IRELAND OFFICE|'700000833|31287.41|BT1 4NN
+86|DOF|Land & Property Services|2026-04-20|P - Software Maintenance - Contract|1 SPATIAL|SIN033553|31200|CB4 0WZ
+87|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|ARK HOUSING ASSOCIATION|'509739|30797.53|BT9 7ET
+88|DOF|Department of Finance|2026-04-13|Cost Pass-Through Control|VERSION1|INVSOL034107|30666.6|B2 5DB
+89|DOF|Northern Ireland Statistical Research Agency|2026-04-22|Fixed Asset Clearing Account|CIVICA UK LTD|C/GM352680|30531.16|SE1 9LQ
+90|DOF|Department of Finance|2026-04-22|A - Service Charges - Property|SAVILLS (UK) LIMITED|'202600000645|30241.37|IE
+91|DOF|Northern Ireland Statistical Research Agency|2026-04-21|Fixed Asset Clearing Account|ITS COMPUTING LIMITED|INV00019126559|30122.34|BT3 9ED
+92|DOF|Department of Finance|2026-04-21|A - Non - Capital Purchases - Software Licences|ADVANCED BUSINESS SOFTWARE & SOLUTIONS LTD|INV228328|30000|KT11 1TF
+93|DOF|Department of Finance|2026-04-21|A - Non - Capital Purchases - Software Licences|ADVANCED BUSINESS SOFTWARE & SOLUTIONS LTD|INV228315|30000|KT11 1TF
+94|DOF|Department of Finance|2026-04-14|Accrued/Prepaid Lease Payments (non PFI)|MOUNTJOY PROPERTIES LTD|'1180|30000|BT93 1TF
+95|DOF|Department of Finance|2026-04-13|Cost Pass-Through Control|VERSION1|INVSOL034101|28272|B2 5DB
+96|DOF|Department of Finance|2026-04-14|A - Contract Other Services|ADAPTNI CIC|PO36047939|27876|BT36 6JR
+97|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|RURAL HOUSING ASSOCIATION|'509747|27713.5|BT79 0AX
+98|DOF|Land & Property Services|2026-04-29|P - Benefits Expenditure|NEWINGTON HOUSING ASSOCIATION|'509745|26501.63|BT15 3AR
+99|DOF|Northern Ireland Statistical Research Agency|2026-04-28|P - Registrar Charges|ARDS & NORTH DOWN BOROUGH COUNCIL|'7003398|26398.42|BT20 4BT
+100|DOF|Department of Finance|2026-04-28|Accrued/Prepaid Lease Payments (non PFI)|SAVILLS (NI) LIMITED|'202600000001|23790|BT1 2DX
+101|DOF|Department of Finance|2026-04-02|Accrued/Prepaid Lease Payments (non PFI)|ARDS BUSINESS CENTRE|'15128|22500|BT23 4YH
+102|DOF|Department of Finance|2026-04-02|A - Service Charges - Property|ARDS BUSINESS CENTRE|'15128|15562.12|BT23 4YH
+103|DOF|Department of Finance|2026-04-28|A - Service Charges - Property|SAVILLS (NI) LIMITED|'202600000001|12062.4|BT1 2DX
+104|DOF|Department of Finance|2026-04-16|A - Service Charges - Property|O'CONNOR KENNEDY TURTLE|'95951|3695.5|BT2 8GD
+105|DOF|Department of Finance|2026-04-15|A - Service Charges - Property|CAMPBELL CAIRNS COMMERCIAL|KILLYM-41|900|BT1 6JH
+106|DOF|Northern Ireland Statistical Research Agency|2026-04-21|Fixed Asset Clearing Account|ITS COMPUTING LIMITED|RETRN000000000180|-30122.34|BT3 9ED
+
+```formats
+C2:C106 = mm-dd-yy
+G2:G106 = [$£-809]#,##0.00
+```
+
+# Sheet: Sheet1
+
+## A1:G34
+
+#|A|B|C|D|E|F|G
+-|-|-|-|-|-|-|-
+1|" Examples of transactions for inclusion - For information only"
+2|No|Examples of transactions that should be published|Reason
+3|1|Payments to other government bodies|All transactions whether with other public or private sector bodies should be included
+4|2|Payments to government or other third party service providers|All transactions should be included
+5|3|"Payments, inc. credit notes, to sole traders, above £25k. "|Business rather than personal expenditure
+6|4|Payments for secondees|Payment for service rather than personal or pay bill expenditure. However, if a secondee’s pay would become transparent, this should be redacted.
+7|5|Service charge element of pension contributions
+8|7|Ex-gratia payments above contract price|The full payment cost is required
+9|8|All credit notes over £25k|Needed to ensure correct transaction values have been recorded
+10|9|Policy lending (other than to individuals, or funds management)|Regarded as spend
+11|10|Gifts|Publishable under FOI
+12|11|Rent and business rates|Standard expenditure costs||Name|Date
+13||||Preparer|Fiona Halliday|2026-06-16
+14||||EO Reviewer
+15||||SO Reviewer
+16|Example of transactions for exclusion|||DP Reviewer|Billy Irvine|2026-06-18
+17|No|Examples of transactions that may be redacted from publication||EO Reviewer<br>Instances Identified?|Details|SO Review|DP Review
+18|1|Salary payments to staff (including bonuses)|Personal information protected by the Data Protection Act|N
+19|2|Pension contributions (excluding service charge) and National Insurance Contributions||N
+20|3|Severance payments||N
+21|4|Payments to individuals from legal process - compensation payments, legal settlements, fraud payments||N
+22|5|Money administered on behalf of a client||N
+23|6|Indemnity payments||N
+24|7|Bona vacantia||N
+25|8|Competition prizes – where a normal part of operations||N
+26|9|Expenditure on current military operations (including payments to contractors)|Exempt under FOI for national security reasons|N
+27|10|Expenditure by secret service organizations, national security agencies or special forces, and tackling serious crime||N
+28|11|Transactions with foreign governments (if privileged under FOI)||N
+29|12|Settlements made with companies as part of an arbitration or legal process, which is conditional on confidentiality|Commercial-in-confidence – exempt under FOI|N
+30|13|Potential betrayal of a commercial confidence, or prejudice to a legitimate commercial interest||N
+31|14|Spending where disclosure of either paying department or recipient would pose a personal security threat e.g. spending in fragile countries|Exempt under FOI to protect the identities of companies and individuals providing services to HM Government.|N
+32|15|Civil List and payments to Royal Households|Confidential information exempt under FOI|N
+33|16|Transactions relating to the financing or underwriting of debt e.g. purchase of credit default swaps|Outside the definition of expenditure for this purpose|N
+34|17|Provisions or promises to pay not yet realised||N
+
+```formats
+F13 = mm-dd-yy
+F16 = mm-dd-yy
+```
+
+## A37:B40
+
+#|A|B
+-|-|-
+37|No|Other Review Points
+38|1|Review any items that net to zero in the pivot
+39|2|Review any material credits
+40|3|Any other items noted - place in separate tab
+
+```merges
+C18:C25
+C26:C28
+C29:C30
+C33:C34
+E13:E14
+E15:F15
+F13:F14
+```

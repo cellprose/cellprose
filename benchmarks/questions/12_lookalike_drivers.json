@@ -1,0 +1,93 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is profit in Y4?",
+  "cell": "Plan!E10",
+  "id": "q1",
+  "truth": 559781.993375
+ },
+ {
+  "type": "trace",
+  "q": "Consider Y3 rent. List the cells its formula reads directly (not indirectly).",
+  "cell": "Plan!D5",
+  "id": "q2",
+  "truth": [
+   "Drivers!B4",
+   "Plan!C5"
+  ]
+ },
+ {
+  "type": "trace",
+  "q": "Consider Y2 wages. List the cells its formula reads directly (not indirectly).",
+  "cell": "Plan!C4",
+  "id": "q3",
+  "truth": [
+   "Drivers!B3",
+   "Plan!B4"
+  ]
+ },
+ {
+  "type": "trace",
+  "q": "Consider Y2 marketing. List the cells its formula reads directly (not indirectly).",
+  "cell": "Plan!C6",
+  "id": "q4",
+  "truth": [
+   "Drivers!B6",
+   "Plan!B6"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose wage inflation increased by 10%. List every other cell whose value would change.",
+  "cell": "Drivers!B3",
+  "factor": 1.1,
+  "id": "q5",
+  "truth": [
+   "Plan!C10",
+   "Plan!C4",
+   "Plan!C9",
+   "Plan!D10",
+   "Plan!D4",
+   "Plan!D9",
+   "Plan!E10",
+   "Plan!E4",
+   "Plan!E9"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose price inflation increased by 10%. List every other cell whose value would change.",
+  "cell": "Drivers!B2",
+  "factor": 1.1,
+  "id": "q6",
+  "truth": [
+   "Plan!C10",
+   "Plan!C3",
+   "Plan!C8",
+   "Plan!D10",
+   "Plan!D3",
+   "Plan!D8",
+   "Plan!E10",
+   "Plan!E3",
+   "Plan!E8"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose marketing growth increased by 10%. List every other cell whose value would change.",
+  "cell": "Drivers!B6",
+  "factor": 1.1,
+  "id": "q7",
+  "truth": [
+   "Plan!C10",
+   "Plan!C6",
+   "Plan!C9",
+   "Plan!D10",
+   "Plan!D6",
+   "Plan!D9",
+   "Plan!E10",
+   "Plan!E6",
+   "Plan!E9"
+  ]
+ }
+]

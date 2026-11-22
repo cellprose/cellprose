@@ -1,0 +1,99 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw2_dam_ddm2st",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1271,
+ "prompt_sha256": "133bf4ce5e4e310d5ca3549adb5729f7345c99e76ea044c024b7050ecf0242d7",
+ "result": "{\n  \"q1\": \"ddm2st.xls!D43\",\n  \"q2\": [\n    \"ddm2st.xls!E24\",\n    \"ddm2st.xls!D94\",\n    \"ddm2st.xls!C95\",\n    \"ddm2st.xls!D89\"\n  ],\n  \"q3\": [\n    \"ddm2st.xls!E64\",\n    \"ddm2st.xls!E63\",\n    \"ddm2st.xls!E65\"\n  ],\n  \"q4\": [\n    \"ddm2st.xls!E63\",\n    \"ddm2st.xls!E97\",\n    \"ddm2st.xls!E98\",\n    \"ddm2st.xls!E100\",\n    \"ddm2st.xls!F103\",\n    \"ddm2st.xls!F104\",\n    \"ddm2st.xls!E109:E111\",\n    \"ddm2st.xls!D116:D132\",\n    \"ddm2st.xls!G115:G125\"\n  ],\n  \"q5\": []\n}",
+ "usage": {
+  "input_tokens": 6048,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 429,
+  "output_tokens_details": {
+   "thinking_tokens": 94
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 6048,
+   "outputTokens": 429,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 94
+  }
+ },
+ "cost": 0.016386,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_e3bf28d481f6431eb58cb6fb23373164",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 450,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 100,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 5598,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 329,
+     "reasoning_tokens": 94,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.016386
+  },
+  "finished_at": "2026-11-11T18:18:59+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.6
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');print(w.sheetnames)\\ns=w['ddm2st.xls']\\nfor row in s:\\n vals=['%s:%s'%(c.coordinate,c.value) for c in row if c.value is not None]\\n if vals:print(' | '.join(vals))\\nPY\"}",
+   "output_chars": 10809
+  }
+ ]
+}

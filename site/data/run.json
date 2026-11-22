@@ -1,0 +1,1909 @@
+{
+ "addendum": {
+  "repeats": 2,
+  "views": {
+   "realworld_all": {
+    "arms": [
+     {
+      "acc": 100.0,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0147,
+      "cost_per_correct": 0.0147,
+      "model": "gpt61sol",
+      "tokens": 6197,
+      "turns": 2.5
+     },
+     {
+      "acc": 99.2,
+      "arm": "agent_xlsx",
+      "cost": 0.0351,
+      "cost_per_correct": 0.0354,
+      "model": "gpt61sol",
+      "tokens": 15004,
+      "turns": 3.4
+     },
+     {
+      "acc": 99.2,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0382,
+      "cost_per_correct": 0.0385,
+      "model": "gpt61sol",
+      "tokens": 16767,
+      "turns": 3.4
+     },
+     {
+      "acc": 97.9,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0013,
+      "cost_per_correct": 0.0013,
+      "model": "gpt6luna",
+      "tokens": 10983,
+      "turns": 2.6
+     },
+     {
+      "acc": 96.5,
+      "arm": "agent_xlsx",
+      "cost": 0.0035,
+      "cost_per_correct": 0.0037,
+      "model": "gpt6luna",
+      "tokens": 28052,
+      "turns": 4.6
+     },
+     {
+      "acc": 98.9,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0045,
+      "cost_per_correct": 0.0046,
+      "model": "gpt6luna",
+      "tokens": 39003,
+      "turns": 4.3
+     },
+     {
+      "acc": 95.2,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0024,
+      "cost_per_correct": 0.0025,
+      "model": "haiku55",
+      "tokens": 17214,
+      "turns": 3.0
+     },
+     {
+      "acc": 97.3,
+      "arm": "agent_xlsx",
+      "cost": 0.0047,
+      "cost_per_correct": 0.0048,
+      "model": "haiku55",
+      "tokens": 36888,
+      "turns": 4.3
+     },
+     {
+      "acc": 97.2,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0053,
+      "cost_per_correct": 0.0054,
+      "model": "haiku55",
+      "tokens": 43053,
+      "turns": 4.2
+     },
+     {
+      "acc": 96.9,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0421,
+      "cost_per_correct": 0.0434,
+      "model": "sonnet55",
+      "tokens": 17880,
+      "turns": 3.2
+     },
+     {
+      "acc": 98.4,
+      "arm": "agent_xlsx",
+      "cost": 0.0857,
+      "cost_per_correct": 0.0871,
+      "model": "sonnet55",
+      "tokens": 36099,
+      "turns": 4.7
+     },
+     {
+      "acc": 98.1,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0843,
+      "cost_per_correct": 0.0859,
+      "model": "sonnet55",
+      "tokens": 36467,
+      "turns": 4.9
+     }
+    ],
+    "label": "Real-world, all questions",
+    "verdicts": [
+     {
+      "acc": 100.0,
+      "acc_baseline": 99.2,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.52,
+      "lo": 0.32,
+      "model": "gpt61sol",
+      "ratio": 0.42,
+      "verdict": "win"
+     },
+     {
+      "acc": 100.0,
+      "acc_baseline": 99.3,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.47,
+      "lo": 0.31,
+      "model": "gpt61sol",
+      "ratio": 0.38,
+      "verdict": "win"
+     },
+     {
+      "acc": 98.1,
+      "acc_baseline": 96.4,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.49,
+      "lo": 0.26,
+      "model": "gpt6luna",
+      "ratio": 0.36,
+      "verdict": "win"
+     },
+     {
+      "acc": 98.1,
+      "acc_baseline": 98.9,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.38,
+      "lo": 0.22,
+      "model": "gpt6luna",
+      "ratio": 0.29,
+      "verdict": "win"
+     },
+     {
+      "acc": 95.3,
+      "acc_baseline": 97.3,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.69,
+      "lo": 0.39,
+      "model": "haiku55",
+      "ratio": 0.51,
+      "verdict": "no difference"
+     },
+     {
+      "acc": 95.3,
+      "acc_baseline": 97.2,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.62,
+      "lo": 0.35,
+      "model": "haiku55",
+      "ratio": 0.46,
+      "verdict": "no difference"
+     },
+     {
+      "acc": 96.9,
+      "acc_baseline": 98.4,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.67,
+      "lo": 0.36,
+      "model": "sonnet55",
+      "ratio": 0.5,
+      "verdict": "no difference"
+     },
+     {
+      "acc": 96.9,
+      "acc_baseline": 98.1,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.72,
+      "lo": 0.35,
+      "model": "sonnet55",
+      "ratio": 0.51,
+      "verdict": "no difference"
+     }
+    ]
+   },
+   "realworld_primary": {
+    "arms": [
+     {
+      "acc": 100.0,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0147,
+      "cost_per_correct": 0.0147,
+      "model": "gpt61sol",
+      "tokens": 6197,
+      "turns": 2.5
+     },
+     {
+      "acc": 100.0,
+      "arm": "agent_xlsx",
+      "cost": 0.0351,
+      "cost_per_correct": 0.0351,
+      "model": "gpt61sol",
+      "tokens": 15004,
+      "turns": 3.4
+     },
+     {
+      "acc": 100.0,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0382,
+      "cost_per_correct": 0.0382,
+      "model": "gpt61sol",
+      "tokens": 16767,
+      "turns": 3.4
+     },
+     {
+      "acc": 97.7,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0013,
+      "cost_per_correct": 0.0013,
+      "model": "gpt6luna",
+      "tokens": 10983,
+      "turns": 2.6
+     },
+     {
+      "acc": 98.7,
+      "arm": "agent_xlsx",
+      "cost": 0.0035,
+      "cost_per_correct": 0.0036,
+      "model": "gpt6luna",
+      "tokens": 28052,
+      "turns": 4.6
+     },
+     {
+      "acc": 99.9,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0045,
+      "cost_per_correct": 0.0045,
+      "model": "gpt6luna",
+      "tokens": 39003,
+      "turns": 4.3
+     },
+     {
+      "acc": 97.4,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0024,
+      "cost_per_correct": 0.0024,
+      "model": "haiku55",
+      "tokens": 17214,
+      "turns": 3.0
+     },
+     {
+      "acc": 99.7,
+      "arm": "agent_xlsx",
+      "cost": 0.0047,
+      "cost_per_correct": 0.0047,
+      "model": "haiku55",
+      "tokens": 36888,
+      "turns": 4.3
+     },
+     {
+      "acc": 100.0,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0053,
+      "cost_per_correct": 0.0053,
+      "model": "haiku55",
+      "tokens": 43053,
+      "turns": 4.2
+     },
+     {
+      "acc": 99.5,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0421,
+      "cost_per_correct": 0.0423,
+      "model": "sonnet55",
+      "tokens": 17880,
+      "turns": 3.2
+     },
+     {
+      "acc": 99.8,
+      "arm": "agent_xlsx",
+      "cost": 0.0857,
+      "cost_per_correct": 0.0858,
+      "model": "sonnet55",
+      "tokens": 36099,
+      "turns": 4.7
+     },
+     {
+      "acc": 99.9,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0843,
+      "cost_per_correct": 0.0844,
+      "model": "sonnet55",
+      "tokens": 36467,
+      "turns": 4.9
+     }
+    ],
+    "label": "Real-world, primary (impact questions left out)",
+    "verdicts": [
+     {
+      "acc": 100.0,
+      "acc_baseline": 100.0,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.53,
+      "lo": 0.33,
+      "model": "gpt61sol",
+      "ratio": 0.42,
+      "verdict": "win"
+     },
+     {
+      "acc": 100.0,
+      "acc_baseline": 100.0,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.48,
+      "lo": 0.31,
+      "model": "gpt61sol",
+      "ratio": 0.39,
+      "verdict": "win"
+     },
+     {
+      "acc": 97.7,
+      "acc_baseline": 98.7,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.5,
+      "lo": 0.27,
+      "model": "gpt6luna",
+      "ratio": 0.37,
+      "verdict": "no difference"
+     },
+     {
+      "acc": 97.7,
+      "acc_baseline": 99.9,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.38,
+      "lo": 0.22,
+      "model": "gpt6luna",
+      "ratio": 0.29,
+      "verdict": "no difference"
+     },
+     {
+      "acc": 97.4,
+      "acc_baseline": 99.7,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.7,
+      "lo": 0.39,
+      "model": "haiku55",
+      "ratio": 0.51,
+      "verdict": "no difference"
+     },
+     {
+      "acc": 97.4,
+      "acc_baseline": 100.0,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.62,
+      "lo": 0.35,
+      "model": "haiku55",
+      "ratio": 0.46,
+      "verdict": "no difference"
+     },
+     {
+      "acc": 99.5,
+      "acc_baseline": 99.8,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.67,
+      "lo": 0.35,
+      "model": "sonnet55",
+      "ratio": 0.49,
+      "verdict": "win"
+     },
+     {
+      "acc": 99.5,
+      "acc_baseline": 99.9,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.71,
+      "lo": 0.35,
+      "model": "sonnet55",
+      "ratio": 0.5,
+      "verdict": "win"
+     }
+    ]
+   },
+   "spreadsheetbench": {
+    "arms": [
+     {
+      "acc": 100.0,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.012,
+      "cost_per_correct": 0.012,
+      "model": "gpt61sol",
+      "tokens": 5144,
+      "turns": 2.2
+     },
+     {
+      "acc": 100.0,
+      "arm": "agent_xlsx",
+      "cost": 0.0195,
+      "cost_per_correct": 0.0195,
+      "model": "gpt61sol",
+      "tokens": 8851,
+      "turns": 2.6
+     },
+     {
+      "acc": 100.0,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0169,
+      "cost_per_correct": 0.0169,
+      "model": "gpt61sol",
+      "tokens": 7785,
+      "turns": 2.9
+     },
+     {
+      "acc": 96.4,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0009,
+      "cost_per_correct": 0.0009,
+      "model": "gpt6luna",
+      "tokens": 6224,
+      "turns": 2.2
+     },
+     {
+      "acc": 92.8,
+      "arm": "agent_xlsx",
+      "cost": 0.0016,
+      "cost_per_correct": 0.0017,
+      "model": "gpt6luna",
+      "tokens": 12466,
+      "turns": 3.3
+     },
+     {
+      "acc": 99.1,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0017,
+      "cost_per_correct": 0.0018,
+      "model": "gpt6luna",
+      "tokens": 15055,
+      "turns": 3.3
+     },
+     {
+      "acc": 94.6,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0018,
+      "cost_per_correct": 0.0019,
+      "model": "haiku55",
+      "tokens": 10816,
+      "turns": 2.3
+     },
+     {
+      "acc": 93.7,
+      "arm": "agent_xlsx",
+      "cost": 0.0027,
+      "cost_per_correct": 0.0029,
+      "model": "haiku55",
+      "tokens": 21394,
+      "turns": 3.1
+     },
+     {
+      "acc": 95.9,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0027,
+      "cost_per_correct": 0.0028,
+      "model": "haiku55",
+      "tokens": 21975,
+      "turns": 3.0
+     },
+     {
+      "acc": 99.1,
+      "arm": "agent_cellprose_lean",
+      "cost": 0.0285,
+      "cost_per_correct": 0.0288,
+      "model": "sonnet55",
+      "tokens": 10874,
+      "turns": 2.6
+     },
+     {
+      "acc": 100.0,
+      "arm": "agent_xlsx",
+      "cost": 0.0524,
+      "cost_per_correct": 0.0524,
+      "model": "sonnet55",
+      "tokens": 22772,
+      "turns": 3.5
+     },
+     {
+      "acc": 99.5,
+      "arm": "agent_xlsx_viewer",
+      "cost": 0.0362,
+      "cost_per_correct": 0.0364,
+      "model": "sonnet55",
+      "tokens": 15316,
+      "turns": 3.8
+     }
+    ],
+    "label": "SpreadsheetBench",
+    "verdicts": [
+     {
+      "acc": 100.0,
+      "acc_baseline": 100.0,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.89,
+      "lo": 0.45,
+      "model": "gpt61sol",
+      "ratio": 0.61,
+      "verdict": "win"
+     },
+     {
+      "acc": 100.0,
+      "acc_baseline": 100.0,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.97,
+      "lo": 0.53,
+      "model": "gpt61sol",
+      "ratio": 0.71,
+      "verdict": "win"
+     },
+     {
+      "acc": 95.7,
+      "acc_baseline": 94.3,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.76,
+      "lo": 0.45,
+      "model": "gpt6luna",
+      "ratio": 0.58,
+      "verdict": "win"
+     },
+     {
+      "acc": 95.7,
+      "acc_baseline": 99.3,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.79,
+      "lo": 0.39,
+      "model": "gpt6luna",
+      "ratio": 0.54,
+      "verdict": "no difference"
+     },
+     {
+      "acc": 94.3,
+      "acc_baseline": 90.7,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.94,
+      "lo": 0.49,
+      "model": "haiku55",
+      "ratio": 0.66,
+      "verdict": "win"
+     },
+     {
+      "acc": 94.3,
+      "acc_baseline": 93.8,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 0.99,
+      "lo": 0.49,
+      "model": "haiku55",
+      "ratio": 0.68,
+      "verdict": "win"
+     },
+     {
+      "acc": 99.3,
+      "acc_baseline": 100.0,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx",
+      "hi": 0.74,
+      "lo": 0.42,
+      "model": "sonnet55",
+      "ratio": 0.55,
+      "verdict": "win"
+     },
+     {
+      "acc": 99.3,
+      "acc_baseline": 99.6,
+      "arm": "agent_cellprose_lean",
+      "baseline": "agent_xlsx_viewer",
+      "hi": 1.03,
+      "lo": 0.61,
+      "model": "sonnet55",
+      "ratio": 0.79,
+      "verdict": "no difference"
+     }
+    ]
+   }
+  }
+ },
+ "arms": [
+  "cellprose_v03",
+  "markitdown",
+  "csv",
+  "agent_xlsx",
+  "agent_xlsx_viewer",
+  "agent_cellprose_v03"
+ ],
+ "corpora": {
+  "realworld": {
+   "about": "15 Damodaran valuation models and 15 Enron trading workbooks; five question types",
+   "arms": [
+    {
+     "acc": 99.0,
+     "arm": "agent_cellprose_v03",
+     "cost": 0.0422,
+     "cost_per_correct": 0.0426,
+     "model": "gpt61sol",
+     "tokens": 19102,
+     "turns": 3.9
+    },
+    {
+     "acc": 99.2,
+     "arm": "agent_xlsx",
+     "cost": 0.0336,
+     "cost_per_correct": 0.0338,
+     "model": "gpt61sol",
+     "tokens": 14248,
+     "turns": 3.5
+    },
+    {
+     "acc": 99.2,
+     "arm": "agent_xlsx_viewer",
+     "cost": 0.0391,
+     "cost_per_correct": 0.0394,
+     "model": "gpt61sol",
+     "tokens": 17240,
+     "turns": 3.5
+    },
+    {
+     "acc": 99.3,
+     "arm": "cellprose_v03",
+     "cost": 0.0419,
+     "cost_per_correct": 0.0421,
+     "model": "gpt61sol",
+     "tokens": 19378,
+     "turns": 1.0
+    },
+    {
+     "acc": 94.1,
+     "arm": "agent_cellprose_v03",
+     "cost": 0.0044,
+     "cost_per_correct": 0.0047,
+     "model": "gpt6luna",
+     "tokens": 37776,
+     "turns": 5.0
+    },
+    {
+     "acc": 97.5,
+     "arm": "agent_xlsx",
+     "cost": 0.0036,
+     "cost_per_correct": 0.0037,
+     "model": "gpt6luna",
+     "tokens": 28446,
+     "turns": 4.5
+    },
+    {
+     "acc": 97.1,
+     "arm": "agent_xlsx_viewer",
+     "cost": 0.0044,
+     "cost_per_correct": 0.0046,
+     "model": "gpt6luna",
+     "tokens": 38475,
+     "turns": 4.2
+    },
+    {
+     "acc": 93.8,
+     "arm": "cellprose_v03",
+     "cost": 0.0026,
+     "cost_per_correct": 0.0028,
+     "model": "gpt6luna",
+     "tokens": 20375,
+     "turns": 1.0
+    },
+    {
+     "acc": 96.9,
+     "arm": "agent_cellprose_v03",
+     "cost": 0.0061,
+     "cost_per_correct": 0.0063,
+     "model": "haiku55",
+     "tokens": 47320,
+     "turns": 4.5
+    },
+    {
+     "acc": 96.9,
+     "arm": "agent_xlsx",
+     "cost": 0.0043,
+     "cost_per_correct": 0.0044,
+     "model": "haiku55",
+     "tokens": 32746,
+     "turns": 4.2
+    },
+    {
+     "acc": 97.2,
+     "arm": "agent_xlsx_viewer",
+     "cost": 0.0055,
+     "cost_per_correct": 0.0057,
+     "model": "haiku55",
+     "tokens": 45927,
+     "turns": 4.2
+    },
+    {
+     "acc": 96.5,
+     "arm": "cellprose_v03",
+     "cost": 0.0051,
+     "cost_per_correct": 0.0053,
+     "model": "haiku55",
+     "tokens": 25577,
+     "turns": 1.0
+    },
+    {
+     "acc": 98.3,
+     "arm": "agent_cellprose_v03",
+     "cost": 0.0865,
+     "cost_per_correct": 0.088,
+     "model": "sonnet55",
+     "tokens": 37671,
+     "turns": 4.7
+    },
+    {
+     "acc": 98.7,
+     "arm": "agent_xlsx",
+     "cost": 0.083,
+     "cost_per_correct": 0.0841,
+     "model": "sonnet55",
+     "tokens": 35175,
+     "turns": 4.6
+    },
+    {
+     "acc": 97.3,
+     "arm": "agent_xlsx_viewer",
+     "cost": 0.0771,
+     "cost_per_correct": 0.0792,
+     "model": "sonnet55",
+     "tokens": 33170,
+     "turns": 4.7
+    },
+    {
+     "acc": 99.3,
+     "arm": "cellprose_v03",
+     "cost": 0.0563,
+     "cost_per_correct": 0.0567,
+     "model": "sonnet55",
+     "tokens": 24388,
+     "turns": 1.0
+    },
+    {
+     "acc": 84.3,
+     "arm": "csv",
+     "cost": 0.0364,
+     "cost_per_correct": 0.0431,
+     "model": "gpt61sol",
+     "tokens": 13151,
+     "turns": 1.0
+    },
+    {
+     "acc": 86.1,
+     "arm": "markitdown",
+     "cost": 0.0599,
+     "cost_per_correct": 0.0695,
+     "model": "gpt61sol",
+     "tokens": 25395,
+     "turns": 1.0
+    },
+    {
+     "acc": 73.3,
+     "arm": "csv",
+     "cost": 0.0036,
+     "cost_per_correct": 0.0049,
+     "model": "gpt6luna",
+     "tokens": 16743,
+     "turns": 1.0
+    },
+    {
+     "acc": 74.1,
+     "arm": "markitdown",
+     "cost": 0.0046,
+     "cost_per_correct": 0.0062,
+     "model": "gpt6luna",
+     "tokens": 28548,
+     "turns": 1.0
+    },
+    {
+     "acc": 66.7,
+     "arm": "csv",
+     "cost": 0.0037,
+     "cost_per_correct": 0.0055,
+     "model": "haiku55",
+     "tokens": 21736,
+     "turns": 1.0
+    },
+    {
+     "acc": 70.6,
+     "arm": "markitdown",
+     "cost": 0.0117,
+     "cost_per_correct": 0.0165,
+     "model": "haiku55",
+     "tokens": 35648,
+     "turns": 1.0
+    },
+    {
+     "acc": 82.7,
+     "arm": "csv",
+     "cost": 0.0804,
+     "cost_per_correct": 0.0972,
+     "model": "sonnet55",
+     "tokens": 22396,
+     "turns": 1.0
+    },
+    {
+     "acc": 81.4,
+     "arm": "markitdown",
+     "cost": 0.1047,
+     "cost_per_correct": 0.1286,
+     "model": "sonnet55",
+     "tokens": 36155,
+     "turns": 1.0
+    }
+   ],
+   "by_task": [
+    {
+     "address": 93.7,
+     "arm": "csv",
+     "hardcode": 67.6,
+     "impact": 80.0,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": 85.4
+    },
+    {
+     "address": 98.4,
+     "arm": "markitdown",
+     "hardcode": 70.7,
+     "impact": 81.4,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": 86.4
+    },
+    {
+     "address": 100.0,
+     "arm": "cellprose_v03",
+     "hardcode": 100.0,
+     "impact": 96.1,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": 100.0
+    },
+    {
+     "address": 100.0,
+     "arm": "agent_xlsx",
+     "hardcode": 100.0,
+     "impact": 95.6,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": 100.0
+    },
+    {
+     "address": 100.0,
+     "arm": "agent_xlsx_viewer",
+     "hardcode": 100.0,
+     "impact": 95.7,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": 100.0
+    },
+    {
+     "address": 100.0,
+     "arm": "agent_cellprose_v03",
+     "hardcode": 100.0,
+     "impact": 94.5,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": 100.0
+    },
+    {
+     "address": 74.6,
+     "arm": "csv",
+     "hardcode": 63.6,
+     "impact": 61.7,
+     "lookup": 95.7,
+     "model": "gpt6luna",
+     "trace": 74.8
+    },
+    {
+     "address": 82.5,
+     "arm": "markitdown",
+     "hardcode": 58.7,
+     "impact": 61.7,
+     "lookup": 98.6,
+     "model": "gpt6luna",
+     "trace": 75.5
+    },
+    {
+     "address": 100.0,
+     "arm": "cellprose_v03",
+     "hardcode": 89.6,
+     "impact": 92.0,
+     "lookup": 97.1,
+     "model": "gpt6luna",
+     "trace": 93.3
+    },
+    {
+     "address": 98.4,
+     "arm": "agent_xlsx",
+     "hardcode": 99.9,
+     "impact": 89.0,
+     "lookup": 100.0,
+     "model": "gpt6luna",
+     "trace": 99.3
+    },
+    {
+     "address": 100.0,
+     "arm": "agent_xlsx_viewer",
+     "hardcode": 100.0,
+     "impact": 87.2,
+     "lookup": 100.0,
+     "model": "gpt6luna",
+     "trace": 98.3
+    },
+    {
+     "address": 93.7,
+     "arm": "agent_cellprose_v03",
+     "hardcode": 94.3,
+     "impact": 87.4,
+     "lookup": 100.0,
+     "model": "gpt6luna",
+     "trace": 95.1
+    },
+    {
+     "address": 84.1,
+     "arm": "csv",
+     "hardcode": 62.6,
+     "impact": 45.3,
+     "lookup": 100.0,
+     "model": "haiku55",
+     "trace": 60.3
+    },
+    {
+     "address": 88.9,
+     "arm": "markitdown",
+     "hardcode": 60.2,
+     "impact": 48.9,
+     "lookup": 100.0,
+     "model": "haiku55",
+     "trace": 68.7
+    },
+    {
+     "address": 98.4,
+     "arm": "cellprose_v03",
+     "hardcode": 99.4,
+     "impact": 88.8,
+     "lookup": 100.0,
+     "model": "haiku55",
+     "trace": 96.7
+    },
+    {
+     "address": 98.4,
+     "arm": "agent_xlsx",
+     "hardcode": 100.0,
+     "impact": 83.8,
+     "lookup": 100.0,
+     "model": "haiku55",
+     "trace": 100.0
+    },
+    {
+     "address": 98.4,
+     "arm": "agent_xlsx_viewer",
+     "hardcode": 100.0,
+     "impact": 85.3,
+     "lookup": 100.0,
+     "model": "haiku55",
+     "trace": 100.0
+    },
+    {
+     "address": 93.7,
+     "arm": "agent_cellprose_v03",
+     "hardcode": 99.4,
+     "impact": 90.4,
+     "lookup": 100.0,
+     "model": "haiku55",
+     "trace": 98.8
+    },
+    {
+     "address": 96.8,
+     "arm": "csv",
+     "hardcode": 70.4,
+     "impact": 74.0,
+     "lookup": 98.6,
+     "model": "sonnet55",
+     "trace": 82.1
+    },
+    {
+     "address": 95.2,
+     "arm": "markitdown",
+     "hardcode": 62.0,
+     "impact": 71.4,
+     "lookup": 100.0,
+     "model": "sonnet55",
+     "trace": 83.9
+    },
+    {
+     "address": 100.0,
+     "arm": "cellprose_v03",
+     "hardcode": 100.0,
+     "impact": 95.8,
+     "lookup": 100.0,
+     "model": "sonnet55",
+     "trace": 100.0
+    },
+    {
+     "address": 100.0,
+     "arm": "agent_xlsx",
+     "hardcode": 100.0,
+     "impact": 93.0,
+     "lookup": 100.0,
+     "model": "sonnet55",
+     "trace": 100.0
+    },
+    {
+     "address": 96.8,
+     "arm": "agent_xlsx_viewer",
+     "hardcode": 99.6,
+     "impact": 87.8,
+     "lookup": 100.0,
+     "model": "sonnet55",
+     "trace": 99.9
+    },
+    {
+     "address": 100.0,
+     "arm": "agent_cellprose_v03",
+     "hardcode": 100.0,
+     "impact": 95.8,
+     "lookup": 98.6,
+     "model": "sonnet55",
+     "trace": 97.9
+    }
+   ],
+   "label": "Real-world",
+   "none": {
+    "gpt61sol": 2.5,
+    "gpt6luna": 13.1,
+    "haiku55": 15.9,
+    "sonnet55": 23.2
+   },
+   "questions": 163,
+   "verdicts": [
+    {
+     "acc": 99.3,
+     "acc_baseline": 85.7,
+     "arm": "cellprose_v03",
+     "baseline": "markitdown",
+     "hi": 0.79,
+     "lo": 0.45,
+     "model": "gpt61sol",
+     "ratio": 0.6,
+     "verdict": "win"
+    },
+    {
+     "acc": 99.3,
+     "acc_baseline": 99.2,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx",
+     "hi": 1.78,
+     "lo": 0.81,
+     "model": "gpt61sol",
+     "ratio": 1.25,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 99.3,
+     "acc_baseline": 99.3,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx_viewer",
+     "hi": 1.57,
+     "lo": 0.67,
+     "model": "gpt61sol",
+     "ratio": 1.07,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 99.3,
+     "acc_baseline": 84.1,
+     "arm": "cellprose_v03",
+     "baseline": "csv",
+     "hi": 1.17,
+     "lo": 0.79,
+     "model": "gpt61sol",
+     "ratio": 0.97,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 93.8,
+     "acc_baseline": 73.9,
+     "arm": "cellprose_v03",
+     "baseline": "markitdown",
+     "hi": 0.55,
+     "lo": 0.35,
+     "model": "gpt6luna",
+     "ratio": 0.45,
+     "verdict": "win"
+    },
+    {
+     "acc": 93.8,
+     "acc_baseline": 97.6,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx",
+     "hi": 1.1,
+     "lo": 0.49,
+     "model": "gpt6luna",
+     "ratio": 0.75,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 93.8,
+     "acc_baseline": 97.2,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx_viewer",
+     "hi": 0.82,
+     "lo": 0.43,
+     "model": "gpt6luna",
+     "ratio": 0.6,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 93.8,
+     "acc_baseline": 73.3,
+     "arm": "cellprose_v03",
+     "baseline": "csv",
+     "hi": 0.68,
+     "lo": 0.44,
+     "model": "gpt6luna",
+     "ratio": 0.56,
+     "verdict": "win"
+    },
+    {
+     "acc": 96.5,
+     "acc_baseline": 70.0,
+     "arm": "cellprose_v03",
+     "baseline": "markitdown",
+     "hi": 1.0,
+     "lo": 0.13,
+     "model": "haiku55",
+     "ratio": 0.32,
+     "verdict": "win"
+    },
+    {
+     "acc": 96.5,
+     "acc_baseline": 97.0,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx",
+     "hi": 2.34,
+     "lo": 0.6,
+     "model": "haiku55",
+     "ratio": 1.21,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 96.5,
+     "acc_baseline": 97.3,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx_viewer",
+     "hi": 1.85,
+     "lo": 0.47,
+     "model": "haiku55",
+     "ratio": 0.94,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 96.5,
+     "acc_baseline": 65.9,
+     "arm": "cellprose_v03",
+     "baseline": "csv",
+     "hi": 1.76,
+     "lo": 0.52,
+     "model": "haiku55",
+     "ratio": 0.95,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 99.2,
+     "acc_baseline": 81.1,
+     "arm": "cellprose_v03",
+     "baseline": "markitdown",
+     "hi": 0.55,
+     "lo": 0.34,
+     "model": "sonnet55",
+     "ratio": 0.44,
+     "verdict": "win"
+    },
+    {
+     "acc": 99.2,
+     "acc_baseline": 98.8,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx",
+     "hi": 0.92,
+     "lo": 0.47,
+     "model": "sonnet55",
+     "ratio": 0.68,
+     "verdict": "win"
+    },
+    {
+     "acc": 99.2,
+     "acc_baseline": 97.4,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx_viewer",
+     "hi": 0.95,
+     "lo": 0.52,
+     "model": "sonnet55",
+     "ratio": 0.72,
+     "verdict": "win"
+    },
+    {
+     "acc": 99.2,
+     "acc_baseline": 82.6,
+     "arm": "cellprose_v03",
+     "baseline": "csv",
+     "hi": 0.67,
+     "lo": 0.5,
+     "model": "sonnet55",
+     "ratio": 0.58,
+     "verdict": "win"
+    }
+   ],
+   "workbooks": 30
+  },
+  "spreadsheetbench": {
+   "about": "SpreadsheetBench tasks restated as value questions; no formulas to trace",
+   "arms": [
+    {
+     "acc": 100.0,
+     "arm": "agent_cellprose_v03",
+     "cost": 0.0172,
+     "cost_per_correct": 0.0172,
+     "model": "gpt61sol",
+     "tokens": 8044,
+     "turns": 2.8
+    },
+    {
+     "acc": 100.0,
+     "arm": "agent_xlsx",
+     "cost": 0.0194,
+     "cost_per_correct": 0.0194,
+     "model": "gpt61sol",
+     "tokens": 8811,
+     "turns": 2.7
+    },
+    {
+     "acc": 100.0,
+     "arm": "agent_xlsx_viewer",
+     "cost": 0.0189,
+     "cost_per_correct": 0.0189,
+     "model": "gpt61sol",
+     "tokens": 8725,
+     "turns": 3.0
+    },
+    {
+     "acc": 100.0,
+     "arm": "cellprose_v03",
+     "cost": 0.0316,
+     "cost_per_correct": 0.0316,
+     "model": "gpt61sol",
+     "tokens": 14842,
+     "turns": 1.0
+    },
+    {
+     "acc": 94.6,
+     "arm": "agent_cellprose_v03",
+     "cost": 0.0017,
+     "cost_per_correct": 0.0018,
+     "model": "gpt6luna",
+     "tokens": 13602,
+     "turns": 3.4
+    },
+    {
+     "acc": 96.4,
+     "arm": "agent_xlsx",
+     "cost": 0.0015,
+     "cost_per_correct": 0.0016,
+     "model": "gpt6luna",
+     "tokens": 12090,
+     "turns": 3.4
+    },
+    {
+     "acc": 98.5,
+     "arm": "agent_xlsx_viewer",
+     "cost": 0.0017,
+     "cost_per_correct": 0.0017,
+     "model": "gpt6luna",
+     "tokens": 14426,
+     "turns": 3.4
+    },
+    {
+     "acc": 93.4,
+     "arm": "cellprose_v03",
+     "cost": 0.0018,
+     "cost_per_correct": 0.0019,
+     "model": "gpt6luna",
+     "tokens": 15302,
+     "turns": 1.0
+    },
+    {
+     "acc": 95.2,
+     "arm": "agent_cellprose_v03",
+     "cost": 0.0026,
+     "cost_per_correct": 0.0028,
+     "model": "haiku55",
+     "tokens": 19292,
+     "turns": 3.2
+    },
+    {
+     "acc": 97.3,
+     "arm": "agent_xlsx",
+     "cost": 0.0027,
+     "cost_per_correct": 0.0028,
+     "model": "haiku55",
+     "tokens": 21815,
+     "turns": 3.0
+    },
+    {
+     "acc": 95.8,
+     "arm": "agent_xlsx_viewer",
+     "cost": 0.0025,
+     "cost_per_correct": 0.0026,
+     "model": "haiku55",
+     "tokens": 20178,
+     "turns": 2.9
+    },
+    {
+     "acc": 98.8,
+     "arm": "cellprose_v03",
+     "cost": 0.0046,
+     "cost_per_correct": 0.0047,
+     "model": "haiku55",
+     "tokens": 19208,
+     "turns": 1.0
+    },
+    {
+     "acc": 98.8,
+     "arm": "agent_cellprose_v03",
+     "cost": 0.0323,
+     "cost_per_correct": 0.0327,
+     "model": "sonnet55",
+     "tokens": 13505,
+     "turns": 3.3
+    },
+    {
+     "acc": 100.0,
+     "arm": "agent_xlsx",
+     "cost": 0.0503,
+     "cost_per_correct": 0.0503,
+     "model": "sonnet55",
+     "tokens": 21849,
+     "turns": 3.6
+    },
+    {
+     "acc": 97.6,
+     "arm": "agent_xlsx_viewer",
+     "cost": 0.0382,
+     "cost_per_correct": 0.0392,
+     "model": "sonnet55",
+     "tokens": 16474,
+     "turns": 3.7
+    },
+    {
+     "acc": 95.8,
+     "arm": "cellprose_v03",
+     "cost": 0.0421,
+     "cost_per_correct": 0.0439,
+     "model": "sonnet55",
+     "tokens": 18084,
+     "turns": 1.0
+    },
+    {
+     "acc": 99.7,
+     "arm": "csv",
+     "cost": 0.0335,
+     "cost_per_correct": 0.0336,
+     "model": "gpt61sol",
+     "tokens": 11929,
+     "turns": 1.0
+    },
+    {
+     "acc": 100.0,
+     "arm": "markitdown",
+     "cost": 0.054,
+     "cost_per_correct": 0.054,
+     "model": "gpt61sol",
+     "tokens": 22828,
+     "turns": 1.0
+    },
+    {
+     "acc": 83.8,
+     "arm": "csv",
+     "cost": 0.0018,
+     "cost_per_correct": 0.0022,
+     "model": "gpt6luna",
+     "tokens": 12268,
+     "turns": 1.0
+    },
+    {
+     "acc": 76.9,
+     "arm": "markitdown",
+     "cost": 0.0029,
+     "cost_per_correct": 0.0037,
+     "model": "gpt6luna",
+     "tokens": 23192,
+     "turns": 1.0
+    },
+    {
+     "acc": 83.5,
+     "arm": "csv",
+     "cost": 0.0061,
+     "cost_per_correct": 0.0073,
+     "model": "haiku55",
+     "tokens": 17906,
+     "turns": 1.0
+    },
+    {
+     "acc": 87.7,
+     "arm": "markitdown",
+     "cost": 0.0113,
+     "cost_per_correct": 0.0128,
+     "model": "haiku55",
+     "tokens": 32277,
+     "turns": 1.0
+    },
+    {
+     "acc": 98.5,
+     "arm": "csv",
+     "cost": 0.0471,
+     "cost_per_correct": 0.0478,
+     "model": "sonnet55",
+     "tokens": 16294,
+     "turns": 1.0
+    },
+    {
+     "acc": 97.0,
+     "arm": "markitdown",
+     "cost": 0.0784,
+     "cost_per_correct": 0.0809,
+     "model": "sonnet55",
+     "tokens": 30728,
+     "turns": 1.0
+    }
+   ],
+   "by_task": [
+    {
+     "address": null,
+     "arm": "csv",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 99.7,
+     "model": "gpt61sol",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "markitdown",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "cellprose_v03",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_xlsx",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_xlsx_viewer",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_cellprose_v03",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 100.0,
+     "model": "gpt61sol",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "csv",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 83.8,
+     "model": "gpt6luna",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "markitdown",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 76.9,
+     "model": "gpt6luna",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "cellprose_v03",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 93.4,
+     "model": "gpt6luna",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_xlsx",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 96.4,
+     "model": "gpt6luna",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_xlsx_viewer",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 98.5,
+     "model": "gpt6luna",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_cellprose_v03",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 94.6,
+     "model": "gpt6luna",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "csv",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 83.5,
+     "model": "haiku55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "markitdown",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 87.7,
+     "model": "haiku55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "cellprose_v03",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 98.8,
+     "model": "haiku55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_xlsx",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 97.3,
+     "model": "haiku55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_xlsx_viewer",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 95.8,
+     "model": "haiku55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_cellprose_v03",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 95.2,
+     "model": "haiku55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "csv",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 98.5,
+     "model": "sonnet55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "markitdown",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 97.0,
+     "model": "sonnet55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "cellprose_v03",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 95.8,
+     "model": "sonnet55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_xlsx",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 100.0,
+     "model": "sonnet55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_xlsx_viewer",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 97.6,
+     "model": "sonnet55",
+     "trace": null
+    },
+    {
+     "address": null,
+     "arm": "agent_cellprose_v03",
+     "hardcode": null,
+     "impact": null,
+     "lookup": 98.8,
+     "model": "sonnet55",
+     "trace": null
+    }
+   ],
+   "label": "SpreadsheetBench",
+   "none": {
+    "gpt61sol": 0.0,
+    "gpt6luna": 10.2,
+    "haiku55": 22.5,
+    "sonnet55": 19.2
+   },
+   "questions": 111,
+   "verdicts": [
+    {
+     "acc": 100.0,
+     "acc_baseline": 100.0,
+     "arm": "cellprose_v03",
+     "baseline": "markitdown",
+     "hi": 0.86,
+     "lo": 0.46,
+     "model": "gpt61sol",
+     "ratio": 0.59,
+     "verdict": "win"
+    },
+    {
+     "acc": 100.0,
+     "acc_baseline": 100.0,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx",
+     "hi": 3.01,
+     "lo": 0.85,
+     "model": "gpt61sol",
+     "ratio": 1.63,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 100.0,
+     "acc_baseline": 100.0,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx_viewer",
+     "hi": 3.21,
+     "lo": 0.84,
+     "model": "gpt61sol",
+     "ratio": 1.68,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 100.0,
+     "acc_baseline": 99.8,
+     "arm": "cellprose_v03",
+     "baseline": "csv",
+     "hi": 1.61,
+     "lo": 0.65,
+     "model": "gpt61sol",
+     "ratio": 0.94,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 92.9,
+     "acc_baseline": 76.9,
+     "arm": "cellprose_v03",
+     "baseline": "markitdown",
+     "hi": 0.75,
+     "lo": 0.39,
+     "model": "gpt6luna",
+     "ratio": 0.52,
+     "verdict": "win"
+    },
+    {
+     "acc": 92.9,
+     "acc_baseline": 96.2,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx",
+     "hi": 2.14,
+     "lo": 0.69,
+     "model": "gpt6luna",
+     "ratio": 1.22,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 92.9,
+     "acc_baseline": 96.0,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx_viewer",
+     "hi": 1.96,
+     "lo": 0.61,
+     "model": "gpt6luna",
+     "ratio": 1.11,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 92.9,
+     "acc_baseline": 85.1,
+     "arm": "cellprose_v03",
+     "baseline": "csv",
+     "hi": 1.17,
+     "lo": 0.74,
+     "model": "gpt6luna",
+     "ratio": 0.9,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 99.0,
+     "acc_baseline": 87.4,
+     "arm": "cellprose_v03",
+     "baseline": "markitdown",
+     "hi": 0.68,
+     "lo": 0.22,
+     "model": "haiku55",
+     "ratio": 0.36,
+     "verdict": "win"
+    },
+    {
+     "acc": 99.0,
+     "acc_baseline": 95.0,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx",
+     "hi": 3.96,
+     "lo": 0.6,
+     "model": "haiku55",
+     "ratio": 1.64,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 99.0,
+     "acc_baseline": 93.6,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx_viewer",
+     "hi": 4.36,
+     "lo": 0.63,
+     "model": "haiku55",
+     "ratio": 1.75,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 99.0,
+     "acc_baseline": 82.4,
+     "arm": "cellprose_v03",
+     "baseline": "csv",
+     "hi": 0.97,
+     "lo": 0.51,
+     "model": "haiku55",
+     "ratio": 0.64,
+     "verdict": "win"
+    },
+    {
+     "acc": 96.5,
+     "acc_baseline": 97.6,
+     "arm": "cellprose_v03",
+     "baseline": "markitdown",
+     "hi": 0.85,
+     "lo": 0.4,
+     "model": "sonnet55",
+     "ratio": 0.54,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 96.5,
+     "acc_baseline": 100.0,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx",
+     "hi": 1.48,
+     "lo": 0.5,
+     "model": "sonnet55",
+     "ratio": 0.87,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 96.5,
+     "acc_baseline": 98.1,
+     "arm": "cellprose_v03",
+     "baseline": "agent_xlsx_viewer",
+     "hi": 1.84,
+     "lo": 0.67,
+     "model": "sonnet55",
+     "ratio": 1.12,
+     "verdict": "no difference"
+    },
+    {
+     "acc": 96.5,
+     "acc_baseline": 98.8,
+     "arm": "cellprose_v03",
+     "baseline": "csv",
+     "hi": 1.35,
+     "lo": 0.69,
+     "model": "sonnet55",
+     "ratio": 0.91,
+     "verdict": "no difference"
+    }
+   ],
+   "workbooks": 28
+  }
+ },
+ "date": "2026-11-11",
+ "labels": {
+  "agent_cellprose_lean": "Cellprose with its own tools",
+  "agent_cellprose_v03": "Agent + shell on Cellprose file",
+  "agent_xlsx": "Agent + shell on .xlsx",
+  "agent_xlsx_viewer": "Agent + formula viewer",
+  "cellprose_v03": "Cellprose in the prompt",
+  "csv": "CSV",
+  "markitdown": "MarkItDown",
+  "none": "No workbook (guess)"
+ },
+ "model_order": [
+  "haiku55",
+  "sonnet55",
+  "gpt6luna",
+  "gpt61sol"
+ ],
+ "models": {
+  "gpt61sol": "GPT-6.1 Sol",
+  "gpt6luna": "GPT-6 Luna",
+  "haiku55": "Claude Haiku 5.5",
+  "sonnet55": "Claude Sonnet 5.5"
+ },
+ "repeats": 3,
+ "tasks": [
+  "lookup",
+  "address",
+  "trace",
+  "impact",
+  "hardcode"
+ ]
+}

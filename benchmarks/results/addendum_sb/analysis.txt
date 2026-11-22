@@ -1,0 +1,50 @@
+
+== agent mode (vs raw .xlsx with tools; cellprose_v03 and sheetmark_lean = one-shot in context)
+    model             encoding  n   acc       tokens  tokens_vs  tout_vs     cost  cost_vs  cost_per_correct_vs    turns
+gpt61sol agent_cellprose_lean 56 100.0  5143.910714      -42.0     -6.0 0.011992    -39.0                -39.0 2.250000
+gpt61sol           agent_xlsx 56 100.0  8851.375000        0.0      0.0 0.019520      0.0                  0.0 2.607143
+gpt61sol    agent_xlsx_viewer 56 100.0  7784.982143      -12.0    -26.0 0.016919    -13.0                -13.0 2.875000
+gpt6luna agent_cellprose_lean 56  95.7  6224.500000      -50.0     -8.0 0.000912    -42.0                -42.0 2.214286
+gpt6luna           agent_xlsx 56  94.3 12465.767857        0.0      0.0 0.001560      0.0                  0.0 3.285714
+gpt6luna    agent_xlsx_viewer 56  99.3 15054.892857       21.0    -24.0 0.001743     12.0                  6.0 3.339286
+ haiku55 agent_cellprose_lean 56  94.3 10816.125000      -49.0     38.0 0.001823    -32.0                -34.0 2.303571
+ haiku55           agent_xlsx 56  90.7 21393.571429        0.0      0.0 0.002676      0.0                  0.0 3.053571
+ haiku55    agent_xlsx_viewer 56  93.8 21975.000000        3.0    -11.0 0.002673     -0.0                 -3.0 3.000000
+sonnet55 agent_cellprose_lean 56  99.3 10874.303571      -52.0     -1.0 0.028523    -46.0                -45.0 2.589286
+sonnet55           agent_xlsx 56 100.0 22771.964286        0.0      0.0 0.052363      0.0                  0.0 3.517857
+sonnet55    agent_xlsx_viewer 56  99.6 15315.982143      -33.0    -18.0 0.036192    -31.0                -31.0 3.785714
+
+Limitations (read before quoting a number):
+  - Test-set size: 28 held-out workbooks and 111 questions in this corpus, 2 repeats each. The interval resamples workbooks, so it is wide when they are few; one corpus is never pooled with the other.
+  - Prices: List prices from runner/models.py as frozen, confirmed against the vendors' pricing pages on 2026-11-11. Every token is priced as uncached input or output; the billed amount (Anthropic agent turns use the prompt cache) is shown beside the metric, never in its place. Percentages depend on the input-to-output price ratio; dollars depend on the prices too.
+  - One-shot against agent: A one-shot call and an agent loop spend tokens differently (the loop re-reads a growing context every turn). A win over an agent is on cost per correct answer, what a user pays; it says nothing about which reads a workbook better at equal cost.
+  - Tokenizers: Claude and GPT count the same text differently, so savings differ by model; results are per model and nothing is pooled.
+  - Models and date: Four models, run on one date; some model IDs have no dated snapshot. Nothing is claimed for a model not run.
+
+== agent_cellprose_lean (agent_cellprose_lean) cost per correct vs each baseline: ratio < 1 means agent_cellprose_lean is cheaper; 95% paired bootstrap over workbooks (10,000 resamples, fixed seed)
+      set    model          baseline  n_workbooks   acc  acc_baseline  acc_diff_points  ratio  ratio_lo  ratio_hi       verdict
+held_out gpt61sol        agent_xlsx           28 1.000         1.000            0.000  0.614     0.446     0.889           win
+held_out gpt61sol agent_xlsx_viewer           28 1.000         1.000            0.000  0.709     0.527     0.968           win
+held_out gpt6luna        agent_xlsx           28 0.957         0.943            1.429  0.575     0.450     0.755           win
+held_out gpt6luna agent_xlsx_viewer           28 0.957         0.993           -3.571  0.542     0.393     0.790 no difference
+held_out  haiku55        agent_xlsx           28 0.943         0.907            3.571  0.655     0.487     0.943           win
+held_out  haiku55 agent_xlsx_viewer           28 0.943         0.938            0.536  0.678     0.492     0.992           win
+held_out sonnet55        agent_xlsx           28 0.993         1.000           -0.714  0.549     0.421     0.737           win
+held_out sonnet55 agent_xlsx_viewer           28 0.993         0.996           -0.357  0.791     0.608     1.033 no difference
+     all gpt61sol        agent_xlsx           28 1.000         1.000            0.000  0.614     0.446     0.889           win
+     all gpt61sol agent_xlsx_viewer           28 1.000         1.000            0.000  0.709     0.527     0.968           win
+     all gpt6luna        agent_xlsx           28 0.957         0.943            1.429  0.575     0.450     0.755           win
+     all gpt6luna agent_xlsx_viewer           28 0.957         0.993           -3.571  0.542     0.393     0.790 no difference
+     all  haiku55        agent_xlsx           28 0.943         0.907            3.571  0.655     0.487     0.943           win
+     all  haiku55 agent_xlsx_viewer           28 0.943         0.938            0.536  0.678     0.492     0.992           win
+     all sonnet55        agent_xlsx           28 0.993         1.000           -0.714  0.549     0.421     0.737           win
+     all sonnet55 agent_xlsx_viewer           28 0.993         0.996           -0.357  0.791     0.608     1.033 no difference
+
+== spend: uncached list price (the metric) and as billed (Anthropic cache counted; OpenAI's automatic
+   cache discount is not)
+           list_price_uncached  billed
+model                                
+gpt61sol                 2.71    1.92
+gpt6luna                 0.24    0.17
+haiku55                  0.40    0.32
+sonnet55                 6.56    4.39

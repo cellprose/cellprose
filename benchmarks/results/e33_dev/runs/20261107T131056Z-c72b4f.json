@@ -1,0 +1,81 @@
+{
+ "run": {
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent"
+ },
+ "invocation": {
+  "argv": [
+   "--models",
+   "haiku55,gpt61sol",
+   "--workbooks",
+   "dev_apv,dev_ddm3st,dev_divginzu,dev_dividends,dev_fcfe3st,dev_fcfeginzu,dev_fcffginzulambda,dev_fcffneg,dev_histretsp,dev_riskchecker",
+   "--variants",
+   "agent_xlsx,agent_xlsx_cellprose,agent_xlsx_viewer",
+   "--reps",
+   "1",
+   "--out",
+   "results/e33_dev",
+   "--max-usd",
+   "3.5"
+  ],
+  "models": [
+   "haiku55",
+   "gpt61sol"
+  ],
+  "workbooks": [
+   "dev_apv",
+   "dev_ddm3st",
+   "dev_divginzu",
+   "dev_dividends",
+   "dev_fcfe3st",
+   "dev_fcfeginzu",
+   "dev_fcffginzulambda",
+   "dev_fcffneg",
+   "dev_histretsp",
+   "dev_riskchecker"
+  ],
+  "variants": [
+   "agent_xlsx",
+   "agent_xlsx_cellprose",
+   "agent_xlsx_viewer"
+  ],
+  "reps": 1,
+  "first_rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0
+ },
+ "inputs": {
+  "digest": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "files": {
+   "questions/dev_apv.json": "52be853ea1fd4feef74e8371ea059d14c0a6843aa7b821247b0c726eec9898c3",
+   "workbooks/dev_apv.xlsx": "806d03cfc653aa00bf05e9e639115874d15ace3c9b89eec93cebcfad1f382219",
+   "questions/dev_ddm3st.json": "dd091bbd209a44786c6a55e2f6f06de7dfdb72686a26ce6e6e87176c0e6317f2",
+   "workbooks/dev_ddm3st.xlsx": "2727ed408dc41949a5faf0c46fa136b1b30e120a976e1269dfd391eab7c6bffc",
+   "questions/dev_divginzu.json": "792c0ad85b7dfbd9edb495bbf2794bbe8ca40a2380235d3feaff14caccdf29b5",
+   "workbooks/dev_divginzu.xlsx": "212f30f90e40da863d6f42698dabb8dc18ac19f13e263ecd36d4015d7d038ea3",
+   "questions/dev_dividends.json": "2f1000c1b190f70140890dfd69d43eef17be2e592e5ef6ac90b65cbd6d0cbb4f",
+   "workbooks/dev_dividends.xlsx": "6531fa43f7b57fe2d58fe9c4a22118bee2254fea32c7c0ba40761e0c5292f0d1",
+   "questions/dev_fcfe3st.json": "28c8b1d0f4093bd8dc1994516d18f621a0ea03dfce4eb7ebd694065680b82be7",
+   "workbooks/dev_fcfe3st.xlsx": "4607bd78cec13029139b772377f2b9173205f6628daa4aba18f8a9ff9413a7a4",
+   "questions/dev_fcfeginzu.json": "1fc5154392ef4602a81754ee5422e17096834a929d5e67684d524beb53979481",
+   "workbooks/dev_fcfeginzu.xlsx": "4339b0c8475ce84d714b0c7984fe46d4292e9bd0d39a330e159d2c91c82e8f86",
+   "questions/dev_fcffginzulambda.json": "0928763867d4a2b1cacdcc18181ad88835ef8f06a582df20faa103b094d743e9",
+   "workbooks/dev_fcffginzulambda.xlsx": "1a97f7de149a7a86fa2c212f5525b3ca548c714eb11258150e1db69d16281303",
+   "questions/dev_fcffneg.json": "6512d2c3cc65c302ab93490be09091bcc2d6cfc6414f643e1f9708c3155761ee",
+   "workbooks/dev_fcffneg.xlsx": "34cc929668121c0fc3d8130fb40202dce64f56e01299ea8f6fb8e70f50ac0ef9",
+   "questions/dev_histretsp.json": "c7ea92bbcadb182796a394f34cdb7905813446e0774af33b1b5f1402057dfbf3",
+   "workbooks/dev_histretsp.xlsx": "237ab8c55010a61ae0cbeb6a1e51dae109a01252b9a97ab453e9c25d610e80ec",
+   "questions/dev_riskchecker.json": "404d71e6e095aeb5fd7fe0131bc5423b518608064bd19ac2da17a396800d9719",
+   "workbooks/dev_riskchecker.xlsx": "fa843375f0f08bf1fb545461be96b1b5987b7f2def512a80949c99b3e7141fe5"
+  }
+ }
+}

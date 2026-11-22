@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "rw3_enron_kimberly_watson",
+ "encoding": "csv",
+ "prompt_chars": 2972,
+ "prompt_sha256": "fac57409415514538e0903981c30783f94bdc5e08d1e3fd649e2e71ecb276962",
+ "result": "```json\n{\"q1\": 1350845, \"q2\": \"Sheet1!O10\", \"q3\": [\"I to I Summary!K6\", \"I to I Summary!K11\", \"I to I Summary!K16\"], \"q4\": [\"I to I Summary!I6\", \"I to I Summary!I11\", \"I to I Summary!I16\"], \"q5\": [\"I to I Summary!I16\", \"I to I Summary!J16\", \"I to I Summary!K16\", \"I to I Summary!F18\", \"I to I Summary!G18\", \"I to I Summary!I18\", \"I to I Summary!J18\", \"I to I Summary!K18\"], \"q6\": [\"I to I Summary!D15\", \"I to I Summary!F15\", \"I to I Summary!H15\"]}\n```",
+ "usage": {
+  "input_tokens": 1638,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5225,
+  "output_tokens_details": {
+   "thinking_tokens": 4982
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1638,
+   "outputTokens": 5225,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 4982
+  }
+ },
+ "cost": 0.0027763,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T114909Z-9d399b",
+  "started_at": "2026-11-07T11:49:09+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "97799dc7cae4419ad17ce7400209690855e6f4d90d97802d658ce3352d442245",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 22.8,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1638,
+   "output_tokens": 5225,
+   "output_tokens_details": {
+    "thinking_tokens": 4982
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 1638
+  },
+  "finished_at": "2026-11-07T12:10:39+00:00"
+ }
+}

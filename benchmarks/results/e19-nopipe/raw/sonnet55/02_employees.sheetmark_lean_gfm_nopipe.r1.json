@@ -1,0 +1,77 @@
+{
+ "model": "sonnet55",
+ "workbook": "02_employees",
+ "encoding": "sheetmark_lean_gfm_nopipe",
+ "prompt_chars": 7720,
+ "prompt_sha256": "5bd50ce4ed02fd3d33c0195e46ebee1138d6e249cb54c9698350517158b43c23",
+ "result": "Row for each employee is ID number \u2212 1000 + 2.\n\n- E1042 is row 44: Ethan Garcia, salary 160500.\n- E1007 is row 9: Nina Fischer, age 45.\n- E1088 is row 90: Kabir Rao, department Sales.\n- E1115 is row 117: Ishaan Singh, city London.\n- E1063 is row 65, and salary is column F, so Employees!F65.\n- E1019 is row 21, and start date is column G, so Employees!G21.\n\n{\"q1\": 160500, \"q2\": 45, \"q3\": \"Sales\", \"q4\": \"London\", \"q5\": \"Employees!F65\", \"q6\": \"Employees!G21\"}",
+ "usage": {
+  "input_tokens": 4560,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 227,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 4560,
+   "outputTokens": 227,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.01139,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261010T051113Z-1cce47",
+  "started_at": "2026-10-10T05:11:13+00:00",
+  "git_sha": "b4d0b9c",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "6fcc7fe80dfd05ee580a20abc2ef6488b77b3463260a0d44f0f6bfa9ec522753",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 1,
+  "wall_seconds": 2.0,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4560,
+   "output_tokens": 227,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 4560
+  },
+  "finished_at": "2026-10-10T05:13:50+00:00"
+ }
+}

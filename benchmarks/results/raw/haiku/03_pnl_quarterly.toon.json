@@ -1,0 +1,58 @@
+{
+ "model": "haiku",
+ "workbook": "03_pnl_quarterly",
+ "encoding": "toon",
+ "prompt_chars": 1814,
+ "result": "```json\n{\n  \"q1\": 18531.648,\n  \"q2\": 243330.048,\n  \"q3\": \"P&L!C5\",\n  \"q4\": \"P&L!B11\",\n  \"q5\": [\"P&L!D5\", \"P&L!D6\"],\n  \"q6\": [\"P&L!B1\", \"P&L!B11\"],\n  \"q7\": [\"P&L!C1\", \"P&L!D1\", \"P&L!E1\", \"P&L!F1\", \"P&L!C3\", \"P&L!D3\", \"P&L!E3\", \"P&L!F3\", \"P&L!C4\", \"P&L!D4\", \"P&L!E4\", \"P&L!F4\", \"P&L!C5\", \"P&L!D5\", \"P&L!E5\", \"P&L!F5\", \"P&L!C7\", \"P&L!D7\", \"P&L!E7\", \"P&L!F7\", \"P&L!C8\", \"P&L!D8\", \"P&L!E8\", \"P&L!F8\"],\n  \"q8\": [\"P&L!B6\", \"P&L!C6\", \"P&L!D6\", \"P&L!E6\", \"P&L!F6\", \"P&L!B7\", \"P&L!C7\", \"P&L!D7\", \"P&L!E7\", \"P&L!F7\", \"P&L!B8\", \"P&L!C8\", \"P&L!D8\", \"P&L!E8\", \"P&L!F8\"]\n}\n```",
+ "usage": {
+  "input_tokens": 1851,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 10590,
+  "output_tokens_details": {
+   "thinking_tokens": 10156
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1851,
+    "output_tokens": 10590,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 3404,
+   "outputTokens": 10603,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.056419000000000004,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 10156,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.056419000000000004
+}

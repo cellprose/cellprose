@@ -1,0 +1,78 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_ogl00_rail_codes",
+ "encoding": "csv",
+ "prompt_chars": 6748,
+ "prompt_sha256": "74852186685b8c2d4bec3fe701801bdc550f55c5e644d59a0b65cdb51f1484c8",
+ "result": "{\"q1\": 285370, \"q2\": 364591, \"q3\": \"Sheet2!H58\"}",
+ "usage": {
+  "input_tokens": 4895,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 447,
+  "output_tokens_details": {
+   "thinking_tokens": 413
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 4895,
+   "outputTokens": 447,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 413
+  }
+ },
+ "cost": 0.01426,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261012T163606Z-df0c8e",
+  "started_at": "2026-10-12T16:36:06+00:00",
+  "git_sha": "eb07a30",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "1754f9ae6e9595df6b4943af1928256cb7dacfd6a6bf953a96c14bbb6428655b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 0,
+  "wall_seconds": 3.5,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4895,
+   "output_tokens": 447,
+   "output_tokens_details": {
+    "thinking_tokens": 413
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 4895
+  },
+  "finished_at": "2026-10-12T16:38:14+00:00"
+ }
+}

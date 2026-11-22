@@ -1,0 +1,152 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_presentation",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1214,
+ "prompt_sha256": "caddd99169412ea2d8d51793f2f2a1bbf81ff987bfa6aac21286476fa8d4ce98",
+ "result": "{\n  \"q1\": -29.032451172598307,\n  \"q2\": \"Storage!D23\",\n  \"q3\": [\"Locations!B63\", \"Locations!J63\"],\n  \"q4\": [\"FR!C581\", \"FR!C216\"],\n  \"q5\": [\"FR!C267:C326\", \"FR!D632:D691\"],\n  \"q6\": [\"Forecast!K31\"]\n}",
+ "usage": {
+  "input_tokens": 4077,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 4361,
+  "output_tokens": 944,
+  "output_tokens_details": {
+   "thinking_tokens": 14
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 4077,
+   "outputTokens": 944,
+   "cacheReadInputTokens": 4361,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 14
+  }
+ },
+ "cost": 0.026316,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_f1e120f40240412a988c9403f13c8aff",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 426,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 20,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 530,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 166,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1981,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 237,
+     "reasoning_tokens": 14,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 408,
+     "cache_read_tokens": 1978,
+     "cache_write_tokens": 0,
+     "output_tokens": 424,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 732,
+     "cache_read_tokens": 2383,
+     "cache_write_tokens": 0,
+     "output_tokens": 97,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T16:30:50+00:00",
+  "run_id": "20261107T162647Z-9ba68e",
+  "started_at": "2026-11-07T16:26:47+00:00",
+  "git_sha": "584a81e",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 14.7
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la\"}",
+   "output_chars": 160
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx'); print(w.sheetnames)\\nfor sn,co in [('Locations','P63'),('FR','D581'),('FR','B267')]:\\n s=w[sn]; print(sn,co,s[co].value)\\ns=w['Storage']\\nfor row in s:\\n vals=['%s:%s'%(c.coordinate,c.value) for c in row if c.value is not None]; print(' | '.join(vals))\\nprint('Forecast',[(c.coordinate,c.value,c.data_type) for row in w['Forecast']['C31:N31'] for c in row])\\nPY\"}",
+   "output_chars": 2913
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl,collections\\nfrom openpyxl.formula.tokenizer import Tokenizer\\nw=openpyxl.load_workbook('book.xlsx'); fs=[]; refs=collections.Counter()\\nfor s in w:\\n for row in s:\\n  for c in row:\\n   if c.data_type=='f':\\n    fs.append((s.title,c.coordinate,c.value))\\n    for t in Tokenizer(c.value).items:\\n     if t.type=='OPERAND' and t.subtype=='RANGE':refs[t.value]+=1\\nprint('formulas',len(fs),'refs',len(refs)); print('names',list(w.defined_names))\\nprint('un",
+   "output_chars": 471
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cat > /tmp/d.py <<'PY'\\nimport openpyxl, collections\\nfrom openpyxl.formula.tokenizer import Tokenizer\\nfrom openpyxl.utils.cell import range_boundaries\\nw=openpyxl.load_workbook('book.xlsx'); rev=collections.defaultdict(set)\\nfor s in w:\\n for row in s:\\n  for c in row:\\n   if c.data_type!='f':continue\\n   for t in Tokenizer(c.value).items:\\n    if t.type!='OPERAND' or t.subtype!='RANGE':continue\\n    ref=t.value\\n    if '!' in ref: sn,ref=ref.rsplit('!',1); sn=sn.strip(\\\"'\\\").repl",
+   "output_chars": 818
+  }
+ ]
+}

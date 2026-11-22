@@ -1,0 +1,178 @@
+# Assumptions
+
+## Record 1
+```
+Driver: Starting customers
+Value: 200
+```
+
+## Record 2
+```
+Driver: New customers per month
+Value: 35
+```
+
+## Record 3
+```
+Driver: Monthly churn
+Value: 0.03
+```
+
+## Record 4
+```
+Driver: ARPU
+Value: 89
+```
+
+## Record 5
+```
+Driver: CAC
+Value: 420
+```
+
+## Record 6
+```
+Driver: Gross margin
+Value: 0.78
+```
+
+# Monthly
+
+## Record 1
+```
+Metric: Starting customers
+Jan: 200
+Feb: 229
+Mar: 257
+Apr: 284
+May: 310
+Jun: 336
+Jul: 361
+Aug: 385
+Sep: 408
+Oct: 431
+Nov: 453
+Dec: 474
+```
+
+## Record 2
+```
+Metric: New customers
+Jan: 35
+Feb: 35
+Mar: 35
+Apr: 35
+May: 35
+Jun: 35
+Jul: 35
+Aug: 35
+Sep: 35
+Oct: 35
+Nov: 35
+Dec: 35
+FY: 420
+```
+
+## Record 3
+```
+Metric: Churned
+Jan: 6
+Feb: 7
+Mar: 8
+Apr: 9
+May: 9
+Jun: 10
+Jul: 11
+Aug: 12
+Sep: 12
+Oct: 13
+Nov: 14
+Dec: 14
+```
+
+## Record 4
+```
+Metric: Ending customers
+Jan: 229
+Feb: 257
+Mar: 284
+Apr: 310
+May: 336
+Jun: 361
+Jul: 385
+Aug: 408
+Sep: 431
+Oct: 453
+Nov: 474
+Dec: 495
+```
+
+## Record 5
+```
+Metric: MRR
+Jan: 20381
+Feb: 22873
+Mar: 25276
+Apr: 27590
+May: 29904
+Jun: 32129
+Jul: 34265
+Aug: 36312
+Sep: 38359
+Oct: 40317
+Nov: 42186
+Dec: 44055
+FY: 393647
+```
+
+## Record 6
+```
+Metric: Gross profit
+Jan: 15897.18
+Feb: 17840.94
+Mar: 19715.28
+Apr: 21520.2
+May: 23325.12
+Jun: 25060.62
+Jul: 26726.7
+Aug: 28323.36
+Sep: 29920.02
+Oct: 31447.26
+Nov: 32905.08
+Dec: 34362.9
+```
+
+## Record 7
+```
+Metric: S&M spend
+Jan: 14700
+Feb: 14700
+Mar: 14700
+Apr: 14700
+May: 14700
+Jun: 14700
+Jul: 14700
+Aug: 14700
+Sep: 14700
+Oct: 14700
+Nov: 14700
+Dec: 14700
+```
+
+## Record 8
+```
+Metric: Contribution
+Jan: 1197.18
+Feb: 3140.94
+Mar: 5015.28
+Apr: 6820.2
+May: 8625.12
+Jun: 10360.62
+Jul: 12026.7
+Aug: 13623.36
+Sep: 15220.02
+Oct: 16747.26
+Nov: 18205.08
+Dec: 19662.9
+FY: 130644.66
+```

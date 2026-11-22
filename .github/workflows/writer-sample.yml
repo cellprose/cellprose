@@ -1,0 +1,32 @@
+name: Writer cost sample
+
+# Free check, no API calls: does the writer still produce output that costs no more tokens on the benchmark workbooks?
+on:
+  pull_request:
+    branches: [integration, main]
+    paths:
+      - "src/cellprose/writer.py"
+      - "src/cellprose/stats.py"
+      - "js/src/**"
+      - "benchmarks/workbooks/**"
+      - "benchmarks/ci_sample.py"
+      - "benchmarks/ci_baseline.json"
+      - ".github/workflows/writer-sample.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  tokens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install LibreOffice (same recalculation the baseline used)
+        run: sudo apt-get update -q && sudo apt-get install -y -q --no-install-recommends libreoffice-calc
+      - name: Install
+        run: pip install -e ".[dev]"
+      - name: Token counts against the committed baseline
+        run: python benchmarks/ci_sample.py | tee -a "$GITHUB_STEP_SUMMARY"

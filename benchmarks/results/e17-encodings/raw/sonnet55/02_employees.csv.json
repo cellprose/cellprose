@@ -1,0 +1,65 @@
+{
+ "model": "sonnet55",
+ "workbook": "02_employees",
+ "encoding": "csv",
+ "prompt_chars": 7208,
+ "result": "I mapped each employee ID to its spreadsheet row. The header is in row 1, so E1000 is in row 2 and an ID's row is its number minus 1000, plus 2.\n\n- q1: E1042 is in row 44. Salary is 160500.\n- q2: E1007 is 45 years old.\n- q3: E1088 is in Sales.\n- q4: E1115 works in London.\n- q5: E1063 is in row 65. Salary is in column F, so the cell is Employees!F65.\n- q6: E1019 is in row 21. Start Date is in column G, so the cell is Employees!G21.\n\n{\"q1\": 160500, \"q2\": 45, \"q3\": \"Sales\", \"q4\": \"London\", \"q5\": \"Employees!F65\", \"q6\": \"Employees!G21\"}",
+ "usage": {
+  "input_tokens": 4218,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 256,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 4218,
+   "outputTokens": 256,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.010996,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T105651Z-65938b",
+  "started_at": "2026-10-09T10:56:51+00:00",
+  "git_sha": "acbac33",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 2.3,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4218,
+   "output_tokens": 256,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:59:09+00:00"
+ }
+}

@@ -1,0 +1,382 @@
+# Grades
+
+## Record 1
+```
+Student: Weight
+HW1: 0.1
+HW2: 0.1
+HW3: 0.1
+Midterm: 0.3
+Final: 0.4
+```
+
+## Record 2
+```
+Student: Dev Patel
+HW1: 72
+HW2: 75
+HW3: 81
+Midterm: 45
+Final: 58
+Weighted: 59.5
+Letter: F
+```
+
+## Record 3
+```
+Student: Arjun Silva
+HW1: 97
+HW2: 62
+HW3: 86
+Midterm: 96
+Final: 55
+Weighted: 75.3
+Letter: C
+```
+
+## Record 4
+```
+Student: Maya Joshi
+HW1: 76
+HW2: 65
+HW3: 49
+Midterm: 60
+Final: 92
+Weighted: 73.8
+Letter: C
+```
+
+## Record 5
+```
+Student: Emma Patel
+HW1: 71
+HW2: 100
+HW3: 53
+Midterm: 83
+Final: 67
+Weighted: 74.1
+Letter: C
+```
+
+## Record 6
+```
+Student: Rohan Fischer
+HW1: 63
+HW2: 97
+HW3: 88
+Midterm: 61
+Final: 74
+Weighted: 72.7
+Letter: C
+```
+
+## Record 7
+```
+Student: Zara Lopez
+HW1: 87
+HW2: 68
+HW3: 53
+Midterm: 74
+Final: 94
+Weighted: 80.6
+Letter: B
+```
+
+## Record 8
+```
+Student: Grace Nguyen
+HW1: 73
+HW2: 84
+HW3: 69
+Midterm: 47
+Final: 82
+Weighted: 69.5
+Letter: D
+```
+
+## Record 9
+```
+Student: Aarav Nguyen
+HW1: 53
+HW2: 57
+HW3: 64
+Midterm: 79
+Final: 68
+Weighted: 68.3
+Letter: D
+```
+
+## Record 10
+```
+Student: Omar Nguyen
+HW1: 65
+HW2: 87
+HW3: 80
+Midterm: 73
+Final: 72
+Weighted: 73.9
+Letter: C
+```
+
+## Record 11
+```
+Student: Isla Kim
+HW1: 86
+HW2: 82
+HW3: 65
+Midterm: 99
+Final: 77
+Weighted: 83.8
+Letter: B
+```
+
+## Record 12
+```
+Student: Zara Nguyen
+HW1: 71
+HW2: 60
+HW3: 47
+Midterm: 47
+Final: 76
+Weighted: 62.3
+Letter: D
+```
+
+## Record 13
+```
+Student: Sofia Ward
+HW1: 87
+HW2: 49
+HW3: 79
+Midterm: 99
+Final: 50
+Weighted: 71.2
+Letter: C
+```
+
+## Record 14
+```
+Student: Noah Das
+HW1: 81
+HW2: 68
+HW3: 83
+Midterm: 54
+Final: 52
+Weighted: 60.2
+Letter: D
+```
+
+## Record 15
+```
+Student: Omar Garcia
+HW1: 73
+HW2: 55
+HW3: 96
+Midterm: 57
+Final: 67
+Weighted: 66.3
+Letter: D
+```
+
+## Record 16
+```
+Student: Olivia Fischer
+HW1: 73
+HW2: 60
+HW3: 88
+Midterm: 62
+Final: 54
+Weighted: 62.3
+Letter: D
+```
+
+## Record 17
+```
+Student: Ava Joshi
+HW1: 56
+HW2: 100
+HW3: 52
+Midterm: 62
+Final: 74
+Weighted: 69
+Letter: D
+```
+
+## Record 18
+```
+Student: Sofia Brown
+HW1: 87
+HW2: 86
+HW3: 97
+Midterm: 56
+Final: 94
+Weighted: 81.4
+Letter: B
+```
+
+## Record 19
+```
+Student: Zara Silva
+HW1: 94
+HW2: 67
+HW3: 65
+Midterm: 72
+Final: 59
+Weighted: 67.8
+Letter: D
+```
+
+## Record 20
+```
+Student: Aarav Novak
+HW1: 90
+HW2: 47
+HW3: 66
+Midterm: 65
+Final: 60
+Weighted: 63.8
+Letter: D
+```
+
+## Record 21
+```
+Student: Liam Singh
+HW1: 73
+HW2: 70
+HW3: 82
+Midterm: 55
+Final: 69
+Weighted: 66.6
+Letter: D
+```
+
+## Record 22
+```
+Student: Elena Silva
+HW1: 88
+HW2: 60
+HW3: 92
+Midterm: 78
+Final: 62
+Weighted: 72.2
+Letter: C
+```
+
+## Record 23
+```
+Student: Vikram Silva
+HW1: 83
+HW2: 76
+HW3: 49
+Midterm: 55
+Final: 76
+Weighted: 67.7
+Letter: D
+```
+
+## Record 24
+```
+Student: Mia Khan
+HW1: 70
+HW2: 53
+HW3: 71
+Midterm: 79
+Final: 82
+Weighted: 75.9
+Letter: C
+```
+
+## Record 25
+```
+Student: Emma Novak
+HW1: 69
+HW2: 76
+HW3: 89
+Midterm: 55
+Final: 80
+Weighted: 71.9
+Letter: C
+```
+
+## Record 26
+```
+Student: Arjun Garcia
+HW1: 71
+HW2: 98
+HW3: 47
+Midterm: 100
+Final: 45
+Weighted: 69.6
+Letter: D
+```
+
+## Record 27
+```
+Student: Arjun Novak
+HW1: 49
+HW2: 48
+HW3: 67
+Midterm: 50
+Final: 54
+Weighted: 53
+Letter: F
+```
+
+## Record 28
+```
+Student: Priya Ward
+HW1: 74
+HW2: 98
+HW3: 96
+Midterm: 76
+Final: 53
+Weighted: 70.8
+Letter: C
+```
+
+## Record 29
+```
+Student: Arjun Fischer
+HW1: 94
+HW2: 77
+HW3: 73
+Midterm: 66
+Final: 91
+Weighted: 80.6
+Letter: B
+```
+
+## Record 30
+```
+Student: Lucas Khan
+HW1: 72
+HW2: 66
+HW3: 86
+Midterm: 78
+Final: 78
+Weighted: 77
+Letter: C
+```
+
+## Record 31
+```
+Student: Noah Nguyen
+HW1: 65
+HW2: 84
+HW3: 47
+Midterm: 88
+Final: 57
+Weighted: 68.8
+Letter: D
+```
+
+## Record 33
+```
+Student: Class average
+HW1: 75.43333333
+HW2: 72.5
+HW3: 72
+Midterm: 69.03333333
+Final: 69.06666667
+Weighted: 70.33
+```

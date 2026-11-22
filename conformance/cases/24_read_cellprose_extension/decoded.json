@@ -1,0 +1,157 @@
+{
+ "sheets": [
+  {
+   "name": "Cells",
+   "state": "visible",
+   "freeze": null,
+   "merges": [],
+   "names": {},
+   "cells": {
+    "A1": {
+     "v": "int"
+    },
+    "B1": {
+     "v": -5
+    },
+    "A2": {
+     "v": "decimal"
+    },
+    "B2": {
+     "v": 0.125
+    },
+    "A3": {
+     "v": "exp"
+    },
+    "B3": {
+     "v": -3.2e-07
+    },
+    "A4": {
+     "v": "bool"
+    },
+    "B4": {
+     "v": true
+    },
+    "A5": {
+     "v": "bool2"
+    },
+    "B5": {
+     "v": false
+    },
+    "A6": {
+     "v": "date"
+    },
+    "B6": {
+     "t": "date",
+     "v": "2026-10-07",
+     "fmt": "yyyy-mm-dd"
+    },
+    "A7": {
+     "v": "datetime"
+    },
+    "B7": {
+     "t": "datetime",
+     "v": "2026-10-07T14:30:05",
+     "fmt": "yyyy-mm-dd hh:mm:ss"
+    },
+    "A8": {
+     "v": "time"
+    },
+    "B8": {
+     "t": "time",
+     "v": "09:05:00",
+     "fmt": "hh:mm:ss"
+    },
+    "A9": {
+     "v": "err"
+    },
+    "B9": {
+     "t": "error",
+     "v": "#DIV/0!"
+    },
+    "A10": {
+     "v": "err2"
+    },
+    "B10": {
+     "t": "error",
+     "v": "#N/A"
+    },
+    "A11": {
+     "v": "empty"
+    },
+    "A12": {
+     "v": "text"
+    },
+    "B12": {
+     "v": "hello world"
+    },
+    "A13": {
+     "v": "apos numeric"
+    },
+    "B13": {
+     "v": "00123"
+    },
+    "A14": {
+     "v": "apos formula"
+    },
+    "B14": {
+     "v": "=x"
+    },
+    "A15": {
+     "v": "apos bool"
+    },
+    "B15": {
+     "v": "TRUE"
+    },
+    "A16": {
+     "v": "apos err"
+    },
+    "B16": {
+     "v": "#N/A"
+    },
+    "A17": {
+     "v": "apos apos"
+    },
+    "B17": {
+     "v": "'quoted"
+    },
+    "A18": {
+     "v": "escapes"
+    },
+    "B18": {
+     "v": "a|b\\c<br>d"
+    },
+    "A19": {
+     "v": "break"
+    },
+    "B19": {
+     "v": "line1\nline2"
+    },
+    "A20": {
+     "v": "quoted"
+    },
+    "B20": {
+     "v": "  padded  "
+    },
+    "A21": {
+     "v": "quoted quote"
+    },
+    "B21": {
+     "v": "\"hi\""
+    },
+    "A22": {
+     "v": "quoted apos"
+    },
+    "B22": {
+     "v": "'a "
+    },
+    "A23": {
+     "v": "lower"
+    },
+    "B23": {
+     "v": "true"
+    }
+   }
+  }
+ ],
+ "names": {}
+}

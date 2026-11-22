@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "rw_census_nrc",
+ "encoding": "none",
+ "prompt_chars": 1327,
+ "prompt_sha256": "77c5741211c3c5952e5108028d3643bf2d0f581b0063c044868fe64b48226a60",
+ "result": "```json\n{\"q1\": 1340, \"q2\": 620, \"q3\": \"Table 1 - Permits!N9\", \"q4\": 490, \"q5\": 0.06}\n```\n\nI had no workbook to check, so these are rough guesses from memory of Census housing data. The cell address in q3 is a placeholder based on a guessed layout.",
+ "usage": {
+  "input_tokens": 544,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 592,
+  "output_tokens_details": {
+   "thinking_tokens": 484
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 544,
+   "outputTokens": 592,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 484
+  }
+ },
+ "cost": 0.00035039999999999995,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 3.2,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 544,
+   "output_tokens": 592,
+   "output_tokens_details": {
+    "thinking_tokens": 484
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 544
+  },
+  "finished_at": "2026-11-07T09:11:06+00:00"
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_d_scores99",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1289,
+ "prompt_sha256": "540d6d210341cbe2a56e99176afff6aa7f2e29898563ecec5e2a485cd9d87706",
+ "result": "```json\n{\"q1\": 10, \"q2\": \"Week #3!F9\", \"q3\": [\"Week #5!G11\", \"Week #5!E11\"], \"q4\": [\"Week #5!G17\", \"Week #5!E17\"], \"q5\": [\"Week #4!AL11\"], \"q6\": [\"Total!F15\", \"Total!G15\", \"Total!H15\", \"Total!I15\"]}\n```",
+ "usage": {
+  "input_tokens": 35039,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1974,
+  "output_tokens_details": {
+   "thinking_tokens": 1283
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 35039,
+   "outputTokens": 1974,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1283
+  }
+ },
+ "cost": 0.0044909,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1201,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 46,
+     "reasoning_tokens": 16,
+     "tool_calls": [
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1332,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 179,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 12766,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1215,
+     "reasoning_tokens": 860,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 19740,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 534,
+     "reasoning_tokens": 407,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T14:43:42+00:00",
+  "run_id": "20261107T144214Z-4c5d55",
+  "started_at": "2026-11-07T14:42:14+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devdata",
+  "inputs_sha256": "8f2dfc187ecd6fcbe50c6f9073b724bf0b0ec4242a6c061a380dbb2d07709a78",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 10.9
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{}",
+   "output_chars": 115
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor s in ['Week #3','Week #5','Total']:\\n  ws=wb[s]\\n  print('==',s)\\n  for row in ws.iter_rows():\\n    for c in row:\\n      if c.value is not None: print(c.coordinate, repr(c.value))\\n\\\" | head -c 60000\"}",
+   "output_chars": 13445
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['Week #4']\\nfor row in ws.iter_rows():\\n  for c in row:\\n    if c.value is not None and (c.row<=12 or c.row>=25 or c.column_letter in ('AF','AG','AE','AL','AM','AH','AD','AC')): print(c.coordinate, repr(c.value))\\nprint('--- Payout')\\nfor row in wb['Payout'].iter_rows():\\n  for c in row:\\n    if c.value is not None: print(c.coordinate, repr(c.value))\\nprint('--- refs to Week sheets')\\nfor s in wb.w",
+   "output_chars": 6697
+  }
+ ]
+}

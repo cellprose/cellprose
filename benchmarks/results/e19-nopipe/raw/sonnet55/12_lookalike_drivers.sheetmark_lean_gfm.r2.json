@@ -1,0 +1,77 @@
+{
+ "model": "sonnet55",
+ "workbook": "12_lookalike_drivers",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2051,
+ "prompt_sha256": "e54ff5f74243ecb3cd5cfa696bdf45eb7788d9513bac0243b87690f675f4d743",
+ "result": "Q1: Plan!E10 = 559782.\n\nQ2: Y3 rent is Plan!D5 = C5*(1+Drivers!$B$4), so it reads Plan!C5 and Drivers!B4.\n\nQ3: Y2 wages is Plan!C4 = B4*(1+Drivers!$B$3), so it reads Plan!B4 and Drivers!B3.\n\nQ4: Y2 marketing is Plan!C6 = B6*(1+Drivers!$B$6), so it reads Plan!B6 and Drivers!B6.\n\nQ5: Wage inflation is Drivers!B3. It feeds Plan!C4:E4 (wages in Y2\u2013Y4). Those feed Total costs in Plan!C9:E9, which feed Profit in Plan!C10:E10. Revenue does not change.\n\nQ6: Price inflation is Drivers!B2. It feeds Plan!C3:E3 (unit price), which feeds Revenue in Plan!C8:E8, which feeds Profit in Plan!C10:E10.\n\nQ7: Marketing growth is Drivers!B6. It feeds Plan!C6:E6, which feed Total costs in Plan!C9:E9, which feed Profit in Plan!C10:E10.\n\n```json\n{\"q1\":559782,\"q2\":[\"Plan!C5\",\"Drivers!B4\"],\"q3\":[\"Plan!B4\",\"Drivers!B3\"],\"q4\":[\"Plan!B6\",\"Drivers!B6\"],\"q5\":[\"Plan!C4:E4\",\"Plan!C9:E9\",\"Plan!C10:E10\"],\"q6\":[\"Plan!C3:E3\",\"Plan!C8:E8\",\"Plan!C10:E10\"],\"q7\":[\"Plan!C6:E6\",\"Plan!C9:E9\",\"Plan!C10:E10\"]}\n```",
+ "usage": {
+  "input_tokens": 1086,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 607,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 1086,
+   "outputTokens": 607,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.008242,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261010T051113Z-1cce47",
+  "started_at": "2026-10-10T05:11:13+00:00",
+  "git_sha": "b4d0b9c",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "6fcc7fe80dfd05ee580a20abc2ef6488b77b3463260a0d44f0f6bfa9ec522753",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 2,
+  "wall_seconds": 3.6,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1086,
+   "output_tokens": 607,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 1086
+  },
+  "finished_at": "2026-10-10T05:16:22+00:00"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "model": "haiku",
+ "workbook": "01_sales_log",
+ "encoding": "none",
+ "prompt_chars": 1088,
+ "result": "```json\n{\n  \"q1\": \"5000\",\n  \"q2\": \"100\",\n  \"q3\": \"19000\",\n  \"q4\": \"Sheet1!D3\",\n  \"q5\": \"Sheet1!B6\",\n  \"q6\": [\"Sheet1!B2\", \"Sheet1!C2\"],\n  \"q7\": [\"Sheet1!D2\", \"Sheet1!B6\", \"Sheet1!D6\"]\n}\n```\n\n**Assumptions made (since no workbook provided):**\n- Standard order structure: Order ID | Units | Unit Price | Revenue\n- SO-1042 in row 2, SO-1077 in row 3, SO-1100 in row 4\n- Revenue formulas multiply units \u00d7 price\n- Row 6 contains totals (Sum of Units and Sum of Revenue)\n- If SO-1042's units increase 10%, its revenue changes (direct dependency), plus total units and total revenue both recalculate",
+ "usage": {
+  "input_tokens": 1491,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1776,
+  "output_tokens_details": {
+   "thinking_tokens": 1543
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1491,
+    "output_tokens": 1776,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 2684,
+   "outputTokens": 1791,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.011639,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 1543,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.011639
+}

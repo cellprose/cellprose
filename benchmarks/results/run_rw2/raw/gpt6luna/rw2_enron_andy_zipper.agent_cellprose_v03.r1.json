@@ -1,0 +1,171 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_enron_andy_zipper",
+ "encoding": "agent_cellprose_v03",
+ "prompt_chars": 1188,
+ "prompt_sha256": "90694c77cded19f76bf5c982d87618186fd3dcb30578affb7108f4a3a79a9c2a",
+ "result": "{\"q1\":25000,\"q2\":\"Enron Activity - Dynegy Direct!D18\",\"q3\":[\"DD-EGL!B322\",\"DD-EGL!W322\"],\"q4\":[\"DD-EPM!E109\",\"DD-EPM!AA109\"],\"q5\":[]}",
+ "usage": {
+  "input_tokens": 9549,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 13494,
+  "output_tokens": 719,
+  "output_tokens_details": {
+   "thinking_tokens": 373
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 9549,
+   "outputTokens": 719,
+   "cacheReadInputTokens": 13494,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 373
+  }
+ },
+ "cost": 0.0026638,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_fc8cfea56e2b48e79e741d6bcd1691cb",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 426,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 43,
+     "reasoning_tokens": 14,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1134,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 62,
+     "reasoning_tokens": 11,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 107,
+     "cache_read_tokens": 1131,
+     "cache_write_tokens": 0,
+     "output_tokens": 59,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2296,
+     "cache_read_tokens": 1235,
+     "cache_write_tokens": 0,
+     "output_tokens": 189,
+     "reasoning_tokens": 113,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 4075,
+     "cache_read_tokens": 3528,
+     "cache_write_tokens": 0,
+     "output_tokens": 77,
+     "reasoning_tokens": 14,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 1511,
+     "cache_read_tokens": 7600,
+     "cache_write_tokens": 0,
+     "output_tokens": 289,
+     "reasoning_tokens": 221,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.001449
+  },
+  "finished_at": "2026-11-11T16:39:31+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 15.8
+ },
+ "num_turns": 6,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l && head -80 book.sheet.md\"}",
+   "output_chars": 1409
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n '^# Sheet: \\\\(DD-EGL\\\\|DD-EPM\\\\|Enron Activity - Dynegy Direct\\\\)' book.sheet.md\"}",
+   "output_chars": 86
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '161,260p' book.sheet.md; sed -n '1376,1440p' book.sheet.md; sed -n '1936,1995p' book.sheet.md\"}",
+   "output_chars": 4841
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n '^C322\\\\|^F109\\\\|^A27\\\\|^B27\\\\|^C27\\\\|^D27\\\\|^E27\\\\|^F27\\\\|C11:C\\\\|F' book.sheet.md | tail -80\"}",
+   "output_chars": 8426
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '1500,1540p' book.sheet.md; sed -n '1905,1935p' book.sheet.md; sed -n '2460,2490p' book.sheet.md\"}",
+   "output_chars": 2144
+  }
+ ]
+}

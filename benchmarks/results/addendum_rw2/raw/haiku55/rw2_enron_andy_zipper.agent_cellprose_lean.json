@@ -1,0 +1,152 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_andy_zipper",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 5077,
+ "prompt_sha256": "f2eec900aa1b808726e7a380ccbe07ae5bf823ba4cf77a6b03675eac5b38afcf",
+ "result": "```json\n{\"q1\": 25000, \"q2\": \"Enron Activity - Dynegy Direct!D18\", \"q3\": [\"DD-EGL!B322\", \"DD-EGL!W322\"], \"q4\": [\"DD-EPM!E109\", \"DD-EPM!AA109\"], \"q5\": []}\n```",
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 5666,
+  "cache_read_input_tokens": 13714,
+  "output_tokens": 1056,
+  "output_tokens_details": {
+   "thinking_tokens": 524
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 10,
+   "outputTokens": 1056,
+   "cacheReadInputTokens": 13714,
+   "cacheCreationInputTokens": 5666,
+   "thinkingTokens": 524
+  }
+ },
+ "cost": 0.0024670000000000004,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 3734,
+     "output_tokens": 246,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 3734,
+     "cache_write_tokens": 855,
+     "output_tokens": 491,
+     "reasoning_tokens": 381,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 4589,
+     "cache_write_tokens": 802,
+     "output_tokens": 185,
+     "reasoning_tokens": 112,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 5391,
+     "cache_write_tokens": 275,
+     "output_tokens": 134,
+     "reasoning_tokens": 31,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.001374
+  },
+  "finished_at": "2026-11-11T18:03:38+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 7.0
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Wade Hicks\", \"sheet\": \"DD-EGL\"}",
+   "output_chars": 133
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Susan Pereira\", \"sheet\": \"Enron Activity - Dynegy Direct\"}",
+   "output_chars": 70
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"DD-EGL!C322\", \"DD-EPM!F109\", \"DD-EPM!A27:F27\"]}",
+   "output_chars": 579
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"DD-EGL!A9:H9\", \"Enron Activity - Dynegy Direct!A17:N18\", \"Enron Activity - Dynegy Direct!A8:N8\"]}",
+   "output_chars": 520
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Enron Activity - Dynegy Direct!A9:D10\"]}",
+   "output_chars": 146
+  }
+ ]
+}

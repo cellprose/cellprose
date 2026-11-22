@@ -1,0 +1,39 @@
+{
+ "labels": {
+  "cellprose_v03": "Cellprose v0.3",
+  "csv": "CSV"
+ },
+ "replay": {
+  "lanes": [
+   {
+    "answer": [
+     "Forecast!K5"
+    ],
+    "encoding": "csv",
+    "questions_in_call": 6,
+    "score": 0.6667,
+    "tin": 811,
+    "tout": 2406
+   },
+   {
+    "answer": [
+     "Forecast!H4",
+     "Forecast!K5"
+    ],
+    "encoding": "cellprose_v03",
+    "questions_in_call": 6,
+    "score": 1.0,
+    "tin": 1054,
+    "tout": 2643
+   }
+  ],
+  "model": "haiku",
+  "question": "Consider the headcount and payroll rows for Feb through Dec (C4:M5). List the cells that hold typed-in numbers rather than formulas.",
+  "rep": "r0",
+  "truth": [
+   "Forecast!H4",
+   "Forecast!K5"
+  ],
+  "workbook": "11_forecast_overrides"
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_enron_phillip_platter",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1061,
+ "prompt_sha256": "9a8b284cde8fcd67a4d707697f1e302ff857638469511a01fa294dea056a2b86",
+ "result": "{\"q1\": [\"day 4!H106\", \"day 4!H107\"], \"q2\": [\"EES-Schedule day 1!J11\", \"EES-Schedule day 1!J12\", \"EES-Schedule day 1!J13\"], \"q3\": [\"EES-Schedule day 1!D104\", \"EES-Schedule day 1!D107\", \"EES-Schedule day 1!D108\", \"EES-Schedule day 1!D130\", \"EES-Schedule day 1!F107\", \"EES-Schedule day 1!F108\", \"EES-Schedule day 1!F130\"], \"q4\": [\"day 4!U7\", \"day 4!U8\", \"day 4!U9\", \"day 4!U10\", \"day 4!U11\", \"day 4!U12\", \"day 4!U13\", \"day 4!U17\", \"day 4!U18\", \"day 4!U19\"]}",
+ "usage": {
+  "input_tokens": 12,
+  "cache_creation_input_tokens": 4236,
+  "cache_read_input_tokens": 8152,
+  "output_tokens": 2658,
+  "output_tokens_details": {
+   "thinking_tokens": 752
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 12,
+   "outputTokens": 2658,
+   "cacheReadInputTokens": 8152,
+   "cacheCreationInputTokens": 4236,
+   "thinkingTokens": 752
+  }
+ },
+ "cost": 0.002569,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 947,
+     "output_tokens": 124,
+     "reasoning_tokens": 13,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 947,
+     "cache_write_tokens": 308,
+     "output_tokens": 306,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 1255,
+     "cache_write_tokens": 1022,
+     "output_tokens": 1263,
+     "reasoning_tokens": 349,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 2277,
+     "cache_write_tokens": 1396,
+     "output_tokens": 407,
+     "reasoning_tokens": 106,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2,
+     "cache_read_tokens": 3673,
+     "cache_write_tokens": 563,
+     "output_tokens": 558,
+     "reasoning_tokens": 284,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.001941
+  },
+  "finished_at": "2026-11-11T16:26:34+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 22.5
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb: print(ws.title, ws.dimensions)\\n\\\"\"}",
+   "output_chars": 312
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\ndef show(s,cells):\\n  ws=wb[s]\\n  for c in cells: print(s,c,repr(ws[c].value))\\nshow('day 4',['H108','A108','B108','C108','D108','E108','F108','G108'])\\nshow('EES-Schedule day 1',['J14','A14','B14','C14','D14','E14','F14','G14','H14','I14'])\\nshow('EES-Schedule day 1',['F104','A104','B104','C104','D104','E104'])\\nws=wb['day 4']\\nfor r in range(7,20): print(r, ws.cell(r,21).coordinate, repr(ws.cell(r,21).",
+   "output_chars": 1069
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/dep.py <<'EOF'\\nimport openpyxl,re\\nfrom openpyxl.utils import range_boundaries, get_column_letter\\nwb=openpyxl.load_workbook('book.xlsx')\\nforms={}\\nfor ws in wb:\\n    for row in ws.iter_rows():\\n        for c in row:\\n            if isinstance(c.value,str) and c.value.startswith('='):\\n                forms[(ws.title,c.coordinate)]=c.value\\n# reverse index: target -> formula cells that reference it\\npat=re.compile(r\\\"(?:'([^']+)'|([A-Za-z0-9_\\\\-]+(?: [A-Za-z0-9_",
+   "output_chars": 219
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nws=wb['EES-Schedule day 1']\\nfor c in ['D104','D107','D108','D130','F107','F108','F130','F106','F105','F109','F110']: print(c, ws[c].value)\\n\\\" 2>/dev/null; python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb:\\n  for row in ws.iter_rows():\\n    for c in row:\\n      if isinstance(c.value,str) and '!' in c.value and 'EES-Schedule' in c.value: print(ws.title,c.coordinate,c.v",
+   "output_chars": 228
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Table 1 - Permits!B14",
+  "labels": [
+   "A11",
+   "A14",
+   "A4",
+   "B5",
+   "B6"
+  ],
+  "q": "In the sheet 'Table 1 - Permits', Table 1a (seasonally adjusted annual rate, thousands of units), what is the United States total for March 2023?",
+  "id": "q1",
+  "truth": 1437
+ },
+ {
+  "type": "lookup",
+  "cell": "Table 3 - Starts!K13",
+  "labels": [
+   "A11",
+   "A13",
+   "J5",
+   "K6"
+  ],
+  "q": "In the sheet 'Table 3 - Starts', Table 3a (seasonally adjusted annual rate), how many 1-unit housing units were started in the South in February 2023?",
+  "id": "q2",
+  "truth": 514
+ },
+ {
+  "type": "address",
+  "cell": "Table 1 - Permits!L16",
+  "labels": [
+   "A16",
+   "L5",
+   "L6"
+  ],
+  "q": "In the sheet 'Table 1 - Permits', Table 1a, which cell holds the West total for May 2023? Give its cell address.",
+  "id": "q3",
+  "truth": "Table 1 - Permits!L16"
+ },
+ {
+  "type": "lookup",
+  "cell": "Table 1 - Permits!E15",
+  "labels": [
+   "A15",
+   "E5",
+   "E6"
+  ],
+  "q": "In the sheet 'Table 1 - Permits', Table 1a, how many permits for 5 units or more were issued in the United States in April 2023?",
+  "id": "q4",
+  "truth": 503
+ },
+ {
+  "type": "lookup",
+  "cell": "Table 1 - Permits!B29",
+  "labels": [
+   "A29",
+   "B5",
+   "B6"
+  ],
+  "q": "In the sheet 'Table 1 - Permits', under Percent Change, what is the United States total change of December 2023 from December 2022 (as the decimal fraction stored in the cell)?",
+  "id": "q5",
+  "truth": 0.061
+ }
+]

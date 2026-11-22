@@ -1,0 +1,83 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_d_scores99",
+ "encoding": "sheetmark_v031",
+ "prompt_chars": 21259,
+ "prompt_sha256": "38dab517cd778588459fd1e0fc04ab627adf87cd6c2ee114e2e81e60b2634533",
+ "result": "```json\n{\"q1\": 10, \"q2\": \"Week #3!F9\", \"q3\": [\"Week #5!E11\", \"Week #5!G11\"], \"q4\": [\"Week #5!E17\", \"Week #5!G17\"], \"q5\": [\"Week #4!AL11\", \"Week #4!AF27\", \"Week #4!AF28\"], \"q6\": [\"Total!F15\", \"Total!G15\", \"Total!H15\", \"Total!I15\"]}\n```",
+ "usage": {
+  "input_tokens": 14848,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6233,
+  "output_tokens_details": {
+   "thinking_tokens": 6086
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 14848,
+   "outputTokens": 6233,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 6086
+  }
+ },
+ "cost": 0.0046013,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T144125Z-109256",
+  "started_at": "2026-11-07T14:41:25+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devdata",
+  "inputs_sha256": "fc16d34a0a9f3ffe948c7b64b35e36559b43499241db89caccc8f4655d91cf24",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 24.7,
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 14848,
+   "output_tokens": 6233,
+   "output_tokens_details": {
+    "thinking_tokens": 6086
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 14848
+  },
+  "finished_at": "2026-11-07T14:42:02+00:00"
+ }
+}

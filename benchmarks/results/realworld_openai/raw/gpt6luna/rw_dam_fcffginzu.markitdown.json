@@ -1,0 +1,77 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_dam_fcffginzu",
+ "encoding": "markitdown",
+ "prompt_chars": 127542,
+ "prompt_sha256": "643b7ce5b442505a189cd7994993a18377afec051a30aea42f264b4ef5b57708",
+ "result": "{\"q1\":377.140217,\"q2\":0.08301,\"q3\":\"'Valuation Model'!D62\",\"q4\":[\"'Valuation Model'!D65:D67\"],\"q5\":[\"'Valuation Model'!D71\",\"'Valuation Model'!D72\"],\"q6\":[\"'Valuation Model'!D16\",\"'Valuation Model'!D28\",\"'Valuation Model'!D30\",\"'Valuation Model'!D31\",\"'Valuation Model'!D47:L49\",\"'Valuation Model'!D61:D63\",\"'Valuation Model'!D65\",\"'Valuation Model'!D68\",\"'Valuation Model'!D70:D71\",\"'Valuation Model'!D73\"]}",
+ "usage": {
+  "input_tokens": 58881,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5072,
+  "output_tokens_details": {
+   "thinking_tokens": 4901
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 58881,
+   "outputTokens": 5072,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 4901
+  }
+ },
+ "cost": 0.0084241,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261012T170532Z-f2cfbe",
+  "started_at": "2026-10-12T17:05:32+00:00",
+  "git_sha": "960479a",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "0aa45e294c5b47184517e9ee701b0187b619e11732ce039616ccddf976717ba2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 0,
+  "wall_seconds": 45.0,
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_153cd1d49d7e420da966d39c7483ddab",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "input_tokens": 58881,
+   "input_tokens_details": {
+    "cache_write_tokens": 58878,
+    "cached_tokens": 0
+   },
+   "output_tokens": 5072,
+   "output_tokens_details": {
+    "reasoning_tokens": 4901
+   },
+   "total_tokens": 63953,
+   "billed_input_tokens": 58881,
+   "tokenizer_input_tokens_o200k": 58870,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 58870
+  },
+  "finished_at": "2026-10-12T17:06:29+00:00"
+ }
+}

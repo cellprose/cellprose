@@ -1,0 +1,65 @@
+{
+ "model": "sonnet55",
+ "workbook": "07_messy_report",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2647,
+ "result": "Reading the workbook:\n\n- q1: SKU-1007 is in row 12, so its on-hand count is 519.\n- q2: PO-5003 is in row 28, so its line total is 3676.5.\n- q3: The open PO value is 8017.\n- q4: SKU-1010 is in row 15, so its reorder point is in Report!D15.\n- q5: Report!I8 = E34, so the formula reads only Report!E34 directly.\n- q6: Report!E28 = C28*D28, so it reads Report!C28 and Report!D28.\n- q7: SKU-1004 is in row 9, so its on-hand count is C9.\n  - C9 feeds E9 (the below-reorder flag) and I7 (the total on hand).\n  - E9 would not change: 840 \u2192 924 stays above 250, so it remains NO.\n  - I6 would not change either, since E9 stays the same.\n  - I7 changes: the sum increases.\n\nThe only other cell whose value changes is Report!I7.\n\n```json\n{\"q1\":519,\"q2\":3676.5,\"q3\":8017,\"q4\":\"Report!D15\",\"q5\":[\"Report!E34\"],\"q6\":[\"Report!C28\",\"Report!D28\"],\"q7\":[\"Report!I7\"]}\n```",
+ "usage": {
+  "input_tokens": 1518,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 407,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 1518,
+   "outputTokens": 407,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.007106,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T102109Z-d2d3b9",
+  "started_at": "2026-10-09T10:21:09+00:00",
+  "git_sha": "c5cb767",
+  "anthropic_sdk": "1.12.1",
+  "rep": 1,
+  "wall_seconds": 3.0,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1518,
+   "output_tokens": 407,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:31:58+00:00"
+ }
+}

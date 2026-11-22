@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw_ogl07_export_establishments",
+ "encoding": "none",
+ "prompt_chars": 1073,
+ "prompt_sha256": "45d863efbb3cb62ce2cccf8e4d6f776822903d5e172f84740f3f5d61948867ab",
+ "result": "Since no workbook was provided, these are best guesses and none of them is grounded in the data.\n\n- **q1 and q2:** I guessed \"Chapter\" values of \"Chapter 1\" and \"Chapter 2\". Nothing in the question points to either value.\n- **q3:** I assumed the \"Link\" column is a later column such as F and that the data starts at row 2. I picked Sheet1!F2 as a guess.\n\n{\"q1\": \"Chapter 1\", \"q2\": \"Chapter 2\", \"q3\": \"Sheet1!F2\"}",
+ "usage": {
+  "input_tokens": 498,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 175,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 498,
+   "outputTokens": 175,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.002746,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 1.9,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 498,
+   "output_tokens": 175,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 498
+  },
+  "finished_at": "2026-11-07T09:03:39+00:00"
+ }
+}

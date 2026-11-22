@@ -1,0 +1,115 @@
+{
+ "sheets": [
+  {
+   "name": "Assumptions",
+   "state": "visible",
+   "freeze": null,
+   "merges": [],
+   "names": {},
+   "cells": {
+    "A1": {
+     "v": "Driver"
+    },
+    "B1": {
+     "v": "Value"
+    },
+    "A2": {
+     "v": "Growth"
+    },
+    "B2": {
+     "v": 0.12,
+     "fmt": "0%"
+    },
+    "A3": {
+     "v": "Price"
+    },
+    "B3": {
+     "v": 45
+    }
+   }
+  },
+  {
+   "name": "P&L",
+   "state": "visible",
+   "freeze": "B2",
+   "merges": [],
+   "names": {},
+   "cells": {
+    "B1": {
+     "v": "Q1"
+    },
+    "C1": {
+     "v": "Q2"
+    },
+    "D1": {
+     "v": "Q3"
+    },
+    "E1": {
+     "v": "Q4"
+    },
+    "F1": {
+     "v": "Total"
+    },
+    "A2": {
+     "v": "Units"
+    },
+    "B2": {
+     "v": 1200
+    },
+    "C2": {
+     "f": "B2*(1+Growth)"
+    },
+    "D2": {
+     "f": "C2*(1+Growth)"
+    },
+    "E2": {
+     "f": "D2*(1+Growth)"
+    },
+    "F2": {
+     "f": "SUM(B2:E2)"
+    },
+    "A3": {
+     "v": "Price"
+    },
+    "B3": {
+     "f": "Assumptions!$B$3"
+    },
+    "C3": {
+     "f": "Assumptions!$B$3"
+    },
+    "D3": {
+     "f": "Assumptions!$B$3"
+    },
+    "E3": {
+     "f": "Assumptions!$B$3"
+    },
+    "A4": {
+     "v": "Revenue"
+    },
+    "B4": {
+     "f": "B2*B3",
+     "fmt": "$#,##0"
+    },
+    "C4": {
+     "f": "C2*C3",
+     "fmt": "$#,##0"
+    },
+    "D4": {
+     "f": "D2*D3",
+     "fmt": "$#,##0"
+    },
+    "E4": {
+     "f": "E2*E3",
+     "fmt": "$#,##0"
+    },
+    "F4": {
+     "f": "SUM(B4:E4)",
+     "fmt": "$#,##0"
+    }
+   }
+  }
+ ],
+ "names": {
+  "Growth": "Assumptions!$B$2"
+ }
+}

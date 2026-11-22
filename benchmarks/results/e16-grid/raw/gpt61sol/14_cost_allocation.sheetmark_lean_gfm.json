@@ -1,0 +1,60 @@
+{
+ "model": "gpt61sol",
+ "workbook": "14_cost_allocation",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2198,
+ "result": "{\n  \"q1\": 428571,\n  \"q2\": [\"Allocation!C5\", \"Allocation!D3\"],\n  \"q3\": [\"Shared!B2\", \"Drivers!B6\", \"Drivers!B7\"],\n  \"q4\": [\"Drivers!C7\", \"Allocation!C2\", \"Allocation!C3\", \"Allocation!C4\", \"Allocation!C6\", \"Allocation!C7\", \"Allocation!E2\", \"Allocation!E3\", \"Allocation!E4\", \"Allocation!E6\", \"Allocation!E7\"],\n  \"q5\": [\"Drivers!D7\", \"Allocation!D2\", \"Allocation!D4\", \"Allocation!D5\", \"Allocation!D6\", \"Allocation!D7\", \"Allocation!E2\", \"Allocation!E4\", \"Allocation!E5\", \"Allocation!E6\", \"Allocation!E7\"],\n  \"q6\": [\"Allocation!C2\", \"Allocation!C3\", \"Allocation!C4\", \"Allocation!C6\", \"Allocation!C7\", \"Allocation!E2\", \"Allocation!E3\", \"Allocation!E4\", \"Allocation!E6\", \"Allocation!E7\"]\n}",
+ "usage": {
+  "input_tokens": 801,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 462,
+  "output_tokens_details": {
+   "thinking_tokens": 198
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 801,
+   "outputTokens": 462,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 198
+  }
+ },
+ "cost": 0.006222,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261009T102109Z-d2d3b9",
+  "started_at": "2026-10-09T10:21:09+00:00",
+  "git_sha": "c5cb767",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 10.1,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_3273a073fc2b442c865b95eab809a285",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "provider_usage": {
+   "input_tokens": 801,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 462,
+   "output_tokens_details": {
+    "reasoning_tokens": 198
+   },
+   "total_tokens": 1263,
+   "billed_input_tokens": 801,
+   "tokenizer_input_tokens_o200k": 790
+  },
+  "finished_at": "2026-10-09T10:27:26+00:00"
+ }
+}

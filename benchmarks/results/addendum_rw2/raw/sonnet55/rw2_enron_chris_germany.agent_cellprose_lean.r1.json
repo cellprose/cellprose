@@ -1,0 +1,141 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw2_enron_chris_germany",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 3458,
+ "prompt_sha256": "3b118ff206875ae40d8675453b035b504701cba2cb9881d9601d907d357bfdc7",
+ "result": "```json\n{\"q1\":2.11,\"q2\":\"Sheet1!F61\",\"q3\":[\"Sheet1!F189\",\"Sheet1!E196\",\"Sheet1!C201\"],\"q4\":[\"Sheet1!F145\",\"Sheet1!C150\",\"Sheet1!C148\",\"Sheet1!C149\"],\"q5\":[\"Sheet1!C152\",\"Sheet1!E152\",\"Sheet1!C158:C159\",\"Sheet1!E159\",\"Sheet1!E162\",\"Sheet1!F163\"],\"q6\":[\"Sheet1!C127\",\"Sheet1!C128\",\"Sheet1!C129\"]}\n```",
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 5652,
+  "cache_read_input_tokens": 13283,
+  "output_tokens": 758,
+  "output_tokens_details": {
+   "thinking_tokens": 261
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 10,
+   "outputTokens": 758,
+   "cacheReadInputTokens": 13283,
+   "cacheCreationInputTokens": 5652,
+   "thinkingTokens": 261
+  }
+ },
+ "cost": 0.04547,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 2815,
+     "output_tokens": 133,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 2815,
+     "cache_write_tokens": 2195,
+     "output_tokens": 362,
+     "reasoning_tokens": 261,
+     "tool_calls": [
+      "trace"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 5010,
+     "cache_write_tokens": 448,
+     "output_tokens": 62,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 5458,
+     "cache_write_tokens": 194,
+     "output_tokens": 201,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.023058
+  },
+  "finished_at": "2026-11-11T18:31:09+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 9.7
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Sheet1!A140:G207\"]}",
+   "output_chars": 2736
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Sheet1!A61:G62\", \"Sheet1!A124:G131\"]}",
+   "output_chars": 468
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Sheet1!C149\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 128
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Sheet1!C127:C131\"]}",
+   "output_chars": 195
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+[
+ {
+  "type": "address",
+  "cell": "ddm2st.xls!D43",
+  "q": "Which cell holds the value in the row labelled 'Tax Rate on Income=', in the sheet 'ddm2st.xls'? Give its cell address.",
+  "truth": "ddm2st.xls!D43",
+  "labels": [
+   "B43"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "ddm2st.xls!D95",
+  "q": "Consider the cell ddm2st.xls!D95 (in the row labelled 'Dividends'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "ddm2st.xls!C95",
+   "ddm2st.xls!D89",
+   "ddm2st.xls!D94",
+   "ddm2st.xls!E24"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "ddm2st.xls!E98",
+  "q": "Consider the cell ddm2st.xls!E98 (in the row labelled 'Payout Ratio in Stable Phase ='). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "ddm2st.xls!E63",
+   "ddm2st.xls!E64",
+   "ddm2st.xls!E65"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "impact",
+  "cell": "ddm2st.xls!E61",
+  "factor": 1.1,
+  "q": "Suppose the number in ddm2st.xls!E61 (in the row labelled 'Enter growth rate in stable growth period?') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "ddm2st.xls!D116",
+   "ddm2st.xls!D117",
+   "ddm2st.xls!D118",
+   "ddm2st.xls!D119",
+   "ddm2st.xls!D120",
+   "ddm2st.xls!D121",
+   "ddm2st.xls!D122",
+   "ddm2st.xls!D123",
+   "ddm2st.xls!D124",
+   "ddm2st.xls!D125",
+   "ddm2st.xls!D126",
+   "ddm2st.xls!D127",
+   "ddm2st.xls!D128",
+   "ddm2st.xls!D129",
+   "ddm2st.xls!D130",
+   "ddm2st.xls!D131",
+   "ddm2st.xls!D132",
+   "ddm2st.xls!E100",
+   "ddm2st.xls!E109",
+   "ddm2st.xls!E110",
+   "ddm2st.xls!E111",
+   "ddm2st.xls!E63",
+   "ddm2st.xls!E97",
+   "ddm2st.xls!E98",
+   "ddm2st.xls!F103",
+   "ddm2st.xls!F104",
+   "ddm2st.xls!G115",
+   "ddm2st.xls!G116",
+   "ddm2st.xls!G117",
+   "ddm2st.xls!G118",
+   "ddm2st.xls!G119",
+   "ddm2st.xls!G120",
+   "ddm2st.xls!G121",
+   "ddm2st.xls!G122",
+   "ddm2st.xls!G123",
+   "ddm2st.xls!G124",
+   "ddm2st.xls!G125"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "ddm2st.xls!D86",
+  "range": "ddm2st.xls!D86:D89",
+  "q": "Consider the range ddm2st.xls!D86:D89 (the column of 'Growth Rate'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q5"
+ }
+]

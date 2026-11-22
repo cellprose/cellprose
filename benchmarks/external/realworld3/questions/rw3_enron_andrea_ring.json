@@ -1,0 +1,102 @@
+[
+ {
+  "type": "lookup",
+  "cell": "February 2000!C43",
+  "q": "What is the value in the row labelled 'TRANSCO 45', column headed 'Volume', in the sheet 'February 2000'?",
+  "truth": 5,
+  "labels": [
+   "A43",
+   "C41"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "February 2000!B22",
+  "q": "Which cell holds the value in the row labelled 'TRANSCO 65', column headed 'Price', in the sheet 'February 2000'? Give its cell address.",
+  "truth": "February 2000!B22",
+  "labels": [
+   "A22",
+   "B20"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "February 2000!D26",
+  "q": "Consider the cell February 2000!D26. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "February 2000!C26",
+   "February 2000!C40"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "February 2000!D52",
+  "q": "Consider the cell February 2000!D52. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "February 2000!C52",
+   "February 2000!C55"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "February 2000!C30",
+  "factor": 1.1,
+  "q": "Suppose the number in February 2000!C30 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "February 2000!C40",
+   "February 2000!D22",
+   "February 2000!D23",
+   "February 2000!D24",
+   "February 2000!D25",
+   "February 2000!D26",
+   "February 2000!D27",
+   "February 2000!D28",
+   "February 2000!D29",
+   "February 2000!D30",
+   "February 2000!D31",
+   "February 2000!D32",
+   "February 2000!D33",
+   "February 2000!D34",
+   "February 2000!D35",
+   "February 2000!D36",
+   "February 2000!D37",
+   "February 2000!D38",
+   "February 2000!D39",
+   "February 2000!E22",
+   "February 2000!E23",
+   "February 2000!E24",
+   "February 2000!E25",
+   "February 2000!E26",
+   "February 2000!E27",
+   "February 2000!E28",
+   "February 2000!E29",
+   "February 2000!E30",
+   "February 2000!E31",
+   "February 2000!E32",
+   "February 2000!E33",
+   "February 2000!E34",
+   "February 2000!E35",
+   "February 2000!E36",
+   "February 2000!E37",
+   "February 2000!E38",
+   "February 2000!E39",
+   "February 2000!E40"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "February 2000!B61",
+  "range": "February 2000!B61:E61",
+  "q": "Consider the range February 2000!B61:E61. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "February 2000!B61",
+   "February 2000!C61"
+  ],
+  "id": "q6"
+ }
+]

@@ -1,0 +1,58 @@
+{
+ "model": "haiku",
+ "workbook": "07_messy_report",
+ "encoding": "markdown_kv",
+ "prompt_chars": 4817,
+ "result": "```json\n{\n  \"q1\": 519,\n  \"q2\": 3676.5,\n  \"q3\": 8017,\n  \"q4\": \"Sheet1!D14\",\n  \"q5\": [\"Sheet1!E33\"],\n  \"q6\": [\"Sheet1!C27\", \"Sheet1!D27\"],\n  \"q7\": [\"Sheet1!I6\"]\n}\n```",
+ "usage": {
+  "input_tokens": 3291,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 19504,
+  "output_tokens_details": {
+   "thinking_tokens": 19401
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3291,
+    "output_tokens": 19504,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 6284,
+   "outputTokens": 19520,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.103884,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 19401,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.103884
+}

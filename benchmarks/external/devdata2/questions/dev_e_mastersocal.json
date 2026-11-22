@@ -1,0 +1,81 @@
+[
+ {
+  "type": "lookup",
+  "cell": "FLOWS!D84",
+  "q": "What is the value in the row labelled 'Cornudas West', in the sheet 'FLOWS'?",
+  "truth": 1650,
+  "labels": [
+   "B84"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "PLANTS!E15",
+  "q": "Which cell holds the value in the row labelled 'La Paloma II', column headed 'GAS', in the sheet 'PLANTS'? Give its cell address.",
+  "truth": "PLANTS!E15",
+  "labels": [
+   "A15",
+   "E1"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "PLANTS!AX63",
+  "q": "Consider the cell PLANTS!AX63. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "PLANTS!A63",
+   "PLANTS!AW30",
+   "PLANTS!AW31",
+   "PLANTS!AY63"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "PLANTS!AL68",
+  "q": "Consider the cell PLANTS!AL68. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "PLANTS!A68",
+   "PLANTS!AK30",
+   "PLANTS!AK31",
+   "PLANTS!AM68"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "FLOWS!BI56",
+  "factor": 1.1,
+  "q": "Suppose the number in FLOWS!BI56 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "FLOWS!AA56",
+   "FLOWS!AB56",
+   "FLOWS!AE56",
+   "FLOWS!AF56",
+   "FLOWS!AG56",
+   "FLOWS!AG57",
+   "FLOWS!AG58",
+   "FLOWS!AG59",
+   "FLOWS!AG60",
+   "FLOWS!AG61",
+   "FLOWS!BM56",
+   "FLOWS!BR56"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "FLOWS!B53",
+  "range": "FLOWS!B53:K53",
+  "q": "Consider the range FLOWS!B53:K53. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "FLOWS!C53",
+   "FLOWS!D53",
+   "FLOWS!I53",
+   "FLOWS!K53"
+  ],
+  "id": "q6"
+ }
+]

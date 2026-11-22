@@ -1,0 +1,127 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_enron_daren_farmer",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 3235,
+ "prompt_sha256": "8225eab3a1156b555d951dc38115b3a9f2a9047b68d6cd9b8566efbb5ef14840",
+ "result": "{\"q1\":5391735,\"q2\":\"Feb 00!AB10\",\"q3\":[\"Feb 00!U28:U32\"],\"q4\":[\"Feb 00!I10:I14\"],\"q5\":[\"Feb 00!Y13\",\"Feb 00!AB13\",\"Feb 00!Y15\",\"Feb 00!AB15\",\"Feb 00!Y23\",\"Feb 00!AB23\",\"Feb 00!AB51\",\"Feb 00!Y54\",\"Feb 00!AB54\",\"Feb 00!Y56\",\"Feb 00!AB56\",\"Feb 00!Y71\",\"Feb 00!AB71\"],\"q6\":[\"Feb 00!S40:S42\",\"Feb 00!S44:S46\"]}",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 10699,
+  "output_tokens": 438,
+  "output_tokens_details": {
+   "thinking_tokens": 117
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 6,
+   "outputTokens": 438,
+   "cacheReadInputTokens": 10699,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 117
+  }
+ },
+ "cost": 0.0012895,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_5f82e0720e0e493fa235549b4cfe6511",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 1502,
+     "cache_write_tokens": 0,
+     "output_tokens": 153,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif",
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3,
+     "cache_read_tokens": 9197,
+     "cache_write_tokens": 0,
+     "output_tokens": 285,
+     "reasoning_tokens": 117,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.000327
+  },
+  "finished_at": "2026-11-11T18:38:23+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 13.2
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'Feb 00'!A1:AC82\"]}",
+   "output_chars": 13414
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"'Feb 00'!U33\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 69
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"'Feb 00'!I15\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 70
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"'Feb 00'!Y51\", \"factor\": 1.1}",
+   "output_chars": 218
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'Feb 00'!S40:S46\"]}",
+   "output_chars": 124
+  }
+ ]
+}

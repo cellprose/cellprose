@@ -1,0 +1,1120 @@
+# Products
+
+## Record 1
+```
+SKU: P101
+Name: Adapter 1
+Category: Hardware
+Unit price: 419.39
+Unit cost: 197.2
+```
+
+## Record 2
+```
+SKU: P102
+Name: Router 2
+Category: Software
+Unit price: 171.6
+Unit cost: 86.19
+```
+
+## Record 3
+```
+SKU: P103
+Name: Mount 3
+Category: Services
+Unit price: 420.03
+Unit cost: 162.29
+```
+
+## Record 4
+```
+SKU: P104
+Name: Mount 4
+Category: Accessories
+Unit price: 501.07
+Unit cost: 333.23
+```
+
+## Record 5
+```
+SKU: P105
+Name: Cable 5
+Category: Hardware
+Unit price: 656.73
+Unit cost: 437.75
+```
+
+## Record 6
+```
+SKU: P106
+Name: Camera 6
+Category: Software
+Unit price: 409.56
+Unit cost: 172.31
+```
+
+## Record 7
+```
+SKU: P107
+Name: Switch 7
+Category: Services
+Unit price: 218.02
+Unit cost: 89.3
+```
+
+## Record 8
+```
+SKU: P108
+Name: Mount 8
+Category: Accessories
+Unit price: 785.19
+Unit cost: 297.19
+```
+
+## Record 9
+```
+SKU: P109
+Name: Switch 9
+Category: Hardware
+Unit price: 621.15
+Unit cost: 474.27
+```
+
+## Record 10
+```
+SKU: P110
+Name: License 10
+Category: Software
+Unit price: 188.44
+Unit cost: 127.49
+```
+
+## Record 11
+```
+SKU: P111
+Name: Switch 11
+Category: Services
+Unit price: 382.47
+Unit cost: 266.83
+```
+
+## Record 12
+```
+SKU: P112
+Name: Camera 12
+Category: Accessories
+Unit price: 820.68
+Unit cost: 391.08
+```
+
+## Record 13
+```
+SKU: P113
+Name: License 13
+Category: Hardware
+Unit price: 729.51
+Unit cost: 488.01
+```
+
+## Record 14
+```
+SKU: P114
+Name: Camera 14
+Category: Software
+Unit price: 9.72
+Unit cost: 3.64
+```
+
+## Record 15
+```
+SKU: P115
+Name: Dock 15
+Category: Services
+Unit price: 344.04
+Unit cost: 141.96
+```
+
+## Record 16
+```
+SKU: P116
+Name: Switch 16
+Category: Accessories
+Unit price: 216.88
+Unit cost: 169.99
+```
+
+## Record 17
+```
+SKU: P117
+Name: Mount 17
+Category: Hardware
+Unit price: 8.47
+Unit cost: 3.72
+```
+
+## Record 18
+```
+SKU: P118
+Name: Adapter 18
+Category: Software
+Unit price: 767.72
+Unit cost: 271.55
+```
+
+## Record 19
+```
+SKU: P119
+Name: Hub 19
+Category: Services
+Unit price: 79.74
+Unit cost: 60.84
+```
+
+## Record 20
+```
+SKU: P120
+Name: Mount 20
+Category: Accessories
+Unit price: 453.22
+Unit cost: 259.94
+```
+
+## Record 21
+```
+SKU: P121
+Name: Camera 21
+Category: Hardware
+Unit price: 829.23
+Unit cost: 315.91
+```
+
+## Record 22
+```
+SKU: P122
+Name: Switch 22
+Category: Software
+Unit price: 176.99
+Unit cost: 117.77
+```
+
+## Record 23
+```
+SKU: P123
+Name: Mount 23
+Category: Services
+Unit price: 135.09
+Unit cost: 91.03
+```
+
+## Record 24
+```
+SKU: P124
+Name: Support plan 24
+Category: Accessories
+Unit price: 41.87
+Unit cost: 25.11
+```
+
+## Record 25
+```
+SKU: P125
+Name: Cable 25
+Category: Hardware
+Unit price: 547.71
+Unit cost: 375.36
+```
+
+## Record 26
+```
+SKU: P126
+Name: Mount 26
+Category: Software
+Unit price: 664.51
+Unit cost: 531
+```
+
+## Record 27
+```
+SKU: P127
+Name: Camera 27
+Category: Services
+Unit price: 113.6
+Unit cost: 88.37
+```
+
+## Record 28
+```
+SKU: P128
+Name: Mount 28
+Category: Accessories
+Unit price: 216.92
+Unit cost: 125.21
+```
+
+## Record 29
+```
+SKU: P129
+Name: Hub 29
+Category: Hardware
+Unit price: 663.72
+Unit cost: 408.6
+```
+
+## Record 30
+```
+SKU: P130
+Name: Switch 30
+Category: Software
+Unit price: 698.29
+Unit cost: 516.96
+```
+
+## Record 31
+```
+SKU: P131
+Name: Mount 31
+Category: Services
+Unit price: 103.42
+Unit cost: 53.21
+```
+
+## Record 32
+```
+SKU: P132
+Name: License 32
+Category: Accessories
+Unit price: 192.98
+Unit cost: 153.17
+```
+
+## Record 33
+```
+SKU: P133
+Name: Router 33
+Category: Hardware
+Unit price: 519.12
+Unit cost: 270.21
+```
+
+## Record 34
+```
+SKU: P134
+Name: Router 34
+Category: Software
+Unit price: 548.93
+Unit cost: 299.23
+```
+
+## Record 35
+```
+SKU: P135
+Name: Dock 35
+Category: Services
+Unit price: 196.02
+Unit cost: 92.39
+```
+
+## Record 36
+```
+SKU: P136
+Name: Support plan 36
+Category: Accessories
+Unit price: 734.16
+Unit cost: 464.93
+```
+
+## Record 37
+```
+SKU: P137
+Name: Router 37
+Category: Hardware
+Unit price: 97.25
+Unit cost: 35.15
+```
+
+## Record 38
+```
+SKU: P138
+Name: Camera 38
+Category: Software
+Unit price: 703.75
+Unit cost: 403.81
+```
+
+## Record 39
+```
+SKU: P139
+Name: License 39
+Category: Services
+Unit price: 639.96
+Unit cost: 386.99
+```
+
+## Record 40
+```
+SKU: P140
+Name: License 40
+Category: Accessories
+Unit price: 64.32
+Unit cost: 25.28
+```
+
+# Orders
+
+## Record 1
+```
+Order: ORD-2001
+SKU: P126
+Qty: 17
+Unit price: 664.51
+Revenue: 11296.67
+Cost: 9027
+Margin: 2269.67
+Category: Software
+```
+
+## Record 2
+```
+Order: ORD-2002
+SKU: P124
+Qty: 18
+Unit price: 41.87
+Revenue: 753.66
+Cost: 451.98
+Margin: 301.68
+Category: Accessories
+```
+
+## Record 3
+```
+Order: ORD-2003
+SKU: P124
+Qty: 5
+Unit price: 41.87
+Revenue: 209.35
+Cost: 125.55
+Margin: 83.8
+Category: Accessories
+```
+
+## Record 4
+```
+Order: ORD-2004
+SKU: P119
+Qty: 6
+Unit price: 79.74
+Revenue: 478.44
+Cost: 365.04
+Margin: 113.4
+Category: Services
+```
+
+## Record 5
+```
+Order: ORD-2005
+SKU: P117
+Qty: 1
+Unit price: 8.47
+Revenue: 8.47
+Cost: 3.72
+Margin: 4.75
+Category: Hardware
+```
+
+## Record 6
+```
+Order: ORD-2006
+SKU: P104
+Qty: 6
+Unit price: 501.07
+Revenue: 3006.42
+Cost: 1999.38
+Margin: 1007.04
+Category: Accessories
+```
+
+## Record 7
+```
+Order: ORD-2007
+SKU: P117
+Qty: 6
+Unit price: 8.47
+Revenue: 50.82
+Cost: 22.32
+Margin: 28.5
+Category: Hardware
+```
+
+## Record 8
+```
+Order: ORD-2008
+SKU: P108
+Qty: 20
+Unit price: 785.19
+Revenue: 15703.8
+Cost: 5943.8
+Margin: 9760
+Category: Accessories
+```
+
+## Record 9
+```
+Order: ORD-2009
+SKU: P110
+Qty: 1
+Unit price: 188.44
+Revenue: 188.44
+Cost: 127.49
+Margin: 60.95
+Category: Software
+```
+
+## Record 10
+```
+Order: ORD-2010
+SKU: P104
+Qty: 2
+Unit price: 501.07
+Revenue: 1002.14
+Cost: 666.46
+Margin: 335.68
+Category: Accessories
+```
+
+## Record 11
+```
+Order: ORD-2011
+SKU: P129
+Qty: 7
+Unit price: 663.72
+Revenue: 4646.04
+Cost: 2860.2
+Margin: 1785.84
+Category: Hardware
+```
+
+## Record 12
+```
+Order: ORD-2012
+SKU: P125
+Qty: 10
+Unit price: 547.71
+Revenue: 5477.1
+Cost: 3753.6
+Margin: 1723.5
+Category: Hardware
+```
+
+## Record 13
+```
+Order: ORD-2013
+SKU: P140
+Qty: 1
+Unit price: 64.32
+Revenue: 64.32
+Cost: 25.28
+Margin: 39.04
+Category: Accessories
+```
+
+## Record 14
+```
+Order: ORD-2014
+SKU: P123
+Qty: 10
+Unit price: 135.09
+Revenue: 1350.9
+Cost: 910.3
+Margin: 440.6
+Category: Services
+```
+
+## Record 15
+```
+Order: ORD-2015
+SKU: P110
+Qty: 16
+Unit price: 188.44
+Revenue: 3015.04
+Cost: 2039.84
+Margin: 975.2
+Category: Software
+```
+
+## Record 16
+```
+Order: ORD-2016
+SKU: P136
+Qty: 9
+Unit price: 734.16
+Revenue: 6607.44
+Cost: 4184.37
+Margin: 2423.07
+Category: Accessories
+```
+
+## Record 17
+```
+Order: ORD-2017
+SKU: P109
+Qty: 3
+Unit price: 621.15
+Revenue: 1863.45
+Cost: 1422.81
+Margin: 440.64
+Category: Hardware
+```
+
+## Record 18
+```
+Order: ORD-2018
+SKU: P136
+Qty: 10
+Unit price: 734.16
+Revenue: 7341.6
+Cost: 4649.3
+Margin: 2692.3
+Category: Accessories
+```
+
+## Record 19
+```
+Order: ORD-2019
+SKU: P108
+Qty: 3
+Unit price: 785.19
+Revenue: 2355.57
+Cost: 891.57
+Margin: 1464
+Category: Accessories
+```
+
+## Record 20
+```
+Order: ORD-2020
+SKU: P127
+Qty: 15
+Unit price: 113.6
+Revenue: 1704
+Cost: 1325.55
+Margin: 378.45
+Category: Services
+```
+
+## Record 21
+```
+Order: ORD-2021
+SKU: P110
+Qty: 23
+Unit price: 188.44
+Revenue: 4334.12
+Cost: 2932.27
+Margin: 1401.85
+Category: Software
+```
+
+## Record 22
+```
+Order: ORD-2022
+SKU: P136
+Qty: 25
+Unit price: 734.16
+Revenue: 18354
+Cost: 11623.25
+Margin: 6730.75
+Category: Accessories
+```
+
+## Record 23
+```
+Order: ORD-2023
+SKU: P125
+Qty: 19
+Unit price: 547.71
+Revenue: 10406.49
+Cost: 7131.84
+Margin: 3274.65
+Category: Hardware
+```
+
+## Record 24
+```
+Order: ORD-2024
+SKU: P111
+Qty: 22
+Unit price: 382.47
+Revenue: 8414.34
+Cost: 5870.26
+Margin: 2544.08
+Category: Services
+```
+
+## Record 25
+```
+Order: ORD-2025
+SKU: P118
+Qty: 25
+Unit price: 767.72
+Revenue: 19193
+Cost: 6788.75
+Margin: 12404.25
+Category: Software
+```
+
+## Record 26
+```
+Order: ORD-2026
+SKU: P139
+Qty: 20
+Unit price: 639.96
+Revenue: 12799.2
+Cost: 7739.8
+Margin: 5059.4
+Category: Services
+```
+
+## Record 27
+```
+Order: ORD-2027
+SKU: P132
+Qty: 12
+Unit price: 192.98
+Revenue: 2315.76
+Cost: 1838.04
+Margin: 477.72
+Category: Accessories
+```
+
+## Record 28
+```
+Order: ORD-2028
+SKU: P107
+Qty: 2
+Unit price: 218.02
+Revenue: 436.04
+Cost: 178.6
+Margin: 257.44
+Category: Services
+```
+
+## Record 29
+```
+Order: ORD-2029
+SKU: P118
+Qty: 17
+Unit price: 767.72
+Revenue: 13051.24
+Cost: 4616.35
+Margin: 8434.89
+Category: Software
+```
+
+## Record 30
+```
+Order: ORD-2030
+SKU: P109
+Qty: 6
+Unit price: 621.15
+Revenue: 3726.9
+Cost: 2845.62
+Margin: 881.28
+Category: Hardware
+```
+
+## Record 31
+```
+Order: ORD-2031
+SKU: P106
+Qty: 6
+Unit price: 409.56
+Revenue: 2457.36
+Cost: 1033.86
+Margin: 1423.5
+Category: Software
+```
+
+## Record 32
+```
+Order: ORD-2032
+SKU: P115
+Qty: 1
+Unit price: 344.04
+Revenue: 344.04
+Cost: 141.96
+Margin: 202.08
+Category: Services
+```
+
+## Record 33
+```
+Order: ORD-2033
+SKU: P113
+Qty: 6
+Unit price: 729.51
+Revenue: 4377.06
+Cost: 2928.06
+Margin: 1449
+Category: Hardware
+```
+
+## Record 34
+```
+Order: ORD-2034
+SKU: P131
+Qty: 15
+Unit price: 103.42
+Revenue: 1551.3
+Cost: 798.15
+Margin: 753.15
+Category: Services
+```
+
+## Record 35
+```
+Order: ORD-2035
+SKU: P138
+Qty: 18
+Unit price: 703.75
+Revenue: 12667.5
+Cost: 7268.58
+Margin: 5398.92
+Category: Software
+```
+
+## Record 36
+```
+Order: ORD-2036
+SKU: P135
+Qty: 13
+Unit price: 196.02
+Revenue: 2548.26
+Cost: 1201.07
+Margin: 1347.19
+Category: Services
+```
+
+## Record 37
+```
+Order: ORD-2037
+SKU: P106
+Qty: 6
+Unit price: 409.56
+Revenue: 2457.36
+Cost: 1033.86
+Margin: 1423.5
+Category: Software
+```
+
+## Record 38
+```
+Order: ORD-2038
+SKU: P136
+Qty: 16
+Unit price: 734.16
+Revenue: 11746.56
+Cost: 7438.88
+Margin: 4307.68
+Category: Accessories
+```
+
+## Record 39
+```
+Order: ORD-2039
+SKU: P138
+Qty: 9
+Unit price: 703.75
+Revenue: 6333.75
+Cost: 3634.29
+Margin: 2699.46
+Category: Software
+```
+
+## Record 40
+```
+Order: ORD-2040
+SKU: P135
+Qty: 3
+Unit price: 196.02
+Revenue: 588.06
+Cost: 277.17
+Margin: 310.89
+Category: Services
+```
+
+## Record 41
+```
+Order: ORD-2041
+SKU: P102
+Qty: 19
+Unit price: 171.6
+Revenue: 3260.4
+Cost: 1637.61
+Margin: 1622.79
+Category: Software
+```
+
+## Record 42
+```
+Order: ORD-2042
+SKU: P138
+Qty: 14
+Unit price: 703.75
+Revenue: 9852.5
+Cost: 5653.34
+Margin: 4199.16
+Category: Software
+```
+
+## Record 43
+```
+Order: ORD-2043
+SKU: P135
+Qty: 10
+Unit price: 196.02
+Revenue: 1960.2
+Cost: 923.9
+Margin: 1036.3
+Category: Services
+```
+
+## Record 44
+```
+Order: ORD-2044
+SKU: P134
+Qty: 17
+Unit price: 548.93
+Revenue: 9331.81
+Cost: 5086.91
+Margin: 4244.9
+Category: Software
+```
+
+## Record 45
+```
+Order: ORD-2045
+SKU: P135
+Qty: 21
+Unit price: 196.02
+Revenue: 4116.42
+Cost: 1940.19
+Margin: 2176.23
+Category: Services
+```
+
+## Record 46
+```
+Order: ORD-2046
+SKU: P105
+Qty: 21
+Unit price: 656.73
+Revenue: 13791.33
+Cost: 9192.75
+Margin: 4598.58
+Category: Hardware
+```
+
+## Record 47
+```
+Order: ORD-2047
+SKU: P137
+Qty: 18
+Unit price: 97.25
+Revenue: 1750.5
+Cost: 632.7
+Margin: 1117.8
+Category: Hardware
+```
+
+## Record 48
+```
+Order: ORD-2048
+SKU: P120
+Qty: 3
+Unit price: 453.22
+Revenue: 1359.66
+Cost: 779.82
+Margin: 579.84
+Category: Accessories
+```
+
+## Record 49
+```
+Order: ORD-2049
+SKU: P115
+Qty: 24
+Unit price: 344.04
+Revenue: 8256.96
+Cost: 3407.04
+Margin: 4849.92
+Category: Services
+```
+
+## Record 50
+```
+Order: ORD-2050
+SKU: P109
+Qty: 4
+Unit price: 621.15
+Revenue: 2484.6
+Cost: 1897.08
+Margin: 587.52
+Category: Hardware
+```
+
+## Record 51
+```
+Order: ORD-2051
+SKU: P107
+Qty: 23
+Unit price: 218.02
+Revenue: 5014.46
+Cost: 2053.9
+Margin: 2960.56
+Category: Services
+```
+
+## Record 52
+```
+Order: ORD-2052
+SKU: P132
+Qty: 15
+Unit price: 192.98
+Revenue: 2894.7
+Cost: 2297.55
+Margin: 597.15
+Category: Accessories
+```
+
+## Record 53
+```
+Order: ORD-2053
+SKU: P104
+Qty: 16
+Unit price: 501.07
+Revenue: 8017.12
+Cost: 5331.68
+Margin: 2685.44
+Category: Accessories
+```
+
+## Record 54
+```
+Order: ORD-2054
+SKU: P104
+Qty: 22
+Unit price: 501.07
+Revenue: 11023.54
+Cost: 7331.06
+Margin: 3692.48
+Category: Accessories
+```
+
+## Record 55
+```
+Order: ORD-2055
+SKU: P139
+Qty: 1
+Unit price: 639.96
+Revenue: 639.96
+Cost: 386.99
+Margin: 252.97
+Category: Services
+```
+
+## Record 56
+```
+Order: ORD-2056
+SKU: P124
+Qty: 8
+Unit price: 41.87
+Revenue: 334.96
+Cost: 200.88
+Margin: 134.08
+Category: Accessories
+```
+
+## Record 57
+```
+Order: ORD-2057
+SKU: P130
+Qty: 8
+Unit price: 698.29
+Revenue: 5586.32
+Cost: 4135.68
+Margin: 1450.64
+Category: Software
+```
+
+## Record 58
+```
+Order: ORD-2058
+SKU: P124
+Qty: 24
+Unit price: 41.87
+Revenue: 1004.88
+Cost: 602.64
+Margin: 402.24
+Category: Accessories
+```
+
+## Record 59
+```
+Order: ORD-2059
+SKU: P137
+Qty: 20
+Unit price: 97.25
+Revenue: 1945
+Cost: 703
+Margin: 1242
+Category: Hardware
+```
+
+## Record 60
+```
+Order: ORD-2060
+SKU: P132
+Qty: 8
+Unit price: 192.98
+Revenue: 1543.84
+Cost: 1225.36
+Margin: 318.48
+Category: Accessories
+```
+
+# Summary
+
+## Record 1
+```
+Category: Hardware
+Revenue: 50527.76
+Margin: 17134.06
+```
+
+## Record 2
+```
+Category: Software
+Revenue: 103025.51
+Margin: 48009.68
+```
+
+## Record 3
+```
+Category: Services
+Revenue: 50202.58
+Margin: 22682.66
+```
+
+## Record 4
+```
+Category: Accessories
+Revenue: 95639.32
+Margin: 38032.47
+```
+
+## Record 5
+```
+Category: Total
+Revenue: 299395.17
+Margin: 125858.87
+```

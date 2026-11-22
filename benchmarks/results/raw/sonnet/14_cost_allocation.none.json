@@ -1,0 +1,72 @@
+{
+ "model": "sonnet",
+ "workbook": "14_cost_allocation",
+ "encoding": "none",
+ "prompt_chars": 1150,
+ "result": "{\"q1\": 0, \"q2\": [\"B2:D6\"], \"q3\": [\"B3\", \"B9\", \"B10\"], \"q4\": [\"B4\", \"C4\", \"D4\"], \"q5\": [\"B5\", \"C5\", \"D5\"], \"q6\": [\"B2\", \"B3\", \"B4\", \"B5\", \"B6\"]}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1918,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 104,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1918,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 104,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1918,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1918
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1191,
+   "outputTokens": 14,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.001261,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 104,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 1918,
+   "webSearchRequests": 0,
+   "costUSD": 0.008716,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.009977
+}

@@ -1,0 +1,73 @@
+{
+ "model": "sonnet",
+ "workbook": "12_lookalike_drivers",
+ "encoding": "agent_sheetmark",
+ "result": "{\"q1\":559782,\"q2\":[\"Plan!C5\",\"Drivers!B4\"],\"q3\":[\"Plan!B4\",\"Drivers!B3\"],\"q4\":[\"Plan!B6\",\"Drivers!B6\"],\"q5\":[\"Plan!C4:E4\",\"Plan!C9:E9\",\"Plan!C10:E10\"],\"q6\":[\"Plan!C3:E3\",\"Plan!C8:E8\",\"Plan!C10:E10\"],\"q7\":[\"Plan!C6:E6\",\"Plan!C9:E9\",\"Plan!C10:E10\"]}",
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 2527,
+  "cache_read_input_tokens": 6130,
+  "output_tokens": 401,
+  "output_tokens_details": {
+   "thinking_tokens": 160
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2527,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 342,
+    "cache_read_input_tokens": 3977,
+    "cache_creation_input_tokens": 703,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 703
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1576,
+   "outputTokens": 281,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.00029810000000000004,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 259,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 401,
+   "cacheReadInputTokens": 6130,
+   "cacheCreationInputTokens": 2527,
+   "webSearchRequests": 0,
+   "costUSD": 0.015352000000000001,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 160,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.0156501,
+ "num_turns": 2,
+ "subtype": "success"
+}

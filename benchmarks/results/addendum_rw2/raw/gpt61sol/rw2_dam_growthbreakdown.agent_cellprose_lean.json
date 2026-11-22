@@ -1,0 +1,152 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw2_dam_growthbreakdown",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 2659,
+ "prompt_sha256": "5647e49fbf5d4c9beb70dff1568c88c093516248cb99250a1c73c81cab78be97",
+ "result": "{\n  \"q1\": 0.57367970143265,\n  \"q2\": \"Industry averages!J14\",\n  \"q3\": [\n    \"Cost of capital worksheet!C38\",\n    \"Cost of capital worksheet!E38\"\n  ],\n  \"q4\": [\n    \"Input page!L43:L44\"\n  ],\n  \"q5\": [\n    \"Cost of capital worksheet!C35\",\n    \"Cost of capital worksheet!B38:B40\",\n    \"Cost of capital worksheet!E38\",\n    \"Cost of capital worksheet!C39\",\n    \"Cost of capital worksheet!E40\"\n  ],\n  \"q6\": [\n    \"Input page!H44\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 2010,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2999,
+  "output_tokens": 354,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 2010,
+   "outputTokens": 354,
+   "cacheReadInputTokens": 2999,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.013558,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_3d05bb555dbe4c989c410e009f01d1e2",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1065,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 175,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 878,
+     "cache_read_tokens": 1062,
+     "cache_write_tokens": 0,
+     "output_tokens": 25,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 67,
+     "cache_read_tokens": 1937,
+     "cache_write_tokens": 0,
+     "output_tokens": 154,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.00816
+  },
+  "finished_at": "2026-11-11T18:20:14+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.0
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Automotive\", \"sheet\": \"Industry averages\"}",
+   "output_chars": 274
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Chemical (Basic)\", \"sheet\": \"Industry averages\"}",
+   "output_chars": 145
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'Industry averages'!A1:S1\", \"'Input page'!H42:H46\"]}",
+   "output_chars": 707
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Cost of capital worksheet!C39\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 134
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Input page!L45\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 71
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Cost of capital worksheet!B5\", \"factor\": 1.1}",
+   "output_chars": 241
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'Industry averages'!L7\"]}",
+   "output_chars": 66
+  }
+ ]
+}

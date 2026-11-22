@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw3_enron_craig_dean",
+ "encoding": "markitdown",
+ "prompt_chars": 152134,
+ "prompt_sha256": "703161a6e294a2adce9f285d8226ee92bade8617de24857c680f82648ab1c79f",
+ "result": "```json\n{\"q1\": 171, \"q2\": \"Preschedule!Z44\", \"q3\": [\"Economics!H32\", \"Economics!I32\"], \"q4\": [\"Balancing!F26\"], \"q5\": [\"Deals!AC73\", \"Deals!AD73\"], \"q6\": [\"Preschedule!Q96\", \"Preschedule!Q99\", \"Preschedule!Q102\", \"Preschedule!Q106\", \"Preschedule!Q111\"]}\n```\n\nThese answers are partly best guesses. The workbook text shows values but not formulas or reliable row numbers, so I counted rows by hand.\n\n- **q1:** I read the \"Difference:\" column as the last hourly column (Y), which for PV Unit 1 holds 171.\n- **q2:** My count puts the GT 1 generation row at row 44, with Capacity in column Z.\n- **q3:** F32 is 6.096, which equals H32 \u00d7 I32 (heat rate 10.16 \u00d7 fuel cost 0.6), so I took those as its inputs.\n- **q4:** I guessed H26 (Artesia position, hour 23) reads only F26. The workbook gives no formula for it.\n- **q5:** I could not confirm which row is row 73. I assumed it is an ISO \"4C\" row, and I listed only its own total-volume and billing cells (AC73, AD73). The sales summary cells elsewhere in Deals may also depend on it, but I could not locate them.\n- **q6:** I treated the \"Test:\" rows in Q94:Q115 as the typed-in numbers (200, 195, 200, 30, 31) and the other filled cells as formulas.",
+ "usage": {
+  "input_tokens": 101728,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7207,
+  "output_tokens_details": {
+   "thinking_tokens": 6676
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 101728,
+   "outputTokens": 7207,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 6676
+  }
+ },
+ "cost": 0.275526,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T122306Z-d53e1d",
+  "started_at": "2026-11-07T12:23:06+00:00",
+  "git_sha": "d521625",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "97799dc7cae4419ad17ce7400209690855e6f4d90d97802d658ce3352d442245",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 59.4,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 101728,
+   "output_tokens": 7207,
+   "output_tokens_details": {
+    "thinking_tokens": 6676
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 101728
+  },
+  "finished_at": "2026-11-07T12:24:05+00:00"
+ }
+}

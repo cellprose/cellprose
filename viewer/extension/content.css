@@ -1,0 +1,19 @@
+.smv-tabs { display: flex; gap: 2px; margin: 0 0 12px; border-bottom: 1px solid var(--borderColor-default, #d0d7de); overflow-x: auto; }
+.smv-tab { font: inherit; font-size: 13px; padding: 6px 12px; border: 1px solid transparent; border-bottom: 0; border-radius: 6px 6px 0 0; background: none; color: var(--fgColor-muted, #656d76); cursor: pointer; white-space: nowrap; }
+.smv-tab[aria-selected="true"] { color: var(--fgColor-default, #1f2328); background: var(--bgColor-default, #fff); border-color: var(--borderColor-default, #d0d7de); margin-bottom: -1px; font-weight: 600; }
+.smv-hidden { display: none !important; }
+td.smv-cell { cursor: cell; }
+td.smv-cell:hover { outline: 1px solid var(--fgColor-accent, #0969da); outline-offset: -1px; }
+td.smv-formula { box-shadow: inset 3px 0 0 var(--fgColor-accent, #0969da); }
+td.smv-sel { background: var(--bgColor-accent-muted, #ddf4ff) !important; outline: 2px solid var(--fgColor-accent, #0969da); outline-offset: -2px; }
+td.smv-in-range { background: var(--bgColor-accent-muted, #ddf4ff) !important; }
+td.smv-input { background: var(--bgColor-attention-muted, #fff8c5) !important; outline: 1px dashed var(--fgColor-attention, #9a6700); outline-offset: -1px; }
+.smv-panel { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 100; max-width: min(720px, calc(100vw - 32px)); min-width: 280px; padding: 10px 14px; font-size: 13px; line-height: 1.5;
+  background: var(--bgColor-default, #fff); color: var(--fgColor-default, #1f2328); border: 1px solid var(--borderColor-default, #d0d7de); border-radius: 8px; box-shadow: 0 8px 24px rgba(31,35,40,.2); }
+.smv-panel[hidden] { display: none; }
+.smv-panel code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; background: var(--bgColor-neutral-muted, #eaeef2); padding: 1px 5px; border-radius: 4px; }
+.smv-panel .smv-addr { font-weight: 600; margin-right: 8px; }
+.smv-panel .smv-muted { color: var(--fgColor-muted, #656d76); }
+.smv-panel .smv-row { margin-top: 4px; word-break: break-word; }
+.smv-panel button { font: inherit; font-size: 12px; margin-left: 8px; padding: 2px 8px; border: 1px solid var(--borderColor-default, #d0d7de); border-radius: 6px; background: var(--bgColor-muted, #f6f8fa); color: inherit; cursor: pointer; }
+.smv-panel a.smv-ref { color: var(--fgColor-accent, #0969da); cursor: pointer; text-decoration: underline; margin-right: 6px; }

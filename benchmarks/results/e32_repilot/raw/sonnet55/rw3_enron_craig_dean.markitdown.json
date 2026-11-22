@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw3_enron_craig_dean",
+ "encoding": "markitdown",
+ "prompt_chars": 152134,
+ "prompt_sha256": "703161a6e294a2adce9f285d8226ee92bade8617de24857c680f82648ab1c79f",
+ "result": "```json\n{\"q1\": 171, \"q2\": \"Preschedule!Z44\", \"q3\": [\"Economics!H32\", \"Economics!I32\"], \"q4\": [\"Balancing!H25\", \"Balancing!F26\"], \"q5\": [\"Deals!AC73\", \"Deals!AD73\"], \"q6\": [\"Preschedule!Q96\", \"Preschedule!Q99\", \"Preschedule!Q102\", \"Preschedule!Q106\", \"Preschedule!Q111\"]}\n```\n\nThese are best guesses from the table layout, not confirmed from formulas, which the workbook text does not show.\n\n- **q1:** I read the 'Difference:' column as the last hourly column (Y), which holds 171 on the 'PV Unit 1' row.\n- **q2:** I counted rows to place 'GT 1' at row 44, with 'Capacity' in column Z.\n- **q3:** The cost per MWh of 6.096 matches heat rate times fuel cost (10.16 \u00d7 0.6), so F32 most likely multiplies H32 by I32.\n- **q4:** I assumed H26 is a running position, previous hour's position plus this hour's volume.\n- **q5:** I counted rows to place the '4C' row at 73. I took it to be an ISO 4C row whose total volume and billing sit in AC and AD. The count is uncertain.\n- **q6:** I treated the 'Test:' rows as typed-in numbers and the 'Difference:' and unit rows as formulas.",
+ "usage": {
+  "input_tokens": 101728,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6468,
+  "output_tokens_details": {
+   "thinking_tokens": 5982
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 101728,
+   "outputTokens": 6468,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 5982
+  }
+ },
+ "cost": 0.268136,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T114909Z-9d399b",
+  "started_at": "2026-11-07T11:49:09+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "97799dc7cae4419ad17ce7400209690855e6f4d90d97802d658ce3352d442245",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 53.2,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 101728,
+   "output_tokens": 6468,
+   "output_tokens_details": {
+    "thinking_tokens": 5982
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 101728
+  },
+  "finished_at": "2026-11-07T11:52:52+00:00"
+ }
+}

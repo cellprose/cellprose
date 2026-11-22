@@ -1,0 +1,59 @@
+{
+ "model": "haiku",
+ "workbook": "13_scenario_switch",
+ "encoding": "agent_sheetmark",
+ "result": "Based on my analysis of the workbook:\n\n**Q1:** Free cash flow in Y5 is shown in Model!F5 = **353494**\n\n**Q2:** The named range `Growth` points to **Scenarios!E4**, which contains the active scenario's growth rate via the CHOOSE formula.\n\n**Q3:** Model!D2 (Y3 revenue) has formula `= C2 * (1 + Growth)`, which directly reads:\n- Model!C2 (previous year revenue)\n- Scenarios!E4 (via the Growth named range)\n\n**Q4-Q6:** These assume the respective scenarios are active (upside for q4, base for q5, downside for q6), causing cascading changes through the model.\n\n```json\n{\n  \"q1\": 353494,\n  \"q2\": \"Scenarios!E4\",\n  \"q3\": [\"Model!C2\", \"Scenarios!E4\"],\n  \"q4\": [\"Scenarios!E4\", \"Model!C2\", \"Model!D2\", \"Model!E2\", \"Model!F2\", \"Model!C3\", \"Model!D3\", \"Model!E3\", \"Model!F3\", \"Model!C4\", \"Model!D4\", \"Model!E4\", \"Model!F4\", \"Model!C5\", \"Model!D5\", \"Model!E5\", \"Model!F5\"],\n  \"q5\": [\"Scenarios!E5\", \"Model!B3\", \"Model!C3\", \"Model!D3\", \"Model!E3\", \"Model!F3\", \"Model!B5\", \"Model!C5\", \"Model!D5\", \"Model!E5\", \"Model!F5\"],\n  \"q6\": [\"Scenarios!E6\", \"Model!B4\", \"Model!C4\", \"Model!D4\", \"Model!E4\", \"Model!F4\", \"Model!B5\", \"Model!C5\", \"Model!D5\", \"Model!E5\", \"Model!F5\"]\n}\n```",
+ "usage": {
+  "input_tokens": 34,
+  "cache_creation_input_tokens": 28789,
+  "cache_read_input_tokens": 38300,
+  "output_tokens": 22056,
+  "output_tokens_details": {
+   "thinking_tokens": 19722
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 28789,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 8,
+    "output_tokens": 780,
+    "cache_read_input_tokens": 26065,
+    "cache_creation_input_tokens": 2724,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2724
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1210,
+   "outputTokens": 22072,
+   "cacheReadInputTokens": 38300,
+   "cacheCreationInputTokens": 28789,
+   "webSearchRequests": 0,
+   "costUSD": 0.17297799999999997,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 19722,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.17297799999999997,
+ "num_turns": 4,
+ "subtype": "success"
+}

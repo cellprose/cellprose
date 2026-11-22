@@ -1,0 +1,134 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_d_eol_customers",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1350,
+ "prompt_sha256": "90650b8b62d29d5a96538d53ca6a13a0717bc6f1363d76b2547f945dc493dbad",
+ "result": "{\n  \"q1\": 3,\n  \"q2\": \"Lists!F142\",\n  \"q3\": [\"All Customers by Region!E386:J386\"],\n  \"q4\": [\"All Customers by Region!E326:J326\"],\n  \"q5\": [\n    \"Lists!C2\",\n    \"Lists!C5\",\n    \"All Customers by Region!F253\",\n    \"All Customers by Region!F4\",\n    \"All Customers by Region!F5\"\n  ],\n  \"q6\": [\"All Customers by Region!L32:P32\"]\n}",
+ "usage": {
+  "input_tokens": 9796,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 9845,
+  "output_tokens": 723,
+  "output_tokens_details": {
+   "thinking_tokens": 41
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 9796,
+   "outputTokens": 723,
+   "cacheReadInputTokens": 9845,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 41
+  }
+ },
+ "cost": 0.046512,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_892b9fec7a24476c9b39244f2d481162",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 543,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 188,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1653,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 232,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 6548,
+     "cache_read_tokens": 1650,
+     "cache_write_tokens": 0,
+     "output_tokens": 178,
+     "reasoning_tokens": 41,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 1052,
+     "cache_read_tokens": 8195,
+     "cache_write_tokens": 0,
+     "output_tokens": 125,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T14:44:28+00:00",
+  "run_id": "20261107T144214Z-4c5d55",
+  "started_at": "2026-11-07T14:42:14+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devdata",
+  "inputs_sha256": "8f2dfc187ecd6fcbe50c6f9073b724bf0b0ec4242a6c061a380dbb2d07709a78",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 12.1
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');print(w.sheetnames)\\ns=w['Lists']\\nfor row in s:\\n for c in row:\\n  if c.value and any(x.lower() in str(c.value).lower() for x in ['Bruno','TECO','Alberta Energy']):\\n   print([(a.coordinate,a.value) for a in row])\\ns=w['All Customers by Region']\\nfor co in ['K386','K326']:\\n print(co,s[co].value)\\nfor row in s['E32:P32']:\\n print([(c.coordinate,c.value,c.data_type) for c in row])\\nprint('C102',w['Lists']['C102",
+   "output_chars": 2338
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl,collections\\nw=openpyxl.load_workbook('book.xlsx');\\nprint('NAMES')\\nfor k,v in w.defined_names.items():print(k,v.attr_text)\\nfor s in w:\\n f=[(c.coordinate,c.value) for row in s for c in row if c.data_type=='f'];print(s.title,len(f));print(f[:15]);\\n print('Alberta rows')\\n for row in s:\\n  if any(c.value=='Alberta Energy Corp' for c in row):print([(c.coordinate,c.value) for c in row if c.value is not None])\\nprint('formulas other than standard loo",
+   "output_chars": 20033
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl,re,collections\\nw=openpyxl.load_workbook('book.xlsx')\\nfor s in w:\\n d=collections.Counter(re.sub(r'\\\\d+','#',c.value) for row in s for c in row if c.data_type=='f'); print(s.title);print(d)\\n for row in s:\\n  for c in row:\\n   if c.data_type=='s' and 'alberta energy corp' in c.value.lower():print(c.coordinate,repr(c.value))\\nPY\"}",
+   "output_chars": 2135
+  }
+ ]
+}

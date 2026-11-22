@@ -1,0 +1,875 @@
+---
+cellprose: 0.3
+note: 'not carried: 847 hyperlinks'
+---
+
+# Sheet: Sheet1
+
+## A1:D864
+
+#|A|B|C|D
+-|-|-|-|-
+A1|Country|Chapter|SectorSection|Link
+A2|Austria (AT)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A3|Austria (AT)|Food|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A4|Austria (AT)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A5|Austria (AT)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A6|Austria (AT)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A7|Austria (AT)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A8|Austria (AT)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A9|Austria (AT)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A10|Austria (AT)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A11|Austria (AT)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A12|Austria (AT)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A13|Austria (AT)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A14|Austria (AT)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A15|Austria (AT)|Food|Collagen (COL)|Establishment list - TRACES NT
+A16|Austria (AT)|Germinal Products|Semen Collection Centres (SEM-COL)|Establishment list - TRACES NT
+A17|Austria (AT)|Germinal Products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A18|Austria (AT)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A19|Austria (AT)|Germinal Products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A20|Austria (AT)|Germinal Products|Germinal Product Storage Centres (GERM-STO)|Establishment list - TRACES NT
+A21|Austria (AT)|Germinal Products|Germinal product establishments - confined animals  (GERM-CONF)|Establishment list - TRACES NT
+A22|Austria (AT)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A23|Austria (AT)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A24|Austria (AT)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A25|Austria (AT)|Animal By-Products|Processing Plants (ABP-PROCP)|Establishment list - TRACES NT
+A26|Austria (AT)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A27|Austria (AT)|Animal By-Products|Biogas Plants (ABP-BIOGP)|Establishment list - TRACES NT
+A28|Austria (AT)|Animal By-Products|Composting Plants (ABP-COMP)|Establishment list - TRACES NT
+A29|Austria (AT)|Animal By-Products|Petfood Plants (ABP-PET)|Establishment list - TRACES NT
+A30|Austria (AT)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A31|Austria (AT)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A32|Austria (AT)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A33|Austria (AT)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A34|Austria (AT)|Animal By-Products|Other Registered Operators (ABP-OTH)|Establishment list - TRACES NT
+A35|Belgium (BE)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A36|Belgium (BE)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A37|Belgium (BE)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A38|Belgium (BE)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A39|Belgium (BE)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A40|Belgium (BE)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A41|Belgium (BE)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A42|Belgium (BE)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A43|Belgium (BE)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A44|Belgium (BE)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A45|Belgium (BE)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A46|Belgium (BE)|Food|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A47|Belgium (BE)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A48|Belgium (BE)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A49|Belgium (BE)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A50|Belgium (BE)|Food|Collagen (COL)|Establishment list - TRACES NT
+A51|Belgium (BE)|Germinal Products|Semen Collection Centres (SEM-COL)|Establishment list - TRACES NT
+A52|Belgium (BE)|Germinal Products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A53|Belgium (BE)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A54|Belgium (BE)|Germinal Products|Germinal Product Storage Centres (GERM-STO)|Establishment list - TRACES NT
+A55|Belgium (BE)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A56|Belgium (BE)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A57|Belgium (BE)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A58|Belgium (BE)|Animal By-Products|Processing Plants (ABP-PROCP)|Establishment list - TRACES NT
+A59|Belgium (BE)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A60|Belgium (BE)|Animal By-Products|Biogas Plants (ABP-BIOGP)|Establishment list - TRACES NT
+A61|Belgium (BE)|Animal By-Products|Composting Plants (ABP-COMP)|Establishment list - TRACES NT
+A62|Belgium (BE)|Animal By-Products|Petfood Plants (ABP-PET)|Establishment list - TRACES NT
+A63|Belgium (BE)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A64|Belgium (BE)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A65|Belgium (BE)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A66|Belgium (BE)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A67|Belgium (BE)|Animal By-Products|Other Registered Operators (ABP-OTH)|Establishment list - TRACES NT
+A68|Bulgaria (BG)|Food|Collagen (COL)|Establishment list - TRACES NT
+A69|Bulgaria (BG)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A70|Bulgaria (BG)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A71|Bulgaria (BG)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A72|Bulgaria (BG)|Food|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A73|Bulgaria (BG)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A74|Bulgaria (BG)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A75|Bulgaria (BG)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A76|Bulgaria (BG)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A77|Bulgaria (BG)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A78|Bulgaria (BG)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A79|Bulgaria (BG)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A80|Bulgaria (BG)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A81|Bulgaria (BG)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A82|Bulgaria (BG)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A83|Bulgaria (BG)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A84|Bulgaria (BG)|Germinal Products|Embryo Collection Teams (EMB-COL)|"No EL found "
+A85|Bulgaria (BG)|Germinal Products|Embryo Production Teams (EMB-PRO)|"No EL found "
+A86|Bulgaria (BG)|Germinal Products|Germinal product processing establishments (GERM-PRO)|"No EL found "
+A87|Bulgaria (BG)|Germinal Products|Germinal Product Storage Centres (GERM-STO)|Establishment list - TRACES NT
+A88|Bulgaria (BG)|Germinal Products|Semen Collection Centres (SEM-COL)|"No EL found "
+A89|Bulgaria (BG)|Germinal Products|Germinal product establishments - confined animals  (GERM-CONF)|"No EL found "
+A90|Bulgaria (BG)|Animal By-Products|Biogas Plants (ABP-BIOGP)|Establishment list - TRACES NT
+A91|Bulgaria (BG)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A92|Bulgaria (BG)|Animal By-Products|Composting Plants (ABP-COMP)|Establishment list - TRACES NT
+A93|Bulgaria (BG)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A94|Bulgaria (BG)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A95|Bulgaria (BG)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A96|Bulgaria (BG)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A97|Bulgaria (BG)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A98|Bulgaria (BG)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A99|Bulgaria (BG)|Animal By-Products|Other Registered Operators (ABP-OTH)|Establishment list - TRACES NT
+A100|Bulgaria (BG)|Animal By-Products|Petfood Plants (ABP-PET)|Establishment list - TRACES NT
+A101|Bulgaria (BG)|Animal By-Products|Processing Plants (ABP-PROCP)|Establishment list - TRACES NT
+A102|Bulgaria (BG)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A103|Croatia (HR)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A104|Croatia (HR)|Food|" Meat of domestic ungulates (RM)"|Establishment list - TRACES NT
+A105|Croatia (HR)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A106|Croatia (HR)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A107|Croatia (HR)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A108|Croatia (HR)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A109|Croatia (HR)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A110|Croatia (HR)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A111|Croatia (HR)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A112|Croatia (HR)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A113|Croatia (HR)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A114|Croatia (HR)|Food|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A115|Croatia (HR)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A116|Croatia (HR)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A117|Croatia (HR)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A118|Croatia (HR)|Food|Collagen (COL)|Establishment list - TRACES NT
+A119|Croatia (HR)|Germinal Products|Semen Collection Centres (SEM-COL)|Establishment list - TRACES NT
+A120|Croatia (HR)|Germinal Products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A121|Croatia (HR)|Germinal Products|Germinal Product Storage Centres (GERM-STO)|Establishment list - TRACES NT
+A122|Croatia (HR)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A123|Croatia (HR)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A124|Croatia (HR)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A125|Croatia (HR)|Animal By-Products|Processing Plants (ABP-PROCP)|Establishment list - TRACES NT
+A126|Croatia (HR)|Animal By-Products|Petfood Plants (ABP-PET)|Establishment list - TRACES NT
+A127|Croatia (HR)|Animal By-Products|Establishment or plants handling animal by-products or derived products for purposes outside the food chain (ABP-TECHP)|Establishment list - TRACES NT
+A128|Croatia (HR)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A129|Croatia (HR)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A130|Croatia (HR)|Animal By-Products|Other Registered Operators (ABP-OTH)|Establishment list - TRACES NT
+A131|Cyprus (CY)|"Food "|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A132|Cyprus (CY)|"Food "|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A133|Cyprus (CY)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A134|Cyprus (CY)|"Food "|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A135|Cyprus (CY)|"Food "|Meat products (RMP)|Establishment list - TRACES NT
+A136|Cyprus (CY)|"Food "|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A137|Cyprus (CY)|"Food "|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A138|Cyprus (CY)|"Food "|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A139|Cyprus (CY)|"Food "|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A140|Cyprus (CY)|"Germinal products "|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A141|Cyprus (CY)|"Germinal products "|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A142|Cyprus (CY)|"Germinal products "|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A143|Cyprus (CY)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A144|Cyprus (CY)|"Animal By-Products "|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A145|Cyprus (CY)|"Animal By-Products "|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A146|Cyprus (CY)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A147|Cyprus (CY)|"Animal By-Products "|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A148|Czechia (CZ)|"Food "|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A149|Czechia (CZ)|"Food "|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A150|Czechia (CZ)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A151|Czechia (CZ)|"Food "|Meat of farmed game (GM)|Establishment list - TRACES NT
+A152|Czechia (CZ)|"Food "|Wild game meat (WM)|Establishment list - TRACES NT
+A153|Czechia (CZ)|"Food "|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A154|Czechia (CZ)|"Food "|Meat products (RMP)|Establishment list - TRACES NT
+A155|Czechia (CZ)|"Food "|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A156|Czechia (CZ)|"Food "|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A157|Czechia (CZ)|"Food "|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A158|Czechia (CZ)|"Food "|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A159|Czechia (CZ)|"Food "|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A160|Czechia (CZ)|"Food "|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A161|Czechia (CZ)|"Food "|Gelatine (GEL)|Establishment list - TRACES NT
+A162|Czechia (CZ)|"Food "|Collagen (COL)|Establishment list - TRACES NT
+A163|Czechia (CZ)|"Germinal products "|Semen Collection Centres (SEM-COL)|Establishment list - TRACES NT
+A164|Czechia (CZ)|"Germinal products "|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A165|Czechia (CZ)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A166|Czechia (CZ)|"Germinal products "|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A167|Czechia (CZ)|"Germinal products "|Germinal Product Storage Centres (GERM-STO)|Establishment list - TRACES NT
+A168|Czechia (CZ)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A169|Czechia (CZ)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A170|Czechia (CZ)|"Animal By-Products "|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A171|Czechia (CZ)|"Animal By-Products "|Processing Plants (ABP-PROCP)|Establishment list - TRACES NT
+A172|Czechia (CZ)|"Animal By-Products "|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A173|Czechia (CZ)|"Animal By-Products "|Biogas Plants (ABP-BIOGP)|Establishment list - TRACES NT
+A174|Czechia (CZ)|"Animal By-Products "|Composting Plants (ABP-COMP)|Establishment list - TRACES NT
+A175|Czechia (CZ)|"Animal By-Products "|Petfood Plants (ABP-PET)|Establishment list - TRACES NT
+A176|Czechia (CZ)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A177|Czechia (CZ)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A178|Czechia (CZ)|"Animal By-Products "|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A179|Czechia (CZ)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A180|Czechia (CZ)|"Animal By-Products "|Other Registered Operators (ABP-OTH)|Establishment list - TRACES NT
+A181|Denmark (DK)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A182|Denmark (DK)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A183|Denmark (DK)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A184|Denmark (DK)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A185|Denmark (DK)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A186|Denmark (DK)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A187|Denmark (DK)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A188|Denmark (DK)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A189|Denmark (DK)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A190|Denmark (DK)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A191|Denmark (DK)|Food|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A192|Denmark (DK)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A193|Denmark (DK)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A194|Denmark (DK)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A195|Denmark (DK)|Food|Collagen (COL)|Establishment list - TRACES NT
+A196|Denmark (DK)|"Germinal products "|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A197|Denmark (DK)|"Germinal products "|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A198|Denmark (DK)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A199|Denmark (DK)|"Germinal products "|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A200|Denmark (DK)|"Germinal products "|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A201|Denmark (DK)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A202|Denmark (DK)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A203|Denmark (DK)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A204|Denmark (DK)|Animal By-Products|Processing Plants (ABP-PROCP)|Establishment list - TRACES NT
+A205|Denmark (DK)|Animal By-Products|Biogas Plants (ABP-BIOGP)|Establishment list - TRACES NT
+A206|Denmark (DK)|Animal By-Products|Composting Plants (ABP-COMP)|Establishment list - TRACES NT
+A207|Denmark (DK)|Animal By-Products|Petfood Plants (ABP-PET)|Establishment list - TRACES NT
+A208|Denmark (DK)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A209|Denmark (DK)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A210|Denmark (DK)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A211|Denmark (DK)|Animal By-Products|Other Registered Operators (ABP-OTH)|Establishment list - TRACES NT
+A212|Estonia (EE)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A213|Estonia (EE)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A214|Estonia (EE)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A215|Estonia (EE)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A216|Estonia (EE)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A217|Estonia (EE)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A218|Estonia (EE)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A219|Estonia (EE)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A220|Estonia (EE)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A221|Estonia (EE)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A222|Estonia (EE)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A223|Estonia (EE)|Germinal products|Semen Collection Centres (SEM-COL)|Establishment list - TRACES NT
+A224|Estonia (EE)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A225|Estonia (EE)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A226|Estonia (EE)|Germinal products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A227|Estonia (EE)|Germinal products|Germinal Product Storage Centres (GERM-STO)|Establishment list - TRACES NT
+A228|Estonia (EE)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A229|Estonia (EE)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A230|Estonia (EE)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A231|Estonia (EE)|Animal By-Products|Processing Plants (ABP-PROCP)|Establishment list - TRACES NT
+A232|Estonia (EE)|Animal By-Products|Biogas Plants (ABP-BIOGP)|Establishment list - TRACES NT
+A233|Estonia (EE)|Animal By-Products|Composting Plants (ABP-COMP)|Establishment list - TRACES NT
+A234|Estonia (EE)|Animal By-Products|Petfood Plants (ABP-PET)|Establishment list - TRACES NT
+A235|Estonia (EE)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A236|Estonia (EE)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A237|Estonia (EE)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A238|Estonia (EE)|Animal By-Products|Other Registered Operators (ABP-OTH)|Establishment list - TRACES NT
+A239|Finland (FI)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A240|Finland (FI)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A241|Finland (FI)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A242|Finland (FI)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A243|Finland (FI)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A244|Finland (FI)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A245|Finland (FI)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A246|Finland (FI)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A247|Finland (FI)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A248|Finland (FI)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A249|Finland (FI)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A250|Finland (FI)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A251|Finland (FI)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A252|Finland (FI)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A253|Finland (FI)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A254|Finland (FI)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A255|Finland (FI)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A256|Finland (FI)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A257|Finland (FI)|Animal By-Products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A258|Finland (FI)|Animal By-Products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A259|Finland (FI)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A260|Finland (FI)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A261|Finland (FI)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A262|Finland (FI)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A263|Finland (FI)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A264|Finland (FI)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A265|France (FR)|"Food "|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A266|France (FR)|"Food "|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A267|France (FR)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A268|France (FR)|"Food "|Meat of farmed game (GM)|Establishment list - TRACES NT
+A269|France (FR)|"Food "|Wild game meat (WM)|Establishment list - TRACES NT
+A270|France (FR)|"Food "|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A271|France (FR)|"Food "|Meat products (RMP)|Establishment list - TRACES NT
+A272|France (FR)|"Food "|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A273|France (FR)|"Food "|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A274|France (FR)|"Food "|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A275|France (FR)|"Food "|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A276|France (FR)|"Food "|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A277|France (FR)|"Food "|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A278|France (FR)|"Food "|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A279|France (FR)|"Food "|Gelatine (GEL)|Establishment list - TRACES NT
+A280|France (FR)|"Food "|Collagen (COL)|Establishment list - TRACES NT
+A281|France (FR)|"Germinal products "|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A282|France (FR)|"Germinal products "|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A283|France (FR)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A284|France (FR)|"Germinal products "|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A285|France (FR)|"Germinal products "|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A286|France (FR)|"Germinal products "|Germinal product establishments - confined animals  (GERM-CONF)|Establishment list - TRACES NT
+A287|France (FR)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A288|France (FR)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A289|France (FR)|"Animal By-Products "|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A290|France (FR)|"Animal By-Products "|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A291|France (FR)|"Animal By-Products "|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A292|France (FR)|"Animal By-Products "|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A293|France (FR)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A294|France (FR)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A295|France (FR)|"Animal By-Products "|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A296|France (FR)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A297|France (FR)|"Animal By-Products "|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A298|Germany (DE)|"Food "|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A299|Germany (DE)|"Food "|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A300|Germany (DE)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A301|Germany (DE)|"Food "|Meat of farmed game (GM)|Establishment list - TRACES NT
+A302|Germany (DE)|"Food "|Wild game meat (WM)|Establishment list - TRACES NT
+A303|Germany (DE)|"Food "|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A304|Germany (DE)|"Food "|Meat products (RMP)|Establishment list - TRACES NT
+A305|Germany (DE)|"Food "|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A306|Germany (DE)|"Food "|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A307|Germany (DE)|"Food "|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A308|Germany (DE)|"Food "|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A309|Germany (DE)|"Food "|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A310|Germany (DE)|"Food "|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A311|Germany (DE)|"Food "|Gelatine (GEL)|Establishment list - TRACES NT
+A312|Germany (DE)|"Food "|Collagen (COL)|Establishment list - TRACES NT
+A313|Germany (DE)|"Germinal products "|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A314|Germany (DE)|"Germinal products "|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A315|Germany (DE)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A316|Germany (DE)|"Germinal products "|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A317|Germany (DE)|"Germinal products "|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A318|Germany (DE)|"Germinal products "|Germinal product establishments - confined animals  (GERM-CONF)|Establishment list - TRACES NT
+A319|Germany (DE)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A320|Germany (DE)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A321|Germany (DE)|"Animal By-Products "|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A322|Germany (DE)|"Animal By-Products "|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A323|Germany (DE)|"Animal By-Products "|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A324|Germany (DE)|"Animal By-Products "|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A325|Germany (DE)|Animal By-Products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A326|Germany (DE)|"Animal By-Products "|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A327|Germany (DE)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A328|Germany (DE)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A329|Germany (DE)|"Animal By-Products "|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A330|Germany (DE)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A331|Germany (DE)|"Animal By-Products "|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A332|Greece (GR)|"Food "|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A333|Greece (GR)|"Food "|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A334|Greece (GR)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A335|Greece (GR)|"Food "|Meat of farmed game (GM)|Establishment list - TRACES NT
+A336|Greece (GR)|"Food "|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A337|Greece (GR)|"Food "|Meat products (RMP)|Establishment list - TRACES NT
+A338|Greece (GR)|"Food "|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A339|Greece (GR)|"Food "|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A340|Greece (GR)|"Food "|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A341|Greece (GR)|"Food "|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A342|Greece (GR)|"Food "|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A343|Greece (GR)|"Food "|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A344|Greece (GR)|"Food "|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A345|Greece (GR)|"Germinal products "|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A346|Greece (GR)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A347|Greece (GR)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A348|Greece (GR)|"Animal By-Products "|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A349|Greece (GR)|"Animal By-Products "|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A350|Greece (GR)|"Animal By-Products "|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A351|Greece (GR)|"Animal By-Products "|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A352|Greece (GR)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A353|Greece (GR)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A354|Greece (GR)|"Animal By-Products "|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A355|Hungary (HU)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A356|Hungary (HU)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A357|Hungary (HU)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A358|Hungary (HU)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A359|Hungary (HU)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A360|Hungary (HU)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A361|Hungary (HU)|"Food "|Meat products (RMP)|Establishment list - TRACES NT
+A362|Hungary (HU)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A363|Hungary (HU)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A364|Hungary (HU)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A365|Hungary (HU)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A366|Hungary (HU)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A367|Hungary (HU)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A368|Hungary (HU)|Germinal Products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A369|Hungary (HU)|Germinal Products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A370|Hungary (HU)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A371|Hungary (HU)|Germinal Products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A372|Hungary (HU)|Germinal Products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A373|Hungary (HU)|Germinal Products|Germinal product establishments - confined animals  (GERM-CONF)|Establishment list - TRACES NT
+A374|Hungary (HU)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A375|Hungary (HU)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A376|Hungary (HU)|Animal by-products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A377|Hungary (HU)|Animal by-products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A378|Hungary (HU)|Animal by-products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A379|Hungary (HU)|Animal by-products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A380|Hungary (HU)|Animal by-products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A381|Hungary (HU)|Animal by-products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A382|Hungary (HU)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A383|Hungary (HU)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A384|Hungary (HU)|Animal by-products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A385|Hungary (HU)|Animal by-products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A386|Iceland (IS)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A387|Iceland (IS)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A388|Iceland (IS)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A389|Iceland (IS)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A390|Iceland (IS)|Food|Minced meat, meat preparations and mechanically separated meat – MM, MP, MSM (MM)|Establishment list - TRACES NT
+A391|Iceland (IS)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A392|Iceland (IS)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A393|Iceland (IS)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A394|Iceland (IS)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A395|Iceland (IS)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A396|Iceland (IS)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A397|Iceland (IS)|Food|Collagen (COL)|Establishment list - TRACES NT
+A398|Iceland (IS)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A399|Iceland (IS)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A400|Iceland (IS)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A401|Iceland (IS)|Animal By-Products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A402|Iceland (IS)|Animal By-Products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A403|Iceland (IS)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A404|Iceland (IS)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A405|Iceland (IS)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A406|Iceland (IS)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A407|Iceland (IS)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A408|Iceland (IS)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A409|Ireland ROI (IE)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A410|Ireland ROI (IE)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A411|Ireland ROI (IE)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A412|Ireland ROI (IE)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A413|Ireland ROI (IE)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A414|Ireland ROI (IE)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A415|Ireland ROI (IE)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A416|Ireland ROI (IE)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A417|Ireland ROI (IE)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A418|Ireland ROI (IE)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A419|Ireland ROI (IE)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A420|Ireland ROI (IE)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A421|Ireland ROI (IE)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A422|Ireland ROI (IE)|Food|Collagen (COL)|Establishment list - TRACES NT
+A423|Ireland ROI (IE)|Germinal Products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A424|Ireland ROI (IE)|Germinal Products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A425|Ireland ROI (IE)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A426|Ireland ROI (IE)|Germinal Products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A427|Ireland ROI (IE)|Germinal Products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A428|Ireland ROI (IE)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A429|Ireland ROI (IE)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A430|Ireland ROI (IE)|Animal by-products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A431|Ireland ROI (IE)|Animal by-products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A432|Ireland ROI (IE)|Animal by-products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A433|Ireland ROI (IE)|Animal by-products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A434|Ireland ROI (IE)|Animal by-products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A435|Ireland ROI (IE)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A436|Ireland ROI (IE)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A437|Ireland ROI (IE)|Animal by-products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A438|Ireland ROI (IE)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A439|Ireland ROI (IE)|Animal by-products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A440|Italy (IT)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A441|Italy (IT)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A442|Italy (IT)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A443|Italy (IT)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A444|Italy (IT)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A445|Italy (IT)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A446|Italy (IT)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A447|Italy (IT)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A448|Italy (IT)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A449|Italy (IT)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A450|Italy (IT)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A451|Italy (IT)|"Food "|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A452|Italy (IT)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A453|Italy (IT)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A454|Italy (IT)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A455|Italy (IT)|Food|Collagen (COL)|Establishment list - TRACES NT
+A456|Italy (IT)|Germinal Products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A457|Italy (IT)|Germinal Products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A458|Italy (IT)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A459|Italy (IT)|Germinal Products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A460|Italy (IT)|Germinal Products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A461|Italy (IT)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A462|Italy (IT)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A463|Italy (IT)|Animal by-products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A464|Italy (IT)|Animal by-products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A465|Italy (IT)|Animal by-products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A466|Italy (IT)|Animal by-products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A467|Italy (IT)|Animal by-products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A468|Italy (IT)|Animal by-products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A469|Italy (IT)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A470|Italy (IT)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A471|Italy (IT)|Animal by-products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A472|Italy (IT)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A473|Italy (IT)|Animal by-products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A474|Latvia (LV)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A475|Latvia (LV)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A476|Latvia (LV)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A477|Latvia (LV)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A478|Latvia (LV)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A479|Latvia (LV)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A480|Latvia (LV)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A481|Latvia (LV)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A482|Latvia (LV)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A483|Latvia (LV)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A484|Latvia (LV)|Germinal Products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A485|Latvia (LV)|Germinal Products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A486|Latvia (LV)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A487|Latvia (LV)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A488|Latvia (LV)|Animal by-products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A489|Latvia (LV)|Animal by-products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A490|Latvia (LV)|Animal by-products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A491|Latvia (LV)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A492|Latvia (LV)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A493|Latvia (LV)|Animal by-products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A494|Liechtenstein (LI)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A495|Liechtenstein (LI)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A496|Liechtenstein (LI)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A497|Liechtenstein (LI)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A498|Liechtenstein (LI)|Food|Minced meat, meat preparations and mechanically separated meat – MM, MP, MSM (MM)|Establishment list - TRACES NT
+A499|Liechtenstein (LI)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A500|Liechtenstein (LI)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A501|Liechtenstein (LI)|Food|"Raw milk, dairy products, colostrum and colostrum-based products (MMP) "|Establishment list - TRACES NT
+A502|Liechtenstein (LI)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A503|Liechtenstein (LI)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A504|Liechtenstein (LI)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A505|Liechtenstein (LI)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A506|Lithuania (LT)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A507|Lithuania (LT)|Food|"Meat of domestic ungulates (RM) "|Establishment list - TRACES NT
+A508|Lithuania (LT)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A509|Lithuania (LT)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A510|Lithuania (LT)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A511|Lithuania (LT)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A512|Lithuania (LT)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A513|Lithuania (LT)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A514|Lithuania (LT)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A515|Lithuania (LT)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A516|Lithuania (LT)|"Food "|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A517|Lithuania (LT)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A518|Lithuania (LT)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A519|Lithuania (LT)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A520|Lithuania (LT)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A521|Lithuania (LT)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A522|Lithuania (LT)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A523|Lithuania (LT)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A524|Lithuania (LT)|Animal by-products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A525|Lithuania (LT)|Animal By-Products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A526|Lithuania (LT)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A527|Lithuania (LT)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A528|Lithuania (LT)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A529|Lithuania (LT)|Animal by-products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A530|Lithuania (LT)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A531|Lithuania (LT)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A532|Luxembourg (LU)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A533|Luxembourg (LU)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A534|Luxembourg (LU)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A535|Luxembourg (LU)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A536|Luxembourg (LU)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A537|Luxembourg (LU)|Germinal Products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A538|Luxembourg (LU)|Germinal Products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A539|Luxembourg (LU)|Germinal Products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A540|Luxembourg (LU)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A541|Luxembourg (LU)|Animal by-products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A542|Luxembourg (LU)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A543|Luxembourg (LU)|Animal by-products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A544|Luxembourg (LU)|Animal by-products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A545|Malta (MT)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A546|Malta (MT)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A547|Malta (MT)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A548|Malta (MT)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A549|Malta (MT)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A550|Malta (MT)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A551|Malta (MT)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A552|Malta (MT)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A553|Malta (MT)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A554|Malta (MT)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A555|Malta (MT)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A556|Netherlands (NL)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A557|Netherlands (NL)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A558|Netherlands (NL)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A559|Netherlands (NL)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A560|Netherlands (NL)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A561|Netherlands (NL)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A562|Netherlands (NL)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A563|Netherlands (NL)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A564|Netherlands (NL)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A565|Netherlands (NL)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A566|Netherlands (NL)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A567|Netherlands (NL)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A568|Netherlands (NL)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A569|Netherlands (NL)|Food|Collagen (COL)|Establishment list - TRACES NT
+A570|Netherlands (NL)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A571|Netherlands (NL)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A572|Netherlands (NL)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A573|Netherlands (NL)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A574|Netherlands (NL)|Germinal products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A575|Netherlands (NL)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A576|Netherlands (NL)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A577|Netherlands (NL)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A578|Netherlands (NL)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A579|Netherlands (NL)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A580|Netherlands (NL)|Animal By-Products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A581|Netherlands (NL)|Animal By-Products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A582|Netherlands (NL)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A583|Netherlands (NL)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A584|Netherlands (NL)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A585|Netherlands (NL)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A586|Netherlands (NL)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A587|Netherlands (NL)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A588|Norway (NO)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A589|Norway (NO)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A590|Norway (NO)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A591|Norway (NO)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A592|Norway (NO)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A593|Norway (NO)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A594|Norway (NO)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A595|Norway (NO)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A596|Norway (NO)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A597|Norway (NO)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A598|Norway (NO)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A599|Norway (NO)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A600|Norway (NO)|Food|Collagen (COL)|Establishment list - TRACES NT
+A601|Norway (NO)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A602|Norway (NO)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A603|Norway (NO)|Germinal products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A604|Norway (NO)|Germinal products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A605|Norway (NO)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A606|Norway (NO)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A607|Norway (NO)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A608|Norway (NO)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A609|Norway (NO)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A610|Norway (NO)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A611|Norway (NO)|Animal By-Products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A612|Norway (NO)|Animal By-Products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A613|Norway (NO)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A614|Norway (NO)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A615|Norway (NO)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A616|Norway (NO)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A617|Norway (NO)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A618|Norway (NO)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A619|Poland (PL)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A620|Poland (PL)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A621|Poland (PL)|"Food "|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A622|Poland (PL)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A623|Poland (PL)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A624|Poland (PL)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A625|Poland (PL)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A626|Poland (PL)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A627|Poland (PL)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A628|Poland (PL)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A629|Poland (PL)|"Food "|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A630|Poland (PL)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A631|Poland (PL)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A632|Poland (PL)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A633|Poland (PL)|Food|Collagen (COL)|Establishment list - TRACES NT
+A634|Poland (PL)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A635|Poland (PL)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A636|Poland (PL)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A637|Poland (PL)|Germinal products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A638|Poland (PL)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A639|Poland (PL)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A640|Poland (PL)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A641|Poland (PL)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A642|Poland (PL)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A643|Poland (PL)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A644|Poland (PL)|Animal By-Products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A645|Poland (PL)|Animal By-Products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A646|Poland (PL)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A647|Poland (PL)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A648|Poland (PL)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A649|Poland (PL)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A650|Poland (PL)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A651|Poland (PL)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A652|Portugal (PT)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A653|Portugal (PT)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A654|Portugal (PT)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A655|Portugal (PT)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A656|Portugal (PT)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A657|Portugal (PT)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A658|Portugal (PT)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A659|Portugal (PT)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A660|Portugal (PT)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A661|Portugal (PT)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A662|Portugal (PT)|Food|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A663|Portugal (PT)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A664|Portugal (PT)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A665|Portugal (PT)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A666|Portugal (PT)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A667|Portugal (PT)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A668|Portugal (PT)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A669|Portugal (PT)|Germinal products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A670|Portugal (PT)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A671|Portugal (PT)|Germinal Products|Germinal product establishments - confined animals  (GERM-CONF)|Establishment list - TRACES NT
+A672|Portugal (PT)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A673|Portugal (PT)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A674|Portugal (PT)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A675|Portugal (PT)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A676|Portugal (PT)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A677|Portugal (PT)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A678|Portugal (PT)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A679|Portugal (PT)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A680|Portugal (PT)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A681|Portugal (PT)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A682|Romania (RO)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A683|Romania (RO)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A684|Romania (RO)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A685|Romania (RO)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A686|Romania (RO)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A687|Romania (RO)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A688|Romania (RO)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A689|Romania (RO)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A690|Romania (RO)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A691|Romania (RO)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A692|Romania (RO)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A693|Romania (RO)|Food|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A694|Romania (RO)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A695|Romania (RO)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A696|Romania (RO)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A697|Romania (RO)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A698|Romania (RO)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A699|Romania (RO)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A700|Romania (RO)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A701|Romania (RO)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A702|Romania (RO)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A703|Romania (RO)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A704|Romania (RO)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A705|Romania (RO)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A706|Romania (RO)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A707|Romania (RO)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A708|Slovakia (SK)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A709|Slovakia (SK)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A710|Slovakia (SK)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A711|Slovakia (SK)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A712|Slovakia (SK)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A713|Slovakia (SK)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A714|Slovakia (SK)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A715|Slovakia (SK)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A716|Slovakia (SK)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A717|Slovakia (SK)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A718|Slovakia (SK)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A719|Slovakia (SK)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A720|Slovakia (SK)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A721|Slovakia (SK)|Food|Collagen (COL)|Establishment list - TRACES NT
+A722|Slovakia (SK)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A723|Slovakia (SK)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A724|Slovakia (SK)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A725|Slovakia (SK)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A726|Slovakia (SK)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A727|Slovakia (SK)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A728|Slovakia (SK)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A729|Slovakia (SK)|Animal By-Products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A730|Slovakia (SK)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A731|Slovakia (SK)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A732|Slovakia (SK)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A733|Slovakia (SK)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A734|Slovakia (SK)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A735|Slovakia (SK)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A736|Slovenia (SL)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A737|Slovenia (SL)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A738|Slovenia (SL)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A739|Slovenia (SL)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A740|Slovenia (SL)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A741|Slovenia (SL)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A742|Slovenia (SL)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A743|Slovenia (SL)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A744|Slovenia (SL)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A745|Slovenia (SL)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A746|Slovenia (SL)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A747|Slovenia (SL)|Food|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A748|Slovenia (SL)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A749|Slovenia (SL)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A750|Slovenia (SL)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A751|Slovenia (SL)|Food|Collagen (COL)|Establishment list - TRACES NT
+A752|Slovenia (SL)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A753|Slovenia (SL)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A754|Slovenia (SL)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A755|Slovenia (SL)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A756|Slovenia (SL)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A757|Slovenia (SL)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A758|Slovenia (SL)|Animal By-products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A759|Slovenia (SL)|Animal By-products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A760|Slovenia (SL)|Animal By-products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A761|Slovenia (SL)|Animal By-products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A762|Slovenia (SL)|Animal By-products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A763|Slovenia (SL)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A764|Slovenia (SL)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A765|Slovenia (SL)|Animal By-products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A766|Slovenia (SL)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A767|Slovenia (SL)|Animal By-products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A768|Spain (ES)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A769|Spain (ES)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A770|Spain (ES)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A771|Spain (ES)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A772|Spain (ES)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A773|Spain (ES)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A774|Spain (ES)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A775|Spain (ES)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A776|Spain (ES)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A777|Spain (ES)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A778|Spain (ES)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A779|Spain (ES)|Food|Frogs' legs and snails (FLS)|Establishment list - TRACES NT
+A780|Spain (ES)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A781|Spain (ES)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A782|Spain (ES)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A783|Spain (ES)|Food|Collagen (COL)|Establishment list - TRACES NT
+A784|Spain (ES)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A785|Spain (ES)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A786|Spain (ES)|Germinal Products|Embryo Production Teams (EMB-PRO)|Establishment list - TRACES NT
+A787|Spain (ES)|Germinal products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A788|Spain (ES)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A789|Spain (ES)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A790|Spain (ES)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A791|Spain (ES)|Animal By-products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A792|Spain (ES)|Animal By-products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A793|Spain (ES)|Animal By-products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A794|Spain (ES)|Animal By-products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A795|Spain (ES)|Animal By-products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A796|Spain (ES)|Animal By-products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A797|Spain (ES)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A798|Spain (ES)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A799|Spain (ES)|Animal By-products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A800|Spain (ES)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A801|Spain (ES)|Animal By-products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A802|Sweden (SE)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A803|Sweden (SE)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A804|Sweden (SE)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A805|Sweden (SE)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A806|Sweden (SE)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A807|Sweden (SE)|Food|"Minced meat, meat preperations and mechanically seperated meat - MM, MP, MSM (MM) "|Establishment list - TRACES NT
+A808|Sweden (SE)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A809|Sweden (SE)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A810|Sweden (SE)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A811|Sweden (SE)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A812|Sweden (SE)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A813|Sweden (SE)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A814|Sweden (SE)|Food|Treated stomachs, bladders and intestines: casings only (CAS)|Establishment list - TRACES NT
+A815|Sweden (SE)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A816|Sweden (SE)|Food|Collagen (COL)|Establishment list - TRACES NT
+A817|Sweden (SE)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A818|Sweden (SE)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A819|Sweden (SE)|Germinal products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A820|Sweden (SE)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A821|Sweden (SE)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A822|Sweden (SE)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A823|Sweden (SE)|Animal By-products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A824|Sweden (SE)|Animal By-products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A825|Sweden (SE)|Animal By-products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A826|Sweden (SE)|Animal By-products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A827|Sweden (SE)|Animal By-products|Composting plants (ABP-COMP)|Establishment list - TRACES NT
+A828|Sweden (SE)|Animal By-products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A829|Sweden (SE)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A830|Sweden (SE)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A831|Sweden (SE)|Animal By-products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A832|Sweden (SE)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A833|Sweden (SE)|Animal By-products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT
+A834|Switzerland (CH)|Food|General activity establishment - EU (GEN)|Establishment list - TRACES NT
+A835|Switzerland (CH)|Food|Meat of domestic ungulates (RM)|Establishment list - TRACES NT
+A836|Switzerland (CH)|Food|Meat from poultry and lagomorphs (PM)|Establishment list - TRACES NT
+A837|Switzerland (CH)|Food|Meat of farmed game (GM)|Establishment list - TRACES NT
+A838|Switzerland (CH)|Food|Wild game meat (WM)|Establishment list - TRACES NT
+A839|Switzerland (CH)|Food|Minced meat, meat preparations and mechanically separated meat – MM, MP, MSM (MM)|Establishment list - TRACES NT
+A840|Switzerland (CH)|Food|Meat products (RMP)|Establishment list - TRACES NT
+A841|Switzerland (CH)|Food|Live bivalve molluscs (LBM)|Establishment list - TRACES NT
+A842|Switzerland (CH)|Food|Fishery products - EU (FFP)|Establishment list - TRACES NT
+A843|Switzerland (CH)|Food|Raw milk, dairy products, colostrum and colostrum-based products (MMP)|Establishment list - TRACES NT
+A844|Switzerland (CH)|Food|Eggs and egg products (EEP)|Establishment list - TRACES NT
+A845|Switzerland (CH)|Food|Rendered animal fats and greaves (FAT)|Establishment list - TRACES NT
+A846|Switzerland (CH)|Food|Gelatine (GEL)|Establishment list - TRACES NT
+A847|Switzerland (CH)|Food|Collagen (COL)|Establishment list - TRACES NT
+A848|Switzerland (CH)|Germinal products|Semen collection centres (SEM-COL)|Establishment list - TRACES NT
+A849|Switzerland (CH)|Germinal products|Embryo Collection Teams (EMB-COL)|Establishment list - TRACES NT
+A850|Switzerland (CH)|Germinal products|Embryo production teams (EMB-PRO)|Establishment list - TRACES NT
+A851|Switzerland (CH)|Germinal products|Germinal product processing establishments (GERM-PRO)|Establishment list - TRACES NT
+A852|Switzerland (CH)|Germinal products|Germinal product storage centres (GERM-STO)|Establishment list - TRACES NT
+A853|Switzerland (CH)|Animal By-Products|Establishments or plants carrying out intermediate activities and plants storing animal by-products (ABP-INTP)|Establishment list - TRACES NT
+A854|Switzerland (CH)|Animal By-Products|Establishments or plants for the storage of derived products (ABP-STORP)|Establishment list - TRACES NT
+A855|Switzerland (CH)|Animal By-Products|Incineration/ co-incineration/ combustion plants (ABP-INCP)|Establishment list - TRACES NT
+A856|Switzerland (CH)|Animal By-Products|Processing plants (ABP-PROCP)|Establishment list - TRACES NT
+A857|Switzerland (CH)|Animal By-Products|Oleo-Chemical Plants (ABP-OLCP)|Establishment list - TRACES NT
+A858|Switzerland (CH)|Animal By-Products|Biogas plants (ABP-BIOGP)|Establishment list - TRACES NT
+A859|Switzerland (CH)|Animal By-Products|Petfood plants (ABP-PET)|Establishment list - TRACES NT
+A860|Switzerland (CH)|Animal By-Products|Establishments or plants handling animal by-products or derived products for purposes outside the feed chain (ABP-TECHP)|Establishment list - TRACES NT
+A861|Switzerland (CH)|Animal By-Products|Registered users of animal by-products and derived product for specific purposes (ABP-SPU)|Establishment list - TRACES NT
+A862|Switzerland (CH)|Animal By-Products|Collection centres (ABP-COL)|Establishment list - TRACES NT
+A863|Switzerland (CH)|Animal By-Products|Establishments or plants manufacturing organic fertilisers or soil improvers (ABP-FERT)|Establishment list - TRACES NT
+A864|Switzerland (CH)|Animal By-Products|Other registered operators (ABP-OTH)|Establishment list - TRACES NT

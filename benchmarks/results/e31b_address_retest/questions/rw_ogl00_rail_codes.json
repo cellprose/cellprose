@@ -1,0 +1,59 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'Sheet2', which cell holds 'Easting' for the row where 'Name' is 'Seahill'? Give its cell address.",
+  "cell": "Sheet2!H58",
+  "key": {
+   "E": "Seahill"
+  },
+  "labels": [
+   "E58",
+   "H58",
+   "H1"
+  ],
+  "id": "q1",
+  "truth": "Sheet2!H58"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "Sheet2!H5",
+  "truth": "Sheet2!H5",
+  "q": "In the sheet 'Sheet2', which cell holds 'Easting' for the row where 'Name' is 'Ballycarry'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "Sheet2!H16",
+  "truth": "Sheet2!H16",
+  "q": "In the sheet 'Sheet2', which cell holds 'Easting' for the row where 'Name' is 'Coleraine'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "Sheet2!H39",
+  "truth": "Sheet2!H39",
+  "q": "In the sheet 'Sheet2', which cell holds 'Easting' for the row where 'Name' is 'Lisburn'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "Sheet2!H58",
+  "truth": "Sheet2!H58",
+  "q": "In the sheet 'Sheet2', which cell holds 'Easting' for the row where 'Name' is 'Seahill'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q6",
+  "cell": "Sheet2!H71",
+  "truth": "Sheet2!H71",
+  "q": "In the sheet 'Sheet2', which cell holds 'Easting' for the row where 'Name' is 'Great Victoria Street'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q7",
+  "cell": "Sheet2!H26",
+  "truth": "Sheet2!H26",
+  "q": "In the sheet 'Sheet2', which cell holds 'Easting' for the row where 'Name' is 'Dunmurry'? Give its cell address."
+ }
+]

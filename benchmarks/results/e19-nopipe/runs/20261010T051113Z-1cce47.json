@@ -1,0 +1,103 @@
+{
+ "run": {
+  "run_id": "20261010T051113Z-1cce47",
+  "started_at": "2026-10-10T05:11:13+00:00",
+  "git_sha": "b4d0b9c",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "6fcc7fe80dfd05ee580a20abc2ef6488b77b3463260a0d44f0f6bfa9ec522753",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0"
+ },
+ "invocation": {
+  "argv": [
+   "--models",
+   "haiku55,sonnet55,gpt6luna",
+   "--encs",
+   "sheetmark_lean_gfm,sheetmark_lean_gfm_nopipe",
+   "--reps",
+   "3",
+   "--out",
+   "results/e19-nopipe",
+   "--vendor-cap-usd",
+   "3"
+  ],
+  "models": [
+   "haiku55",
+   "sonnet55",
+   "gpt6luna"
+  ],
+  "workbooks": [
+   "01_sales_log",
+   "02_employees",
+   "03_pnl_quarterly",
+   "04_saas_model",
+   "05_multisheet_model",
+   "06_budget_vs_actual",
+   "07_messy_report",
+   "08_loan_schedule",
+   "09_orders_lookup",
+   "10_gradebook",
+   "11_forecast_overrides",
+   "12_lookalike_drivers",
+   "13_scenario_switch",
+   "14_cost_allocation"
+  ],
+  "encodings": [
+   "sheetmark_lean_gfm",
+   "sheetmark_lean_gfm_nopipe"
+  ],
+  "reps": 3,
+  "first_rep": 0
+ },
+ "inputs": {
+  "digest": "6fcc7fe80dfd05ee580a20abc2ef6488b77b3463260a0d44f0f6bfa9ec522753",
+  "files": {
+   "questions/01_sales_log.json": "5c5416c0e6f65c05fa8f7340786cd3ed1fcba90abd500924b114f13b4690ece2",
+   "encoded/01_sales_log.sheetmark_lean_gfm.txt": "70a3393b145b5f938a97c97487cbd703ff232ad8ca43919217819971ade2b6d0",
+   "encoded/01_sales_log.sheetmark_lean_gfm_nopipe.txt": "b0746347c33fb41b32fba8c7206fa111fd113e28cdc190ce11f69bd1f8ab99a7",
+   "questions/02_employees.json": "89be0c18787b05af46a3fddeb9e97272c2963e32b6b656b7b295d7b9637d6100",
+   "encoded/02_employees.sheetmark_lean_gfm.txt": "f1fb6c112aade3dcd3d8d4333cc01fdb0189dd19172a0e3e88b8ffcaa029c47a",
+   "encoded/02_employees.sheetmark_lean_gfm_nopipe.txt": "565d53aac745db616f40160846f95c49f41e83a655eb88e3605e139dc60d89d0",
+   "questions/03_pnl_quarterly.json": "079b5c23331b235e6de8f1928e9762c35eecebe1bf989006fd84214357f43d72",
+   "encoded/03_pnl_quarterly.sheetmark_lean_gfm.txt": "c2e24d362b96f71fd1ad564982a970debdd0fcb3fc39d0d3db7b4170bc4818fd",
+   "encoded/03_pnl_quarterly.sheetmark_lean_gfm_nopipe.txt": "8d651790ca8bc4a83c3e0c3b61aeaaf27ed039738f2288bd8497b7d024ecbe1d",
+   "questions/04_saas_model.json": "d2195d97dbb8668fe17cafc9974b0502c8e03e7f2927c48c7859df04191b877a",
+   "encoded/04_saas_model.sheetmark_lean_gfm.txt": "7421491e6dc2649029a2d1d42438130d093d11485afef38569ee405017050565",
+   "encoded/04_saas_model.sheetmark_lean_gfm_nopipe.txt": "60b0f8d2678a07b7442483e7e3a2c0b34154c3262e20695b2b3f3168168709ad",
+   "questions/05_multisheet_model.json": "f420fc37c15cd187394b0b2b54a9ee9aaeaac1647de6e971d595d02d61dfff4e",
+   "encoded/05_multisheet_model.sheetmark_lean_gfm.txt": "198af2949f0d887d28ac636c082c67d706b87474407b843187f210a689bc705b",
+   "encoded/05_multisheet_model.sheetmark_lean_gfm_nopipe.txt": "135668f43f0f9b0a85002747786f9d2158eec4c0830a1240e36233dc9b57ecc4",
+   "questions/06_budget_vs_actual.json": "bf34c82d614aaf22258e89c26390a885509a5a2c44205b0a62ca58f32aba997a",
+   "encoded/06_budget_vs_actual.sheetmark_lean_gfm.txt": "3c3f11c7fc93ab9a066a42de0c022e80258836137d67bf5988c5a22d07d1e307",
+   "encoded/06_budget_vs_actual.sheetmark_lean_gfm_nopipe.txt": "da6970fd3142f344fa5b0b23dbcbcbd68ae6ef3a873f8bb85c188e27e984ca57",
+   "questions/07_messy_report.json": "553cdae84262b6e37cb30fb9ca71b0371dcec8d2313a756763a4f942c2b5c3c3",
+   "encoded/07_messy_report.sheetmark_lean_gfm.txt": "3242ffa2c62ae872bb4fc620b6333baf1000bca275cba33558ef510464d109e8",
+   "encoded/07_messy_report.sheetmark_lean_gfm_nopipe.txt": "cbdcef79de70fb0a112c20122faea34da8ee2db331c2691df0d646789e37a732",
+   "questions/08_loan_schedule.json": "3b80ccd28f8a7622900ef7bdde7eae9f9b78621798ca56ade7e1ab103d96e0af",
+   "encoded/08_loan_schedule.sheetmark_lean_gfm.txt": "1866620c162470ae5b7b3c6f4585dcf1885cf0a9f82cb11ed09d65195a556cc3",
+   "encoded/08_loan_schedule.sheetmark_lean_gfm_nopipe.txt": "995b8b30a9f02086e06d80152c7d8afcd88f3f7a3fa102e3831d49118a62a470",
+   "questions/09_orders_lookup.json": "920214c9635658467cb7c581caafd959695b6bbdd3143b2b2f50513f5d244e65",
+   "encoded/09_orders_lookup.sheetmark_lean_gfm.txt": "bf5e784803360e9afe597fdc4ca94100ac1ba174f9f32b8e8d4b107c762ce15b",
+   "encoded/09_orders_lookup.sheetmark_lean_gfm_nopipe.txt": "7ff5b221db303c16e4add24cf2256450849f41919d40e2374df2c75a66af8acb",
+   "questions/10_gradebook.json": "a3f15dad6e3b2b4bc0dfaa84bc756975e2b28e2ff9615a915b1950bd800ebc46",
+   "encoded/10_gradebook.sheetmark_lean_gfm.txt": "8d99d3473f09827e77a1bc46699ad4ac6d28839f7e3da76d992dcf19fe661261",
+   "encoded/10_gradebook.sheetmark_lean_gfm_nopipe.txt": "35dfbccc5b6adda9afd10803f1b582963c58f70b0053be7f4a00ff52ab4126cf",
+   "questions/11_forecast_overrides.json": "b5b4110745315e01bfebe201f1fcf53b8c98d803fa74442d92898e7eba12270e",
+   "encoded/11_forecast_overrides.sheetmark_lean_gfm.txt": "5e2d1a0c5025977a109d26c1f2676084bf2d347017b43af8c252f620afc8741c",
+   "encoded/11_forecast_overrides.sheetmark_lean_gfm_nopipe.txt": "0224a8bbc5620d1d0ec885a170a340d7772e46720eee1286c6717706b95d27e4",
+   "questions/12_lookalike_drivers.json": "52148d2273c67b2f61990a395c3f3c33412fd775ec523368094796ee55c35850",
+   "encoded/12_lookalike_drivers.sheetmark_lean_gfm.txt": "8690736f2cab41fd0e96a3b5e092f7d45e1b47dae5bed7d720f6c25a87f4de41",
+   "encoded/12_lookalike_drivers.sheetmark_lean_gfm_nopipe.txt": "d8c3ed5796b4d1b00fcfdf928a321e41608536d7a6c08f793244f5fcecc20d53",
+   "questions/13_scenario_switch.json": "d71ccf2f7edb592c039742176fa6f3c3a2d5d4dcb3ca53c21ca67003f06232f9",
+   "encoded/13_scenario_switch.sheetmark_lean_gfm.txt": "b8e9c917dfa3148173ee0424be4de996f7c2732780778598ce14484ad69b0c4e",
+   "encoded/13_scenario_switch.sheetmark_lean_gfm_nopipe.txt": "daabb677c0b7b86bf1c115f334393f383a8ff1b5fa9d627a9bce489d8c55f971",
+   "questions/14_cost_allocation.json": "e5c65d780351b6c0889ffef3c09e34c72cd79afe12044913760009752c6f640e",
+   "encoded/14_cost_allocation.sheetmark_lean_gfm.txt": "c6473ed7741e5ac4b3cac3a42fb9d8ae128b0e3aa48d7f15cfcb60dd3d5869bd",
+   "encoded/14_cost_allocation.sheetmark_lean_gfm_nopipe.txt": "edd604a19bcf29edd43b95d9dadd44db26b4e6abea4273115e1b0d484939f154"
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw3_enron_kimberly_watson",
+ "encoding": "csv",
+ "prompt_chars": 2972,
+ "prompt_sha256": "fac57409415514538e0903981c30783f94bdc5e08d1e3fd649e2e71ecb276962",
+ "result": "{\"q1\":1350845,\"q2\":\"I to I Summary!O10\",\"q3\":[\"I to I Summary!K6\",\"I to I Summary!K11\",\"I to I Summary!K16\"],\"q4\":[\"I to I Summary!I6\",\"I to I Summary!I11\",\"I to I Summary!I16\"],\"q5\":[\"I to I Summary!G16\",\"I to I Summary!I16\",\"I to I Summary!J16\",\"I to I Summary!K16\",\"I to I Summary!F18\",\"I to I Summary!G18\",\"I to I Summary!I18\",\"I to I Summary!J18\",\"I to I Summary!K18\"],\"q6\":[\"I to I Summary!D15\",\"I to I Summary!F15\"]}",
+ "usage": {
+  "input_tokens": 3,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1064,
+  "output_tokens": 881,
+  "output_tokens_details": {
+   "thinking_tokens": 704
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 3,
+   "outputTokens": 881,
+   "cacheReadInputTokens": 1064,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 704
+  }
+ },
+ "cost": 0.010944,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261107T114909Z-9d399b",
+  "started_at": "2026-11-07T11:49:09+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "97799dc7cae4419ad17ce7400209690855e6f4d90d97802d658ce3352d442245",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 13.7,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_ab32c669eed64c869ca308263941df63",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "input_tokens": 1067,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 1064,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 881,
+   "output_tokens_details": {
+    "reasoning_tokens": 704
+   },
+   "total_tokens": 1948,
+   "billed_input_tokens": 1067,
+   "tokenizer_input_tokens_o200k": 1056,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 1056
+  },
+  "finished_at": "2026-11-07T12:21:44+00:00"
+ }
+}

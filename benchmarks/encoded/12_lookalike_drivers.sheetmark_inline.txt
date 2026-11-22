@@ -1,0 +1,37 @@
+---
+sheetmark: 0.1
+profile: full
+sheets: [Drivers, Plan]
+not_preserved: [styles]
+---
+
+# Sheet: Drivers
+
+## Range A1:B7
+
+| # | A | B |
+|---|---|---|
+| 1 | Driver | Value |
+| 2 | Price inflation | 0.03 |
+| 3 | Wage inflation | 0.03 |
+| 4 | Rent escalation | 0.03 |
+| 5 | Volume growth | 0.05 |
+| 6 | Marketing growth | 0.05 |
+| 7 | Utilities inflation | 0.03 |
+
+# Sheet: Plan
+
+## Range A1:E10
+
+| # | A | B | C | D | E |
+|---|---|---|---|---|---|
+| 1 | Line | Y1 | Y2 | Y3 | Y4 |
+| 2 | Volume | 50000 | =B2*(1+Drivers!$B$5) → 52500 | =C2*(1+Drivers!$B$5) → 55125 | =D2*(1+Drivers!$B$5) → 57881.25 |
+| 3 | Unit price | 20 | =B3*(1+Drivers!$B$2) → 20.6 | =C3*(1+Drivers!$B$2) → 21.218 | =D3*(1+Drivers!$B$2) → 21.85454 |
+| 4 | Wages | 400000 | =B4*(1+Drivers!$B$3) → 412000 | =C4*(1+Drivers!$B$3) → 424360 | =D4*(1+Drivers!$B$3) → 437090.8 |
+| 5 | Rent | 120000 | =B5*(1+Drivers!$B$4) → 123600 | =C5*(1+Drivers!$B$4) → 127308 | =D5*(1+Drivers!$B$4) → 131127.24 |
+| 6 | Marketing | 90000 | =B6*(1+Drivers!$B$6) → 94500 | =C6*(1+Drivers!$B$6) → 99225 | =D6*(1+Drivers!$B$6) → 104186.25 |
+| 7 | Utilities | 30000 | =B7*(1+Drivers!$B$7) → 30900 | =C7*(1+Drivers!$B$7) → 31827 | =D7*(1+Drivers!$B$7) → 32781.81 |
+| 8 | Revenue | =B2*B3 → 1000000 | =C2*C3 → 1081500 | =D2*D3 → 1169642.25 | =E2*E3 → 1264968.093 |
+| 9 | Total costs | =SUM(B4:B7) → 640000 | =SUM(C4:C7) → 661000 | =SUM(D4:D7) → 682720 | =SUM(E4:E7) → 705186.1 |
+| 10 | Profit | =B8-B9 → 360000 | =C8-C9 → 420500 | =D8-D9 → 486922.25 | =E8-E9 → 559781.9934 |

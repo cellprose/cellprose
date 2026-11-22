@@ -1,0 +1,16 @@
+[
+ {
+  "type": "address",
+  "cell": "Optimal CS Worksheet!E16",
+  "labels": [
+   "C16",
+   "E11"
+  ],
+  "q": "In the sheet 'Optimal CS Worksheet', which cell holds the current 'Rating on Debt'? Give its cell address.",
+  "key": {
+   "C": "Rating on Debt"
+  },
+  "id": "q1",
+  "truth": "Optimal CS Worksheet!E16"
+ }
+]

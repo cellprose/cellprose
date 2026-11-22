@@ -1,0 +1,59 @@
+{
+ "model": "haiku",
+ "workbook": "03_pnl_quarterly",
+ "encoding": "agent_xlsx",
+ "result": "```json\n{\n  \"q1\": 18531.648,\n  \"q2\": 243330.048,\n  \"q3\": \"P&L!C6\",\n  \"q4\": \"P&L!B12\",\n  \"q5\": [\"P&L!D6\", \"P&L!D7\"],\n  \"q6\": [\"P&L!B2\", \"P&L!B12\"],\n  \"q7\": [\"P&L!C2\", \"P&L!C4\", \"P&L!C5\", \"P&L!C6\", \"P&L!C8\", \"P&L!C9\", \"P&L!D2\", \"P&L!D4\", \"P&L!D5\", \"P&L!D6\", \"P&L!D8\", \"P&L!D9\", \"P&L!E2\", \"P&L!E4\", \"P&L!E5\", \"P&L!E6\", \"P&L!E8\", \"P&L!E9\", \"P&L!F2\", \"P&L!F4\", \"P&L!F5\", \"P&L!F6\", \"P&L!F8\", \"P&L!F9\"],\n  \"q8\": [\"P&L!B7\", \"P&L!B8\", \"P&L!B9\", \"P&L!C7\", \"P&L!C8\", \"P&L!C9\", \"P&L!D7\", \"P&L!D8\", \"P&L!D9\", \"P&L!E7\", \"P&L!E8\", \"P&L!E9\", \"P&L!F7\", \"P&L!F8\", \"P&L!F9\"]\n}\n```",
+ "usage": {
+  "input_tokens": 74,
+  "cache_creation_input_tokens": 20634,
+  "cache_read_input_tokens": 84178,
+  "output_tokens": 11173,
+  "output_tokens_details": {
+   "thinking_tokens": 5818
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 20634,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 8,
+    "output_tokens": 655,
+    "cache_read_input_tokens": 18074,
+    "cache_creation_input_tokens": 2560,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2560
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1285,
+   "outputTokens": 11186,
+   "cacheReadInputTokens": 84178,
+   "cacheCreationInputTokens": 20634,
+   "webSearchRequests": 0,
+   "costUSD": 0.10690079999999999,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 5818,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.10690079999999999,
+ "num_turns": 9,
+ "subtype": "success"
+}

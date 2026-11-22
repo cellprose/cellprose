@@ -1,0 +1,36 @@
+Report[35]{"Warehouse Report - Q3 2026","Unnamed: 1","Unnamed: 2","Unnamed: 3","Unnamed: 4","Unnamed: 5","Unnamed: 6","Unnamed: 7","Unnamed: 8"}:
+  Prepared by the ops team. Figures in units unless noted.,null,null,null,null,null,null,null,null
+  null,null,null,null,null,null,null,null,null
+  Inventory,null,null,null,null,null,null,null,null
+  SKU,Item,On hand,Reorder point,Below reorder?,null,null,Summary,null
+  SKU-1001,Bolt M6,331,100,NO,null,null,Items below reorder,5
+  SKU-1002,Bolt M8,404,300,NO,null,null,Total on hand,5531
+  SKU-1003,Nut M6,49,75,YES,null,null,Open PO value,8017
+  SKU-1004,Washer,840,250,NO,null,null,null,null
+  SKU-1005,Bracket,96,175,YES,null,null,null,null
+  SKU-1006,Hinge,596,50,NO,null,null,null,null
+  SKU-1007,Spring,519,125,NO,null,null,null,null
+  SKU-1008,Gasket,38,75,YES,null,null,null,null
+  SKU-1009,Clamp,444,200,NO,null,null,null,null
+  SKU-1010,Rivet,71,125,YES,null,null,null,null
+  SKU-1011,Pin,92,250,YES,null,null,null,null
+  SKU-1012,Bearing,434,50,NO,null,null,null,null
+  SKU-1013,Seal,846,275,NO,null,null,null,null
+  SKU-1014,Spacer,126,125,NO,null,null,null,null
+  SKU-1015,Shim,645,300,NO,null,null,null,null
+  null,null,null,null,null,null,null,null,null
+  null,null,null,null,null,null,null,null,null
+  null,null,null,null,null,null,null,null,null
+  Pending orders,null,null,null,null,null,null,null,null
+  PO,SKU,Qty,Unit cost,Line total,null,null,null,null
+  PO-5001,SKU-1010,150,2.62,393,null,null,null,null
+  PO-5002,SKU-1007,150,4.39,658.5,null,null,null,null
+  PO-5003,SKU-1001,950,3.87,3676.5,null,null,null,null
+  PO-5004,SKU-1005,750,0.69,517.5,null,null,null,null
+  PO-5005,SKU-1002,550,2.54,1397,null,null,null,null
+  PO-5006,SKU-1011,350,0.51,178.5,null,null,null,null
+  PO-5007,SKU-1010,400,1.71,684,null,null,null,null
+  PO-5008,SKU-1009,200,2.56,512,null,null,null,null
+  Total,null,null,null,8017,null,null,null,null
+  null,null,null,null,null,null,null,null,null
+  "Note: costs exclude freight.",null,null,null,null,null,null,null,null

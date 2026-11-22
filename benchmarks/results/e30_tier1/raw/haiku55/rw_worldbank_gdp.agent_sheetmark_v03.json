@@ -1,0 +1,191 @@
+{
+ "model": "haiku55",
+ "workbook": "rw_worldbank_gdp",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 865,
+ "prompt_sha256": "a590690d47b10e948387dc2d20aa099fb6922a68e71b8a7fbe4baea03ebba240",
+ "result": "```json\n{\"q1\": 4201021706478.62, \"q2\": 5225933520753.1, \"q3\": \"Data!BP114\", \"q4\": 114448978152.637}\n```",
+ "usage": {
+  "input_tokens": 78255,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2149,
+  "output_tokens_details": {
+   "thinking_tokens": 712
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 78255,
+   "outputTokens": 2149,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 712
+  }
+ },
+ "cost": 0.0089,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 883,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 80,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 10490,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 530,
+     "reasoning_tokens": 81,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 11186,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 339,
+     "reasoning_tokens": 50,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 13400,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 330,
+     "reasoning_tokens": 114,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 13740,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 202,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 13961,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 610,
+     "reasoning_tokens": 467,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 14595,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 58,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T08:59:46+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 12.3
+ },
+ "num_turns": 7,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cat ./book.sheet.md | head -c 20000; echo; wc -c ./book.sheet.md\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport re\\nlines=open('book.sheet.md').read().split('\\\\n')\\nhdr=None\\nfor l in lines:\\n    if l.startswith('4|'): hdr=l.split('|')\\n    if l.split('|')[1:2] and any(l.startswith(f'{n}|') for n in ['Germany','Japan','India','Kenya']):\\n        print(l.split('|')[:5])\\nhdr=[h.strip() for h in hdr]\\nprint(len(hdr)); print([ (i,h) for i,h in enumerate(hdr) if h in (\\\\\\\"'2021\\\\\\\",\\\\\\\"'2022\\\\\\\",\\\\\\\"'2023\\\\\\\")])\\nfor l in lines:\\n    p=l.split('|')\\n    if len(p)>3 a",
+   "output_chars": 253
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 285,300p book.sheet.md | cut -c1-400; sed -n 560,575p book.sheet.md | cut -c1-300; python3 -c \\\"\\nlines=open('book.sheet.md').read().split('\\\\n')\\nhdr=[l for l in lines if l.startswith('4|')][0].split('|')\\nimport re\\nfor l in lines[18:292]:\\n    p=l.split('|')\\n    if len(p)>3 and p[1] in ('Germany','Japan','India','Kenya'):\\n        print(p[1],p[2],p[3], [(hdr[i],p[i]) for i in range(len(hdr)) if hdr[i] in (\\\\\\\"'2021\\\\\\\",\\\\\\\"'2022\\\\\\\",\\\\\\\"'2023\\\\\\\")])\\n\\\"\"}",
+   "output_chars": 4068
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nfrom openpyxl.utils import get_column_letter as g\\nlines=open('book.sheet.md').read().split('\\\\n')\\nhdr=[l for l in lines if l.startswith('4|')][0].split('|')\\ni=hdr.index(\\\\\\\"'2023\\\\\\\"); print(g(i), len(hdr))\\nfor l in lines[18:292]:\\n    p=l.split('|')\\n    if len(p)>3 and p[2]=='India' : print(p[0], p[2], g(i), p[i])\\n\\\"\"}",
+   "output_chars": 6
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nfrom openpyxl.utils import get_column_letter as g\\nlines=open('book.sheet.md').read().split('\\\\n')\\nhdr=[l for l in lines if l.startswith('4|')][0].split('|')\\ni=hdr.index(\\\\\\\"'2023\\\\\\\")\\nfor l in lines[18:292]:\\n    p=l.split('|')\\n    if len(p)>3 and p[1]=='India' : print(p[0], p[1], g(i), p[i])\\n\\\"\"}",
+   "output_chars": 30
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nlines=open('book.sheet.md').read().split('\\\\n')\\nfor l in lines[18:292]:\\n    p=l.split('|')\\n    if len(p)>3 and p[1] in ('Germany','Japan','Kenya'): print(p[0],p[1])\\n\\\"\"}",
+   "output_chars": 31
+  }
+ ]
+}

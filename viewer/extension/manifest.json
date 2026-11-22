@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Cellprose Viewer",
+  "version": "0.1.0",
+  "description": "Upgrades .sheet.md and .cellprose.md files on GitHub: sheet tabs, click a cell for its value and formula, copy ranges, highlight formula inputs.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["cellprose-core.js", "content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": ["https://github.com/*", "https://raw.githubusercontent.com/*"]
+}

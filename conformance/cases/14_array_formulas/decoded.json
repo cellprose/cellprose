@@ -1,0 +1,38 @@
+{
+ "sheets": [
+  {
+   "name": "Arrays",
+   "state": "visible",
+   "freeze": null,
+   "merges": [],
+   "names": {},
+   "cells": {
+    "A1": {
+     "v": 1
+    },
+    "B1": {
+     "f": "A1:A2*2",
+     "array": "B1:B2"
+    },
+    "C1": {
+     "f": "A1:A2+1",
+     "array": "C1:C2"
+    },
+    "A2": {
+     "v": 2
+    },
+    "B2": {
+     "v": 4
+    },
+    "C2": {
+     "v": 3
+    },
+    "H10": {
+     "f": "SUM(A1:A2)",
+     "array": "H10"
+    }
+   }
+  }
+ ],
+ "names": {}
+}

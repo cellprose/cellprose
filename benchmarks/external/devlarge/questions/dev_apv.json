@@ -1,0 +1,69 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Adjusted Present Value!G87",
+  "q": "What is the value in the row labelled 'Aaa/AAA', column headed 'Interest rate', in the sheet 'Adjusted Present Value'?",
+  "truth": 0.028,
+  "labels": [
+   "F87",
+   "G71"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Adjusted Present Value!C64",
+  "q": "Which cell holds the value in the row labelled 'Funds/Debt', column headed 'D', in the sheet 'Adjusted Present Value'? Give its cell address.",
+  "truth": "Adjusted Present Value!C64",
+  "labels": [
+   "A64",
+   "C40"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Adjusted Present Value!C50",
+  "q": "Consider the cell Adjusted Present Value!C50 (in the row labelled 'Beta'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Adjusted Present Value!B50",
+   "Adjusted Present Value!C48",
+   "Adjusted Present Value!C68"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Adjusted Present Value!H87",
+  "q": "Consider the cell Adjusted Present Value!H87 (in the row labelled 'Aaa/AAA'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Default Spreads and Ratios!E29",
+   "Default Spreads and Ratios!E49",
+   "Inputs!B29"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Default Spreads and Ratios!B49",
+  "factor": 1.1,
+  "q": "Suppose the number in Default Spreads and Ratios!B49 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Adjusted Present Value!E27",
+   "Adjusted Present Value!E87"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Country ERP!C132",
+  "range": "Country ERP!C132:F132",
+  "q": "Consider the range Country ERP!C132:F132 (the row of 'Aaa'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Country ERP!C132",
+   "Country ERP!E132",
+   "Country ERP!F132"
+  ],
+  "id": "q6"
+ }
+]

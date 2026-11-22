@@ -1,0 +1,49 @@
+{
+ "sheets": [
+  {
+   "name": "Visible",
+   "freeze": "C3",
+   "merges": ["B5:C6", "A2:B2", "A10:B10", "A1:C1"],
+   "cells": {
+    "A1": {"v": "Title"},
+    "A2": {"v": "Sub"},
+    "A3": {"v": "x"},
+    "B3": {"v": 1},
+    "C3": {"v": 2},
+    "A5": {"v": "m"},
+    "B5": {"v": "Merged"},
+    "A6": {"v": "n"},
+    "A10": {"v": "Wide"},
+    "C10": {"f": "'Bob''s Sheet'!A1+1", "v": 8}
+   }
+  },
+  {
+   "name": "Hidden One",
+   "state": "hidden",
+   "cells": {
+    "A1": {"v": "h"},
+    "B1": {"v": 1}
+   }
+  },
+  {
+   "name": "Empty",
+   "cells": {
+   }
+  },
+  {
+   "name": "Deep",
+   "state": "veryHidden",
+   "freeze": "A2",
+   "cells": {
+    "A1": {"v": "Head"},
+    "A2": {"v": 1}
+   }
+  },
+  {
+   "name": "Bob's Sheet",
+   "cells": {
+    "A1": {"v": 7}
+   }
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "model": "haiku55",
+ "workbook": "rw3_enron_paul_y_barbo",
+ "encoding": "agent_sheetmark_v031",
+ "prompt_chars": 1190,
+ "prompt_sha256": "db440744bfe695c7bd70b9076bb15c9582033ff57cf8167d568cb3005bf115fa",
+ "result": "{\"q1\": 145921.5, \"q2\": \"90%!D1\", \"q3\": [\"13 wk outtage!D3\", \"13 wk outtage!B378\"], \"q4\": [\"13 wk outtage!D3\", \"13 wk outtage!B302\"], \"q5\": [\"13 wk outtage!I421:I519\", \"13 wk outtage!B422:B519\"], \"q6\": []}",
+ "usage": {
+  "input_tokens": 83816,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5175,
+  "output_tokens_details": {
+   "thinking_tokens": 3348
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 83816,
+   "outputTokens": 5175,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 3348
+  }
+ },
+ "cost": 0.0109691,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 990,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 97,
+     "reasoning_tokens": 16,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2906,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 154,
+     "reasoning_tokens": 64,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3991,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 116,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 4522,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 135,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 9093,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 482,
+     "reasoning_tokens": 392,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 12527,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 2123,
+     "reasoning_tokens": 1706,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 15439,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1289,
+     "reasoning_tokens": 585,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 16852,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 577,
+     "reasoning_tokens": 509,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 17496,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 202,
+     "reasoning_tokens": 76,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T12:00:14+00:00",
+  "run_id": "20261107T114821Z-6b64f6",
+  "started_at": "2026-11-07T11:48:21+00:00",
+  "git_sha": "e3e0eb8",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "24464787992c15a88e808e4027d70569c335c9cb99fc78bdef4d5f6bafbb7cb8",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 26.8
+ },
+ "num_turns": 9,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && ls -la && wc -c book.sheet.md && head -c 3000 book.sheet.md\"}",
+   "output_chars": 3182
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n '^#\\\\|^```' book.sheet.md | awk -F: '{print $1\\\": \\\"$2}' | head -300\"}",
+   "output_chars": 1440
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && grep -n '^# Sheet' -A2 book.sheet.md | grep -v '^--' ; grep -n '^## ' book.sheet.md | awk -F: '$1>0' | tail -80\"}",
+   "output_chars": 596
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 3207,3260p book.sheet.md; echo ----; sed -n 3929,4000p book.sheet.md | head -80; echo; sed -n 3772,3800p book.sheet.md; echo ...; tail -20 book.sheet.md\"}",
+   "output_chars": 5893
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 2414,2432p book.sheet.md; echo ----; sed -n 576,733p book.sheet.md\"}",
+   "output_chars": 4084
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/p.py <<'EOF'\\nimport re\\nlines=open('book.sheet.md').read().split('\\\\n')\\n# first sheet 13 wk outtage: A9:J519 table lines 60..575\\nvals={}\\nsec=None\\nfor i,l in enumerate(lines[:575]):\\n    m=re.match(r'^(\\\\d+)\\\\|(.*)$',l)\\n    if m and i>=59:\\n        r=int(m.group(1)); cells=m.group(2).split('|')\\n        for j,c in enumerate(cells):\\n            col=chr(ord('A')+j)\\n            vals[f'{col}{r}']=c\\nimport json\\nfor k in ['J171','J188','J192','D421','E378','E30",
+   "output_chars": 1342
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && cat > /tmp/s.py <<'EOF'\\nimport json,re\\nv=json.load(open('/tmp/vals.json'))\\ndef num(x):\\n    try: return float(x)\\n    except: return 0.0\\nD={r:num(v.get(f'D{r}')) for r in range(9,520)}\\nH={r:num(v.get(f'H{r}')) for r in range(9,520)}\\nI={r:num(v.get(f'I{r}')) for r in range(9,520)}\\nB={r:num(v.get(f'B{r}')) for r in range(9,520)}\\n# check consistency of I=B+H-D with cached\\nbad=[r for r in range(9,520) if abs(B[r]+H[r]-D[r]-I[r])>0.6]\\nprint('inconsistent rows', bad[:20]",
+   "output_chars": 221
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && sed -n 2424,2428p book.sheet.md\"}",
+   "output_chars": 99
+  }
+ ]
+}

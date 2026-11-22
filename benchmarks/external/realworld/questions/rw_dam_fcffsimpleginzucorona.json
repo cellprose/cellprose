@@ -1,0 +1,168 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Valuation output!B33",
+  "labels": [
+   "A33"
+  ],
+  "q": "In the sheet 'Valuation output', what is the 'Estimated value /share'?",
+  "key": {
+   "A": "Estimated value /share"
+  },
+  "id": "q1",
+  "truth": 88.68783748258801
+ },
+ {
+  "type": "lookup",
+  "cell": "Valuation output!B24",
+  "labels": [
+   "A24"
+  ],
+  "q": "In the sheet 'Valuation output', what is the 'Value of operating assets'?",
+  "key": {
+   "A": "Value of operating assets ="
+  },
+  "id": "q2",
+  "truth": 68699.31601514481
+ },
+ {
+  "type": "address",
+  "cell": "Valuation output!B18",
+  "labels": [
+   "A18"
+  ],
+  "q": "In the sheet 'Valuation output', which cell holds the 'Terminal value'? Give its cell address.",
+  "key": {
+   "A": "Terminal value"
+  },
+  "id": "q3",
+  "truth": "Valuation output!B18"
+ },
+ {
+  "type": "trace",
+  "cell": "Valuation output!B18",
+  "labels": [
+   "A18"
+  ],
+  "q": "Consider 'Terminal value' in the sheet 'Valuation output'. List the cells its formula reads directly (not indirectly).",
+  "key": {
+   "A": "Terminal value"
+  },
+  "id": "q4",
+  "truth": [
+   "Valuation output!B16",
+   "Valuation output!B17",
+   "Valuation output!M2"
+  ]
+ },
+ {
+  "type": "impact",
+  "cell": "Input sheet!B18",
+  "factor": 1.1,
+  "labels": [
+   "A18"
+  ],
+  "q": "Suppose the number of shares outstanding in 'Input sheet' (cell B18) were 10% higher. List every other cell whose value would change.",
+  "id": "q5",
+  "truth": [
+   "Cost of capital worksheet!B48",
+   "Cost of capital worksheet!B49",
+   "Cost of capital worksheet!B50",
+   "Cost of capital worksheet!B6",
+   "Cost of capital worksheet!C45",
+   "Cost of capital worksheet!C49",
+   "Cost of capital worksheet!E48",
+   "Cost of capital worksheet!E50",
+   "Diagnostics!B8",
+   "Diagnostics!B9",
+   "Input sheet!B31",
+   "Option value!D9",
+   "Option value!F14",
+   "Stories to Numbers!D14",
+   "Stories to Numbers!D30",
+   "Stories to Numbers!D31",
+   "Stories to Numbers!D32",
+   "Stories to Numbers!D36",
+   "Stories to Numbers!D38",
+   "Stories to Numbers!D39",
+   "Summary Sheet!B40",
+   "Summary Sheet!B41",
+   "Summary Sheet!B42",
+   "Summary Sheet!B43",
+   "Summary Sheet!B44",
+   "Summary Sheet!B45",
+   "Summary Sheet!B46",
+   "Summary Sheet!B47",
+   "Summary Sheet!B48",
+   "Summary Sheet!C40",
+   "Summary Sheet!C41",
+   "Summary Sheet!C42",
+   "Summary Sheet!C43",
+   "Summary Sheet!C44",
+   "Summary Sheet!C45",
+   "Summary Sheet!C46",
+   "Summary Sheet!C47",
+   "Summary Sheet!C48",
+   "Summary Sheet!C49",
+   "Summary Sheet!F40",
+   "Summary Sheet!F41",
+   "Summary Sheet!F42",
+   "Summary Sheet!F43",
+   "Summary Sheet!F44",
+   "Summary Sheet!F45",
+   "Summary Sheet!F46",
+   "Summary Sheet!F47",
+   "Summary Sheet!F48",
+   "Summary Sheet!F49",
+   "Summary Sheet!F50",
+   "Summary Sheet!H28",
+   "Summary Sheet!H29",
+   "Summary Sheet!H30",
+   "Summary Sheet!H31",
+   "Summary Sheet!H32",
+   "Summary Sheet!H33",
+   "Summary Sheet!H34",
+   "Summary Sheet!H35",
+   "Summary Sheet!H36",
+   "Valuation output!B19",
+   "Valuation output!B20",
+   "Valuation output!B21",
+   "Valuation output!B23",
+   "Valuation output!B24",
+   "Valuation output!B29",
+   "Valuation output!B31",
+   "Valuation output!B32",
+   "Valuation output!B33",
+   "Valuation output!B35",
+   "Valuation output!C12",
+   "Valuation output!C13",
+   "Valuation output!C14",
+   "Valuation output!D12",
+   "Valuation output!D13",
+   "Valuation output!D14",
+   "Valuation output!E12",
+   "Valuation output!E13",
+   "Valuation output!E14",
+   "Valuation output!F12",
+   "Valuation output!F13",
+   "Valuation output!F14",
+   "Valuation output!G12",
+   "Valuation output!G13",
+   "Valuation output!G14",
+   "Valuation output!H12",
+   "Valuation output!H13",
+   "Valuation output!H14",
+   "Valuation output!I12",
+   "Valuation output!I13",
+   "Valuation output!I14",
+   "Valuation output!J12",
+   "Valuation output!J13",
+   "Valuation output!J14",
+   "Valuation output!K12",
+   "Valuation output!K13",
+   "Valuation output!K14",
+   "Valuation output!L13",
+   "Valuation output!L14"
+  ]
+ }
+]

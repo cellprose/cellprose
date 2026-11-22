@@ -1,0 +1,72 @@
+{
+ "model": "sonnet",
+ "workbook": "10_gradebook",
+ "encoding": "sheetmark_lean",
+ "prompt_chars": 2512,
+ "result": "{\"q1\":68.3,\"q2\":69.0667,\"q3\":\"C\",\"q4\":\"Grades!E20\",\"q5\":[\"Grades!B2:F2\",\"Grades!B15:F15\"],\"q6\":[\"Grades!G3:G32\",\"Grades!G34\",\"Grades!H3\",\"Grades!H9\",\"Grades!H10\",\"Grades!H18\",\"Grades!H20\",\"Grades!H24\",\"Grades!H27\",\"Grades!H31\",\"Grades!H32\"]}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2962,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1171,
+  "output_tokens_details": {
+   "thinking_tokens": 1021
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2962,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1171,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2962,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2962
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 2131,
+   "outputTokens": 12,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0021910000000000002,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 1171,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 2962,
+   "webSearchRequests": 0,
+   "costUSD": 0.023562,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 1021,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.025752999999999998
+}

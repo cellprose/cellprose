@@ -1,0 +1,47 @@
+[
+ {
+  "type": "lookup",
+  "q": "In the sheet 'For upload', for the row where 'Invoice number' is 5190040, what is the value of 'Invoice Amount'?",
+  "cell": "For upload!G13",
+  "key": {
+   "F": 5190040
+  },
+  "labels": [
+   "F13",
+   "G13",
+   "G1"
+  ],
+  "id": "q1",
+  "truth": 2103091.25
+ },
+ {
+  "type": "lookup",
+  "q": "In the sheet 'For upload', for the row where 'Invoice number' is 16645298, what is the value of 'Supplier'?",
+  "cell": "For upload!E17",
+  "key": {
+   "F": 16645298
+  },
+  "labels": [
+   "F17",
+   "E17",
+   "E1"
+  ],
+  "id": "q2",
+  "truth": "SCOTTISH GOVERNMENT"
+ },
+ {
+  "type": "address",
+  "q": "In the sheet 'For upload', which cell holds 'Postcode' for the row where 'Invoice number' is 'ARGI/00019766'? Give its cell address.",
+  "cell": "For upload!H29",
+  "key": {
+   "F": "ARGI/00019766"
+  },
+  "labels": [
+   "F29",
+   "H29",
+   "H1"
+  ],
+  "id": "q3",
+  "truth": "For upload!H29"
+ }
+]

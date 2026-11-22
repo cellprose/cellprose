@@ -1,0 +1,83 @@
+/* The site nav, drawn as an Excel ribbon (Ribbon.vue). Fixed at the top, right of the row gutter. Every part has a
+   fixed height, so switching tabs never moves the page: title 38 + tabs 40 + body 97 + formula bar 30 + columns 22. */
+:root { --vp-nav-height: 130px; } /* the ribbon starts closed; opening it adds the 97px body */
+.rbx{position:fixed;z-index:30;top:0;left:var(--sm-g);right:0;background:#fff;box-shadow:0 2px 6px -4px rgba(16,40,28,.25);font-family:var(--vp-font-family-base)}
+:where(.rbx) button{font:inherit} /* :where keeps this reset from outranking the per-button font sizes below */
+.rb-tell span{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rb-tell kbd{font:500 10.5px "Geist Mono",monospace;opacity:.8}
+.rb-tell:hover{background:rgba(255,255,255,.24)}
+.rb-tab.cur:not([aria-selected="true"]){color:#0b5a2f}
+.rb-big[aria-current="page"]{background:#dff3e7;border-color:#107c41}
+.rb-jump.ext{text-decoration:none}
+.rb-title{display:flex;align-items:center;gap:12px;height:38px;padding:0 12px;background:#107c41;color:#fff}
+.rb-logo{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:3px;background:#fff;color:#107c41;font:700 11px "Geist Mono",monospace}
+.rb-doc{color:#fff!important;text-decoration:none;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.rb-doc b{font-weight:600}
+.rb-tell{margin-left:auto;color:#d6f2e2;cursor:text;text-align:left;display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);border-radius:4px;height:27px;padding:0 10px;width:min(320px,36vw);font-size:13px}
+.rb-gh{color:#fff!important;text-decoration:none;border:1px solid rgba(255,255,255,.35);border-radius:3px;padding:3px 10px;font-size:12.5px;white-space:nowrap}
+.rb-gh:hover{background:rgba(255,255,255,.12)}
+.rb-tabs{display:flex;align-items:flex-end;height:40px;box-sizing:border-box;gap:2px;padding:0 8px;background:#fff;border-bottom:1px solid #d5ddd8;overflow-x:auto;scrollbar-width:none}
+.rb-tabs::-webkit-scrollbar{display:none}
+.rb-tab{border:0;background:transparent;padding:9px 13px 7px;font-size:13.5px;color:#13201a;white-space:nowrap;position:relative;cursor:pointer}
+.rb-tab:hover{background:#f3f6f4}
+.rb-tab[aria-selected="true"]{color:#0b5a2f;font-weight:600}
+.rb-tab[aria-selected="true"]::after{content:"";position:absolute;left:12px;right:12px;bottom:0;height:3px;border-radius:2px 2px 0 0;background:#107c41}
+.rb-tab.file{background:#107c41;color:#fff;border-radius:3px 3px 0 0;margin-right:6px}
+.rb-tab.file:hover{background:#0b5a2f}
+.rb-tab.ctx{color:#7a3d00;padding-top:15px;min-width:92px;height:39px;box-sizing:border-box}
+.rb-tab.ctx::before{content:attr(data-ctx);position:absolute;left:0;right:0;top:0;height:13px;background:#ffe36e;color:#5a3a00;font:600 9.5px/13px "Geist Mono",monospace;letter-spacing:.06em;text-transform:uppercase;text-align:center}
+.rb-tab.ctx[aria-selected="true"]{color:#7a3d00}
+.rb-tab.ctx[aria-selected="true"]::after{background:#e0a800}
+.rb-end{margin-left:auto;display:flex;align-items:center;gap:8px;padding:0 4px 6px}
+.rb-col{border:1px solid #d5ddd8;background:#fff;border-radius:3px;width:26px;height:24px;color:#55665d;cursor:pointer}
+.rb-body{background:#fff;border-bottom:1px solid #c3cec8;overflow-x:auto;overflow-y:hidden;min-height:97px;box-sizing:border-box}
+.rb-body[hidden]{display:none!important}
+.rb-panel{display:flex;align-items:stretch;height:96px;box-sizing:border-box;overflow:hidden;padding:6px 6px 0;width:max-content;min-width:100%}
+.rb-group{display:flex;flex-direction:column;padding:0 7px;border-right:1px solid #e3e9e5;flex:none}
+.rb-group:last-child{border-right:0}
+.rb-cmds{flex:1;display:flex;gap:3px;align-items:flex-start}
+.rb-cap{font-size:11.5px;color:#55665d;text-align:center;padding:3px 0 4px;white-space:nowrap}
+.rb-big{display:flex;flex-direction:column;align-items:center;gap:4px;border:1px solid #d5ddd8;background:#fff;border-radius:3px;padding:5px 7px;min-width:62px;max-width:88px;height:70px;font-size:12px;line-height:1.2;text-align:center;cursor:pointer;color:#13201a;box-shadow:0 1px 0 #d5ddd8}
+.rb-big svg{width:30px;height:30px;flex:none}
+.rb-big:hover{background:#e8f4ec;border-color:#9fd1b3}
+.rb-jumps{display:grid;grid-auto-flow:column;grid-template-rows:repeat(3,auto);gap:1px 6px}
+.rb-jump{display:flex;align-items:center;gap:6px;border:1px dashed transparent;background:transparent;border-radius:3px;padding:2px 8px 2px 4px;font-size:12.5px;height:23px;white-space:nowrap;cursor:pointer;color:#13201a;text-align:left}
+.rb-jump b{color:#107c41;font:600 12px "Geist Mono",monospace;width:12px;text-align:center}
+.rb-jump:hover{border-color:#107c41;background:#f3faf6}
+.rb-jump.here{background:#dff3e7}
+.rb-jump.ext b{font-size:11px}
+.rb-toggles{display:flex;flex-direction:column;gap:4px;padding-top:2px}
+.rb-toggles .lab{font-size:11px;color:#55665d}
+.rb-seg{display:inline-flex;border:1px solid #9fb2a8;border-radius:3px;overflow:hidden}
+.rb-seg button{border:0;border-right:1px solid #d5ddd8;background:#fff;padding:3px 10px;font-size:12.5px;cursor:pointer;color:#13201a;white-space:nowrap}
+.rb-seg button:last-child{border-right:0}
+.rb-seg button:hover{background:#e8f4ec}
+.rb-seg button[aria-pressed="true"]{background:#107c41;color:#fff;box-shadow:inset 0 2px 3px rgba(0,0,0,.25)}
+.rb-backstage{position:fixed;inset:0;z-index:60;display:grid;grid-template-columns:220px minmax(0,1fr);background:#fff}
+.rb-backstage[hidden]{display:none!important}
+.rb-bsnav{background:#107c41;color:#fff;display:flex;flex-direction:column;padding:10px 0}
+.rb-bsnav button{border:0;background:transparent;color:#fff;text-align:left;padding:10px 22px;font-size:14.5px;cursor:pointer}
+.rb-bsnav button:hover,.rb-bsnav button[aria-pressed="true"]{background:rgba(255,255,255,.14)}
+.rb-bsmain{padding:32px clamp(16px,4vw,48px);overflow:auto}
+.rb-bsmain h2{font-size:30px;margin:0 0 8px}
+.rb-recent{display:grid;gap:2px;max-width:640px;margin-top:18px}
+.rb-recent button{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:10px;align-items:center;padding:9px 10px;border:0;background:transparent;border-radius:3px;text-align:left;cursor:pointer;font-size:14px}
+.rb-recent button:hover{background:#e8f4ec}
+.rb-recent i{width:22px;height:26px;border-radius:2px;background:#107c41;color:#fff;font:700 9px/26px "Geist Mono",monospace;font-style:normal;text-align:center}
+.rb-recent small{color:#55665d;font-family:"Geist Mono",monospace}
+@media (max-width:760px){.rb-tell,@media (max-width:560px){.rb-gh{display:none}.rb-doc{color:#fff!important;text-decoration:none;font-size:12px}}
+
+
+/* Motion (motion.js): only set up when the reader's system allows motion. */
+body.mo .lfbar .fm::after{content:"";display:inline-block;width:1.5px;height:15px;margin-left:2px;vertical-align:-3px;background:#13201a;animation:mo-blink 1.06s steps(1) infinite}
+@keyframes mo-blink{50%{opacity:0}}
+.mo-ants{position:absolute;z-index:4;pointer-events:none;display:none;
+  background:linear-gradient(90deg,#107c41 50%,transparent 0) repeat-x 0 0/10px 2px,linear-gradient(90deg,#107c41 50%,transparent 0) repeat-x 0 100%/10px 2px,
+  linear-gradient(0deg,#107c41 50%,transparent 0) repeat-y 0 0/2px 10px,linear-gradient(0deg,#107c41 50%,transparent 0) repeat-y 100% 0/2px 10px;
+  animation:mo-march .5s linear infinite}
+@keyframes mo-march{to{background-position:10px 0,-10px 100%,0 -10px,100% 10px}}
+.lstat .mo-bar{display:none;width:70px;height:6px;border:1px solid rgba(255,255,255,.6);border-radius:3px;overflow:hidden;align-self:center;flex:none}
+.lstat .mo-bar i{display:block;height:100%;width:0;background:#eafff2}
+.lstat.calc .mo-bar{display:block}
+.lstat.calc .mo-bar i{animation:mo-fill 1.6s ease-in-out forwards}
+@keyframes mo-fill{to{width:100%}}

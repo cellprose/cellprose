@@ -1,0 +1,8 @@
+{
+ "title": "A reader decodes a file named `.cellprose.md` exactly like a `.sheet.md` file",
+ "spec": "§2",
+ "read": {
+  "input": "input.cellprose.md",
+  "expected": "decoded.json"
+ }
+}

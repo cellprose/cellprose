@@ -1,0 +1,12 @@
+{
+ "title": "Text that looks like another type, escapes, quotes, line breaks and Unicode",
+ "spec": "§5.3",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

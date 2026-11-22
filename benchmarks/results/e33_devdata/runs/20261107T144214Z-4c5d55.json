@@ -1,0 +1,81 @@
+{
+ "run": {
+  "run_id": "20261107T144214Z-4c5d55",
+  "started_at": "2026-11-07T14:42:14+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devdata",
+  "inputs_sha256": "8f2dfc187ecd6fcbe50c6f9073b724bf0b0ec4242a6c061a380dbb2d07709a78",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent"
+ },
+ "invocation": {
+  "argv": [
+   "--models",
+   "haiku55,gpt61sol",
+   "--workbooks",
+   "dev_d_20001_05_flash_report_62601,dev_d_aga_storage,dev_d_corpcontr_00_analysis,dev_d_eol_customers,dev_d_epe_may_2001,dev_d_homework_set_one,dev_d_pgtfuel,dev_d_rpt_pma_log_gas_three_rm,dev_d_scores99,dev_d_txrrc_stg",
+   "--variants",
+   "agent_xlsx,agent_xlsx_cellprose_idx,agent_xlsx_viewer",
+   "--reps",
+   "1",
+   "--out",
+   "results/e33_devdata",
+   "--max-usd",
+   "2.8"
+  ],
+  "models": [
+   "haiku55",
+   "gpt61sol"
+  ],
+  "workbooks": [
+   "dev_d_20001_05_flash_report_62601",
+   "dev_d_aga_storage",
+   "dev_d_corpcontr_00_analysis",
+   "dev_d_eol_customers",
+   "dev_d_epe_may_2001",
+   "dev_d_homework_set_one",
+   "dev_d_pgtfuel",
+   "dev_d_rpt_pma_log_gas_three_rm",
+   "dev_d_scores99",
+   "dev_d_txrrc_stg"
+  ],
+  "variants": [
+   "agent_xlsx",
+   "agent_xlsx_cellprose_idx",
+   "agent_xlsx_viewer"
+  ],
+  "reps": 1,
+  "first_rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0
+ },
+ "inputs": {
+  "digest": "8f2dfc187ecd6fcbe50c6f9073b724bf0b0ec4242a6c061a380dbb2d07709a78",
+  "files": {
+   "questions/dev_d_20001_05_flash_report_62601.json": "f82c5fd5dedfb516a40f131fe42cf257e9c66dc69c16c8070476cd80631cd4df",
+   "workbooks/dev_d_20001_05_flash_report_62601.xlsx": "fceb87422f65ee0cd26170963186da8dfe2e16dde2c8a62eb4c589a4afcd5801",
+   "questions/dev_d_aga_storage.json": "3f406ff7ec0bb5ca5e48f4d544d463988493c2d74942b20f81e641fcd1eb700b",
+   "workbooks/dev_d_aga_storage.xlsx": "79d93755b6e782e507f460ac8c34e9648d20a94cfcedf1a062f2c3b6cf6df484",
+   "questions/dev_d_corpcontr_00_analysis.json": "89c1537ffa0651ff64873f9630fde056e6bd330eac634464d02e23d44b1fc7be",
+   "workbooks/dev_d_corpcontr_00_analysis.xlsx": "53405d7dc64dd51440dc1bf5279568bc6b63601a12c555d0dbfb24ebbe267bac",
+   "questions/dev_d_eol_customers.json": "5de9b3296977653be07de3847eef879102dc058ce6cc7d937c8cebcd8d5f442e",
+   "workbooks/dev_d_eol_customers.xlsx": "e6763df70a5d23f3c5df0834ab8eceb6f05e3f79301bd530c81059ed926b8cb5",
+   "questions/dev_d_epe_may_2001.json": "5adf98dd91a69f35f50caace5796cb769059f75e40e387c79490e9821555ea56",
+   "workbooks/dev_d_epe_may_2001.xlsx": "e5771e05db08d990f12e1217c41af6a99fc534d6c030f0878d4b6aab2fbd9206",
+   "questions/dev_d_homework_set_one.json": "aec3253980bf14213910130aec5e394db6cd5c0c1c9c4a445d0d76ad1d5ae8c9",
+   "workbooks/dev_d_homework_set_one.xlsx": "235c9ee6ffa6f714c283c90e9c8e833b2be85277de294e9e89f49075b0479e12",
+   "questions/dev_d_pgtfuel.json": "01679e2c89fe8884926f5baf06c66348bc01d9bae1444c7a5236c548cb13324b",
+   "workbooks/dev_d_pgtfuel.xlsx": "27c04ee84b55c81e0ce518d7102555140503d4a21e57be04cbb9bba8352f7d4e",
+   "questions/dev_d_rpt_pma_log_gas_three_rm.json": "4b496d2f50c32ddca502aabe4ed356e694d9717f0df4de015dd4f554660ea825",
+   "workbooks/dev_d_rpt_pma_log_gas_three_rm.xlsx": "79c7b681321af6ea67f3f4c4b1e410f0917b73e7ea78b4baca8b6e640491c6f5",
+   "questions/dev_d_scores99.json": "62ef85d31e833030b58399ef9518737813deb08e20e48b5553ec8060f1fa2890",
+   "workbooks/dev_d_scores99.xlsx": "f563c084053d2c3eba8b36bab9368130f829b96a3ca4118793b5f51a99a9fbeb",
+   "questions/dev_d_txrrc_stg.json": "62fc06f65eb728fa83c5c3fee62fe5a8ad4273743594e07b3b727f7423436355",
+   "workbooks/dev_d_txrrc_stg.xlsx": "1b292d59da98cd7e99a82ed57d5bf8b74d90e0daf64f9e9f8d07ed782528ca7f"
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "model": "sonnet",
+ "workbook": "03_pnl_quarterly",
+ "encoding": "agent_xlsx",
+ "result": "{\"q1\":18531.648,\"q2\":243330.048,\"q3\":\"P&L!C6\",\"q4\":\"P&L!B12\",\"q5\":[\"P&L!D6\",\"P&L!D7\"],\"q6\":[\"P&L!B2\",\"P&L!B12\"],\"q7\":[\"P&L!C2:F2\",\"P&L!C4:F4\",\"P&L!C5:F5\",\"P&L!C6:F6\",\"P&L!C8:F8\",\"P&L!C9:F9\"],\"q8\":[\"P&L!B7:F7\",\"P&L!B8:F8\",\"P&L!B9:F9\"]}",
+ "usage": {
+  "input_tokens": 4,
+  "cache_creation_input_tokens": 3430,
+  "cache_read_input_tokens": 6139,
+  "output_tokens": 588,
+  "output_tokens_details": {
+   "thinking_tokens": 148
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3430,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 334,
+    "cache_read_input_tokens": 3986,
+    "cache_creation_input_tokens": 1597,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1597
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 1587,
+   "outputTokens": 309,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0003132,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 288,
+   "canonicalModel": "claude-haiku-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 4,
+   "outputTokens": 588,
+   "cacheReadInputTokens": 6139,
+   "cacheCreationInputTokens": 3430,
+   "webSearchRequests": 0,
+   "costUSD": 0.020835799999999998,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 148,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.021148999999999998,
+ "num_turns": 2,
+ "subtype": "success"
+}

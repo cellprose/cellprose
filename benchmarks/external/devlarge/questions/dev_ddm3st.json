@@ -1,0 +1,99 @@
+[
+ {
+  "type": "lookup",
+  "cell": "ddm3st.xls!D108",
+  "q": "What is the value in the row labelled 'Beta', column headed 'Growth Rate', in the sheet 'ddm3st.xls'?",
+  "truth": 1.1,
+  "labels": [
+   "B108",
+   "D88"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "ddm3st.xls!D85",
+  "q": "Which cell holds the value in the row labelled 'Current Earnings per share=', in the sheet 'ddm3st.xls'? Give its cell address.",
+  "truth": "ddm3st.xls!D85",
+  "labels": [
+   "B85"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "ddm3st.xls!L99",
+  "q": "Consider the cell ddm3st.xls!L99 (in the row labelled 'Dividends'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "ddm3st.xls!D92",
+   "ddm3st.xls!E33",
+   "ddm3st.xls!K99",
+   "ddm3st.xls!L97"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "ddm3st.xls!E107",
+  "q": "Consider the cell ddm3st.xls!E107 (in the row labelled 'Dividends'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "ddm3st.xls!E105",
+   "ddm3st.xls!E106",
+   "ddm3st.xls!E64"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "ddm3st.xls!E33",
+  "factor": 1.1,
+  "q": "Suppose the number in ddm3st.xls!E33 (in the row labelled 'Enter length of extraordinary growth period =') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "ddm3st.xls!C103",
+   "ddm3st.xls!C106",
+   "ddm3st.xls!C107",
+   "ddm3st.xls!C110",
+   "ddm3st.xls!D103",
+   "ddm3st.xls!D106",
+   "ddm3st.xls!D107",
+   "ddm3st.xls!D110",
+   "ddm3st.xls!E103",
+   "ddm3st.xls!E106",
+   "ddm3st.xls!E107",
+   "ddm3st.xls!E110",
+   "ddm3st.xls!E116",
+   "ddm3st.xls!F103",
+   "ddm3st.xls!F106",
+   "ddm3st.xls!F107",
+   "ddm3st.xls!F110",
+   "ddm3st.xls!F119",
+   "ddm3st.xls!F120",
+   "ddm3st.xls!F121",
+   "ddm3st.xls!G103",
+   "ddm3st.xls!G106",
+   "ddm3st.xls!G107",
+   "ddm3st.xls!G110",
+   "ddm3st.xls!H103",
+   "ddm3st.xls!H106",
+   "ddm3st.xls!H107",
+   "ddm3st.xls!H110",
+   "ddm3st.xls!I103",
+   "ddm3st.xls!I106",
+   "ddm3st.xls!I107",
+   "ddm3st.xls!I110",
+   "ddm3st.xls!J103",
+   "ddm3st.xls!J106",
+   "ddm3st.xls!J107",
+   "ddm3st.xls!J110"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "ddm3st.xls!L97",
+  "range": "ddm3st.xls!L97:L100",
+  "q": "Consider the range ddm3st.xls!L97:L100. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q6"
+ }
+]

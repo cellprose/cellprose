@@ -1,0 +1,152 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_ogl06_plymouth_spend",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 912,
+ "prompt_sha256": "0aa66f915cac439e38adcfcaaf60db11e34bae84983939fa1323c87c18db84a4",
+ "result": "{\"q1\":1299775.98,\"q2\":\"KNOWLEDGE ACADEMY LTD (THE)\",\"q3\":\"BI report!D262\"}",
+ "usage": {
+  "input_tokens": 4532,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 6518,
+  "output_tokens": 467,
+  "output_tokens_details": {
+   "thinking_tokens": 285
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 4532,
+   "outputTokens": 467,
+   "cacheReadInputTokens": 6518,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 285
+  }
+ },
+ "cost": 0.0013385,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_63cf097e6d5b43b1849af112d6d5fa5a",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 362,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 44,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 451,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 33,
+     "reasoning_tokens": 8,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3030,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 81,
+     "reasoning_tokens": 39,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 467,
+     "cache_read_tokens": 3027,
+     "cache_write_tokens": 0,
+     "output_tokens": 180,
+     "reasoning_tokens": 149,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 222,
+     "cache_read_tokens": 3491,
+     "cache_write_tokens": 0,
+     "output_tokens": 129,
+     "reasoning_tokens": 89,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:10:17+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.5
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l && python3 - <<'PY'\\nimport openpyxl, os\\nprint(os.listdir('.'))\\nPY\"}",
+   "output_chars": 85
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"head -40 book.sheet.md\"}",
+   "output_chars": 7894
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -nE '\\\\|(47168013|47248380|47401369)\\\\|' book.sheet.md\"}",
+   "output_chars": 1270
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"grep '^# Sheet\\\\|^## ' book.sheet.md\"}",
+   "output_chars": 78
+  }
+ ]
+}

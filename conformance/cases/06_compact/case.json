@@ -1,0 +1,12 @@
+{
+ "title": "Compact profile: middle rows elided; a reader must refuse the file",
+ "spec": "§9",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "rejects": true
+ }
+}

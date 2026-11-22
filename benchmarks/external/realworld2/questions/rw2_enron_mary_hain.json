@@ -1,0 +1,79 @@
+[
+ {
+  "type": "lookup",
+  "cell": "MAR7!AG93",
+  "q": "What is the value in the row labelled 'ADMINISTRATIVE CHARGE', in the sheet 'MAR7'?",
+  "truth": 41.4491,
+  "labels": [
+   "AF93"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "MAR7!E5",
+  "q": "Which cell holds the value in the row labelled 'Financial', in the sheet 'MAR7'? Give its cell address.",
+  "truth": "MAR7!E5",
+  "labels": [
+   "B5"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "MAR7!X69",
+  "q": "Consider the cell MAR7!X69. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "MAR7!AA63",
+   "MAR7!AA64",
+   "MAR7!AA65",
+   "MAR7!AA66",
+   "MAR7!AA67",
+   "MAR7!AA68"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "MAR7!AA69",
+  "q": "Consider the cell MAR7!AA69. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "MAR7!AD63",
+   "MAR7!AD64",
+   "MAR7!AD65",
+   "MAR7!AD66",
+   "MAR7!AD67",
+   "MAR7!AD68"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "MAR7!AB39",
+  "factor": 1.1,
+  "q": "Suppose the number in MAR7!AB39 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "MAR7!AB40",
+   "MAR7!AB42",
+   "MAR7!AG40",
+   "MAR7!AG42",
+   "MAR7!AG92",
+   "MAR7!AG93",
+   "MAR7!AG94",
+   "MAR7!E5",
+   "MAR7!E7",
+   "MAR7!E9"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "MAR7!Q84",
+  "range": "MAR7!Q84:Q88",
+  "q": "Consider the range MAR7!Q84:Q88. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "MAR7!Q85"
+  ],
+  "id": "q6"
+ }
+]

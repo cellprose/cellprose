@@ -1,0 +1,171 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_normearn",
+ "encoding": "agent_cellprose_v03",
+ "prompt_chars": 1300,
+ "prompt_sha256": "64b33cb5cc601743bfa1bab8aa4ae3e287f158306b67066c42ad188ef71396b6",
+ "result": "{\"q1\":0.21457200226403,\"q2\":\"R&D converter!B128\",\"q3\":[\"R&D converter!B33\",\"R&D converter!C33\"],\"q4\":[\"R&D converter!A30\",\"R&D converter!F6\"],\"q5\":[\"Operating lease converter!B26\",\"Operating lease converter!C26\",\"Operating lease converter!C30\",\"Operating lease converter!F33\",\"Operating lease converter!F34\",\"Operating lease converter!F35\"],\"q6\":[\"Earnings Normalizer & Output!B19\",\"Earnings Normalizer & Output!C19\",\"Earnings Normalizer & Output!D19\",\"Earnings Normalizer & Output!E19\",\"Earnings Normalizer & Output!F19\"]}",
+ "usage": {
+  "input_tokens": 12866,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 25082,
+  "output_tokens": 1619,
+  "output_tokens_details": {
+   "thinking_tokens": 1223
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 12866,
+   "outputTokens": 1619,
+   "cacheReadInputTokens": 25082,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1223
+  }
+ },
+ "cost": 0.0046043,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_695f4bed7cad494a86a31e0efdcdffc0",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 440,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 32,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1235,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 45,
+     "reasoning_tokens": 12,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 404,
+     "cache_read_tokens": 1232,
+     "cache_write_tokens": 0,
+     "output_tokens": 68,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 8705,
+     "cache_read_tokens": 1633,
+     "cache_write_tokens": 0,
+     "output_tokens": 106,
+     "reasoning_tokens": 54,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 1550,
+     "cache_read_tokens": 10335,
+     "cache_write_tokens": 0,
+     "output_tokens": 293,
+     "reasoning_tokens": 246,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 532,
+     "cache_read_tokens": 11882,
+     "cache_write_tokens": 0,
+     "output_tokens": 1075,
+     "reasoning_tokens": 911,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.002347
+  },
+  "finished_at": "2026-11-11T16:38:11+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 42.5
+ },
+ "num_turns": 6,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l && file book.sheet.md && head -80 book.sheet.md\"}",
+   "output_chars": 2844
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n '^# Sheet:\\\\|^## ' book.sheet.md\"}",
+   "output_chars": 743
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '41,124p' book.sheet.md; sed -n '198,314p' book.sheet.md; sed -n '460,607p' book.sheet.md; sed -n '763,880p' book.sheet.md\"}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '315,460p' book.sheet.md; grep -n -A40 '^# Sheet: Industry averages' book.sheet.md | tail -5\"}",
+   "output_chars": 3827
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n -E \\\"Operating lease converter|B8|C30|F33|F34|F35\\\" book.sheet.md\"}",
+   "output_chars": 555
+  }
+ ]
+}

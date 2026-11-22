@@ -1,0 +1,12 @@
+{
+ "title": "Formula results below 0.1 keep 6 significant figures (not 6 decimals); typed values stay exact",
+ "spec": "§5.3",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

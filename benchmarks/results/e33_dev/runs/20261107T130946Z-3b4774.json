@@ -1,0 +1,77 @@
+{
+ "run": {
+  "run_id": "20261107T130946Z-3b4774",
+  "started_at": "2026-11-07T13:09:46+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "86fd51349b29cc81ee8ae533feb2ddae5ce8a31dfaf7619d70f8a0276a9ad6c6",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0"
+ },
+ "invocation": {
+  "argv": [
+   "--models",
+   "haiku55,gpt61sol",
+   "--workbooks",
+   "dev_apv,dev_ddm3st,dev_divginzu,dev_dividends,dev_fcfe3st,dev_fcfeginzu,dev_fcffginzulambda,dev_fcffneg,dev_histretsp,dev_riskchecker",
+   "--encs",
+   "sheetmark_v031",
+   "--reps",
+   "1",
+   "--out",
+   "results/e33_dev",
+   "--max-usd",
+   "2"
+  ],
+  "models": [
+   "haiku55",
+   "gpt61sol"
+  ],
+  "workbooks": [
+   "dev_apv",
+   "dev_ddm3st",
+   "dev_divginzu",
+   "dev_dividends",
+   "dev_fcfe3st",
+   "dev_fcfeginzu",
+   "dev_fcffginzulambda",
+   "dev_fcffneg",
+   "dev_histretsp",
+   "dev_riskchecker"
+  ],
+  "encodings": [
+   "sheetmark_v031"
+  ],
+  "reps": 1,
+  "first_rep": 0
+ },
+ "inputs": {
+  "digest": "86fd51349b29cc81ee8ae533feb2ddae5ce8a31dfaf7619d70f8a0276a9ad6c6",
+  "files": {
+   "questions/dev_apv.json": "52be853ea1fd4feef74e8371ea059d14c0a6843aa7b821247b0c726eec9898c3",
+   "encoded/dev_apv.sheetmark_v031.txt": "f5447b6e0c15c9f9aaed6bb3fa226659d83d42cdcac440daaa7e40ddfa38c3d2",
+   "questions/dev_ddm3st.json": "dd091bbd209a44786c6a55e2f6f06de7dfdb72686a26ce6e6e87176c0e6317f2",
+   "encoded/dev_ddm3st.sheetmark_v031.txt": "3b1bdd1856ebe52234f320fafd9c313053539d82dd844b219726aa1b97905764",
+   "questions/dev_divginzu.json": "792c0ad85b7dfbd9edb495bbf2794bbe8ca40a2380235d3feaff14caccdf29b5",
+   "encoded/dev_divginzu.sheetmark_v031.txt": "395f2564f1268040af6995844b07aa93310cdc6c1148ec736c4850608f4aa62a",
+   "questions/dev_dividends.json": "2f1000c1b190f70140890dfd69d43eef17be2e592e5ef6ac90b65cbd6d0cbb4f",
+   "encoded/dev_dividends.sheetmark_v031.txt": "4fefb4d9d752b44996c6bee3dcd94103f549b6dd65b8ff67e59a5f173fd4540b",
+   "questions/dev_fcfe3st.json": "28c8b1d0f4093bd8dc1994516d18f621a0ea03dfce4eb7ebd694065680b82be7",
+   "encoded/dev_fcfe3st.sheetmark_v031.txt": "5dbfe3a821ea7e62852bb99a29aef2d188977af7ad6c50858c1c224c23248623",
+   "questions/dev_fcfeginzu.json": "1fc5154392ef4602a81754ee5422e17096834a929d5e67684d524beb53979481",
+   "encoded/dev_fcfeginzu.sheetmark_v031.txt": "95b486919ebda626c708ff00882f8afdccd1622ad99f008983e18fa14b2e700b",
+   "questions/dev_fcffginzulambda.json": "0928763867d4a2b1cacdcc18181ad88835ef8f06a582df20faa103b094d743e9",
+   "encoded/dev_fcffginzulambda.sheetmark_v031.txt": "78107314c345a43e56d2c6a8af5080fe094f2a6793eae137d68a5934409b3c5d",
+   "questions/dev_fcffneg.json": "6512d2c3cc65c302ab93490be09091bcc2d6cfc6414f643e1f9708c3155761ee",
+   "encoded/dev_fcffneg.sheetmark_v031.txt": "089293ca22122e59dc70694e4357cb56b802c8a54e9fd1f15a3e8166da0ee464",
+   "questions/dev_histretsp.json": "c7ea92bbcadb182796a394f34cdb7905813446e0774af33b1b5f1402057dfbf3",
+   "encoded/dev_histretsp.sheetmark_v031.txt": "2f4d43965d3fc5af266552a4e933e5bd62017e5df5ded0b70d926ca7037b4190",
+   "questions/dev_riskchecker.json": "404d71e6e095aeb5fd7fe0131bc5423b518608064bd19ac2da17a396800d9719",
+   "encoded/dev_riskchecker.sheetmark_v031.txt": "1b150d408aac542ea5f5133e466a0f16326a64b7b3f085e1b9a5d03e2fd34df7"
+  }
+ }
+}

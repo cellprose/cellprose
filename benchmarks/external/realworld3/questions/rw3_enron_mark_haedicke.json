@@ -1,0 +1,81 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Detail!G21",
+  "q": "What is the value in the row labelled 'Regular - USE INPUT AREA BELOW', column headed 'MAR', in the sheet 'Detail'?",
+  "truth": 87256,
+  "labels": [
+   "B21",
+   "G9"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Detail!M32",
+  "q": "Which cell holds the value in the row labelled 'BENEFITS - CALCULATED, U.S. EMPLOYEES', column headed 'SEP', in the sheet 'Detail'? Give its cell address.",
+  "truth": "Detail!M32",
+  "labels": [
+   "B32",
+   "M9"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Detail!F216",
+  "q": "Consider the cell Detail!F216 (in the row labelled 'Employee 5'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Detail!E216",
+   "Detail!F188"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Detail!O235",
+  "q": "Consider the cell Detail!O235 (in the row labelled 'Employee 24'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Detail!N235",
+   "Detail!O207"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Headcount!M8",
+  "factor": 1.1,
+  "q": "Suppose the number in Headcount!M8 (in the row labelled 'Full Time') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Headcount!M13",
+   "Headcount!M15",
+   "Headcount!M28",
+   "Headcount!M33",
+   "Headcount!M35"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Detail!C154",
+  "range": "Detail!C154:S154",
+  "q": "Consider the range Detail!C154:S154 (the row of 'Other'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Detail!C154",
+   "Detail!D154",
+   "Detail!E154",
+   "Detail!F154",
+   "Detail!G154",
+   "Detail!H154",
+   "Detail!I154",
+   "Detail!J154",
+   "Detail!K154",
+   "Detail!L154",
+   "Detail!M154",
+   "Detail!N154",
+   "Detail!O154",
+   "Detail!P154"
+  ],
+  "id": "q6"
+ }
+]

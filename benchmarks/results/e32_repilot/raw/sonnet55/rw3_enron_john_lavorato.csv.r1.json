@@ -1,0 +1,79 @@
+{
+ "model": "sonnet55",
+ "workbook": "rw3_enron_john_lavorato",
+ "encoding": "csv",
+ "prompt_chars": 48701,
+ "prompt_sha256": "79904f8366bb4151d95bc49673956b3bee19310e1dc750d784dd2bb3eb86f9c9",
+ "result": "```json\n{\n  \"q1\": 391.618944,\n  \"q2\": \"Summary by Status!H15\",\n  \"q3\": [\"Cost Cancel Details!AT8\", \"Cost Cancel Details!AS8\"],\n  \"q4\": [\"Cost Cancel Details!AG14\", \"Cost Cancel Details!AH13\"],\n  \"q5\": [\n    \"Cost Cancel Details!AI63\",\n    \"Cost Cancel Details!AJ63\",\n    \"Cost Cancel Details!AI67\",\n    \"Cost Cancel Details!AI120\",\n    \"Cost Cancel Details!AI124\",\n    \"Cost Cancel Details!AI125\",\n    \"Cost Cancel Details!AI129\",\n    \"Cost Cancel Details!AI130\"\n  ],\n  \"q6\": [\"Cost Cancel Details!AE101\", \"Cost Cancel Details!AE104\"]\n}\n```\n\nThe workbook is plain CSV with no formulas, so I inferred the formula structure of the Cost Cancel Details sheet and the answers to q3\u2013q6 are best guesses. q1 and q2 come straight from the sheet text. The inferred structure is:\n- Cumulative progress payments are the previous cumulative plus the current-period progress payment.\n- Cumulative cancellation is typed in, and the period % cancellation is its difference from the prior period.",
+ "usage": {
+  "input_tokens": 36142,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 7838,
+  "output_tokens_details": {
+   "thinking_tokens": 7390
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 36142,
+   "outputTokens": 7838,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 7390
+  }
+ },
+ "cost": 0.150664,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261107T122306Z-d53e1d",
+  "started_at": "2026-11-07T12:23:06+00:00",
+  "git_sha": "d521625",
+  "git_dirty": false,
+  "corpus": "external/realworld3",
+  "inputs_sha256": "97799dc7cae4419ad17ce7400209690855e6f4d90d97802d658ce3352d442245",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 1,
+  "wall_seconds": 72.1,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 36142,
+   "output_tokens": 7838,
+   "output_tokens_details": {
+    "thinking_tokens": 7390
+   },
+   "server_tool_use": null,
+   "service_tier": "standard",
+   "speed": "standard",
+   "tokenizer": "anthropic count_tokens",
+   "tokenizer_input_tokens": 36142
+  },
+  "finished_at": "2026-11-07T12:26:10+00:00"
+ }
+}

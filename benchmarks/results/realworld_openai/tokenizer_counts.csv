@@ -1,0 +1,7 @@
+model,encoding,n,billed_in,tokenizer_count,tokenizer,count_vs_billed,count_vs_csv
+gpt61sol,csv,17,30458.352941176472,30447.352941176472,o200k_base (tiktoken),1.0,1.0
+gpt61sol,markitdown,17,38021.705882352944,38010.705882352944,o200k_base (tiktoken),1.0,1.248
+gpt61sol,sheetmark_lean_gfm,17,34809.117647058825,34798.117647058825,o200k_base (tiktoken),1.0,1.143
+gpt6luna,csv,17,30458.352941176472,30447.352941176472,o200k_base (tiktoken),1.0,1.0
+gpt6luna,markitdown,17,38021.705882352944,38010.705882352944,o200k_base (tiktoken),1.0,1.248
+gpt6luna,sheetmark_lean_gfm,17,34809.117647058825,34798.117647058825,o200k_base (tiktoken),1.0,1.143

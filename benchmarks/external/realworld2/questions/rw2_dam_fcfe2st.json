@@ -1,0 +1,86 @@
+[
+ {
+  "type": "lookup",
+  "cell": "NewFCFE2Stage!D27",
+  "q": "What is the value in the row labelled 'Chg. Working Capital/share =', in the sheet 'NewFCFE2Stage'?",
+  "truth": 1,
+  "labels": [
+   "B27"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "trace",
+  "cell": "NewFCFE2Stage!F132",
+  "q": "Consider the cell NewFCFE2Stage!F132 (in the row labelled 'Value of the stock ='). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "NewFCFE2Stage!F130",
+   "NewFCFE2Stage!F131"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "NewFCFE2Stage!D113",
+  "q": "Consider the cell NewFCFE2Stage!D113 (in the row labelled 'Growth rate in depreciation ='). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "NewFCFE2Stage!D108",
+   "NewFCFE2Stage!D75",
+   "NewFCFE2Stage!F72"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "impact",
+  "cell": "NewFCFE2Stage!E50",
+  "factor": 1.1,
+  "q": "Suppose the number in NewFCFE2Stage!E50 (in the row labelled 'Book Value of Equity =') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "NewFCFE2Stage!C53",
+   "NewFCFE2Stage!C57",
+   "NewFCFE2Stage!D107",
+   "NewFCFE2Stage!D108",
+   "NewFCFE2Stage!D119",
+   "NewFCFE2Stage!D122",
+   "NewFCFE2Stage!D123",
+   "NewFCFE2Stage!E119",
+   "NewFCFE2Stage!E122",
+   "NewFCFE2Stage!E123",
+   "NewFCFE2Stage!E126",
+   "NewFCFE2Stage!E128",
+   "NewFCFE2Stage!E138",
+   "NewFCFE2Stage!E139",
+   "NewFCFE2Stage!F119",
+   "NewFCFE2Stage!F122",
+   "NewFCFE2Stage!F123",
+   "NewFCFE2Stage!F130",
+   "NewFCFE2Stage!F131",
+   "NewFCFE2Stage!F132",
+   "NewFCFE2Stage!G119",
+   "NewFCFE2Stage!G122",
+   "NewFCFE2Stage!G123",
+   "NewFCFE2Stage!H119",
+   "NewFCFE2Stage!H122",
+   "NewFCFE2Stage!H123",
+   "NewFCFE2Stage!N119",
+   "NewFCFE2Stage!N120",
+   "NewFCFE2Stage!N122"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "hardcode",
+  "cell": "NewFCFE2Stage!D21",
+  "range": "NewFCFE2Stage!D21:D27",
+  "q": "Consider the range NewFCFE2Stage!D21:D27. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "NewFCFE2Stage!D21",
+   "NewFCFE2Stage!D22",
+   "NewFCFE2Stage!D23",
+   "NewFCFE2Stage!D24",
+   "NewFCFE2Stage!D25",
+   "NewFCFE2Stage!D27"
+  ],
+  "id": "q5"
+ }
+]

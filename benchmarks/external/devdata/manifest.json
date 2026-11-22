@@ -1,0 +1,205 @@
+{
+ "about": "Written by external/realworld2.py build.",
+ "workbooks": {
+  "dev_d_20001_05_flash_report_62601": {
+   "source": "enron",
+   "file": "enron__stacey_white__38830__20001 05 flash Report 62601 .xlsx",
+   "sha256": "fceb87422f65ee0cd26170963186da8dfe2e16dde2c8a62eb4c589a4afcd5801",
+   "original": "stacey_white__38830__20001 05 flash Report 62601 .xlsx",
+   "original_sha256": "fceb87422f65ee0cd26170963186da8dfe2e16dde2c8a62eb4c589a4afcd5801",
+   "formula_cells": 105,
+   "tokens_o200k_v03": 35495,
+   "v03_over_csv": 1.016,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "dev_d_aga_storage": {
+   "source": "enron",
+   "file": "enron__joe_parks__14611__AGA_STORAGE.xlsx",
+   "sha256": "79d93755b6e782e507f460ac8c34e9648d20a94cfcedf1a062f2c3b6cf6df484",
+   "original": "joe_parks__14611__AGA_STORAGE.xlsx",
+   "original_sha256": "79d93755b6e782e507f460ac8c34e9648d20a94cfcedf1a062f2c3b6cf6df484",
+   "formula_cells": 125,
+   "tokens_o200k_v03": 12186,
+   "v03_over_csv": 1.112,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "dev_d_corpcontr_00_analysis": {
+   "source": "enron",
+   "file": "enron__richard_shapiro__32164__CorpContr'00 analysis.xlsx",
+   "sha256": "53405d7dc64dd51440dc1bf5279568bc6b63601a12c555d0dbfb24ebbe267bac",
+   "original": "richard_shapiro__32164__CorpContr'00 analysis.xlsx",
+   "original_sha256": "53405d7dc64dd51440dc1bf5279568bc6b63601a12c555d0dbfb24ebbe267bac",
+   "formula_cells": 157,
+   "tokens_o200k_v03": 7965,
+   "v03_over_csv": 1.161,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "dev_d_eol_customers": {
+   "source": "enron",
+   "file": "enron__hunter_shively__12726__EOL Customers.xlsx",
+   "sha256": "e6763df70a5d23f3c5df0834ab8eceb6f05e3f79301bd530c81059ed926b8cb5",
+   "original": "hunter_shively__12726__EOL Customers.xlsx",
+   "original_sha256": "e6763df70a5d23f3c5df0834ab8eceb6f05e3f79301bd530c81059ed926b8cb5",
+   "formula_cells": 4716,
+   "tokens_o200k_v03": 28433,
+   "v03_over_csv": 1.23,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "dev_d_epe_may_2001": {
+   "source": "enron",
+   "file": "enron__geir_solberg__11249__EPE_MAY_2001.xlsx",
+   "sha256": "e5771e05db08d990f12e1217c41af6a99fc534d6c030f0878d4b6aab2fbd9206",
+   "original": "geir_solberg__11249__EPE_MAY_2001.xlsx",
+   "original_sha256": "e5771e05db08d990f12e1217c41af6a99fc534d6c030f0878d4b6aab2fbd9206",
+   "formula_cells": 1095,
+   "tokens_o200k_v03": 65979,
+   "v03_over_csv": 1.169,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "dev_d_homework_set_one": {
+   "source": "enron",
+   "file": "enron__jeffrey_a_shankman__13990__Homework set one.xlsx",
+   "sha256": "235c9ee6ffa6f714c283c90e9c8e833b2be85277de294e9e89f49075b0479e12",
+   "original": "jeffrey_a_shankman__13990__Homework set one.xlsx",
+   "original_sha256": "235c9ee6ffa6f714c283c90e9c8e833b2be85277de294e9e89f49075b0479e12",
+   "formula_cells": 1505,
+   "tokens_o200k_v03": 7875,
+   "v03_over_csv": 0.994,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "dev_d_pgtfuel": {
+   "source": "enron",
+   "file": "enron__barry_tycholiz__882__PGTfuel.xlsx",
+   "sha256": "27c04ee84b55c81e0ce518d7102555140503d4a21e57be04cbb9bba8352f7d4e",
+   "original": "barry_tycholiz__882__PGTfuel.xlsx",
+   "original_sha256": "27c04ee84b55c81e0ce518d7102555140503d4a21e57be04cbb9bba8352f7d4e",
+   "formula_cells": 7106,
+   "tokens_o200k_v03": 52662,
+   "v03_over_csv": 1.077,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "dev_d_rpt_pma_log_gas_three_rm": {
+   "source": "enron",
+   "file": "enron__jason_wolfe__13350__Rpt PMA Log Gas Three RM.xlsx",
+   "sha256": "79c7b681321af6ea67f3f4c4b1e410f0917b73e7ea78b4baca8b6e640491c6f5",
+   "original": "jason_wolfe__13350__Rpt PMA Log Gas Three RM.xlsx",
+   "original_sha256": "79c7b681321af6ea67f3f4c4b1e410f0917b73e7ea78b4baca8b6e640491c6f5",
+   "formula_cells": 117,
+   "tokens_o200k_v03": 51564,
+   "v03_over_csv": 1.195,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "dev_d_scores99": {
+   "source": "enron",
+   "file": "enron__jeff_dasovich__14092__Scores99.xlsx",
+   "sha256": "f563c084053d2c3eba8b36bab9368130f829b96a3ca4118793b5f51a99a9fbeb",
+   "original": "jeff_dasovich__14092__Scores99.xlsx",
+   "original_sha256": "f563c084053d2c3eba8b36bab9368130f829b96a3ca4118793b5f51a99a9fbeb",
+   "formula_cells": 757,
+   "tokens_o200k_v03": 11562,
+   "v03_over_csv": 1.121,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  },
+  "dev_d_txrrc_stg": {
+   "source": "enron",
+   "file": "enron__jim_schwieger__14385__TXRRC_STG.xlsx",
+   "sha256": "1b292d59da98cd7e99a82ed57d5bf8b74d90e0daf64f9e9f8d07ed782528ca7f",
+   "original": "jim_schwieger__14385__TXRRC_STG.xlsx",
+   "original_sha256": "1b292d59da98cd7e99a82ed57d5bf8b74d90e0daf64f9e9f8d07ed782528ca7f",
+   "formula_cells": 1464,
+   "tokens_o200k_v03": 31588,
+   "v03_over_csv": 1.098,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": true
+  }
+ }
+}

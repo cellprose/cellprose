@@ -1,0 +1,65 @@
+{
+ "model": "haiku45",
+ "workbook": "01_sales_log",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 10244,
+ "result": "```json\n{\n  \"q1\": 741,\n  \"q2\": 59,\n  \"q3\": 159288,\n  \"q4\": \"Sales!H78\",\n  \"q5\": \"Sales!F153\",\n  \"q6\": [\"Sales!F43\", \"Sales!G43\"],\n  \"q7\": [\"Sales!H43\", \"Sales!F153\", \"Sales!H153\"]\n}\n```",
+ "usage": {
+  "input_tokens": 5614,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1108,
+  "output_tokens_details": {
+   "thinking_tokens": 1001
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 5614,
+   "outputTokens": 1108,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1001
+  }
+ },
+ "cost": 0.011154,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T071817Z-5abf8a",
+  "started_at": "2026-10-09T07:18:17+00:00",
+  "git_sha": "078f172",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 10.4,
+  "requested_model": "claude-haiku-4-5-20251001",
+  "returned_model": "claude-haiku-4-5-20251001",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "enabled",
+    "budget_tokens": 16000
+   }
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "not_available",
+   "input_tokens": 5614,
+   "output_tokens": 1108,
+   "output_tokens_details": {
+    "thinking_tokens": 1001
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T07:18:27+00:00"
+ }
+}

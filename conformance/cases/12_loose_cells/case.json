@@ -1,0 +1,12 @@
+{
+ "title": "Loose cells: every value kind, escaping, formulas with and without a cached value, row-major order, number formats",
+ "spec": "§8",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

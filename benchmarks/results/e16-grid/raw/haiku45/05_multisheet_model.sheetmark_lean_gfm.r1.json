@@ -1,0 +1,65 @@
+{
+ "model": "haiku45",
+ "workbook": "05_multisheet_model",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2269,
+ "result": "```json\n{\n  \"q1\": 256721,\n  \"q2\": 226600,\n  \"q3\": \"Summary!C5\",\n  \"q4\": [\"Summary!B2\", \"Summary!B3\"],\n  \"q5\": [\"Revenue!C5\", \"Inputs!B11\"],\n  \"q6\": [\"Costs!B3:D4\", \"Summary!B3:D6\"],\n  \"q7\": [\"Revenue!B3:D3\", \"Revenue!B5:D5\", \"Costs!B2:D2\", \"Costs!B4:D4\", \"Summary!B2:D6\"]\n}\n```",
+ "usage": {
+  "input_tokens": 1064,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 6265,
+  "output_tokens_details": {
+   "thinking_tokens": 6105
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 1064,
+   "outputTokens": 6265,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 6105
+  }
+ },
+ "cost": 0.032389,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T102109Z-d2d3b9",
+  "started_at": "2026-10-09T10:21:09+00:00",
+  "git_sha": "c5cb767",
+  "anthropic_sdk": "1.12.1",
+  "rep": 1,
+  "wall_seconds": 41.1,
+  "requested_model": "claude-haiku-4-5-20251001",
+  "returned_model": "claude-haiku-4-5-20251001",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "enabled",
+    "budget_tokens": 16000
+   }
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "not_available",
+   "input_tokens": 1064,
+   "output_tokens": 6265,
+   "output_tokens_details": {
+    "thinking_tokens": 6105
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:29:04+00:00"
+ }
+}

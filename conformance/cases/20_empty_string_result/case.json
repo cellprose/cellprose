@@ -1,0 +1,12 @@
+{
+ "title": "A formula that calculates to the empty string is an empty cell, not `?`; no recalculation note",
+ "spec": "\u00a75.3",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_dam_fcffeva",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1422,
+ "prompt_sha256": "3ee744f4de1b6b1081d5a09c7f4eafe1d4964f899c895c85f5c3e5f0dd44a3b3",
+ "result": "{\"q1\": 12406, \"q2\": \"FCFF Valuation!B42\", \"q3\": [\"FCFF Valuation!E23\", \"FCFF Valuation!E15\", \"FCFF Valuation!L30\", \"FCFF Valuation!I30\"], \"q4\": [\"FCFF Valuation!B42\", \"FCFF Valuation!E15\"], \"q5\": [\"FCFF Valuation!L35\", \"FCFF Valuation!H35\", \"FCFF Valuation!I35\", \"FCFF Valuation!J35\", \"FCFF Valuation!K35\", \"FCFF Valuation!H36\", \"FCFF Valuation!I36\", \"FCFF Valuation!J36\", \"FCFF Valuation!K36\", \"FCFF Valuation!L36\", \"FCFF Valuation!H37\", \"FCFF Valuation!I37\", \"FCFF Valuation!J37\", \"FCFF Valuation!K37\", \"FCFF Valuation!L37\", \"FCFF Valuation!H40\", \"FCFF Valuation!I40\", \"FCFF Valuation!J40\", \"FCFF Valuation!K40\", \"FCFF Valuation!L40\", \"FCFF Valuation!H44\", \"FCFF Valuation!I44\", \"FCFF Valuation!J44\", \"FCFF Valuation!K44\", \"FCFF Valuation!L44\", \"FCFF Valuation!L45\", \"FCFF Valuation!H55\", \"FCFF Valuation!I55\", \"FCFF Valuation!J55\", \"FCFF Valuation!K55\", \"FCFF Valuation!L55\", \"FCFF Valuation!C58\", \"FCFF Valuation!C60\", \"FCFF Valuation!C61\", \"FCFF Valuation!C65\", \"FCFF Valuation!D65\", \"FCFF Valuation!E65\", \"FCFF Valuation!F65\", \"FCFF Valuation!G65\", \"FCFF Valuation!H65\", \"FCFF Valuation!I65\", \"FCFF Valuation!J65\", \"FCFF Valuation!K65\", \"FCFF Valuation!L65\", \"FCFF Valuation!H66\", \"FCFF Valuation!I66\", \"FCFF Valuation!J66\", \"FCFF Valuation!K66\", \"FCFF Valuation!L66\"], \"q6\": [\"FCFF Valuation!I30\"]}",
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 10234,
+  "cache_read_input_tokens": 9932,
+  "output_tokens": 2379,
+  "output_tokens_details": {
+   "thinking_tokens": 1489
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 2379,
+   "cacheReadInputTokens": 9932,
+   "cacheCreationInputTokens": 10234,
+   "thinkingTokens": 1489
+  }
+ },
+ "cost": 0.0032069000000000004,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 1245,
+     "output_tokens": 59,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 1245,
+     "cache_write_tokens": 7442,
+     "output_tokens": 1539,
+     "reasoning_tokens": 1489,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 8687,
+     "cache_write_tokens": 1547,
+     "output_tokens": 781,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.002569
+  },
+  "finished_at": "2026-11-11T16:50:08+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 2,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.1
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"FCFF Valuation\"}",
+   "output_chars": 11101
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"echo ok\"}",
+   "output_chars": 3
+  }
+ ]
+}

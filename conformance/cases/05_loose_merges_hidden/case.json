@@ -1,0 +1,12 @@
+{
+ "title": "Loose cells with formats, merged range, hidden sheet, sheet-scoped name, quoted sheet name",
+ "spec": "§4, §8",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

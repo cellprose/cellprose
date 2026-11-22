@@ -1,0 +1,133 @@
+
+== one-shot, standard (vs CSV)
+    model      encoding  n  acc       tokens  tokens_vs  tout_vs     cost  cost_vs  cost_per_correct_vs
+gpt61sol cellprose_v03 90 99.3 19377.777778       47.0    -69.0 0.041851     15.0                 -3.0
+gpt61sol           csv 90 84.1 13151.222222        0.0      0.0 0.036362      0.0                  0.0
+gpt61sol    markitdown 90 85.7 25395.211111       93.0    -10.0 0.059867     65.0                 61.0
+gpt6luna cellprose_v03 90 93.8 20374.733333       22.0    -71.0 0.002591    -28.0                -44.0
+gpt6luna           csv 90 73.3 16742.600000        0.0      0.0 0.003614      0.0                  0.0
+gpt6luna    markitdown 90 73.9 28547.988889       71.0    -12.0 0.004570     26.0                 25.0
+ haiku55 cellprose_v03 90 96.5 25576.766667       18.0    -44.0 0.005136     39.0                 -5.0
+ haiku55           csv 90 65.9 21735.933333        0.0      0.0 0.003690      0.0                  0.0
+ haiku55    markitdown 90 70.0 35648.466667       64.0     -7.0 0.011670    216.0                198.0
+sonnet55 cellprose_v03 90 99.2 24388.122222        9.0    -79.0 0.056289    -30.0                -42.0
+sonnet55           csv 90 82.6 22395.600000        0.0      0.0 0.080394      0.0                  0.0
+sonnet55    markitdown 90 81.1 36154.755556       61.0     -9.0 0.104706     30.0                 33.0
+
+== one-shot, all (vs CSV)
+    model      encoding  n  acc       tokens  tokens_vs  tout_vs     cost  cost_vs  cost_per_correct_vs
+gpt61sol cellprose_v03 90 99.3 19377.777778       47.0    -69.0 0.041851     15.0                 -3.0
+gpt61sol           csv 90 84.1 13151.222222        0.0      0.0 0.036362      0.0                  0.0
+gpt61sol    markitdown 90 85.7 25395.211111       93.0    -10.0 0.059867     65.0                 61.0
+gpt6luna cellprose_v03 90 93.8 20374.733333       22.0    -71.0 0.002591    -28.0                -44.0
+gpt6luna           csv 90 73.3 16742.600000        0.0      0.0 0.003614      0.0                  0.0
+gpt6luna    markitdown 90 73.9 28547.988889       71.0    -12.0 0.004570     26.0                 25.0
+ haiku55 cellprose_v03 90 96.5 25576.766667       18.0    -44.0 0.005136     39.0                 -5.0
+ haiku55           csv 90 65.9 21735.933333        0.0      0.0 0.003690      0.0                  0.0
+ haiku55    markitdown 90 70.0 35648.466667       64.0     -7.0 0.011670    216.0                198.0
+sonnet55 cellprose_v03 90 99.2 24388.122222        9.0    -79.0 0.056289    -30.0                -42.0
+sonnet55           csv 90 82.6 22395.600000        0.0      0.0 0.080394      0.0                  0.0
+sonnet55    markitdown 90 81.1 36154.755556       61.0     -9.0 0.104706     30.0                 33.0
+
+== agent mode (vs raw .xlsx with tools; cellprose_v03 and sheetmark_lean = one-shot in context)
+    model            encoding  n  acc       tokens  tokens_vs  tout_vs     cost  cost_vs  cost_per_correct_vs    turns
+gpt61sol agent_cellprose_v03 90 99.1 19101.511111       34.0    -22.0 0.042165     26.0                 26.0 3.922222
+gpt61sol          agent_xlsx 90 99.2 14248.411111        0.0      0.0 0.033579      0.0                  0.0 3.500000
+gpt61sol   agent_xlsx_viewer 90 99.3 17239.811111       21.0    -10.0 0.039064     16.0                 16.0 3.511111
+gpt61sol       cellprose_v03 90 99.3 19377.777778       36.0    -39.0 0.041851     25.0                 25.0 1.000000
+gpt6luna agent_cellprose_v03 90 93.9 37776.088889       33.0    -13.0 0.004425     23.0                 28.0 5.022222
+gpt6luna          agent_xlsx 90 97.6 28446.077778        0.0      0.0 0.003592      0.0                  0.0 4.533333
+gpt6luna   agent_xlsx_viewer 90 97.2 38475.077778       35.0    -19.0 0.004449     24.0                 24.0 4.222222
+gpt6luna       cellprose_v03 90 93.8 20374.733333      -28.0    -26.0 0.002591    -28.0                -25.0 1.000000
+ haiku55 agent_cellprose_v03 90 96.9 47319.744444       45.0     39.0 0.006117     43.0                 43.0 4.533333
+ haiku55          agent_xlsx 90 97.0 32745.755556        0.0      0.0 0.004268      0.0                  0.0 4.233333
+ haiku55   agent_xlsx_viewer 90 97.3 45926.744444       40.0     -6.0 0.005527     30.0                 29.0 4.166667
+ haiku55       cellprose_v03 90 96.5 25576.766667      -22.0    -14.0 0.005136     20.0                 21.0 1.000000
+sonnet55 agent_cellprose_v03 90 98.4 37670.922222        7.0    -12.0 0.086492      4.0                  5.0 4.700000
+sonnet55          agent_xlsx 90 98.8 35175.277778        0.0      0.0 0.082960      0.0                  0.0 4.566667
+sonnet55   agent_xlsx_viewer 90 97.4 33170.488889       -6.0    -15.0 0.077098     -7.0                 -6.0 4.700000
+sonnet55       cellprose_v03 90 99.2 24388.122222      -31.0    -40.0 0.056289    -32.0                -32.0 1.000000
+
+Limitations (read before quoting a number):
+  - Test-set size: 30 held-out workbooks and 163 questions in this corpus, 3 repeats each. The interval resamples workbooks, so it is wide when they are few; one corpus is never pooled with the other.
+  - Prices: List prices from runner/models.py as frozen, confirmed against the vendors' pricing pages on 2026-11-11. Every token is priced as uncached input or output; the billed amount (Anthropic agent turns use the prompt cache) is shown beside the metric, never in its place. Percentages depend on the input-to-output price ratio; dollars depend on the prices too.
+  - One-shot against agent: A one-shot call and an agent loop spend tokens differently (the loop re-reads a growing context every turn). A win over an agent is on cost per correct answer, what a user pays; it says nothing about which reads a workbook better at equal cost.
+  - Tokenizers: Claude and GPT count the same text differently, so savings differ by model; results are per model and nothing is pooled.
+  - Models and date: Four models, run on one date; some model IDs have no dated snapshot. Nothing is claimed for a model not run.
+
+== v0.3 (cellprose_v03) cost per correct vs each baseline: ratio < 1 means v0.3 is cheaper; 95% paired bootstrap over workbooks (10,000 resamples, fixed seed)
+      set    model          baseline  n_workbooks   acc  acc_baseline  acc_diff_points  ratio  ratio_lo  ratio_hi       verdict
+held_out gpt61sol        markitdown           30 0.993         0.857           13.602  0.603     0.454     0.786           win
+held_out gpt61sol        agent_xlsx           30 0.993         0.992            0.091  1.245     0.811     1.777 no difference
+held_out gpt61sol agent_xlsx_viewer           30 0.993         0.993            0.068  1.071     0.672     1.568 no difference
+held_out gpt61sol               csv           30 0.993         0.841           15.259  0.974     0.793     1.171 no difference
+held_out gpt6luna        markitdown           30 0.938         0.739           19.922  0.447     0.351     0.550           win
+held_out gpt6luna        agent_xlsx           30 0.938         0.976           -3.749  0.750     0.492     1.101 no difference
+held_out gpt6luna agent_xlsx_viewer           30 0.938         0.972           -3.336  0.603     0.434     0.815 no difference
+held_out gpt6luna               csv           30 0.938         0.733           20.490  0.560     0.435     0.676           win
+held_out  haiku55        markitdown           30 0.965         0.700           26.506  0.319     0.126     0.997           win
+held_out  haiku55        agent_xlsx           30 0.965         0.970           -0.463  1.209     0.600     2.339 no difference
+held_out  haiku55 agent_xlsx_viewer           30 0.965         0.973           -0.760  0.937     0.474     1.845 no difference
+held_out  haiku55               csv           30 0.965         0.659           30.634  0.950     0.519     1.756 no difference
+held_out sonnet55        markitdown           30 0.992         0.811           18.177  0.439     0.344     0.555           win
+held_out sonnet55        agent_xlsx           30 0.992         0.988            0.462  0.675     0.474     0.922           win
+held_out sonnet55 agent_xlsx_viewer           30 0.992         0.974            1.805  0.717     0.516     0.947           win
+held_out sonnet55               csv           30 0.992         0.826           16.663  0.583     0.504     0.674           win
+     all gpt61sol        markitdown           30 0.993         0.857           13.602  0.603     0.454     0.786           win
+     all gpt61sol        agent_xlsx           30 0.993         0.992            0.091  1.245     0.811     1.777 no difference
+     all gpt61sol agent_xlsx_viewer           30 0.993         0.993            0.068  1.071     0.672     1.568 no difference
+     all gpt61sol               csv           30 0.993         0.841           15.259  0.974     0.793     1.171 no difference
+     all gpt6luna        markitdown           30 0.938         0.739           19.922  0.447     0.351     0.550           win
+     all gpt6luna        agent_xlsx           30 0.938         0.976           -3.749  0.750     0.492     1.101 no difference
+     all gpt6luna agent_xlsx_viewer           30 0.938         0.972           -3.336  0.603     0.434     0.815 no difference
+     all gpt6luna               csv           30 0.938         0.733           20.490  0.560     0.435     0.676           win
+     all  haiku55        markitdown           30 0.965         0.700           26.506  0.319     0.126     0.997           win
+     all  haiku55        agent_xlsx           30 0.965         0.970           -0.463  1.209     0.600     2.339 no difference
+     all  haiku55 agent_xlsx_viewer           30 0.965         0.973           -0.760  0.937     0.474     1.845 no difference
+     all  haiku55               csv           30 0.965         0.659           30.634  0.950     0.519     1.756 no difference
+     all sonnet55        markitdown           30 0.992         0.811           18.177  0.439     0.344     0.555           win
+     all sonnet55        agent_xlsx           30 0.992         0.988            0.462  0.675     0.474     0.922           win
+     all sonnet55 agent_xlsx_viewer           30 0.992         0.974            1.805  0.717     0.516     0.947           win
+     all sonnet55               csv           30 0.992         0.826           16.663  0.583     0.504     0.674           win
+
+== accuracy beside the no-workbook guess baseline (mean question score)
+ encoding  none (guess)  agent_cellprose_v03  agent_xlsx  agent_xlsx_viewer  cellprose_v03    csv  markitdown
+model                                                                                                       
+gpt61sol         0.027                0.991       0.992              0.993          0.993  0.841       0.857
+gpt6luna         0.135                0.939       0.976              0.972          0.938  0.733       0.739
+haiku55          0.161                0.969       0.970              0.973          0.965  0.659       0.700
+sonnet55         0.237                0.984       0.988              0.974          0.992  0.826       0.811
+
+== failed calls (scored 0, tokens included in cost)
+    model encoding  failed_calls
+sonnet55      csv             1
+
+== vendor tokenizer count vs billed input (one-shot calls)
+                          n  billed_in  tokenizer_count               tokenizer  count_vs_billed  count_vs_csv
+model    encoding                                                                                            
+gpt61sol cellprose_v03  90    18991.0          18980.0   o200k_base (tiktoken)            0.999         1.597
+         csv            90    11894.0          11883.0   o200k_base (tiktoken)            0.999         1.000
+         markitdown     90    24261.0          24250.0   o200k_base (tiktoken)            1.000         2.041
+gpt6luna cellprose_v03  90    18991.0          18980.0   o200k_base (tiktoken)            0.999         1.597
+         csv            90    11894.0          11883.0   o200k_base (tiktoken)            0.999         1.000
+         markitdown     90    24261.0          24250.0   o200k_base (tiktoken)            1.000         2.041
+haiku55  cellprose_v03  90    23449.0          23449.0  anthropic count_tokens            1.000         1.307
+         csv            90    17945.0          17945.0  anthropic count_tokens            1.000         1.000
+         markitdown     90    32105.0          32105.0  anthropic count_tokens            1.000         1.789
+sonnet55 cellprose_v03  90    23449.0          23449.0  anthropic count_tokens            1.000         1.307
+         csv            90    17945.0          17945.0  anthropic count_tokens            1.000         1.000
+         markitdown     90    32105.0          32105.0  anthropic count_tokens            1.000         1.789
+
+== spend: uncached list price (the metric) and as billed (Anthropic cache counted; OpenAI's automatic
+   cache discount is not)
+           list_price_uncached  billed
+model                                
+gpt61sol                22.95   19.03
+gpt6luna                 2.15    1.62
+haiku55                  3.29    2.74
+sonnet55                44.13   33.70
+
+== infrastructure failures (redone on resume; their spend is outside the metric)
+           attempts  list_price
+model                         
+gpt61sol         8         0.0

@@ -1,0 +1,67 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Snapshot!B9",
+  "q": "What is the value in the row labelled 'Cal 09', column headed 'Ercot', in the sheet 'Snapshot'?",
+  "truth": 38.05,
+  "labels": [
+   "A9",
+   "B2"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Snapshot!B6",
+  "q": "Which cell holds the value in the row labelled 'Cal 06', column headed 'Ercot', in the sheet 'Snapshot'? Give its cell address.",
+  "truth": "Snapshot!B6",
+  "labels": [
+   "A6",
+   "B2"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Historical!E5",
+  "q": "Consider the cell Historical!E5. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Historical!B5",
+   "Historical!C5"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Historical!D196",
+  "q": "Consider the cell Historical!D196. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Historical!B196",
+   "Historical!C196"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Historical!B106",
+  "factor": 1.1,
+  "q": "Suppose the number in Historical!B106 were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Historical!D106",
+   "Historical!E106",
+   "Historical!I2"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Historical!B173",
+  "range": "Historical!B173:E173",
+  "q": "Consider the range Historical!B173:E173. List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Historical!B173",
+   "Historical!C173"
+  ],
+  "id": "q6"
+ }
+]

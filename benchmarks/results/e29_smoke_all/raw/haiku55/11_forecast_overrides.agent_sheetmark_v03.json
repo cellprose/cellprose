@@ -1,0 +1,101 @@
+{
+ "model": "haiku55",
+ "workbook": "11_forecast_overrides",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1121,
+ "prompt_sha256": "6f279b6e17f155be05c18fef7d9e6042fc3def905180db38f254faa8afa59f43",
+ "result": "{\"q1\": 1515990, \"q2\": [\"Forecast!F2\", \"Forecast!J2\"], \"q3\": [\"Forecast!H4\", \"Forecast!K5\"], \"q4\": [\"Forecast!F2\", \"Forecast!B7\"], \"q5\": [\"Forecast!C2\", \"Forecast!D2\", \"Forecast!E2\", \"Forecast!G2\", \"Forecast!H2\", \"Forecast!I2\", \"Forecast!K2\", \"Forecast!L2\", \"Forecast!M2\", \"Forecast!C3\", \"Forecast!D3\", \"Forecast!E3\", \"Forecast!G3\", \"Forecast!H3\", \"Forecast!I3\", \"Forecast!K3\", \"Forecast!L3\", \"Forecast!M3\", \"Forecast!N2\", \"Forecast!N3\"], \"q6\": [\"Forecast!C4\", \"Forecast!D4\", \"Forecast!E4\", \"Forecast!F4\", \"Forecast!G4\", \"Forecast!I4\", \"Forecast!J4\", \"Forecast!K4\", \"Forecast!L4\", \"Forecast!M4\", \"Forecast!C5\", \"Forecast!D5\", \"Forecast!E5\", \"Forecast!F5\", \"Forecast!G5\", \"Forecast!H5\", \"Forecast!I5\", \"Forecast!J5\", \"Forecast!L5\", \"Forecast!M5\", \"Forecast!N5\"]}",
+ "usage": {
+  "input_tokens": 2515,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 2071,
+  "output_tokens_details": {
+   "thinking_tokens": 1549
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 2515,
+   "outputTokens": 2071,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1549
+  }
+ },
+ "cost": 0.001287,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 949,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 56,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1566,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 2015,
+     "reasoning_tokens": 1549,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T08:54:16+00:00",
+  "run_id": "20261107T085402Z-a9f169",
+  "started_at": "2026-11-07T08:54:02+00:00",
+  "git_sha": "61ce9bb",
+  "git_dirty": false,
+  "corpus": ".",
+  "inputs_sha256": "68d8cc073cde45dd3381ac6ca43668cb502033f7294c45e2f26834983f2faccf",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 9.6
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cat ./book.sheet.md\"}",
+   "output_chars": 832
+  }
+ ]
+}

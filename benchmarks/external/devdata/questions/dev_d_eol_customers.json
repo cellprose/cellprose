@@ -1,0 +1,78 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Lists!I110",
+  "q": "What is the value in the row labelled 'Bruno, Marshall, Stevens', in the sheet 'Lists'?",
+  "truth": 3,
+  "labels": [
+   "H110"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Lists!F142",
+  "q": "Which cell holds the value in the row labelled 'TECO', in the sheet 'Lists'? Give its cell address.",
+  "truth": "Lists!F142",
+  "labels": [
+   "E142"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "All Customers by Region!K386",
+  "q": "Consider the cell All Customers by Region!K386 (in the row labelled 'Bellweather'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "All Customers by Region!E386",
+   "All Customers by Region!F386",
+   "All Customers by Region!G386",
+   "All Customers by Region!H386",
+   "All Customers by Region!I386",
+   "All Customers by Region!J386"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "All Customers by Region!K326",
+  "q": "Consider the cell All Customers by Region!K326 (in the row labelled 'PHILLIPS PETROLEUM COMPANY'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "All Customers by Region!E326",
+   "All Customers by Region!F326",
+   "All Customers by Region!G326",
+   "All Customers by Region!H326",
+   "All Customers by Region!I326",
+   "All Customers by Region!J326"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Lists!C102",
+  "factor": 1.1,
+  "q": "Suppose the number in Lists!C102 (in the row labelled 'Alberta Energy Corp') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "All Customers by Region!F253",
+   "All Customers by Region!F4",
+   "All Customers by Region!F5",
+   "Lists!C2",
+   "Lists!C5"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "All Customers by Region!E32",
+  "range": "All Customers by Region!E32:P32",
+  "q": "Consider the range All Customers by Region!E32:P32 (the row of 'X'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "All Customers by Region!L32",
+   "All Customers by Region!M32",
+   "All Customers by Region!N32",
+   "All Customers by Region!O32",
+   "All Customers by Region!P32"
+  ],
+  "id": "q6"
+ }
+]

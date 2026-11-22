@@ -1,0 +1,12 @@
+{
+ "title": "Region detection: 8-connectivity, overlapping boxes merged, ordering, loose cells",
+ "spec": "§5.1",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

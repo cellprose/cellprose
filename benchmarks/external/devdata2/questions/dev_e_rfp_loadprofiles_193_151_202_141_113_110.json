@@ -1,0 +1,97 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Load Profiles!P29",
+  "q": "What is the value in the row labelled 'La Mirada, CA', column headed 'Total', in the sheet 'Load Profiles'?",
+  "truth": 807200,
+  "labels": [
+   "A29",
+   "P28"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Load Profiles!P53",
+  "q": "Which cell holds the value in the row labelled 'GTF-3D', column headed 'Total', in the sheet 'Load Profiles'? Give its cell address.",
+  "truth": "Load Profiles!P53",
+  "labels": [
+   "C53",
+   "P51"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Load Profiles!P10",
+  "q": "Consider the cell Load Profiles!P10 (in the row labelled 'GTF3D'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Load Profiles!D10",
+   "Load Profiles!E10",
+   "Load Profiles!F10",
+   "Load Profiles!G10",
+   "Load Profiles!H10",
+   "Load Profiles!I10",
+   "Load Profiles!J10",
+   "Load Profiles!K10",
+   "Load Profiles!L10",
+   "Load Profiles!M10",
+   "Load Profiles!N10",
+   "Load Profiles!O10"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Load Profiles!D13",
+  "q": "Consider the cell Load Profiles!D13 (in the row labelled 'Total'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Load Profiles!D10",
+   "Load Profiles!D11",
+   "Load Profiles!D12",
+   "Load Profiles!D3",
+   "Load Profiles!D4",
+   "Load Profiles!D5",
+   "Load Profiles!D6",
+   "Load Profiles!D7",
+   "Load Profiles!D8",
+   "Load Profiles!D9"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Load Profiles!M3",
+  "factor": 1.1,
+  "q": "Suppose the number in Load Profiles!M3 (in the row labelled 'GTF3D') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Load Profiles!M13",
+   "Load Profiles!M58",
+   "Load Profiles!P13",
+   "Load Profiles!P3",
+   "Load Profiles!P58"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Load Profiles!D45",
+  "range": "Load Profiles!D45:P45",
+  "q": "Consider the range Load Profiles!D45:P45 (the row of 'GT-I'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Load Profiles!D45",
+   "Load Profiles!E45",
+   "Load Profiles!F45",
+   "Load Profiles!G45",
+   "Load Profiles!H45",
+   "Load Profiles!I45",
+   "Load Profiles!J45",
+   "Load Profiles!K45",
+   "Load Profiles!L45",
+   "Load Profiles!M45",
+   "Load Profiles!N45",
+   "Load Profiles!O45"
+  ],
+  "id": "q6"
+ }
+]

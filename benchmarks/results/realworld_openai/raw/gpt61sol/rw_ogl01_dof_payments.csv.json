@@ -1,0 +1,77 @@
+{
+ "model": "gpt61sol",
+ "workbook": "rw_ogl01_dof_payments",
+ "encoding": "csv",
+ "prompt_chars": 17388,
+ "prompt_sha256": "6e29491beed1face145262d421a168906996af9c521df25d258e6f71ccc71791",
+ "result": "{\"q1\":151200,\"q2\":\"RED RIDGE SOLUTIONS LTD\",\"q3\":\"Page1!H86\"}",
+ "usage": {
+  "input_tokens": 5724,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 232,
+  "output_tokens_details": {
+   "thinking_tokens": 200
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 5724,
+   "outputTokens": 232,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 200
+  }
+ },
+ "cost": 0.013768,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261012T170532Z-f2cfbe",
+  "started_at": "2026-10-12T17:05:32+00:00",
+  "git_sha": "960479a",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "0aa45e294c5b47184517e9ee701b0187b619e11732ce039616ccddf976717ba2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "1.13.0",
+  "rep": 0,
+  "wall_seconds": 7.1,
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_6640266ad98641d7a9e086bf169f5643",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "input_tokens": 5724,
+   "input_tokens_details": {
+    "cache_write_tokens": 5721,
+    "cached_tokens": 0
+   },
+   "output_tokens": 232,
+   "output_tokens_details": {
+    "reasoning_tokens": 200
+   },
+   "total_tokens": 5956,
+   "billed_input_tokens": 5724,
+   "tokenizer_input_tokens_o200k": 5713,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 5713
+  },
+  "finished_at": "2026-10-12T17:10:35+00:00"
+ }
+}

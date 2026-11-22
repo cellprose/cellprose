@@ -1,0 +1,314 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_dam_fcffsimpleginzu",
+ "encoding": "agent_sheetmark_v03",
+ "prompt_chars": 1217,
+ "prompt_sha256": "e1748283e31178c5f6c0be6f43c946b125494312277971d29f68922ecf96da4e",
+ "result": "{\"q1\":7.18784,\"q2\":16394.5,\"q3\":\"Valuation output!B31\",\"q4\":[\"Valuation output!B24:B28\"],\"q5\":[\"Valuation output!B33:B34\"],\"q6\":[\"Diagnostics!B17\",\"Diagnostics!B27\",\"Diagnostics!B36:B37\",\"Diagnostics!C27:E27\",\"Input sheet!I27:I29\",\"Input sheet!J36\",\"Stories to Numbers!B13\",\"Stories to Numbers!D13\",\"Stories to Numbers!D35:D36\",\"Stories to Numbers!D39\",\"Valuation as picture!E29:O29\",\"Valuation output!B27\",\"Valuation output!B29\",\"Valuation output!B31\",\"Valuation output!B33\",\"Valuation output!B35\",\"Valuation output!B39:L40\"]}",
+ "usage": {
+  "input_tokens": 20733,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 127070,
+  "output_tokens": 5638,
+  "output_tokens_details": {
+   "thinking_tokens": 4082
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 20733,
+   "outputTokens": 5638,
+   "cacheReadInputTokens": 127070,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 4082
+  }
+ },
+ "cost": 0.017599300000000002,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_0d1c9b0ec36a437da5b6ac02cdde69c0",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 429,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 38,
+     "reasoning_tokens": 9,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1869,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 100,
+     "reasoning_tokens": 67,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 122,
+     "cache_read_tokens": 1866,
+     "cache_write_tokens": 0,
+     "output_tokens": 29,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 3415,
+     "cache_read_tokens": 1985,
+     "cache_write_tokens": 0,
+     "output_tokens": 113,
+     "reasoning_tokens": 84,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 809,
+     "cache_read_tokens": 5397,
+     "cache_write_tokens": 0,
+     "output_tokens": 399,
+     "reasoning_tokens": 342,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 2997,
+     "cache_read_tokens": 6203,
+     "cache_write_tokens": 0,
+     "output_tokens": 1260,
+     "reasoning_tokens": 427,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 1649,
+     "cache_read_tokens": 9197,
+     "cache_write_tokens": 0,
+     "output_tokens": 361,
+     "reasoning_tokens": 258,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 8,
+     "input_tokens": 1611,
+     "cache_read_tokens": 10843,
+     "cache_write_tokens": 0,
+     "output_tokens": 264,
+     "reasoning_tokens": 202,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 9,
+     "input_tokens": 451,
+     "cache_read_tokens": 12451,
+     "cache_write_tokens": 0,
+     "output_tokens": 43,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 10,
+     "input_tokens": 1333,
+     "cache_read_tokens": 12899,
+     "cache_write_tokens": 0,
+     "output_tokens": 44,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 11,
+     "input_tokens": 2191,
+     "cache_read_tokens": 14229,
+     "cache_write_tokens": 0,
+     "output_tokens": 129,
+     "reasoning_tokens": 98,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 12,
+     "input_tokens": 1079,
+     "cache_read_tokens": 16417,
+     "cache_write_tokens": 0,
+     "output_tokens": 70,
+     "reasoning_tokens": 32,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 13,
+     "input_tokens": 600,
+     "cache_read_tokens": 17493,
+     "cache_write_tokens": 0,
+     "output_tokens": 1568,
+     "reasoning_tokens": 1529,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 14,
+     "input_tokens": 2178,
+     "cache_read_tokens": 18090,
+     "cache_write_tokens": 0,
+     "output_tokens": 1220,
+     "reasoning_tokens": 1034,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T09:09:50+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 64.8
+ },
+ "num_turns": 14,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -l; head -100 book.sheet.md\"}",
+   "output_chars": 3881
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n '^# Sheet: Valuation output' book.sheet.md\"}",
+   "output_chars": 30
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '327,500p' book.sheet.md\"}",
+   "output_chars": 6517
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n \\\"B18\\\" book.sheet.md\"}",
+   "output_chars": 1837
+  },
+  {
+   "turn": 5,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '100,145p' book.sheet.md; sed -n '485,530p' book.sheet.md; sed -n '580,655p' book.sheet.md\"}",
+   "output_chars": 6007
+  },
+  {
+   "turn": 6,
+   "tool": "bash",
+   "args": "{\"command\": \"cat > /tmp/dep.py <<'PY'\\nimport re\\nfrom collections import defaultdict,deque\\ns=open('book.sheet.md').read()\\ncurrent=None; formulas={}\\n# isolate sheets\\nfor part in re.split(r'(?m)^# Sheet: ',s)[1:]:\\n    name=part.splitlines()[0].strip()\\n    # formulas code blocks\\n    for block in re.findall(r'```formulas\\\\n(.*?)\\\\n```',part,re.S):\\n      for line in block.splitlines():\\n       if ' = ' not in line: continue\\n       lhs,rhs=line.split(' = ',1)\\n       # expand lhs range\\n    ",
+   "output_chars": 1142
+  },
+  {
+   "turn": 7,
+   "tool": "bash",
+   "args": "{\"command\": \"cat >> /tmp/dep.py <<'PY'\\nprint('\\\\nDETAILS')\\nfor sh,c in sorted(seen):\\n print(sh+'!'+c, ' <- ', ', '.join(f'{a}!{b}' for a,b in formulas.get((sh,c),[])))\\nPY\\npython3 /tmp/dep.py | sed -n '/DETAILS/,$p'\"}",
+   "output_chars": 3686
+  },
+  {
+   "turn": 8,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n '^# Sheet: Diagnostics\\\\|^# Sheet: Valuation as picture' book.sheet.md; grep -n '^# Sheet:' book.sheet.md | sed -n '1,30p'\"}",
+   "output_chars": 635
+  },
+  {
+   "turn": 9,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '710,770p' book.sheet.md; sed -n '952,1065p' book.sheet.md\"}",
+   "output_chars": 3386
+  },
+  {
+   "turn": 10,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '1065,1177p' book.sheet.md; sed -n '810,860p' book.sheet.md\"}",
+   "output_chars": 4920
+  },
+  {
+   "turn": 11,
+   "tool": "bash",
+   "args": "{\"command\": \"sed -n '45,110p' book.sheet.md\"}",
+   "output_chars": 2037
+  },
+  {
+   "turn": 12,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n 'J36\\\\|I27\\\\|B17 = ' book.sheet.md\"}",
+   "output_chars": 1123
+  },
+  {
+   "turn": 13,
+   "tool": "bash",
+   "args": "{\"command\": \"grep -n '^70|\\\\|B70\\\\|A70' book.sheet.md | head\"}",
+   "output_chars": 1609
+  }
+ ]
+}

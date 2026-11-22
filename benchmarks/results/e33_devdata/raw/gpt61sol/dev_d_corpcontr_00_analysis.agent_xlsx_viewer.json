@@ -1,0 +1,116 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_d_corpcontr_00_analysis",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1343,
+ "prompt_sha256": "a817fc09e40b0f454439cc20260af7f21c32526fe3785a25be93745096372214",
+ "result": "{\n  \"q1\": 0.05369,\n  \"q2\": \"Breakouts!C19\",\n  \"q3\": [\"CorpContr_00!K151:K153\"],\n  \"q4\": [\"CorpContr_00!K156\", \"CorpContr_00!K155\"],\n  \"q5\": [\"CorpContr_00!K156\", \"CorpContr_00!K157\", \"CorpContr_00!K159\"],\n  \"q6\": []\n}",
+ "usage": {
+  "input_tokens": 4234,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1622,
+  "output_tokens": 344,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 4234,
+   "outputTokens": 344,
+   "cacheReadInputTokens": 1622,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.015152,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_0223597f3f5641b8aad275f954764ebb",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 549,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 139,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1625,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 98,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2060,
+     "cache_read_tokens": 1622,
+     "cache_write_tokens": 0,
+     "output_tokens": 107,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T14:44:17+00:00",
+  "run_id": "20261107T144214Z-4c5d55",
+  "started_at": "2026-11-07T14:42:14+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devdata",
+  "inputs_sha256": "8f2dfc187ecd6fcbe50c6f9073b724bf0b0ec4242a6c061a380dbb2d07709a78",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 6.3
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"ls -la; python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx');print(w.sheetnames)\\nfor s in w:\\n print(s.title,s.max_row,s.max_column)\\nfor sn,rg in [('Breakouts','A1:R45'),('CorpContr_00','A150:O162')]:\\n s=w[sn]\\n for row in s[rg]:\\n  print(' '.join(f'{c.coordinate}:{c.value}' for c in row if c.value is not None))\\nPY\"}",
+   "output_chars": 2304
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx')\\nfor s in w:\\n for row in s:\\n  for c in row:\\n   if c.data_type=='f':print(s.title,c.coordinate,c.value)\\nprint('K78',w['CorpContr_00']['K78'].value)\\nPY\"}",
+   "output_chars": 4126
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "about": "Written by external/realworld2.py build.",
+ "workbooks": {
+  "dev_apv": {
+   "source": "damodaran",
+   "file": "dam_apv.xlsx",
+   "sha256": "806d03cfc653aa00bf05e9e639115874d15ace3c9b89eec93cebcfad1f382219",
+   "original": "dam_apv.xlsx",
+   "original_sha256": "806d03cfc653aa00bf05e9e639115874d15ace3c9b89eec93cebcfad1f382219",
+   "formula_cells": 800,
+   "tokens_o200k_v03": 20354,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "dev_ddm3st": {
+   "source": "damodaran",
+   "file": "dam_ddm3st.xlsx",
+   "sha256": "2727ed408dc41949a5faf0c46fa136b1b30e120a976e1269dfd391eab7c6bffc",
+   "original": "dam_ddm3st.xlsx",
+   "original_sha256": "2727ed408dc41949a5faf0c46fa136b1b30e120a976e1269dfd391eab7c6bffc",
+   "formula_cells": 143,
+   "tokens_o200k_v03": 6307,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "dev_divginzu": {
+   "source": "damodaran",
+   "file": "dam_divginzu.xlsx",
+   "sha256": "212f30f90e40da863d6f42698dabb8dc18ac19f13e263ecd36d4015d7d038ea3",
+   "original": "dam_divginzu.xlsx",
+   "original_sha256": "212f30f90e40da863d6f42698dabb8dc18ac19f13e263ecd36d4015d7d038ea3",
+   "formula_cells": 597,
+   "tokens_o200k_v03": 56668,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "dev_dividends": {
+   "source": "damodaran",
+   "file": "dividends.xlsx",
+   "sha256": "6531fa43f7b57fe2d58fe9c4a22118bee2254fea32c7c0ba40761e0c5292f0d1",
+   "original": "dividends.xls",
+   "original_sha256": "71d7fe908f674f446777b0356b3e85a4ba94e3abe0aa75739654dbe73d40ee11",
+   "formula_cells": 340,
+   "tokens_o200k_v03": 11139,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "dev_fcfe3st": {
+   "source": "damodaran",
+   "file": "dam_fcfe3st.xlsx",
+   "sha256": "4607bd78cec13029139b772377f2b9173205f6628daa4aba18f8a9ff9413a7a4",
+   "original": "dam_fcfe3st.xlsx",
+   "original_sha256": "4607bd78cec13029139b772377f2b9173205f6628daa4aba18f8a9ff9413a7a4",
+   "formula_cells": 218,
+   "tokens_o200k_v03": 11051,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "dev_fcfeginzu": {
+   "source": "damodaran",
+   "file": "fcfeginzu.xlsx",
+   "sha256": "4339b0c8475ce84d714b0c7984fe46d4292e9bd0d39a330e159d2c91c82e8f86",
+   "original": "fcfeginzu.xls",
+   "original_sha256": "d11313ce90518a3acf871f2b504ea0bf0a1f5af0010f5cd202ef012dec686be7",
+   "formula_cells": 600,
+   "tokens_o200k_v03": 57518,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "dev_fcffginzulambda": {
+   "source": "damodaran",
+   "file": "dam_fcffginzulambda.xlsx",
+   "sha256": "1a97f7de149a7a86fa2c212f5525b3ca548c714eb11258150e1db69d16281303",
+   "original": "dam_fcffginzulambda.xlsx",
+   "original_sha256": "1a97f7de149a7a86fa2c212f5525b3ca548c714eb11258150e1db69d16281303",
+   "formula_cells": 511,
+   "tokens_o200k_v03": 28679,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "dev_fcffneg": {
+   "source": "damodaran",
+   "file": "dam_fcffneg.xlsx",
+   "sha256": "34cc929668121c0fc3d8130fb40202dce64f56e01299ea8f6fb8e70f50ac0ef9",
+   "original": "dam_fcffneg.xlsx",
+   "original_sha256": "34cc929668121c0fc3d8130fb40202dce64f56e01299ea8f6fb8e70f50ac0ef9",
+   "formula_cells": 444,
+   "tokens_o200k_v03": 8684,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "dev_histretsp": {
+   "source": "damodaran",
+   "file": "dam_histretSP.xlsx",
+   "sha256": "237ab8c55010a61ae0cbeb6a1e51dae109a01252b9a97ab453e9c25d610e80ec",
+   "original": "dam_histretSP.xlsx",
+   "original_sha256": "237ab8c55010a61ae0cbeb6a1e51dae109a01252b9a97ab453e9c25d610e80ec",
+   "formula_cells": 6056,
+   "tokens_o200k_v03": 54515,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  },
+  "dev_riskchecker": {
+   "source": "damodaran",
+   "file": "dam_riskchecker.xlsx",
+   "sha256": "fa843375f0f08bf1fb545461be96b1b5987b7f2def512a80949c99b3e7141fe5",
+   "original": "dam_riskchecker.xlsx",
+   "original_sha256": "fa843375f0f08bf1fb545461be96b1b5987b7f2def512a80949c99b3e7141fe5",
+   "formula_cells": 84,
+   "tokens_o200k_v03": 6256,
+   "questions": 6,
+   "types": [
+    "lookup",
+    "address",
+    "trace",
+    "trace",
+    "impact",
+    "hardcode"
+   ],
+   "committed_in_git": false
+  }
+ }
+}

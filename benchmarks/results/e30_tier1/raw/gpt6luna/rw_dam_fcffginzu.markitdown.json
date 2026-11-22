@@ -1,0 +1,78 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw_dam_fcffginzu",
+ "encoding": "markitdown",
+ "prompt_chars": 127542,
+ "prompt_sha256": "643b7ce5b442505a189cd7994993a18377afec051a30aea42f264b4ef5b57708",
+ "result": "{\"q1\":377.140217,\"q2\":0.08301,\"q3\":\"Valuation Model!F62\",\"q4\":[\"Valuation Model!F65\",\"Valuation Model!F66\",\"Valuation Model!F67\"],\"q5\":[\"Valuation Model!F71\",\"Valuation Model!F72\"],\"q6\":[\"Valuation Model!D16\",\"Valuation Model!D28\",\"Valuation Model!D30\",\"Valuation Model!D31\",\"Valuation Model!D47:N49\",\"Valuation Model!F61:F63\",\"Valuation Model!F65\",\"Valuation Model!F68\",\"Valuation Model!F70:F71\",\"Valuation Model!F73\",\"Input Summary!B5\",\"Stories to Numbers!B12:B13\",\"Stories to Numbers!C19\",\"Stories to Numbers!E19:F20\",\"Stories to Numbers!C21:C22\",\"Stories to Numbers!C25\",\"Stories to Numbers!C27:C28\",\"Stories to Numbers!C30\"]}",
+ "usage": {
+  "input_tokens": 58881,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 5114,
+  "output_tokens_details": {
+   "thinking_tokens": 4895
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 58881,
+   "outputTokens": 5114,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 4895
+  }
+ },
+ "cost": 0.0084451,
+ "provider": "openai",
+ "run": {
+  "run_id": "20261107T085919Z-357685",
+  "started_at": "2026-11-07T08:59:19+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "7dc41f8b36d96c61acfed11d8c06d37b8a0e36ae2674aa235582682b866d12e4",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "anthropic_sdk": "2.6.0",
+  "rep": 0,
+  "wall_seconds": 58.7,
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_e2f86b1351a34a40b7200acd2b5e0d17",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "input_tokens": 58881,
+   "input_tokens_details": {
+    "cache_write_tokens": 58878,
+    "cached_tokens": 0,
+    "cache_write_tokens_details": null
+   },
+   "output_tokens": 5114,
+   "output_tokens_details": {
+    "reasoning_tokens": 4895
+   },
+   "total_tokens": 63995,
+   "billed_input_tokens": 58881,
+   "tokenizer_input_tokens_o200k": 58870,
+   "tokenizer": "o200k_base (tiktoken)",
+   "tokenizer_input_tokens": 58870
+  },
+  "finished_at": "2026-11-07T09:05:34+00:00"
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "model": "gpt6luna",
+ "workbook": "rw2_dam_macrodur",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 1293,
+ "prompt_sha256": "263331825fdb6d29935d790a8a14b4329acae150470a13a77cbdb0cf0865c6ee",
+ "result": "{\"q1\":-0.106140354757438,\"q2\":\"Duration Calculator!C6\",\"q3\":[\"Annual Data!B16\",\"Annual Data!B17\"],\"q4\":[\"Annual Data!H14\",\"Annual Data!H15\"],\"q5\":[\"Quarterly Data!Q70\",\"Quarterly Data!Q71\"],\"q6\":[\"Quarterly Data!A91\",\"Quarterly Data!B91\",\"Quarterly Data!D91\",\"Quarterly Data!F91\",\"Quarterly Data!H91\"]}",
+ "usage": {
+  "input_tokens": 12662,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 20739,
+  "output_tokens": 1815,
+  "output_tokens_details": {
+   "thinking_tokens": 648
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 12662,
+   "outputTokens": 1815,
+   "cacheReadInputTokens": 20739,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 648
+  }
+ },
+ "cost": 0.004247600000000001,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_72c43f7641bd4f8fb47a20e1ccee1da6",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 443,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 106,
+     "reasoning_tokens": 26,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 655,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 291,
+     "reasoning_tokens": 66,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 10068,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 267,
+     "reasoning_tokens": 137,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 612,
+     "cache_read_tokens": 10065,
+     "cache_write_tokens": 0,
+     "output_tokens": 808,
+     "reasoning_tokens": 193,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 884,
+     "cache_read_tokens": 10674,
+     "cache_write_tokens": 0,
+     "output_tokens": 343,
+     "reasoning_tokens": 226,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.002381
+  },
+  "finished_at": "2026-11-11T18:14:29+00:00",
+  "run_id": "20261111T180131Z-242737",
+  "started_at": "2026-11-11T18:01:31+00:00",
+  "git_sha": "5a65e14",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "fccaf34f80e5dd72cf202dcbc72d0b236206ad124605f56eb990cddc442360f7",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 21.9
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl, os\\np='book.xlsx'; w=openpyxl.load_workbook(p,data_only=False)\\nprint(w.sheetnames)\\nfor s in w.sheetnames: print(s,w[s].max_row,w[s].max_column)\\nPY\"}",
+   "output_chars": 312
+  },
+  {
+   "turn": 2,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nfor sn in ['Bottom up Estimator','Duration Calculator']:\\n s=w[sn]; print('\\\\n',sn)\\n for row in s.iter_rows():\\n  vals=[f'{c.coordinate}={c.value}' for c in row if c.value is not None]\\n  if vals: print(' | '.join(vals))\\nprint('\\\\nAnnual')\\ns=w['Annual Data']\\nfor a in ['C16','I14']:\\n print(a,s[a].value)\\nprint('\\\\nQuarter range')\\ns=w['Quarterly Data']\\nfor row in range(68,74):\\n print(row,",
+   "output_chars": 20033
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"python3 - <<'PY'\\nimport openpyxl\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\nfor sn,add in [('Annual Data','C16'),('Annual Data','I14')]: print(sn,add,w[sn][add].value)\\ns=w['Quarterly Data']; print('Q71',s['P71'].value)\\nfor r in range(89,93): print(r,[s.cell(r,c).value for c in range(1,10)])\\nPY\"}",
+   "output_chars": 597
+  },
+  {
+   "turn": 4,
+   "tool": "bash",
+   "args": "{\"command\": \"cat > /tmp/deps.py <<'PY'\\nimport openpyxl,re\\nfrom openpyxl.utils.cell import range_boundaries\\nw=openpyxl.load_workbook('book.xlsx',data_only=False)\\n# regex references including sheet quoted, range\\npat=re.compile(r\\\"(?:(?:'([^']|'')+'|[A-Za-z_][A-Za-z0-9_. ]*)!)?\\\\$?[A-Z]{1,3}\\\\$?\\\\d+(?::\\\\$?[A-Z]{1,3}\\\\$?\\\\d+)?\\\")\\n# check formula references token parse\\nformula_cells={}\\nfor s in w:\\n for row in s.iter_rows():\\n  for c in row:\\n   if isinstance(c.value,str) and c.value.startsw",
+   "output_chars": 165
+  }
+ ]
+}

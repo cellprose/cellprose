@@ -1,0 +1,102 @@
+{
+ "oneshot_standard": [
+  {
+   "model": "haiku55",
+   "encoding": "csv",
+   "n": 17,
+   "acc": 84.1,
+   "tokens": 41813.29411764706,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.009149211764705883,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "haiku55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 17,
+   "acc": 90.9,
+   "tokens": 44660.17647058824,
+   "tokens_vs": 7.0,
+   "tout_vs": -61.0,
+   "cost": 0.008547123529411766,
+   "cost_vs": -7.0,
+   "cost_per_correct_vs": -14.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "csv",
+   "n": 17,
+   "acc": 99.1,
+   "tokens": 41709.82352941177,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.10267658823529413,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 17,
+   "acc": 99.0,
+   "tokens": 44363.882352941175,
+   "tokens_vs": 6.0,
+   "tout_vs": -72.0,
+   "cost": 0.09417011764705882,
+   "cost_vs": -8.0,
+   "cost_per_correct_vs": -8.0
+  }
+ ],
+ "oneshot_all": [
+  {
+   "model": "haiku55",
+   "encoding": "csv",
+   "n": 17,
+   "acc": 84.1,
+   "tokens": 41813.29411764706,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.009149211764705883,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "haiku55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 17,
+   "acc": 90.9,
+   "tokens": 44660.17647058824,
+   "tokens_vs": 7.0,
+   "tout_vs": -61.0,
+   "cost": 0.008547123529411766,
+   "cost_vs": -7.0,
+   "cost_per_correct_vs": -14.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "csv",
+   "n": 17,
+   "acc": 99.1,
+   "tokens": 41709.82352941177,
+   "tokens_vs": 0.0,
+   "tout_vs": 0.0,
+   "cost": 0.10267658823529413,
+   "cost_vs": 0.0,
+   "cost_per_correct_vs": 0.0
+  },
+  {
+   "model": "sonnet55",
+   "encoding": "sheetmark_lean_gfm",
+   "n": 17,
+   "acc": 99.0,
+   "tokens": 44363.882352941175,
+   "tokens_vs": 6.0,
+   "tout_vs": -72.0,
+   "cost": 0.09417011764705882,
+   "cost_vs": -8.0,
+   "cost_per_correct_vs": -8.0
+  }
+ ]
+}

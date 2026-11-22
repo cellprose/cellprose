@@ -1,0 +1,20 @@
+[
+ {
+  "type": "address",
+  "cell": "TBL11!U29",
+  "key": {
+   "A": "$10,000,000 or more"
+  },
+  "labels": [
+   "A29",
+   "U5"
+  ],
+  "q": "Which cell holds the average total income tax (dollars) for the '$10,000,000 or more' size of adjusted gross income class (first block of the table, 'Size of adjusted gross income')? Give its cell address.",
+  "rows": [
+   10,
+   29
+  ],
+  "id": "q1",
+  "truth": "TBL11!U29"
+ }
+]

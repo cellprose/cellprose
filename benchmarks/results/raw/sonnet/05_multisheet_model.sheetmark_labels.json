@@ -1,0 +1,72 @@
+{
+ "model": "sonnet",
+ "workbook": "05_multisheet_model",
+ "encoding": "sheetmark_labels",
+ "prompt_chars": 2685,
+ "result": "{\"q1\": 256721.0486, \"q2\": 226600, \"q3\": \"Summary!C5\", \"q4\": [\"Summary!B2\", \"Summary!B3\"], \"q5\": [\"Revenue!C5\", \"Inputs!B11\"], \"q6\": [\"Costs!B3:D3\", \"Costs!B4:D4\", \"Summary!B3:D3\", \"Summary!B4:D4\", \"Summary!B5:D5\", \"Summary!B6:D6\"], \"q7\": [\"Revenue!B3:D3\", \"Revenue!B5:D5\", \"Costs!B2:D2\", \"Costs!B4:D4\", \"Summary!B2:D2\", \"Summary!B3:D3\", \"Summary!B4:D4\", \"Summary!B5:D5\", \"Summary!B6:D6\"]}",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2950,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 694,
+  "output_tokens_details": {
+   "thinking_tokens": 434
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2950,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 694,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2950,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2950
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "modelUsage": {
+  "claude-haiku-4-5-20251001": {
+   "inputTokens": 2089,
+   "outputTokens": 12,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "webSearchRequests": 0,
+   "costUSD": 0.0021490000000000003,
+   "contextWindow": 200000,
+   "maxOutputTokens": 32000,
+   "thinkingTokens": 0,
+   "canonicalModel": "claude-haiku-4-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  },
+  "claude-sonnet-5-5": {
+   "inputTokens": 2,
+   "outputTokens": 694,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 2950,
+   "webSearchRequests": 0,
+   "costUSD": 0.018744,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 64000,
+   "thinkingTokens": 434,
+   "canonicalModel": "claude-sonnet-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "cost": 0.020893000000000002
+}

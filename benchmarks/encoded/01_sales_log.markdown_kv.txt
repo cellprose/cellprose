@@ -1,0 +1,1808 @@
+# Sales
+
+## Record 1
+```
+Order ID: SO-1001
+Date: 2026-01-02
+Region: West
+Rep: Isla Das
+Product: Doohickey
+Units: 47
+Unit Price: 8.25
+Revenue: 387.75
+```
+
+## Record 2
+```
+Order ID: SO-1002
+Date: 2026-02-22
+Region: East
+Rep: Noah Bose
+Product: Gadget
+Units: 2
+Unit Price: 39
+Revenue: 78
+```
+
+## Record 3
+```
+Order ID: SO-1003
+Date: 2026-01-05
+Region: West
+Rep: Isla Khan
+Product: Widget
+Units: 28
+Unit Price: 12.5
+Revenue: 350
+```
+
+## Record 4
+```
+Order ID: SO-1004
+Date: 2026-09-28
+Region: South
+Rep: Aarav Das
+Product: Widget
+Units: 32
+Unit Price: 12.5
+Revenue: 400
+```
+
+## Record 5
+```
+Order ID: SO-1005
+Date: 2026-04-30
+Region: East
+Rep: Isla Khan
+Product: Sprocket
+Units: 44
+Unit Price: 21
+Revenue: 924
+```
+
+## Record 6
+```
+Order ID: SO-1006
+Date: 2026-08-24
+Region: East
+Rep: Noah Bose
+Product: Gadget
+Units: 27
+Unit Price: 39
+Revenue: 1053
+```
+
+## Record 7
+```
+Order ID: SO-1007
+Date: 2026-02-21
+Region: South
+Rep: Isla Das
+Product: Sprocket
+Units: 8
+Unit Price: 21
+Revenue: 168
+```
+
+## Record 8
+```
+Order ID: SO-1008
+Date: 2026-09-14
+Region: West
+Rep: Isla Khan
+Product: Gizmo
+Units: 20
+Unit Price: 74
+Revenue: 1480
+```
+
+## Record 9
+```
+Order ID: SO-1009
+Date: 2026-09-13
+Region: West
+Rep: Noah Bose
+Product: Gizmo
+Units: 31
+Unit Price: 74
+Revenue: 2294
+```
+
+## Record 10
+```
+Order ID: SO-1010
+Date: 2026-07-26
+Region: West
+Rep: Lucas Garcia
+Product: Gadget
+Units: 24
+Unit Price: 39
+Revenue: 936
+```
+
+## Record 11
+```
+Order ID: SO-1011
+Date: 2026-07-11
+Region: North
+Rep: Aarav Das
+Product: Sprocket
+Units: 43
+Unit Price: 21
+Revenue: 903
+```
+
+## Record 12
+```
+Order ID: SO-1012
+Date: 2026-02-25
+Region: South
+Rep: Priya Silva
+Product: Sprocket
+Units: 24
+Unit Price: 21
+Revenue: 504
+```
+
+## Record 13
+```
+Order ID: SO-1013
+Date: 2026-01-16
+Region: West
+Rep: Noah Bose
+Product: Doohickey
+Units: 20
+Unit Price: 8.25
+Revenue: 165
+```
+
+## Record 14
+```
+Order ID: SO-1014
+Date: 2026-07-21
+Region: South
+Rep: Lucas Garcia
+Product: Sprocket
+Units: 33
+Unit Price: 21
+Revenue: 693
+```
+
+## Record 15
+```
+Order ID: SO-1015
+Date: 2026-01-07
+Region: South
+Rep: Isla Khan
+Product: Gadget
+Units: 26
+Unit Price: 39
+Revenue: 1014
+```
+
+## Record 16
+```
+Order ID: SO-1016
+Date: 2026-06-26
+Region: East
+Rep: Aarav Das
+Product: Sprocket
+Units: 59
+Unit Price: 21
+Revenue: 1239
+```
+
+## Record 17
+```
+Order ID: SO-1017
+Date: 2026-01-03
+Region: West
+Rep: Lucas Garcia
+Product: Gizmo
+Units: 34
+Unit Price: 74
+Revenue: 2516
+```
+
+## Record 18
+```
+Order ID: SO-1018
+Date: 2026-04-16
+Region: West
+Rep: Noah Bose
+Product: Sprocket
+Units: 31
+Unit Price: 21
+Revenue: 651
+```
+
+## Record 19
+```
+Order ID: SO-1019
+Date: 2026-04-13
+Region: West
+Rep: Aarav Das
+Product: Gizmo
+Units: 53
+Unit Price: 74
+Revenue: 3922
+```
+
+## Record 20
+```
+Order ID: SO-1020
+Date: 2026-08-01
+Region: East
+Rep: Noah Bose
+Product: Gizmo
+Units: 35
+Unit Price: 74
+Revenue: 2590
+```
+
+## Record 21
+```
+Order ID: SO-1021
+Date: 2026-06-19
+Region: West
+Rep: Noah Bose
+Product: Sprocket
+Units: 52
+Unit Price: 21
+Revenue: 1092
+```
+
+## Record 22
+```
+Order ID: SO-1022
+Date: 2026-04-01
+Region: South
+Rep: Grace Kim
+Product: Gadget
+Units: 52
+Unit Price: 39
+Revenue: 2028
+```
+
+## Record 23
+```
+Order ID: SO-1023
+Date: 2026-05-11
+Region: North
+Rep: Grace Kim
+Product: Sprocket
+Units: 6
+Unit Price: 21
+Revenue: 126
+```
+
+## Record 24
+```
+Order ID: SO-1024
+Date: 2026-08-20
+Region: North
+Rep: Isla Das
+Product: Widget
+Units: 16
+Unit Price: 12.5
+Revenue: 200
+```
+
+## Record 25
+```
+Order ID: SO-1025
+Date: 2026-02-26
+Region: South
+Rep: Nina Rao
+Product: Gizmo
+Units: 19
+Unit Price: 74
+Revenue: 1406
+```
+
+## Record 26
+```
+Order ID: SO-1026
+Date: 2026-03-27
+Region: South
+Rep: Isla Das
+Product: Widget
+Units: 34
+Unit Price: 12.5
+Revenue: 425
+```
+
+## Record 27
+```
+Order ID: SO-1027
+Date: 2026-05-20
+Region: East
+Rep: Aarav Das
+Product: Gadget
+Units: 45
+Unit Price: 39
+Revenue: 1755
+```
+
+## Record 28
+```
+Order ID: SO-1028
+Date: 2026-09-12
+Region: West
+Rep: Grace Kim
+Product: Gizmo
+Units: 2
+Unit Price: 74
+Revenue: 148
+```
+
+## Record 29
+```
+Order ID: SO-1029
+Date: 2026-07-17
+Region: East
+Rep: Priya Silva
+Product: Gizmo
+Units: 51
+Unit Price: 74
+Revenue: 3774
+```
+
+## Record 30
+```
+Order ID: SO-1030
+Date: 2026-05-13
+Region: North
+Rep: Isla Das
+Product: Gadget
+Units: 58
+Unit Price: 39
+Revenue: 2262
+```
+
+## Record 31
+```
+Order ID: SO-1031
+Date: 2026-04-18
+Region: West
+Rep: Noah Bose
+Product: Sprocket
+Units: 15
+Unit Price: 21
+Revenue: 315
+```
+
+## Record 32
+```
+Order ID: SO-1032
+Date: 2026-07-23
+Region: South
+Rep: Noah Bose
+Product: Widget
+Units: 47
+Unit Price: 12.5
+Revenue: 587.5
+```
+
+## Record 33
+```
+Order ID: SO-1033
+Date: 2026-08-17
+Region: West
+Rep: Isla Khan
+Product: Gadget
+Units: 41
+Unit Price: 39
+Revenue: 1599
+```
+
+## Record 34
+```
+Order ID: SO-1034
+Date: 2026-08-19
+Region: South
+Rep: Noah Bose
+Product: Sprocket
+Units: 26
+Unit Price: 21
+Revenue: 546
+```
+
+## Record 35
+```
+Order ID: SO-1035
+Date: 2026-06-14
+Region: West
+Rep: Noah Bose
+Product: Sprocket
+Units: 48
+Unit Price: 21
+Revenue: 1008
+```
+
+## Record 36
+```
+Order ID: SO-1036
+Date: 2026-03-06
+Region: South
+Rep: Noah Bose
+Product: Gizmo
+Units: 20
+Unit Price: 74
+Revenue: 1480
+```
+
+## Record 37
+```
+Order ID: SO-1037
+Date: 2026-02-09
+Region: East
+Rep: Isla Das
+Product: Widget
+Units: 48
+Unit Price: 12.5
+Revenue: 600
+```
+
+## Record 38
+```
+Order ID: SO-1038
+Date: 2026-08-02
+Region: East
+Rep: Lucas Garcia
+Product: Gadget
+Units: 1
+Unit Price: 39
+Revenue: 39
+```
+
+## Record 39
+```
+Order ID: SO-1039
+Date: 2026-01-20
+Region: South
+Rep: Aarav Das
+Product: Sprocket
+Units: 11
+Unit Price: 21
+Revenue: 231
+```
+
+## Record 40
+```
+Order ID: SO-1040
+Date: 2026-09-18
+Region: North
+Rep: Priya Silva
+Product: Sprocket
+Units: 13
+Unit Price: 21
+Revenue: 273
+```
+
+## Record 41
+```
+Order ID: SO-1041
+Date: 2026-02-20
+Region: South
+Rep: Priya Silva
+Product: Gizmo
+Units: 38
+Unit Price: 74
+Revenue: 2812
+```
+
+## Record 42
+```
+Order ID: SO-1042
+Date: 2026-09-10
+Region: North
+Rep: Priya Silva
+Product: Gadget
+Units: 19
+Unit Price: 39
+Revenue: 741
+```
+
+## Record 43
+```
+Order ID: SO-1043
+Date: 2026-09-13
+Region: North
+Rep: Nina Rao
+Product: Sprocket
+Units: 40
+Unit Price: 21
+Revenue: 840
+```
+
+## Record 44
+```
+Order ID: SO-1044
+Date: 2026-05-25
+Region: North
+Rep: Lucas Garcia
+Product: Doohickey
+Units: 13
+Unit Price: 8.25
+Revenue: 107.25
+```
+
+## Record 45
+```
+Order ID: SO-1045
+Date: 2026-03-11
+Region: East
+Rep: Priya Silva
+Product: Gizmo
+Units: 14
+Unit Price: 74
+Revenue: 1036
+```
+
+## Record 46
+```
+Order ID: SO-1046
+Date: 2026-02-19
+Region: West
+Rep: Nina Rao
+Product: Gizmo
+Units: 59
+Unit Price: 74
+Revenue: 4366
+```
+
+## Record 47
+```
+Order ID: SO-1047
+Date: 2026-09-06
+Region: South
+Rep: Grace Kim
+Product: Sprocket
+Units: 47
+Unit Price: 21
+Revenue: 987
+```
+
+## Record 48
+```
+Order ID: SO-1048
+Date: 2026-02-13
+Region: South
+Rep: Lucas Garcia
+Product: Widget
+Units: 11
+Unit Price: 12.5
+Revenue: 137.5
+```
+
+## Record 49
+```
+Order ID: SO-1049
+Date: 2026-04-20
+Region: East
+Rep: Nina Rao
+Product: Sprocket
+Units: 39
+Unit Price: 21
+Revenue: 819
+```
+
+## Record 50
+```
+Order ID: SO-1050
+Date: 2026-05-11
+Region: East
+Rep: Nina Rao
+Product: Sprocket
+Units: 22
+Unit Price: 21
+Revenue: 462
+```
+
+## Record 51
+```
+Order ID: SO-1051
+Date: 2026-05-30
+Region: South
+Rep: Aarav Das
+Product: Widget
+Units: 9
+Unit Price: 12.5
+Revenue: 112.5
+```
+
+## Record 52
+```
+Order ID: SO-1052
+Date: 2026-02-23
+Region: East
+Rep: Noah Bose
+Product: Sprocket
+Units: 27
+Unit Price: 21
+Revenue: 567
+```
+
+## Record 53
+```
+Order ID: SO-1053
+Date: 2026-07-14
+Region: South
+Rep: Lucas Garcia
+Product: Widget
+Units: 22
+Unit Price: 12.5
+Revenue: 275
+```
+
+## Record 54
+```
+Order ID: SO-1054
+Date: 2026-07-13
+Region: North
+Rep: Isla Khan
+Product: Widget
+Units: 37
+Unit Price: 12.5
+Revenue: 462.5
+```
+
+## Record 55
+```
+Order ID: SO-1055
+Date: 2026-05-17
+Region: East
+Rep: Isla Das
+Product: Widget
+Units: 37
+Unit Price: 12.5
+Revenue: 462.5
+```
+
+## Record 56
+```
+Order ID: SO-1056
+Date: 2026-02-28
+Region: West
+Rep: Isla Das
+Product: Sprocket
+Units: 7
+Unit Price: 21
+Revenue: 147
+```
+
+## Record 57
+```
+Order ID: SO-1057
+Date: 2026-06-01
+Region: North
+Rep: Noah Bose
+Product: Widget
+Units: 6
+Unit Price: 12.5
+Revenue: 75
+```
+
+## Record 58
+```
+Order ID: SO-1058
+Date: 2026-02-28
+Region: North
+Rep: Isla Khan
+Product: Doohickey
+Units: 16
+Unit Price: 8.25
+Revenue: 132
+```
+
+## Record 59
+```
+Order ID: SO-1059
+Date: 2026-08-04
+Region: South
+Rep: Grace Kim
+Product: Sprocket
+Units: 29
+Unit Price: 21
+Revenue: 609
+```
+
+## Record 60
+```
+Order ID: SO-1060
+Date: 2026-05-04
+Region: South
+Rep: Grace Kim
+Product: Gadget
+Units: 28
+Unit Price: 39
+Revenue: 1092
+```
+
+## Record 61
+```
+Order ID: SO-1061
+Date: 2026-05-31
+Region: East
+Rep: Aarav Das
+Product: Doohickey
+Units: 21
+Unit Price: 8.25
+Revenue: 173.25
+```
+
+## Record 62
+```
+Order ID: SO-1062
+Date: 2026-04-17
+Region: East
+Rep: Noah Bose
+Product: Widget
+Units: 2
+Unit Price: 12.5
+Revenue: 25
+```
+
+## Record 63
+```
+Order ID: SO-1063
+Date: 2026-06-01
+Region: East
+Rep: Aarav Das
+Product: Widget
+Units: 26
+Unit Price: 12.5
+Revenue: 325
+```
+
+## Record 64
+```
+Order ID: SO-1064
+Date: 2026-07-24
+Region: North
+Rep: Grace Kim
+Product: Gizmo
+Units: 59
+Unit Price: 74
+Revenue: 4366
+```
+
+## Record 65
+```
+Order ID: SO-1065
+Date: 2026-08-22
+Region: North
+Rep: Isla Das
+Product: Gizmo
+Units: 14
+Unit Price: 74
+Revenue: 1036
+```
+
+## Record 66
+```
+Order ID: SO-1066
+Date: 2026-08-29
+Region: East
+Rep: Isla Das
+Product: Sprocket
+Units: 12
+Unit Price: 21
+Revenue: 252
+```
+
+## Record 67
+```
+Order ID: SO-1067
+Date: 2026-04-17
+Region: East
+Rep: Isla Khan
+Product: Sprocket
+Units: 16
+Unit Price: 21
+Revenue: 336
+```
+
+## Record 68
+```
+Order ID: SO-1068
+Date: 2026-02-11
+Region: East
+Rep: Grace Kim
+Product: Gizmo
+Units: 49
+Unit Price: 74
+Revenue: 3626
+```
+
+## Record 69
+```
+Order ID: SO-1069
+Date: 2026-02-16
+Region: East
+Rep: Isla Khan
+Product: Doohickey
+Units: 25
+Unit Price: 8.25
+Revenue: 206.25
+```
+
+## Record 70
+```
+Order ID: SO-1070
+Date: 2026-01-22
+Region: East
+Rep: Lucas Garcia
+Product: Gizmo
+Units: 21
+Unit Price: 74
+Revenue: 1554
+```
+
+## Record 71
+```
+Order ID: SO-1071
+Date: 2026-06-05
+Region: South
+Rep: Nina Rao
+Product: Sprocket
+Units: 7
+Unit Price: 21
+Revenue: 147
+```
+
+## Record 72
+```
+Order ID: SO-1072
+Date: 2026-02-17
+Region: South
+Rep: Isla Khan
+Product: Sprocket
+Units: 2
+Unit Price: 21
+Revenue: 42
+```
+
+## Record 73
+```
+Order ID: SO-1073
+Date: 2026-07-25
+Region: North
+Rep: Isla Das
+Product: Gadget
+Units: 36
+Unit Price: 39
+Revenue: 1404
+```
+
+## Record 74
+```
+Order ID: SO-1074
+Date: 2026-02-08
+Region: North
+Rep: Noah Bose
+Product: Widget
+Units: 19
+Unit Price: 12.5
+Revenue: 237.5
+```
+
+## Record 75
+```
+Order ID: SO-1075
+Date: 2026-09-10
+Region: West
+Rep: Lucas Garcia
+Product: Gizmo
+Units: 7
+Unit Price: 74
+Revenue: 518
+```
+
+## Record 76
+```
+Order ID: SO-1076
+Date: 2026-06-17
+Region: North
+Rep: Lucas Garcia
+Product: Sprocket
+Units: 12
+Unit Price: 21
+Revenue: 252
+```
+
+## Record 77
+```
+Order ID: SO-1077
+Date: 2026-03-14
+Region: East
+Rep: Isla Das
+Product: Gadget
+Units: 7
+Unit Price: 39
+Revenue: 273
+```
+
+## Record 78
+```
+Order ID: SO-1078
+Date: 2026-05-31
+Region: South
+Rep: Isla Khan
+Product: Sprocket
+Units: 10
+Unit Price: 21
+Revenue: 210
+```
+
+## Record 79
+```
+Order ID: SO-1079
+Date: 2026-01-17
+Region: East
+Rep: Isla Khan
+Product: Sprocket
+Units: 12
+Unit Price: 21
+Revenue: 252
+```
+
+## Record 80
+```
+Order ID: SO-1080
+Date: 2026-08-10
+Region: South
+Rep: Noah Bose
+Product: Gizmo
+Units: 46
+Unit Price: 74
+Revenue: 3404
+```
+
+## Record 81
+```
+Order ID: SO-1081
+Date: 2026-05-10
+Region: North
+Rep: Aarav Das
+Product: Gadget
+Units: 52
+Unit Price: 39
+Revenue: 2028
+```
+
+## Record 82
+```
+Order ID: SO-1082
+Date: 2026-05-09
+Region: West
+Rep: Aarav Das
+Product: Doohickey
+Units: 1
+Unit Price: 8.25
+Revenue: 8.25
+```
+
+## Record 83
+```
+Order ID: SO-1083
+Date: 2026-06-23
+Region: South
+Rep: Isla Das
+Product: Doohickey
+Units: 32
+Unit Price: 8.25
+Revenue: 264
+```
+
+## Record 84
+```
+Order ID: SO-1084
+Date: 2026-08-02
+Region: North
+Rep: Noah Bose
+Product: Widget
+Units: 45
+Unit Price: 12.5
+Revenue: 562.5
+```
+
+## Record 85
+```
+Order ID: SO-1085
+Date: 2026-03-12
+Region: South
+Rep: Lucas Garcia
+Product: Gizmo
+Units: 17
+Unit Price: 74
+Revenue: 1258
+```
+
+## Record 86
+```
+Order ID: SO-1086
+Date: 2026-07-23
+Region: West
+Rep: Lucas Garcia
+Product: Gizmo
+Units: 40
+Unit Price: 74
+Revenue: 2960
+```
+
+## Record 87
+```
+Order ID: SO-1087
+Date: 2026-04-30
+Region: West
+Rep: Noah Bose
+Product: Widget
+Units: 12
+Unit Price: 12.5
+Revenue: 150
+```
+
+## Record 88
+```
+Order ID: SO-1088
+Date: 2026-06-12
+Region: West
+Rep: Isla Khan
+Product: Sprocket
+Units: 16
+Unit Price: 21
+Revenue: 336
+```
+
+## Record 89
+```
+Order ID: SO-1089
+Date: 2026-09-11
+Region: West
+Rep: Isla Khan
+Product: Gizmo
+Units: 46
+Unit Price: 74
+Revenue: 3404
+```
+
+## Record 90
+```
+Order ID: SO-1090
+Date: 2026-06-22
+Region: East
+Rep: Isla Khan
+Product: Doohickey
+Units: 4
+Unit Price: 8.25
+Revenue: 33
+```
+
+## Record 91
+```
+Order ID: SO-1091
+Date: 2026-09-19
+Region: East
+Rep: Lucas Garcia
+Product: Widget
+Units: 33
+Unit Price: 12.5
+Revenue: 412.5
+```
+
+## Record 92
+```
+Order ID: SO-1092
+Date: 2026-06-09
+Region: East
+Rep: Isla Das
+Product: Gadget
+Units: 55
+Unit Price: 39
+Revenue: 2145
+```
+
+## Record 93
+```
+Order ID: SO-1093
+Date: 2026-07-10
+Region: South
+Rep: Aarav Das
+Product: Sprocket
+Units: 39
+Unit Price: 21
+Revenue: 819
+```
+
+## Record 94
+```
+Order ID: SO-1094
+Date: 2026-03-05
+Region: West
+Rep: Lucas Garcia
+Product: Widget
+Units: 10
+Unit Price: 12.5
+Revenue: 125
+```
+
+## Record 95
+```
+Order ID: SO-1095
+Date: 2026-08-07
+Region: South
+Rep: Noah Bose
+Product: Gizmo
+Units: 32
+Unit Price: 74
+Revenue: 2368
+```
+
+## Record 96
+```
+Order ID: SO-1096
+Date: 2026-06-28
+Region: West
+Rep: Lucas Garcia
+Product: Doohickey
+Units: 35
+Unit Price: 8.25
+Revenue: 288.75
+```
+
+## Record 97
+```
+Order ID: SO-1097
+Date: 2026-09-26
+Region: North
+Rep: Isla Das
+Product: Widget
+Units: 41
+Unit Price: 12.5
+Revenue: 512.5
+```
+
+## Record 98
+```
+Order ID: SO-1098
+Date: 2026-05-17
+Region: North
+Rep: Lucas Garcia
+Product: Widget
+Units: 50
+Unit Price: 12.5
+Revenue: 625
+```
+
+## Record 99
+```
+Order ID: SO-1099
+Date: 2026-02-11
+Region: West
+Rep: Isla Khan
+Product: Sprocket
+Units: 55
+Unit Price: 21
+Revenue: 1155
+```
+
+## Record 100
+```
+Order ID: SO-1100
+Date: 2026-08-10
+Region: West
+Rep: Lucas Garcia
+Product: Doohickey
+Units: 59
+Unit Price: 8.25
+Revenue: 486.75
+```
+
+## Record 101
+```
+Order ID: SO-1101
+Date: 2026-08-13
+Region: South
+Rep: Aarav Das
+Product: Gizmo
+Units: 14
+Unit Price: 74
+Revenue: 1036
+```
+
+## Record 102
+```
+Order ID: SO-1102
+Date: 2026-08-09
+Region: West
+Rep: Grace Kim
+Product: Widget
+Units: 43
+Unit Price: 12.5
+Revenue: 537.5
+```
+
+## Record 103
+```
+Order ID: SO-1103
+Date: 2026-05-23
+Region: South
+Rep: Priya Silva
+Product: Gizmo
+Units: 48
+Unit Price: 74
+Revenue: 3552
+```
+
+## Record 104
+```
+Order ID: SO-1104
+Date: 2026-01-03
+Region: South
+Rep: Aarav Das
+Product: Sprocket
+Units: 38
+Unit Price: 21
+Revenue: 798
+```
+
+## Record 105
+```
+Order ID: SO-1105
+Date: 2026-01-16
+Region: South
+Rep: Isla Das
+Product: Widget
+Units: 14
+Unit Price: 12.5
+Revenue: 175
+```
+
+## Record 106
+```
+Order ID: SO-1106
+Date: 2026-05-26
+Region: South
+Rep: Isla Khan
+Product: Gadget
+Units: 18
+Unit Price: 39
+Revenue: 702
+```
+
+## Record 107
+```
+Order ID: SO-1107
+Date: 2026-05-09
+Region: West
+Rep: Lucas Garcia
+Product: Gizmo
+Units: 35
+Unit Price: 74
+Revenue: 2590
+```
+
+## Record 108
+```
+Order ID: SO-1108
+Date: 2026-09-09
+Region: West
+Rep: Grace Kim
+Product: Gizmo
+Units: 50
+Unit Price: 74
+Revenue: 3700
+```
+
+## Record 109
+```
+Order ID: SO-1109
+Date: 2026-07-16
+Region: South
+Rep: Isla Das
+Product: Gadget
+Units: 52
+Unit Price: 39
+Revenue: 2028
+```
+
+## Record 110
+```
+Order ID: SO-1110
+Date: 2026-01-13
+Region: North
+Rep: Noah Bose
+Product: Widget
+Units: 35
+Unit Price: 12.5
+Revenue: 437.5
+```
+
+## Record 111
+```
+Order ID: SO-1111
+Date: 2026-03-11
+Region: North
+Rep: Nina Rao
+Product: Gizmo
+Units: 37
+Unit Price: 74
+Revenue: 2738
+```
+
+## Record 112
+```
+Order ID: SO-1112
+Date: 2026-08-12
+Region: East
+Rep: Nina Rao
+Product: Gizmo
+Units: 1
+Unit Price: 74
+Revenue: 74
+```
+
+## Record 113
+```
+Order ID: SO-1113
+Date: 2026-08-15
+Region: West
+Rep: Nina Rao
+Product: Widget
+Units: 20
+Unit Price: 12.5
+Revenue: 250
+```
+
+## Record 114
+```
+Order ID: SO-1114
+Date: 2026-07-24
+Region: East
+Rep: Aarav Das
+Product: Sprocket
+Units: 8
+Unit Price: 21
+Revenue: 168
+```
+
+## Record 115
+```
+Order ID: SO-1115
+Date: 2026-07-15
+Region: South
+Rep: Noah Bose
+Product: Doohickey
+Units: 18
+Unit Price: 8.25
+Revenue: 148.5
+```
+
+## Record 116
+```
+Order ID: SO-1116
+Date: 2026-09-19
+Region: South
+Rep: Aarav Das
+Product: Sprocket
+Units: 39
+Unit Price: 21
+Revenue: 819
+```
+
+## Record 117
+```
+Order ID: SO-1117
+Date: 2026-07-29
+Region: East
+Rep: Lucas Garcia
+Product: Sprocket
+Units: 29
+Unit Price: 21
+Revenue: 609
+```
+
+## Record 118
+```
+Order ID: SO-1118
+Date: 2026-04-12
+Region: East
+Rep: Noah Bose
+Product: Sprocket
+Units: 44
+Unit Price: 21
+Revenue: 924
+```
+
+## Record 119
+```
+Order ID: SO-1119
+Date: 2026-08-07
+Region: West
+Rep: Nina Rao
+Product: Doohickey
+Units: 56
+Unit Price: 8.25
+Revenue: 462
+```
+
+## Record 120
+```
+Order ID: SO-1120
+Date: 2026-02-04
+Region: West
+Rep: Isla Khan
+Product: Sprocket
+Units: 41
+Unit Price: 21
+Revenue: 861
+```
+
+## Record 121
+```
+Order ID: SO-1121
+Date: 2026-01-11
+Region: West
+Rep: Lucas Garcia
+Product: Gizmo
+Units: 41
+Unit Price: 74
+Revenue: 3034
+```
+
+## Record 122
+```
+Order ID: SO-1122
+Date: 2026-05-19
+Region: South
+Rep: Grace Kim
+Product: Doohickey
+Units: 53
+Unit Price: 8.25
+Revenue: 437.25
+```
+
+## Record 123
+```
+Order ID: SO-1123
+Date: 2026-01-06
+Region: East
+Rep: Isla Das
+Product: Sprocket
+Units: 52
+Unit Price: 21
+Revenue: 1092
+```
+
+## Record 124
+```
+Order ID: SO-1124
+Date: 2026-06-05
+Region: South
+Rep: Aarav Das
+Product: Doohickey
+Units: 54
+Unit Price: 8.25
+Revenue: 445.5
+```
+
+## Record 125
+```
+Order ID: SO-1125
+Date: 2026-09-06
+Region: South
+Rep: Aarav Das
+Product: Gizmo
+Units: 33
+Unit Price: 74
+Revenue: 2442
+```
+
+## Record 126
+```
+Order ID: SO-1126
+Date: 2026-05-19
+Region: North
+Rep: Priya Silva
+Product: Widget
+Units: 5
+Unit Price: 12.5
+Revenue: 62.5
+```
+
+## Record 127
+```
+Order ID: SO-1127
+Date: 2026-02-04
+Region: West
+Rep: Noah Bose
+Product: Gizmo
+Units: 11
+Unit Price: 74
+Revenue: 814
+```
+
+## Record 128
+```
+Order ID: SO-1128
+Date: 2026-03-24
+Region: North
+Rep: Priya Silva
+Product: Sprocket
+Units: 41
+Unit Price: 21
+Revenue: 861
+```
+
+## Record 129
+```
+Order ID: SO-1129
+Date: 2026-06-05
+Region: South
+Rep: Isla Khan
+Product: Gizmo
+Units: 16
+Unit Price: 74
+Revenue: 1184
+```
+
+## Record 130
+```
+Order ID: SO-1130
+Date: 2026-05-18
+Region: North
+Rep: Grace Kim
+Product: Gizmo
+Units: 45
+Unit Price: 74
+Revenue: 3330
+```
+
+## Record 131
+```
+Order ID: SO-1131
+Date: 2026-07-08
+Region: West
+Rep: Noah Bose
+Product: Sprocket
+Units: 11
+Unit Price: 21
+Revenue: 231
+```
+
+## Record 132
+```
+Order ID: SO-1132
+Date: 2026-05-19
+Region: East
+Rep: Isla Khan
+Product: Gizmo
+Units: 26
+Unit Price: 74
+Revenue: 1924
+```
+
+## Record 133
+```
+Order ID: SO-1133
+Date: 2026-07-24
+Region: South
+Rep: Aarav Das
+Product: Sprocket
+Units: 51
+Unit Price: 21
+Revenue: 1071
+```
+
+## Record 134
+```
+Order ID: SO-1134
+Date: 2026-06-18
+Region: South
+Rep: Isla Das
+Product: Gizmo
+Units: 40
+Unit Price: 74
+Revenue: 2960
+```
+
+## Record 135
+```
+Order ID: SO-1135
+Date: 2026-01-16
+Region: West
+Rep: Nina Rao
+Product: Gadget
+Units: 60
+Unit Price: 39
+Revenue: 2340
+```
+
+## Record 136
+```
+Order ID: SO-1136
+Date: 2026-05-08
+Region: East
+Rep: Isla Khan
+Product: Doohickey
+Units: 5
+Unit Price: 8.25
+Revenue: 41.25
+```
+
+## Record 137
+```
+Order ID: SO-1137
+Date: 2026-08-16
+Region: South
+Rep: Isla Das
+Product: Gadget
+Units: 30
+Unit Price: 39
+Revenue: 1170
+```
+
+## Record 138
+```
+Order ID: SO-1138
+Date: 2026-03-25
+Region: South
+Rep: Lucas Garcia
+Product: Sprocket
+Units: 58
+Unit Price: 21
+Revenue: 1218
+```
+
+## Record 139
+```
+Order ID: SO-1139
+Date: 2026-07-04
+Region: East
+Rep: Priya Silva
+Product: Doohickey
+Units: 16
+Unit Price: 8.25
+Revenue: 132
+```
+
+## Record 140
+```
+Order ID: SO-1140
+Date: 2026-04-16
+Region: East
+Rep: Grace Kim
+Product: Widget
+Units: 7
+Unit Price: 12.5
+Revenue: 87.5
+```
+
+## Record 141
+```
+Order ID: SO-1141
+Date: 2026-07-23
+Region: East
+Rep: Aarav Das
+Product: Gadget
+Units: 60
+Unit Price: 39
+Revenue: 2340
+```
+
+## Record 142
+```
+Order ID: SO-1142
+Date: 2026-04-06
+Region: North
+Rep: Noah Bose
+Product: Widget
+Units: 52
+Unit Price: 12.5
+Revenue: 650
+```
+
+## Record 143
+```
+Order ID: SO-1143
+Date: 2026-01-12
+Region: South
+Rep: Noah Bose
+Product: Sprocket
+Units: 32
+Unit Price: 21
+Revenue: 672
+```
+
+## Record 144
+```
+Order ID: SO-1144
+Date: 2026-08-15
+Region: East
+Rep: Isla Das
+Product: Sprocket
+Units: 8
+Unit Price: 21
+Revenue: 168
+```
+
+## Record 145
+```
+Order ID: SO-1145
+Date: 2026-03-30
+Region: North
+Rep: Isla Khan
+Product: Sprocket
+Units: 26
+Unit Price: 21
+Revenue: 546
+```
+
+## Record 146
+```
+Order ID: SO-1146
+Date: 2026-09-11
+Region: West
+Rep: Priya Silva
+Product: Gadget
+Units: 49
+Unit Price: 39
+Revenue: 1911
+```
+
+## Record 147
+```
+Order ID: SO-1147
+Date: 2026-04-29
+Region: South
+Rep: Isla Das
+Product: Gadget
+Units: 30
+Unit Price: 39
+Revenue: 1170
+```
+
+## Record 148
+```
+Order ID: SO-1148
+Date: 2026-07-19
+Region: South
+Rep: Aarav Das
+Product: Sprocket
+Units: 46
+Unit Price: 21
+Revenue: 966
+```
+
+## Record 149
+```
+Order ID: SO-1149
+Date: 2026-06-19
+Region: West
+Rep: Grace Kim
+Product: Gizmo
+Units: 59
+Unit Price: 74
+Revenue: 4366
+```
+
+## Record 150
+```
+Order ID: SO-1150
+Date: 2026-02-10
+Region: North
+Rep: Noah Bose
+Product: Gadget
+Units: 52
+Unit Price: 39
+Revenue: 2028
+```
+
+## Record 152
+```
+Order ID: Total
+Units: 4532
+Revenue: 159288.25
+```

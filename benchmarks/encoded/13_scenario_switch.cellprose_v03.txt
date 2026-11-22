@@ -1,0 +1,53 @@
+---
+cellprose: 0.3
+---
+
+Note: the first field of each table row is its row number, not a cell; column A is the second field.
+
+# Sheet: Scenarios
+
+## A1:B1
+
+#|A|B
+-|-|-
+1|Active scenario (1=Base, 2=Upside, 3=Downside)|1
+
+## A3:E6
+
+#|A|B|C|D|E
+-|-|-|-|-|-
+3|Driver|Base|Upside|Downside|Active
+4|Growth|0.06|0.12|0.01|0.06
+5|Margin|0.22|0.27|0.15|0.22
+6|Capex % revenue|0.08|0.1|0.05|0.08
+
+```formulas
+E4:E6 = CHOOSE($B$1,B4,C4,D4)
+```
+
+# Sheet: Model
+
+## A1:F5
+
+#|A|B|C|D|E|F
+-|-|-|-|-|-|-
+1|Line|Y1|Y2|Y3|Y4|Y5
+2|Revenue|2000000|2120000|2247200|2382032|2524950
+3|EBIT|440000|466400|494384|524047|555490
+4|Capex|160000|169600|179776|190563|201996
+5|Free cash flow|280000|296800|314608|333484|353494
+
+```formulas
+C2:F2 = B2*(1+Growth)
+B3:F3 = B2*Margin
+B4:F4 = B2*CapexPct
+B5:F5 = B3-B4
+```
+
+# Names
+
+```names
+CapexPct = Scenarios!$E$6
+Growth = Scenarios!$E$4
+Margin = Scenarios!$E$5
+```

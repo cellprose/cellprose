@@ -1,0 +1,59 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is the revenue of order SO-1042?",
+  "cell": "Sales!H43",
+  "id": "q1",
+  "truth": 741
+ },
+ {
+  "type": "lookup",
+  "q": "How many units were sold in order SO-1100?",
+  "cell": "Sales!F101",
+  "id": "q2",
+  "truth": 59
+ },
+ {
+  "type": "lookup",
+  "q": "What is the total revenue across all orders?",
+  "cell": "Sales!H153",
+  "id": "q3",
+  "truth": 159288.25
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds the revenue of order SO-1077? Give its cell address.",
+  "cell": "Sales!H78",
+  "id": "q4",
+  "truth": "Sales!H78"
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds the total units? Give its cell address.",
+  "cell": "Sales!F153",
+  "id": "q5",
+  "truth": "Sales!F153"
+ },
+ {
+  "type": "trace",
+  "q": "Consider the revenue of order SO-1042. List the cells its formula reads directly (not indirectly).",
+  "cell": "Sales!H43",
+  "id": "q6",
+  "truth": [
+   "Sales!F43",
+   "Sales!G43"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose the units of order SO-1042 increased by 10%. List every other cell whose value would change.",
+  "cell": "Sales!F43",
+  "factor": 1.1,
+  "id": "q7",
+  "truth": [
+   "Sales!F153",
+   "Sales!H153",
+   "Sales!H43"
+  ]
+ }
+]

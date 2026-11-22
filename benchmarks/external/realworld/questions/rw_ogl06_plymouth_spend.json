@@ -1,0 +1,47 @@
+[
+ {
+  "type": "lookup",
+  "q": "In the sheet 'BI report', for the row where 'Transaction Number' is 47168013, what is the value of 'AP Amount'?",
+  "cell": "BI report!H101",
+  "key": {
+   "G": 47168013
+  },
+  "labels": [
+   "G101",
+   "H101",
+   "H2"
+  ],
+  "id": "q1",
+  "truth": 1299775.98
+ },
+ {
+  "type": "lookup",
+  "q": "In the sheet 'BI report', for the row where 'Transaction Number' is 47248380, what is the value of 'Supplier'?",
+  "cell": "BI report!F165",
+  "key": {
+   "G": 47248380
+  },
+  "labels": [
+   "G165",
+   "F165",
+   "F2"
+  ],
+  "id": "q2",
+  "truth": "KNOWLEDGE ACADEMY LTD (THE)"
+ },
+ {
+  "type": "address",
+  "q": "In the sheet 'BI report', which cell holds 'Expense Type' for the row where 'Transaction Number' is 47401369? Give its cell address.",
+  "cell": "BI report!D262",
+  "key": {
+   "G": 47401369
+  },
+  "labels": [
+   "G262",
+   "D262",
+   "D2"
+  ],
+  "id": "q3",
+  "truth": "BI report!D262"
+ }
+]

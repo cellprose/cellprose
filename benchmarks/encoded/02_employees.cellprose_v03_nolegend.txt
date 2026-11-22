@@ -1,0 +1,136 @@
+---
+sheetmark: 0.3
+---
+
+# Sheet: Employees
+
+## A1:G121
+
+#|A|B|C|D|E|F|G
+-|-|-|-|-|-|-|-
+1|Employee ID|Name|Department|City|Age|Salary|Start Date
+2|E1000|Grace Patel|Engineering|Pune|45|85000|2020-11-29
+3|E1001|Lucas Ward|Sales|Singapore|24|82500|2023-08-30
+4|E1002|Ishaan Das|HR|Singapore|45|181000|2023-12-24
+5|E1003|Vikram Singh|Engineering|Pune|45|161000|2021-02-21
+6|E1004|Elena Das|Support|Singapore|32|185000|2017-12-24
+7|E1005|Ananya Nguyen|Engineering|London|42|86000|2017-01-24
+8|E1006|Vikram Joshi|Finance|Singapore|57|88500|2023-12-30
+9|E1007|Nina Fischer|HR|Singapore|45|132500|2022-02-12
+10|E1008|Grace Khan|Sales|Berlin|51|177500|2019-08-10
+11|E1009|Isla Singh|Support|Singapore|54|132500|2024-03-13
+12|E1010|Samir Khan|Finance|Singapore|57|158500|2024-11-30
+13|E1011|Mia Nguyen|Finance|London|61|110500|2024-10-05
+14|E1012|Sofia Lopez|HR|Singapore|57|174500|2025-05-19
+15|E1013|Ishaan Ward|Marketing|Berlin|41|95000|2024-12-19
+16|E1014|Vikram Chen|HR|Singapore|26|129000|2014-03-10
+17|E1015|Elena Rao|HR|Pune|25|189000|2015-02-05
+18|E1016|Lucas Bose|Sales|Pune|55|76500|2019-12-18
+19|E1017|Ananya Rao|Engineering|Berlin|24|56500|2022-02-16
+20|E1018|Emma Brown|Sales|Pune|27|71000|2015-07-07
+21|E1019|Aarav Patel|HR|Pune|45|107000|2016-11-12
+22|E1020|Ravi Brown|HR|London|55|42000|2022-08-25
+23|E1021|Dev Patel|Sales|London|24|43000|2021-09-20
+24|E1022|Ava Garcia|Finance|Austin|53|49500|2020-12-01
+25|E1023|Arjun Novak|Marketing|Pune|38|144500|2017-06-11
+26|E1024|Isla Nguyen|Engineering|Austin|28|48000|2024-01-17
+27|E1025|Nina Iyer|Marketing|Singapore|47|166500|2025-07-19
+28|E1026|Kabir Iyer|Finance|Austin|38|149000|2014-05-28
+29|E1027|Leo Novak|Sales|Pune|38|50500|2016-12-14
+30|E1028|Zara Brown|Engineering|Berlin|36|172000|2014-09-15
+31|E1029|Ananya Nguyen|HR|Berlin|26|106000|2015-10-21
+32|E1030|Dev Nguyen|Marketing|Singapore|45|107500|2023-06-28
+33|E1031|Lucas Joshi|Engineering|London|24|140000|2023-03-03
+34|E1032|Zara Garcia|Marketing|Pune|37|68000|2016-03-28
+35|E1033|Aarav Brown|Sales|Pune|35|48000|2025-09-05
+36|E1034|Mia Khan|Support|Austin|56|139000|2018-10-07
+37|E1035|Mia Rao|HR|Berlin|49|172500|2014-06-24
+38|E1036|Dev Bose|Engineering|Berlin|55|88000|2016-02-08
+39|E1037|Mia Silva|Finance|Pune|55|72000|2022-03-22
+40|E1038|Sofia Chen|Finance|Pune|48|67500|2016-05-10
+41|E1039|Sofia Rao|HR|Pune|50|57000|2023-03-19
+42|E1040|Ishaan Silva|Support|London|59|60500|2014-02-13
+43|E1041|Sofia Shah|Finance|Austin|26|98000|2024-12-31
+44|E1042|Ethan Garcia|Marketing|Austin|47|160500|2017-02-18
+45|E1043|Omar Chen|Support|Pune|38|73000|2016-10-04
+46|E1044|Liam Ward|Finance|Berlin|35|68500|2014-07-22
+47|E1045|Ava Silva|Engineering|Berlin|40|133500|2024-04-02
+48|E1046|Noah Chen|Finance|Berlin|55|164000|2023-05-26
+49|E1047|Elena Silva|HR|Austin|47|101000|2017-07-05
+50|E1048|Isla Ward|Finance|Singapore|49|63500|2016-02-26
+51|E1049|Liam Chen|Sales|Singapore|31|148500|2015-07-02
+52|E1050|Nina Kim|HR|Pune|30|117500|2022-10-05
+53|E1051|Ananya Mehta|Support|London|55|115000|2016-07-07
+54|E1052|Noah Novak|Support|Pune|43|174000|2019-07-30
+55|E1053|Leo Joshi|Finance|London|32|160000|2019-04-05
+56|E1054|Rohan Chen|Marketing|London|51|154500|2014-08-29
+57|E1055|Nina Ward|Support|London|47|172500|2015-03-15
+58|E1056|Isla Singh|Support|Austin|48|162500|2022-01-28
+59|E1057|Chloe Mehta|HR|Pune|36|178000|2018-03-20
+60|E1058|Rohan Das|HR|Pune|42|160500|2025-09-29
+61|E1059|Leo Khan|HR|London|28|46000|2023-01-14
+62|E1060|Ethan Bose|Marketing|Berlin|35|67500|2022-09-30
+63|E1061|Ravi Novak|Sales|Austin|59|91000|2024-12-26
+64|E1062|Nina Ward|Sales|Pune|61|153000|2024-10-24
+65|E1063|Lucas Joshi|Marketing|London|51|94000|2015-08-20
+66|E1064|Emma Shah|Support|Singapore|26|166000|2021-07-06
+67|E1065|Arjun Singh|Marketing|Berlin|23|62000|2021-10-18
+68|E1066|Zara Das|Finance|London|25|83500|2025-03-15
+69|E1067|Rohan Khan|HR|Austin|31|44500|2020-05-04
+70|E1068|Chloe Khan|Engineering|Austin|24|179500|2022-07-30
+71|E1069|Dev Khan|Sales|Austin|53|76000|2024-11-07
+72|E1070|Leo Novak|HR|Austin|26|108000|2021-01-08
+73|E1071|Sofia Mehta|HR|Austin|47|174500|2016-02-01
+74|E1072|Vikram Rao|Support|Singapore|55|80000|2025-04-27
+75|E1073|Ishaan Kim|Finance|Pune|36|159000|2019-03-17
+76|E1074|Vikram Singh|Engineering|Pune|29|139000|2022-03-06
+77|E1075|Ethan Mehta|Finance|Pune|43|159000|2022-02-19
+78|E1076|Zara Silva|Support|Austin|51|76000|2023-11-30
+79|E1077|Ishaan Rao|Finance|Austin|32|67000|2019-05-03
+80|E1078|Isla Rao|HR|Austin|33|133000|2017-02-22
+81|E1079|Nina Iyer|Sales|Austin|57|138500|2022-12-23
+82|E1080|Nina Mehta|Finance|Singapore|54|124000|2022-12-17
+83|E1081|Omar Lopez|Marketing|Singapore|26|136000|2020-12-02
+84|E1082|Rohan Silva|Sales|Austin|44|154500|2024-09-09
+85|E1083|Liam Brown|Finance|Berlin|30|49000|2016-05-04
+86|E1084|Emma Brown|Finance|Pune|49|44000|2021-03-09
+87|E1085|Ananya Ward|Support|Singapore|40|162000|2017-05-18
+88|E1086|Emma Mehta|Sales|Berlin|28|78000|2018-08-01
+89|E1087|Kabir Singh|Sales|Berlin|45|106000|2016-01-01
+90|E1088|Kabir Rao|Sales|London|61|53500|2021-07-19
+91|E1089|Emma Ward|Engineering|London|33|58000|2023-08-22
+92|E1090|Arjun Singh|Sales|Austin|55|189500|2016-08-11
+93|E1091|Kabir Ward|Support|London|25|142000|2024-08-17
+94|E1092|Isla Ward|Finance|Singapore|61|65000|2025-06-13
+95|E1093|Chloe Silva|Support|Berlin|32|147000|2022-08-29
+96|E1094|Vikram Khan|Engineering|Pune|50|74500|2016-08-28
+97|E1095|Elena Joshi|Sales|Pune|47|120000|2024-04-07
+98|E1096|Nina Shah|Finance|Pune|44|98000|2017-11-19
+99|E1097|Aarav Iyer|Support|Pune|43|161000|2015-02-12
+100|E1098|Grace Silva|Sales|Pune|52|77500|2014-09-06
+101|E1099|Noah Joshi|Marketing|Pune|25|93000|2014-02-21
+102|E1100|Ravi Joshi|Finance|Singapore|37|77500|2022-05-02
+103|E1101|Isla Shah|Sales|Singapore|29|105000|2016-06-05
+104|E1102|Arjun Rao|Engineering|Singapore|35|139000|2021-07-21
+105|E1103|Ava Das|HR|Singapore|54|83500|2025-06-17
+106|E1104|Priya Iyer|HR|London|33|138500|2018-07-12
+107|E1105|Sofia Mehta|Support|London|49|75000|2022-12-06
+108|E1106|Kabir Lopez|Engineering|Singapore|28|163000|2020-02-10
+109|E1107|Sofia Joshi|Support|Austin|36|149500|2017-02-01
+110|E1108|Leo Novak|HR|Pune|23|183000|2018-07-13
+111|E1109|Ethan Rao|Support|Singapore|24|77000|2014-07-12
+112|E1110|Aditi Singh|HR|Berlin|56|54000|2019-01-14
+113|E1111|Ravi Iyer|Marketing|Austin|24|92000|2016-06-06
+114|E1112|Noah Novak|Sales|Pune|51|116500|2018-09-08
+115|E1113|Zara Mehta|HR|Austin|55|187500|2015-07-08
+116|E1114|Olivia Fischer|HR|Pune|51|118000|2016-09-26
+117|E1115|Ishaan Singh|Engineering|London|48|127000|2019-11-13
+118|E1116|Chloe Das|Marketing|Singapore|34|152000|2016-11-20
+119|E1117|Leo Brown|Support|Berlin|44|140000|2024-08-12
+120|E1118|Ava Singh|Marketing|London|59|163500|2023-12-24
+121|E1119|Ethan Silva|Marketing|Austin|41|60000|2017-10-28
+
+```formats
+F2:F121 = #,##0
+G2:G121 = yyyy\-mm\-dd
+```

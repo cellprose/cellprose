@@ -1,0 +1,59 @@
+[
+ {
+  "type": "address",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Expense type' for the row where 'Transaction number' is '0015193437'? Give its cell address.",
+  "cell": "January 26 for Publication!D43",
+  "key": {
+   "G": "0015193437"
+  },
+  "labels": [
+   "G43",
+   "D43",
+   "D1"
+  ],
+  "id": "q1",
+  "truth": "January 26 for Publication!D43"
+ },
+ {
+  "type": "address",
+  "id": "q2",
+  "cell": "January 26 for Publication!E4",
+  "truth": "January 26 for Publication!E4",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Expense area' for the row where 'Transaction number' is '0015195217'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q3",
+  "cell": "January 26 for Publication!H12",
+  "truth": "January 26 for Publication!H12",
+  "q": "In the sheet 'January 26 for Publication', which cell holds '\u00a3' for the row where 'Transaction number' is '0010298776'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q4",
+  "cell": "January 26 for Publication!C28",
+  "truth": "January 26 for Publication!C28",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Date' for the row where 'Transaction number' is '0015193430'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q5",
+  "cell": "January 26 for Publication!F43",
+  "truth": "January 26 for Publication!F43",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Supplier' for the row where 'Transaction number' is '0015193437'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q6",
+  "cell": "January 26 for Publication!A51",
+  "truth": "January 26 for Publication!A51",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Department family' for the row where 'Transaction number' is '0010298403'? Give its cell address."
+ },
+ {
+  "type": "address",
+  "id": "q7",
+  "cell": "January 26 for Publication!D20",
+  "truth": "January 26 for Publication!D20",
+  "q": "In the sheet 'January 26 for Publication', which cell holds 'Expense type' for the row where 'Transaction number' is '0010298208'? Give its cell address."
+ }
+]

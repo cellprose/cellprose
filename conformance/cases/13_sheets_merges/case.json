@@ -1,0 +1,12 @@
+{
+ "title": "Sheet states, frozen panes, an empty sheet, merges sorted as text, quoting in sheet names",
+ "spec": "§4, §8",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

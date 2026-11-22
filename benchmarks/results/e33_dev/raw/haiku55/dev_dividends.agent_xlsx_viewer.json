@@ -1,0 +1,108 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_dividends",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1471,
+ "prompt_sha256": "8c08441e2cd2eba63066365071b00ca7c8e0ef093e01fe7d082df5c581c164cf",
+ "result": "{\"q1\": 1324, \"q2\": \"Inputs!E59\", \"q3\": [\"Analysis of past dividends!C2\", \"Analysis of past dividends!C21\", \"Analysis of past dividends!C22\"], \"q4\": [\"Analysis of past dividends!F2\", \"Inputs!E4\", \"Analysis of past dividends!F3\", \"Analysis of past dividends!F4\", \"Analysis of past dividends!F5\", \"Inputs!E5\", \"Inputs!E3\"], \"q5\": [\"Analysis of past dividends!F4\", \"Analysis of past dividends!F6\", \"Analysis of past dividends!F8\", \"Analysis of past dividends!F9\", \"Analysis of past dividends!F17\", \"Analysis of past dividends!L4\", \"Analysis of past dividends!L6\", \"Analysis of past dividends!L8\", \"Analysis of past dividends!L9\", \"Analysis of past dividends!B38\", \"Analysis of past dividends!B39\", \"Analysis of past dividends!B40\", \"Analysis of past dividends!C38\", \"Analysis of past dividends!C39\", \"Analysis of past dividends!C40\", \"Analysis of past dividends!B41\", \"Analysis of past dividends!B42\", \"Analysis of past dividends!B43\"], \"q6\": [\"Inputs!F12\"]}",
+ "usage": {
+  "input_tokens": 14349,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1645,
+  "output_tokens_details": {
+   "thinking_tokens": 1098
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 14349,
+   "outputTokens": 1645,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1098
+  }
+ },
+ "cost": 0.0022573999999999997,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1255,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 112,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "view_xlsx",
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 13094,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1533,
+     "reasoning_tokens": 1098,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:11:50+00:00",
+  "run_id": "20261107T131056Z-c72b4f",
+  "started_at": "2026-11-07T13:10:56+00:00",
+  "git_sha": "0fd7dc2",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 7.7
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Inputs\"}",
+   "output_chars": 6201
+  },
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Analysis of past dividends\"}",
+   "output_chars": 11031
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_fcffginzulambda",
+ "encoding": "agent_xlsx_cellprose_idx",
+ "prompt_chars": 1417,
+ "prompt_sha256": "ade206fddc38b4454395d71d147c59b0294ffe8756b5644c63a153644a6581d7",
+ "result": "```json\n{\"q1\": 0.275, \"q2\": \"R&D converter!B75\", \"q3\": [\"Historical Numbers!D12\", \"Historical Numbers!D2\"], \"q4\": [\"Cross Holdings Valuation!D9\", \"Cross Holdings Valuation!B9\"], \"q5\": [\"Earnings Normalizer!C24\", \"Earnings Normalizer!G24\", \"Earnings Normalizer!B33\", \"Earnings Normalizer!B35\"], \"q6\": [\"Terminal Value!C11\"]}\n```",
+ "usage": {
+  "input_tokens": 24079,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1644,
+  "output_tokens_details": {
+   "thinking_tokens": 891
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 24079,
+   "outputTokens": 1644,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 891
+  }
+ },
+ "cost": 0.0032299,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1609,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 36,
+     "reasoning_tokens": 10,
+     "tool_calls": [
+      "outline"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 4673,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 333,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range",
+      "read_range",
+      "read_range",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 8117,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1041,
+     "reasoning_tokens": 826,
+     "tool_calls": [
+      "trace",
+      "read_range",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 9680,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 234,
+     "reasoning_tokens": 55,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T13:22:34+00:00",
+  "run_id": "20261107T132210Z-d5a9c1",
+  "started_at": "2026-11-07T13:22:10+00:00",
+  "git_sha": "1492a9f",
+  "git_dirty": true,
+  "corpus": "external/devlarge",
+  "inputs_sha256": "6d163d2f4bc1c03a31deb15c45624ce4462c4d29f85ba7abade95609f8c1cd21",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 8.2
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "outline",
+   "args": "{}",
+   "output_chars": 5542
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Tax Rate for computing income\"}",
+   "output_chars": 77
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Electric Utility (East)\"}",
+   "output_chars": 170
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"Historical Numbers!A1:H13\"}",
+   "output_chars": 1104
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"Cross Holdings Valuation!A1:G11\"}",
+   "output_chars": 785
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"Earnings Normalizer!A17:G35\"}",
+   "output_chars": 1543
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"range\": \"Terminal Value!A1:E16\"}",
+   "output_chars": 960
+  },
+  {
+   "turn": 3,
+   "tool": "trace",
+   "args": "{\"cell\": \"Earnings Normalizer!C26\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 404
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"range\": \"Valuation Model!D17:E17\"}",
+   "output_chars": 160
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"range\": \"Valuation Model!D26:E26\"}",
+   "output_chars": 203
+  }
+ ]
+}

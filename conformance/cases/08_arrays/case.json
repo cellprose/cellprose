@@ -1,0 +1,12 @@
+{
+ "title": "An array formula: the grid shows the results, the arrays block holds the formula",
+ "spec": "§6.5",
+ "write": {
+  "input": "workbook.json",
+  "expected": "expected.sheet.md"
+ },
+ "read": {
+  "input": "expected.sheet.md",
+  "expected": "decoded.json"
+ }
+}

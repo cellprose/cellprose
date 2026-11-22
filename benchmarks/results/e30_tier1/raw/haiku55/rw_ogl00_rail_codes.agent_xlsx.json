@@ -1,0 +1,101 @@
+{
+ "model": "haiku55",
+ "workbook": "rw_ogl00_rail_codes",
+ "encoding": "agent_xlsx",
+ "prompt_chars": 855,
+ "prompt_sha256": "d78a123cc8ee4399cd76ad0e4a59ce9c76e11a9e59743aae9a1f1403ae9574b9",
+ "result": "{\"q1\": 285370, \"q2\": 364591, \"q3\": \"Sheet2!H58\"}",
+ "usage": {
+  "input_tokens": 6352,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 257,
+  "output_tokens_details": {
+   "thinking_tokens": 52
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 6352,
+   "outputTokens": 257,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 52
+  }
+ },
+ "cost": 0.0007637,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 880,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 171,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 5472,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 86,
+     "reasoning_tokens": 52,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ]
+  },
+  "finished_at": "2026-11-07T08:59:12+00:00",
+  "run_id": "20261107T085830Z-c83288",
+  "started_at": "2026-11-07T08:58:30+00:00",
+  "git_sha": "cd28d22",
+  "git_dirty": false,
+  "corpus": "external/realworld",
+  "inputs_sha256": "97f3a78f6bf384422f51174e2d6852c53791924c1f903c85d3c49b41afbf52f2",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 1.8
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "bash",
+   "args": "{\"command\": \"cd . && python3 -c \\\"\\nimport openpyxl\\nwb=openpyxl.load_workbook('book.xlsx')\\nfor ws in wb:\\n    print(ws.title, ws.dimensions)\\nws=wb['Sheet2']\\nfor row in ws.iter_rows():\\n    for c in row:\\n        if c.value is not None: print(c.coordinate, repr(c.value))\\n\\\"\"}",
+   "output_chars": 5778
+  }
+ ]
+}

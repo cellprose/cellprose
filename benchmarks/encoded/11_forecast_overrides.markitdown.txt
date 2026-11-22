@@ -1,0 +1,12 @@
+## Forecast
+| Line | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | FY |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Bookings | 100000.00 | 104000.0 | 108160.0 | 112486.4 | 117000.0 | 121680.0 | 126547.2 | 131609.088 | 140000.0 | 145600.0 | 151424.0 | 157480.96 | 1515987.648 |
+| Revenue | 100000.00 | 104000.0 | 108160.0 | 112486.4 | 117000.0 | 121680.0 | 126547.2 | 131609.088 | 140000.0 | 145600.0 | 151424.0 | 157480.96 | 1515987.648 |
+| Headcount | 40.00 | 42.0 | 44.0 | 46.0 | 48.0 | 50.0 | 52.0 | 54.000 | 56.0 | 58.0 | 60.0 | 62.00 | NaN |
+| Payroll | 380000.00 | 399000.0 | 418000.0 | 437000.0 | 456000.0 | 475000.0 | 494000.0 | 513000.000 | 532000.0 | 480000.0 | 570000.0 | 589000.00 | 5743000.000 |
+| NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Monthly growth | 0.04 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Revenue per booking | 1.00 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Cost per head | 9500.00 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Hires per month | 2.00 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |

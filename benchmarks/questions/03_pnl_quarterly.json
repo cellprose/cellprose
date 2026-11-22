@@ -1,0 +1,107 @@
+[
+ {
+  "type": "lookup",
+  "q": "What is EBITDA in Q3?",
+  "cell": "P&L!D8",
+  "id": "q1",
+  "truth": 18531.648
+ },
+ {
+  "type": "lookup",
+  "q": "What is total revenue for the year?",
+  "cell": "P&L!F4",
+  "id": "q2",
+  "truth": 243330.048
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds Q2 gross profit? Give its cell address.",
+  "cell": "P&L!C6",
+  "id": "q3",
+  "truth": "P&L!C6"
+ },
+ {
+  "type": "address",
+  "q": "Which cell holds the growth assumption? Give its cell address.",
+  "cell": "P&L!B12",
+  "id": "q4",
+  "truth": "P&L!B12"
+ },
+ {
+  "type": "trace",
+  "q": "Consider Q3 EBITDA. List the cells its formula reads directly (not indirectly).",
+  "cell": "P&L!D8",
+  "id": "q5",
+  "truth": [
+   "P&L!D6",
+   "P&L!D7"
+  ]
+ },
+ {
+  "type": "trace",
+  "q": "Consider Q2 units. List the cells its formula reads directly (not indirectly).",
+  "cell": "P&L!C2",
+  "id": "q6",
+  "truth": [
+   "P&L!B12",
+   "P&L!B2"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose the growth assumption increased by 10%. List every other cell whose value would change.",
+  "cell": "P&L!B12",
+  "factor": 1.1,
+  "id": "q7",
+  "truth": [
+   "P&L!C2",
+   "P&L!C4",
+   "P&L!C5",
+   "P&L!C6",
+   "P&L!C8",
+   "P&L!C9",
+   "P&L!D2",
+   "P&L!D4",
+   "P&L!D5",
+   "P&L!D6",
+   "P&L!D8",
+   "P&L!D9",
+   "P&L!E2",
+   "P&L!E4",
+   "P&L!E5",
+   "P&L!E6",
+   "P&L!E8",
+   "P&L!E9",
+   "P&L!F2",
+   "P&L!F4",
+   "P&L!F5",
+   "P&L!F6",
+   "P&L!F8",
+   "P&L!F9"
+  ]
+ },
+ {
+  "type": "impact",
+  "q": "Suppose Opex per quarter increased by 10%. List every other cell whose value would change.",
+  "cell": "P&L!B15",
+  "factor": 1.1,
+  "id": "q8",
+  "truth": [
+   "P&L!B7",
+   "P&L!B8",
+   "P&L!B9",
+   "P&L!C7",
+   "P&L!C8",
+   "P&L!C9",
+   "P&L!D7",
+   "P&L!D8",
+   "P&L!D9",
+   "P&L!E7",
+   "P&L!E8",
+   "P&L!E9",
+   "P&L!F7",
+   "P&L!F8",
+   "P&L!F9"
+  ]
+ }
+]

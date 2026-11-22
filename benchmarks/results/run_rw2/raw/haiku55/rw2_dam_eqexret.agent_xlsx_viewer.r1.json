@@ -1,0 +1,159 @@
+{
+ "model": "haiku55",
+ "workbook": "rw2_dam_eqexret",
+ "encoding": "agent_xlsx_viewer",
+ "prompt_chars": 1369,
+ "prompt_sha256": "e6c57a4bc71ed22617ee93cd8e95ad5a4b5e1d58de54bc19dd9dbd05276b8b77",
+ "result": "{\"q1\": 0.22, \"q2\": \"Inputs!B2\", \"q3\": [\"Inputs!B15\", \"Excess Return Valuation!F7\", \"Excess Return Valuation!F10\", \"Excess Return Valuation!F11\", \"Excess Return Valuation!F12\"], \"q4\": [\"Inputs!B15\", \"Excess Return Valuation!J7\", \"Excess Return Valuation!J8\", \"Excess Return Valuation!J22\"], \"q5\": [\"Excess Return Valuation!B28\", \"Excess Return Valuation!B29\"], \"q6\": [\"Normalized Earnings!B5\", \"Normalized Earnings!C5\", \"Normalized Earnings!D5\", \"Normalized Earnings!E5\", \"Normalized Earnings!F5\"]}",
+ "usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 17122,
+  "cache_read_input_tokens": 18641,
+  "output_tokens": 1252,
+  "output_tokens_details": {
+   "thinking_tokens": 437
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 10,
+   "outputTokens": 1252,
+   "cacheReadInputTokens": 18641,
+   "cacheCreationInputTokens": 17122,
+   "thinkingTokens": 437
+  }
+ },
+ "cost": 0.0042033,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 1219,
+     "output_tokens": 29,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 1219,
+     "cache_write_tokens": 88,
+     "output_tokens": 220,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "view_xlsx",
+      "view_xlsx",
+      "view_xlsx",
+      "view_xlsx"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 1307,
+     "cache_write_tokens": 14808,
+     "output_tokens": 744,
+     "reasoning_tokens": 437,
+     "tool_calls": [
+      "bash"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 16115,
+     "cache_write_tokens": 1007,
+     "output_tokens": 259,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.002954
+  },
+  "finished_at": "2026-11-11T16:22:11+00:00",
+  "run_id": "20261111T155116Z-3bb128",
+  "started_at": "2026-11-11T15:51:16+00:00",
+  "git_sha": "716af38",
+  "git_dirty": false,
+  "corpus": "external/realworld2",
+  "inputs_sha256": "851c51b14e683b936efdd3500eda03b6504a5a2514867a3cb7b13908c2c28ce5",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": true,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 6.3
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "view_xlsx",
+   "args": "{}",
+   "output_chars": 95
+  },
+  {
+   "turn": 2,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Inputs\"}",
+   "output_chars": 2209
+  },
+  {
+   "turn": 2,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Normalized Earnings\"}",
+   "output_chars": 393
+  },
+  {
+   "turn": 2,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Excess Return Valuation\"}",
+   "output_chars": 18692
+  },
+  {
+   "turn": 2,
+   "tool": "view_xlsx",
+   "args": "{\"sheet\": \"Read me first\"}",
+   "output_chars": 2320
+  },
+  {
+   "turn": 3,
+   "tool": "bash",
+   "args": "{\"command\": \"echo '{\\\"q1\\\": 0.22, \\\"q2\\\": \\\"Inputs!B2\\\", \\\"q3\\\": [\\\"Inputs!B15\\\", \\\"Excess Return Valuation!F7\\\", \\\"Excess Return Valuation!F10\\\", \\\"Excess Return Valuation!F11\\\", \\\"Excess Return Valuation!F12\\\"], \\\"q4\\\": [\\\"Inputs!B15\\\", \\\"Excess Return Valuation!J7\\\", \\\"Excess Return Valuation!J8\\\", \\\"Excess Return Valuation!J22\\\"], \\\"q5\\\": [\\\"Excess Return Valuation!B28\\\", \\\"Excess Return Valuation!B29\\\"], \\\"q6\\\": [\\\"Normalized Earnings!B5\\\", \\\"Normalized Earnings!C5\\\", \\\"Normalized Earnings!",
+   "output_chars": 498
+  }
+ ]
+}

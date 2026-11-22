@@ -1,0 +1,74 @@
+[
+ {
+  "type": "lookup",
+  "cell": "E31.XLS!O23",
+  "q": "What is the value in the row labelled 'TOT_SHARE_EQU', column headed 'DR (CR)', in the sheet 'E31.XLS'?",
+  "truth": -13304252,
+  "labels": [
+   "C23",
+   "O11"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "E20.XLS!E16",
+  "q": "Which cell holds the value in the row labelled 'JV Gain/Loss', column headed '2ND QTR', in the sheet 'E20.XLS'? Give its cell address.",
+  "truth": "E20.XLS!E16",
+  "labels": [
+   "A16",
+   "E11"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "E8.XLS!M19",
+  "q": "Consider the cell E8.XLS!M19. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "E8.XLS!C19",
+   "E8.XLS!D19",
+   "E8.XLS!E19",
+   "E8.XLS!F19",
+   "E8.XLS!G19",
+   "E8.XLS!H19",
+   "E8.XLS!I19"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "E20.XLS!K30",
+  "q": "Consider the cell E20.XLS!K30. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "E20.XLS!C30",
+   "E20.XLS!D30",
+   "E20.XLS!E30",
+   "E20.XLS!F30",
+   "E20.XLS!G30",
+   "E20.XLS!H30",
+   "E20.XLS!I30"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "E20.XLS!C16",
+  "factor": 1.1,
+  "q": "Suppose the number in E20.XLS!C16 (in the row labelled 'JV Gain/Loss') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "E20.XLS!C41",
+   "E20.XLS!K16",
+   "E20.XLS!K41"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "E8.XLS!M34",
+  "range": "E8.XLS!M34:M45",
+  "q": "Consider the range E8.XLS!M34:M45 (the column of 'ENDING BALANCE'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [],
+  "id": "q6"
+ }
+]

@@ -1,0 +1,71 @@
+[
+ {
+  "type": "lookup",
+  "cell": "Conf. Letter Imb. Comparison!H32",
+  "q": "What is the value in the row labelled 'Total of all OBA's:', column headed 'DOLLAR VALUE **', in the sheet 'Conf. Letter Imb. Comparison'?",
+  "truth": -2123900.63,
+  "labels": [
+   "B32",
+   "H7"
+  ],
+  "id": "q1"
+ },
+ {
+  "type": "address",
+  "cell": "Conf. Letter Imb. Comparison!F32",
+  "q": "Which cell holds the value in the row labelled 'Total of all OBA's:', column headed 'QTY BALANCE', in the sheet 'Conf. Letter Imb. Comparison'? Give its cell address.",
+  "truth": "Conf. Letter Imb. Comparison!F32",
+  "labels": [
+   "B32",
+   "F7"
+  ],
+  "id": "q2"
+ },
+ {
+  "type": "trace",
+  "cell": "Original OBA's!I86",
+  "q": "Consider the cell Original OBA's!I86 (in the row labelled '25781 - Pleasant Valley'). List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Original OBA's!G86",
+   "Original OBA's!H86"
+  ],
+  "id": "q3"
+ },
+ {
+  "type": "trace",
+  "cell": "Ellis-Woodward-Clark!P11",
+  "q": "Consider the cell Ellis-Woodward-Clark!P11. List the cells its formula reads directly (not indirectly).",
+  "truth": [
+   "Ellis-Woodward-Clark!P10",
+   "Ellis-Woodward-Clark!P8",
+   "Ellis-Woodward-Clark!P9"
+  ],
+  "id": "q4"
+ },
+ {
+  "type": "impact",
+  "cell": "Original OBA's!G56",
+  "factor": 1.1,
+  "q": "Suppose the number in Original OBA's!G56 (in the row labelled '51 - Finney 1') were 10% higher. List every other cell whose value would change.",
+  "truth": [
+   "Original OBA's!G63",
+   "Original OBA's!I56",
+   "Original OBA's!I63"
+  ],
+  "id": "q5"
+ },
+ {
+  "type": "hardcode",
+  "cell": "Original OBA's!AS28",
+  "range": "Original OBA's!AS28:AS34",
+  "q": "Consider the range Original OBA's!AS28:AS34 (the column of 'Variance'). List the cells that hold typed-in numbers rather than formulas.",
+  "truth": [
+   "Original OBA's!AS28",
+   "Original OBA's!AS29",
+   "Original OBA's!AS30",
+   "Original OBA's!AS31",
+   "Original OBA's!AS33"
+  ],
+  "id": "q6"
+ }
+]

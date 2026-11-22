@@ -1,0 +1,65 @@
+{
+ "model": "sonnet55",
+ "workbook": "10_gradebook",
+ "encoding": "sheetmark_lean_gfm",
+ "prompt_chars": 2609,
+ "result": "q1: Aarav Nguyen is row 10, weighted G10 = 68.3.\n\nq2: Class average on the final is F34 = 69.0667.\n\nq3: Maya Joshi, row 5, letter C.\n\nq4: Zara Silva is row 20, midterm in column E, so E20.\n\nq5: Noah Das is row 15. G15 = SUMPRODUCT($B$2:$F$2,B15:F15), so it reads B2:F2 and B15:F15.\n\nq6: If the final weight (F2) increased by 10%, the cells that change are those that depend on F2: G3:G32 (weighted scores), then H3:H32 (letters, only if the score crosses a threshold, but they are formula dependents), and G34 (average of G). Question: \"every other cell whose value would change\". Interpreting \"increased by 10%\" as F2 going from 0.4 to 0.44 (or 0.5), the weighted scores change for all students unless their final is 0. Letters might change for some, but not necessarily all, so I should decide which letters would change.\n\nUsing F2 = 0.44 (a 10% relative increase), the new weighted score is G + 0.04*F.\n\nChecking the letters near a threshold:\n- Row 3: 59.5+0.04*58=61.82 \u2192 D (was F). Changes.\n- Row 4: 75.3+2.2=77.5 \u2192 C. No change.\n- Row 5: 73.8+3.68=77.48 \u2192 C. No.\n- Row 6: 74.1+2.68=76.78 \u2192 C. No.\n- Row 7: 72.7+2.96=75.66 \u2192 C. No.\n- Row 8: 80.6+3.76=84.36 \u2192 B. No.\n- Row 9: 69.5+3.28=72.78 \u2192 C (was D). Changes.\n- Row 10: 68.3+2.72=71.02 \u2192 C (was D). Changes.\n- Row 11: 73.9+2.88=76.78 \u2192 C. No.\n- Row 12: 83.8+3.08=86.88 \u2192 B. No.\n- Row 13: 62.3+3.04=65.34 \u2192 D. No.\n- Row 14: 71.2+2=73.2 \u2192 C. No.\n- Row 15: 60.2+2.08=62.28 \u2192 D. No.\n- Row 16: 66.3+2.68=68.98 \u2192 D. No.\n- Row 17: 62.3+2.16=64.46 \u2192 D. No.\n- Row 18: 69+2.96=71.96 \u2192 C (was D). Changes.\n- Row 19: 81.4+3.76=85.16 \u2192 B. No.\n- Row 20: 67.8+2.36=70.16 \u2192 C (was D). Changes.\n- Row 21: 63.8+2.4=66.2 \u2192 D. No.\n- Row 22: 66.6+2.76=69.36 \u2192 D. No.\n- Row 23: 72.2+2.48=74.68 \u2192 C. No.\n- Row 24: 67.7+3.04=70.74 \u2192 C (was D). Changes.\n- Row 25: 75.9+3.28=79.18 \u2192 C. No.\n- Row 26: 71.9+3.2=75.1 \u2192 C. No.\n- Row 27: 69.6+1.8=71.4 \u2192 C (was D). Changes.\n- Row 28: 53+2.16=55.16 \u2192 F. No.\n- Row 29: 70.8+2.12=72.92 \u2192 C. No.\n- Row 30: 80.6+3.64=84.24 \u2192 B. No.\n- Row 31: 77+3.12=80.12 \u2192 B (was C). Changes.\n- Row 32: 68.8+2.28=71.08 \u2192 C (was D). Changes.\n\nLetters change in rows 3, 9, 10, 18, 20, 24, 27, 31, 32. The F2 weight also changes G34 (the class average of G).\n\n```json\n{\"q1\": 68.3, \"q2\": 69.0667, \"q3\": \"C\", \"q4\": \"Grades!E20\", \"q5\": [\"Grades!B2:F2\", \"Grades!B15:F15\"], \"q6\": [\"Grades!G3:G32\", \"Grades!G34\", \"Grades!H3\", \"Grades!H9\", \"Grades!H10\", \"Grades!H18\", \"Grades!H20\", \"Grades!H24\", \"Grades!H27\", \"Grades!H31\", \"Grades!H32\"]}\n```",
+ "usage": {
+  "input_tokens": 1606,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1408,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 1606,
+   "outputTokens": 1408,
+   "cacheReadInputTokens": 0,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.017292,
+ "provider": "anthropic",
+ "run": {
+  "run_id": "20261009T102109Z-d2d3b9",
+  "started_at": "2026-10-09T10:21:09+00:00",
+  "git_sha": "c5cb767",
+  "anthropic_sdk": "1.12.1",
+  "rep": 0,
+  "wall_seconds": 8.0,
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "off",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "provider_usage": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 1606,
+   "output_tokens": 1408,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "server_tool_use": null,
+   "service_tier": "standard"
+  },
+  "finished_at": "2026-10-09T10:25:29+00:00"
+ }
+}
