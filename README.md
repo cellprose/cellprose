@@ -2,7 +2,11 @@
 
 **Give a model the whole spreadsheet, formulas included, and it answers right in one call.**
 
-Created by Utkarsh Gaikwad.
+[![pypi cellprose](https://img.shields.io/pypi/v/cellprose?label=pypi%3A%20cellprose)](https://pypi.org/project/cellprose/)
+[![pypi markitdown-cellprose](https://img.shields.io/pypi/v/markitdown-cellprose?label=pypi%3A%20markitdown-cellprose)](https://pypi.org/project/markitdown-cellprose/)
+[![pypi langchain-cellprose](https://img.shields.io/pypi/v/langchain-cellprose?label=pypi%3A%20langchain-cellprose)](https://pypi.org/project/langchain-cellprose/)
+[![pypi llama-index-readers-cellprose](https://img.shields.io/pypi/v/llama-index-readers-cellprose?label=pypi%3A%20llama-index-readers-cellprose)](https://pypi.org/project/llama-index-readers-cellprose/)
+[![npm cellprose](https://img.shields.io/npm/v/cellprose?label=npm%3A%20cellprose)](https://www.npmjs.com/package/cellprose)
 
 Cellprose (`.sheet.md`, or `.cellprose.md`) is an open plain-text format for Excel workbooks. It keeps what CSV and
 MarkItDown drop: formulas, cell addresses, merged cells, number formats and named ranges. Every file is still valid
@@ -118,3 +122,5 @@ Cellprose is free and open source. If it saves you time or tokens, you can spons
 Code, website and benchmark tooling are under [Apache-2.0](LICENSE). The format specification
 ([docs/SPEC.md](docs/SPEC.md)) and the [conformance kit](conformance/) are under [CC-BY-4.0](LICENSE-SPEC). The
 name "Cellprose" is not licensed by either.
+
+Created by Utkarsh Gaikwad.
