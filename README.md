@@ -8,9 +8,22 @@
 [![pypi llama-index-readers-cellprose](https://img.shields.io/pypi/v/llama-index-readers-cellprose?label=pypi%3A%20llama-index-readers-cellprose)](https://pypi.org/project/llama-index-readers-cellprose/)
 [![npm cellprose](https://img.shields.io/npm/v/cellprose?label=npm%3A%20cellprose)](https://www.npmjs.com/package/cellprose)
 
-Cellprose (`.sheet.md`, or `.cellprose.md`) is an open plain-text format for Excel workbooks. It keeps what CSV and
-MarkItDown drop: formulas, cell addresses, merged cells, number formats and named ranges. Every file is still valid
-GitHub-Flavored Markdown, so workbooks render as tables and diff cleanly on GitHub.
+Cellprose (`.sheet.md`, or `.cellprose.md`) is an open plain-text format for Excel workbooks, built so a model can
+read a whole spreadsheet in one call.
+
+## Why Cellprose
+
+- **It keeps what CSV and MarkItDown drop.** Formulas, cell addresses, merged cells, number formats and named ranges.
+- **Models answer more questions right.** 93.8–99.3% on 30 real-world workbooks, against 65.9–84.1% for CSV, in a
+  pre-registered run ([results and limits](#what-the-benchmark-showed)).
+- **It costs less per correct answer** than MarkItDown, 0.32–0.60 times as much in the same run.
+- **Workbooks render.** Every file is valid GitHub-Flavored Markdown, so on GitHub, in an editor or in any Markdown
+  viewer a workbook shows up as real tables, with no Excel.
+- **Workbooks get real code review.** The files diff line by line, so a changed formula shows up in a pull request.
+- **It plugs into agents.** An MCP server, adapters for MarkItDown, LangChain and LlamaIndex, and a dependency-free
+  npm writer.
+- **The spec is open.** CC-BY-4.0, with a [conformance kit](conformance/) so a second implementation can prove it
+  matches.
 
 ![Cellprose cost per correct answer as a ratio to each baseline](docs/img/benchmark-run.png)
 
