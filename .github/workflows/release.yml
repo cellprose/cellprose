@@ -13,6 +13,9 @@ name: Release
 on:
   push:
     tags: ["v*"]
+  # Run by hand (Actions > Release > Run workflow) to publish only the three adapters. The core package and npm
+  # are skipped, and PyPI needs each adapter registered as a pending publisher just before its job.
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -29,6 +32,7 @@ jobs:
         with:
           node-version: "22"
       - name: Tag matches the package versions
+        if: startsWith(github.ref, 'refs/tags/')
         run: |
           tag="${GITHUB_REF_NAME#v}"
           py=$(python -c "import tomllib;print(tomllib.load(open('pyproject.toml','rb'))['project']['version'])")
@@ -57,6 +61,7 @@ jobs:
 
   pypi-core:
     needs: build
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     environment: release
     permissions:
@@ -70,9 +75,11 @@ jobs:
         with:
           packages-dir: dist/core/
 
-  pypi-integrations:
-    # The adapters depend on cellprose>=0.3, so they go up after it.
-    needs: pypi-core
+  pypi-markitdown:
+    # The adapters depend on cellprose>=0.3, so they go up after it, one at a time: PyPI allows only one pending
+    # publisher for this repository, workflow and environment, so each is registered just before its job.
+    needs: [build, pypi-core]
+    if: ${{ !cancelled() && needs.build.result == 'success' && (needs.pypi-core.result == 'success' || needs.pypi-core.result == 'skipped') }}
     runs-on: ubuntu-latest
     environment: release
     permissions:
@@ -82,12 +89,58 @@ jobs:
         with:
           name: dist
           path: dist/
+      - run: |
+          mkdir -p dist/one
+          cp dist/integrations/markitdown_cellprose-* dist/one/
       - uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          packages-dir: dist/integrations/
+          packages-dir: dist/one/
+
+  pypi-langchain:
+    # The adapters depend on cellprose>=0.3, so they go up after it, one at a time: PyPI allows only one pending
+    # publisher for this repository, workflow and environment, so each is registered just before its job.
+    needs: [build, pypi-core, pypi-markitdown]
+    if: ${{ !cancelled() && needs.pypi-markitdown.result == 'success' && needs.build.result == 'success' && (needs.pypi-core.result == 'success' || needs.pypi-core.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    environment: release
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - run: |
+          mkdir -p dist/one
+          cp dist/integrations/langchain_cellprose-* dist/one/
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/one/
+
+  pypi-llama-index:
+    # The adapters depend on cellprose>=0.3, so they go up after it, one at a time: PyPI allows only one pending
+    # publisher for this repository, workflow and environment, so each is registered just before its job.
+    needs: [build, pypi-core, pypi-langchain]
+    if: ${{ !cancelled() && needs.pypi-langchain.result == 'success' && needs.build.result == 'success' && (needs.pypi-core.result == 'success' || needs.pypi-core.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    environment: release
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+      - run: |
+          mkdir -p dist/one
+          cp dist/integrations/llama_index_readers_cellprose-* dist/one/
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/one/
 
   npm:
     needs: build
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     environment: release
     permissions:
