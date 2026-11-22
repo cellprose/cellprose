@@ -4,7 +4,7 @@ A LangChain document loader that reads `.xlsx` and `.xlsm` workbooks as [Cellpro
 keeping formulas, cell addresses and every sheet in valid Markdown.
 
 ```bash
-pip install langchain-cellprose   # not yet on PyPI: pip install -e integrations/langchain-cellprose from a clone
+pip install langchain-cellprose
 ```
 
 ```python

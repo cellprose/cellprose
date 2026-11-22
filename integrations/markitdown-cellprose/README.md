@@ -5,7 +5,7 @@ A [MarkItDown](https://github.com/microsoft/markitdown) plugin that converts `.x
 merged cells and every sheet, and it is still valid GitHub-Flavored Markdown.
 
 ```bash
-pip install markitdown-cellprose   # not yet on PyPI: pip install -e integrations/markitdown-cellprose from a clone
+pip install markitdown-cellprose
 markitdown --use-plugins book.xlsx > book.sheet.md
 ```
 

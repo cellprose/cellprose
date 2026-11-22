@@ -4,7 +4,7 @@ A LlamaIndex reader that loads `.xlsx` and `.xlsm` workbooks as [Cellprose](http
 formulas, cell addresses and every sheet in valid Markdown.
 
 ```bash
-pip install llama-index-readers-cellprose   # not yet on PyPI: pip install -e integrations/llama-index-readers-cellprose from a clone
+pip install llama-index-readers-cellprose
 ```
 
 ```python

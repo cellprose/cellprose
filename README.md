@@ -61,7 +61,7 @@ Formulas are written once per fill range, not once per cell, and every value kee
 ## Use it
 
 ```bash
-pip install "cellprose[mcp]"            # PyPI release pending: until then, pip install -e ".[mcp]" from a clone
+pip install "cellprose[mcp]"
 cellprose encode model.xlsx             # -> model.sheet.md
 cellprose decode model.sheet.md         # -> model.xlsx (values, formulas, formats, merges, names)
 cellprose stats model.xlsx              # chars and tokens vs CSV and Markdown (needs the [stats] extra)
@@ -78,11 +78,11 @@ There are two ways to use it, in the prompt or with its own tools; the [guide](s
 find cells, trace a formula and run a what-if (`index_workbook`, `read_ranges`, `find_cells`, `trace_cell`, `whatif`, `write_cells`), plus an agent skill in `skills/cellprose/`. A hosted server at
 [tablient.com](https://tablient.com) does the same without installing anything. See [INTEGRATIONS.md](INTEGRATIONS.md).
 
-**Where you already load spreadsheets** ([integrations/](integrations/), publishing with the package):
+**Where you already load spreadsheets** ([integrations/](integrations/)):
 
 | You use | Swap in |
 |---|---|
-| MarkItDown | `pip install markitdown-cellprose` (not yet on PyPI), then `markitdown --use-plugins book.xlsx` |
+| MarkItDown | `pip install markitdown-cellprose`, then `markitdown --use-plugins book.xlsx` |
 | LangChain | `from langchain_cellprose import CellproseLoader` and `CellproseLoader("book.xlsx").load()` |
 | LlamaIndex | `SimpleDirectoryReader("data", file_extractor={".xlsx": CellproseReader()})` |
 
