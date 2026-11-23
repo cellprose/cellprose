@@ -20,10 +20,14 @@ titleTemplate: Spreadsheets models read right
   <div class="sec-head"><div class="eyebrow">Two ways to use it</div><h2>Whole workbook, or index first and pick sections.</h2>
     <p class="lede">Both read the same text. Choose by the size of the workbook and the question.</p></div>
 
+<div class="two-ways">
+
 | | In the prompt | With its own tools |
 | --- | --- | --- |
 | **Best for** | Small workbooks and one-shot answers in a pipeline. | Large or multi-sheet workbooks, questions about a few ranges, tracing, what-ifs and edits. |
 | **How** | `cellprose.dumps("book.xlsx")` | `cellprose-mcp`: `index_workbook`, then `read_ranges`, `find_cells`, `trace_cell`. |
+
+</div>
 
   <a class="btn ghost" href="./guide/#two-ways-to-use-it">When to use which</a>
 </LiveBlock>
