@@ -277,3 +277,16 @@ table.ref td.num { text-align: right; font-family: var(--mono); font-variant-num
 .news .btn:disabled { opacity: .6; cursor: default; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 @media (max-width: 560px) { .news { flex-direction: column; } }
+
+/* "Two ways to use it": stack each row as a card on narrow screens */
+@media (max-width: 719px) {
+  .two-ways table, .two-ways tbody, .two-ways tr, .two-ways td { display: block; width: 100%; box-sizing: border-box; }
+  .two-ways thead { display: none; }
+  .two-ways table { border: 0; }
+  .two-ways tr { border: 1px solid var(--vp-c-divider); border-radius: 8px; margin: 0 0 12px; padding: 10px 12px; background: var(--vp-c-bg-soft); }
+  .two-ways td { border: 0; padding: 4px 0; }
+  .two-ways td:first-child { font-weight: 600; padding-bottom: 6px; }
+  .two-ways td:nth-child(2)::before, .two-ways td:nth-child(3)::before { display: block; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; color: var(--vp-c-text-2); margin-top: 4px; }
+  .two-ways td:nth-child(2)::before { content: "In the prompt"; }
+  .two-ways td:nth-child(3)::before { content: "With its own tools"; }
+}
