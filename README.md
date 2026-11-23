@@ -1,6 +1,6 @@
 # Cellprose
 
-**Give a model the whole spreadsheet, formulas included, and it answers right in one call.**
+**Give a model a spreadsheet it can read, formulas included: all of it in one call for a small workbook, or an index and the ranges it asks for when the workbook is big.**
 
 [![pypi cellprose](https://img.shields.io/pypi/v/cellprose?label=pypi%3A%20cellprose)](https://pypi.org/project/cellprose/)
 [![pypi markitdown-cellprose](https://img.shields.io/pypi/v/markitdown-cellprose?label=pypi%3A%20markitdown-cellprose)](https://pypi.org/project/markitdown-cellprose/)
@@ -9,7 +9,9 @@
 [![npm cellprose](https://img.shields.io/npm/v/cellprose?label=npm%3A%20cellprose)](https://www.npmjs.com/package/cellprose)
 
 Cellprose (`.sheet.md`, or `.cellprose.md`) is an open plain-text format for Excel workbooks, built so a model can
-read a whole spreadsheet in one call.
+read a spreadsheet correctly. You can put the whole text in the prompt, or give an agent tools that index the workbook
+and read only the sections it needs. [Which to pick](#two-ways-to-use-it) depends on the size of the workbook and the
+question.
 
 ## Why Cellprose
 
@@ -20,6 +22,8 @@ read a whole spreadsheet in one call.
 - **Workbooks render.** Every file is valid GitHub-Flavored Markdown, so on GitHub, in an editor or in any Markdown
   viewer a workbook shows up as real tables, with no Excel.
 - **Workbooks get real code review.** The files diff line by line, so a changed formula shows up in a pull request.
+- **It works for big workbooks too.** The MCP tools outline a workbook first, then read, find and trace only the
+  ranges a question needs, so nothing has to be pasted whole.
 - **It plugs into agents.** An MCP server, adapters for MarkItDown, LangChain and LlamaIndex, and a dependency-free
   npm writer.
 - **The spec is open.** CC-BY-4.0, with a [conformance kit](conformance/) so a second implementation can prove it
@@ -89,11 +93,19 @@ import cellprose
 text = cellprose.dumps("model.xlsx")    # put this in the prompt
 ```
 
-There are two ways to use it, in the prompt or with its own tools; the [guide](site/guide/index.md#two-ways-to-use-it) compares them.
+### Two ways to use it
 
-**In an agent.** `claude mcp add cellprose -- cellprose-mcp` gives an agent tools to outline a workbook, read ranges,
-find cells, trace a formula and run a what-if (`index_workbook`, `read_ranges`, `find_cells`, `trace_cell`, `whatif`, `write_cells`), plus an agent skill in `skills/cellprose/`. A hosted server at
-[tablient.com](https://tablient.com) does the same without installing anything. See [INTEGRATIONS.md](INTEGRATIONS.md).
+Pick by the size of the workbook and the question, not by habit. Both read the same text.
+
+| | In the prompt | With its own tools (index first, pick sections) |
+|---|---|---|
+| **How** | `cellprose.dumps("model.xlsx")` and put the text in the message. | `claude mcp add cellprose -- cellprose-mcp`, or the hosted server at [tablient.com](https://tablient.com). The agent gets an outline with `index_workbook`, then calls `read_ranges`, `find_cells`, `trace_cell`, `whatif` and `write_cells` for what it needs. |
+| **Use it when** | The workbook fits comfortably in the context window and you want a one-shot answer, for example in a pipeline. | The workbook is large or has many sheets; the question touches a few ranges; you need to trace a formula, try a what-if or edit; or you want to keep tokens down by not sending cells the question never needs. |
+| **Avoid it when** | The text would crowd out the rest of the prompt, or most of it is irrelevant to the question. Send an index and a section instead. | A tiny workbook where one call is simpler than several turns. |
+| **Measured (11 Nov 2026 run)** | 93.8–99.3% correct on 30 real-world workbooks; cost per correct answer 0.32–0.60 times MarkItDown's. | Cost per correct answer 0.29–0.79 times that of agents with a shell ([Addendum A](benchmarks/RESULTS.md#addendum-a-cellprose-with-its-own-tools)). *Limit: decided after the main results were seen.* |
+
+The choice between them is guidance; the benchmark did not test where the crossover in workbook size lies. See the
+[guide](site/guide/index.md#two-ways-to-use-it) and [INTEGRATIONS.md](INTEGRATIONS.md).
 
 **Where you already load spreadsheets** ([integrations/](integrations/)):
 

@@ -25,14 +25,17 @@ G2:I2 = F2*(1+$B$7)
 
 ## Two ways to use it
 
-| | In the prompt | With its own tools |
+Neither is the default. Choose by the size of the workbook and the question.
+
+| | In the prompt | With its own tools (index first, pick sections) |
 | --- | --- | --- |
-| **How** | `cellprose encode book.xlsx` or `cellprose.dumps(...)` writes the workbook as text, and you put it in the message. | `cellprose-mcp` gives an agent tools: `index_workbook`, `read_ranges`, `find_cells`, `trace_cell`, `whatif`. The model asks for the cells it needs. |
+| **How** | `cellprose encode book.xlsx` or `cellprose.dumps(...)` writes the workbook as text, and you put it in the message. | `cellprose-mcp` gives an agent tools: `index_workbook` for an outline, then `read_ranges`, `find_cells`, `trace_cell`, `whatif`. The model asks for the cells it needs. |
 | **Calls** | One. | Several turns. |
-| **Suits** | A workbook that fits in the model's context; a one-shot answer in a pipeline. | A workbook too big to send whole; tracing a formula, trying a what-if, editing. This is guidance, not something the benchmark tested. |
+| **Use it when** | The workbook fits comfortably in the model's context and you want a one-shot answer, as in a pipeline. | The workbook is large or has many sheets; the question touches a few ranges; you need to trace a formula, try a what-if or edit; or you want to avoid sending cells the question never needs. |
+| **Avoid it when** | The text would crowd out the rest of the prompt, or most of it is irrelevant to the question. | A tiny workbook, where one call is simpler than several turns. |
 | **Measured, 11 Nov 2026 run** | 93.8–99.3% correct on 30 real-world workbooks, against 65.9–84.1% for CSV and 70.0–85.7% for MarkItDown. Cost per correct answer 0.32–0.60 times MarkItDown's. | Cost per correct answer 0.29–0.79 times that of agents with a shell (Addendum A, 14 of 24 comparisons, three overlapping views). That addendum was decided after the main results were seen. |
 
-Both read the same text. The first sends it all at once; the second lets the model look things up. See [the benchmarks](/benchmarks) for the numbers and their limits.
+Both read the same text. The first sends it all at once; the second lets the model look things up. The when-to-use advice is guidance: the benchmark did not test where the crossover in workbook size lies. See [the benchmarks](/benchmarks) for the numbers and their limits.
 
 ## Quick start
 

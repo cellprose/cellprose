@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cellprose
-titleTemplate: Spreadsheets models read right, in one call
+titleTemplate: Spreadsheets models read right
 ---
 
 <div class="sm-page wide">
@@ -9,11 +9,23 @@ titleTemplate: Spreadsheets models read right, in one call
 <LiveBlock id="welcome" win="Cellprose — Welcome">
 <div class="hero">
   <div class="eyebrow">Open format · .sheet.md</div>
-  <h1>Spreadsheets that models <em>read right</em>, in one call.</h1>
-  <p class="lede">Cellprose writes an Excel workbook as plain Markdown: values in a pipe table, formulas as fill ranges, one file per workbook. Models see the formulas, not just the values, so they answer trace and typed-in questions that CSV and MarkItDown get wrong. It renders as tables on GitHub.</p>
+  <h1>Spreadsheets that models <em>read right</em>, whole or by section.</h1>
+  <p class="lede">Cellprose writes an Excel workbook as plain Markdown: values in a pipe table, formulas as fill ranges, one file per workbook. Models see the formulas, not just the values, so they answer trace and typed-in questions that CSV and MarkItDown get wrong. Put a small workbook in the prompt, or let an agent index a big one and read only the ranges it needs. It renders as tables on GitHub.</p>
   <HomeStats />
   <div class="row"><a class="btn" href="./playground">Try the playground</a><a class="btn ghost" href="./guide/">Read the format</a></div>
 </div>
+</LiveBlock>
+
+<LiveBlock id="ways" win="Two ways to use it">
+  <div class="sec-head"><div class="eyebrow">Two ways to use it</div><h2>Whole workbook, or index first and pick sections.</h2>
+    <p class="lede">Both read the same text. Choose by the size of the workbook and the question.</p></div>
+
+| | In the prompt | With its own tools |
+| --- | --- | --- |
+| **Best for** | Small workbooks and one-shot answers in a pipeline. | Large or multi-sheet workbooks, questions about a few ranges, tracing, what-ifs and edits. |
+| **How** | `cellprose.dumps("book.xlsx")` | `cellprose-mcp`: `index_workbook`, then `read_ranges`, `find_cells`, `trace_cell`. |
+
+  <a class="btn ghost" href="./guide/#two-ways-to-use-it">When to use which</a>
 </LiveBlock>
 
 <LiveBlock id="viewer" win="Forecast.xls — Cellprose Viewer">
