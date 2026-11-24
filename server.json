@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cellprose/cellprose",
+  "title": "Cellprose",
+  "description": "Read, search and trace Excel workbooks as plain text that keeps formulas and cell addresses.",
+  "repository": {
+    "url": "https://github.com/cellprose/cellprose",
+    "source": "github"
+  },
+  "websiteUrl": "https://cellprose.com",
+  "version": "0.3.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "cellprose",
+      "version": "0.3.1",
+      "runtimeHint": "uvx",
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ],
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeArguments": [
+        {
+          "type": "named",
+          "name": "--with",
+          "value": "mcp>=1.2"
+        }
+      ]
+    }
+  ]
+}

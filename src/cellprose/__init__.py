@@ -7,7 +7,7 @@ from .reader import CompactProfileError, ParseError, Workbook, load, load_file
 from .writer import VERSION, Options, dumps_workbook, load_pair, needs_recalc, restore_external
 
 __all__ = ["dumps", "load", "load_file", "Workbook", "ParseError", "CompactProfileError", "VERSION", "Options"]
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 
 
 def dumps(path: str | Path, *, sheets: list[str] | None = None, cell_range: str | None = None,

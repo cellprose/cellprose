@@ -35,7 +35,17 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("pre-commit", help="write and stage a .sheet.md beside each staged .xlsx (used by the git hook)")
     g = sub.add_parser("git-setup", help="configure this repository: diff driver, .gitattributes and pre-commit hook")
     g.add_argument("--no-hook", action="store_true", help="only set up the diff driver")
+    sub.add_parser("mcp", help="run the MCP server over stdio (same as `cellprose-mcp`; needs `pip install cellprose[mcp]`)")
     a = p.parse_args(argv)
+
+    if a.cmd == "mcp":
+        try:
+            from .mcp_server import main as mcp_main
+        except ImportError as e:
+            print(f"error: the MCP server needs the MCP SDK: pip install 'cellprose[mcp]' ({e})", file=sys.stderr)
+            return 1
+        mcp_main()
+        return 0
 
     if a.cmd in ("textconv", "pre-commit", "git-setup"):
         from . import gitflow
