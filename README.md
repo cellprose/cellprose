@@ -11,14 +11,14 @@
 
 Cellprose (`.sheet.md`, or `.cellprose.md`) is an open plain-text format for Excel workbooks, built so a model can
 read a spreadsheet correctly. You can put the whole text in the prompt, or give an agent tools that index the workbook
-and read only the sections it needs. [Which to pick](#two-ways-to-use-it) depends on the size of the workbook and the
+and read only the sections it needs. [Which to pick](https://github.com/cellprose/cellprose#two-ways-to-use-it) depends on the size of the workbook and the
 question.
 
 ## Why Cellprose
 
 - **It keeps what CSV and MarkItDown drop.** Formulas, cell addresses, merged cells, number formats and named ranges.
 - **Models answer more questions right.** 93.8–99.3% on 30 real-world workbooks, against 65.9–84.1% for CSV, in a
-  pre-registered run ([results and limits](#what-the-benchmark-showed)).
+  pre-registered run ([results and limits](https://github.com/cellprose/cellprose#what-the-benchmark-showed)).
 - **It costs less per correct answer** than MarkItDown, 0.32–0.60 times as much in the same run.
 - **Workbooks render.** Every file is valid GitHub-Flavored Markdown, so on GitHub, in an editor or in any Markdown
   viewer a workbook shows up as real tables, with no Excel.
@@ -27,17 +27,17 @@ question.
   ranges a question needs, so nothing has to be pasted whole.
 - **It plugs into agents.** An MCP server, adapters for MarkItDown, LangChain and LlamaIndex, and a dependency-free
   npm writer.
-- **The spec is open.** CC-BY-4.0, with a [conformance kit](conformance/) so a second implementation can prove it
+- **The spec is open.** CC-BY-4.0, with a [conformance kit](https://github.com/cellprose/cellprose/blob/main/conformance/) so a second implementation can prove it
   matches.
 
-![Cellprose cost per correct answer as a ratio to each baseline](docs/img/benchmark-run.png)
+![Cellprose cost per correct answer as a ratio to each baseline](https://raw.githubusercontent.com/cellprose/cellprose/main/docs/img/benchmark-run.png)
 
 ## What the benchmark showed
 
 A pre-registered run on 11 Nov 2026: protocol, code and data frozen and the digest
 [posted publicly](https://gist.github.com/Utkarsh-Gaikwad/216cc9dc28d31f4cf616f44e77324c82) before the first call.
 Four models (Claude Haiku 5.5 and Sonnet 5.5, GPT-6 Luna and GPT-6.1 Sol), 3 repeats, every token priced as
-uncached. Full tables: [benchmarks/RESULTS.md](benchmarks/RESULTS.md).
+uncached. Full tables: [benchmarks/RESULTS.md](https://github.com/cellprose/cellprose/blob/main/benchmarks/RESULTS.md).
 
 - **Accuracy in one call.** On 30 real-world workbooks (163 questions), the workbook sent once as Cellprose got
   93.8–99.3% right across the four models, against 65.9–84.1% for CSV and 70.0–85.7% for MarkItDown. The gap is in
@@ -53,11 +53,11 @@ uncached. Full tables: [benchmarks/RESULTS.md](benchmarks/RESULTS.md).
   difference. *Limit: one-shot and agent loops spend tokens differently; this compares what a user pays.*
 - **No comparison was a loss.** Run with Cellprose's own tools instead of a shell, an agent cost 0.29–0.79 times as
   much per correct answer as the shell agents, winning 14 of 24 comparisons (three overlapping views of the data, so the real-world set is counted twice)
-  ([Addendum A](benchmarks/RESULTS.md#addendum-a-cellprose-with-its-own-tools)). *Limit: that addendum was decided
+  ([Addendum A](https://github.com/cellprose/cellprose/blob/main/benchmarks/RESULTS.md#addendum-a-cellprose-with-its-own-tools)). *Limit: that addendum was decided
   after the main results were seen; it was frozen and posted before its own first call.*
 
 > Limits: 30 real-world and 28 SpreadsheetBench workbooks, 3 repeats, four models on one date, rule-generated questions, list prices checked 2026-11-11 with every token uncached; nothing pooled across models or corpora.
-> Full list: [benchmarks/RESULTS.md](benchmarks/RESULTS.md#limitations).
+> Full list: [benchmarks/RESULTS.md](https://github.com/cellprose/cellprose/blob/main/benchmarks/RESULTS.md#limitations).
 
 ## What it looks like
 
@@ -78,7 +78,7 @@ B4:E4 = B2*B3
 ```
 
 Formulas are written once per fill range, not once per cell, and every value keeps its address. The
-[spec](docs/SPEC.md) is CC-BY-4.0, with a [conformance kit](conformance/) for other implementations.
+[spec](https://github.com/cellprose/cellprose/blob/main/docs/SPEC.md) is CC-BY-4.0, with a [conformance kit](https://github.com/cellprose/cellprose/blob/main/conformance/) for other implementations.
 
 ## Use it
 
@@ -103,12 +103,12 @@ Pick by the size of the workbook and the question, not by habit. Both read the s
 | **How** | `cellprose.dumps("model.xlsx")` and put the text in the message. | `claude mcp add cellprose -- cellprose-mcp`, or the hosted server at `https://tablient.com/v1/mcp` (POST only, needs an API key; see the [Tablient docs](https://tablient.com/docs#mcp)): `claude mcp add --transport http tablient https://tablient.com/v1/mcp --header "X-API-Key: $KEY"`. The agent gets an outline with `index_workbook`, then calls `read_ranges`, `find_cells`, `trace_cell`, `whatif` and `write_cells` for what it needs (the hosted server names them `index`, `read`, `find`, `trace` and `whatif`, plus `files` and `open_url`, and has no write tool). |
 | **Use it when** | The workbook fits comfortably in the context window and you want a one-shot answer, for example in a pipeline. | The workbook is large or has many sheets; the question touches a few ranges; you need to trace a formula, try a what-if or edit; or you want to keep tokens down by not sending cells the question never needs. |
 | **Avoid it when** | The text would crowd out the rest of the prompt, or most of it is irrelevant to the question. Send an index and a section instead. | A tiny workbook where one call is simpler than several turns. |
-| **Measured (11 Nov 2026 run)** | 93.8–99.3% correct on 30 real-world workbooks; cost per correct answer 0.32–0.60 times MarkItDown's. | Cost per correct answer 0.29–0.79 times that of agents with a shell ([Addendum A](benchmarks/RESULTS.md#addendum-a-cellprose-with-its-own-tools)). *Limit: decided after the main results were seen.* |
+| **Measured (11 Nov 2026 run)** | 93.8–99.3% correct on 30 real-world workbooks; cost per correct answer 0.32–0.60 times MarkItDown's. | Cost per correct answer 0.29–0.79 times that of agents with a shell ([Addendum A](https://github.com/cellprose/cellprose/blob/main/benchmarks/RESULTS.md#addendum-a-cellprose-with-its-own-tools)). *Limit: decided after the main results were seen.* |
 
 The choice between them is guidance; the benchmark did not test where the crossover in workbook size lies. See the
-[guide](site/guide/index.md#two-ways-to-use-it) and [INTEGRATIONS.md](INTEGRATIONS.md).
+[guide](https://github.com/cellprose/cellprose/blob/main/site/guide/index.md#two-ways-to-use-it) and [INTEGRATIONS.md](https://github.com/cellprose/cellprose/blob/main/INTEGRATIONS.md).
 
-**Where you already load spreadsheets** ([integrations/](integrations/)):
+**Where you already load spreadsheets** ([integrations/](https://github.com/cellprose/cellprose/blob/main/integrations/)):
 
 | You use | Swap in |
 |---|---|
@@ -120,7 +120,7 @@ Formula cells with no cached value print as `?` unless LibreOffice is installed 
 `.xlsx` has no cached values until Excel or LibreOffice opens it.
 
 Status: pre-release, v0.3. Encode, decode, recalculate and encode again gives byte-identical text on the benchmark
-workbooks and an edge-case set ([E14](experiments/E14-decoder-roundtrip.md)).
+workbooks and an edge-case set ([E14](https://github.com/cellprose/cellprose/blob/main/experiments/E14-decoder-roundtrip.md)).
 
 > Cellprose was called Sheetmark until October 2026. Files with the old `sheetmark:` front-matter key still read.
 > The `sheetmark` name on PyPI belongs to an unrelated project; install `cellprose`.
@@ -132,7 +132,7 @@ workbooks and an edge-case set ([E14](experiments/E14-decoder-roundtrip.md)).
 | `src/cellprose/` | The package: writer, reader, CLI, MCP server |
 | `integrations/` | MarkItDown plugin, LangChain loader, LlamaIndex reader |
 | `skills/cellprose/` | Agent skill with a bundled converter |
-| `docs/` | Design doc, spec, benchmark protocol, [git guide](docs/XLSX_IN_GIT.md) |
+| `docs/` | Design doc, spec, benchmark protocol, [git guide](https://github.com/cellprose/cellprose/blob/main/docs/XLSX_IN_GIT.md) |
 | `benchmarks/` | Workbook sets, encoders, runners, scorer, all raw results |
 | `experiments/` | One file per experiment, linked to the benchmark code and results |
 | `conformance/`, `js/`, `viewer/`, `site/` | Conformance kit, JS writer, GitHub viewer, website |
@@ -145,8 +145,8 @@ Cellprose is free and open source. If it saves you time or tokens, you can spons
 
 ## Licence
 
-Code, website and benchmark tooling are under [Apache-2.0](LICENSE). The format specification
-([docs/SPEC.md](docs/SPEC.md)) and the [conformance kit](conformance/) are under [CC-BY-4.0](LICENSE-SPEC). The
+Code, website and benchmark tooling are under [Apache-2.0](https://github.com/cellprose/cellprose/blob/main/LICENSE). The format specification
+([docs/SPEC.md](https://github.com/cellprose/cellprose/blob/main/docs/SPEC.md)) and the [conformance kit](https://github.com/cellprose/cellprose/blob/main/conformance/) are under [CC-BY-4.0](https://github.com/cellprose/cellprose/blob/main/LICENSE-SPEC). The
 name "Cellprose" is not licensed by either.
 
 Created by Utkarsh Gaikwad.
