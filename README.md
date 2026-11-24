@@ -1,5 +1,6 @@
 # Cellprose
 
+<!-- mcp-name: io.github.cellprose/cellprose -->
 **Give a model a spreadsheet it can read, formulas included: all of it in one call for a small workbook, or an index and the ranges it asks for when the workbook is big.**
 
 [![pypi cellprose](https://img.shields.io/pypi/v/cellprose?label=pypi%3A%20cellprose)](https://pypi.org/project/cellprose/)
