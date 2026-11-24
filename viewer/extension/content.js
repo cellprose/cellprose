@@ -71,7 +71,8 @@
       return out;
     }
 
-    function esc(s) { const d = doc.createElement('div'); d.textContent = s; return d.innerHTML; }
+    // Also escapes quotes: sheet names go into attribute values (data-sheet="..."), and they come from the file being viewed.
+    function esc(s) { const d = doc.createElement('div'); d.textContent = s; return d.innerHTML.replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
 
     function select(td, extend) {
       const p = tdInfo.get(td);
