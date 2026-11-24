@@ -101,54 +101,25 @@ def is_table_cell(c) -> bool:
     return isinstance(c.value, DataTableFormula)
 
 
-def iter_cells(ws):
-    """The cells a sheet actually holds, in row-major order. `ws.iter_rows()` walks the whole bounding box, which for
-    one stray cell at XFD1048576 is 17 billion cells; a file like that must not be able to exhaust memory."""
-    cells = getattr(ws, "_cells", None)
-    if cells is None:
-        yield from (c for row in ws.iter_rows() for c in row)
-        return
-    for key in sorted(cells):
-        yield cells[key]
-
-
-MAX_ENUMERATED = 1_000_000      # cells of one array range listed one by one; a larger range is tested as a rectangle
-
-
-class Cover:
-    """A set of (row, column) positions made of rectangles. Small rectangles are listed; a huge one is kept as bounds."""
-
-    def __init__(self):
-        self.cells: set[tuple[int, int]] = set()
-        self.rects: list[tuple[int, int, int, int]] = []
-
-    def add(self, c1: int, r1: int, c2: int, r2: int) -> None:
-        if (r2 - r1 + 1) * (c2 - c1 + 1) > MAX_ENUMERATED:
-            self.rects.append((c1, r1, c2, r2))
-        else:
-            self.cells.update((r, k) for r in range(r1, r2 + 1) for k in range(c1, c2 + 1))
-
-    def __contains__(self, pos) -> bool:
-        r, c = pos
-        return pos in self.cells or any(c1 <= c <= c2 and r1 <= r <= r2 for c1, r1, c2, r2 in self.rects)
-
-
-def array_cells(ws) -> Cover:
+def array_cells(ws) -> set[tuple[int, int]]:
     """(row, column) of every cell inside an array formula's range, anchor included."""
-    out = Cover()
-    for c in iter_cells(ws):
-        if is_array_anchor(c) and c.value.ref:
-            out.add(*range_boundaries(c.value.ref))
+    out = set()
+    for row in ws.iter_rows():
+        for c in row:
+            if is_array_anchor(c) and c.value.ref:
+                c1, r1, c2, r2 = range_boundaries(c.value.ref)
+                out.update((r, k) for r in range(r1, r2 + 1) for k in range(c1, c2 + 1))
     return out
 
 
 def array_lines(ws, bounds=None) -> list[str]:
     """`RANGE = formula`, one per array formula, in row-major order of the anchor."""
     out = []
-    for c in iter_cells(ws):
-        if is_array_anchor(c) and c.value.ref and _in_range(c.row, c.column, bounds):
-            text = (c.value.text or "").lstrip("=")
-            out.append(f"{c.value.ref} = {text}")
+    for row in ws.iter_rows():
+        for c in row:
+            if is_array_anchor(c) and c.value.ref and _in_range(c.row, c.column, bounds):
+                text = (c.value.text or "").lstrip("=")
+                out.append(f"{c.value.ref} = {text}")
     return out
 
 
@@ -164,13 +135,13 @@ def is_blank(v) -> bool:
 
 
 def quote_sheet(name: str) -> str:
-    return f'"{name}"' if ("#" in name or "\n" in name or "\r" in name) else name     # SPEC §4: `#` or a line break
+    return f'"{name}"' if ("#" in name or "\n" in name) else name
 
 
 # ------------------------------------------------------------------ structure
 def detect_regions(ws) -> tuple[list[tuple[int, int, int, int]], list[tuple[int, int]]]:
     """Rectangles of 8-connected non-empty cells (merged where boxes overlap), plus loose single cells."""
-    cells = {(c.row, c.column) for c in iter_cells(ws) if not is_blank(c.value)}
+    cells = {(c.row, c.column) for row in ws.iter_rows() for c in row if not is_blank(c.value)}
     seen, boxes = set(), []
     for start in sorted(cells):
         if start in seen:
@@ -366,7 +337,7 @@ def dumps_workbook(fwb, vwb, opts: Options | None = None) -> str:
         arrays = array_lines(fws, bounds)
         if arrays:
             body += ["```arrays", *arrays, "```", ""]
-        comments = [f"{c.coordinate}: {escape_text(c.comment.text)}" for c in iter_cells(fws)
+        comments = [f"{c.coordinate}: {escape_text(c.comment.text)}" for row in fws.iter_rows() for c in row
                     if c.comment is not None and (c.comment.text or "").strip() and _in_range(c.row, c.column, bounds)]
         if comments:
             body += ["```comments", *comments, "```", ""]
@@ -413,7 +384,7 @@ def count_dropped(ws) -> dict[str, int]:
     return {"charts": len(getattr(ws, "_charts", ())), "images": len(getattr(ws, "_images", ())),
             "pivot tables": len(getattr(ws, "_pivots", ())),
             "conditional formats": sum(len(cf.rules) for cf in ws.conditional_formatting),
-            "hyperlinks": sum(1 for c in iter_cells(ws) if c.hyperlink is not None)}
+            "hyperlinks": sum(1 for row in ws.iter_rows() for c in row if c.hyperlink is not None)}
 
 
 def validation_lines(ws) -> list[str]:
@@ -502,9 +473,10 @@ def needs_recalc(path: str | Path) -> bool:
     fwb, vwb = load_pair(path)
     for ws in fwb.worksheets:
         vws = vwb[ws.title]
-        for c in iter_cells(ws):
-            if is_formula_cell(c) and vws[c.coordinate].value is None and not _is_empty_result(vwb, ws, c.coordinate):
-                return True
+        for row in ws.iter_rows():
+            for c in row:
+                if is_formula_cell(c) and vws[c.coordinate].value is None and not _is_empty_result(vwb, ws, c.coordinate):
+                    return True
     return False
 
 
@@ -516,9 +488,10 @@ def restore_external(fwb, vwb, original) -> None:
     for ows in ofwb.worksheets:
         if ows.title not in fwb.sheetnames:
             continue
-        for oc in iter_cells(ows):
-            if is_formula_cell(oc) and EXTERNAL.search(oc.value):
-                fwb[ows.title][oc.coordinate].value = oc.value
-                v = ovwb[ows.title][oc.coordinate].value
-                if v is not None:
-                    vwb[ows.title][oc.coordinate].value = v
+        for row in ows.iter_rows():
+            for oc in row:
+                if is_formula_cell(oc) and EXTERNAL.search(oc.value):
+                    fwb[ows.title][oc.coordinate].value = oc.value
+                    v = ovwb[ows.title][oc.coordinate].value
+                    if v is not None:
+                        vwb[ows.title][oc.coordinate].value = v

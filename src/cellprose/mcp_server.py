@@ -15,7 +15,8 @@ from openpyxl.utils import range_boundaries
 
 from . import dumps
 from .recalc import discard
-from .writer import detect_regions, is_formula_cell, iter_cells, load_pair, needs_recalc
+from ._sparse import iter_cells
+from .writer import detect_regions, is_formula_cell, load_pair, needs_recalc
 
 import functools
 import subprocess

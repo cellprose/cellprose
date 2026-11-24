@@ -5,7 +5,7 @@ ROOT = Path(__file__).parent.parent
 SRC = ROOT / "src" / "cellprose"
 VENDOR = ROOT / "skills" / "cellprose" / "scripts" / "_vendor" / "cellprose"
 NOT_VENDORED = {"mcp_server.py"}      # needs the MCP SDK, which the skill does not depend on
-REFRESH = "cp src/cellprose/{__init__,reader,writer,recalc,cli,gitflow}.py skills/cellprose/scripts/_vendor/cellprose/"
+REFRESH = "cp src/cellprose/{__init__,_sparse,reader,writer,recalc,cli,gitflow,tools}.py skills/cellprose/scripts/_vendor/cellprose/"
 
 
 def test_vendored_copy_is_current():

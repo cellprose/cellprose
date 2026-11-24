@@ -3,6 +3,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from . import _sparse
+
+_sparse.install()      # before anything imports load_pair from writer
+
 from .reader import CompactProfileError, ParseError, Workbook, load, load_file
 from .recalc import discard
 from .writer import VERSION, Options, dumps_workbook, load_pair, needs_recalc, restore_external

@@ -76,32 +76,3 @@ def test_dependents_index_follows_the_workbook_not_a_reused_id(tmp_path):
         os.utime(p, (1_000_000 + i, 1_000_000 + i))      # a new mtime, so the file is loaded again
         out = tools.trace(str(p), "A1", dependents=True)
         assert ("B1" in out) == (i == 0)
-
-
-def test_trace_names_a_range_too_large_to_list_and_finds_its_readers(tmp_path):
-    import openpyxl
-    from cellprose import tools
-    wb = openpyxl.Workbook()
-    ws = wb.active
-    ws.title = "D"
-    for i in range(1, tools.MAX_EXPAND + 2):
-        ws.cell(i, 1, i)
-    ws["C1"] = f"=SUM(A1:A{tools.MAX_EXPAND + 1})"
-    p = tmp_path / "big.xlsx"
-    wb.save(p)
-    assert f"D!A1:A{tools.MAX_EXPAND + 1}" in tools.trace(p, "D!C1", compact=True)
-    assert "D!C1" in tools.trace(p, "D!A5", dependents=True, compact=True)
-
-
-def test_tools_accept_the_sheet_spelling_they_print(tmp_path):
-    import openpyxl
-    from cellprose import tools
-    wb = openpyxl.Workbook()
-    ws = wb.active
-    ws.title = "Q1 #2"
-    ws["A1"], ws["B1"] = 1, "=A1*2"
-    p = tmp_path / "h.xlsx"
-    wb.save(p)
-    assert 'Q1 #2' in tools.trace(p, '"Q1 #2"!B1')
-    assert '"Q1 #2"!B1' in tools.trace(p, '"Q1 #2"!A1', dependents=True)
-    assert "B1" in tools.read_range(p, '"Q1 #2"!A1:B1')

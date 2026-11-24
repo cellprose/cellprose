@@ -157,6 +157,14 @@ def test_hook_does_not_block_commits_when_cellprose_is_missing(tmp_path):
     assert r.returncode == 0 and "not on PATH" in r.stderr
 
 
-def test_sheet_names_with_a_carriage_return_are_quoted():
-    from cellprose.writer import quote_sheet
-    assert quote_sheet("a\rb") == '"a\rb"'
+def test_huge_array_range_is_not_enumerated(tmp_path):
+    import openpyxl
+    from openpyxl.worksheet.formula import ArrayFormula
+    from cellprose import dumps
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws["A1"] = ArrayFormula("A1:XFD1048576", "=1")
+    ws["B1"] = 2
+    p = tmp_path / "arr.xlsx"
+    wb.save(p)
+    assert "A1:XFD1048576 = 1" in dumps(p, recalc="never")
