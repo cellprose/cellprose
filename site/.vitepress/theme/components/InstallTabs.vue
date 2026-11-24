@@ -12,8 +12,8 @@ const MCP_JSON = `{
 }`;
 const TABS = [
   ['CLI', [['# convert, then compare sizes', 1], ['cellprose encode model.xlsx'], ['cellprose stats model.xlsx']]],
-  ['Python', [['# from a checkout, until the PyPI release', 1], ['pip install -e ".[dev]"'], ['python -c "import cellprose; print(cellprose.dumps(\'model.xlsx\'))"']]],
-  ['MCP: Claude Code', [['# optional CELLPROSE_ROOT keeps the server inside one folder', 1], ['pip install -e ".[mcp]"'], ['claude mcp add cellprose -e CELLPROSE_ROOT="$HOME/work" -- cellprose-mcp']]],
+  ['Python', [['# from PyPI', 1], ['pip install cellprose'], ['python -c "import cellprose; print(cellprose.dumps(\'model.xlsx\'))"']]],
+  ['MCP: Claude Code', [['# optional CELLPROSE_ROOT keeps the server inside one folder', 1], ['pip install "cellprose[mcp]"'], ['claude mcp add cellprose -e CELLPROSE_ROOT="$HOME/work" -- cellprose-mcp']]],
   ['MCP: Desktop, Cursor', [['# add to the client\'s MCP JSON config', 1], ...MCP_JSON.split('\n').map((l) => [l])]],
   ['Agent skill', [['# Claude Code: for every project (use .claude/skills/ for one)', 1], ['cp -r skills/cellprose ~/.claude/skills/'], ['# needs only openpyxl; it triggers on spreadsheet tasks', 1]]],
   ['JavaScript', [['# the second, independent writer; no dependencies', 1], ['node js/bin/cellprose-encode.js model.xlsx > model.sheet.md']]],

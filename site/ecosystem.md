@@ -14,7 +14,7 @@ cellprose check book.sheet.md
 cellprose stats book.xlsx</pre></div>
     <div id="python" class="card"><h3>Python</h3><p class="muted">The core library, for pipelines.</p><pre>import cellprose
 text = cellprose.dumps("book.xlsx")</pre></div>
-    <div id="mcp" class="card"><h3>MCP server</h3><p class="muted">Agents list sheets, read workbooks as Cellprose, and write cells back to .xlsx.</p><pre>pip install -e ".[mcp]"
+    <div id="mcp" class="card"><h3>MCP server</h3><p class="muted">Agents list sheets, read workbooks as Cellprose, and write cells back to .xlsx.</p><pre>pip install "cellprose[mcp]"
 claude mcp add cellprose -- cellprose-mcp</pre></div>
     <div id="llms" class="card"><h3>For agents: llms.txt</h3><p class="muted">An index of the format for agents, and the spec, skill and install steps in one file.</p><pre><a href="./llms.txt">/llms.txt</a>
 <a href="./llms-full.txt">/llms-full.txt</a></pre></div>
