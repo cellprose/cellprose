@@ -1,0 +1,155 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_e_july2001pricinggriffithprelim2_jc",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 2930,
+ "prompt_sha256": "ce052b97cb14089f7ae414c4c03b0108db2839f42edeb78bff992eca60ed6900",
+ "result": "```json\n{\"q1\": -0.187575, \"q2\": \"July 17 Supply Price!D24\", \"q3\": [\"Sales!B704\", \"Sales!C9\"], \"q4\": [\"Sales!B817\", \"Sales!C9\"], \"q5\": [\"Sales!L35:M35\", \"Sales!O35:P35\", \"Sales!S35\", \"Sales!V35\", \"Sales!X35:Y35\", \"Sales!AB35:AF35\", \"Sales!AH35\", \"Sales!AJ35:AK35\", \"Sales!Y51\", \"Sales!AB51:AF51\", \"Sales!AH51\", \"Sales!AJ51\", \"Sales!AK51:AK52\", \"Transport!C22:F22\", \"Transport!L22:R22\", \"Transport!P38:R38\", \"Summary!F20:G20\", \"Summary!J20:O20\", \"Summary!Q20\", \"Summary!S20:T20\", \"Summary!G36\", \"Summary!K36:O36\", \"Summary!Q36\", \"Summary!S36:T36\"], \"q6\": []}\n```",
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 7306,
+  "cache_read_input_tokens": 8159,
+  "output_tokens": 2200,
+  "output_tokens_details": {
+   "thinking_tokens": 1382
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 2200,
+   "cacheReadInputTokens": 8159,
+   "cacheCreationInputTokens": 7306,
+   "thinkingTokens": 1382
+  }
+ },
+ "cost": 0.0026473,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 2403,
+     "output_tokens": 394,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "read_range",
+      "trace",
+      "trace",
+      "trace",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 2403,
+     "cache_write_tokens": 3353,
+     "output_tokens": 1442,
+     "reasoning_tokens": 1364,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 5756,
+     "cache_write_tokens": 1550,
+     "output_tokens": 364,
+     "reasoning_tokens": 18,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.002096
+  },
+  "finished_at": "2026-11-24T16:39:48+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 149.0
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"(Ln14)\", \"sheet\": \"July 17 Supply Price\"}",
+   "output_chars": 90
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"July 17 Supply Price!A1:G39\"]}",
+   "output_chars": 3053
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Sales!D704\"}",
+   "output_chars": 72
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Sales!D817\"}",
+   "output_chars": 72
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Sales!K35\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 404
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Sales!O22:V22\"]}",
+   "output_chars": 278
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"July 17 Supply Price!G16\", \"July 17 Supply Price!G20\"]}",
+   "output_chars": 165
+  }
+ ]
+}

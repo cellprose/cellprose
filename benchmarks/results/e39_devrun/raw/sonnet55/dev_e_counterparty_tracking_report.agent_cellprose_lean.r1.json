@@ -1,0 +1,166 @@
+{
+ "model": "sonnet55",
+ "workbook": "dev_e_counterparty_tracking_report",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 5367,
+ "prompt_sha256": "2accadcf0a7cd23412c55ec036138433c534c7ec000cc0f8617ae4e570b1753f",
+ "result": "```json\n{\"q1\":1,\"q2\":\"Tier 2 Counterparties!W18\",\"q3\":[\"Mission Critical Counterparties!U98\",\"Mission Critical Counterparties!P98\"],\"q4\":[\"Tier 2 Counterparties!U59\",\"Tier 2 Counterparties!P59\"],\"q5\":[\"Tier 2 Counterparties!S18:S19\",\"Tier 2 Counterparties!S74:S75\"],\"q6\":[\"Tier 2 Counterparties!P20:P33\"]}\n```",
+ "usage": {
+  "input_tokens": 12,
+  "cache_creation_input_tokens": 11190,
+  "cache_read_input_tokens": 30599,
+  "output_tokens": 985,
+  "output_tokens_details": {
+   "thinking_tokens": 338
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 12,
+   "outputTokens": 985,
+   "cacheReadInputTokens": 30599,
+   "cacheCreationInputTokens": 11190,
+   "thinkingTokens": 338
+  }
+ },
+ "cost": 0.093452,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 3993,
+     "output_tokens": 191,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 3993,
+     "cache_write_tokens": 2983,
+     "output_tokens": 228,
+     "reasoning_tokens": 110,
+     "tool_calls": [
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 6976,
+     "cache_write_tokens": 1800,
+     "output_tokens": 132,
+     "reasoning_tokens": 51,
+     "tool_calls": [
+      "find"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 8776,
+     "cache_write_tokens": 2078,
+     "output_tokens": 262,
+     "reasoning_tokens": 177,
+     "tool_calls": [
+      "whatif"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2,
+     "cache_read_tokens": 10854,
+     "cache_write_tokens": 336,
+     "output_tokens": 172,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.040909
+  },
+  "finished_at": "2026-11-24T17:03:15+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 21.3
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Mission Critical Counterparties!P1:Z32\", \"Tier 2 Counterparties!P1:Z36\"]}",
+   "output_chars": 2636
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Mission Critical Counterparties!S97:Z99\", \"Tier 2 Counterparties!S59:Z75\", \"Tier 2 Counterparties!P20:P34\"]}",
+   "output_chars": 1234
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Financial - US Total\"}",
+   "output_chars": 213
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Mission Critical Counterparties!P100:Z162\"]}",
+   "output_chars": 1988
+  },
+  {
+   "turn": 3,
+   "tool": "find",
+   "args": "{\"text\": \"Yes\", \"sheet\": \"Mission Critical Counterparties\"}",
+   "output_chars": 3559
+  },
+  {
+   "turn": 4,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Tier 2 Counterparties!S15\", \"value\": 1.1}",
+   "output_chars": 125
+  }
+ ]
+}

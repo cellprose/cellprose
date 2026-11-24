@@ -1,0 +1,223 @@
+{
+ "model": "sonnet55",
+ "workbook": "dev_e_markets_enron_online_3_1",
+ "encoding": "agent_cellprose_lean2",
+ "prompt_chars": 18200,
+ "prompt_sha256": "44ac81bf3d2f0b0f28f8ada969aa497bb70c8a6e0dc36d55146ea8e3ce098e2b",
+ "result": "{\"q1\": 1532920, \"q2\": \"Private Label Ass!D44\", \"q3\": [\"Expenses!B92\", \"Total Market Size!C136\"], \"q4\": [\"Cash Flow!B10:B14\"], \"q5\": [\"Many to Many Ass.!D24\", \"Volume Assumptions!B79:L79\", \"Volume Assumptions!B90:L90\", \"Total Market Size!B8:L8\", \"Total Market Size!B19:L19\", \"Total Market Size!B27:L27\", \"Total Market Size!B38:L38\", \"Total Market Size!B46:L46\", \"Total Market Size!B57:L57\", \"Total Market Size!B65:L65\", \"Total Market Size!B76:L76\", \"Total Market Size!B84:L84\", \"Total Market Size!B95:L95\", \"Total Market Size!B103:L103\", \"Total Market Size!B114:L114\", \"Total Market Size!B122:L122\", \"Total Market Size!B133:L133\", \"Total Market Size!B138:L138\", \"Total Market Size!B144\", \"Liquids!D13\", \"Liquids!I14:I15\", \"Liquids!D15\", \"Liquids!D17:D18\", \"Liquids!I17:I18\", \"VAS CF!B7:L11\", \"VAS CF!B17:L17\", \"VAS CF!B29:L29\", \"VAS CF!B41:L41\", \"VAS CF!B53:L53\", \"Total CF!B7:L11\", \"Total CF!B17:L17\", \"Total CF!B29:L29\", \"Total CF!B41:L41\", \"Total CF!B53:L53\"], \"q6\": [\"Many to Many Revenue!J23\"]}",
+ "usage": {
+  "input_tokens": 16,
+  "cache_creation_input_tokens": 14477,
+  "cache_read_input_tokens": 79669,
+  "output_tokens": 1748,
+  "output_tokens_details": {
+   "thinking_tokens": 460
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 16,
+   "outputTokens": 1748,
+   "cacheReadInputTokens": 79669,
+   "cacheCreationInputTokens": 14477,
+   "thinkingTokens": 460
+  }
+ },
+ "cost": 0.205804,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 10991,
+     "output_tokens": 400,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "find",
+      "trace",
+      "trace",
+      "whatif",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 10991,
+     "cache_write_tokens": 1591,
+     "output_tokens": 350,
+     "reasoning_tokens": 261,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 12582,
+     "cache_write_tokens": 1007,
+     "output_tokens": 235,
+     "reasoning_tokens": 175,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 13589,
+     "cache_write_tokens": 361,
+     "output_tokens": 62,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2,
+     "cache_read_tokens": 13950,
+     "cache_write_tokens": 234,
+     "output_tokens": 91,
+     "reasoning_tokens": 24,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 6,
+     "input_tokens": 2,
+     "cache_read_tokens": 14184,
+     "cache_write_tokens": 189,
+     "output_tokens": 63,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 7,
+     "input_tokens": 2,
+     "cache_read_tokens": 14373,
+     "cache_write_tokens": 104,
+     "output_tokens": 547,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.061671
+  },
+  "finished_at": "2026-11-24T16:45:23+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 36.3
+ },
+ "num_turns": 7,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"GDP NUMBERS\", \"sheet\": \"VAS CF\"}",
+   "output_chars": 398
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Lump Sum for Brand\", \"sheet\": \"Private Label Ass\"}",
+   "output_chars": 103
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Expenses!C92\"}",
+   "output_chars": 115
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Cash Flow!B15\"}",
+   "output_chars": 77
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Liquids!D8\", \"factor\": 1.1}",
+   "output_chars": 844
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Many to Many Revenue!J23:J36\"]}",
+   "output_chars": 244
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"VAS CF!A53:E53\", \"VAS CF!A47:E47\", \"Private Label Ass!A41:D53\"]}",
+   "output_chars": 1078
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"VAS CF!D65\"]}",
+   "output_chars": 175
+  },
+  {
+   "turn": 4,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"VAS CF!A65:E65\"]}",
+   "output_chars": 233
+  },
+  {
+   "turn": 5,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Many to Many Revenue!J23:J24\"]}",
+   "output_chars": 161
+  },
+  {
+   "turn": 6,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Many to Many Revenue!J23\"]}",
+   "output_chars": 59
+  }
+ ]
+}

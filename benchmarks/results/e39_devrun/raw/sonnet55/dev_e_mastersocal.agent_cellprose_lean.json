@@ -1,0 +1,119 @@
+{
+ "model": "sonnet55",
+ "workbook": "dev_e_mastersocal",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 2509,
+ "prompt_sha256": "586eb81e9f1df9ee095b94ecf02d61c70f4739de0b31343391d57a0f0cb9238f",
+ "result": "{\"q1\":1650,\"q2\":\"PLANTS!E15\",\"q3\":[\"PLANTS!AW30:AW31\",\"PLANTS!A63\",\"PLANTS!AY63\"],\"q4\":[\"PLANTS!AK30:AK31\",\"PLANTS!A68\",\"PLANTS!AM68\"],\"q5\":[\"FLOWS!AA56:AB56\",\"FLOWS!AE56:AF56\",\"FLOWS!AG56:AG61\",\"FLOWS!BM56\",\"FLOWS!BR56\"],\"q6\":[\"FLOWS!C53\",\"FLOWS!D53\",\"FLOWS!I53\",\"FLOWS!K53\"]}",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 4141,
+  "cache_read_input_tokens": 2217,
+  "output_tokens": 714,
+  "output_tokens_details": {
+   "thinking_tokens": 214
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 6,
+   "outputTokens": 714,
+   "cacheReadInputTokens": 2217,
+   "cacheCreationInputTokens": 4141,
+   "thinkingTokens": 214
+  }
+ },
+ "cost": 0.019868,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 2217,
+     "output_tokens": 288,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "trace"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 2217,
+     "cache_write_tokens": 1924,
+     "output_tokens": 426,
+     "reasoning_tokens": 214,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.017726
+  },
+  "finished_at": "2026-11-24T16:45:01+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 14.7
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"FLOWS!A84:D86\", \"PLANTS!A1:M18\", \"FLOWS!B53:K53\"]}",
+   "output_chars": 2132
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"PLANTS!AX63\"}",
+   "output_chars": 111
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"PLANTS!AL68\"}",
+   "output_chars": 111
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"FLOWS!BI56\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 120
+  }
+ ]
+}

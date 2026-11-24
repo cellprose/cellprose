@@ -103,6 +103,8 @@ def lean_tool(path: Path, name: str, args: dict) -> str:
         return tools.find(path, str(args["text"]), args.get("sheet"))
     if name == "whatif":
         return tools.whatif(path, str(args["cell"]), args.get("value"), args.get("factor"))
+    if name == "lookup":
+        return tools.lookup(path, str(args["row_label"]), args.get("column_header"), args.get("sheet"))
     return tools.trace(path, str(args["cell"]), bool(args.get("dependents")), bool(args.get("transitive")), compact=True)
 
 
@@ -154,6 +156,17 @@ LEAN_TOOLS = [
 ]
 
 
+# E39 dev arms. lean2s: same tools, sharper whatif description (steering is in LEAN2_SYSTEM). lean2: plus lookup.
+LEAN2S_TOOLS = [dict(t, description=t["description"] + " Always use it for 'which cells would change' questions; it "
+                     "returns the cells whose value actually changes.") if t["name"] == "whatif" else t for t in LEAN_TOOLS]
+LEAN2_TOOLS = LEAN2S_TOOLS + [
+    {"name": "lookup", "description": "The cell where the row labelled `row_label` meets the column headed "
+                                      "`column_header`, with its address and value. Use it for 'which cell holds the value in "
+                                      "row X, column Y' questions; check the candidate against read_range if there are several.",
+     "parameters": {"type": "object", "properties": {"row_label": _S, "column_header": _S, "sheet": _S},
+                     "required": ["row_label"]}}]
+
+
 class Sandbox:
     """A temporary folder holding the workbook file, and the two tools that operate on it."""
 
@@ -189,7 +202,7 @@ class Sandbox:
                 return self._clip(path.read_text(errors="replace"))
             if name == "view_xlsx":
                 return self._clip(view_xlsx(self.dir / "book.xlsx", args.get("sheet"), args.get("range")))
-            if self.lean and name in ("read_range", "find", "trace", "whatif"):
+            if self.lean and name in ("read_range", "find", "trace", "whatif", "lookup"):
                 return self._clip(lean_tool(self.dir / "book.xlsx", name, args))
             if name in ("outline", "read_range", "find", "trace"):
                 return self._clip(cellprose_tool(self.dir / "book.xlsx", name, args, self.index_outline))

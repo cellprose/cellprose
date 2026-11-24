@@ -1,0 +1,152 @@
+{
+ "model": "gpt6luna",
+ "workbook": "dev_e_peak2001_1_18_10yr_for_rfp",
+ "encoding": "agent_cellprose_lean2s",
+ "prompt_chars": 4282,
+ "prompt_sha256": "e5452e81a85c01c637fe882819670c3d3c8d929d1355d66f4a70e9f5de3e6f8d",
+ "result": "{\"q1\":0.051,\"q2\":\"Seller's's PP Calc!W9\",\"q3\":[\"Seller's's PP Calc!A12\",\"Seller's's PP Calc!B90\"],\"q4\":[\"Purchasers!A41:A42\"],\"q5\":[\"Purchasers!S131\",\"Purchasers!AB131:AC131\",\"Purchasers!AE131:AF131\",\"Purchasers!R133:S133\",\"Purchasers!AB133:AC133\",\"Purchasers!AE133:AF133\",\"Swaps!E131\",\"Swaps!O131\",\"Swaps!Q131\",\"Swaps!S131\",\"Swaps!U131\",\"Swaps!W131:AA131\",\"Swaps!AC131\",\"Swaps!E133\",\"Swaps!O133\",\"Swaps!Q133\",\"Swaps!S133\",\"Swaps!U133\",\"Swaps!W133:AA133\",\"Swaps!AC133\",\"Seller's's PP Calc!L132\",\"Seller's's PP Calc!P132\",\"Seller's's PP Calc!S132:U132\",\"Seller's's PP Calc!X132\",\"Seller's's PP Calc!L134\",\"Seller's's PP Calc!P134\",\"Seller's's PP Calc!S134:U134\",\"Seller's's PP Calc!X134\"],\"q6\":[\"Purchasers!E34\",\"Purchasers!G34\",\"Purchasers!I34\",\"Purchasers!K34\",\"Purchasers!M34\"]}",
+ "usage": {
+  "input_tokens": 1272,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 6890,
+  "output_tokens": 796,
+  "output_tokens_details": {
+   "thinking_tokens": 282
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 1272,
+   "outputTokens": 796,
+   "cacheReadInputTokens": 6890,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 282
+  }
+ },
+ "cost": 0.0012142000000000001,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_ad9044acbf1b461ea7f22ca35dc1f176",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 2019,
+     "cache_write_tokens": 0,
+     "output_tokens": 222,
+     "reasoning_tokens": 52,
+     "tool_calls": [
+      "find",
+      "find",
+      "trace",
+      "trace",
+      "whatif",
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 836,
+     "cache_read_tokens": 2019,
+     "cache_write_tokens": 0,
+     "output_tokens": 260,
+     "reasoning_tokens": 230,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 433,
+     "cache_read_tokens": 2852,
+     "cache_write_tokens": 0,
+     "output_tokens": 314,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.000594
+  },
+  "finished_at": "2026-11-24T17:06:51+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 20.1
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Ten Year UST\", \"sheet\": \"Seller's's PP Calc\"}",
+   "output_chars": 48
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Swap Spread\", \"sheet\": \"Seller's's PP Calc\"}",
+   "output_chars": 55
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Seller's's PP Calc!C90\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 110
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Purchasers!C41\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 70
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Purchasers!R131\", \"factor\": 1.1}",
+   "output_chars": 587
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Purchasers!E34:P34\"]}",
+   "output_chars": 339
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Seller's's PP Calc!V3:X11\"]}",
+   "output_chars": 309
+  }
+ ]
+}

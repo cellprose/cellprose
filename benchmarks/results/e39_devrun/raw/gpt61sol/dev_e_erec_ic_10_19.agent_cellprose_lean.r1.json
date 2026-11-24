@@ -1,0 +1,120 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_erec_ic_10_19",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 7139,
+ "prompt_sha256": "c5ecd84e5591848ed65e396eeed1b3b9f5b04fc0f8de7fa5c5adaf80d697e5f3",
+ "result": "{\n  \"q1\": 985,\n  \"q2\": \"ICFeb correction!A18\",\n  \"q3\": [\n    \"ICAprest!AC13\",\n    \"ICAprest!AC25:AD25\"\n  ],\n  \"q4\": [\n    \"ICAprest!E20:F20\"\n  ],\n  \"q5\": [\n    \"ICAprest!R8:S10\",\n    \"ICAprest!AH8:AI10\",\n    \"ICAprest!R17:S18\",\n    \"ICAprest!AH17:AI18\",\n    \"ICAprest!R20:S20\",\n    \"ICAprest!AH20:AI20\",\n    \"ICAprest!R22:S22\",\n    \"ICAprest!AG22:AI22\",\n    \"ICAprest!Q25\",\n    \"ICAprest!S25\",\n    \"ICAprest!AG25\",\n    \"ICAprest!AI25:AJ25\"\n  ],\n  \"q6\": [\n    \"ICFeb correction!M9:M10\",\n    \"ICFeb correction!M12:M20\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 3437,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 6234,
+  "output_tokens": 432,
+  "output_tokens_details": {
+   "thinking_tokens": 78
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 3437,
+   "outputTokens": 432,
+   "cacheReadInputTokens": 6234,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 78
+  }
+ },
+ "cost": 0.023662000000000002,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_562f4f02899c4e86b1273c6bcbe4a1a0",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 3117,
+     "cache_write_tokens": 0,
+     "output_tokens": 123,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3434,
+     "cache_read_tokens": 3117,
+     "cache_write_tokens": 0,
+     "output_tokens": 309,
+     "reasoning_tokens": 78,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.012441
+  },
+  "finished_at": "2026-11-24T17:09:37+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 13.3
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'ICFeb correction'!A4:AR25\"]}",
+   "output_chars": 5407
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"ICAprest!AD13\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 99
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"ICAprest!G20\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 75
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"ICAprest!Q22\", \"factor\": 1.1}",
+   "output_chars": 272
+  }
+ ]
+}

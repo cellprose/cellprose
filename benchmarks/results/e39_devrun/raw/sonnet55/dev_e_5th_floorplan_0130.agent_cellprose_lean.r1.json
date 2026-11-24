@@ -1,0 +1,133 @@
+{
+ "model": "sonnet55",
+ "workbook": "dev_e_5th_floorplan_0130",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 4812,
+ "prompt_sha256": "335506a2826fcfb7776165a65347f35d06acdc13da9346974196cfec716d651c",
+ "result": "```json\n{\"q1\": 541, \"q2\": \"IT Tab!B110\", \"q3\": [\"Floor Plan Changes!G7:H7\"], \"q4\": [\"5th floor analysis!D16:E16\"], \"q5\": [\"Floor Plan Changes!G28:H28\", \"Floor Plan Changes!B97\", \"Floor Plan Changes!B99\", \"Floor Plan Changes!Q116\"], \"q6\": [\"Floor Plan Changes!O87\"]}\n```",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 4518,
+  "cache_read_input_tokens": 3532,
+  "output_tokens": 772,
+  "output_tokens_details": {
+   "thinking_tokens": 193
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 6,
+   "outputTokens": 772,
+   "cacheReadInputTokens": 3532,
+   "cacheCreationInputTokens": 4518,
+   "thinkingTokens": 193
+  }
+ },
+ "cost": 0.023832,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 3532,
+     "output_tokens": 419,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "find",
+      "trace",
+      "trace",
+      "trace",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 3532,
+     "cache_write_tokens": 986,
+     "output_tokens": 353,
+     "reasoning_tokens": 193,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.01938
+  },
+  "finished_at": "2026-11-24T17:02:25+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 5.7
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"3513d\", \"sheet\": \"IT Tab\"}",
+   "output_chars": 45
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Stacey\", \"sheet\": \"IT Tab\"}",
+   "output_chars": 194
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Floor Plan Changes!I7\"}",
+   "output_chars": 84
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"5th floor analysis!F16\"}",
+   "output_chars": 89
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Floor Plan Changes!Q112\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 153
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Floor Plan Changes!K87:O87\"]}",
+   "output_chars": 144
+  }
+ ]
+}

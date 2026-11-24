@@ -1,0 +1,202 @@
+{
+ "model": "gpt6luna",
+ "workbook": "dev_e_correlations",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 2710,
+ "prompt_sha256": "f9ed7d3b4199e56f948cf6e501cd9ce8c241c0161cbddf9e8a402ec62d3dc313",
+ "result": "{\"q1\":0.36175,\"q2\":\"Regressions!AH10\",\"q3\":[\"Regressions!H141:H142\"],\"q4\":[\"Regressions!F17:F18\"],\"q5\":[\"simplecorr!Q7:Q13\",\"simplecorr!Q16:Q22\"],\"q6\":[]}",
+ "usage": {
+  "input_tokens": 7475,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 16033,
+  "output_tokens": 1365,
+  "output_tokens_details": {
+   "thinking_tokens": 899
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 7475,
+   "outputTokens": 1365,
+   "cacheReadInputTokens": 16033,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 899
+  }
+ },
+ "cost": 0.0030333,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_b88a137668364489be625a72f195ba9f",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1218,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 222,
+     "reasoning_tokens": 27,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1559,
+     "cache_read_tokens": 1215,
+     "cache_write_tokens": 0,
+     "output_tokens": 184,
+     "reasoning_tokens": 76,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 3092,
+     "cache_read_tokens": 2771,
+     "cache_write_tokens": 0,
+     "output_tokens": 271,
+     "reasoning_tokens": 234,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 330,
+     "cache_read_tokens": 5860,
+     "cache_write_tokens": 0,
+     "output_tokens": 68,
+     "reasoning_tokens": 19,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 1276,
+     "cache_read_tokens": 6187,
+     "cache_write_tokens": 0,
+     "output_tokens": 620,
+     "reasoning_tokens": 543,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.00159
+  },
+  "finished_at": "2026-11-24T16:48:34+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 22.4
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"3 month lag\", \"sheet\": \"Regressions\"}",
+   "output_chars": 128
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"2 month lag\", \"sheet\": \"Regressions\"}",
+   "output_chars": 128
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Regressions!P135:AA145\", \"Regressions!P12:AA22\", \"Regressions!Q155:AA155\", \"simplecorr!E60:H68\"]}",
+   "output_chars": 1577
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Regressions!V142\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 75
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Regressions!T18\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 70
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"simplecorr!E65\", \"factor\": 1.1}",
+   "output_chars": 108
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Formbond\", \"sheet\": \"Regressions\"}",
+   "output_chars": 780
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"80 lb. + Sheets\", \"sheet\": \"Regressions\"}",
+   "output_chars": 435
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Regressions!AC8:AN14\", \"Regressions!AC16:AQ33\", \"Regressions!P1:AA15\"]}",
+   "output_chars": 4023
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"AD3:AN7\", \"AD8:AN11\", \"AC35:AN49\"]}",
+   "output_chars": 134
+  },
+  {
+   "turn": 4,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Regressions!AD3:AN7\", \"Regressions!AD8:AN11\", \"Regressions!AC35:AN49\"]}",
+   "output_chars": 2147
+  }
+ ]
+}

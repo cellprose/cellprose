@@ -1,0 +1,184 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_e_epe_april_2001",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 5047,
+ "prompt_sha256": "0ac33b7001ed8e81dacf6367507f41a1bd219310c4bb7a6c3ce9c6db38286772",
+ "result": "```json\n{\"q1\": \"PNM TAG 11206\", \"q2\": \"APRIL (9)!E11\", \"q3\": [\"APRIL (5)!C34:H34\"], \"q4\": [\"APRIL (5)!C17:H17\"], \"q5\": [\"APRIL (1)!Q21\", \"APRIL (1)!K39\", \"APRIL (1)!Q39\", \"APRIL (1)!K41\", \"APRIL (1)!Q41\"], \"q6\": [\"APRIL (6)!A26\", \"APRIL (6)!B26\", \"APRIL (6)!C26\", \"APRIL (6)!D26\", \"APRIL (6)!E26\", \"APRIL (6)!F26\"]}\n```",
+ "usage": {
+  "input_tokens": 12,
+  "cache_creation_input_tokens": 13339,
+  "cache_read_input_tokens": 28478,
+  "output_tokens": 3075,
+  "output_tokens_details": {
+   "thinking_tokens": 2275
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 12,
+   "outputTokens": 3075,
+   "cacheReadInputTokens": 28478,
+   "cacheCreationInputTokens": 13339,
+   "thinkingTokens": 2275
+  }
+ },
+ "cost": 0.0057204000000000005,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 4022,
+     "output_tokens": 189,
+     "reasoning_tokens": 23,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 4022,
+     "cache_write_tokens": 533,
+     "output_tokens": 139,
+     "reasoning_tokens": 43,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 4555,
+     "cache_write_tokens": 3615,
+     "output_tokens": 1328,
+     "reasoning_tokens": 1184,
+     "tool_calls": [
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 8170,
+     "cache_write_tokens": 3561,
+     "output_tokens": 1091,
+     "reasoning_tokens": 926,
+     "tool_calls": [
+      "trace",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2,
+     "cache_read_tokens": 11731,
+     "cache_write_tokens": 1608,
+     "output_tokens": 328,
+     "reasoning_tokens": 99,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.003491
+  },
+  "finished_at": "2026-11-24T16:57:36+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 15.6
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"PNM TAG 11206\"}",
+   "output_chars": 136
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"SDGE TAG 2474\"}",
+   "output_chars": 116
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"APRIL (6)!A26:G26\"]}",
+   "output_chars": 130
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"APRIL (9)!A10:J36\", \"APRIL (5)!A10:I36\", \"APRIL (1)!A10:Q36\"]}",
+   "output_chars": 4615
+  },
+  {
+   "turn": 3,
+   "tool": "find",
+   "args": "{\"text\": \"FOR THE DAY\"}",
+   "output_chars": 2574
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"APRIL (5)!A34:I34\", \"APRIL (5)!A17:I17\", \"APRIL (6)!A36:G36\"]}",
+   "output_chars": 431
+  },
+  {
+   "turn": 4,
+   "tool": "trace",
+   "args": "{\"cell\": \"APRIL (1)!K21\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 117
+  },
+  {
+   "turn": 4,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"APRIL (1)!B39:Q41\"]}",
+   "output_chars": 491
+  }
+ ]
+}

@@ -47,7 +47,9 @@ AGENT_FILES = {"agent_xlsx": ("book.xlsx", "workbooks", "{wb}.xlsx"),
                "agent_xlsx_viewer": ("book.xlsx", "workbooks", "{wb}.xlsx"),     # same file, plus the view_xlsx tool
                "agent_xlsx_cellprose": ("book.xlsx", "workbooks", "{wb}.xlsx"),  # same file, plus the Cellprose tools (E33)
                "agent_xlsx_cellprose_idx": ("book.xlsx", "workbooks", "{wb}.xlsx"),  # as above, outline = index only
-               "agent_cellprose_lean": ("book.xlsx", "workbooks", "{wb}.xlsx"),  # E34: index in the prompt, tools only
+               "agent_cellprose_lean": ("book.xlsx", "workbooks", "{wb}.xlsx"),
+               "agent_cellprose_lean2s": ("book.xlsx", "workbooks", "{wb}.xlsx"),
+               "agent_cellprose_lean2": ("book.xlsx", "workbooks", "{wb}.xlsx"),  # E34: index in the prompt, tools only
                "agent_cellprose_v03": ("book.sheet.md", "encoded", "{wb}.cellprose_v03.txt"),    # the default: v0.3 with the legend
                "agent_cellprose_v03_nolegend": ("book.sheet.md", "encoded", "{wb}.cellprose_v03_nolegend.txt"),   # as E28-E30 ran it
                "agent_sheetmark": ("book.sheet.md", "encoded", "{wb}.sheetmark_lean_gfm.txt"),   # legacy: v0.2 text
@@ -58,6 +60,12 @@ AGENT_FILES = {"agent_xlsx": ("book.xlsx", "workbooks", "{wb}.xlsx"),
 # E34: the lean arm has no shell, so its system prompt does not offer python; its user prompt carries the index.
 LEAN_SYSTEM = ("You answer questions about a spreadsheet workbook. Its index is in the message; read cells with the tools. "
                "When done, reply with a single JSON object and nothing else.")
+
+
+# E39: steering for impact questions. Dev-phase arms only (experiments/E39).
+LEAN2_SYSTEM = (LEAN_SYSTEM + " For a question that asks which cells would change if an input changed, call whatif on "
+                "that cell and answer with the cells it returns; do not work it out from formulas, because a cell whose "
+                "formula reads the input may not change in value.")
 
 
 def lean_prompt(wb: str) -> str:

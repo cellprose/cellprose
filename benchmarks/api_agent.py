@@ -34,7 +34,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from runner import agent as agentmod, models, split as splitmod
-from runner.prompts import AGENT_FILES, AGENT_SYSTEM, CORPUS, LEAN_SYSTEM, agent_prompt, agent_source, lean_prompt
+from runner.prompts import AGENT_FILES, AGENT_SYSTEM, CORPUS, LEAN_SYSTEM, LEAN2_SYSTEM, agent_prompt, agent_source, lean_prompt
 from runner.pilot import measured
 from runner.providers import get_provider
 from runner.ids import LEGACY, canon
@@ -48,8 +48,9 @@ INFRA_STOP = 5      # consecutive infrastructure failures from one vendor that s
 ROOT = Path(__file__).parent
 SAMPLE_WORKBOOKS = ["01_sales_log", "04_saas_model", "11_forecast_overrides"]
 DEFAULT_VARIANTS = ["agent_xlsx", "agent_cellprose_v03"]
-VARIANTS = DEFAULT_VARIANTS + ["agent_xlsx_viewer", "agent_sheetmark", "agent_sheetmark_hint", "agent_cellprose_v03_nolegend", "agent_xlsx_cellprose", "agent_xlsx_cellprose_idx", "agent_cellprose_lean"]    # opt-in variants
-XLSX_VARIANTS = {v for v in VARIANTS if v.startswith("agent_xlsx")} | {"agent_cellprose_lean"}   # these read book.xlsx
+VARIANTS = DEFAULT_VARIANTS + ["agent_xlsx_viewer", "agent_sheetmark", "agent_sheetmark_hint", "agent_cellprose_v03_nolegend", "agent_xlsx_cellprose", "agent_xlsx_cellprose_idx", "agent_cellprose_lean", "agent_cellprose_lean2s", "agent_cellprose_lean2"]    # opt-in variants
+LEAN_VARIANTS = {"agent_cellprose_lean", "agent_cellprose_lean2s", "agent_cellprose_lean2"}
+XLSX_VARIANTS = {v for v in VARIANTS if v.startswith("agent_xlsx")} | {"agent_cellprose_lean", "agent_cellprose_lean2s", "agent_cellprose_lean2"}   # these read book.xlsx
 DEFAULT_MAX_USD = 5.0
 # Used only when no earlier agent-mode file is on disk to average: mean tokens per call from the earlier CLI runs.
 FALLBACK_TOKENS = {"agent_xlsx": (28_300, 3_250), "agent_sheetmark": (8_500, 780), "agent_sheetmark_hint": (9_000, 780),
@@ -73,7 +74,7 @@ def historic_tokens(variant: str, raw_dir: Path = ROOT / "results" / "raw") -> t
     if not ins and variant == "agent_sheetmark_hint":     # no runs yet: the plain v0.2 file's history, 6% more input (E22)
         tin, tout, n = historic_tokens("agent_sheetmark", raw_dir)
         return tin * 1.06, tout, n
-    if not ins and variant in ("agent_xlsx_viewer", "agent_xlsx_cellprose", "agent_xlsx_cellprose_idx", "agent_cellprose_lean"):   # no runs yet: the plain-shell history (a guess; fewer turns may make it cheaper)
+    if not ins and variant in ("agent_xlsx_viewer", "agent_xlsx_cellprose", "agent_xlsx_cellprose_idx", "agent_cellprose_lean", "agent_cellprose_lean2s", "agent_cellprose_lean2"):   # no runs yet: the plain-shell history (a guess; fewer turns may make it cheaper)
         return historic_tokens("agent_xlsx", raw_dir)
     if not ins and variant == "agent_cellprose_v03":      # no runs yet: the no-legend file plus the 28-token legend
         tin, tout, n = historic_tokens("agent_cellprose_v03_nolegend", raw_dir)
@@ -137,7 +138,7 @@ def plan(aliases, workbooks, variants, rep, out):
 
 def run_one(provider, cfg, wb, variant, rep, out, meta, max_turns, max_call_usd):
     fname, src = agent_source(wb, variant)
-    lean = variant == "agent_cellprose_lean"
+    lean = variant in LEAN_VARIANTS
     user = lean_prompt(wb) if lean else agent_prompt(wb, variant)
     t0 = datetime.now(timezone.utc)
     backend = agentmod.get_agent(cfg, provider, cache=ANTHROPIC_CACHE)
@@ -146,8 +147,10 @@ def run_one(provider, cfg, wb, variant, rep, out, meta, max_turns, max_call_usd)
             tools = {"agent_xlsx_viewer": agentmod.VIEWER_TOOLS,
                      "agent_xlsx_cellprose": agentmod.CELLPROSE_TOOLS,
                      "agent_xlsx_cellprose_idx": agentmod.CELLPROSE_IDX_TOOLS,
-                     "agent_cellprose_lean": agentmod.LEAN_TOOLS}.get(variant, agentmod.TOOLS)
-            run = agentmod.run_agent(cfg, backend, LEAN_SYSTEM if lean else AGENT_SYSTEM, user, sb, max_turns, max_call_usd, tools)
+                     "agent_cellprose_lean": agentmod.LEAN_TOOLS,
+                     "agent_cellprose_lean2s": agentmod.LEAN2S_TOOLS,
+                     "agent_cellprose_lean2": agentmod.LEAN2_TOOLS}.get(variant, agentmod.TOOLS)
+            run = agentmod.run_agent(cfg, backend, (LEAN2_SYSTEM if variant != "agent_cellprose_lean" else LEAN_SYSTEM) if lean else AGENT_SYSTEM, user, sb, max_turns, max_call_usd, tools)
             data, trace = build_raw(cfg, wb, variant, user, run.result, {}), run.trace
             turns = run.turns
         except Exception as e:

@@ -1,0 +1,177 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_e_weekly_price_sheet_01_03_02",
+ "encoding": "agent_cellprose_lean2s",
+ "prompt_chars": 3619,
+ "prompt_sha256": "6db52803f32bffcc73ee21b152fbdc59f55940ce83cd398ad7036fe7848dbf5b",
+ "result": "```json\n{\"q1\": 2.725, \"q2\": \"Term Prices!BF20\", \"q3\": [\"Term Prices!AW201\", \"Term Prices!AX201\", \"Term Prices!BE1\"], \"q4\": [\"Term Prices!AW89\", \"Term Prices!AX89\", \"Term Prices!BE1\"], \"q5\": [\"Term Prices!Q14\", \"Term Prices!R14\", \"Term Prices!Q25\", \"Term Prices!R25\"], \"q6\": [\"Term Prices!AO38\", \"Term Prices!AO39\", \"Term Prices!AO40\", \"Term Prices!AO41\", \"Term Prices!AO42\", \"Term Prices!AO43\", \"Term Prices!AO44\", \"Term Prices!AO45\"]}\n```",
+ "usage": {
+  "input_tokens": 12,
+  "cache_creation_input_tokens": 14596,
+  "cache_read_input_tokens": 29271,
+  "output_tokens": 3604,
+  "output_tokens_details": {
+   "thinking_tokens": 2825
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 12,
+   "outputTokens": 3604,
+   "cacheReadInputTokens": 29271,
+   "cacheCreationInputTokens": 14596,
+   "thinkingTokens": 2825
+  }
+ },
+ "cost": 0.006189900000000001,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 2918,
+     "output_tokens": 306,
+     "reasoning_tokens": 116,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 2918,
+     "cache_write_tokens": 2190,
+     "output_tokens": 561,
+     "reasoning_tokens": 451,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 5108,
+     "cache_write_tokens": 2997,
+     "output_tokens": 964,
+     "reasoning_tokens": 819,
+     "tool_calls": [
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2,
+     "cache_read_tokens": 8105,
+     "cache_write_tokens": 5035,
+     "output_tokens": 1387,
+     "reasoning_tokens": 1306,
+     "tool_calls": [
+      "whatif"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 5,
+     "input_tokens": 2,
+     "cache_read_tokens": 13140,
+     "cache_write_tokens": 1456,
+     "output_tokens": 386,
+     "reasoning_tokens": 133,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.00392
+  },
+  "finished_at": "2026-11-24T17:02:13+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 20.8
+ },
+ "num_turns": 5,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"SoCal + 0.41\"}",
+   "output_chars": 64
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Malin\"}",
+   "output_chars": 1059
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Term Prices!AJ10:AS20\", \"Term Prices!AO12:AO20\", \"Term Prices!AO37:AO45\"]}",
+   "output_chars": 2063
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Term Prices!BD1:BK8\", \"Term Prices!BD195:BK211\", \"Term Prices!BD85:BK92\", \"Term Prices!AV1:BB6\"]}",
+   "output_chars": 3357
+  },
+  {
+   "turn": 3,
+   "tool": "find",
+   "args": "{\"text\": \"Rockies\"}",
+   "output_chars": 1314
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Term Prices!A33:C41\", \"Term Prices!Z22:AS33\", \"Term Prices!BE201\", \"Term Prices!BE89\"]}",
+   "output_chars": 4871
+  },
+  {
+   "turn": 4,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Term Prices!AP14\", \"factor\": 1.1}",
+   "output_chars": 127
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "model": "gpt6luna",
+ "workbook": "dev_e_tsc_calculator_2000_11",
+ "encoding": "agent_cellprose_lean2s",
+ "prompt_chars": 2002,
+ "prompt_sha256": "fb3796c8ec58394c71bc958e778b27fcd72f5310ca2a0979f20e9bc27d497ae1",
+ "result": "{\"q1\":4.49,\"q2\":\"Summary!D15\",\"q3\":[\"Calculator!D15\",\"Calculator!F2\"],\"q4\":[\"Stripped!F258\",\"Stripped!H258\"],\"q5\":[\"Calculator!D11\",\"Calculator!D16\",\"Stripped!G277\"],\"q6\":[\"Stripped!F256\",\"Stripped!G256\",\"Stripped!H256\"]}",
+ "usage": {
+  "input_tokens": 13166,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 11995,
+  "output_tokens": 364,
+  "output_tokens_details": {
+   "thinking_tokens": 111
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 13166,
+   "outputTokens": 364,
+   "cacheReadInputTokens": 11995,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 111
+  }
+ },
+ "cost": 0.0026981,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_f02444fd4ed2461bb3a12fdef617179d",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1002,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 132,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 11998,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 87,
+     "reasoning_tokens": 60,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 166,
+     "cache_read_tokens": 11995,
+     "cache_write_tokens": 0,
+     "output_tokens": 145,
+     "reasoning_tokens": 51,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.001619
+  },
+  "finished_at": "2026-11-24T16:51:59+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.1
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Summary!A1:I370\", \"Calculator!A7:F17\", \"Stripped!A250:I260\"]}",
+   "output_chars": 20033
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Calculator!F15\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 87
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Stripped!I258\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 90
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Stripped!G256\", \"factor\": 1.1}",
+   "output_chars": 120
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Stripped!F256:I256\"]}",
+   "output_chars": 123
+  }
+ ]
+}

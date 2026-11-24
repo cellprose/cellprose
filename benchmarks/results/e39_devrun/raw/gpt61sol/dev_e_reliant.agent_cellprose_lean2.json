@@ -1,0 +1,120 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_reliant",
+ "encoding": "agent_cellprose_lean2",
+ "prompt_chars": 2399,
+ "prompt_sha256": "63ec452a5a55017c0293b3e44b730de166524e6bd16b7b799bd62cc2ed0b9108",
+ "result": "{\"q1\":81326.9,\"q2\":\"Max Rates!O47\",\"q3\":[\"Deal!B34:F34\"],\"q4\":[\"Deal!L37:M37\"],\"q5\":[\"Deal!O28\",\"Deal!Q28\",\"Deal!O38\",\"Deal!Q38\",\"Deal!O46\",\"Deal!O48\"],\"q6\":[\"Deal!B7\",\"Deal!C7\",\"Deal!E7\",\"Deal!F7\",\"Deal!H7\",\"Deal!I7\"]}",
+ "usage": {
+  "input_tokens": 1952,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1239,
+  "output_tokens": 246,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 1952,
+   "outputTokens": 246,
+   "cacheReadInputTokens": 1239,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.008842,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_a000e4396ae54996b610ac18b2bddaaa",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1242,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 134,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 710,
+     "cache_read_tokens": 1239,
+     "cache_write_tokens": 0,
+     "output_tokens": 112,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.006612
+  },
+  "finished_at": "2026-11-24T16:55:56+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.5
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Deal!M44:Q48\", \"'Max Rates'!M44:Q48\", \"Deal!B7:J7\"]}",
+   "output_chars": 945
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Deal!G34\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 77
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Deal!O37\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 59
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Deal!M28\", \"factor\": 1.1}",
+   "output_chars": 113
+  }
+ ]
+}

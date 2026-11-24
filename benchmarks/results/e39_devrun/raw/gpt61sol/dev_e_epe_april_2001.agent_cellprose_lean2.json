@@ -1,0 +1,152 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_epe_april_2001",
+ "encoding": "agent_cellprose_lean2",
+ "prompt_chars": 5047,
+ "prompt_sha256": "0ac33b7001ed8e81dacf6367507f41a1bd219310c4bb7a6c3ce9c6db38286772",
+ "result": "{\"q1\":\"PNM TAG 11206\",\"q2\":\"APRIL (9)!E11\",\"q3\":[\"APRIL (5)!C34:H34\"],\"q4\":[\"APRIL (5)!C17:H17\"],\"q5\":[\"APRIL (1)!Q21\",\"APRIL (1)!K39\",\"APRIL (1)!Q39\",\"APRIL (1)!K41\",\"APRIL (1)!Q41\"],\"q6\":[\"APRIL (6)!A26:F26\"]}",
+ "usage": {
+  "input_tokens": 3782,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 5858,
+  "output_tokens": 391,
+  "output_tokens_details": {
+   "thinking_tokens": 45
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 3782,
+   "outputTokens": 391,
+   "cacheReadInputTokens": 5858,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 45
+  }
+ },
+ "cost": 0.023190000000000002,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_9be0f85d9e604923b2676a8baab03446",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 2681,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 195,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "lookup",
+      "lookup",
+      "trace",
+      "trace",
+      "whatif",
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 505,
+     "cache_read_tokens": 2678,
+     "cache_write_tokens": 0,
+     "output_tokens": 37,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 596,
+     "cache_read_tokens": 3180,
+     "cache_write_tokens": 0,
+     "output_tokens": 159,
+     "reasoning_tokens": 45,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.012646
+  },
+  "finished_at": "2026-11-24T16:53:37+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 14.1
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "lookup",
+   "args": "{\"row_label\": \"PNM TAG 11206\", \"column_header\": \"FOR THE DAY\", \"sheet\": \"APRIL (9)\"}",
+   "output_chars": 56
+  },
+  {
+   "turn": 1,
+   "tool": "lookup",
+   "args": "{\"row_label\": \"SDGE TAG 2474\", \"column_header\": \"FOR THE DAY\", \"sheet\": \"APRIL (9)\"}",
+   "output_chars": 56
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"APRIL (5)!I34\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 74
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"APRIL (5)!I17\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 71
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"APRIL (1)!K21\", \"factor\": 1.1}",
+   "output_chars": 141
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"APRIL (6)!A26:G26\"]}",
+   "output_chars": 130
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"APRIL (9)!A8:J15\", \"APRIL (9)!B39:J41\"]}",
+   "output_chars": 1010
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "model": "gpt6luna",
+ "workbook": "dev_e_markets_enron_online_3_1",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 18200,
+ "prompt_sha256": "44ac81bf3d2f0b0f28f8ada969aa497bb70c8a6e0dc36d55146ea8e3ce098e2b",
+ "result": "{\"q1\":1714760,\"q2\":\"Private Label Ass!F28\",\"q3\":[\"Expenses!B92\",\"Total Market Size!C136\"],\"q4\":[\"Cash Flow!B10:B14\"],\"q5\":[\"Many to Many Ass.!D24\",\"Volume Assumptions!B79:L79\",\"Volume Assumptions!B90:L90\",\"Total Market Size!B8:L8\",\"Total Market Size!B19:L19\",\"Total Market Size!B27:L27\",\"Total Market Size!B38:L38\",\"Total Market Size!B46:L46\",\"Total Market Size!B57:L57\",\"Total Market Size!B65:L65\",\"Total Market Size!B76:L76\",\"Total Market Size!B84:L84\",\"Total Market Size!B95:L95\",\"Total Market Size!B103:L103\",\"Total Market Size!B114:L114\",\"Total Market Size!B122:L122\",\"Total Market Size!B133:L133\",\"Total Market Size!B138:L138\",\"Total Market Size!B144\",\"Liquids!D13\",\"Liquids!I14:I15\",\"Liquids!D15\",\"Liquids!D17:D18\",\"Liquids!I17:I18\",\"VAS CF!B7:L11\",\"VAS CF!B17:L17\",\"VAS CF!B29:L29\",\"VAS CF!B41:L41\",\"VAS CF!B53:L53\",\"Total CF!B7:L11\",\"Total CF!B17:L17\",\"Total CF!B29:L29\",\"Total CF!B41:L41\",\"Total CF!B53:L53\"],\"q6\":[\"Many to Many Revenue!J23\"]}",
+ "usage": {
+  "input_tokens": 13751,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 29588,
+  "output_tokens": 1958,
+  "output_tokens_details": {
+   "thinking_tokens": 1377
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 13751,
+   "outputTokens": 1958,
+   "cacheReadInputTokens": 29588,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 1377
+  }
+ },
+ "cost": 0.0053129,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_7239a35c3ab94d51b9a45731cb764026",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 6790,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 161,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 4363,
+     "cache_read_tokens": 6787,
+     "cache_write_tokens": 0,
+     "output_tokens": 372,
+     "reasoning_tokens": 346,
+     "tool_calls": [
+      "find"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 510,
+     "cache_read_tokens": 11147,
+     "cache_write_tokens": 0,
+     "output_tokens": 269,
+     "reasoning_tokens": 229,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 4,
+     "input_tokens": 2088,
+     "cache_read_tokens": 11654,
+     "cache_write_tokens": 0,
+     "output_tokens": 1156,
+     "reasoning_tokens": 802,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.00265
+  },
+  "finished_at": "2026-11-24T16:50:22+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 49.7
+ },
+ "num_turns": 4,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'VAS CF'!A62:M69\", \"'Private Label Ass'!A7:M21\", \"Expenses!A85:N105\", \"'Cash Flow'!A4:M18\", \"'Many to Many Revenue'!A23:L36\"]}",
+   "output_chars": 7196
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Expenses!C92\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 115
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"'Cash Flow'!B15\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 77
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Liquids!D8\", \"factor\": 1.1}",
+   "output_chars": 844
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"GDP NUMBERS\", \"sheet\": \"VAS CF\"}",
+   "output_chars": 398
+  },
+  {
+   "turn": 3,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"'VAS CF'!A38:M59\", \"'Private Label Ass'!A25:G37\"]}",
+   "output_chars": 3617
+  }
+ ]
+}

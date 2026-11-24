@@ -1,0 +1,152 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_twftctrcs9_17_01",
+ "encoding": "agent_cellprose_lean2",
+ "prompt_chars": 4856,
+ "prompt_sha256": "7db639996389b66a981f0d22e72b7bc30ba7a9428624cd03a1de4812b6b2b626",
+ "result": "{\n  \"q1\": 27496,\n  \"q2\": \"WOT by Month with Red Rock!B32\",\n  \"q3\": [\n    \"WOT by Month with Red Rock!AW52\",\n    \"WOT by Month with Red Rock!AW69\"\n  ],\n  \"q4\": [\n    \"WOT by Month with Red Rock!R59:R67\"\n  ],\n  \"q5\": [\n    \"WOT by Month with Red Rock!AY46\",\n    \"WOT by Month with Red Rock!AY48\",\n    \"WOT by Month with Red Rock!AY52\",\n    \"WOT by Month with Red Rock!AY74\",\n    \"WOT by Month with Red Rock!AY76\",\n    \"WOT by Month with Red Rock!AY81\",\n    \"WOT by Month with Red Rock!AY83\",\n    \"WOT by Month with Red Rock!AY88\",\n    \"WOT by Month with Red Rock!BH89\",\n    \"WOT by Month with Red Rock!AY90\",\n    \"WOT by Month with Red Rock!BH91\"\n  ],\n  \"q6\": [\n    \"WOT by Month!AM43:AM45\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 261,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 8722,
+  "output_tokens": 534,
+  "output_tokens_details": {
+   "thinking_tokens": 31
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 261,
+   "outputTokens": 534,
+   "cacheReadInputTokens": 8722,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 31
+  }
+ },
+ "cost": 0.023306,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_08bfe582c9144f34a17ec2603ece52b2",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 2438,
+     "cache_write_tokens": 0,
+     "output_tokens": 188,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "lookup",
+      "find",
+      "trace",
+      "trace",
+      "whatif",
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 3,
+     "cache_read_tokens": 3142,
+     "cache_write_tokens": 0,
+     "output_tokens": 85,
+     "reasoning_tokens": 31,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 255,
+     "cache_read_tokens": 3142,
+     "cache_write_tokens": 0,
+     "output_tokens": 261,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.007606
+  },
+  "finished_at": "2026-11-24T17:12:12+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 16.8
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "lookup",
+   "args": "{\"row_label\": \"SJ\", \"column_header\": \"Ctrc #\", \"sheet\": \"ROFR Criteria\"}",
+   "output_chars": 105
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Reliant\", \"sheet\": \"WOT by Month with Red Rock\"}",
+   "output_chars": 247
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"WOT by Month with Red Rock!AW81\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 138
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"WOT by Month with Red Rock!R69\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 109
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"WOT by Month with Red Rock!AY10\", \"factor\": 1.1}",
+   "output_chars": 443
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"WOT by Month!AM43:AM46\"]}",
+   "output_chars": 123
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"ROFR Criteria!C8:F10\", \"WOT by Month with Red Rock!A32:C32\", \"WOT by Month with Red Rock!A39:C39\"]}",
+   "output_chars": 320
+  }
+ ]
+}

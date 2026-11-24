@@ -195,6 +195,51 @@ def find(path, text: str, sheet: str | None = None, limit: int = MAX_HITS) -> st
     return "\n".join(hits) + more
 
 
+# ------------------------------------------------------------------ lookup
+
+def lookup(path, row_label: str, column_header: str | None = None, sheet: str | None = None, limit: int = 5) -> str:
+    """The cell where the row named `row_label` meets the column headed `column_header` (case-insensitive
+    substring match on shown text). Without a header, the first non-empty cell right of each label. Each candidate is
+    `Sheet!A1: shown value`, so no column counting is needed."""
+    fwb, vwb = _load(path)
+    rl, ch = row_label.strip().lower(), (column_header or "").strip().lower()
+    if not rl:
+        raise ValueError("row_label is empty")
+    out = []
+    for fws in fwb.worksheets:
+        if sheet and fws.title.lower() != sheet.strip("'").lower():
+            continue
+        vws = vwb[fws.title]
+        labels, heads = [], []
+        for row in fws.iter_rows():
+            for c in row:
+                if c.value is None:
+                    continue
+                t = _shown(fws, vws, c.row, c.column).lower()
+                if rl in t:
+                    labels.append((c.row, c.column))
+                if ch and ch in t:
+                    heads.append((c.row, c.column))
+        for lr, lc in labels:
+            if ch:
+                # headers above the label row, nearest first; the cell sits in the header's column
+                for hr, hc in sorted((h for h in heads if h[0] < lr), key=lambda h: lr - h[0]):
+                    if fws.cell(row=lr, column=hc).value is not None:
+                        v = _shown(fws, vws, lr, hc)
+                        out.append(f"{quote_sheet(fws.title)}!{L(hc)}{lr}: {v if len(v) <= 60 else v[:57] + '...'}"
+                                   f"  (row label {L(lc)}{lr}, header {L(hc)}{hr})")
+                        break
+            else:
+                for cc in range(lc + 1, min(fws.max_column, lc + 40) + 1):
+                    if fws.cell(row=lr, column=cc).value is not None:
+                        out.append(f"{quote_sheet(fws.title)}!{L(cc)}{lr}: {_shown(fws, vws, lr, cc)[:60]}")
+                        break
+    if not out:
+        return "no match; try find with part of the label or header"
+    more = f"\n... {len(out) - limit} more candidates" if len(out) > limit else ""
+    return "\n".join(out[:limit]) + more
+
+
 # ------------------------------------------------------------------ trace
 
 def _refs(fwb, sheet: str, formula: str) -> list[tuple[str, int, int, int, int]]:

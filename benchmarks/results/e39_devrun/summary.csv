@@ -1,0 +1,9 @@
+set,model,encoding,n,failed_questions,lookup,address,trace,impact,hardcode,all,trace_exact,impact_exact,hardcode_exact,tokens,tokens_vs_csv
+standard,gpt61sol,agent_cellprose_lean,240,0,90.0,75.0,99.6,99.7,100.0,94.0,98.8,95.0,100.0,,
+standard,gpt6luna,agent_cellprose_lean,240,0,70.0,55.0,99.2,99.7,97.6,86.8,97.5,95.0,95.0,,
+standard,haiku55,agent_cellprose_lean,240,0,92.5,67.5,100.0,90.9,96.6,91.3,100.0,75.0,92.5,,
+standard,sonnet55,agent_cellprose_lean,150,0,92.0,68.0,98.7,95.8,100.0,92.2,96.0,84.0,100.0,,
+all,gpt61sol,agent_cellprose_lean,240,0,90.0,75.0,99.6,99.7,100.0,94.0,98.8,95.0,100.0,,
+all,gpt6luna,agent_cellprose_lean,240,0,70.0,55.0,99.2,99.7,97.6,86.8,97.5,95.0,95.0,,
+all,haiku55,agent_cellprose_lean,240,0,92.5,67.5,100.0,90.9,96.6,91.3,100.0,75.0,92.5,,
+all,sonnet55,agent_cellprose_lean,150,0,92.0,68.0,98.7,95.8,100.0,92.2,96.0,84.0,100.0,,

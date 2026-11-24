@@ -1,0 +1,137 @@
+{
+ "model": "sonnet55",
+ "workbook": "dev_e_counterparty_tracking_report",
+ "encoding": "agent_cellprose_lean2s",
+ "prompt_chars": 5367,
+ "prompt_sha256": "2accadcf0a7cd23412c55ec036138433c534c7ec000cc0f8617ae4e570b1753f",
+ "result": "{\"q1\": 1, \"q2\": \"Tier 2 Counterparties!W18\", \"q3\": [\"Mission Critical Counterparties!U98\", \"Mission Critical Counterparties!P98\"], \"q4\": [\"Tier 2 Counterparties!U59\", \"Tier 2 Counterparties!P59\"], \"q5\": [\"Tier 2 Counterparties!S18:S19\", \"Tier 2 Counterparties!S74:S75\"], \"q6\": [\"Tier 2 Counterparties!P20:P33\"]}",
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 16510,
+  "cache_read_input_tokens": 11221,
+  "output_tokens": 966,
+  "output_tokens_details": {
+   "thinking_tokens": 356
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 966,
+   "cacheReadInputTokens": 11221,
+   "cacheCreationInputTokens": 16510,
+   "thinkingTokens": 356
+  }
+ },
+ "cost": 0.065138,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 4087,
+     "output_tokens": 126,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 4087,
+     "cache_write_tokens": 3047,
+     "output_tokens": 469,
+     "reasoning_tokens": 161,
+     "tool_calls": [
+      "find",
+      "find",
+      "whatif",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 7134,
+     "cache_write_tokens": 9376,
+     "output_tokens": 371,
+     "reasoning_tokens": 195,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.052073
+  },
+  "finished_at": "2026-11-24T16:43:18+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 11.4
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Mission Critical Counterparties!P1:Z36\", \"Mission Critical Counterparties!P95:Z100\", \"Tier 2 Counterparties!P1:Z36\", \"Tier 2 Counterparties!P57:Z75\"]}",
+   "output_chars": 4098
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Yes\", \"sheet\": \"Mission Critical Counterparties\"}",
+   "output_chars": 3559
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Financial - US\", \"sheet\": \"Tier 2 Counterparties\"}",
+   "output_chars": 1749
+  },
+  {
+   "turn": 2,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Tier 2 Counterparties!S15\", \"factor\": 1.1}",
+   "output_chars": 125
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Mission Critical Counterparties!A100:Z162\"]}",
+   "output_chars": 10216
+  }
+ ]
+}

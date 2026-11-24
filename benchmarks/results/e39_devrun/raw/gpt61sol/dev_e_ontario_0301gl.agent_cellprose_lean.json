@@ -1,0 +1,127 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_ontario_0301gl",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 3244,
+ "prompt_sha256": "a1529d4adfa7d5fefad8d670dbd7ea7e9dd8721bd02db89c893bf491213aaae2",
+ "result": "{\"q1\":21189639,\"q2\":\"Ontario!R31\",\"q3\":[\"Ontario!I7\",\"Ontario!I82\"],\"q4\":[\"Ontario!L7\",\"Ontario!L82\"],\"q5\":[\"Ontario!V12\",\"Ontario!E14\",\"Ontario!V14\",\"Ontario!E82\",\"Ontario!V82\",\"Ontario!E84\",\"Ontario!V84\"],\"q6\":[\"Ontario!Q71:R71\"]}",
+ "usage": {
+  "input_tokens": 2793,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1436,
+  "output_tokens": 249,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 2793,
+   "outputTokens": 249,
+   "cacheReadInputTokens": 1436,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.010948,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_bf8fb4bb07e54075abdbcc9f639b6777",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 1439,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 151,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "find",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1354,
+     "cache_read_tokens": 1436,
+     "cache_write_tokens": 0,
+     "output_tokens": 98,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.008363
+  },
+  "finished_at": "2026-11-24T16:55:04+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 16.1
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Ontario!A6:V8\", \"Ontario!C54:V56\", \"Ontario!O71:R71\"]}",
+   "output_chars": 2208
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Miscellaneous variances\", \"sheet\": \"Ontario\"}",
+   "output_chars": 64
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Ontario!I84\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 70
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Ontario!L84\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 70
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Ontario!E12\", \"factor\": 1.1}",
+   "output_chars": 146
+  }
+ ]
+}

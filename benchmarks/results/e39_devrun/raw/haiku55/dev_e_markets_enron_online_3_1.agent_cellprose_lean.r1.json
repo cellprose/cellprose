@@ -1,0 +1,155 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_e_markets_enron_online_3_1",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 18200,
+ "prompt_sha256": "44ac81bf3d2f0b0f28f8ada969aa497bb70c8a6e0dc36d55146ea8e3ce098e2b",
+ "result": "```json\n{\"q1\": 1532920, \"q2\": \"Private Label Ass!C44\", \"q3\": [\"Expenses!B92\", \"Total Market Size!C136\"], \"q4\": [\"Cash Flow!B10\", \"Cash Flow!B11\", \"Cash Flow!B12\", \"Cash Flow!B13\", \"Cash Flow!B14\"], \"q5\": [\"Many to Many Ass.!D24\", \"Volume Assumptions!B79:L79\", \"Volume Assumptions!B90:L90\", \"Total Market Size!B8:L8\", \"Total Market Size!B19:L19\", \"Total Market Size!B27:L27\", \"Total Market Size!B38:L38\", \"Total Market Size!B46:L46\", \"Total Market Size!B57:L57\", \"Total Market Size!B65:L65\", \"Total Market Size!B76:L76\", \"Total Market Size!B84:L84\", \"Total Market Size!B95:L95\", \"Total Market Size!B103:L103\", \"Total Market Size!B114:L114\", \"Total Market Size!B122:L122\", \"Total Market Size!B133:L133\", \"Total Market Size!B138:L138\", \"Total Market Size!B144\", \"Liquids!D13\", \"Liquids!I14:I15\", \"Liquids!D15\", \"Liquids!D17:D18\", \"Liquids!I17:I18\", \"VAS CF!B7:L11\", \"VAS CF!B17:L17\", \"VAS CF!B29:L29\", \"VAS CF!B41:L41\", \"VAS CF!B53:L53\", \"Total CF!B7:L11\", \"Total CF!B17:L17\", \"Total CF!B29:L29\", \"Total CF!B41:L41\", \"Total CF!B53:L53\"], \"q6\": [\"Many to Many Revenue!J23\"]}\n```",
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 16923,
+  "cache_read_input_tokens": 23553,
+  "output_tokens": 3221,
+  "output_tokens_details": {
+   "thinking_tokens": 2126
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 3221,
+   "cacheReadInputTokens": 23553,
+   "cacheCreationInputTokens": 16923,
+   "thinkingTokens": 2126
+  }
+ },
+ "cost": 0.0056589,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 10734,
+     "output_tokens": 650,
+     "reasoning_tokens": 241,
+     "tool_calls": [
+      "find",
+      "find",
+      "trace",
+      "trace",
+      "whatif",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 10734,
+     "cache_write_tokens": 2085,
+     "output_tokens": 493,
+     "reasoning_tokens": 400,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 12819,
+     "cache_write_tokens": 4104,
+     "output_tokens": 2078,
+     "reasoning_tokens": 1485,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.003962
+  },
+  "finished_at": "2026-11-24T17:00:02+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 78.6
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"GDP NUMBERS * POTENTIAL TURNS\", \"sheet\": \"VAS CF\"}",
+   "output_chars": 333
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Natural Gas\", \"sheet\": \"Private Label Ass\"}",
+   "output_chars": 574
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Expenses!C92\"}",
+   "output_chars": 115
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Cash Flow!B15\"}",
+   "output_chars": 77
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Liquids!D8\", \"factor\": 1.1}",
+   "output_chars": 844
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Many to Many Revenue!J23:J36\"]}",
+   "output_chars": 244
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"VAS CF!A33:M71\", \"Private Label Ass!B25:G28\", \"Private Label Ass!A41:D44\"]}",
+   "output_chars": 5196
+  }
+ ]
+}

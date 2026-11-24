@@ -1,0 +1,141 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_e_peak2001_1_18_10yr_for_rfp",
+ "encoding": "agent_cellprose_lean2",
+ "prompt_chars": 4282,
+ "prompt_sha256": "e5452e81a85c01c637fe882819670c3d3c8d929d1355d66f4a70e9f5de3e6f8d",
+ "result": "```json\n{\n  \"q1\": 0.051,\n  \"q2\": \"Seller's's PP Calc!W9\",\n  \"q3\": [\"Seller's's PP Calc!B90\", \"Seller's's PP Calc!A12\"],\n  \"q4\": [\"Purchasers!A41\", \"Purchasers!A42\"],\n  \"q5\": [\"Purchasers!S131\", \"Purchasers!AB131\", \"Purchasers!AC131\", \"Purchasers!AE131\", \"Purchasers!AF131\", \"Purchasers!R133\", \"Purchasers!S133\", \"Purchasers!AB133\", \"Purchasers!AC133\", \"Purchasers!AE133\", \"Purchasers!AF133\", \"Swaps!E131\", \"Swaps!O131\", \"Swaps!Q131\", \"Swaps!S131\", \"Swaps!U131\", \"Swaps!W131:AA131\", \"Swaps!AC131\", \"Swaps!E133\", \"Swaps!O133\", \"Swaps!Q133\", \"Swaps!S133\", \"Swaps!U133\", \"Swaps!W133:AA133\", \"Swaps!AC133\", \"Seller's's PP Calc!L132\", \"Seller's's PP Calc!P132\", \"Seller's's PP Calc!S132:U132\", \"Seller's's PP Calc!X132\", \"Seller's's PP Calc!L134\", \"Seller's's PP Calc!P134\", \"Seller's's PP Calc!S134:U134\", \"Seller's's PP Calc!X134\"],\n  \"q6\": [\"Purchasers!E34\", \"Purchasers!G34\", \"Purchasers!I34\", \"Purchasers!K34\", \"Purchasers!M34\"]\n}\n```",
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 5596,
+  "cache_read_input_tokens": 7911,
+  "output_tokens": 1676,
+  "output_tokens_details": {
+   "thinking_tokens": 730
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 1676,
+   "cacheReadInputTokens": 7911,
+   "cacheCreationInputTokens": 5596,
+   "thinkingTokens": 730
+  }
+ },
+ "cost": 0.0021895,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 3540,
+     "output_tokens": 246,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 3540,
+     "cache_write_tokens": 831,
+     "output_tokens": 526,
+     "reasoning_tokens": 382,
+     "tool_calls": [
+      "read_range",
+      "whatif"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 4371,
+     "cache_write_tokens": 1225,
+     "output_tokens": 904,
+     "reasoning_tokens": 348,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.001617
+  },
+  "finished_at": "2026-11-24T17:01:05+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 38.8
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Ten Year UST\", \"sheet\": \"Seller's's PP Calc\"}",
+   "output_chars": 48
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Swap Spread\", \"sheet\": \"Seller's's PP Calc\"}",
+   "output_chars": 55
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Seller's's PP Calc!C90\", \"Purchasers!C41\", \"Purchasers!E34:P34\"]}",
+   "output_chars": 625
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Seller's's PP Calc!S3:X11\"]}",
+   "output_chars": 436
+  },
+  {
+   "turn": 2,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Purchasers!R131\", \"factor\": 1.1}",
+   "output_chars": 587
+  }
+ ]
+}

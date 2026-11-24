@@ -1,0 +1,123 @@
+{
+ "model": "haiku55",
+ "workbook": "dev_e_mastersocal",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 2509,
+ "prompt_sha256": "586eb81e9f1df9ee095b94ecf02d61c70f4739de0b31343391d57a0f0cb9238f",
+ "result": "```json\n{\"q1\": 1650, \"q2\": \"PLANTS!G15\", \"q3\": [\"PLANTS!A63\", \"PLANTS!AW30\", \"PLANTS!AW31\", \"PLANTS!AY63\"], \"q4\": [\"PLANTS!A68\", \"PLANTS!AK30\", \"PLANTS!AK31\", \"PLANTS!AM68\"], \"q5\": [\"FLOWS!AA56:AB56\", \"FLOWS!AE56:AF56\", \"FLOWS!AG56:AG61\", \"FLOWS!BM56\", \"FLOWS!BR56\"], \"q6\": [\"FLOWS!C53\", \"FLOWS!D53\", \"FLOWS!I53\", \"FLOWS!K53\"]}\n```",
+ "usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 3403,
+  "cache_read_input_tokens": 2217,
+  "output_tokens": 1509,
+  "output_tokens_details": {
+   "thinking_tokens": 1005
+  }
+ },
+ "modelUsage": {
+  "claude-haiku-5-5": {
+   "inputTokens": 6,
+   "outputTokens": 1509,
+   "cacheReadInputTokens": 2217,
+   "cacheCreationInputTokens": 3403,
+   "thinkingTokens": 1005
+  }
+ },
+ "cost": 0.0013171,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-haiku-5-5",
+  "returned_model": "claude-haiku-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 100000,
+   "price_in": 0.5,
+   "price_out": 2.5
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 2217,
+     "output_tokens": 451,
+     "reasoning_tokens": 195,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range",
+      "whatif"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 2217,
+     "cache_write_tokens": 1186,
+     "output_tokens": 1058,
+     "reasoning_tokens": 810,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.001203
+  },
+  "finished_at": "2026-11-24T16:40:00+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 19.8
+ },
+ "num_turns": 2,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"Cornudas West\"}",
+   "output_chars": 180
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"text\": \"La Paloma II\"}",
+   "output_chars": 130
+  },
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"FLOWS!B53:K53\", \"PLANTS!AX63\", \"PLANTS!AL68\"]}",
+   "output_chars": 528
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"FLOWS!BI56\", \"factor\": 1.1}",
+   "output_chars": 134
+  }
+ ]
+}

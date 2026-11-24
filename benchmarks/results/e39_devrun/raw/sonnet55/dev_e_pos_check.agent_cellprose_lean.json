@@ -1,0 +1,137 @@
+{
+ "model": "sonnet55",
+ "workbook": "dev_e_pos_check",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 2273,
+ "prompt_sha256": "e3d6e0e6d78c199c9dc859cc55d58330710c40e6d5680699b76674391fa1e418",
+ "result": "{\"q1\": -843753.75, \"q2\": \"THURS_Peak_Pos_TieOut!G2\", \"q3\": [\"THURS_Peak_Pos_TieOut!BV6\", \"THURS_Peak_Pos_TieOut!BV28\"], \"q4\": [\"THURS_Peak_Pos_TieOut!HP4\", \"THURS_Peak_Pos_TieOut!HP26\"], \"q5\": [\"THURS_Peak_Pos_TieOut!AR29\", \"THURS_Peak_Pos_TieOut!AR37\"], \"q6\": []}",
+ "usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 4284,
+  "cache_read_input_tokens": 5523,
+  "output_tokens": 853,
+  "output_tokens_details": {
+   "thinking_tokens": 101
+  }
+ },
+ "modelUsage": {
+  "claude-sonnet-5-5": {
+   "inputTokens": 8,
+   "outputTokens": 853,
+   "cacheReadInputTokens": 5523,
+   "cacheCreationInputTokens": 4284,
+   "thinkingTokens": 101
+  }
+ },
+ "cost": 0.02816,
+ "provider": "anthropic",
+ "run": {
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "request_id": null,
+  "stop_reason": "end_turn",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "agent turns: automatic, 5-minute TTL; priced uncached, billed_usd recorded",
+   "thinking": {
+    "type": "adaptive"
+   },
+   "effort": "high"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": null,
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 4,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 2115,
+     "output_tokens": 264,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "find",
+      "find"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2,
+     "cache_read_tokens": 2115,
+     "cache_write_tokens": 1293,
+     "output_tokens": 370,
+     "reasoning_tokens": 76,
+     "tool_calls": [
+      "read_range",
+      "trace"
+     ],
+     "stop_reason": "tool_use"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2,
+     "cache_read_tokens": 3408,
+     "cache_write_tokens": 876,
+     "output_tokens": 219,
+     "reasoning_tokens": 25,
+     "tool_calls": [],
+     "stop_reason": "end_turn"
+    }
+   ],
+   "billed_usd": 0.019808
+  },
+  "finished_at": "2026-11-24T16:45:57+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 31.6
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"THURS_Peak_Pos_TieOut!A1:H8\", \"THURS_Peak_Pos_TieOut!A25:F38\"]}",
+   "output_chars": 1080
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"sheet\": \"THURS_Peak_Pos_TieOut\", \"text\": \"Total 2007\"}",
+   "output_chars": 141
+  },
+  {
+   "turn": 1,
+   "tool": "find",
+   "args": "{\"sheet\": \"THURS_Peak_Pos_TieOut\", \"text\": \"Total 2001\"}",
+   "output_chars": 134
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"THURS_Peak_Pos_TieOut!CG2\", \"THURS_Peak_Pos_TieOut!BV36\", \"THURS_Peak_Pos_TieOut!HP34\", \"THURS_Peak_Pos_TieOut!EU25:EU30\", \"THURS_Peak_Pos_TieOut!AR1\", \"THURS_Peak_Pos_TieOut!AR14\"]}",
+   "output_chars": 524
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"THURS_Peak_Pos_TieOut!AR14\", \"dependents\": true, \"transitive\": true}",
+   "output_chars": 116
+  }
+ ]
+}

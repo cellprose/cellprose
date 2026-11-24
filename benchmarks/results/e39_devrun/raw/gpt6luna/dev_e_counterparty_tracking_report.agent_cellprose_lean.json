@@ -1,0 +1,152 @@
+{
+ "model": "gpt6luna",
+ "workbook": "dev_e_counterparty_tracking_report",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 5367,
+ "prompt_sha256": "2accadcf0a7cd23412c55ec036138433c534c7ec000cc0f8617ae4e570b1753f",
+ "result": "{\"q1\":1,\"q2\":\"Tier 2 Counterparties!W18\",\"q3\":[\"Mission Critical Counterparties!P98\",\"Mission Critical Counterparties!U98\"],\"q4\":[\"Tier 2 Counterparties!P59\",\"Tier 2 Counterparties!U59\"],\"q5\":[\"Tier 2 Counterparties!S18:S19\",\"Tier 2 Counterparties!S74:S75\"],\"q6\":[\"Tier 2 Counterparties!P20:P33\"]}",
+ "usage": {
+  "input_tokens": 6955,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 7065,
+  "output_tokens": 779,
+  "output_tokens_details": {
+   "thinking_tokens": 361
+  }
+ },
+ "modelUsage": {
+  "gpt-6-luna": {
+   "inputTokens": 6955,
+   "outputTokens": 779,
+   "cacheReadInputTokens": 7065,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 361
+  }
+ },
+ "cost": 0.0017915000000000001,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6-luna",
+  "returned_model": "gpt-6-luna",
+  "request_id": "req_916a59ddf04c4864a964ebfcb9a573be",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 0.1,
+  "price_out_per_mtok": 0.5,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 0.2,
+   "price_out": 0.75
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 2352,
+     "cache_read_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 197,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 2370,
+     "cache_read_tokens": 2349,
+     "cache_write_tokens": 0,
+     "output_tokens": 241,
+     "reasoning_tokens": 135,
+     "tool_calls": [
+      "find",
+      "find",
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 2233,
+     "cache_read_tokens": 4716,
+     "cache_write_tokens": 0,
+     "output_tokens": 341,
+     "reasoning_tokens": 226,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.001156
+  },
+  "finished_at": "2026-11-24T16:48:29+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 0,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 13.4
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Mission Critical Counterparties!P2:Z22\", \"Mission Critical Counterparties!S97:Z99\", \"Tier 2 Counterparties!P2:Z19\", \"Tier 2 Counterparties!S59:Z60\", \"Tier 2 Counterparties!S13:Z19\", \"Tier 2 Counterparties!B20:P34\"]}",
+   "output_chars": 4169
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Mission Critical Counterparties!U99\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 158
+  },
+  {
+   "turn": 1,
+   "tool": "trace",
+   "args": "{\"cell\": \"Tier 2 Counterparties!U60\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 128
+  },
+  {
+   "turn": 1,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Tier 2 Counterparties!S15\", \"factor\": 1.1}",
+   "output_chars": 125
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Yes\", \"sheet\": \"Mission Critical Counterparties\"}",
+   "output_chars": 3559
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Financial - US Total\", \"sheet\": \"Tier 2 Counterparties\"}",
+   "output_chars": 101
+  },
+  {
+   "turn": 2,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Mission Critical Counterparties!P97:Z100\", \"Tier 2 Counterparties!S70:Z75\"]}",
+   "output_chars": 873
+  }
+ ]
+}

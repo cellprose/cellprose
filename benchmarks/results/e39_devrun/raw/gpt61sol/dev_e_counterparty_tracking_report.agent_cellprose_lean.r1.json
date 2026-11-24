@@ -1,0 +1,145 @@
+{
+ "model": "gpt61sol",
+ "workbook": "dev_e_counterparty_tracking_report",
+ "encoding": "agent_cellprose_lean",
+ "prompt_chars": 5367,
+ "prompt_sha256": "2accadcf0a7cd23412c55ec036138433c534c7ec000cc0f8617ae4e570b1753f",
+ "result": "{\n  \"q1\": 1,\n  \"q2\": \"Tier 2 Counterparties!W18\",\n  \"q3\": [\n    \"Mission Critical Counterparties!P98\",\n    \"Mission Critical Counterparties!U98\"\n  ],\n  \"q4\": [\n    \"Tier 2 Counterparties!P59\",\n    \"Tier 2 Counterparties!U59\"\n  ],\n  \"q5\": [\n    \"Tier 2 Counterparties!S18:S19\",\n    \"Tier 2 Counterparties!S74:S75\"\n  ],\n  \"q6\": [\n    \"Tier 2 Counterparties!P20:P33\"\n  ]\n}",
+ "usage": {
+  "input_tokens": 2805,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 8056,
+  "output_tokens": 359,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  }
+ },
+ "modelUsage": {
+  "gpt-6.1-sol": {
+   "inputTokens": 2805,
+   "outputTokens": 359,
+   "cacheReadInputTokens": 8056,
+   "cacheCreationInputTokens": 0,
+   "thinkingTokens": 0
+  }
+ },
+ "cost": 0.025312,
+ "provider": "openai",
+ "run": {
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "request_id": "req_a39025b776d24f228ae711a447b86208",
+  "stop_reason": "completed",
+  "settings": {
+   "max_tokens": 32000,
+   "temperature": "provider default",
+   "prompt_caching": "automatic (cannot be disabled); priced uncached",
+   "effort": "medium"
+  },
+  "price_in_per_mtok": 2.0,
+  "price_out_per_mtok": 10.0,
+  "long_prompt_tier": {
+   "threshold": 272000,
+   "price_in": 4.0,
+   "price_out": 15.0
+  },
+  "provider_usage": {
+   "turns": [
+    {
+     "turn": 1,
+     "input_tokens": 3,
+     "cache_read_tokens": 2349,
+     "cache_write_tokens": 0,
+     "output_tokens": 54,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "read_range"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 2,
+     "input_tokens": 1012,
+     "cache_read_tokens": 2349,
+     "cache_write_tokens": 0,
+     "output_tokens": 155,
+     "reasoning_tokens": 0,
+     "tool_calls": [
+      "find",
+      "find",
+      "trace",
+      "trace",
+      "whatif"
+     ],
+     "stop_reason": "completed"
+    },
+    {
+     "turn": 3,
+     "input_tokens": 1790,
+     "cache_read_tokens": 3358,
+     "cache_write_tokens": 0,
+     "output_tokens": 150,
+     "reasoning_tokens": 0,
+     "tool_calls": [],
+     "stop_reason": "completed"
+    }
+   ],
+   "billed_usd": 0.010811
+  },
+  "finished_at": "2026-11-24T17:09:11+00:00",
+  "run_id": "20261124T163558Z-52e13f",
+  "started_at": "2026-11-24T16:35:58+00:00",
+  "git_sha": "e25963f",
+  "git_dirty": true,
+  "corpus": "external/devdata2",
+  "inputs_sha256": "50cd94d411718e780f1eb70dc2761756aa2f02969a8fd5c757f3b6368a5c0a6b",
+  "split_sha256": "090f6ae53d5dacb4a9dbc9502b96c36275ce4d979e2d181cfe56c78c51db8cae",
+  "final": false,
+  "split_seed": 20261009,
+  "subset_size": null,
+  "mode": "agent",
+  "rep": 1,
+  "max_turns": 40,
+  "max_call_usd": 1.0,
+  "wall_seconds": 14.3
+ },
+ "num_turns": 3,
+ "tool_trace": [
+  {
+   "turn": 1,
+   "tool": "read_range",
+   "args": "{\"ranges\": [\"Mission Critical Counterparties!P1:Z22\", \"Tier 2 Counterparties!P1:Z19\", \"Tier 2 Counterparties!P20:P34\"]}",
+   "output_chars": 1999
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Yes\", \"sheet\": \"Mission Critical Counterparties\"}",
+   "output_chars": 3559
+  },
+  {
+   "turn": 2,
+   "tool": "find",
+   "args": "{\"text\": \"Financial - US Total\", \"sheet\": \"Tier 2 Counterparties\"}",
+   "output_chars": 101
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Mission Critical Counterparties!U99\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 158
+  },
+  {
+   "turn": 2,
+   "tool": "trace",
+   "args": "{\"cell\": \"Tier 2 Counterparties!U60\", \"dependents\": false, \"transitive\": false}",
+   "output_chars": 128
+  },
+  {
+   "turn": 2,
+   "tool": "whatif",
+   "args": "{\"cell\": \"Tier 2 Counterparties!S15\", \"factor\": 1.1}",
+   "output_chars": 125
+  }
+ ]
+}
