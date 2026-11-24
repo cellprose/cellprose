@@ -42,11 +42,20 @@ def _load(path):
     return _pair(str(p), p.stat().st_mtime)
 
 
+def _unquote(name: str) -> str:
+    """A sheet name as written in a reference: 'Q1 data' (Excel's quotes) or "Q1 #2" (the format's, see quote_sheet)."""
+    name = name.strip()
+    if len(name) >= 2 and name[0] == name[-1] and name[0] in "'\"":
+        return name[1:-1]
+    return name
+
+
 def _sheet(fwb, name: str):
-    name = name.strip().strip("'")
-    for ws in fwb.worksheets:
-        if ws.title == name or ws.title.lower() == name.lower():
-            return ws
+    for cand in (name.strip(), _unquote(name)):         # a sheet whose own name starts and ends with a quote first
+        for ws in fwb.worksheets:
+            if ws.title == cand or ws.title.lower() == cand.lower():
+                return ws
+    name = _unquote(name)
     raise ValueError(f"no sheet {name!r}; sheets are {fwb.sheetnames}")
 
 
@@ -167,7 +176,7 @@ def find(path, text: str, sheet: str | None = None, limit: int = MAX_HITS) -> st
         raise ValueError("text is empty")
     hits, total = [], 0
     for fws in fwb.worksheets:
-        if sheet and fws.title.lower() != sheet.strip("'").lower():
+        if sheet and fws.title.lower() != _unquote(sheet).lower():
             continue
         vws = vwb[fws.title]
         for c in iter_cells(fws):
@@ -217,37 +226,66 @@ def _refs(fwb, sheet: str, formula: str) -> list[tuple[str, int, int, int, int]]
     return out
 
 
+def _area(ref) -> int:
+    _, c1, r1, c2, r2 = ref
+    return (c2 - c1 + 1) * (r2 - r1 + 1)
+
+
 def _cells(fwb, refs):
-    for sh, c1, r1, c2, r2 in refs:
-        n = (c2 - c1 + 1) * (r2 - r1 + 1)
-        if n > MAX_EXPAND:
+    """Addresses of the cells in the ranges. A range of more than MAX_EXPAND cells is not listed here; see _big_text."""
+    for ref in refs:
+        sh, c1, r1, c2, r2 = ref
+        if _area(ref) > MAX_EXPAND:
             continue
         for r in range(r1, r2 + 1):
             for c in range(c1, c2 + 1):
                 yield f"{quote_sheet(sh)}!{L(c)}{r}"
 
 
+def _big(refs) -> list[str]:
+    """The ranges _cells leaves out, as text, so a trace says they exist instead of dropping them."""
+    return [f"{quote_sheet(sh)}!{L(c1)}{r1}:{L(c2)}{r2}" for sh, c1, r1, c2, r2 in refs if _area((sh, c1, r1, c2, r2)) > MAX_EXPAND]
+
+
 def _dependents_index(fwb):
-    idx = defaultdict(set)
+    """({address: formula cells that read it directly}, [(formula cell, ref) for every range too big to list])."""
+    idx, bigs = defaultdict(set), []
     for ws in fwb.worksheets:
         for c in iter_cells(ws):
             if is_formula_cell(c):
                 me = f"{quote_sheet(ws.title)}!{c.coordinate}"
-                for p in _cells(fwb, _refs(fwb, ws.title, c.value)):
+                refs = _refs(fwb, ws.title, c.value)
+                for p in _cells(fwb, refs):
                     idx[p].add(me)
-    return idx
+                bigs += [(me, ref) for ref in refs if _area(ref) > MAX_EXPAND]
+    return idx, bigs
+
+
+def _readers(fwb, index, cur: str) -> set[str]:
+    """Formula cells that read `cur` directly, including through a range too big to have been listed."""
+    from openpyxl.utils.cell import column_index_from_string, coordinate_from_string
+    idx, bigs = index
+    out = set(idx.get(cur, ()))
+    if bigs:
+        sh, coord = cur.rsplit("!", 1)
+        col, row = coordinate_from_string(coord)
+        col = column_index_from_string(col)
+        for me, (rsh, c1, r1, c2, r2) in bigs:
+            if rsh == _unquote(sh) and c1 <= col <= c2 and r1 <= row <= r2:
+                out.add(me)
+    return out
 
 
 def _order(fwb, ref):
     from openpyxl.utils.cell import coordinate_from_string, column_index_from_string
     sh, coord = ref.rsplit("!", 1)
     col, row = coordinate_from_string(coord)
-    return fwb.sheetnames.index(sh.strip("'")) if sh.strip("'") in fwb.sheetnames else 0, row, column_index_from_string(col)
+    return fwb.sheetnames.index(_unquote(sh)) if _unquote(sh) in fwb.sheetnames else 0, row, column_index_from_string(col)
 
 
 def _value(fwb, vwb, ref):
     sh, coord = ref.rsplit("!", 1)
-    sh = sh.strip("'")
+    sh = _unquote(sh)
     fc, vc = fwb[sh][coord], vwb[sh][coord]
     if is_formula_cell(fc):
         return f"= {fc.value[1:]}  # {'?' if vc.value is None else fmt_value(vc.value, computed=True)}"
@@ -264,7 +302,7 @@ def compress(fwb, cells) -> list[str]:
         col, row = coordinate_from_string(coord)
         by_sheet[sh].append((column_index_from_string(col), row))
     out = []
-    for sh in sorted(by_sheet, key=lambda x: fwb.sheetnames.index(x.strip("'")) if x.strip("'") in fwb.sheetnames else 0):
+    for sh in sorted(by_sheet, key=lambda x: fwb.sheetnames.index(_unquote(x)) if _unquote(x) in fwb.sheetnames else 0):
         runs = []                                   # (col, r1, r2)
         for c, r in sorted(by_sheet[sh]):
             if runs and runs[-1][0] == c and runs[-1][2] == r - 1:
@@ -295,14 +333,16 @@ def trace(path, ref: str, dependents: bool = False, transitive: bool = False, li
         fc = fwb[sheet][coord]
         if not is_formula_cell(fc):
             return head + "\n(not a formula: no precedents)"
-        cells = sorted(set(_cells(fwb, _refs(fwb, sheet, fc.value))), key=lambda x: _order(fwb, x))
-        title = f"{len(cells)} direct precedents"
+        refs = _refs(fwb, sheet, fc.value)
+        cells = sorted(set(_cells(fwb, refs)), key=lambda x: _order(fwb, x))
+        big = _big(refs)
+        title = f"{len(cells)} direct precedents" + (f" (plus ranges too large to list: {', '.join(big)})" if big else "")
     else:
         idx = _pair_index(fwb)
         seen, todo = set(), [me]
         while todo:
             cur = todo.pop()
-            for d in idx.get(cur, ()):
+            for d in _readers(fwb, idx, cur):
                 if d not in seen:
                     seen.add(d)
                     if transitive:
@@ -319,7 +359,7 @@ def trace(path, ref: str, dependents: bool = False, transitive: bool = False, li
 def _pair_index(fwb):
     """The dependents index, stored on the workbook object itself so it lives and dies with that object (an id()-keyed
     cache could hand a freed workbook's index to a new one that reuses the id)."""
-    idx = getattr(fwb, "_cellprose_dependents", None)
+    idx = getattr(fwb, "_cellprose_dependents", None)     # (index, ranges too big to list)
     if idx is None:
         idx = _dependents_index(fwb)
         fwb._cellprose_dependents = idx
