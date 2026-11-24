@@ -164,7 +164,7 @@ def is_blank(v) -> bool:
 
 
 def quote_sheet(name: str) -> str:
-    return f'"{name}"' if ("#" in name or "\n" in name) else name
+    return f'"{name}"' if ("#" in name or "\n" in name or "\r" in name) else name     # SPEC §4: `#` or a line break
 
 
 # ------------------------------------------------------------------ structure

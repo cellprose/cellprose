@@ -132,3 +132,31 @@ def test_recalc_timeout_raises_and_cleans_up(tmp_path, monkeypatch):
     import pytest
     with pytest.raises((subprocess.TimeoutExpired, subprocess.CalledProcessError)):
         recalc.recalc_copy(f, timeout=1)
+
+
+def test_cli_reports_a_bad_file_in_one_line(tmp_path, capsys):
+    from cellprose.cli import main
+    bad = tmp_path / "bad.xlsx"
+    bad.write_bytes(b"not a zip")
+    assert main(["encode", str(bad)]) == 1
+    assert main(["encode", str(tmp_path / "missing.xlsx")]) == 1
+    err = capsys.readouterr().err
+    assert err.count("error:") == 2 and "Traceback" not in err
+
+
+def test_hook_does_not_block_commits_when_cellprose_is_missing(tmp_path):
+    import shutil
+    import subprocess
+    from cellprose import gitflow
+    sh = shutil.which("sh")
+    if not sh:
+        return
+    hook = tmp_path / "hook"
+    hook.write_text("#!/bin/sh\n" + gitflow.HOOK_BODY)
+    r = subprocess.run([sh, str(hook)], env={"PATH": "/nonexistent"}, capture_output=True, text=True)
+    assert r.returncode == 0 and "not on PATH" in r.stderr
+
+
+def test_sheet_names_with_a_carriage_return_are_quoted():
+    from cellprose.writer import quote_sheet
+    assert quote_sheet("a\rb") == '"a\rb"'

@@ -1,4 +1,5 @@
-"""Command line: `cellprose encode book.xlsx`, `cellprose decode book.sheet.md`, `cellprose check book.sheet.md`, `cellprose stats book.xlsx`."""
+"""Command line: `cellprose encode book.xlsx`, `decode book.sheet.md`, `check book.sheet.md`, `stats book.xlsx`, `mcp` (the MCP
+server), and the git helpers `textconv`, `pre-commit` and `git-setup`."""
 from __future__ import annotations
 
 import argparse
@@ -9,6 +10,22 @@ from . import ParseError, __version__, dumps, load_file
 
 
 def main(argv: list[str] | None = None) -> int:
+    """Run the CLI. A bad file or a failed git call is a one-line error and exit status 1, not a traceback."""
+    import subprocess
+    import zipfile
+    from openpyxl.utils.exceptions import InvalidFileException
+    try:
+        return _main(argv)
+    except ParseError as e:
+        print(f"error: {e}", file=sys.stderr)
+    except subprocess.CalledProcessError as e:
+        print(f"error: {' '.join(map(str, e.cmd))} failed: {(e.stderr or '').strip()}", file=sys.stderr)
+    except (OSError, ValueError, KeyError, RuntimeError, zipfile.BadZipFile, InvalidFileException) as e:     # missing file, zip bomb, bad zip, undecodable text
+        print(f"error: {type(e).__name__}: {e}", file=sys.stderr)
+    return 1
+
+
+def _main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="cellprose", description="Convert spreadsheets to Cellprose (.sheet.md).")
     p.add_argument("--version", action="version", version=f"cellprose {__version__}")
     sub = p.add_subparsers(dest="cmd", required=True)

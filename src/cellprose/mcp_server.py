@@ -221,8 +221,8 @@ def whatif(path: str, cell: str, value: Any = None, factor: float | None = None)
     return tools.whatif(_resolve(path), cell, value, factor, timeout=timeout)
 
 
-@server.tool(annotations=ToolAnnotations(readOnlyHint=False, destructiveHint=False, idempotentHint=False,
-                                         openWorldHint=False))
+@server.tool(annotations=ToolAnnotations(readOnlyHint=False, destructiveHint=True, idempotentHint=False,
+                                         openWorldHint=False))     # overwrite=true replaces the original file
 @_user_errors
 def write_cells(path: str, edits: list[dict[str, Any]], output_path: str | None = None,
                 overwrite: bool = False) -> str:
@@ -239,6 +239,8 @@ def write_cells(path: str, edits: list[dict[str, Any]], output_path: str | None 
         raise ValueError("Use either output_path or overwrite, not both")
     dst = src if overwrite else _resolve(output_path, must_exist=False) if output_path else \
         src.with_name(f"{src.stem}.edited{src.suffix}")
+    if dst.suffix.lower() != src.suffix.lower():
+        raise ValueError(f"The output must stay a {src.suffix} file, like the original (macros and formats differ by container)")
     if not edits:
         raise ValueError("edits is empty")
 
