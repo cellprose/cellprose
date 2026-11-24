@@ -17,6 +17,7 @@ from contextlib import contextmanager
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
 from openpyxl.formula.translate import Translator
 from openpyxl.utils import column_index_from_string, range_boundaries
 from openpyxl.utils import get_column_letter as L
@@ -31,6 +32,7 @@ RANGE = re.compile(r"^[A-Z]{1,3}[0-9]+(:[A-Z]{1,3}[0-9]+)?$")
 EXTERNAL = re.compile(r"\[\d+\][^!]*!")   # a reference into another workbook: 'file'!A1 is stored as '[1]Sheet'!A1
 MAX_RANGE_CELLS = 1_000_000     # largest range one block line may name
 MAX_LINKS = 1000                # highest [n] external-link index written
+MAX_ROW, MAX_COL = 1_048_576, 16_384    # Excel's limits
 MAX_CELLS = 5_000_000           # cells a whole file may define
 ESCAPES = {"\\": "\\", "|": "|", "<": "<"}
 
@@ -323,7 +325,13 @@ def decode_cell(raw: str) -> tuple[object, bool]:
     if ERROR.match(raw):
         return raw, True
     if NUMBER.match(raw):
-        return (float(raw) if any(k in raw for k in ".eE") else int(raw)), False
+        try:
+            v = float(raw) if any(k in raw for k in ".eE") else int(raw)
+        except ValueError:      # an integer of thousands of digits
+            raise ParseError(f"number {raw[:30]!r} is out of range") from None
+        if isinstance(v, float) and not math.isfinite(v):
+            raise ParseError(f"number {raw[:30]!r} is out of range")
+        return v, False
     m = DATETIME.match(raw)
     if m:
         y, mo, d, hh, mi, ss = m.groups()
@@ -341,6 +349,12 @@ def decode_cell(raw: str) -> tuple[object, bool]:
 
 
 # ------------------------------------------------------------------ parsing
+def _check_budget(wb: "Workbook", n: int) -> None:
+    """Refuse a file as soon as it defines too many cells, not after they are all in memory."""
+    if sum(len(sh.cells) for sh in wb.sheets) > MAX_CELLS:
+        raise ParseError(f"file defines more than {MAX_CELLS} cells", n)
+
+
 def _cells_in(rng: str, n: int):
     try:
         c1, r1, c2, r2 = range_boundaries(rng)
@@ -348,6 +362,8 @@ def _cells_in(rng: str, n: int):
         raise ParseError(f"bad range {rng!r}", n) from None
     if None in (c1, r1, c2, r2):
         raise ParseError(f"bad range {rng!r}", n)
+    if r2 > MAX_ROW or c2 > MAX_COL:
+        raise ParseError(f"range {rng!r} is outside the worksheet", n)
     if (r2 - r1 + 1) * (c2 - c1 + 1) > MAX_RANGE_CELLS:
         raise ParseError(f"range {rng!r} covers more than {MAX_RANGE_CELLS} cells", n)
     return [(r, c) for r in range(r1, r2 + 1) for c in range(c1, c2 + 1)]
@@ -373,6 +389,10 @@ def _sheet_name(heading: str) -> str:
 
 def load(text: str) -> Workbook:
     """Parse Cellprose v0.3 text (or v0.2, which differs only in the grid and arrays) into a Workbook."""
+    text = text.replace("\r\n", "\n")        # a file saved on Windows, or text passed in as it came off disk
+    bad = ILLEGAL_CHARACTERS_RE.search(text)     # control characters cannot be stored in a workbook cell
+    if bad:
+        raise ParseError(f"control character {bad.group()!r} is not allowed", text.count("\n", 0, bad.start()) + 1)
     lines = text.split("\n")
     wb = Workbook()
     i = 0
@@ -466,6 +486,8 @@ def _read_table(sheet: Sheet, rows: list[str], first_line: int, wb: Workbook, ba
         cols = [column_index_from_string(h) for h in head[1:]]
     except ValueError:
         raise ParseError(f"bad column letters in {rows[0]!r}", first_line) from None
+    if any(c > MAX_COL for c in cols):
+        raise ParseError(f"column beyond {L(MAX_COL)} in {rows[0]!r}", first_line)
     sep = split(rows[1], first_line + 1)
     if len(sep) != len(head) or not all(re.fullmatch(r"-+", s) for s in sep):
         raise ParseError("second table row must be the '|-|-|' separator", first_line + 1)
@@ -481,8 +503,13 @@ def _read_table(sheet: Sheet, rows: list[str], first_line: int, wb: Workbook, ba
             r = int(cells[0])
         except ValueError:
             raise ParseError(f"row label {cells[0]!r} is not a number", k) from None
+        if not 1 <= r <= MAX_ROW:
+            raise ParseError(f"row {r} is outside 1-{MAX_ROW}", k)
         for c, raw in zip(cols, cells[1:]):
-            v, err = decode_cell(raw)
+            try:
+                v, err = decode_cell(raw)
+            except ParseError as e:
+                raise ParseError(str(e), k) from None
             if v is not None:
                 sheet.cells[(r, c)] = Cell(value=v, error=err)
 
@@ -526,6 +553,7 @@ def _read_block(wb: Workbook, sheet: Sheet | None, kind: str, body, n: int) -> N
                 cell = sheet.cells.setdefault((r, c), Cell())
                 cell.shown, cell.shown_error = cell.value, cell.error
                 cell.formula, cell.value = f, None
+            _check_budget(wb, k)
     elif kind == "formats":
         for k, line in body:
             if not line.strip():
@@ -533,6 +561,7 @@ def _read_block(wb: Workbook, sheet: Sheet | None, kind: str, body, n: int) -> N
             rng, fmt = _split_assign(line, k)
             for pos in _cells_in(rng, k):
                 sheet.cells.setdefault(pos, Cell()).number_format = fmt
+            _check_budget(wb, k)
     elif kind == "cells":
         for k, line in body:
             if not line.strip():
@@ -546,10 +575,16 @@ def _read_block(wb: Workbook, sheet: Sheet | None, kind: str, body, n: int) -> N
                 formula, hash_sep, _shown = rest.rpartition("  # ")      # trailing comment = cached display value
                 f = formula if hash_sep else rest
                 shown = _shown.strip() if hash_sep else ""
-                v, err = (None, False) if shown in ("", "?") else ("", False) if shown == '""' else decode_cell(shown)
+                try:
+                    v, err = (None, False) if shown in ("", "?") else ("", False) if shown == '""' else decode_cell(shown)
+                except ParseError as e:
+                    raise ParseError(str(e), k) from None
                 sheet.cells[(r, c)] = Cell(formula=f, shown=v, shown_error=err)
             else:
-                v, err = decode_cell(rest)
+                try:
+                    v, err = decode_cell(rest)
+                except ParseError as e:
+                    raise ParseError(str(e), k) from None
                 # the cells block carries no number formats, so keep dates and times readable as dates
                 fmt = ("hh:mm:ss" if isinstance(v, dt.time) else
                        "yyyy-mm-dd" if isinstance(v, dt.datetime) and v.time() == dt.time(0) else
