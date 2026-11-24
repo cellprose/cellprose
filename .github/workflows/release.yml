@@ -95,6 +95,7 @@ jobs:
       - uses: pypa/gh-action-pypi-publish@release/v1
         with:
           packages-dir: dist/one/
+          skip-existing: true      # an adapter whose version is already on PyPI is left alone
 
   pypi-langchain:
     # The adapters depend on cellprose>=0.3, so they go up after it, one at a time: PyPI allows only one pending
@@ -116,6 +117,7 @@ jobs:
       - uses: pypa/gh-action-pypi-publish@release/v1
         with:
           packages-dir: dist/one/
+          skip-existing: true      # an adapter whose version is already on PyPI is left alone
 
   pypi-llama-index:
     # The adapters depend on cellprose>=0.3, so they go up after it, one at a time: PyPI allows only one pending
@@ -137,6 +139,7 @@ jobs:
       - uses: pypa/gh-action-pypi-publish@release/v1
         with:
           packages-dir: dist/one/
+          skip-existing: true      # an adapter whose version is already on PyPI is left alone
 
   npm:
     needs: build

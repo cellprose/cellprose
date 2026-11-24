@@ -1,6 +1,6 @@
 {
   "name": "cellprose",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Cellprose writer for Node: turn an .xlsx workbook into Cellprose v0.3 text (.sheet.md) with formulas and cell addresses. No dependencies.",
   "author": "Utkarsh Gaikwad",
   "keywords": [

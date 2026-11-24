@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cellprose"
-version = "0.3.1"
+version = "0.3.2"
 description = "A plain-text format for spreadsheet workbooks: formulas and cell addresses a model can read in one call, rendered as tables on GitHub"
 readme = "README.md"
 authors = [{ name = "Utkarsh Gaikwad" }]
