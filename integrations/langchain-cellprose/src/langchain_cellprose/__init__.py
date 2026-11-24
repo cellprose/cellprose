@@ -56,6 +56,7 @@ def split_sheets(text: str) -> list[tuple[str | None, str]]:
         start = lines.index("---", 1) + 1
     head = "\n".join(lines[:start]).strip("\n")
     parts: list[tuple[str | None, list[str]]] = []
+    pre: list[str] = []         # text between the front matter and the first heading: the row-number legend (SPEC §3.1)
     fenced = False
     for line in lines[start:]:
         if line.startswith("```"):
@@ -69,6 +70,9 @@ def split_sheets(text: str) -> list[tuple[str | None, str]]:
             parts.append((None, [line]))
         elif parts:
             parts[-1][1].append(line)
+        else:
+            pre.append(line)
     if not parts:
         return [(None, text)]
+    head = "\n".join([head, *pre]).strip("\n") if any(x.strip() for x in pre) else head
     return [(n, (head + "\n\n" if head else "") + "\n".join(b).strip("\n") + "\n") for n, b in parts]
