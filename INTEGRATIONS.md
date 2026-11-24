@@ -11,7 +11,7 @@ Cellprose ships three things agents can use today:
 ## Install
 
 ```bash
-pip install -e ".[mcp]"        # from this repo; publishes to PyPI later as `pip install "cellprose[mcp]"`
+pip install "cellprose[mcp]"       # from PyPI; use pip install -e ".[mcp]" from a clone to develop
 ```
 
 LibreOffice is optional. With it installed, files without cached formula values get computed, and `write_cells` can report what an edit changed.

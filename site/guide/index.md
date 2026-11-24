@@ -43,10 +43,10 @@ Both read the same text. The first sends it all at once; the second lets the mod
 
 ## Quick start
 
-From a checkout of the repository, until the first package release:
+Install from PyPI (from a checkout, use `pip install -e ".[dev]"` instead):
 
 ```bash
-pip install -e ".[dev]"
+pip install cellprose
 cellprose encode model.xlsx          # writes model.sheet.md
 cellprose decode model.sheet.md      # back to .xlsx: values, formulas, formats, merges, names
 cellprose check model.sheet.md       # validate without writing anything
@@ -56,7 +56,7 @@ cellprose stats model.xlsx           # size as Cellprose vs CSV and Markdown
 For agents, there is an MCP server and an agent skill:
 
 ```bash
-pip install -e ".[mcp]"
+pip install "cellprose[mcp]"
 claude mcp add cellprose -- cellprose-mcp
 ```
 
