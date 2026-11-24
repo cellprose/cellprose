@@ -25,7 +25,7 @@ from openpyxl.formula.tokenizer import Tokenizer
 from openpyxl.utils import get_column_letter as L
 from openpyxl.utils import range_boundaries
 
-from .writer import Options, detect_regions, dumps_workbook, fmt_value, is_formula_cell, load_pair, quote_sheet
+from .writer import Options, detect_regions, dumps_workbook, fmt_value, is_formula_cell, iter_cells, load_pair, quote_sheet
 
 OUTLINE_ROWS = 6          # rows kept per region in the outline (head + tail), before the rest is elided
 MAX_HITS = 30
@@ -75,7 +75,7 @@ def index_lines(fwb, vwb, max_rows: int = OUTLINE_ROWS) -> list[str]:
     for fws in fwb.worksheets:
         vws = vwb[fws.title]
         regions, loose = detect_regions(fws)
-        nf = sum(1 for row in fws.iter_rows() for c in row if is_formula_cell(c))
+        nf = sum(1 for c in iter_cells(fws) if is_formula_cell(c))
         out.append(f"{quote_sheet(fws.title)}: used {fws.dimensions}, {len(regions)} regions, {len(loose)} loose cells, "
                    f"{nf} formulas")
         for (r1, c1, r2, c2) in regions:
@@ -112,7 +112,7 @@ def index(path, max_regions: int = MAX_REGIONS) -> str:
     for fws in fwb.worksheets:
         vws = vwb[fws.title]
         regions, loose = detect_regions(fws)
-        nf = sum(1 for row in fws.iter_rows() for c in row if is_formula_cell(c))
+        nf = sum(1 for c in iter_cells(fws) if is_formula_cell(c))
         out.append(f"{quote_sheet(fws.title)}: used {fws.dimensions}, {len(regions)} regions, {len(loose)} loose cells, "
                    f"{nf} formulas")
         for (r1, c1, r2, c2) in regions[:max_regions]:
@@ -170,25 +170,24 @@ def find(path, text: str, sheet: str | None = None, limit: int = MAX_HITS) -> st
         if sheet and fws.title.lower() != sheet.strip("'").lower():
             continue
         vws = vwb[fws.title]
-        for row in fws.iter_rows():
-            for c in row:
-                if c.value is None:
-                    continue
-                shown = _shown(fws, vws, c.row, c.column)
-                if needle not in shown.lower():
-                    continue
-                shown = shown if len(shown) <= 100 else shown[:97] + "..."
-                total += 1
-                if len(hits) >= limit:
-                    continue
-                right = []
-                for cc in range(c.column + 1, min(fws.max_column, c.column + 40) + 1):
-                    if fws.cell(row=c.row, column=cc).value is not None:
-                        rv = _shown(fws, vws, c.row, cc)
-                        right.append(f"{L(cc)}{c.row}: {rv if len(rv) <= 40 else rv[:37] + '...'}")
-                        if len(right) == 6:
-                            break
-                hits.append(f"{quote_sheet(fws.title)}!{c.coordinate}: {shown}" + (" -> " + ", ".join(right) if right else ""))
+        for c in iter_cells(fws):
+            if c.value is None:
+                continue
+            shown = _shown(fws, vws, c.row, c.column)
+            if needle not in shown.lower():
+                continue
+            shown = shown if len(shown) <= 100 else shown[:97] + "..."
+            total += 1
+            if len(hits) >= limit:
+                continue
+            right = []
+            for cc in range(c.column + 1, min(fws.max_column, c.column + 40) + 1):
+                if fws.cell(row=c.row, column=cc).value is not None:
+                    rv = _shown(fws, vws, c.row, cc)
+                    right.append(f"{L(cc)}{c.row}: {rv if len(rv) <= 40 else rv[:37] + '...'}")
+                    if len(right) == 6:
+                        break
+            hits.append(f"{quote_sheet(fws.title)}!{c.coordinate}: {shown}" + (" -> " + ", ".join(right) if right else ""))
     if not hits:
         return f"no cell contains {text!r}"
     more = f"\n... {total - len(hits)} more; narrow the text or pass sheet" if total > len(hits) else ""
@@ -231,12 +230,11 @@ def _cells(fwb, refs):
 def _dependents_index(fwb):
     idx = defaultdict(set)
     for ws in fwb.worksheets:
-        for row in ws.iter_rows():
-            for c in row:
-                if is_formula_cell(c):
-                    me = f"{quote_sheet(ws.title)}!{c.coordinate}"
-                    for p in _cells(fwb, _refs(fwb, ws.title, c.value)):
-                        idx[p].add(me)
+        for c in iter_cells(ws):
+            if is_formula_cell(c):
+                me = f"{quote_sheet(ws.title)}!{c.coordinate}"
+                for p in _cells(fwb, _refs(fwb, ws.title, c.value)):
+                    idx[p].add(me)
     return idx
 
 
@@ -333,8 +331,8 @@ def _pair_index(fwb):
 def _all_values(path) -> dict:
     import openpyxl
     wb = openpyxl.load_workbook(path, data_only=True)
-    return {f"{quote_sheet(ws.title)}!{c.coordinate}": c.value for ws in wb.worksheets for row in ws.iter_rows()
-            for c in row if c.value is not None}
+    return {f"{quote_sheet(ws.title)}!{c.coordinate}": c.value for ws in wb.worksheets for c in iter_cells(ws)
+            if c.value is not None}
 
 
 def _same(a, b) -> bool:

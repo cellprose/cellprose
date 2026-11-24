@@ -14,7 +14,7 @@ import openpyxl
 from openpyxl.utils import range_boundaries
 
 from . import dumps
-from .writer import detect_regions, is_formula_cell, load_pair, needs_recalc
+from .writer import detect_regions, is_formula_cell, iter_cells, load_pair, needs_recalc
 
 import functools
 import subprocess
@@ -97,7 +97,7 @@ def _split_ref(ref: str, sheets: list[str]) -> tuple[str, str]:
 
 def _values(path: Path) -> dict[str, Any]:
     _, vwb = load_pair(path)
-    return {f"{ws.title}!{c.coordinate}": c.value for ws in vwb.worksheets for row in ws.iter_rows() for c in row
+    return {f"{ws.title}!{c.coordinate}": c.value for ws in vwb.worksheets for c in iter_cells(ws)
             if c.value is not None}
 
 
@@ -120,7 +120,7 @@ def list_sheets(path: str) -> str:
     lines = [f"{p.name}: {len(fwb.worksheets)} sheet(s)"]
     for ws in fwb.worksheets:
         regions, loose = detect_regions(ws)
-        formulas = sum(1 for row in ws.iter_rows() for c in row if is_formula_cell(c))
+        formulas = sum(1 for c in iter_cells(ws) if is_formula_cell(c))
         approx = len(dumps(p, sheets=[ws.title], recalc="never")) // 4
         state = "" if ws.sheet_state == "visible" else f" [{ws.sheet_state}]"
         blocks = ", ".join(f"{openpyxl.utils.get_column_letter(c1)}{r1}:{openpyxl.utils.get_column_letter(c2)}{r2}"

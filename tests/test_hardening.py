@@ -54,3 +54,19 @@ def test_precommit_will_not_write_through_a_symlink(tmp_path):
     subprocess.run(["git", "add", "book.xlsx"], cwd=repo, check=True)
     assert gitflow.precommit(repo) == 1
     assert victim.read_text() == "precious"
+
+
+def test_one_far_cell_does_not_walk_the_whole_sheet(tmp_path):
+    """A sheet's bounding box can be 17 billion cells; only the cells that exist may be visited."""
+    import time
+    import openpyxl
+    from cellprose import dumps
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws["A1"], ws["A2"], ws["XFD1048576"] = 1, 2, "x"
+    p = tmp_path / "far.xlsx"
+    wb.save(p)
+    t = time.time()
+    text = dumps(p, recalc="never")
+    assert "XFD1048576: x" in text
+    assert time.time() - t < 20
