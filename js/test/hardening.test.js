@@ -53,3 +53,38 @@ test('a part that inflates past its declared size is refused', () => {
 test('an honest small part still reads', () => {
   assert.strictEqual(readZip(zipOf('a.xml', Buffer.from('<a/>'))).read('a.xml'), '<a/>');
 });
+
+test('a long attribute-less token does not stall the parser', () => {
+  const t = Date.now();
+  parseXml(`<a ${'b'.repeat(200000)}/>`);
+  assert.ok(Date.now() - t < 1000, `took ${Date.now() - t} ms`);
+});
+
+test('attributes: quotes, spaces around =, and tokens without a value', () => {
+  const n = parseXml(`<x:a  p = "1"  lone q='2' r:id="3" =stray/>`);
+  assert.deepStrictEqual(n.attrs, { p: '1', q: '2', id: '3' });
+});
+
+test('merges and array formulas that claim the whole sheet are read without enumerating them', () => {
+  const { loadXlsx } = require('../src/xlsx');
+  const { dumpsWorkbook } = require('../src/writer');
+  const ns = 'xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"';
+  const parts = {
+    'xl/workbook.xml': `<workbook ${ns}><sheets><sheet name="S" sheetId="1" r:id="rId1"/></sheets></workbook>`,
+    'xl/_rels/workbook.xml.rels': '<Relationships xmlns="x"><Relationship Id="rId1" Type="x/worksheet" Target="worksheets/sheet1.xml"/></Relationships>',
+    'xl/worksheets/sheet1.xml': `<worksheet ${ns}><sheetData><row r="1"><c r="A1"><f t="array" ref="A1:XFD1048576">1</f><v>1</v></c><c r="B1"><v>2</v></c></row></sheetData>` +
+      '<mergeCells count="1"><mergeCell ref="A2:XFD1048576"/></mergeCells><hyperlinks><hyperlink ref="C5"/></hyperlinks></worksheet>',
+  };
+  const t = Date.now();
+  const { text } = dumpsWorkbook(loadXlsx({ read: (name) => parts[name] ?? null }));
+  assert.ok(Date.now() - t < 5000);
+  assert.match(text, /A1:XFD1048576 = 1/);
+  assert.match(text, /A2:XFD1048576/);
+  assert.match(text, /hyperlink/); // C5 sits inside the merge, so it is counted on the merge's top-left cell
+});
+
+test('the published package carries the licence', () => {
+  const out = require('node:child_process').execSync('npm pack --dry-run --json', { cwd: require('node:path').join(__dirname, '..'), stdio: ['ignore', 'pipe', 'ignore'] });
+  const files = JSON.parse(out)[0].files.map((f) => f.path);
+  assert.ok(files.includes('LICENSE'), files.join(', '));
+});

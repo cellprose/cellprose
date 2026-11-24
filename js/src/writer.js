@@ -206,6 +206,27 @@ function hasContent(cell) {
   return cell !== undefined && ((cell.v !== undefined && cell.v !== null && (cell.v !== '' || cell.f !== undefined)) || cell.f !== undefined);
 }
 
+// The cells inside array formulas. A small range is listed; a huge one (a file can claim A1:XFD1048576) stays a rectangle.
+const MAX_ENUMERATED = 1000000;
+class Cover {
+  constructor() {
+    this.cells = new Set();
+    this.rects = [];
+  }
+
+  add(a, b) {
+    if ((posRow(b) - posRow(a) + 1) * (posCol(b) - posCol(a) + 1) > MAX_ENUMERATED) this.rects.push([a, b]);
+    else for (let r = posRow(a); r <= posRow(b); r++) for (let c = posCol(a); c <= posCol(b); c++) this.cells.add(posKey(r, c));
+  }
+
+  has(k) {
+    if (this.cells.has(k)) return true;
+    const r = posRow(k);
+    const c = posCol(k);
+    return this.rects.some(([a, b]) => r >= posRow(a) && r <= posRow(b) && c >= posCol(a) && c <= posCol(b));
+  }
+}
+
 function dumpsWorkbook(wb, options = {}) {
   const maxRows = options.maxRows || null;
   const warnings = [];
@@ -229,12 +250,12 @@ function dumpsWorkbook(wb, options = {}) {
     const { regions, loose } = detectRegions([...cells.keys()].sort((a, b) => a - b));
 
     // Array formulas (§6.5): the anchor holds `array` = its range. Every cell inside a range shows a formula result.
-    const inArray = new Set();
+    const inArray = new Cover();
     const arrayLines = [];
     for (const [k, cell] of [...cells].sort((x, y) => x[0] - y[0])) {   // row-major order of the anchor
       if (typeof cell.array !== 'string') continue;
       const [a, b = a] = cell.array.split(':').map(parseAddress);
-      for (let r = posRow(a); r <= posRow(b); r++) for (let c = posCol(a); c <= posCol(b); c++) inArray.add(posKey(r, c));
+      inArray.add(a, b);
       arrayLines.push(`${cell.array} = ${cell.f}`);
     }
 

@@ -9,6 +9,8 @@ const { colIndex, shift } = require('./formula');
 const { posKey, parseAddress, posRow, posCol } = require('./model');
 const BUILTIN = require('./builtin-formats');
 
+const MAX_ENUMERATED = 1000000; // cells of one range listed one by one
+
 // Text with _xHHHH_ escapes (ST_Xstring) decoded.
 const unescapeX = (s) => s.replace(/_x([0-9a-fA-F]{4})_/g, (m, h) => String.fromCharCode(parseInt(h, 16)));
 
@@ -160,19 +162,31 @@ function readExtras(xml, sheet, target, part) {
   // openpyxl puts a hyperlink on every cell of its range except merged cells that are not the top-left of their merge;
   // a single-cell link on one of those goes to the merge's top-left cell. The count is of cells holding a link.
   const mergedAway = new Map(); // position of a covered merged cell -> top-left cell of its merge
+  const bigMerges = []; // merges too large to list cell by cell (a file can claim A1:XFD1048576): tested as rectangles
   for (const m of sheet.merges) {
     const [a, b = a] = m.split(':').map(parseAddress);
+    if ((posRow(b) - posRow(a) + 1) * (posCol(b) - posCol(a) + 1) > MAX_ENUMERATED) {
+      bigMerges.push([a, b]);
+      continue;
+    }
     for (let r = posRow(a); r <= posRow(b); r++) for (let c = posCol(a); c <= posCol(b); c++) if (posKey(r, c) !== a) mergedAway.set(posKey(r, c), a);
   }
+  const mergeTop = (k) => {
+    if (mergedAway.has(k)) return mergedAway.get(k);
+    for (const [a, b] of bigMerges) {
+      if (k !== a && posRow(k) >= posRow(a) && posRow(k) <= posRow(b) && posCol(k) >= posCol(a) && posCol(k) <= posCol(b)) return a;
+    }
+    return undefined;
+  };
   const cells = new Set();
   let area = 0;
   for (const h of kids(child(xml, 'hyperlinks'), 'hyperlink')) {
     const ref = h.attrs.ref || '';
     const [a, b = a] = ref.split(':').map(parseAddress);
     if (a === undefined) continue;
-    if (!ref.includes(':')) cells.add(mergedAway.has(a) ? mergedAway.get(a) : a);
+    if (!ref.includes(':')) cells.add(mergeTop(a) !== undefined ? mergeTop(a) : a);
     else if ((posRow(b) - posRow(a) + 1) * (posCol(b) - posCol(a) + 1) > 100000) area += (posRow(b) - posRow(a) + 1) * (posCol(b) - posCol(a) + 1);
-    else for (let r = posRow(a); r <= posRow(b); r++) for (let c = posCol(a); c <= posCol(b); c++) if (!mergedAway.has(posKey(r, c))) cells.add(posKey(r, c));
+    else for (let r = posRow(a); r <= posRow(b); r++) for (let c = posCol(a); c <= posCol(b); c++) if (mergeTop(posKey(r, c)) === undefined) cells.add(posKey(r, c));
   }
   sheet.dropped.hyperlinks = cells.size + area;
 

@@ -21,10 +21,40 @@ const find = (src, token, from, what) => {
 
 const local = (n) => n.slice(n.indexOf(':') + 1);
 
+const isSpace = (ch) => ch === ' ' || ch === '\t' || ch === '\n' || ch === '\r';
+
+// name="value" pairs from `tag` starting at `from`. One left-to-right pass: a regex here backtracks quadratically on a
+// long token with no `=`, which a crafted file can use to stall the reader.
+function parseAttrs(tag, from, attrs) {
+  const n = tag.length;
+  let i = from;
+  while (i < n) {
+    while (i < n && isSpace(tag[i])) i++;
+    let j = i;
+    while (j < n && tag[j] !== '=' && !isSpace(tag[j])) j++;
+    let k = j;
+    while (k < n && isSpace(tag[k])) k++;
+    if (j === i || tag[k] !== '=') {
+      i = Math.max(j, i + 1); // a token with no value, or a stray `=`
+      continue;
+    }
+    k++;
+    while (k < n && isSpace(tag[k])) k++;
+    const q = tag[k];
+    if (q !== '"' && q !== "'") {
+      i = k;
+      continue;
+    }
+    const end = tag.indexOf(q, k + 1);
+    if (end < 0) return;
+    attrs[local(tag.slice(i, j))] = decode(tag.slice(k + 1, end));
+    i = end + 1;
+  }
+}
+
 function parseXml(src) {
   const root = { name: '#root', attrs: {}, children: [], text: '' };
   const stack = [root];
-  const ATTR = /([^\s=]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/g;
   let i = 0;
   const n = src.length;
   while (i < n) {
@@ -49,10 +79,7 @@ function parseXml(src) {
       const tag = src.slice(lt + 1, selfClosing ? end - 1 : end);
       const sp = tag.search(/\s/);
       const node = { name: local(sp < 0 ? tag : tag.slice(0, sp)), attrs: {}, children: [], text: '' };
-      if (sp >= 0) {
-        ATTR.lastIndex = 0;
-        for (let m; (m = ATTR.exec(tag.slice(sp))); ) node.attrs[local(m[1])] = decode(m[2] !== undefined ? m[2] : m[3]);
-      }
+      if (sp >= 0) parseAttrs(tag, sp, node.attrs);
       top.children.push(node);
       if (!selfClosing) stack.push(node);
       i = end + 1;
