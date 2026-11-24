@@ -102,3 +102,33 @@ def test_load_accepts_crlf_text():
     from cellprose import load
     wb = load((BASE + "1|x|1\n2|y|2\n").replace("\n", "\r\n"))
     assert wb.sheets[0].cells[(1, 1)].value == "x"
+
+
+def test_dumps_leaves_no_recalculated_copy_behind(tmp_path):
+    import glob
+    import tempfile
+    import openpyxl
+    import pytest
+    from cellprose import dumps
+    from cellprose.recalc import soffice
+    if not soffice():
+        pytest.skip("LibreOffice not installed")
+    wb = openpyxl.Workbook()
+    wb.active["A1"], wb.active["B1"] = 1, "=A1+1"
+    p = tmp_path / "f.xlsx"
+    wb.save(p)
+    before = set(glob.glob(tempfile.gettempdir() + "/cellprose-*"))
+    assert "B1 = A1+1" in dumps(p)
+    assert set(glob.glob(tempfile.gettempdir() + "/cellprose-*")) == before
+
+
+def test_recalc_timeout_raises_and_cleans_up(tmp_path, monkeypatch):
+    import subprocess
+    import sys
+    from cellprose import recalc
+    monkeypatch.setattr(recalc, "soffice", lambda: sys.executable)
+    f = tmp_path / "-x.xlsx"
+    f.write_bytes(b"")
+    import pytest
+    with pytest.raises((subprocess.TimeoutExpired, subprocess.CalledProcessError)):
+        recalc.recalc_copy(f, timeout=1)

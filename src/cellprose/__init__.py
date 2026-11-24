@@ -4,6 +4,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from .reader import CompactProfileError, ParseError, Workbook, load, load_file
+from .recalc import discard
 from .writer import VERSION, Options, dumps_workbook, load_pair, needs_recalc, restore_external
 
 __all__ = ["dumps", "load", "load_file", "Workbook", "ParseError", "CompactProfileError", "VERSION", "Options"]
@@ -24,8 +25,12 @@ def dumps(path: str | Path, *, sheets: list[str] | None = None, cell_range: str 
         from .recalc import recalc_copy, soffice
         if recalc == "always" or soffice():
             src = recalc_copy(path)
-    fwb, vwb = load_pair(src)
-    if src != path:
-        restore_external(fwb, vwb, path)
+    try:
+        fwb, vwb = load_pair(src)
+        if src != path:
+            restore_external(fwb, vwb, path)
+    finally:
+        if src != path:
+            discard(src)        # the recalculated copy is a temp file; both workbooks are in memory now
     return dumps_workbook(fwb, vwb, Options(sheets=sheets, cell_range=cell_range, max_rows=max_rows,
                                             source=path.name, legend=legend))

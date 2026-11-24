@@ -14,6 +14,7 @@ import openpyxl
 from openpyxl.utils import range_boundaries
 
 from . import dumps
+from .recalc import discard
 from .writer import detect_regions, is_formula_cell, iter_cells, load_pair, needs_recalc
 
 import functools
@@ -244,7 +245,11 @@ def write_cells(path: str, edits: list[dict[str, Any]], output_path: str | None 
     before_path = src
     if needs_recalc(src):
         before_path, _ = _computed(src)
-    before = _values(before_path)
+    try:
+        before = _values(before_path)
+    finally:
+        if before_path != src:
+            discard(before_path)
 
     wb = openpyxl.load_workbook(src, keep_vba=src.suffix.lower() == ".xlsm")
     sheets = wb.sheetnames
@@ -264,7 +269,10 @@ def write_cells(path: str, edits: list[dict[str, Any]], output_path: str | None 
         lines.append("LibreOffice is not installed, so formulas were not recalculated; "
                      "open and save the file in Excel to see the effects.")
         return "\n".join(lines)
-    after = _values(after_path)
+    try:
+        after = _values(after_path)
+    finally:
+        discard(after_path)
     edited = {_split_ref(str(e["cell"]), sheets)[0] + "!" + _split_ref(str(e["cell"]), sheets)[1] for e in edits}
     changed = []
     for k in sorted(set(before) | set(after)):
