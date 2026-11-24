@@ -8,7 +8,9 @@ name: Release
 # (cellprose, markitdown-cellprose, langchain-cellprose, llama-index-readers-cellprose) with
 # owner cellprose (the organization), repository cellprose, workflow release.yml, environment release.
 # npm uses trusted publishing too: on npmjs.com, package cellprose > Settings > Trusted publisher > GitHub Actions,
-# same repository, workflow and environment. Until that is set, put an automation token in the NPM_TOKEN secret.
+# same repository, workflow and environment. Without that, the publish fails with `404 Not Found - PUT` after the
+# provenance statement is signed. (npm cannot register a trusted publisher before a package exists: the first version of a
+# new package is published by hand.)
 
 on:
   push:
@@ -37,8 +39,10 @@ jobs:
           tag="${GITHUB_REF_NAME#v}"
           py=$(python -c "import tomllib;print(tomllib.load(open('pyproject.toml','rb'))['project']['version'])")
           js=$(node -p "require('./js/package.json').version")
-          echo "tag=$tag python=$py js=$js"
-          test "$tag" = "$py" && test "$tag" = "$js"
+          mod=$(python -c "import re;print(re.search(r'__version__ = \"([^\"]+)\"', open('src/cellprose/__init__.py').read()).group(1))")
+          reg=$(node -p "require('./server.json').version")
+          echo "tag=$tag python=$py module=$mod js=$js server.json=$reg"
+          test "$tag" = "$py" && test "$tag" = "$js" && test "$tag" = "$mod" && test "$tag" = "$reg"
       - name: Test
         run: |
           pip install -e ".[dev,mcp]" pytest
@@ -158,8 +162,13 @@ jobs:
           node-version: "22"
           registry-url: "https://registry.npmjs.org"
       - name: Publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        # No token: npm exchanges the job's OIDC identity for a publish token (trusted publisher, see the top of this file).
         run: |
-          npm install -g npm@latest      # trusted publishing needs npm 11.5 or later
-          npm publish dist/npm/*.tgz --access public --provenance
+          npm install -g npm@^11.5.1      # trusted publishing needs npm 11.5 or later
+          tgz=$(ls dist/npm/*.tgz)
+          version=$(tar -xOzf "$tgz" package/package.json | node -p "JSON.parse(require('fs').readFileSync(0,'utf8')).version")
+          if npm view "cellprose@$version" version >/dev/null 2>&1; then
+            echo "cellprose@$version is already on npm; nothing to publish"
+          else
+            npm publish "$tgz" --access public --provenance
+          fi
