@@ -20,13 +20,21 @@ titleTemplate: Spreadsheets models read right
   <div class="sec-head"><div class="eyebrow">Two ways to use it</div><h2>Whole workbook, or index first and pick sections.</h2>
     <p class="lede">Both read the same text. Choose by the size of the workbook and the question.</p></div>
 
-<div class="two-ways">
-
-| | In the prompt | With its own tools |
-| --- | --- | --- |
-| **Best for** | Small workbooks and one-shot answers in a pipeline. | Large or multi-sheet workbooks, questions about a few ranges, tracing, what-ifs and edits. |
-| **How** | `cellprose.dumps("book.xlsx")` | `cellprose-mcp`: `index_workbook`, then `read_ranges`, `find_cells`, `trace_cell`. |
-
+<div class="ways">
+  <div class="card way">
+    <div class="way-tag">In the prompt</div>
+    <dl>
+      <dt>Best for</dt><dd>Small workbooks and one-shot answers in a pipeline.</dd>
+      <dt>How</dt><dd><code>cellprose.dumps("book.xlsx")</code></dd>
+    </dl>
+  </div>
+  <div class="card way">
+    <div class="way-tag">With its own tools</div>
+    <dl>
+      <dt>Best for</dt><dd>Large or multi-sheet workbooks, questions about a few ranges, tracing, what-ifs and edits.</dd>
+      <dt>How</dt><dd><code>cellprose-mcp</code>: <code>index_workbook</code>, then <code>read_ranges</code>, <code>find_cells</code>, <code>trace_cell</code>.</dd>
+    </dl>
+  </div>
 </div>
 
   <a class="btn ghost" href="./guide/#two-ways-to-use-it">When to use which</a>

@@ -290,3 +290,17 @@ table.ref td.num { text-align: right; font-family: var(--mono); font-variant-num
   .two-ways td:nth-child(2)::before { content: "In the prompt"; }
   .two-ways td:nth-child(3)::before { content: "With its own tools"; }
 }
+
+/* Home "Two ways to use it": one card per mode */
+.ways { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+.way { padding: 18px 20px; display: grid; gap: 14px; align-content: start; border-top: 3px solid var(--accent); }
+.way-tag { font: 600 13px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+.way dl { margin: 0; display: grid; grid-template-columns: 78px 1fr; gap: 12px 16px; align-items: baseline; }
+.way dt { font: 500 12px/1.5 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.way dd { margin: 0; line-height: 1.55; min-width: 0; }
+.way code { font: 500 .88em var(--mono); background: var(--lab-bg); border: 1px solid var(--grid); padding: 1px 6px; border-radius: 2px; overflow-wrap: anywhere; }
+@media (max-width: 719px) {
+  .ways { grid-template-columns: 1fr; }
+  .way dl { grid-template-columns: 1fr; gap: 2px; }
+  .way dd { margin-bottom: 10px; }
+}
