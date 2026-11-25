@@ -1,25 +1,35 @@
-"""LangChain loader: Excel workbooks as Cellprose documents.
+"""LangChain loader: Excel workbooks as Cellprose documents, and a splitter that keeps tables with their formulas.
 
     from langchain_cellprose import CellproseLoader
     docs = CellproseLoader("book.xlsx").load()                 # one Document for the workbook
     docs = CellproseLoader("book.xlsx", mode="sheet").load()   # one per sheet, for splitting and retrieval
+    chunks = CellproseSplitter(chunk_size=4000).split_documents(docs)   # by region, formulas kept with their tables
 """
 from __future__ import annotations
 
+from collections.abc import Iterator
 from pathlib import Path
-from typing import Any, Iterator, Literal
+from typing import Any, Literal
 
 from langchain_core.document_loaders import BaseLoader
 from langchain_core.documents import Document
 
-__all__ = ["CellproseLoader", "split_sheets"]
+from ._structure import parse
+from .splitter import CellproseSplitter
+
+__all__ = ["CellproseLoader", "CellproseSplitter", "split_sheets"]
 
 
 class CellproseLoader(BaseLoader):
     """Load a .xlsx/.xlsm (or an existing .sheet.md) as Cellprose text.
 
     mode: "workbook" gives one Document; "sheet" gives one per sheet (plus one for defined names, if any), each
-    with the front matter so it reads alone. Extra keyword arguments go to `cellprose.dumps` (sheets, cell_range,
+    with the front matter so it reads alone. To split further without cutting a table from its formulas, pass the
+    result to `CellproseSplitter`.
+
+    Metadata: source, filename, format ("cellprose"), cellprose_version, profile ("full" or "compact"; a compact
+    Document leaves rows out and cannot be turned back into a workbook), sheet_count, and in sheet mode sheet and
+    sheet_index (0-based). Extra keyword arguments go to `cellprose.dumps` (sheets, cell_range,
     max_rows, recalc, legend). recalc defaults to "never": formulas without cached values print as `?`.
     """
 
@@ -38,13 +48,22 @@ class CellproseLoader(BaseLoader):
 
     def lazy_load(self) -> Iterator[Document]:
         text = self._text()
-        meta = {"source": str(self.file_path), "format": "cellprose"}
+        parsed = parse(text)
+        meta: dict[str, Any] = {
+            "source": str(self.file_path),
+            "filename": self.file_path.name,
+            "format": "cellprose",
+            "cellprose_version": parsed.meta.get("cellprose") or parsed.meta.get("sheetmark") or "",
+            "profile": parsed.meta.get("profile", "full"),
+            "sheet_count": len(parsed.sheets),
+        }
         if self.mode == "workbook":
             yield Document(page_content=text, metadata=meta)
             return
+        index = {s.name: s.index for s in parsed.sheets}
         for sheet, part in split_sheets(text):
-            yield Document(page_content=part, metadata={**meta, "sheet": sheet} if sheet is not None
-                           else {**meta, "section": "names"})
+            yield Document(page_content=part, metadata={**meta, "sheet": sheet, "sheet_index": index[sheet]}
+                           if sheet is not None else {**meta, "section": "names"})
 
 
 def split_sheets(text: str) -> list[tuple[str | None, str]]:
