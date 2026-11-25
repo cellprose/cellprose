@@ -6,7 +6,7 @@ Thin adapters that put Cellprose where people already load spreadsheets. Each is
 | Package | What it does |
 |---|---|
 | [`markitdown-cellprose`](markitdown-cellprose/) | MarkItDown plugin: `markitdown --use-plugins book.xlsx` writes Cellprose instead of plain tables |
-| [`langchain-cellprose`](langchain-cellprose/) | `CellproseLoader`, a LangChain document loader (whole workbook or one Document per sheet) |
+| [`langchain-cellprose`](langchain-cellprose/) | `CellproseLoader`, a LangChain document loader (whole workbook or one Document per sheet), and `CellproseSplitter`, which splits by sheet or region and keeps formulas with their tables |
 | [`llama-index-readers-cellprose`](llama-index-readers-cellprose/) | `CellproseReader`, a LlamaIndex reader that also plugs into `SimpleDirectoryReader` |
 
 All three default to `recalc="never"`, so they never start LibreOffice; formulas without cached values print as `?`.
