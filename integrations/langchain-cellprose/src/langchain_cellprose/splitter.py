@@ -171,7 +171,7 @@ class CellproseSplitter(BaseDocumentTransformer):
         used = "\n".join(ln for b in blocks if b.kind in ("formulas", "cells", "arrays", "validation")
                          for ln in b.lines)
         lines = []
-        for line, (scope, name, target) in zip(p.names.lines, names_in(p.names)):
+        for line, scope, name, target in names_in(p.names):
             if scope is not None and scope != sheet.name:
                 continue
             box = target_box(target)

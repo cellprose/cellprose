@@ -147,7 +147,7 @@ def parse(text: str) -> Parsed:
             prev_kind = ""
         elif region is not None and (line.startswith(("#|", "|#|")) or
                                      (region.table and (line.startswith(("|", "-|", "…|"))
-                                                        or row_number(line) is not None))):
+                                                        or (row_number(line) is not None and "|" in line)))):
             region.table.append(line)
         elif line.startswith(LEGEND_PREFIX) and sheet is None and not in_names:
             legend = line
@@ -155,15 +155,15 @@ def parse(text: str) -> Parsed:
     return out
 
 
-def names_in(block: Block | None) -> list[tuple[str | None, str, str]]:
-    """(scope sheet or None, name, target) for each line of a `names` block."""
+def names_in(block: Block | None) -> list[tuple[str, str | None, str, str]]:
+    """(line, scope sheet or None, name, target) for each `Name = target` line of a `names` block."""
     found = []
     for line in block.lines if block else []:
         left, sep, target = line.partition(" = ")
         if not sep:
             continue
         scope, bang, name = left.rpartition("!")
-        found.append((scope.strip("'") if bang else None, name, target))
+        found.append((line, scope.strip("'") if bang else None, name, target))
     return found
 
 

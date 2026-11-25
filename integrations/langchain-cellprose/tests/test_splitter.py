@@ -136,3 +136,16 @@ def test_bad_options():
         CellproseSplitter(by="row")
     with pytest.raises(ValueError):
         CellproseSplitter(chunk_size=0)
+
+
+def test_names_block_with_an_odd_line_keeps_names_aligned():
+    text = ("---\ncellprose: 0.3\n---\n\n# Sheet: A\n\n## A1:B1\n\n#|A|B\n-|-|-\n1|x|1\n\n```formulas\nB1 = Rate*2\n```\n\n"
+            "# Names\n\n```names\nnot a name line\nRate = A!$B$1\nOther = A!$Z$9\n```\n")
+    first = CellproseSplitter().split_chunks(text)[0].text
+    assert "Rate = A!$B$1" in first and "Other" not in first and "not a name line" not in first
+
+
+def test_prose_starting_with_a_digit_is_not_a_table_row():
+    text = ("---\ncellprose: 0.3\n---\n\n# Sheet: A\n\n## A1:B1\n\n#|A|B\n-|-|-\n1|x|1\n\n3\n")
+    (chunk,) = CellproseSplitter().split_chunks(text)
+    assert chunk.text.rstrip().endswith("1|x|1")
