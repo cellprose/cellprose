@@ -20,7 +20,12 @@ def test_sheet_mode(book):
     for d in docs:
         assert d.page_content.startswith("---\ncellprose: 0.3")
     assert "# Sheet: Plan" in docs[0].page_content and "Q#2" not in docs[0].page_content
-    assert docs[-1].page_content.split("---\n")[-1].lstrip().startswith("# Names")
+    assert "\n# Names" in docs[-1].page_content
+
+
+def test_sheet_mode_keeps_the_row_number_legend(book):
+    for d in CellproseLoader(book, mode="sheet").load():
+        assert "Note: the first field of each table row is its row number" in d.page_content
 
 
 def test_reads_sheet_md(tmp_path, book):

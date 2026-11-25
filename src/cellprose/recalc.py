@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import os
 import shutil
+import signal
 import subprocess
 import tempfile
 from pathlib import Path
@@ -17,18 +18,42 @@ def soffice() -> str | None:
     return mac if os.path.exists(mac) else None
 
 
+def _run(cmd: list[str], timeout: int) -> None:
+    """subprocess.run, but a timeout also kills what `soffice` launched (soffice.bin), not just the launcher."""
+    posix = os.name == "posix"
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, start_new_session=posix)
+    try:
+        proc.communicate(timeout=timeout)
+    except BaseException:
+        if posix:
+            try:
+                os.killpg(proc.pid, signal.SIGKILL)
+            except ProcessLookupError:
+                pass
+        else:
+            proc.kill()
+        proc.wait()
+        raise
+    if proc.returncode:
+        raise subprocess.CalledProcessError(proc.returncode, cmd)
+
+
+def discard(copy: str | Path) -> None:
+    """Delete a copy made by recalc_copy, with the temp folder it lives in."""
+    shutil.rmtree(Path(copy).parent, ignore_errors=True)
+
+
 def recalc_copy(path: str | Path, timeout: int = 300) -> Path:
     """Return the path of a recalculated copy in a temp folder. Raises RuntimeError if LibreOffice is missing."""
     exe = soffice()
     if not exe:
         raise RuntimeError("LibreOffice (soffice) not found; install it to compute formula values")
-    path = Path(path)
+    path = Path(path).resolve()         # absolute, so a file name starting with "-" is not read as an option
     out = Path(tempfile.mkdtemp(prefix="cellprose-"))
     profile = out / "profile"  # private profile: works even while the user has LibreOffice open
     try:
-        subprocess.run([exe, f"-env:UserInstallation={profile.as_uri()}", "--headless", "--calc",
-                        "--convert-to", "xlsx", "--outdir", str(out), str(path)],
-                       check=True, capture_output=True, timeout=timeout)
+        _run([exe, f"-env:UserInstallation={profile.as_uri()}", "--headless", "--calc",
+              "--convert-to", "xlsx", "--outdir", str(out), str(path)], timeout)
         result = out / (path.stem + ".xlsx")
         if not result.exists():
             raise RuntimeError(f"LibreOffice did not produce {result.name}")

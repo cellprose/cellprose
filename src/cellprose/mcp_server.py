@@ -14,6 +14,8 @@ import openpyxl
 from openpyxl.utils import range_boundaries
 
 from . import dumps
+from .recalc import discard
+from ._sparse import iter_cells
 from .writer import detect_regions, is_formula_cell, load_pair, needs_recalc
 
 import functools
@@ -97,7 +99,7 @@ def _split_ref(ref: str, sheets: list[str]) -> tuple[str, str]:
 
 def _values(path: Path) -> dict[str, Any]:
     _, vwb = load_pair(path)
-    return {f"{ws.title}!{c.coordinate}": c.value for ws in vwb.worksheets for row in ws.iter_rows() for c in row
+    return {f"{ws.title}!{c.coordinate}": c.value for ws in vwb.worksheets for c in iter_cells(ws)
             if c.value is not None}
 
 
@@ -120,7 +122,7 @@ def list_sheets(path: str) -> str:
     lines = [f"{p.name}: {len(fwb.worksheets)} sheet(s)"]
     for ws in fwb.worksheets:
         regions, loose = detect_regions(ws)
-        formulas = sum(1 for row in ws.iter_rows() for c in row if is_formula_cell(c))
+        formulas = sum(1 for c in iter_cells(ws) if is_formula_cell(c))
         approx = len(dumps(p, sheets=[ws.title], recalc="never")) // 4
         state = "" if ws.sheet_state == "visible" else f" [{ws.sheet_state}]"
         blocks = ", ".join(f"{openpyxl.utils.get_column_letter(c1)}{r1}:{openpyxl.utils.get_column_letter(c2)}{r2}"
@@ -220,8 +222,8 @@ def whatif(path: str, cell: str, value: Any = None, factor: float | None = None)
     return tools.whatif(_resolve(path), cell, value, factor, timeout=timeout)
 
 
-@server.tool(annotations=ToolAnnotations(readOnlyHint=False, destructiveHint=False, idempotentHint=False,
-                                         openWorldHint=False))
+@server.tool(annotations=ToolAnnotations(readOnlyHint=False, destructiveHint=True, idempotentHint=False,
+                                         openWorldHint=False))     # overwrite=true replaces the original file
 @_user_errors
 def write_cells(path: str, edits: list[dict[str, Any]], output_path: str | None = None,
                 overwrite: bool = False) -> str:
@@ -238,13 +240,19 @@ def write_cells(path: str, edits: list[dict[str, Any]], output_path: str | None 
         raise ValueError("Use either output_path or overwrite, not both")
     dst = src if overwrite else _resolve(output_path, must_exist=False) if output_path else \
         src.with_name(f"{src.stem}.edited{src.suffix}")
+    if dst.suffix.lower() != src.suffix.lower():
+        raise ValueError(f"The output must stay a {src.suffix} file, like the original (macros and formats differ by container)")
     if not edits:
         raise ValueError("edits is empty")
 
     before_path = src
     if needs_recalc(src):
         before_path, _ = _computed(src)
-    before = _values(before_path)
+    try:
+        before = _values(before_path)
+    finally:
+        if before_path != src:
+            discard(before_path)
 
     wb = openpyxl.load_workbook(src, keep_vba=src.suffix.lower() == ".xlsm")
     sheets = wb.sheetnames
@@ -264,7 +272,10 @@ def write_cells(path: str, edits: list[dict[str, Any]], output_path: str | None 
         lines.append("LibreOffice is not installed, so formulas were not recalculated; "
                      "open and save the file in Excel to see the effects.")
         return "\n".join(lines)
-    after = _values(after_path)
+    try:
+        after = _values(after_path)
+    finally:
+        discard(after_path)
     edited = {_split_ref(str(e["cell"]), sheets)[0] + "!" + _split_ref(str(e["cell"]), sheets)[1] for e in edits}
     changed = []
     for k in sorted(set(before) | set(after)):

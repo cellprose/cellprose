@@ -19,3 +19,9 @@ def test_sheet_mode(book):
 def test_simple_directory_reader(book):
     docs = SimpleDirectoryReader(input_files=[str(book)], file_extractor={".xlsx": CellproseReader()}).load_data()
     assert len(docs) == 1 and "# Sheet: Plan" in docs[0].text
+
+
+def test_sheet_mode_keeps_the_row_number_legend(book):
+    from llama_index.readers.cellprose import CellproseReader
+    for d in CellproseReader(mode="sheet").load_data(book):
+        assert "Note: the first field of each table row is its row number" in d.text

@@ -13,9 +13,15 @@ EXT = ".sheet.md"  # the default sidecar extension
 ALT_EXT = ".cellprose.md"  # equally supported; used when a repository already keeps its sidecars under it
 DRIVER = "cellprose"
 ATTRIBUTES_LINE = f"*.xlsx diff={DRIVER}"
+ATTRIBUTES_LINES = (ATTRIBUTES_LINE, f"*.xlsm diff={DRIVER}")
 HOOK_MARK = "# cellprose pre-commit hook"
+# A commit made where `cellprose` is not on PATH (a GUI client, another virtualenv) must not be blocked for every file.
 HOOK_BODY = f"""{HOOK_MARK}
-cellprose pre-commit || exit 1
+if command -v cellprose >/dev/null 2>&1; then
+  cellprose pre-commit || exit 1
+else
+  echo "cellprose: not on PATH, so no .sheet.md sidecar was updated" >&2
+fi
 """
 
 
@@ -91,9 +97,10 @@ def setup(cwd: Path | None = None, hook: bool = True) -> list[str]:
     done.append(f"git config diff.{DRIVER}.textconv")
     attrs = root / ".gitattributes"
     lines = attrs.read_text(encoding="utf-8").splitlines() if attrs.exists() else []
-    if ATTRIBUTES_LINE not in lines:
-        attrs.write_text("\n".join([*lines, ATTRIBUTES_LINE]) + "\n", encoding="utf-8")
-        done.append(f".gitattributes: {ATTRIBUTES_LINE}")
+    missing = [line for line in ATTRIBUTES_LINES if line not in lines]
+    if missing:
+        attrs.write_text("\n".join([*lines, *missing]) + "\n", encoding="utf-8")
+        done.append(f".gitattributes: {', '.join(missing)}")
     if hook:
         hooks = Path(_git("rev-parse", "--git-path", "hooks", cwd=root).strip())
         hooks = hooks if hooks.is_absolute() else root / hooks

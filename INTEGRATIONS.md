@@ -5,7 +5,7 @@ Cellprose ships three things agents can use today:
 | Piece | What it gives an agent | Where |
 | --- | --- | --- |
 | `cellprose` CLI and Python library | Convert any .xlsx/.xlsm to Cellprose text | `src/cellprose/` |
-| MCP server (`cellprose-mcp`) | Tools: `index_workbook`, `read_ranges`, `find_cells`, `trace_cell`, `whatif` (the kit the benchmark measured), plus `list_sheets`, `read_workbook`, `outline_workbook`, `write_cells` | `src/cellprose/mcp_server.py` |
+| MCP server (`cellprose-mcp`, or `cellprose mcp`) | Tools: `index_workbook`, `read_ranges`, `find_cells`, `trace_cell`, `whatif` (the kit the benchmark measured), plus `list_sheets`, `read_workbook`, `outline_workbook`, `write_cells` | `src/cellprose/mcp_server.py` |
 | Agent skill | Teaches a model to read the format, and bundles a converter script | `skills/cellprose/` |
 
 ## Install
@@ -48,7 +48,7 @@ claude mcp add cellprose -e CELLPROSE_ROOT="$HOME/work" -- cellprose-mcp
 }
 ```
 
-`CELLPROSE_ROOT` is optional. When set, the server only touches files inside that folder.
+`cellprose mcp` is the same server as `cellprose-mcp` (it is what `uvx --with "mcp>=1.2" cellprose mcp` runs). `CELLPROSE_ROOT` is optional. When set, the server only touches files inside that folder; when it is not set, the server can read and write any .xlsx/.xlsm the user can, so set it when the agent reads files you did not write.
 
 | Tool | Read-only | What it does |
 | --- | --- | --- |
@@ -83,7 +83,7 @@ The skill triggers on spreadsheet tasks, explains how to read the format, and ru
 After changing `src/cellprose/`, refresh the vendored copy:
 
 ```bash
-cp src/cellprose/{__init__,reader,writer,recalc,cli,gitflow,tools}.py skills/cellprose/scripts/_vendor/cellprose/
+cp src/cellprose/{__init__,_sparse,reader,writer,recalc,cli,gitflow,tools}.py skills/cellprose/scripts/_vendor/cellprose/
 ```
 
 ## Verified

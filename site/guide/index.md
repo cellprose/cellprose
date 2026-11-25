@@ -11,9 +11,9 @@ Every Cellprose file is valid GitHub-Flavored Markdown, so a workbook renders as
 
 ## A1:N5
 
-|#|A|B|C|D|E|F|…
-|-|-|-|-|-|-|-|…
-|2|Bookings|100000|104000|108160|112486|117000|…
+#|A|B|C|D|E|F|…
+-|-|-|-|-|-|-|…
+2|Bookings|100000|104000|108160|112486|117000|…
 
 ```formulas
 C2:E2 = B2*(1+$B$7)
@@ -57,7 +57,7 @@ For agents, there is an MCP server and an agent skill:
 
 ```bash
 pip install "cellprose[mcp]"
-claude mcp add cellprose -- cellprose-mcp
+claude mcp add cellprose -- cellprose-mcp      # or: cellprose mcp
 ```
 
 Or try it without installing anything: the [playground](/playground) converts an `.xlsx` in your browser.
